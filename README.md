@@ -1,3 +1,6 @@
+# File naming
+All files and folders should be named using lowercase letters, spaces and any special characters should be replaced by "-".
+
 # General file structure
 Root directory contains index.md. This is the landing page for this product's docs.
 Root direcotry also contains TOC.md. This file dictates the order of root categories.
@@ -12,10 +15,10 @@ You can nest multiple categories, up to 4 levels.
 # Article formatting
 You can add any metadata you need in header block of every MD file.
 
-Example:
----
-title: Quick Start Guide
-author: Some Person
-date: 21/2/2017
----
+Example:  
+    ---  
+    title: Quick Start Guide  
+    author: Some Person  
+    date: 21/2/2017  
+    ---  
 
