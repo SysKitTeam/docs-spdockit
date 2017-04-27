@@ -5,12 +5,11 @@ title: User Permissions Requirements
 
 To run SPDocKit and to retrieve all SharePoint settings you want to document, the user running the application and SPDocKit service account needs to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
 
-1. Local Administrators and WSS_ADMIN_WPG group on every machine in the SharePoint farm. Required to retrieve list of installed applications on farm servers.
-1. SharePoint Farm administrator. Required to retrieve SharePoint farm settings.
-1. Member of SharePoint_Shell_Access role on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
-1. Special privileges for the Service Account: Service account needs to have privileges listed above along and Log on as a Service right.
-Click here for instructions on how to configure that right.
-1. Server specific requirements needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL Server configuration information for DB servers.
+1. __Local Administrators__ and __WSS_ADMIN_WPG group member__ on every machine in the SharePoint farm. Required to retrieve list of installed applications on farm servers.
+1. __SharePoint Farm administrator__. Required to retrieve SharePoint farm settings.
+1. __Member of SharePoint_Shell_Access role__ on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
+1. Special privileges for the __Service Account__: Service account needs to have privileges listed above along and Log on as a Service right. [Click here for instructions]() on how to configure that right.
+1. [Server specific requirements]() needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL Server configuration information for DB servers.
 
 
 ### Instructions
@@ -18,31 +17,32 @@ Click here for instructions on how to configure that right.
 Here is how you can give a user these privileges:
 
 1. To add user account to the __Local Administrators__ group (repeat the same steps for __WSS_ADMIN_WPG__):
-  * On the server, click Start, right-click Computer, and then click Manage.
+  * On the server, click Start, right-click Computer, and then click __Manage__.
   * Navigate to Configuration, expand __Local Users and Group__ and then click Groups.
-  * Right-click the Administrators group, and then click Add to Group.
-  * In the Administrators Properties dialog box, click Add.
-  * In the Select User, Computers, or Groups dialog box, in the Enter the object names to select box, type the account name on which you want your worker process to run (for example, <Domain>\YourAccount), and then click OK.
+  * Right-click the Administrators group, and then click __Add to Group__.
+  * In the Administrators Properties dialog box, click __Add__.
+  * In the Select User, Computers, or Groups dialog box, in the Enter the object names to select box, type the account name on which you want your worker process to run (for example, __Domain\YourAccount__), and then click OK.
   * In the Administrators dialog box, click OK.
   * Close the Server Manager screen.
-1. To add user account to SharePoint Farm Administrators group:
-  * Open SharePoint Central Administration.
+1. To add user account to __SharePoint Farm Administrators__ group:
+  * Open SharePoint __Central Administration__.
   * Navigate to Security > Manage the farm administrators group.
-  * Use the New button to add users to this group.
-1. To add user account to SharePoint_Shell_Access role:
+  * Use the __New__ button to add users to this group.
+1. To add user account to __SharePoint_Shell_Access role__:
   * Open SharePoint Management Shell.
-  * Type the following PowerShell command: Add-SPShellAdmin -UserName DOMAIN\YourAccount (click here to learn more).
-  * If you want to grant PowerShell, shell access to a single database check this article for more details.
-  * If you want to grant PowerShell shell access to all content databases run this script (download Configure-SPShellAdmin.ps1):
-Please note:
-The cmdlet Add-SPShellAdmin is going to apply to all the current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
-The cmdlet might fail in some environments; please contact us for further assistance.
+  * Type the following PowerShell command: `<Add-SPShellAdmin -UserName DOMAIN\YourAccount>` (click here to learn more).
+  * If you want to grant PowerShell, shell access to a single database [check this article]() for more details.
+  * If you want to grant PowerShell shell access to all content databases run this script [download Configure-SPShellAdmin.ps1]():
 
-     if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)
-     {Add-PSSnapin Microsoft.SharePoint.PowerShell;}
-     cls
-     $username = Read-Host "Enter username";
-     Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database $_.Id}
+    > if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)
+    >{Add-PSSnapin Microsoft.SharePoint.PowerShell;}
+    > cls
+    >$username = Read-Host "Enter username";
+    >Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database $_.Id}
+    
+     Please note:
+   * The cmdlet Add-SPShellAdmin is going to apply to all the current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
+   * The cmdlet might fail in some environments; please contact us for further assistance.
      
 ### SPDocKit database requirements
 
