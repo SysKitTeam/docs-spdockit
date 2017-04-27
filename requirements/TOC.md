@@ -3,5 +3,7 @@ title: Requirements
 slug: requirements
 ---
 
-# [Server load permission requirements](server-load-permission-requirements.md)
-# [Supported SharePoint edition](supported-sharepoint-editions.md)
+# [Supported SharePoint Edition](supported-sharepoint-editions.md)
+# [System Requirements](system-requirements.md)
+# [User Permissions Requirements](user-permissions-requirements.md)
+# [Server Load Permission Requirements](server-load-permission-requirements.md)
