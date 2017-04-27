@@ -38,9 +38,9 @@ From the version 5.2., SPDocKit installed on a workstation also supports connect
 
 ### Running SPDocKit Event Collection Service
 
-From the version 6.2., SPDocKit offers the new installation of __SPDocKit Insights Agent__. It is used for real-time collection and searching of the ULS logs from SharePoint 2010, SharePoint 2013, or SharePoint 2016.
+From the version 7.0, SPDocKit offers the new installation of __SPDocKit Insights Agent__. It is used for real-time collection and searching of the ULS logs from SharePoint 2010, SharePoint 2013, or SharePoint 2016.
 
-SPDocKit Event Collection Service can be installed on any server with Windows Server 2008 or better. It is recommended to install it on a server that is not a part of the SharePoint farm to minimize its impact on the farm.
+SPDocKit Insights Agent can be installed on any server with Windows Server 2008 or better. It is recommended to install it on a server that is not a part of the SharePoint farm to minimize its impact on the farm.
 Please note that we advise you __not to install the SPDocKit Event Collection Service on a server running SharePoint 2010__, as __Microsoft .NET Framework 4.5__ is required.
 
 * Software
