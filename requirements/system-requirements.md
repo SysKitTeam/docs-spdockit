@@ -10,15 +10,15 @@ This article lists the minimum hardware and software requirements for the instal
 * The product needs to be installed (or started) on a **SharePoint 2016, SharePoint 2013 or SharePoint 2010 Server**
    * For SharePoint 2013 & 2010: SharePoint Foundation, Standard and Enterprise are supported.
    * You can install the product on WFE, Application server, Index or any other server in the farm.
-   * User must have proper privileges to run the application.
+   * User must have [proper privileges]() to run the application.
 
 * Software
   * For SharePoint 2016: Windows 2012 R2 or Windows Server 2016
   * For SharePoint 2013: Windows 2012 or Windows 2008 R2
   * For SharePoint 2010: Windows 2012 or Windows 2008 R2
-  * On Windows 2008 you will need to download Windows PowerShell Snap-In 1.0 to fully extract information about IIS Settings
+  * On Windows 2008 you will need to download [Windows PowerShell Snap-In 1.0]() to fully extract information about IIS Settings
   * SQL 2008 or better is supported
-  * Microsoft .NET Framework 3.5 SP1 for SharePoint 2010, Microsoft .NET Framework 4.0 for SharePoint 2013 and SharePoint 2016.
+  * __Microsoft .NET Framework 3.5 SP1__ for SharePoint 2010, __Microsoft .NET Framework 4.0__ for SharePoint 2013 and SharePoint 2016.
 
 * Hardware
   * CPU – any standard server CPU
@@ -27,9 +27,9 @@ This article lists the minimum hardware and software requirements for the instal
   
 ### Running on a workstation
 
-The application can be installed on a workstation with Windows 10, Windows 8 or Windows 7 operating system, but you will not be able to load new SharePoint farm settings, but only connect to an existing SPDocKit database and open already saved farm settings.
+The application can be installed on a workstation with __Windows 10, Windows 8 or Windows 7 operating system__, but you will not be able to load new SharePoint farm settings, but only connect to an existing SPDocKit database and open already saved farm settings.
 
-From the version 5.2., SPDocKit installed on a workstation also supports connecting to any SharePoint 2010, SharePoint 2013, SharePoint 2016 or SharePoint Online site and real-time viewing and management of permissions. 
+From the version 5.2., SPDocKit installed on a workstation also supports connecting to any __SharePoint 2010, SharePoint 2013, SharePoint 2016 or SharePoint Online__ site and real-time viewing and management of permissions. 
 
 * Hardware:
   * CPU – any Windows 7, Windows 8 or Windows 10 capable CPU
@@ -38,10 +38,10 @@ From the version 5.2., SPDocKit installed on a workstation also supports connect
 
 ### Running SPDocKit Event Collection Service
 
-From the version 6.2., SPDocKit offers the new installation of SPDocKit Event Collection Service. It is used for real-time collection and searching of the ULS logs from SharePoint 2010, SharePoint 2013, or SharePoint 2016.
+From the version 6.2., SPDocKit offers the new installation of __SPDocKit Insights Agent__. It is used for real-time collection and searching of the ULS logs from SharePoint 2010, SharePoint 2013, or SharePoint 2016.
 
 SPDocKit Event Collection Service can be installed on any server with Windows Server 2008 or better. It is recommended to install it on a server that is not a part of the SharePoint farm to minimize its impact on the farm.
-Please note that we advise you not to install the SPDocKit Event Collection Service on a server running SharePoint 2010, as .net 4.5 is required.
+Please note that we advise you __not to install the SPDocKit Event Collection Service on a server running SharePoint 2010__, as __Microsoft .NET Framework 4.5__ is required.
 
 * Software
   * Windows Server 2008 or better
@@ -56,7 +56,10 @@ Please note that we advise you not to install the SPDocKit Event Collection Serv
 
 ### Learn more
 
-[Installation Guide] ()
+[Installation Guide]()
+
 [How to create Farm Documentation]()
+
 [How to compare SharePoint Farms]()
+
 [How to configure Automatic Snapshots]()
