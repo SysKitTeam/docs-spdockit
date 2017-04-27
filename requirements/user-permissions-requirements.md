@@ -12,7 +12,7 @@ To run SPDocKit and to retrieve all SharePoint settings you want to document, th
 1. [Server specific requirements]() needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL Server configuration information for DB servers.
 
 
-Here is how you can give a user these privileges:
+Here is how you can give user these privileges:
 #### To add user account to the __Local Administrators__ group (repeat the same steps for __WSS_ADMIN_WPG__):
   * On the server, click Start, right-click Computer, and then click __Manage__.
   * Navigate to Configuration, expand __Local Users and Group__ and then click Groups.
