@@ -12,11 +12,9 @@ To run SPDocKit and to retrieve all SharePoint settings you want to document, th
 1. [Server specific requirements]() needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL Server configuration information for DB servers.
 
 
-### Instructions
-
 Here is how you can give a user these privileges:
 
-1. To add user account to the __Local Administrators__ group (repeat the same steps for __WSS_ADMIN_WPG__):
+#### To add user account to the __Local Administrators__ group (repeat the same steps for __WSS_ADMIN_WPG__):####
   * On the server, click Start, right-click Computer, and then click __Manage__.
   * Navigate to Configuration, expand __Local Users and Group__ and then click Groups.
   * Right-click the Administrators group, and then click __Add to Group__.
@@ -24,11 +22,11 @@ Here is how you can give a user these privileges:
   * In the Select User, Computers, or Groups dialog box, in the Enter the object names to select box, type the account name on which you want your worker process to run (for example, __Domain\YourAccount__), and then click OK.
   * In the Administrators dialog box, click OK.
   * Close the Server Manager screen.
-1. To add user account to __SharePoint Farm Administrators__ group:
+#### To add user account to __SharePoint Farm Administrators__ group:####
   * Open SharePoint __Central Administration__.
   * Navigate to Security > Manage the farm administrators group.
   * Use the __New__ button to add users to this group.
-1. To add user account to __SharePoint_Shell_Access role__:
+#### To add user account to __SharePoint_Shell_Access role__:####
   * Open SharePoint Management Shell.
   * Type the following PowerShell command: `<Add-SPShellAdmin -UserName DOMAIN\YourAccount>` (click here to learn more).
   * If you want to grant PowerShell, shell access to a single database [check this article]() for more details.
