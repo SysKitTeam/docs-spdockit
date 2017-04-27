@@ -46,22 +46,22 @@ Here is how you can give a user these privileges:
      
 ### SPDocKit database requirements
 
-Creating a new database
+#### Creating a new database
 
-To be able to create a new SPDocKit dedicated database, user account running the installation and configuration wizard (i.e. install account) should be granted both dbcreator and securityadmin role on the preferred SQL Server. This allows the account to create a new database and to assign proper privileges after creation. The install account will be automatically given db_owner privileges on the newly created database if possible. Otherwise, it is advised that the account is given that privilege manually, as it is needed for upgrading the database.
+To be able to create a new SPDocKit dedicated database, user account running the installation and configuration wizard (i.e. install account) should be granted both __dbcreator__ and __securityadmin__ role on the preferred SQL Server. This allows the account to create a new database and to assign proper privileges after creation. The install account will be automatically given db_owner privileges on the newly created database if possible. Otherwise, it is advised that the account is given that privilege manually, as it is needed for upgrading the database.
 
-Privileges required to run the application
+#### Privileges required to run the application
 
 These privileges will be granted automatically when a new SPDocKit database is created or during database upgrade.
 
-SPDocKit service account needs to be granted SPDocKit_service_role role on the SPDocKit database. This role will make service account member of db_datawriter and db_datareader role and grant execute permissions on all the stored procedures in the database.
-The account running load from the SPDocKit console needs to have the same privileges as the SPDocKit service account (see above).
+* SPDocKit service account needs to be granted __SPDocKit_service_role__ role on the SPDocKit database. This role will make service account member of __db_datawriter__ and __db_datareader__ role and grant __EXECUTE__ permissions on all the stored procedures in the database.
+ * The account running load from the SPDocKit console needs to have the same privileges as the SPDocKit service account (see above).
 
 ### Workstation Requirements
 
-When running the application on a workstation, SPDocKit user connecting to any SharePoint 2010, SharePoint 2013, SharePoint 2016 or SharePoint Online site will need to be granted Site Collection Administrator privileges for each site he is trying to explore and manage.
+When running the application on a workstation, SPDocKit user connecting to any SharePoint 2010, SharePoint 2013, SharePoint 2016 or SharePoint Online site will need to be granted __Site Collection Administrator__ privileges for each site he is trying to explore and manage.
 
-To connect to an existing SPDocKit database from the workstation, SPDocKit user will need to be granted db_datareader rights on SPDocKit database.
+To connect to an existing SPDocKit database from the workstation, SPDocKit user will need to be granted __db_datareader__ rights on SPDocKit database.
 
 Error Message
 
