@@ -26,6 +26,14 @@ Example:
     date: 21/2/2017  
     ---  
 
+## Internal links
+Internal links are links to articles within product docs.
+Every internal link should be prefixed with "#internal" eg. 
+    
+    [Online activation](#internal/activation/online-activation)
+
+During build process "#internal" will be replaced with proper product and version slug eg. "/spdockit/v6"
+
 ## Content formatting
 
 Below you will find examples of all content types you can use in articles.
