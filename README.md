@@ -1,3 +1,7 @@
+#Git notes
+Each product has a separate repository. For different versions of a product we use git branches.
+Each branch name must start with v, eg: v6. You can also have versions with decimals, eg. v6.2.
+
 # File naming
 All files and folders should be named using lowercase letters, spaces and any special characters should be replaced by "-".
 
@@ -22,3 +26,58 @@ Example:
     date: 21/2/2017  
     ---  
 
+## Content formatting
+
+Below you will find examples of all content types you can use in articles.
+Currently you can preview how they look here http://acceleratio.uxpassion.co/spdockit/v6/quick-start-guide/
+
+
+## Regular paragraph
+
+To run [SPDocKit](https://spdockit.com) and to retrieve all SharePoint settings you want to document, the user running the application and SPDocKit service account needs to have proper privileges.
+Here is the list of required privileges to load SharePoint farm settings:
+
+## Headlines
+
+# Here is h1
+
+## Here is h2
+
+### Here is h3
+
+#### Here is h4
+
+## Lists
+
+1. To add user account to the Local Administrators group (repeat the same steps for WSS_ADMIN_WPG):
+   * On the server, click __Start__, right-click __Computer__, and then click __Manage__.
+   * Navigate to _Configuration_, expand _Local Users_ and Groups and then click Groups.
+
+2. To add user account to SharePoint Farm Administrators group:
+   * Open SharePoint Central Administration.
+   * Navigate to Security > Manage the farm administrators group.
+
+## Code blocks
+
+    if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)
+    {Add-PSSnapin Microsoft.SharePoint.PowerShell;}
+    cls
+    $username = Read-Host "Enter username";
+    Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database $_.Id}
+
+## Blockquotes
+
+> Error occurred while loading server ‘ServerName’.
+
+## Images
+
+![Mandatory alt text](https://www.spdockit.com/wp-content/uploads/2016/02/SPDocKit6-Destination-Folder.png "Optional image title")
+
+
+## Tables
+
+Tables        | Are           | Cool  
+------------- |:-------------:| -----:
+col 3 is      | right-aligned | $1600 
+col 2 is      | centered      |   $12 
+zebra stripes | are neat      |    $1 
