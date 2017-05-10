@@ -3,4 +3,4 @@ layout: landing.pug
 title: SPDockit documentation - Welcome
 ---
 
-# Docs landing page
+Here you can enter intro text for this product's landing page
