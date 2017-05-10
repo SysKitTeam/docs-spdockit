@@ -3,7 +3,7 @@ title: Table of Contents
 ---
 
 # [Requirements](requirements.md)
-Here is requirements description
+Make sure that your system and account running the application meet SPDocKit requirements.
 # [Installation](installation.md)
 Here is requirements description
 # [Activationn](activation.md)
