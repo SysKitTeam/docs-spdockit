@@ -5,9 +5,9 @@ title: Table of Contents
 # [Requirements](requirements.md)
 Make sure that your system and account running the application meet SPDocKit requirements.
 # [Installation](installation.md)
-Here is requirements description
+Learn how to install SPDocKit or update it to the latest version.
 # [Activationn](activation.md)
-Here is requirements description
+Activate your fully featured version and explore all amazing reports.
 # [Configuration](configuration.md)
 Here is configuration description
 # [Get to Know SpDocKit](get-to-know-spdockit.md)
