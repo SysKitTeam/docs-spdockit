@@ -3,18 +3,18 @@ title: Table of Contents
 ---
 
 # [Requirements](requirements.md)
-Make sure that your system and account running the application meet SPDocKit requirements.
+Make sure that your environment and account running the application meet SPDocKit requirements.
 # [Installation](installation.md)
 Learn how to install SPDocKit or update it to the latest version.
-# [Activationn](activation.md)
-Activate your fully featured version and explore all amazing reports.
+# [Activation](activation.md)
+Activate your fully featured version and explore all the amazing reports.
 # [Configuration](configuration.md)
-Here is configuration description
+Explore all possible configuration scenarios and choose a proper one for your environment.
 # [Get to Know SpDocKit](get-to-know-spdockit.md)
-Here is get to know description
+Get a quick overview of what SPDocKit has to offer and learn more. 
 # [Permission Management](permission-management.md)
-Here is permission description
+Permissions Management has never been easier using SPDocKit actions and wizards. Take a look!
 # [How To](how-to.md)
-Here is permission description
+When you get stuck trying to make magic happen, these guides will tell you what is the secret.
 # [Known Issues](known-issues.md)
-Here is permission description
+Even the best of us fail sometimes. We are working on it!
