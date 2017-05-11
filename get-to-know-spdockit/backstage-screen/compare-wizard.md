@@ -9,3 +9,5 @@ Compare Site Collections – compare differences between two site collections or
 Compare SharePoint Permissions – compare SharePoint permissions on a different subsites, lists and list items, or track changes of the subsite permissions through a selected time period.
 Compare Web.config files – verify that web.config files on all of your web front end servers are equal for the same web application. You can also check what are the differences between web.config files on various web applications.
 *Learn more about comparing SharePoint objects by clicking on the preferred feature.
+
+test
