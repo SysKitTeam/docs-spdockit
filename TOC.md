@@ -12,7 +12,7 @@ Learn how to install SPDocKit or update it to the latest version.
 Activate your fully featured version and explore all the amazing reports. 
 # [Configuration](configuration.md)
 Explore all possible configuration scenarios and choose the right one for your environment and license. 
-# [Get to Know SpDocKit](get-to-know-spdockit.md)
+# [Get to Know SPDocKit](get-to-know-spdockit.md)
 Dive into a detailed overview of what SPDocKit has to offer. Check out the available report types and feature sets. 
 # [Permission Management](permission-management.md)
 Permissions management has never been easier using SPDocKit actions and wizards. Take a look and learn how to use them! 
