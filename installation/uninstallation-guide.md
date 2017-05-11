@@ -1,5 +1,5 @@
 ---
-title: Activation Privacy Statement
+title: Uninstallation Guide
 ---
 
 
