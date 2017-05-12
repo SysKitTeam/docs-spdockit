@@ -1,6 +1,7 @@
 ---
 title: Get to know Spdockit
 slug: get-to-know-spdockit
+private: true
 ---
 
 # Backstage screen

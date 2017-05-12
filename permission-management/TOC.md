@@ -1,6 +1,7 @@
 ---
 title: Permission Management
 slug: permission-management
+private: true
 ---
 
 # [Manage Permissions Ribbon Actions](manage-permissions-ribbon-actions.md)

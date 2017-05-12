@@ -1,6 +1,7 @@
 ---
 title: Requirements
 slug: requirements
+private: true
 ---
 
 # [Supported SharePoint Edition](supported-sharepoint-editions.md)

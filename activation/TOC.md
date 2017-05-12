@@ -1,6 +1,7 @@
 ---
 title: Activation
 slug: activation
+private: true
 ---
 
 # [Activation Privacy Statement](activation-privacy-statement.md)

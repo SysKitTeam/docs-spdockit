@@ -1,6 +1,7 @@
 ---
 title: Installation
 slug: installation
+private: true
 ---
 
 # [Installation Guide](installation-guide.md)
