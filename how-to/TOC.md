@@ -4,4 +4,9 @@ slug: how-to
 private: true
 ---
 
-# [Manage Permissions Ribbon Actions](manage-permissions-ribbon-actions.md)
+# [Best Practices](best-practices.md)
+## [Available Best Practices Reports] (available-best-practices-reports.md)
+##[Create Custom Best Practices Reports](create-custom-best-practices-reports.md)
+##[Personalize Best Practices Reports](personalize-best-practices-reports.md)
+
+
