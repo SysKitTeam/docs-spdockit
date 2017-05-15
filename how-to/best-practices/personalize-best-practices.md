@@ -16,3 +16,4 @@ Click __Customize Best Practices__ on the Best Practices Home ribbon. Deselect t
 Best Practices reports checking some numerical values, like the amount of RAM per server, can be customized as well. Click on the Best Practices report you would like to modify and edit the numerical values on the right to fit your requirements. Please note that if you edit these values, the Best Practice report will display a warning that the default values have been changed.
 
 ![Customize Best Practices Reports](#img/customize-best-practices.png)
+
