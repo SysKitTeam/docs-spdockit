@@ -1,10 +1,12 @@
 ---
-title: Personalize Best Practices
+title: Personalize Best Practices Reports
+slug: personalize-best-practices-reports
 ---
-# Personalize Best Practices
 
 
-### Create a new Best Practices report
+# Personalize Best Practices Reports
+
+### Create a new Best Practices reports
 
 The first option is to create a completely new Best Practices report using the Best Practices wizard.
 
