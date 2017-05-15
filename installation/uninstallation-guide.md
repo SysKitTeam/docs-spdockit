@@ -1,5 +1,6 @@
 ---
 title: Uninstallation Guide
+slug: spdockit-uninstall-guide
 ---
 
 
