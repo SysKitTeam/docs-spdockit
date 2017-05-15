@@ -81,6 +81,10 @@ Here is the list of required privileges to load SharePoint farm settings:
 
 ![Mandatory alt text](https://www.spdockit.com/wp-content/uploads/2016/02/SPDocKit6-Destination-Folder.png "Optional image title")
 
+You can also add images to the repository and link to them. Put images inside _assets directory. To add image to an article #img prefix is needed, eg.
+
+    ![Mandatory alt text](#img/SPDocKit6-Destination-Folder.png "Optional image title")
+
 
 ## Tables
 

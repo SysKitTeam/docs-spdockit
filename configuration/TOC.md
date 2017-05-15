@@ -1,6 +1,7 @@
 ---
 title: Configuration
 slug: configuration
+private: true
 ---
 
 # [Configure SPDocKit](configure-spdockit.md)
