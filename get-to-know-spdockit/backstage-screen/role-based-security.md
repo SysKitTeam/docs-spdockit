@@ -17,7 +17,7 @@ Please note that the first person who activates the RBS (role based security) wi
 ## Viewer role
 The Viewer role is predefined, along with the Admin role. This is a read-only role, and some the reports are unavailable due to security reasons.
 
-__Please note!__ With the Viewer role, you cannot see certain reports, like the Web.config files, Storage Metrics, All Farm Users, Users With Privileged Access, and the entire Passwords and Product Keys section in the Farm Explorer. You also cannot create a new view for a report.
+__Please note!__ With the Viewer role, you cannot see certain reports, like the Web.config files, Storage Metrics, All Farm Users, Users with Privileged Access, and the entire Passwords and Product Keys section in the Farm Explorer. You also cannot create a new view for a report.
 
 ### Learn more
 * [How to: Manage Roles](#internal/how-to/role-based-security/manage-roles/)
