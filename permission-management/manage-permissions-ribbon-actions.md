@@ -1,3 +1,3 @@
 ---
-title: Manage permissions ribbon
+title: Manage Permissions Ribbon Actions
 ---

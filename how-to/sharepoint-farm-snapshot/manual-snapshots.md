@@ -1,0 +1,3 @@
+---
+Title: Manual Snapshots
+---
