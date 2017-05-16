@@ -1,3 +1,3 @@
 ---
-Title: Compare SharePoint Permissions
+title: Compare SharePoint Permissions
 ---

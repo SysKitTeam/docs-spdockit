@@ -1,3 +1,3 @@
 ---
-Title: Customize Documentation Template
+title: Customize Documentation Template
 ---

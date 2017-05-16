@@ -1,3 +1,3 @@
 ---
-Title: Compare Site Collections
+title: Compare Site Collections
 ---

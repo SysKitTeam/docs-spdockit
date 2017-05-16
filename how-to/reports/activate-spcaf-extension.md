@@ -1,3 +1,3 @@
 ---
-Title: Activate SPCAF Extensions
+title: Activate SPCAF Extensions
 ---

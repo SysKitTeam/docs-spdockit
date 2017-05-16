@@ -12,7 +12,7 @@ private: true
 ## [Customize Documentation Template](customize-documentation-template.md)
 
 # Compare Wizard
-## [Compare Farms](compare-farms.md)
+## [Compare Farms](compare-sharepoint-farms.md)
 ## [Compare Servers](compare-servers.md)
 ## [Compare Web Applications](compare-web-applications.md)
 ## [Compare Site Collections](compare-site-collections.md)
@@ -26,7 +26,7 @@ private: true
 # Reports
 ## [Customize View](customize-view.md)
 ## [Install SPDocKit Extensions](install-spdockit-extensions.md)
-## [Change the limit on Site topology Report](change-limit-site-toplogoy-report.md)
+## [Change the limit on Site topology Report](change-limit-site-topology-report.md)
 ## [Activate SPCAF Extension](activate-spcaf-extension.md)
 
 # Best Practices

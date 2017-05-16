@@ -13,7 +13,7 @@ private: true
 # [Farm Explorer Screen](farm-explorer-screen.md)
 ## [Project Server](project-server.md)
 ## [Servers in Farm](servers-in-farm.md)
-## [Passwords and Product keys](passwrds-and-product-keys.md)
+## [Passwords and Product keys](passwords-and-product-keys.md)
 ## [Scheduled Tasks](scheduled-tasks.md)
 # [Site Explorer Screen](site-explorer-screen.md)
 # [Permissions Exporer Screen](permissions-explorer-screen.md)

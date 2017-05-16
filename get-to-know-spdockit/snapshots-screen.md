@@ -1,3 +1,3 @@
 ---
-Title: Snapshots Screen
+title: Snapshots Screen
 ---

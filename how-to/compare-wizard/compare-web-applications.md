@@ -1,3 +1,3 @@
 ---
-Title: Compare Web Applications
+title: Compare Web Applications
 ---

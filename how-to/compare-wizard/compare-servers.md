@@ -1,3 +1,3 @@
 ---
-Title: Compare Servers
+title: Compare Servers
 ---

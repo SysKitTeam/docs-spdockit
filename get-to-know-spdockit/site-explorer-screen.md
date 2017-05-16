@@ -1,3 +1,3 @@
 ---
-Title: Site Explorer Screen
+title: Site Explorer Screen
 ---

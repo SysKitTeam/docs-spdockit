@@ -1,3 +1,3 @@
 ---
-Title: Compare SharePoint Farms
+title: Compare SharePoint Farms
 ---

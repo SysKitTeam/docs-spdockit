@@ -1,3 +1,3 @@
 ---
-Title: SPDocKit Insights
+title: SPDocKit Insights
 ---
