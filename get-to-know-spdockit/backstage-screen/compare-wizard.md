@@ -1,13 +1,15 @@
 ---
 title: Compare Wizard
 ---
-Compare Wizard provides a possibility to compare desired SharePoint objects and track farm configuration changes. It is a process of a couple of steps after which you can explore the differences and export the final result.
 
-Compare Farms – compare currently loaded farm to a default SharePoint settings, compare two saved farms or snapshots, use account mappings and other ignore options to advance compare selected farms.
-Compare Web Applications – compare differences between two Web Applications or track changes of the Web Applications settings through a period of time.
-Compare Site Collections – compare differences between two site collections or track changes of desired site collection settings through a period of time.
-Compare SharePoint Permissions – compare SharePoint permissions on a different subsites, lists and list items, or track changes of the subsite permissions through a selected time period.
-Compare Web.config files – verify that web.config files on all of your web front end servers are equal for the same web application. You can also check what are the differences between web.config files on various web applications.
-*Learn more about comparing SharePoint objects by clicking on the preferred feature.
 
-test
+Compare Wizard provides the possibility to track farm configuration changes and compare specific SharePoint elements. With a couple of easy steps you can view the desired differences and export the result.
+
+* [Compare Farms](#internal/how-to/compare-wizard/compare-sharepoint-farms/) – compare farm settings from stored in a snapshot to SharePoint's default settings, or compare two saved snapshots - with various mapping and ignore options, you can easily compare different farms.
+* [Compare Servers](#internal/bla) – compare differences between two servers in your farm or track the changes that were made to a server over time.
+* [Compare Web Applications](#internal/how-to/compare-wizard/compare-web-applications/) – compare differences between two web applications or track how a web application's settings have changed over time.
+* [Compare Site Collections](#internal/how-to/compare-wizard/compare-site-collections/) – compare differences between two site collections or track how a site collection's settings have changed over time.
+* [Compare SharePoint Permissions](#internal/how-to/compare-wizard/compare-site-permissions/) – compare SharePoint permissions on a different subsites, lists, and list items or track changes made to their permissions through a selected time period.
+* [Compare Web.config files](#internal/how-to/compare-wizard/compare-web-config-files/) – verify that web.config files on all of your web front end servers are identical for the same web application. You can also check what the differences are between web.config files on various web applications.
+
+_*Learn more about comparing SharePoint objects by clicking on the preferred feature._
