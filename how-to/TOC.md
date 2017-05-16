@@ -3,15 +3,31 @@ title: How To
 slug: how-to
 private: true
 ---
-#SharePoint Farm Snapshot
-##[Manual Snapshots](manual-snapshots.md)
-##[Automatic Snapshots](automatic-snapshots.md)
+# SharePoint Farm Snapshot
+## [Manual Snapshots](manual-snapshots.md)
+## [Automatic Snapshots](automatic-snapshots.md)
+
+# Farm Documentation
+## [Create Farm Documentation](create-farm-documentation.md)
+## [Customize Documentation Template](customize-documentation-template.md)
+
+# Compare Wizard
+## [Compare Farms](compare-farms.md)
+## [Compare Servers](compare-servers.md)
+## [Compare Web Applications](compare-web-applications.md)
+## [Compare Site Collections](compare-site-collections.md)
+## [Compare SharePoint Permissions](compare-sharepoint-permissions.md)
+## [Compare Web.Config Files](compare-web-config-files.md)
+
+# Subscriptions and Alerts
+## [Create New Subscription](create-new-subscription.md)
+## [Create New Alert](create-new-alert.md)
 
 # Reports
 ## [Customize View](customize-view.md)
 ## [Install SPDocKit Extensions](install-spdockit-extensions.md)
 ## [Change the limit on Site topology Report](change-limit-site-toplogoy-report.md)
-
+## [Activate SPCAF Extension](activate-spcaf-extension.md)
 
 # Best Practices
 ## [Available Best Practices Reports](available-best-practices-reports.md)
