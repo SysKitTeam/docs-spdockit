@@ -1,5 +1,5 @@
 ---
-title: Cannot create a subscription for the Storage Metrics Report
+title: Storage Metrics report subscription
 description: This article describes a known issue related to Stroage Metrics subscriptions.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Permissions wizard issue
+title: Permissions Wizard issue
 description: This article describes the issue appearing in Permissions wizards.
 ---
 

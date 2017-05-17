@@ -1,5 +1,5 @@
 ---
-Title: Read list of available Windows updates
+Title: Available Windows updates
 description: This article describe show to handle issue when SPDocKit is unable to read list of available Windows updates.
 ---
 
