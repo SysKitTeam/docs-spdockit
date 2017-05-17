@@ -18,7 +18,7 @@ To prepare a template for your documentation, you need to prepare a Word documen
 1.  Start SPDocKit.
 1.  In the Home ribbon, click __Change Styles__.
 1.  Select __Upload a Custom Template__. Click Next to continue.
-1.  Browse your Word template (dotx) and choose the table style you want to use when generating tables (we recommend you use Medium Shading 1 – Accent 1  with our template).
+1.  Browse your Word template (dotx) and choose the table style you want to use when generating tables (we recommend you use __Medium Shading 1 – Accent 1__ with [our template](https://www.spdockit.com/wp-content/uploads/2015/08/SharePoint-Farm-Documentation-Template.dotx)).
 1. Click Finish to save.
 
 ### Customizing Styles
