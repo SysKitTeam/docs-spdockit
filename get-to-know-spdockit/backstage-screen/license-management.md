@@ -1,5 +1,6 @@
 ---
 title: License Management
+description: This article describes how to use SPDocKit License Management wizard.
 ---
 The License Management dialog allows you to enter the number of SharePoint Standard and Enterprise licenses (CALs) you have purchased. Data provided will be used to generate license compliance and [feature usage reports](#internal/get-to-know-documentation-toolkit/reports-screen/#panel-2). This feature also allows you to define and track custom features licensing and usage.
 
