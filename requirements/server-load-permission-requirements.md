@@ -20,7 +20,7 @@ During the Take Snapshot process SPDocKit will try to retrieve information about
 
 #### What will these granted rights be used for?
 
-1. Adding SPDocKit user accounts to a __Local Administrator__ group on the server is needed for the WMI remote access and to get information about Windows updates. In case that you can’t give that right due to security requirements, see lower what you can grant instead this. The following reports will not be available:
+1. Adding SPDocKit user accounts to the __Local Administrator__ group on the server is needed for WMI remote access and to get information about Windows updates. In case that you can’t give that right due to security requirements, see lower for what you can grant instead this. The following reports will not be available:
   * Farm Explorer -> Servers in Farm -> Processors Info
   * Farm Explorer -> Servers in Farm -> Programs List
   * Farm Explorer -> Servers in Farm -> Available Windows Updates
@@ -29,15 +29,15 @@ During the Take Snapshot process SPDocKit will try to retrieve information about
   * Best Practices -> Hardware Requirements -> Free Disk Space
   * Best Practices -> Hardware Requirements -> RAM
   * Best Practices -> Servers -> Hotfixes per Server Role -> all reports
-2. To retrieve a list of available Windows updates please make sure that Windows Update service is up and running. If the service is disabled or not running the following reports will not be available:
+2. To retrieve a list of available Windows updates please make sure that the Windows Update service is up and running. If the service is disabled or not running the following reports will not be available:
   * Farm Explorer -> Servers in Farm -> Available Windows Updates
   * Best Practices -> Updates -> Servers -> Windows Updates
 
 #### Solution
 
-1. Add your SPDocKit user accounts to a __Local Administrators__ group on the specified server.
-In case that you have a very strict security policy and you cannot add this account to the __Local Administrators__ group you can use this procedure to get most of reports working:
-  * Add your SPDocKit accounts to following local groups: __Backup Operators__ and __Performance Log Users__. This will allow us to remotely execute WMI queries and get information about SQL server.
+1. Add your SPDocKit user accounts to the __Local Administrators__ group on the specified server.
+In case you have a very strict security policy and cannot add this account to the __Local Administrators__ group, you can use this procedure to get most of the reports working:
+  * Add your SPDocKit accounts to the following local groups: __Backup Operators__ and __Performance Log Users__. This will allow us to remotely execute WMI queries and get information about SQL servers.
   * Start __winmgmt.msc__, right click on WMI Control and select Properties.
   * Go to the __Security__ tab and expand Root node. In the expanded list select __cimv2__ and click on the __Security__ button.
   * Click on __Advanced__ button, then click __Add…__ and enter desired user and click OK.
