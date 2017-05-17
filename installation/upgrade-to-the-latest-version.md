@@ -6,7 +6,7 @@ date: 17/5/2017
 
 # Upgrade to the Latest Version
 
-This article explains how to upgrade the SPDocKit to the latest major version. SPDocKit database, saved farms, snapshots and application settings will be conserved in the upgrade process.
+This article explains how to upgrade SPDocKit to the latest major version. SPDocKit database, saved farms, snapshots and application settings will be conserved in the upgrade process.
 
 ## Preparation:
 1. The account running the application should have __db_owner__ privileges on the SPDocKit database to perform the upgrade process successfully. In case that you are also changing the SPDocKit Service account to the different one from the Service account that has been assigned to the previous application version, account running the upgrade should also have the __securityadmin__ role on the preferred SQL Server. This role will allow him to [grant proper privileges to the new Service account](#internal/requirements/user-permission-requirements.md/).
