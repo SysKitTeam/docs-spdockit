@@ -5,8 +5,6 @@ author: Iva Novoselic
 date: 16/5/2017
 ---
 
-# Server Load Permission Requirements
-
 ### Problem
 
 While trying to load SharePoint farm settings with SPDocKit I received:
@@ -15,10 +13,10 @@ While trying to load SharePoint farm settings with SPDocKit I received:
 
 #### Why is this warning occurring?
 
-During the Farm Load process SPDocKit will try to retrieve information about your servers. Please note that the following rights on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practice reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your servers the following rights are necessary:
+During the Take Snapshot process SPDocKit will try to retrieve information about your servers. Please note that the following rights on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practice reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your servers the following rights are necessary:
 
 * __Local Administrator__ on the server
-* Windows Update service up and running
+* __Windows Update service__ up and running
 
 #### What will these granted rights be used for?
 
@@ -31,7 +29,7 @@ During the Farm Load process SPDocKit will try to retrieve information about you
   * Best Practices -> Hardware Requirements -> Free Disk Space
   * Best Practices -> Hardware Requirements -> RAM
   * Best Practices -> Servers -> Hotfixes per Server Role -> all reports
-1. To retrieve a list of available Windows updates please make sure that Windows Update service is up and running. If the service is disabled or not running the following reports will not be available:
+2. To retrieve a list of available Windows updates please make sure that Windows Update service is up and running. If the service is disabled or not running the following reports will not be available:
   * Farm Explorer -> Servers in Farm -> Available Windows Updates
   * Best Practices -> Updates -> Servers -> Windows Updates
 
@@ -39,14 +37,14 @@ During the Farm Load process SPDocKit will try to retrieve information about you
 
 1. Add your SPDocKit user accounts to a __Local Administrators__ group on the specified server.
 In case that you have a very strict security policy and you cannot add this account to the __Local Administrators__ group you can use this procedure to get most of reports working:
-  * Add your SPDocKit accounts to following local groups: Backup Operators and Performance Log Users. This will allow us to remotely execute WMI queries and get information about SQL server.
+  * Add your SPDocKit accounts to following local groups: __Backup Operators__ and __Performance Log Users__. This will allow us to remotely execute WMI queries and get information about SQL server.
   * Start __winmgmt.msc__, right click on WMI Control and select Properties.
   * Go to the __Security__ tab and expand Root node. In the expanded list select __cimv2__ and click on the __Security__ button.
   * Click on __Advanced__ button, then click __Add…__ and enter desired user and click OK.
   * Select option __This namespace and subnamespaces__ in a dropdown list Apply to.
   * Make sure that you select __Enable Account__ and __Remote Enable__ on the __Allow list__ and then click OK four times.
 
-1. Go to Windows Update service and start it in Service Microsoft Management Console.
+2. Go to Windows Update service and start it in Service Microsoft Management Console.
 
 # Additional SQL Server Load Requirements
 
@@ -70,7 +68,7 @@ __Public__ server role is needed to fetch real SQL server name. This right is ne
 * Farm Explorer -> SQL -> SQL Aliases
 * Best Practices -> Databases -> SQL Aliases
 
-__dbcreator__ role and VIEW SERVER STATE permission is necessary in order to load configuration of the SQL server. Following reports will not be available:
+__dbcreator__ role and __VIEW SERVER STATE__ permission is necessary in order to load configuration of the SQL server. Following reports will not be available:
 * Farm Explorer -> SQL -> all reports
 * Best Practices -> Databases -> Database Files
 * Best Practices -> Databases -> Max Degree of Parallelism
@@ -85,11 +83,12 @@ __dbaccess__ permission is necessary in order to load information about the mode
 #### Solution
 
 1. Create a new user on SQL server that will be used for SPDocKit.
-1. Add dbcreator role to your SPDocKit account and execute following T-SQL query:
-USE master
-GO
-GRANT VIEW SERVER STATE TO “DOMAIN\ACCOUNT”
-1. Execute following T-SQL query to add necessary permissions:
-USE model
-GO
-EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
+2. Add __dbcreator__ role to your SPDocKit account and execute following T-SQL query:
+      > USE master  
+      > GO  
+      > GRANT VIEW SERVER STATE TO “DOMAIN\ACCOUNT”
+      
+3. Execute following T-SQL query to add necessary permissions:
+      > USE model  
+      > GO  
+      > EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
