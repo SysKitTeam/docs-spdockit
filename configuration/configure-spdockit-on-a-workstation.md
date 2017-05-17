@@ -14,7 +14,7 @@ To install and configure an SPDocKit instance, follow these instructions:
 
 2. Follow the [Installation Guide](#internal/installation/installation-guide/) to install it on your workstation. Once you have successfully installed the tool, the Configuration Wizard will open.
 
-3. When using SPDocKit on a workstation, there are differences if you are using a database or not.
+3. When using SPDocKit on a workstation, there are differences depending on if you are using a database or not.
     * When using it __without a database__, the features available are as follows:
         * Snapshots (Farm Explorer and Best Practices reports)
         * Live permissions explorer
@@ -22,9 +22,9 @@ To install and configure an SPDocKit instance, follow these instructions:
         * Permissions management for SharePoint Online
     * When using SPDocKit on a workstation __with a database__, you can access:
         * Snapshots (Farm Explorer and Best Practices reports)
-        * All reports except Queries and Rules (Site Explorer, Permissions Reports, Content & Usage reports and Monitoring reports)
+        * All reports (Site Explorer, Permissions Reports, Content & Usage reports and Monitoring reports) except Queries and Rules
         * Live permissions explorer
-        * Permission management for SharePoint On-premise
+        * Permission management for SharePoint On-Premise
         * Permission management for SharePoint Online
 
 4. Select the __Use a database__ check box and choose the __Use existing database__ Click __Next__ to continue.
