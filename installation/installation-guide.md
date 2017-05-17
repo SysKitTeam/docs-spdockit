@@ -10,7 +10,7 @@ This article explains how to install SPDocKit.
 
 __System Requirements:__ The product uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. It needs to be installed on a __SharePoint 2010, SharePoint 2013 or SharePoint 2016__ server to load farm information.
 
-The application can be installed on a workstation with __Windows 7, Windows 8 or Windows 10__ operating system, but you will not be able to load new SharePoint farm settings, but only connect to an existing SPDocKit database and open already saved farm settings. [Read more about required system settings.](#internal/help/requirements/system-requirements.md/)
+The application can be installed on a workstation with __Windows 7, Windows 8 or Windows 10__ operating system, but you will not be able to load new SharePoint farm settings, only connect to an existing SPDocKit database and open already saved snapshots. [Read more about required system settings.](#internal/help/requirements/system-requirements.md/)
 
 1. [Download](https://www.spdockit.com/downloads/) Application.
 2. Unpack and run the __SPDocKitSetup.exe.__ The wizard will guide you through the installation steps, click Next > to proceed.
@@ -20,14 +20,14 @@ The application can be installed on a workstation with __Windows 7, Windows 8 or
     * __Run__ - the application will NOT be installed on your server but rather unpacked to a temporary folder. This is a zero footprint run, the application will not make any changes to your server. Some functions like automatic snapshots will not be available in this mode.
 5. Choose between Default or Advanced installation.
     * __Default__ – program will be installed with default features. That is, only the SPDocKit application.
-    * __Advanced__ – choose which program features you want to install. Available additional features are SPDocKit Collection Service and SPDocKit Event Viewer.
-6. When using Advanced installation mode, select the desired feature using the dropdown menu next to the feature name. If the icon next to the feature is gray, this feature will be installed. If the icon next to the feature name is little red cross, then this feature will not be installed at the end of this process.
+    * __Advanced__ – choose which program features you want to install. The additional available feature are SPDocKit Collection Service and SPDocKit Event Viewer.
+6. When using the Advanced installation mode, select the desired feature using the dropdown menu next to the feature name. If the icon next to the feature is gray, this feature will be installed. If the icon next to the feature name is little red cross, then this feature will not be installed at the end of this process.
     * __The Event Collection Service__ crawls the ULS, Windows Event Logs, SQL Server logs and indexes them. Install this feature on a __server outside of your SharePoint farm__ for minimal impact.
-    * The SPDocKit Event Viewer is used to search and view the events that the Collection Service has indexed. This is a standalone application which can be run without the SPDocKit application. You can install it on any available server, including the one where SPDocKit is installed. [Read more about SPDocKit Event Collection](#internal/get-to-know-spdockit/spdockit-insights.md/).
+    * The SPDocKit Event Viewer is used to search and view the events that the Collection Service has indexed. This is a standalone application which can be run without a SPDocKit application. You can install it on any available server, including the one where SPDocKit is installed. [Read more about SPDocKit Insights](#internal/get-to-know-spdockit/spdockit-insights.md/).
 7. Choose the installation folder e.g. __C:\Program Files\Acceleratio\SPDocKit.__ Click __Next__ > to proceed.
-8. Select the location where to create application shortcuts and preferred availability option (__Anyone__ or __Only me__). Click __Next__ > to proceed.
+8. Select the location where to create application shortcuts and the preferred availability option (__Anyone__ or __Only me__). Click __Next__ > to proceed.
 9. The installation wizard will unpack your files and you will be able to run the application from: __Start__ > __All Programs__ > __SPDocKit.__
-10. [Configure SPDocKit Database and Snapshot Service](#internal/configuration/TOC.md/) settings.
+10. [Configure SPDocKit database and Snapshot Service](#internal/configuration/TOC.md/) settings.
 
 ## Installation Guide Video
 <!---
