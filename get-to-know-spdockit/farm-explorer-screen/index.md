@@ -12,9 +12,9 @@ The following commands are available:
 * __Save__ – save changes made in snapshot.
 * __Generate__ – generate SPDocKit farm documentation in a __.docx, .pdf or .xlsx__ format.
 * __Change Styles__ – customize the farm documentation final look, choose different color styles or upload custom template.
-* __Export as PDF__ button allows you to export the selected report a PDF document.
-* __Export as XLSX__ button allows you to export the selected report to an XLSX document.
-* __Export as DOCX__ button allows you to export the selected report to a DOCX document.
+* __Export as PDF__ button allows you to export the selected report as a PDF document.
+* __Export as XLSX__ button allows you to export the selected report as an XLSX document.
+* __Export as DOCX__ button allows you to export the selected report as a DOCX document.
 * __Compare Wizard__ – read more about the [Compare Wizard](#internal/get-to-know-documentation-toolkit/backstage-screen/compare-wizard/).
 * __Subscriptions and Alerts__ – create and manage your SPDocKit report subscriptions and alerts.
 * __Schedule this Report__ – add currently selected SPDocKit report to new report subscription or a previously created one.
