@@ -1,3 +1,3 @@
 ---
-title: Manage permissions ribbon
+title: SPDocKit Permissions Management Event Log
 ---

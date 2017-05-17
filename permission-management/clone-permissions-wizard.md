@@ -1,3 +1,3 @@
 ---
-title: Manage permissions ribbon
+title: Clone Permissions Wizard
 ---
