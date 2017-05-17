@@ -1,3 +1,3 @@
 ---
-Title: Manage Users
+title: Manage Users
 ---

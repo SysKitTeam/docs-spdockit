@@ -1,3 +1,3 @@
 ---
-Title: Best Practices Screen
+title: Best Practices Screen
 

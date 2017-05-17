@@ -1,3 +1,3 @@
 ---
-Title: Release Note
+title: Release Note
 ---

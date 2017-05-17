@@ -1,3 +1,3 @@
 ---
-Title: Permissions Reports Screen
+title: Permissions Reports Screen
 ---

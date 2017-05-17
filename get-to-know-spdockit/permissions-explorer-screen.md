@@ -1,3 +1,3 @@
 ---
-Title: Permissions Explorer Screen
+title: Permissions Explorer Screen
 ---

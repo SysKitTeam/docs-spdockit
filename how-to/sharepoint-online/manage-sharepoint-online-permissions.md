@@ -1,3 +1,3 @@
 ---
-Title: Manage SharePoint Online Permissions
+title: Manage SharePoint Online Permissions
 ---

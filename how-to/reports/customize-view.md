@@ -1,3 +1,3 @@
 ---
-Title: Customize View
+title: Customize View
 ---

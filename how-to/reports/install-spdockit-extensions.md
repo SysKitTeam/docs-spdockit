@@ -1,3 +1,3 @@
 ---
-Title: Install SPDocKit Extensions
+title: Install SPDocKit Extensions
 ---

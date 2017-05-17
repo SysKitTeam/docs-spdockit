@@ -1,3 +1,3 @@
 ---
-Title: Content and Usage Reports Screen
+title: Content and Usage Reports Screen
 ---

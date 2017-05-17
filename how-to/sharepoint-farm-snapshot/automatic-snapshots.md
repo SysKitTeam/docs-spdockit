@@ -1,3 +1,3 @@
 ---
-Title: Automatic Snapshots
+title: Automatic Snapshots
 ---

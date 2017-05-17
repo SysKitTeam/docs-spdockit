@@ -1,3 +1,3 @@
 ---
-Title: Queries and Rules Screen
+title: Queries and Rules Screen
 ---
