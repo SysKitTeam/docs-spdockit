@@ -29,8 +29,10 @@ Example:
 ## Internal links
 Internal links are links to articles within product docs.
 Every internal link should be prefixed with "#internal" eg. 
-    
+
+```
     [Online activation](#internal/activation/online-activation)
+```
 
 During build process "#internal" will be replaced with proper product and version slug eg. "/spdockit/v6"
 
@@ -38,6 +40,7 @@ During build process "#internal" will be replaced with proper product and versio
 
 Below you will find examples of all content types you can use in articles.
 Currently you can preview how they look here http://acceleratio.uxpassion.co/spdockit/v6/quick-start-guide/
+Refer to this guide if something is missing in this Readme (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
 ## Regular paragraph
@@ -67,11 +70,21 @@ Here is the list of required privileges to load SharePoint farm settings:
 
 ## Code blocks
 
-    if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)
-    {Add-PSSnapin Microsoft.SharePoint.PowerShell;}
-    cls
-    $username = Read-Host "Enter username";
-    Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database $_.Id}
+```
+  if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)
+  {Add-PSSnapin Microsoft.SharePoint.PowerShell;}
+  cls
+  $username = Read-Host "Enter username";
+  Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database $_.Id}
+```
+
+You can also use inline code blocks like this using backticks: `display: none`.
+
+1. here is a list item
+   ```
+    this is code in list
+   ```
+1. here is another list item
 
 ## Blockquotes
 
@@ -83,7 +96,9 @@ Here is the list of required privileges to load SharePoint farm settings:
 
 You can also add images to the repository and link to them. Put images inside _assets directory. To add image to an article #img prefix is needed, eg.
 
-    ![Mandatory alt text](#img/SPDocKit6-Destination-Folder.png "Optional image title")
+```
+  ![Mandatory alt text](#img/SPDocKit6-Destination-Folder.png "Optional image title")
+```
 
 
 ## Tables
