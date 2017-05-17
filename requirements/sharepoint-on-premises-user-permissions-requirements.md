@@ -62,6 +62,6 @@ To connect to an existing SPDocKit database from the workstation, SPDocKit user 
 
 ### Error Message
 
-If the user does not have proper privileges the following error message will be shown:
+If the user does not have proper privileges, the following error message will be shown:
 
-“You do not have privileges to load current farm! Please contact your administrator.”
+“You do not have privileges to load the current farm! Please contact your administrator.”

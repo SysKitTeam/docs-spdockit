@@ -24,4 +24,4 @@ These privileges will be granted automatically when a new SPDocKit database is c
 
 ### Connecting to SharePoint On-Premises sites
 
-When running SPDocKit Online beside SharePoint Online sites the user can connect to any SharePoint 2010, SharePoint 2013 or SharePoint 2016 site. This user will need to be granted __Site Collection Administrator__ privileges for each site he is trying to explore and manage.
+When running SPDocKit Online, besides SharePoint Online sites, the user can connect to any SharePoint 2010, SharePoint 2013 or SharePoint 2016 site. This user will need to be granted __Site Collection Administrator__ privileges for each site he is trying to explore and manage. 
