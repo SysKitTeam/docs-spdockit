@@ -2,11 +2,8 @@
 title: Online Activation
 author: Matija Hanzic  
 date: 16/5/2017  
+description: This article outlines the steps needed to perform SPDocKit activation.
 --- 
-# Online Activation
-
-This article outlines the steps needed to perform SPDocKit activation.
-
 ### Farm License
 
 Farm license is tied to a __Farm ID__ and thus, can be activated only on servers with SharePoint installed. This also means that you can activate a single farm license on all servers in one SharePoint farm.

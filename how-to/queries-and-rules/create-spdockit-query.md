@@ -1,9 +1,7 @@
 ---
 title: Create SPDocKit Query 
-slug: create-spdockit-query
+description: This section describes how to use the SPDocKit wizard to create a query report.
 ---
-
-# Create SPDocKit Query 
 
 This section describes how to use the SPDocKit wizard to create a query report. We will now create a query that will provide you with a list of all checked-out documents on a selected scope.
 

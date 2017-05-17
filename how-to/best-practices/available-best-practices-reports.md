@@ -1,10 +1,7 @@
 ---
 title: Available Best Practices Reports
-slug: available-best-practices-reports
+description: This article describes which best practices reports are available in SPDocKit and can help you keep your SharePoint farm healthy.
 ---
-
-# Available Best Practices Reports
-
 We have prepared a detailed overview of all available reports in SPDocKit with descriptions and instructions in our [Best Practices Library](https://bp.spdockit.com/)
 
 ### Visit our Best Practices library

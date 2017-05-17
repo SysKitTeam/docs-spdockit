@@ -2,11 +2,8 @@
 title: Offline Activation
 author: Matija Hanzic  
 date: 16/5/2017  
+description: This article outlines the steps needed to perform an offline SPDocKit activation. Use this type of activation in case your SharePoint servers are not connected to the internet.
 --- 
-# Offline Activation
-
-This article outlines the steps needed to perform an offline SPDocKit activation. Use this type of activation in case your SharePoint servers are not connected to the internet.
-
 ### Farm License
 
 Farm license is tied to a __Farm ID__ and thus, can be activated only on servers with SharePoint installed.

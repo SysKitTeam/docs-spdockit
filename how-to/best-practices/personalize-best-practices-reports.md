@@ -1,11 +1,7 @@
 ---
 title: Personalize Best Practices Reports
-slug: personalize-best-practices-reports
+description: This article describes how to create custom best practices reports in SPDocKit.
 ---
-
-
-# Personalize Best Practices Reports
-
 ### Create a new Best Practices reports
 
 The first option is to create a completely new Best Practices report using the Best Practices wizard.
