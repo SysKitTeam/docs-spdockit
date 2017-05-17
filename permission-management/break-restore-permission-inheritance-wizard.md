@@ -1,3 +1,3 @@
 ---
-title: Manage permissions ribbon
+title: Break or Restore Permissions Inheritance Wizard
 ---

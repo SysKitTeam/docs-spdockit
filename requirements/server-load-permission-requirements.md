@@ -1,6 +1,10 @@
 ---
 title: Server Load Permission Requirements
+description: Server Load Requirements for SPDocKit
+author: Iva Novoselic
+date: 16/5/2017
 ---
+
 # Server Load Permission Requirements
 
 ### Problem

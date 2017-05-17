@@ -1,3 +1,2 @@
 ---
-title: Manage permissions ribbon
----
+title: Permissions Levels Wizard

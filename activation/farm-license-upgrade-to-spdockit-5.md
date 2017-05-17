@@ -1,3 +1,0 @@
----
-title: Activation Privacy Statement
----

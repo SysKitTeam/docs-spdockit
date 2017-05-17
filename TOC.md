@@ -1,5 +1,6 @@
 ---
 title: Table of Contents
+private: true
 ---
 
 # [Product Updates](product-updates.md)
