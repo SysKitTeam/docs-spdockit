@@ -4,7 +4,10 @@ description: General SPDocKit Insights information
 author: Vinko Bedek
 date: 17/5/2017
 ---
-
+---
+todo: 
+1. footnotes, do we need them here? But i would still like to mention somewhere in this document that there are some limitations
+---
 SPDocKit Insights provides continuous load of the SharePoint ULS, Windows Event logs, SQL logs in real-time[*](#realTime). If you enable this feature, the SPDocKit Insights Agent will gather selected events and store them on your disk. SPDocKit Insights presents a centralized place for you to explore, detect and prevent possible issues appearing on your SharePoint farm. Performance data is also collected and is stored in the SPDocKit database.
 
 Use SPDocKit Insights to keep multiple farms under control and find problems more easily. Here is how the optimal installation scheme looks like:
