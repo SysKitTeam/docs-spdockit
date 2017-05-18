@@ -27,7 +27,7 @@ The application can be installed on a workstation with __Windows 7, Windows 8 or
 7. Choose the installation folder e.g. __C:\Program Files\Acceleratio\SPDocKit.__ Click __Next__ > to proceed.
 8. Select the location where to create application shortcuts and the preferred availability option (__Anyone__ or __Only me__). Click __Next__ > to proceed.
 9. The installation wizard will unpack your files and you will be able to run the application from: __Start__ > __All Programs__ > __SPDocKit.__
-10. [Configure SPDocKit database and Snapshot Service](#internal/configuration/TOC.md/) settings.
+10. [Configure SPDocKit database and Snapshot Service](#internal/configuration/configure-spdockit.md/) settings.
 
 ## Installation Guide Video
 <!---
