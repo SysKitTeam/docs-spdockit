@@ -5,6 +5,7 @@ This article lists the minimum hardware and software requirements for SPDocKit. 
 
 ## SharePoint On-Premises
 
+
 ### Requirements
 
 * The product needs to be installed (or started) on a **SharePoint 2016, SharePoint 2013 or SharePoint 2010 Server**
