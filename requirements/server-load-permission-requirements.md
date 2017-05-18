@@ -50,13 +50,13 @@ In case you have a very strict security policy and cannot add this account to th
 
 ### Problem:
 
-While trying to load SharePoint farm settings with SPDocKit I received a warning:
+While trying to create a SPDocKit snapshot, I received the following warning:
 
 > Loaded Server ‘ServerName’.
 
 #### Why is this warning occurring?
 
-There are some additional SPDocKit permission requirements to load SQL servers information. Please note that the following rights on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practice reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your SQL servers the following rights are necessary:
+There are some additional SPDocKit permission requirements necessary to load SQL servers information. Please note that the following rights on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practice reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your SQL servers the following rights are necessary:
 
 * __Public__ server role
 * __Dbcreator__ server role and __VIEW SERVER STATE__ permission
@@ -64,26 +64,26 @@ There are some additional SPDocKit permission requirements to load SQL servers i
 
 #### What will these granted rights be used for?
 
-__Public__ server role is needed to fetch real SQL server name. This right is necessary to connect to SQL and perform some basic T-SQL queries. Also when you add an account to SQL server, public role is automatically granted. If you are not granted this role, following reports will not be available:
+__Public__ server role is needed to fetch the real SQL server name. This right is necessary to connect to the SQL server and perform some basic T-SQL queries. Also when you add an account to SQL server, public role is automatically granted. If you are not granted this role, following reports will not be available:
 * Farm Explorer -> SQL -> SQL Aliases
 * Best Practices -> Databases -> SQL Aliases
 
-__dbcreator__ role and __VIEW SERVER STATE__ permission is necessary in order to load configuration of the SQL server. Following reports will not be available:
+__dbcreator__ role and __VIEW SERVER STATE__ permission is necessary in order to load SQL server configuration data. Following reports will not be available:
 * Farm Explorer -> SQL -> all reports
 * Best Practices -> Databases -> Database Files
 * Best Practices -> Databases -> Max Degree of Parallelism
 * Best Practices -> Databases -> SharePoint Database Autogrowth
 * Best Practices -> Databases -> TempDB -> all reports
 
-__dbaccess__ permission is necessary in order to load information about the model database. In case that you don’t add this right, following reports will not be available:
+__dbaccess__ permission is necessary in order to load information about the model database. In case this right is not granted, the following reports will not be available:
 * Best Practices -> Databases -> ModelDB -> ModelDB Files Autogrowth
 * Best Practices -> Databases -> ModelDB -> ModelDB Files Initial Size
 * Best Practices -> Databases -> ModelDB -> ModelDB Recovery Model
 
 #### Solution
 
-1. Create a new user on SQL server that will be used for SPDocKit.
-2. Add __dbcreator__ role to your SPDocKit account and execute following T-SQL query:
+1. Create a new user on the SQL server that will be used by SPDocKit.
+2. Add __dbcreator__ role to your SPDocKit account and execute the following T-SQL query:
       > USE master  
       > GO  
       > GRANT VIEW SERVER STATE TO “DOMAIN\ACCOUNT”
