@@ -1,7 +1,6 @@
 ---
 title: Create New Subscription
-description: 
-This section describes how to create scheduled subscriptions for SPDocKit reports. 
+description: This section describes how to create scheduled subscriptions for SPDocKit reports. 
 author: Iva Novoselic
 date: 17/05/2017
 ---
