@@ -27,15 +27,7 @@ The application can be installed on a workstation with __Windows 7, Windows 8 or
 7. Choose the installation folder e.g. __C:\Program Files\Acceleratio\SPDocKit.__ Click __Next__ > to proceed.
 8. Select the location where to create application shortcuts and the preferred availability option (__Anyone__ or __Only me__). Click __Next__ > to proceed.
 9. The installation wizard will unpack your files and you will be able to run the application from: __Start__ > __All Programs__ > __SPDocKit.__
-10. [Configure SPDocKit database and Snapshot Service](#internal/configuration/configure-spdockit.md/) settings.
-
-## Installation Guide Video
-<!---
-<iframe width="520" height="315" src="/https://www.youtube.com/watch?v=3O4fRDDlyJg" frameborder="0" allowfullscreen></iframe>
--->
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=3O4fRDDlyJg
-" target="_blank"><img src="http://img.youtube.com/vi/3O4fRDDlyJg/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="520" height="315" border="10" /></a>
+10. [Configure SPDocKit database and Snapshot Service] settings.
 
 ## Tips&Tricks
 If during the installation you encounter any problems and wish to enable logging to help you resolve the problems, you can start the installation using the command prompt with the following argument:
@@ -46,6 +38,6 @@ Note that this will work for both .exe and .msi installation files.
 
 ## Learn more
 * [How to: Create Farm Documentation](#internal/how-to/farm-documentation/create-farm-documentation.md/).
-* [How to: Compare SharePoint Farms](#internal/how-to/compare-wizard/compare-sharepoint-farms.md/).
-* [How to: Configure Automatic Snapshots](how-to/sharepoint-farm-snapshot/configure-automatic-snapshots.md/)
+* [How to: Compare SharePoint Farms]
+* [How to: Configure Automatic Snapshots]
      
