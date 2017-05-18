@@ -3,13 +3,14 @@ title: SPDocKit Insights
 description: General SPDocKit Insights information
 author: Vinko Bedek
 date: 17/5/2017
-
+---
+<!---
 todo:
 1. Topology image needs to be updated.
 2. The quick guide video needs to be updated, or removed.
 3. Features by licenses link needs to point somewhere else since Insights is now available to all license editions. Maybe a table like the Excel file where it shows who can use PC, alerts, automatic collection
 4. I like the idea of the footnotes, maybe also put a link to what is available to each license edition. We will have problems if this is not specified here.
----
+-->
 
 SPDocKit Insights is designed to allow SharePoint administrators to collect and monitor information about their farm health from:
 * SharePoint ULS logs across all farm servers.
