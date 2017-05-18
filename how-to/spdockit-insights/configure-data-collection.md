@@ -39,12 +39,12 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
 Additional configuration is done by means of the SPDocKit Insights application.
 
 1. [Install SPDocKit Insights](#internal/installation/installation-guide/) to **any** server, with or without SPDocKit. Run the SPDocKit setup file and select the Insights Viewer feature in the **advanced** install mode.
-2. Start SPDocKit Insights
+2. Start SPDocKit Insights.
     - From the Windows start menu.
     - If SPDocKit was installed with SPDocKit Insights, SPDocKit Insights is available from the SPDocKit start page.
     - In a standalone installation, SPDocKit Insights will start automatically when the installation has completed.
     - In a combined installation with the SPDocKit Insights Agent, SPDocKit Insights will start automatically after SPDocKit Insights Agent configuration.
-3. SPDocKit Insights uses some default settings 
+3. SPDocKit Insights uses some default settings: 
     - **All** farms will be monitored.
     - ULS event of **Unexpected**, **Exception** and **Critical** level will be collected.
     - Windows Event Log and SQL logs will **not** be collected.
