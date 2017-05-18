@@ -20,7 +20,7 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
     - Will be started automatically after installation if the SPDocKit Insights Agent if installed on a separate server.
     - Also available from the SPDocKit start screen if installed on the same server as SPDocKit.
     - Also available from the Windows start menu.
-3. Configure the SPDocKit Insights Agent, enter the following
+3. Configure the SPDocKit Insights Agent, enter the following:
     - **Service Account** - the service account you specify here will be used to collect the logs from the servers in your farm. You need to ensure the provided account has the following rights:
         - **Log On As a Service Right** – this right will be given to the account automatically by the configuration utility.
         - **Local administrator on SharePoint servers** – the service account needs to be a member of the Local Administrators group on all SharePoint servers. This is required in order to be able to read log files from the disk.
@@ -31,7 +31,7 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
     - **Port To Use** - this is the port that the SPDocKit Insight Agent will use to communicate with the SPDocKit Insights application. By default, port 7895 is set, but you can change it to suit your needs.
     - **Max Index Size** – by default we set this value to 200GB with a maximum of 1TB. Feel free to change it to suit your needs and hardware capabilities.
         - If the service determines that the index exceeds the maximum index size, it will stop the data collection. Note that the actual size of the index can vary because of index reorganization and can require up to 3 times the amount of disk space specified here.
-4. Confirm by clicking the OK button
+4. Confirm by clicking the OK button.
     - Take note of the URL in the confirmation message. This is needed to connect to the SPDocKit Insights Agent if the SPDocKit Insights Application is installed on a separate server or workstation.
     - If the SPDocKit Insights application is installed on the same server as the SPDocKit Insights Agent, SPDocKit Insights will start automatically.
 
