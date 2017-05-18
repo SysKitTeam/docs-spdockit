@@ -69,7 +69,7 @@ Additional configuration is done by means of the SPDocKit Insights application.
 - **SQL Collection Configuration**
     - Disabled by default.
 - **Performance Monitoring**
-    - Disabled by default. Availability depends on the SPDocKit license edition.
+    - Enabled by default. Availability depends on the SPDocKit license edition.
 
 ### Available Agent Options
 - **Enable/Disable data collection**
