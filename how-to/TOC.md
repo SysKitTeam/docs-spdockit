@@ -47,4 +47,4 @@ private: true
 ## [Manage SharePoint Online Permissions](manage-sharepoint-online-permissions.md)
 
 # SPDocKit Insights
-# [Configure Data Collection](configure-data-collection.md)
+## [Configure Data Collection](configure-data-collection.md)
