@@ -3,9 +3,10 @@ title: How To
 slug: how-to
 private: true
 ---
-# SharePoint Farm Snapshot
+# SharePoint Farm Snapshots
 ## [Manual Snapshots](manual-snapshots.md)
 ## [Automatic Snapshots](automatic-snapshots.md)
+## [Generate an AutoSPInstaller XML Configuration File](generate-autospinstaller-xml-configuration-file.md)
 
 # Farm Documentation
 ## [Create Farm Documentation](create-farm-documentation.md)
