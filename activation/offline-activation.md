@@ -23,7 +23,7 @@ The Farm license is tied to a __farm ID__ and can be activated only on servers w
 
 ### Consultant License
 
-The Consultant license can be activated on any server, but you need to have a valid SPDocKit consultant subscription. Please take special care that Consultant license is intended for external (customer's farm) usage only. Here is how to activate a Consultant license offline.
+The Consultant license can be activated on any server, but you need to have a valid SPDocKit Consultant subscription. Please take special care that the Consultant license is intended for external (customers' farms) usage only. Here is how to activate a Consultant license offline.
 
 1. From the left navigation bar on the __Backstage Screen__ select __Help__ and click on the __License Details__ section to begin the activation process.
 2. Click on the __Offline Activation__ link and a new activation dialog will appear. Follow these steps:
@@ -38,13 +38,13 @@ The Consultant license can be activated on any server, but you need to have a va
 4. Click the __Activate__ button. Activation takes a couple of seconds and is a one time process.
     * The __license file (.lic)__ is __only valid__ for the user account and server where the __License Details (.dlic) file__ was generated in step 2.
 
-The __One-time activation__ option allows you short-term activation of SPDocKit. If you check this box, the license details will be deleted and the license will be deactivated when the application is closed. This feature can be quite convenient when you are documenting your customer's SharePoint.
+The __One-time activation__ option allows short-term activation of SPDocKit. If you check this box, the license details will be deleted and the license will be deactivated when the application is closed. This feature can be quite convenient when you are documenting your customer's SharePoint.
 
 __Please note!__ The Consultant license file is valid for 72 hours from the time of generation.
 
 ### Site License
 
-The Site license is tied to a __domain name__, __workstation ID__ or __farm ID__, which means you can use it to activate an unlimited number of SharePoint farms and workstations/computers within one physical location.
+The Site license is tied to a __domain name__, __workstation ID__ or __farm ID__, which means you can use it to activate SPDocKit on an unlimited number of SharePoint farms and workstations/computers within one physical location.
 
 1. From the left navigation bar on the __Backstage Screen__ select __Help__ and click on the __License Details__ section to begin the activation process.
 2. Click on the __Offline Activation__ link and a new activation dialog will appear. Follow these steps:
