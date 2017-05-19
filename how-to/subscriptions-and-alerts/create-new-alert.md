@@ -9,7 +9,7 @@ If you wish to use __Subscriptions and Alerts__ feature, please make sure you co
 
 Alerts are sent after each automatic snapshot, that is, snapshot created by the SPDocKit Service.
   * __Best Practice__ reports will be sent when either warnings or errors are detected in the latest snapshot.
-   * __Difference reports__ will be sent when differences between the newest snapshot and the previous one are detected.
+  * __Difference reports__ will be sent when differences between the newest snapshot and the previous one are detected.
 
 Instructions:
 1. Navigate to the Backstage Configuration Screen and click __Subscriptions and Alerts.__
