@@ -1,6 +1,6 @@
 ---
-title: SPDocKit Insights
-description: SPDocKit Insights Usage Guide
+title: SPDocKit Insights Search Guide
+description: How to write search queries
 author: Vinko Bedek
 date: 19/5/2017
 ---
