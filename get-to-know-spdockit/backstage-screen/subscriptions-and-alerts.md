@@ -12,13 +12,13 @@ In the main grid, you can see all created subscriptions and alerts, their destin
 
 Alerts will be marked with the bell icon, while the scheduled subscriptions will have the open letter icon. Here you can:
 
-* create new subscription to schedule preferred reports
-* create new alerts for the selected SharePoint objects or best practices reports
-* change existing subscription or alert settings by clicking the Edit button
-* delete previously created subscriptions and alerts
-* manually send specific subscriptions and alerts by clicking on Send Email Now
-* adjust the time when these subscriptions will be sent and outgoing email server settings
-* search through the listed subscriptions and alerts.
+* Create new subscription to schedule preferred reports
+* Create new alerts for the selected SharePoint objects or best practices reports
+* Change existing subscription or alert settings by clicking the Edit button
+* Delete previously created subscriptions and alerts
+* Manually send specific subscriptions and alerts by clicking on Send Email Now
+* Adjust the time when these subscriptions will be sent and outgoing email server settings
+* Search through the listed subscriptions and alerts.
 
 ### Related Articles
 
