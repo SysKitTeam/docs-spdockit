@@ -11,7 +11,7 @@ Make sure that your environment and the account used for the application meet SP
 Learn how to install SPDocKit or update it to the latest version. 
 # [Activation](activation.md)
 Activate your fully featured version and explore all the amazing reports. 
-# [Configuration](#internal/configuration/index.md)
+# [Configuration](configuration.md)
 Explore all possible configuration scenarios and choose the right one for your environment and license. 
 # [Get to Know SPDocKit](get-to-know-spdockit.md)
 Dive into a detailed overview of what SPDocKit has to offer. Check out the available report types and feature sets. 
