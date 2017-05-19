@@ -1,5 +1,9 @@
-This section describes how to generate an AutoSPInstaller XML configuration file.
-
+---
+title: Generate an AutoSPInstaller XML Configuration File
+description: This section describes how to generate an AutoSPInstaller XML configuration file.
+author: Tomislav Sirovec
+date: 19/5/2017
+---
 ### What is AutoSPInstaller?
 
 SPDocKit offers a feature that can generate an XML configuration file, which you can use later with [AutoSPInstaller](https://autospinstaller.com/) when creating new SharePoint farms.  It helps you produce farms that you wish to be identical or as similar as possible to your current environment.
