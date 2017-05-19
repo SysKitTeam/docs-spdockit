@@ -27,15 +27,11 @@ This section explains how you can use the Compare Wizard to compare different fa
 ### Compare Two Different SharePoint Farms
 1. Select Farms for the comparison type and then the __Compare two different farms__ subtype. Click Next to continue.
 
-1. Under __Farm Selection__, select the snapshots you wish to compare and click Next.
-
-   From version 6.1 onwards, farm snapshots are, by default, stored in the __SPDocKit database__. If you have more than one farm connected to the same SPDocKit database, you will see snapshots from all these farms.
+1. Under __Farm Selection__, select the snapshots you wish to compare and click Next. From version 6.1 onwards, farm snapshots are, by default, stored in the __SPDocKit database__. If you have more than one farm connected to the same SPDocKit database, you will see snapshots from all these farms.
 
    If you are not using the SPDocKit database, snapshots will be stored in the Snapshots folder defined in [Service Settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard.md#service-settings) . The default Snapshots folder is __C:\ProgramData\SPDocKit\Snapshots__.
 
-   The Farm selection step will list all available snapshots from the Saved Farms folder, SPDocKit database or Snapshots folder. If the desired snapshot is not located in either of these locations, click __Import__ to select a snapshot file from another location. 
-
-    This is helpful in situations when you wish to compare snapshots of two farms and the snapshots are not stored in the same SPDocKit database but on a disk location on SharePoint servers. Copy the farm snapshots from the non-local farm to any disk location on a local SharePoint server and click Import to use them for farm comparison.
+   The Farm selection step will list all available snapshots from the Saved Farms folder, SPDocKit database or Snapshots folder. If the desired snapshot is not located in either of these locations, click __Import__ to select a snapshot file from another location. This is helpful in situations when you wish to compare snapshots of two farms and the snapshots are not stored in the same SPDocKit database but on a disk location on SharePoint servers. Copy the farm snapshots from the non-local farm to any disk location on a local SharePoint server and click Import to use them for farm comparison.
 
     Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](#intrenal/get-to-know-spdockit/snapshots-screen.md), click __Import__ in the Snapshots tab.
 
