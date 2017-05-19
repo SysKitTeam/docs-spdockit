@@ -35,12 +35,11 @@ This section explains how you can use the Compare Wizard to compare different fa
 
     Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](#intrenal/get-to-know-spdockit/snapshots-screen.md), click __Import__ in the Snapshots tab.
 
-1. The next couple of steps allow you to map farm properties and perform detailed comparisons. The wizard will guide you through the following mappings:
-
-    On the left-hand side is a list of available properties for the source farm, and on the right-hand side is a list of properties from the target farm. Use the drop down menu to define which farm properties should be paired. Once you have paired them, SPDocKit will remember the mappings and use them for each subsequent comparison process if you select these same two farms.
+1. The next couple of steps allow you to map farm properties and perform detailed comparisons. On the left-hand side is a list of available properties for the source farm, and on the right-hand side is a list of properties from the target farm. Use the drop down menu to define which farm properties should be paired. Once you have paired them, SPDocKit will remember the mappings and use them for each subsequent comparison process if you select these same two farms.
 
     As a new feauture we enabled __1:N mappings__. This can be very useful when comparing test with production environment. For example: On a Source farm, you can map 1 or 2 WFE servers with 4 or even more WFE servers from a Target farm.
 
+    The wizard will guide you through the following mappings:
     * URLs, Host Headers, Addresses
     * Database Names
     * Business Data Connectivity Namespace
