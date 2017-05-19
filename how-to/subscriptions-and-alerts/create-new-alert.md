@@ -8,10 +8,10 @@ This section describes how to create scheduled __Alerts__ for SPDocKit reports
 If you wish to use __Subscriptions and Alerts__ feature, please make sure you configured [Subscription Settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard.md#subscription-settings) properly.
 
 Alerts are sent after each automatic snapshot, that is, snapshot created by the SPDocKit Service.
+  * __Best Practice__ reports will be sent when either warnings or errors are detected in the latest snapshot.
+   * __Difference reports__ will be sent when differences between the newest snapshot and the previous one are detected.
 
-* __Best Practice__ reports will be sent when either warnings or errors are detected in the latest snapshot.
-* __Difference reports__ will be sent when differences between the newest snapshot and the previous one are detected.
-
+Instructions:
 1. Navigate to the Backstage Configuration Screen and click __Subscriptions and Alerts.__
 
 1. When the Manager opens, click __New Alert__. In General tab, type in the alert name. Under Status section you can see the following information:
