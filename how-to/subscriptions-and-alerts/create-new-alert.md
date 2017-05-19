@@ -30,10 +30,10 @@ Instructions:
 
        You can select all three delivery methods. Scheduled reports will be sent to the email addresses you provided and uploaded to the File Share and SharePoint document library.
 
-1. Go to the Reports tab and click __Add Report__ to select which reports you wish to subscribe to. Currently, you can pick from __Farm Differences, Permissions Differences, Group to Group Compare, Membership Differences and any of the Best Practice reports.__
+1. Go to the Reports tab and click  __Add Report__  to select which reports you wish to subscribe to. Currently, you can pick from __Farm Differences, Permissions Differences, Group to Group Compare, Membership Differences and any of the Best Practice reports.__
 
 1. For certain reports, you will have to adjust filters to append that report. Those filters will define how the emailed report data will look. Click OK to add the selected report to the subscription. To define the preferred date format, use curly brackets. Only culture-invariant formats are supported, for example: __{MM-dd-yyyy}, {dd-MM-yyyy}, or {MM-yyyyy-dd}.__
-1. You can add more reports by repeating previous steps. Also, you can __Edit__ current report settings or __Delete__ added reports.
+1. You can add more reports by repeating previous steps. Also, you can  __Edit__  current report settings or  __Delete__  added reports.
 1. Click  Save & Close to finish creating the Alert and exit. If you wish to send this alert immediately, click the Save & Send Now.
 
 ### Tips&Tricks
