@@ -4,8 +4,8 @@ author: Matija Hanzic
 date: 16/5/2017  
 description: This article lists Acceleratio Privacy Statement.
 --- 
-Acceleratio Ltd. asks you activate your copy of SPDocKit so we may verify your product was purchased legally. During activation process your personal data, your product key is not being sent to Acceleratio Ltd.
+Acceleratio Ltd. asks you to activate your copy of SPDocKit so that we may verify your product was purchased legally. Your personal data and product key __will not be__ sent to Acceleratio Ltd.
 
-Activation is based on number of factors that are being calculated during activation processes. Activation process identifies only the computer but it does not include information about your software or data that resides on your computer, or any other information about your computer model or environment.
+The Activation is based on a couple of values retrieved during the activation process, which help identify your computer. These values are used to uniquely identify the computer - they __do not include__ any information about the software or data on your computer, or information about the computer model or environment.
 
 Please contact our [sales department](https://www.spdockit.com/support/contact-us/) if you wish to perform your activation offline.
