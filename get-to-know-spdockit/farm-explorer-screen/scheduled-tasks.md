@@ -1,7 +1,7 @@
 ---
 title: Scheduled Tasks
 ---
-In SPDocKit version 5, the feature is listed as a separate section under the Farm Explorer. To see the feature in version 6 onward, select a snapshot you wish to view. Navigate from the Farm Explorer down to Scheduled Tasks, and click the View ribbon.
+Since SPDocKit version 5, this feature is listed as a separate section under the Farm Explorer. To see this feature in version 6 onward, select the snapshot you wish to view, navigate in the Farm Explorer down to Scheduled Tasks, and click the View ribbon.
 
 With the Scheduled Tasks report, SharePoint administrators can more easily visualize important scheduled jobs across the SharePoint farm. This viewer offers the following tasks:
 
