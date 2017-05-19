@@ -39,13 +39,13 @@ You can combine your terms using logical operators. The supported operators are 
                     that the operators must be **UPPERCASED**.
 
 ### AND operator
-This is the default operator. The query: **database error** is equivalent to **database AND error**. Both terms must exist somewhere in the document. You can also use &amp;&amp; instead of the word AND.
+This is the default operator. The query: **database error** is equivalent to **database AND error**. Both terms must exist somewhere in the document. You can also use **&&** instead of the word AND.
 
 ### OR operator
-Use this operator when you want to match multiple terms. **Server:Server1 OR Server:Server2** will return events from both Server1 and Server2. You can also use || instead of the word OR.
+Use this operator when you want to match multiple terms. **Server:Server1 OR Server:Server2** will return events from both Server1 and Server2. You can also use **||** instead of the word OR.
 
 ### NOT operator
-Used to exclude events from your search. Level:Critical NOT administration will return critical events that do not have the term administration. You can also use ! instead of the word NOT. 
+Used to exclude events from your search. **Level:Critical NOT administration** will return critical events that do not have the term administration. You can also use **!** instead of the word NOT. 
 
 Similar results can be achieved by using the – operator. **Level:critical – administration**.
 
