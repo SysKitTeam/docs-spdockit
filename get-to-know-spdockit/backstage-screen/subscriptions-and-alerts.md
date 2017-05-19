@@ -15,10 +15,10 @@ Alerts will be marked with the bell icon, while the scheduled subscriptions will
 * create new subscription to schedule preferred reports
 * create new alerts for the selected SharePoint objects or best practices reports
 * change existing subscription or alert settings by clicking the Edit button
-* Delete previously created subscriptions and alerts
+* delete previously created subscriptions and alerts
 * manually send specific subscriptions and alerts by clicking on Send Email Now
 * adjust the time when these subscriptions will be sent and outgoing email server settings
-* Search through the listed subscriptions and alerts.
+* search through the listed subscriptions and alerts.
 
 ### Related Articles
 
