@@ -11,7 +11,7 @@ When you install SPDocKit for the first time, the installation will ask you to u
 This is how you do it:
 ## New Database Connection
 
-1. Anywhere in the application you can click the dropdown in the corner to expand it, and choose __Edit__.
+1. Click on the Database Connections dropdown button, which can be found above the ribbon and on the right, and choose __Edit__.
 
 Alternatively, in the Backstage (File – > Configuration), under Configuration settings click Database Connections.
 
