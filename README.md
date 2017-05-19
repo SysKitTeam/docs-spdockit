@@ -49,6 +49,12 @@ Refer to this guide if something is missing in this Readme (https://github.com/a
 To run [SPDocKit](https://spdockit.com) and to retrieve all SharePoint settings you want to document, the user running the application and SPDocKit service account needs to have proper privileges.
 Here is the list of required privileges to load SharePoint farm settings:
 
+This is another paragraph.
+
+## Line Breaks
+This is the first line in a paragraph. Must be followed by two spaces and newline.  
+This is the second line in a paragraph.
+
 ## Headlines
 
 # Here is h1
