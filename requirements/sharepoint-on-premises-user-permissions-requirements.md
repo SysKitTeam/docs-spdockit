@@ -9,7 +9,7 @@ To run SPDocKit and to retrieve all SharePoint settings you want to document, bo
 2. __SharePoint farm administrator__. Required to retrieve SharePoint farm settings.
 3. __Member of SharePoint_Shell_Access role__ on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
 4. Special privileges for the __Service Account__: Service account needs to have privileges listed above as well as the __Log on as a Service__ right. [Click here for instructions](http://technet.microsoft.com/en-us/library/cc794944(WS.10).aspx) on how to configure that right.
-5. [Server specific requirements](#internal/requirements/server-load-permission-requirements/) needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL server configuration information for DB servers.
+5. [Server specific requirements](#internal/requirements/server-load-permission-requirements/) needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL Server configuration information for DB servers.
 
 
 Here is how you can give user these privileges:
@@ -45,7 +45,7 @@ Here is how you can give user these privileges:
 
 #### Creating a new database
 
-To be able to create a new SPDocKit dedicated database, the user account running the installation and configuration wizard (i.e. install account) should be granted both the __dbcreator__ and __securityadmin__ roles on the preferred SQL server. This allows the account to create a new database and to assign proper privileges after creation. The install account will be automatically given __db_owner__ privileges on the newly created database, if possible. Otherwise, it is advised that the account is given that privilege manually, as it is needed for upgrading the database.
+To be able to create a new SPDocKit dedicated database, the user account running the installation and configuration wizard (i.e. install account) should be granted both the __dbcreator__ and __securityadmin__ roles on the preferred SQL Server. This allows the account to create a new database and to assign proper privileges after creation. The install account will be automatically given __db_owner__ privileges on the newly created database, if possible. Otherwise, it is advised that the account is given that privilege manually, as it is needed for upgrading the database.
 
 #### Privileges required to run the application
 

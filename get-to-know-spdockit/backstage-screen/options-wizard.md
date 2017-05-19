@@ -66,7 +66,7 @@ In this section, the user can set how long data will be kept in the database. __
 
 Set the preferred database size and SPDocKit will warn you when the database size passes that threshold.
 
-If your SPDocKit database becomes too big, you can force a manual data retention using the __Execute__ button. Please note that this action will also try to execute SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – member of the sysadmin or db_owner role by default. The data will still be deleted but the database size will not decrease until this command is executed, either by using SPDocKit or directly on the SQL server.
+If your SPDocKit database becomes too big, you can force a manual data retention using the __Execute__ button. Please note that this action will also try to execute SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – member of the sysadmin or db_owner role by default. The data will still be deleted but the database size will not decrease until this command is executed, either by using SPDocKit or directly on the SQL Server.
 
 Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](#internal/get-to-know-documentation-toolkit/track-changes-screen/).
 
