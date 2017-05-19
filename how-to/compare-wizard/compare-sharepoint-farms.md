@@ -4,9 +4,7 @@ description: This section explains how you can use the Compare Wizard to compare
 author: Iva Novoselic
 date: 17/5/2017
 ---
-This section explains how you can use the Compare Wizard to compare different farms or snapshots of an existing farm.
-
-Navigate to the Backstage Actions Screen and click the __Compare Wizard__ button.
+This section explains how you can use the Compare Wizard to compare different farms or snapshots of an existing farm. Navigate to the Backstage Actions Screen and click the __Compare Wizard__ button.
 
 ### Compare Farm with a Previous Snapshot
 
@@ -43,6 +41,10 @@ Navigate to the Backstage Actions Screen and click the __Compare Wizard__ button
 
 1. The next couple of steps allow you to map farm properties and perform detailed comparisons. The wizard will guide you through the following mappings:
 
+    On the left-hand side is a list of available properties for the source farm, and on the right-hand side is a list of properties from the target farm. Use the drop down menu to define which farm properties should be paired. Once you have paired them, SPDocKit will remember the mappings and use them for each subsequent comparison process if you select these same two farms.
+
+    As a new feauture we enabled __1:N mappings__. This can be very useful when comparing test with production environment. For example: On a Source farm, you can map 1 or 2 WFE servers with 4 or even more WFE servers from a Target farm.
+
     * URLs, Host Headers, Addresses
     * Database Names
     * Business Data Connectivity Namespace
@@ -53,10 +55,6 @@ Navigate to the Backstage Actions Screen and click the __Compare Wizard__ button
     * Service Applications Proxies
     * Host Names
 
-    On the left-hand side is a list of available properties for the source farm, and on the right-hand side is a list of properties from the target farm. Use the drop down menu to define which farm properties should be paired. Once you have paired them, SPDocKit will remember the mappings and use them for each subsequent comparison process if you select these same two farms.
-
-    As a new feauture we enabled __1:N mappings__. This can be very useful when comparing test with production environment. For example: On a Source farm, you can map 1 or 2 WFE servers with 4 or even more WFE servers from a Target farm.
-
 1. Click Next to see the compare results.
 
     The Results dialog box shows the differences between two different farms. The change in each object is indicated by a different color. The upper part of the dialog box shows all farm settings in a hierarchical structure while the bottom half displays differences between currently selected object in the upper half.
@@ -66,8 +64,5 @@ Navigate to the Backstage Actions Screen and click the __Compare Wizard__ button
 ### Compare with Out of the Box Farm
 1. Select Farms for the comparison type and then the __Compare with out of the box farm__ subtype to continue the process.
 1. Under __Farm Selection__, select the snapshot you wish to compare with default farm settings and click Next.
-1. Click Next to see the compare results.
- 
-   Farm compare uses the [Compare template](#internal/get-to-know-spdockit/backstage-screen/options-wizard.md/#compare) to track the changes between these snapshots. If you would like to change what will be compared, or exclude certain reports, use the little wheel button on the left-hand side. 
-   
-   Reports you deselect will not be used for the next comparison.
+1. Click Next to see the compare results. Farm compare uses the [Compare template](#internal/get-to-know-spdockit/backstage-screen/options-wizard.md/#compare) to track the changes between these snapshots. If you would like to change what will be compared, or exclude certain reports, use the little wheel button on the left-hand side. 
+Reports you deselect will not be used for the next comparison.
