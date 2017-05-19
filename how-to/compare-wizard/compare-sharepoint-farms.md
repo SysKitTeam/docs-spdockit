@@ -58,6 +58,8 @@ This section explains how you can use the Compare Wizard to compare different fa
 
 ### Compare with Out of the Box Farm
 1. Select Farms for the comparison type and then the __Compare with out of the box farm__ subtype to continue the process.
+
 1. Under __Farm Selection__, select the snapshot you wish to compare with default farm settings and click Next.
-1. Click Next to see the compare results. Farm compare uses the [Compare template](#internal/get-to-know-spdockit/backstage-screen/options-wizard.md/#compare) to track the changes between these snapshots. If you would like to change what will be compared, or exclude certain reports, use the little wheel button on the left-hand side. 
+
+1. The compare results will appear. Farm compare uses the [Compare template](#internal/get-to-know-spdockit/backstage-screen/options-wizard.md/#compare) to track the changes between these snapshots. If you would like to change what will be compared, or exclude certain reports, use the little wheel button on the left-hand side. 
 Reports you deselect will not be used for the next comparison.
