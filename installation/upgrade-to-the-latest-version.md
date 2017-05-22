@@ -31,7 +31,7 @@ This article explains how to upgrade SPDocKit to the latest major version. SPDoc
    If the icon next to the feature is gray, this feature will be installed. If the icon next to the feature name is a little red cross, then this feature will not be installed at the end of this process.
 
     * The __Event Collection Service__ crawls the ULS and Windows Event Logs and indexes them. Install this feature on a __server outside of your SharePoint farm__ for minimal impact.
-    * __The SPDocKit Insights__ is used to search and view the events that the Collection Service has indexed. This is a standalone application which can be run without the SPDocKit application. You can install it on any available server, including the one where SPDocKit is installed. [Read more about SPDocKit Event Collection]
+    * __The SPDocKit Insights__ is used to search and view the events that the Collection Service has indexed. This is a standalone application which can be run without the SPDocKit application. You can install it on any available server, including the one where SPDocKit is installed. [Read more about SPDocKit Event Collection](#internal/get-to-know-spdockit/spdockit-insights).
 7. Choose the installation folder e.g. __C:\Program Files\Acceleratio\SPDocKit__. Click __Next__ > to proceed.
 8. Select the location where to create application shortcuts and the preferred availability option (__Anyone__ or __Only me__). Click __Next__ > to proceed.
 9. The installation wizard will unpack your files and you will be able to run the application from: __Start__ > __All Programs__ > __SPDocKit.__
