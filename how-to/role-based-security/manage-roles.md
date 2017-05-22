@@ -17,7 +17,7 @@ To create a new role, follow these instructions:
 Click **Next** to continue.
 4. If you wish a user to see and access the Farm Explorer and Best Practices, under **Snapshots**, select the **Allow access to Farm Explorer and Best Practices report categories** check box.  
 **Please note** that the Farm Explorer reports may contain sensitive information such as passwords and other important SharePoint settings.  
-In the **Farms** subsection you must choose which farm(s) you wish to enable the aforementioned permissions for. Click [here](#internal/configuration/configure-spdockit-database) to learn more about using the same database with more than one farm.
+In the **Farms** subsection you must choose which farm(s) you wish to enable the aforementioned permissions for. Click [here](#internal/configuration/configure-two-different-farms-in-a-same-spdockit-database) to learn more about using the same database with more than one farm.
 Click **Next** to continue.
 
 5. Under **Report Categories** define the report categories to which the SPDocKit user will have access.  You can also fine-tune which SharePoint objects will be visible on these report categories. You can choose to give permissions and access:  
