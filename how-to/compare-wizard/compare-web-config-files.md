@@ -4,9 +4,6 @@ description: This section describes how to use SPDocKit to compare web.config fi
 author: Martin Pisacic
 date: 18/5/2017
 ---
-
-# Compare Web.config Files
-
 This section describes how to use SPDocKit to compare web.config files across different servers, web applications and web application zones.
 
 1. Navigate to the **Backstage Actions Screen** and click the **Compare Wizard** button.

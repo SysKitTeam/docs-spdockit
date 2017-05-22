@@ -4,9 +4,6 @@ description: This section describes how to use SPDocKit to compare SharePoint pe
 author: Martin Pisacic
 date: 18/5/2017
 ---
-
-# Compare SharePoint Permissions
-
 This section describes how to use SPDocKit to compare SharePoint permissions between any two selected SharePoint objects.
 
 1. Navigate to the **Backstage Actions Screen** and click the **Compare Wizard** button.
