@@ -9,7 +9,22 @@ description: This article outlines SPDocKit consultant license FAQs.
 The Consultant License allows you to document unlimited farms for the period of one year (subscription license) and the Farm License is a perpetual license but limited to a single farm.
 If you are doing SharePoint consulting for various customers, we recommend the Consultant License, but if you are an in-house consultant then the Farm License would be your choice.
 
-###Is there a license agreement available for the Consultant license? Also, does unlimited mean that installation is possible on all desired client farms?
+### What are the Consultant license restrictions?
+
+There are several restrictions in the Consultant edition:
+* Consultant License Call Home – once activated on a SharePoint server or on a workstation, the Consultant license has to be re-activated every 30 days.
+* The license file generated for the offline activation is only valid for 72 hours. If you try to activate SPDocKit with a license file generated more than 72 hours ago, the activation process will fail.
+* SPDocKit Service is not available with the Consultant license. This also means that the following features are unavailable due to this restriction:
+    * Automatic Queries and Rules*
+    * Automatic Snapshots*
+    * Automatic Data Retention*
+    * Automatic Email Subscriptions*
+    * Performance Monitoring
+    * Event Viewer Alerts
+
+*These actions can still be manually executed.
+
+### Is there a license agreement available for the Consultant license? Also, does unlimited mean that installation is possible on all desired client farms?
 
 Yes, the Consultant license allows you to document unlimited farms for the duration of the subscription term.
 
