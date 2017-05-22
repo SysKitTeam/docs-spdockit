@@ -13,7 +13,7 @@ While loading a SharePoint farm the following error message was displayed in the
 > *SQL Server ‘Server Name’ is unavailable. Please check your permissions.*
 
 ## Solution:
-The user running the application and the user under whose Service Account the Snapshot Service is running, if you have configured it, need to be granted rights to connect to the server for which this exception appears. 
+The user running the application and the account under which the SPDocKit Service is running, if you have configured it, need to be granted rights to connect to the server for which this exception appears. 
 
 Here is how to do it:
 
