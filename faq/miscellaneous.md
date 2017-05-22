@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-description: Troubleshooting questions
+description: General troubleshooting questions
 author: Mia Tomaić
 date: 22/5/2017
 ---

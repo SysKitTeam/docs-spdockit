@@ -5,6 +5,7 @@ private: true
 ---
 
 # [Miscellaneous](miscellaneous.md)
+# [Security](security.md)
 # Troubleshooting
 ## [Could not access content database](could-not-access-content-database-on-server.md)
 ## [Could not load Search Service Application](could-not-load-search-service-application.md)
