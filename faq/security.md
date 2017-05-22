@@ -5,7 +5,6 @@ author: Iva Novoselic
 date: 22/5/2017
 ---
 
-## Is SPDocKit secure?
 ### Can a saved farm configuration be viewed by everyone?
 
 As long as the folder where snapshots are stored is protected, no one will be able to open these files. The files are not encrypted. This is handled by Windows NTFS permissions.
@@ -17,18 +16,14 @@ Permissions are stored in the SPDocKit database. You should protect the database
 
 We use APIs, not HTTPS, to retrieve information. The product can only run on a SharePoint server, so there is no server-to-server communication that can be intercepted.
 
-## Owing to security restrictions, clients aren't able to grant access to SP production farms — is there a workaround?
+### Owing to security restrictions, clients aren't able to grant access to SP production farms — is there a workaround?
 Acceleratio has helped some of the largest organizations worldwide to work around this issue by installing SPDocKit on a testing or non-production server. This is the best solution if you are unable to access the SP production server/farm.
 
-## How does SPDocKit store passwords?
-### Problem: 
-Is storing passwords optional or mandatory?
-
-### Solution:
+### How does SPDocKit store passwords? Is storing passwords optional or mandatory?
 
 SPDocKit can store your passwords and products keys in the farm documentation files. If you decide to enter these, you will be prompted to provide an additional password (master password) that will be used to encrypt these files with AES 256bit encryption. You will only be able to retrieve these passwords if you provide the master password again.
 
-## How to exclude installation folder from antivirus scanning?
+### How to exclude installation folder from antivirus scanning?
 This article explains how to exclude installation folder from antivirus scanning in the following SharePoint applications:
 
 * Microsoft SharePoint Standard 2016
