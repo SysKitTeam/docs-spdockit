@@ -14,7 +14,7 @@ private: true
 ## [Failed at retrieving SQL Accounts from the following servers](failed-at-retrieving-sql-accounts-from-servers.md)
 ## [My permissions loading status is reported as ”Failed”](permissions-loading-status.md)
 ## [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)
-## [he service was unable to read Active Directory properties](service-was-unable-to-read-active-directory-properties.md)
+## [Service was unable to read Active Directory properties](service-was-unable-to-read-active-directory-properties.md)
 ## [SQL Server is unavailable](sql-server-unavailable.md)
 ## [All Personal Sites will be loaded](warning-personal-sites-loaded.md)
 # Troubleshooting SQL Server Connection
