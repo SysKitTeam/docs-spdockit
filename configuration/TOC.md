@@ -10,3 +10,4 @@ private: true
 # [Import and Export SPDocKit Settings](import-and-export-spdockit-settings.md)
 # [Configure SPDocKit on a Workstation](configure-spdockit-on-a-workstation.md)
 # [Configure Multiple databases on a Workstation](configure-multiple-databases-on-a-workstation.md)
+# [Configuration FAQ](configuration-faq.md)

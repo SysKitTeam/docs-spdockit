@@ -5,6 +5,12 @@ author: Iva Novoselic
 date: 22/5/2017
 ---
 
+### Does SPDocKit make changes to the farm?
+
+SPDocKit uses only Microsoft provided and supported SharePoint APIs and PowerShell to retrieve information about the structure of a SharePoint farm. During load operations nothing is being changed in the farm structure.
+
+Our load process does not require access to SharePoint databases with the exception of the SharePoint logging database that we use to gather feature usage. Access to this database is a supported way to retrieve information about usage. SharePoint administrators using SPDocKit can choose not to connect to this database during load operations.
+
 ### Can a saved farm configuration be viewed by everyone?
 
 As long as the folder where snapshots are stored is protected, no one will be able to open these files. The files are not encrypted. This is handled by Windows NTFS permissions.

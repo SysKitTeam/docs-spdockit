@@ -9,3 +9,4 @@ private: true
 # [SharePoint On-Premises User Permissions Requirements](sharepoint-on-premises-user-permissions-requirements.md)
 # [SharePoint Online User Permissions Requirements](sharepoint-online-user-permissions-requirements.md)
 # [Server Load Permission Requirements](server-load-permission-requirements.md)
+# [Requirements FAQ](requirements-faq.md)
