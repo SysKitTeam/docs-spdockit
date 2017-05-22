@@ -1,5 +1,5 @@
 ---
-title: Error: Configuration Wizard won’t connect to a provided server and database.
+title: Error Configuration Wizard won’t connect to a provided server and database.
 description: Connecting to Server and Database with SPDocKit
 author: Mia Tomaić
 date: 19/5/2017
