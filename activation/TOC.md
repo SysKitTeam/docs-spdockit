@@ -8,5 +8,5 @@ private: true
 # [Online Activation](online-activation.md)
 # [Offline Activation](offline-activation.md)
 # [Activation FAQ](activation-faq.md)
-# [Consultant License FAQ](consultant-license-faq)
+# [Consultant License FAQ](consultant-license-faq.md)
 
