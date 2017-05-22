@@ -18,7 +18,7 @@ private: true
 ## [Service was unable to read Active Directory properties](service-was-unable-to-read-active-directory-properties.md)
 ## [SQL Server is unavailable](sql-server-unavailable.md)
 ## [All Personal Sites will be loaded](warning-personal-sites-loaded.md)
-# Troubleshooting Server Connection
+# Troubleshooting SQL Server Connection
 ## [SPDocKit won’t connect to a provided server and database](configuration-wizard-connect-to-server-and-database.md)
 ## [Configure SQL server to listen on a specific port](configure-server-to-specific-port.md)
 ##  [Is SQL Server configured to use a named instance](configure-server-to-use-named-instance.md)
