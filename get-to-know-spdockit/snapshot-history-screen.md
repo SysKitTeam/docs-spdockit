@@ -1,3 +1,3 @@
 ---
-title: Snapshots History Screen
+title: Snapshots Screen
 ---
