@@ -4,7 +4,7 @@ slug: faq
 private: true
 ---
 
-# [Troubleshooting](troubleshooting.md)
+# Troubleshooting
 ## [Could not access content database ‘Database Name’ on server ‘Server Name'](could-not-access-content-database-on-server.md)
 ## [Could not load Search Service Application](could-not-load-search-service-application.md)
 ## [Could not load User Profile Service Application](could-not-load-user-profile-service.md)
@@ -25,3 +25,4 @@ private: true
 ## [Inbound traffic on TCP Port 1433 needs to be allowed on the SQL](inbound-traffic-on-tcp-port-1433.md)
 ## [Service user does not have rights to connect to the SQL server](service-user-doesn't-have-rights-to-connect-to-sql-server.md)
 ## [TCP/IP network traffic not enabled on the SQL Server](tcp-ip-network-traffic-not-enabled-on-sql-server.md)
+# [Miscellaneous](miscellaneous.md)
