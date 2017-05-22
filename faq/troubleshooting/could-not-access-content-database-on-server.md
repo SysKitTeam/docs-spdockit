@@ -4,9 +4,6 @@ description: Server Load Requirements for SPDocKit
 author: Mia Tomaić
 date: 18/5/2017
 ---
-
-# I am receiving “Could not access content database ‘Database Name’ on server ‘Server Name’.”
-
 ## Problem:
 While  trying to load SharePoint farm settings with SPDocKit I received the following message:
 > *Could not access content database ‘Database Name’ on server ‘Server Name’. The site collections from this database will not be loaded.*

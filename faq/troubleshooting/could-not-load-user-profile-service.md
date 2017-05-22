@@ -4,9 +4,6 @@ description: Server Load Requirements for SPDocKit
 author: Mia Tomaić
 date: 18/5/2017
 ---
-
-# I am receiving “Could not load User Profile Service Application, check your permissions or event log.”
-
 ## Problem:
 While trying to load our SharePoint farm with SPDocKit I received:  
 
