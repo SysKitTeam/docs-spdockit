@@ -12,7 +12,7 @@ While loading a SharePoint farm the following error message was displayed in the
 > *Failed at retrieving SQL Accounts from the following servers: ‘Server Name’. Check your permissions.*
 
 ## Solution:
-The user running the application and the user under whose Service Account the Snapshot Service is running, if you have configured it, need to be granted rights to read the registry on the remote server. To add a user account to the Local Administrators group do the following **on each server that you get this warning for:**
+The user running the application and the account under which the SPDocKit Service is running, if you have configured it, need to be granted rights to read the registry on the remote server. To add a user account to the Local Administrators group do the following **on each server that you get this warning for:**
 
 1. Click **Start**, right-click **Computer**, then click **Manage**.
 2. Navigate to **Configuration**, expand Local Users and Groups, then click **Groups**.
