@@ -6,7 +6,7 @@ description: This article explains how to use the Options wizard to adjust and c
 
 Here you can change the startup options:
 
-* whether to load last saved farm settings file on SPDocKit startup or not.
+* whether to load the last opened farm snapshot on SPDocKit startup or not.
 * enable Verbose logging – use this only for diagnostics purposes or when asked by the support team
 * modify how many site collections will be shown in the Site Topology report
 * modify the maximum number of principals that will be used to generate data for in throttled reports
@@ -30,23 +30,23 @@ This section allows you to configure the __SPDocKit Service running period__ and
 
 You can choose whether to save snapshots directly to the SPDocKit database or to the preferred disk location (or both).
 
-The time you set here is the time when the Service will start taking an automatic snapshot and collecting the data you defined in the __Snapshot Options__ and __Load Target__ tab of the Options Wizard. The __SPDocKit Service__ will start executing the snapshot task at the selected time, and will repeat that task whenever the selected recurrence period runs out. The minimal period is 4 hours, while the default value is 1 day. 
+The time you set here determines when the Service will start taking an automatic snapshot to collect the data you specified in the __Snapshot Options__ and __Load Target__ tabs of the Options Wizard. The __SPDocKit Service__ will repeat that task whenever the selected recurrence period runs out. The minimal period is 4 hours, while the default value is 1 day. 
 
-Enabling the __automatic index reorganization__ will result in better SPDocKit database space usage and performance when generating the reports. This job will always be run outside of regular business hours (around 5 AM).
+Enabling the __automatic index reorganization__ will result in better space usage and performance of the SPDocKit database. This job will always be run outside of regular business hours (around 5 AM by default).
 
 ## Snapshot Options
 
-This section allows you to choose what will be loaded by both the __SPDocKit Service__ when taking an __automatic snapshot__, and if you select the __Default__ mode in the Take Snapshot Wizard. The available options are: Personal Sites, Installed Programs and Available Updates, SQL Server Information, IIS Settings Information, Features and Solutions, Backup and Analyze Solution Files, Permissions, Active Directory Group Members, Content Types, Workflows and Project Server Settings and Projects.
+This section allows you to choose what will be loaded by both the __SPDocKit Service__ when taking an __automatic snapshot__, and if you select the __Default__ mode in the Take Snapshot wizard. The available options are: personal sites, installed programs and available updates, SQL Server information, IIS settings information, features and solutions, backup and analyze solution files, permissions, Active Directory group members, content types, workflows and Project Server settings and projects.
 
 __Farm settings__ are always loaded and cannot be excluded when taking a snapshot.
 
-You can also specify the load depth, which means how deep down you want to crawl your SharePoint with SPDocKit. Possible choices are: site collection. subsites, list and list items. Be aware that there are some dependencies related to the load depth selection and the available SharePoint information SPDocKit can retrieve. For example, if you want to load Content Types and Workflows, lists are the minimum required load depth. SPDocKit will warn you if your current selection is not possible and provide instruction messages for enabling certain load options.
+You can also specify the load depth, which means how deep you want to crawl your SharePoint with SPDocKit. Possible choices are: site collection. subsites, list, and list items. Be aware that there are some dependencies related to the load depth selection and the available SharePoint information SPDocKit can retrieve. For example, if you want to load content types and workflows, lists are the minimum required load depth. SPDocKit will warn you if your current selection is not possible and provide instruction messages for enabling certain load options.
 
 SPDocKit allows you to backup all *.wsp files in use by your farm, but you’ll need to define a location for this backup. This data can also be used later on to find out if there are any problems with the assemblies deployed on your farm.
 
-Finally, you can customize the __snapshots name template__. Under Snapshot Configuration, note the Snapshot Name Template. We have prepared the Farm Name, Snapshot Mode, which can be either Automatic or Manual, and Date, which you can customize any way you like, keywords that can be included in the name template. The default date format is: “Date:yyyy_MM_dd_HH_mm_ss”. You can change the format by rearranging the item order and delimiter type. You can observe this name if you go to the Snapshots tab and include the File Name column using the View ribbon button called __Choose Columns__.
+Finally, you can customize the __snapshots name template__. Under Snapshot Configuration, note the Snapshot Name Template field. We have prepared the Farm Name, Snapshot Mode (which can be either Automatic or Manual), and Date (which you can customize any way you like), keywords that can be included in the name template. The default date format is: “Date:yyyy_MM_dd_HH_mm_ss”. You can change the format by rearranging the item order and delimiter type. You can observe this name if you go to the Snapshots tab and include the File Name column using the View ribbon button called __Choose Columns__.
 
-To reduce the farm load time we recommend to unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
+To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
 
 ## Load Target
 
@@ -58,15 +58,15 @@ The selection you make here applies both for the __SPDocKit Service taking an au
 
 __This tab was removed in version 6.2__, as the Monitoring feature has been completely redesigned since. 
 
-If you would like to explore your farms’ SharePoint ULS and Windows event viewer logs, or track server health by monitoring performance counters, then [configure the SPDocKit Insights feature](#internal/how-to/monitoring/configure-automatic-monitoring-loading/). [Learn more about SPDocKit Insights](#internal/get-to-know-documentation-toolkit/monitoring-screen/) and how it can help you address all possible issues in your farm.
+If you would like to explore your farm's SharePoint ULS and Windows event viewer logs, or track server health by monitoring performance counters, then [configure the SPDocKit Insights feature](#internal/how-to/monitoring/configure-automatic-monitoring-loading/). [Learn more about SPDocKit Insights](#internal/get-to-know-documentation-toolkit/monitoring-screen/) and how it can help you address all possible issues in your farm.
 
 ## Data Retention
 
-In this section, the user can set how long data will be kept in the database. __Data records from the SPDocKit database and on the disk location older than the configured time value will be deleted.__ By default, __data records__ are stored for 6 months before the data retention  job removes them. SPDocKit service will execute this job every day at a random time between 1:30AM and 5AM.
+In this section, the user can set how long data will be kept in the database. __Data records from the SPDocKit database and on the disk older than the configured time value will be deleted.__ By default, __data records are stored for 6 months__ before the data retention job removes them. SPDocKit service will execute this job every day at a random time between 1:30AM and 5AM.
 
 Set the preferred database size and SPDocKit will warn you when the database size passes that threshold.
 
-If your SPDocKit database becomes too big, you can force a manual data retention using the __Execute__ button. Please note that this action will also try to execute SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – member of the sysadmin or db_owner role by default. The data will still be deleted but the database size will not decrease until this command is executed, either by using SPDocKit or directly on the SQL server.
+If your SPDocKit database becomes too big, you can force a manual data retention using the __Execute__ button. Please note that this action will also try to execute the SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – being member of the sysadmin server role or db_owner database role. Without those permissions, data will still be deleted, but the database size will not decrease. You can still attempt to manually decrease the size of SPDocKit's databases by executing the SHRINKDATABASE command manually after the data retention job has run.
 
 Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](#internal/get-to-know-documentation-toolkit/track-changes-screen/).
 
@@ -80,17 +80,17 @@ To enable __email__ as the preferred delivery method, configure outgoing email
 
 ## Email Settings
 
-Email Settings configuration has been relocated to the Subscription Settings tab in SPDocKit 6.2.0.
+The __Email Settings__ configuration has been relocated to the Subscription Settings tab in SPDocKit 6.2.0.
 
 ## Email Alerts
 
-__Email Alerts__ feature has been redesigned in SPDocKit 6.2.0. __Please note!__ Email alerts created with SPDocKit versions older than 6.2.0 will not be preserved when upgrading to version 6.2.0. You will have to create new alerts. 
+The __Email Alerts__ feature has been redesigned in SPDocKit 6.2.0. __Please note!__ Email alerts created with SPDocKit versions older than 6.2.0 will not be preserved when upgrading to version 6.2.0. You will have to create new alerts. 
 
 In order to create an alert containing the Farm Documentation, Farm Differences, or Best Practices Documentation reports, please follow these instructions.
 
 1. Enable automatic subscriptions in the [Subscription Settings](#internal/get-to-know-documentation-toolkit/backstage-screen/options-wizard/#panel-8) tab.
 2. [Create new alert](#internal/how-to/email-subscriptions/create-new-alert/) containing the Farm Documentation, Farm Differences or Best Practices Documentation reports.
-3. When adding a Farm Differences report, you will be prompted to the target farm (if there are multiple farms in your SPDocKit database). The source farm will already be set to the farm you picked in the General tab. If you want to compare the current farm state with the previous one, both filters must have the same farm selected. If you wish to compare differences for two different farms, change the destination farm filter accordingly.
+3. When adding a Farm Differences report, you will be prompted to select the target farm (if there are multiple farms in your SPDocKit database). The source farm will already be set to the farm you picked in the General tab. If you want to compare the current farm state with the previous one, both filters must have the same farm selected. If you wish to compare differences for two different farms, change the destination farm filter accordingly.
 3. Please note that alerts are sent only after a service takes a snapshot and only if there are differences detected. If you would like to receive these reports even if there are no differences detected, please [create a subscription](#internal/how-to/email-subscriptions/create-new-email-subscription/) instead of an alert in step 2.
 5. When done click Save & Close.
 

@@ -29,14 +29,6 @@ The application can be installed on a workstation with __Windows 7, Windows 8 or
 9. The installation wizard will unpack your files and you will be able to run the application from: __Start__ > __All Programs__ > __SPDocKit.__
 10. [Configure SPDocKit database and Snapshot Service](#internal/configuration/configure-spdockit/) settings.
 
-## Installation Guide Video
-<!---
-<iframe width="520" height="315" src="/https://www.youtube.com/watch?v=3O4fRDDlyJg" frameborder="0" allowfullscreen></iframe>
--->
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=3O4fRDDlyJg
-" target="_blank"><img src="http://img.youtube.com/vi/3O4fRDDlyJg/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="520" height="315" border="10" /></a>
-
 ## Tips&Tricks
 If during the installation you encounter any problems and wish to enable logging to help you resolve the problems, you can start the installation using the command prompt with the following argument:
 * */l=”full path” will create a log file on a specified location.
@@ -48,4 +40,5 @@ Note that this will work for both .exe and .msi installation files.
 * [How to: Create Farm Documentation](#internal/how-to/farm-documentation/create-farm-documentation/).
 * [How to: Compare SharePoint Farms](#internal/how-to/compare-wizard/compare-sharepoint-farms/).
 * [How to: Configure Automatic Snapshots](how-to/sharepoint-farm-snapshot/configure-automatic-snapshots/)
+
      
