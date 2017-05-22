@@ -5,7 +5,7 @@ author: Martin Pisacic
 date: 18/5/2017
 ---
 
-## Compare Web.config Files
+# Compare Web.config Files
 
 This section describes how to use SPDocKit to compare web.config files across different servers, web applications and web application zones.
 
@@ -13,10 +13,13 @@ This section describes how to use SPDocKit to compare web.config files across di
 
 2. Select **Web.config Files** for the comparison type and click **Next** to continue.
 
-3. If you would like to compare web.config files from two different servers or zones for a specific date, selecting just one snapshot is sufficient.  
-If you would like to compare the same web.config file but at different points in time, select two snapshots that correspond to the time period you would like to track changes to.  
-From version 6.1 onwards, farm snapshots are, by default, stored in SPDocKit database. If you have more than one farm connected to the same SPDocKit database, you will see snapshots from all these farms. If you are not using the SPDocKit database, snapshots will be stored in the Snapshots folder defined in [Service Settings](#internal/backstage-screen/options-wizard). The default Snapshots folder is C:\ProgramData\SPDocKit\Snapshots.  
-The Farm selection step will list all available snapshots from the Saved Farms folder, SPDocKit database or Snapshots folder. If the desired snapshot is not located in either of these locations, click **Import** to select the snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the compare wizard you will have to repeat the process. If you would like to [import these snapshots permanently](#internal/get-to-know-spdockit/snapshot-history-screen), click **Import** from the Snapshots tab.
+3. If you would like to compare web.config files from two different servers or zones for a specific date, selecting just one snapshot is sufficient.
+
+    If you would like to compare the same web.config file but at different points in time, select two snapshots that correspond to the time period you would like to track changes to.
+
+    From version 6.1 onwards, farm snapshots are, by default, stored in SPDocKit database. If you have more than one farm connected to the same SPDocKit database, you will see snapshots from all these farms. If you are not using the SPDocKit database, snapshots will be stored in the Snapshots folder defined in [Service Settings](#internal/backstage-screen/options-wizard). The default Snapshots folder is C:\ProgramData\SPDocKit\Snapshots.
+
+    The Farm selection step will list all available snapshots from the Saved Farms folder, SPDocKit database or Snapshots folder. If the desired snapshot is not located in either of these locations, click **Import** to select the snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the compare wizard you will have to repeat the process. If you would like to [import these snapshots permanently](#internal/get-to-know-spdockit/snapshot-history-screen), click **Import** from the Snapshots tab.
 
 4. In the **Compare Results** dialog box, you can adjust the filters such as the **Source** and the **Target** to compare and see the differences (if there are any) between two different web.config files associated with selected web applications. The differences are highlighted. You can use the buttons to navigate between the files while looking for differences.
 
