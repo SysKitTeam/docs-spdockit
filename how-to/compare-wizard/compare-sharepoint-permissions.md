@@ -11,7 +11,7 @@ This section describes how to use SPDocKit to compare SharePoint permissions bet
 
 1. Navigate to the **Backstage Actions Screen** and click the **Compare Wizard** button.
 
-2. Select **Permission** for the comparison type. Click **Next** to continue.
+1. Select **Permission** for the comparison type. Click **Next** to continue.
 
 ### **Object-to-Object Compare**
 
@@ -23,7 +23,7 @@ compare SharePoint object permissions for the entire history by selecting the sa
 
 1. Select **Object to Object Compare** subtype and click **Next** to proceed to the results screen.
 
-2. Choose a certain permission record by the date you want to compare from the **Permissions Date** dropdown menu. Select a web application and site collection, then drill down to the site, subsite, list and list item. Do this on both sides to compare the permissions for selected objects.
+1. Choose a certain permission record by the date you want to compare from the **Permissions Date** dropdown menu. Select a web application and site collection, then drill down to the site, subsite, list and list item. Do this on both sides to compare the permissions for selected objects.
 
 ### **Permission Differences**
 
@@ -31,7 +31,7 @@ The Permissions compare subtype allows you to track all permission changes at a 
 
 1. Select the **Permission Differences** subtype and click **Next** to proceed to the results screen.
 
-2. Select the dates for which you want to compare the permissions, and then select the site collection which SPDocKit will crawl for differences.
+1. Select the dates for which you want to compare the permissions, and then select the site collection which SPDocKit will crawl for differences.
     * The **Content Display level** filter enables you to define the granularity of this report. You can track changes down to the list item level.
     * **The Permissions** filter defines whether permissions will be compared only for objects with broken permission inheritance or for all objects.
     * The **Permission View Type** defines whether you will track only directly given permissions, or group memberships also.
