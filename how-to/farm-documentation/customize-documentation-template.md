@@ -3,7 +3,7 @@ title: Customize Documentation Template
 description: This section describes how you can use your own documentation template (docx) to generate SharePoint Farm documentation with the SPDocKit.
 ---
 
-### Quick Quide
+### Quick Guide
 
 To prepare a template for your documentation, you need to prepare a Word document template and customize Word styles. SPDocKit uses Word styles to generate customized output to match your corporate branding.
 
@@ -23,7 +23,7 @@ To prepare a template for your documentation, you need to prepare a Word documen
 
 ### Customizing Styles
 
-SPDocKit uses the following default Word styles to generate documentation, as follows:
+SPDocKit uses the following default Word styles to generate documentation:
 * __Heading1, Heading2, Heading3 and Heading4__ – used to generate section headings.
 * __Normal__ – used to generate paragraph text.
 * __Hyperlink__ – used for hyperlinks.
@@ -34,9 +34,9 @@ SPDocKit styles need to be customized to match your corporate or other desired b
 
 1. From the context menu choose __Modify__.
 
-1. The new dialog will open. Use it to make the desired changes (font, size, etc.)
+1. A new dialog will open. Use it to make the desired changes (font, size, etc.)
 
-Here are some of the [style basics in Word.](https://support.office.com/en-nz/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4)
+You can read more about [style basics in Word here.](https://support.office.com/en-nz/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4)
 
 ### Customizing Table Styles
 
@@ -59,12 +59,12 @@ To brand tables used in SharePoint farm documentation, you need to customize one
 
 To customize the table style do the following:
 
-1. Insert a table into the template document (you will remove it in the last step).
+1. Insert a table into the template document. (the table will be removed in the last step)
 
 1. From the __Table Tools__ contextual ribbon, expand __Table Styles__.
 
 1. Right-click the style you want to change and choose __Modify Table Style__.
 
-1. Make the changes to the table style to match your desired branding. Devote special attention to formatting the: whole table, header row, odd banned rows and even banned rows.
+1. Make the changes to the table style to match your desired branding. Pay special attention to the formatting of the whole table, header row, odd and even banded rows.
 
 1. Remove the table you inserted in step 1.
