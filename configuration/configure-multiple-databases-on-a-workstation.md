@@ -19,7 +19,7 @@ Alternatively, in the Backstage (File – > Configuration), under Configuration 
 
 Here you can input your Connection Name, the SQL Server you wish to use, and of course the database you want to connect to. To access the database, you can use either Windows or SQL authentication. Press OK and a Progress dialog will appear. This dialog will output any errors, if they have occurred. If no errors have occurred, you can __Close__ the window and continue on to the next steps.
 
-3. You will be returned to the main the Database Connection window. Select the connection you just made and click __Set as Active__. In a few moments, the database connection will change - and that is it!
+3. You will be returned to the Database Connection window. Select the connection you just made and click __Set as Active__. In a few moments, the database connection will change - and that is it!
 
 To change the database, you can use the __Database Connection__ dialog to list all created connections and the __Set as Active__ button to connect to a database. A much simpler solution is to use the dropdown. Click on the connection you want and the database will be switched immediately.
 

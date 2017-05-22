@@ -18,9 +18,9 @@ SPDocKit Insights is designed to allow SharePoint administrators to collect and 
 * SQL Server error log.
 * Performance counters data will also be collected with certain license editions.
 
-If you have more than one farm configured in your SPDocKit database, this feature will allow you to monitor all of your servers from multiple farms from one centralized place.
+If you have more than one farm configured in your SPDocKit database, this feature will allow you to monitor all of your servers, which could be from multiple farms, from one centralized place.
 Data is being collected continuously in real-time[*](#realTime) and stored in an index using the SPDocKit Insights Agent. 
-SPDocKit Insights enables you to filter and search the gathered log data by various fields ie. correlation ID, category, source, server, message, event ID ..., make more complex queries and is essentially a search engine for your log files.
+SPDocKit Insights enables you to filter and search the gathered log data by various fields (ie. correlation ID, category, source, server, message, event ID ...), make complex queries, and is essentially a search engine for all your log files.
 The collected performance data and the associated performance dashboards are also a useful addition to getting a handle on your farm.
 
 ## Quick Start Guide

@@ -62,6 +62,6 @@ The Workstation license is tied to the __workstation ID__ and cannot be used on 
 4. Click the __Activate__ button to start the activation process. Activation takes a couple of seconds and it is a one time process.
 
 
-### Related articles:
+### Related Articles:
 * [SPDocKit Offline Activation](#internal/activation/offline-activation/)
 * [Licensing FAQ](#internal/activation/licensing-faq/)
