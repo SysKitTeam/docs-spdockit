@@ -6,7 +6,7 @@ date: 22/5/2017
 ---
 
 ### Is the installation file the same for different SharePoint versions?
-No, the installation file can be used to install SPDocKit on any SharePoint version or to a workstation.
+Yes, the same installation file can be used to install SPDocKit on any SharePoint version or to a workstation.
 
 ### Error: Service won't start or times out when starting. 
 I’m trying to start SPDocKit service but it will not start. The following error events appear in the application log:

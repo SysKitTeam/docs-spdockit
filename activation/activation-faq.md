@@ -1,8 +1,8 @@
 ---  
-title: Licensing FAQ
+title: Activation FAQ
 author: Matija Hanzic  
 date: 16/5/2017  
-description: This article outlines licensing FAQs.
+description: This article outlines activation FAQs.
 --- 
 
 ### What happens during product activation?
