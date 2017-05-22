@@ -49,4 +49,4 @@ private: true
 
 # SPDocKit Insights
 ## [Configure Data Collection](configure-data-collection.md)
-## [SPDocKit Insights Search Guide](insights-search-guide.md)
+## [Write Search Queries](insights-search-query-guide.md)

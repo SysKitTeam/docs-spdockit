@@ -1,11 +1,11 @@
 ---
-title: SPDocKit Insights Search Guide
+title: SPDocKit Insights Search Query Guide
 description: How to write search queries
 author: Vinko Bedek
 date: 19/5/2017
 ---
 
-This article will explain how to use SPDocKit Event Viewer search option for the optimal results.
+This article will explain how to write SPDocKit Insights search queries.
 
 ## Search
 A search query consists of terms and operators. By default, the AND operator is utilised when constructing queries. Terms can be a single word or a phrase. A phrase is a group of words enclosed with double quotes.
