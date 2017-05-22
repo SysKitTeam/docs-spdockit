@@ -17,16 +17,16 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
 ## SPDocKit Insights Agent Required Configuration
 1. [Install SPDocKit Insights Agent](#internal/installation/installation-guide/) preferably on a **server that is not part of your SharePoint farm**. Run the SPDocKit setup file and select **SPDocKit Insights Agent** feature in the **advanced** install mode. Check [system requirements](#internal/requirements/system-requirements/) for this server.
 2. Start the **SPDocKit Insights Configuration Utility** to configure the installed SPDocKit Insights Agent.
-    - Will be started automatically after installation if the SPDocKit Insights Agent if installed on a separate server.
+    - Will be started automatically after installation if the SPDocKit Insights Agent is installed on a separate server.
     - Also available from the SPDocKit start screen if installed on the same server as SPDocKit.
     - Also available from the Windows start menu.
 3. Configure the SPDocKit Insights Agent, enter the following:
-    - **Service Account** - the service account you specify here will be used to collect the logs from the servers in your farm. You need to ensure the provided account has the following rights:
+    - **Service Account** - the service account you specify here will be used to collect logs from the servers in your farm. You need to ensure the provided account has the following rights:
         - **Log On As a Service Right** – this right will be given to the account automatically by the configuration utility.
         - **Local administrator on SharePoint servers** – the service account needs to be a member of the Local Administrators group on all SharePoint servers. This is required in order to be able to read log files from the disk.
         - **Local administrator on the Local server** – the service account needs to be a member of the Local Administrators group on the server where the SPDocKit Insights Agent is installed.
     - **SPDocKit Database** 
-        - **SPDocKit\_service\_role** on the SPDocKit database – provided service account needs to be granted **SPDocKit\_service\_role** role on the **SPDocKit database**.
+        - **SPDocKit\_service\_role** on the SPDocKit database – the provided service account needs to be granted the **SPDocKit\_service\_role** role on the **SPDocKit database**.
         - **Index Location** – you need to ensure that the provided service account has write access to the index location directory. The directory for the index must be empty or contain an existing index.  It is recommended not to place the index on the system drive. Be careful if you plan to use the system drive for index location, as it can be quickly filled up.
     - **Port To Use** - this is the port that the SPDocKit Insight Agent will use to communicate with the SPDocKit Insights application. By default, port 7895 is set, but you can change it to suit your needs.
     - **Max Index Size** – by default we set this value to 200GB with a maximum of 1TB. Feel free to change it to suit your needs and hardware capabilities.
@@ -38,7 +38,7 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
 ## SPDocKit Insights Additional Configuration
 Additional configuration is done by means of the SPDocKit Insights application.
 
-1. [Install SPDocKit Insights](#internal/installation/installation-guide/) to **any** server, with or without SPDocKit. Run the SPDocKit setup file and select the Insights Viewer feature in the **advanced** install mode.
+1. [Install SPDocKit Insights](#internal/installation/installation-guide/) on **any** server, with or without SPDocKit. Run the SPDocKit setup file and select the Insights Viewer feature in the **advanced** install mode.
 2. Start SPDocKit Insights.
     - From the Windows start menu.
     - If SPDocKit was installed with SPDocKit Insights, SPDocKit Insights is available from the SPDocKit start page.
@@ -56,7 +56,7 @@ Additional configuration is done by means of the SPDocKit Insights application.
 
 ### Available farm settings:
 - **Assigned Agent**
-    - When the SPDocKit Insights Agent starts for the first time, it will be associated with **all** the farms in your SPDocKit database. If at some point you connect another farm to your SPDocKit Database, it will be associated with the first free active agent.
+    - When the SPDocKit Insights Agent starts for the first time, it will be associated with **all** the farms in your SPDocKit database. If at some point you connect another farm to your SPDocKit database, it will be associated with the first free active agent.
     - If the agent associated by default is not satisfactory, change this option.
     - If for some reason you wish to stop monitoring a farm, just select _None_ as the desired agent.
     - One agent can be assigned to multiple farms. 
@@ -65,7 +65,7 @@ Additional configuration is done by means of the SPDocKit Insights application.
     - All of the ULS categories and sources are preselected by default.
 - **Windows Event Log Collection Configuration**
     - Disabled by default. 
-    - Configurable levels and event sources to monitor.
+    - Configure levels and event sources to monitor.
 - **SQL Collection Configuration**
     - Disabled by default.
 - **Performance Monitoring**
@@ -81,7 +81,7 @@ Additional configuration is done by means of the SPDocKit Insights application.
         - Data collection will stop when this limit is reached. 
 - **Remove Agent** -only supported for an inactive agent.
     - Uninstall the selected SPDocKit Insights Agent form the machine where it is located.
-        - You can do so by uninstalling SPDocKit completely, or by modifying your current installation. Navigate to SPDocKit installation file, choose the option Modify Available Options, uncheck the Collection Service feature and finish the installation wizard.
+        - You can do so by uninstalling SPDocKit completely, or by modifying your current installation. Navigate to the SPDocKit installation file, choose the option Modify Available Options, uncheck the Collection Service feature and finish the installation wizard.
     - Wait a couple of minutes for the agent to register as offline.
     - Remove the agent by using this option.
 
