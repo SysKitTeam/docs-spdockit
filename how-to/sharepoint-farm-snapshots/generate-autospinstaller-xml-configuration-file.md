@@ -28,7 +28,7 @@ To generate an AutoSPInstaller XML configuration file, follow these instructions
 
 1. Specify the details of the farm account and configuration for your new farm. Click **Next** to continue.
 
-1. In the next few steps, define the **Server Mappings**, **SQL Server Mappings** and **Account Mappings**. Click **Next** to continue. Current farm server and account names will be listed under the source column. Use the Replace option define the target farms server names and account names.
+1. In the next few steps, define the **Server Mappings**, **SQL Server Mappings** and **Account Mappings**. For SharePoint 2016 FP1 farms, you can define __MinRoles__ as well. Click **Next** to continue. Current farm server and account names will be listed under the source column. Use the Replace option define the target farms server names and account names.
 
 1. Provide the passwords for your managed accounts and additional service app settings. Click **Next** to continue. Use the little orange key button to autofill required credentials.
 
