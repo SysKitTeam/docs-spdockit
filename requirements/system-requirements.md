@@ -53,7 +53,7 @@ Please note that we advise you __not to install the SPDocKit Insights Agent on a
   * CPU – any standard server CPU
   * Memory – up to 500 MB RAM
   * Installation – 100 MB disk space
-  * Index – 200GB disk space required to store the index containing all the ULS logs. It is recommended to change the index location to a secondary drive.
+  * Index – we recommend minimum of 200GB disk space required to store the index containing all the data (ULS, SQL logs and Windows Event logs). However, this largely depends on your infrastructure and how big your farm/s are. It is recommended to change the index location to a secondary drive.
 
 ## SharePoint Online
 
