@@ -13,7 +13,7 @@ While trying to load the SharePoint farm the following errors occurred:
 * Error occurred while loading Rule Definitions.
 
 There is an error message in the event log:
-> *>;System.Data.SqlClient.SqlException: Cannot open database “SharePoint_AdminContent_bfe62573-2067-4090-a95a-39a13ba51086” requested by the login.  
+> *System.Data.SqlClient.SqlException: Cannot open database “SharePoint_AdminContent_bfe62573-2067-4090-a95a-39a13ba51086” requested by the login.  
 The login failed.  
 Login failed for user ‘CONTOSO\bob’*.
 

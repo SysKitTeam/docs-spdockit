@@ -64,4 +64,4 @@ The Workstation license is tied to the __workstation ID__ and cannot be used on 
 
 ### Related Articles:
 * [SPDocKit Offline Activation](#internal/activation/offline-activation/)
-* [Licensing FAQ](#internal/activation/licensing-faq/)
+* [Licensing FAQ](#internal/activation/activation-faq/)

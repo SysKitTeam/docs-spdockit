@@ -16,7 +16,7 @@ Inbound traffic on TCP Port 1433 needs to be allowed on the SQL server.
 3. Click on **Inbound Rules**.
 4. Select **New Rule**.
 5. Select the Port type of the rule.
-6. Specify the ports 1433 and 1434 to which this rule applies inside Specific local ports area. In this case, 1433 stands for the SQL server, and 1434 for the SQL server browser.
+6. Specify the ports 1433 and 1434 to which this rule applies inside the Specific local ports area. In this case, 1433 stands for the SQL server, and 1434 for the SQL server browser.
 7. In this step, leave the default selection: Allow the connection.
 8. Select the profiles for which this rule applies.
 

@@ -10,7 +10,7 @@ This article will explain how to write SPDocKit Insights search queries.
 ## Search
 A search query consists of terms and operators. By default, the AND operator is utilised when constructing queries. Terms can be a single word or a phrase. A phrase is a group of words enclosed with double quotes.
 
-Input your query in the searchbox then press enter or the search button to start the search. Once you have a set of results, you can easily drill down by using the refiners on the left side of the screen or by clicking on various links in the result text.
+Input your query in the searchbox, then press enter or the search button to start the search. Once you have a set of results, you can easily drill down by using the refiners on the left side of the screen or by clicking on various links in the result text.
 
 ## Fields
 By default, all fields are searched. To limit your term to a field, type the field name followed by a colon **":"** and your term. 
@@ -55,7 +55,7 @@ Use parantheses to form subqueries. **(Server:Server1 OR Server:Server2) AND Lev
 You can also write your queries in the following way **Server:(Server1 OR Server2)**
 
 Clause grouping is recommended when writing queries with more than two clauses and different logical operators.
-Ie. instead of **test error OR Server:Server1** use the query: **(test error) OR Server:Server1**
+Ie. instead of **test error OR Server:Server1** use the query: **(test error) OR Server:Server1**.
 
 ## Special characters
 The following is a list of special character that are used in the query syntax.
@@ -90,7 +90,7 @@ There are a couple of exceptions:
 
 **Example 9:** Query **SPUpdatedConcurrencyException Source:"SharePoint Server Search"** will match events that contain the word "SPUpdatedConcurrencyException" and have a source of SharePoint Server Search. Note the use of double quotations since the Source is comprised of multiple words.
 
-## Fields by result type 
+## Fields by Result Type 
 <a name="fields" ></a>
 ### ULS fields
 

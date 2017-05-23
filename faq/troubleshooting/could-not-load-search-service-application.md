@@ -4,9 +4,6 @@ description: Server Load Requirements for SPDocKit
 author: Mia Tomaić
 date: 18/5/2017
 ---
-
-# Could not load Search Service Application, check your permissions or event log.
-
 ## Problem:
 While trying to load a SharePoint farm I encountered the following error:
 > *Could not load Search Service Application, check your permissions or event log.*

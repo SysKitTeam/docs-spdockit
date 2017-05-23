@@ -4,9 +4,6 @@ description: Server Load Requirements for SPDocKit
 author: Mia Tomaić
 date: 18/5/2017
 ---
-
-# I am receiving “Could not access content database ‘Database Name’ on server ‘Server Name’.”
-
 ## Problem:
 While  trying to load SharePoint farm settings with SPDocKit I received the following message:
 > *Could not access content database ‘Database Name’ on server ‘Server Name’. The site collections from this database will not be loaded.*
@@ -14,7 +11,7 @@ While  trying to load SharePoint farm settings with SPDocKit I received the foll
 ## Solution:
 In order for SPDocKit to load data from site collections, the user account running the load must be a member of the **SharePoint_Shell_Access** role on each of the content databases.
 
-The process of adding a user account to the role must be repeated each time a new content database is added to the SharePoint farm. Both the SPDocKit **console user** and **service account** must be added to this role. To add user account to **SharePoint_Shell_Access** role:
+The process of adding a user account to the role must be repeated each time a new content database is added to the SharePoint farm. Both the SPDocKit **console user** and **service account** must be added to this role. To add a user account to the **SharePoint_Shell_Access** role:
 
 1. Open **SharePoint Management Shell**.
 2. Type the following PowerShell command: *Add-SPShellAdmin -UserName DOMAIN\YourAccount* [(click here to learn more)](https://technet.microsoft.com/en-us/library/ff607596.aspx).

@@ -14,7 +14,7 @@ While trying to load our SharePoint farm with SPDocKit I received:
 ## Solution:
 Supported SharePoint versions: SharePoint 2010, SharePoint 2013, SharePoint 2016
 
-Your account or user that was running the SPDocKit does not have the proper privileges to load the User Profile Service Application properties. For that reason, SPDocKit is not able to differentiate which sites are personal, so all of them are loaded. Depending on the SharePoint farm size, this can significantly increase the farm loading time.
+Your account or user that was running SPDocKit does not have the proper privileges to load the User Profile Service Application properties. For that reason, SPDocKit is not able to differentiate which sites are personal, so all are loaded. Depending on the SharePoint farm size, this can significantly increase the farm loading time.
 
 Here is what you need to do:
 1. Open the **SharePoint Central Administration** of your farm.

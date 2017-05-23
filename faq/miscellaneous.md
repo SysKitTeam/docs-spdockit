@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-description: Troubleshooting questions
+description: General troubleshooting questions
 author: Mia Tomaić
 date: 22/5/2017
 ---
@@ -8,33 +8,33 @@ date: 22/5/2017
 # Troubleshooting
 
 ## How can I update the product versions offline?
-[Here](https://customers.acceleratio.net/Utilities/productversions.aspx)  is the link for the offline update. 
+[Here](https://customers.acceleratio.net/Utilities/productversions.aspx) is the link for the offline update. 
 
 Click the **Generate button**. Download **all of** the files, copy them to the server that has no internet access and overwrite the existing files (default location: **%ProgramData%\SPDocKit\Settings**).
 
-After you copy these files to the installation folder please restart the application in order to apply the changes.
+After you copy these files, please restart the application in order to apply the changes.
 
-## I am getting "The service did not respond to the start or control request in timely fashion".
+## I am getting "The service did not respond to the start or control request in a timely fashion".
 
-This is the issue on servers that don’t have access to the Internet. The Windows server will try to check the code signing certificate that was used to sign the application executables. Allow access to the Internet for the server, then start the service and the issue is solved. Please note that you need to do this only once—the first time Windows will check the Acceleratio code signing certificate and from then on it will work fine.
+This is the issue on servers that don’t have access to the Internet. The Windows server will try to check the code signing certificate that was used to sign the application executables. Allow Internet access on the server, then start the service and the issue is solved. Please note that you need to do this only once — the first time Windows will check the Acceleratio code signing certificate and from then on it will work fine.
 
 If this is not possible [contact us](https://www.spdockit.com/support/contact-us/) and we will provide you with a certificate and instructions on how to import it to your problematic server.
 
 ## There is a firewall between SharePoint and the SQL Server. Which ports should be opened for SPDocKit?
 
-SPDocKit uses WMI which connects over RPC to fetch information about the servers configuration. This information is displayed in the Farm Explorer -> Servers List (disk, processor, memory). This requires that the RPC service is running on the remote machine and as well that the following inbound rule is enabled in the firewall to allow connections: **RPC TCP 135 (COM+ network access (DCOM-IN))**
+SPDocKit uses WMI which connects over RPC to fetch information about the server's configuration. This information is displayed in the Farm Explorer -> Servers List (disk, processor, memory). This requires that the RPC service is running on the remote machine and that the following inbound rule is enabled in the firewall to allow connections: **RPC TCP 135 (COM+ network access (DCOM-IN))**
 
 ## I am getting "This product cannot be activated since it is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator".
 
 ### **Problem:**
 
-When I tried to load a SharePoint farm with the SPDocKit I received the following error:
+When I tried to load a SharePoint farm with SPDocKit I received the following error:
 
 >*This product cannot be activated because this is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator.*
 
 ### **Solution:**
 * The product needs to run on the same server as SharePoint, so make sure SharePoint is installed on the server where you are trying to load the farm.
-* In order to load the SharePoint farm you need to have the proper privileges. Check [this article](#internal/requirements/user-permissions-requirements) for more details.
+* In order to load the SharePoint farm you need to have proper privileges. Check [this article](#internal/requirements/user-permissions-requirements) for more details.
 
 ## Error occurred while upgrading to the latest version.
 
@@ -46,7 +46,7 @@ You might encounter the following error if you are upgrading to the latest versi
 When this error occurs you are not able to start the application and you cannot Remove/Repair it from Control Panel > Programs.
 
 ### **Solution:**
-The installation was not able to remove the Windows service. The existing installation needs to be repaired then removed before you can proceed with the upgrade.
+The installation was not able to remove the Windows service. The existing installation needs to be repaired and then removed before you can proceed with the upgrade.
 
 Here is what you need to do:
 1. Obtain the original MSI file you used to install the product (product version e.g. 1.0.3 is listed in **Control Panel > Programs**, but you can [contact us](https://www.spdockit.com/support/contact-us/) to obtain the original installation).
@@ -54,12 +54,12 @@ Here is what you need to do:
 3. Use **Control Panel > Programs** to uninstall the application.
 4. Once uninstalled, you can **install** the latest version as planned.
 
-During this procedure you might get the “Service Marked for Deletion” error message. In such a case, make sure the Services dialog box is not running **(Control Panel > Administrative Tools > Services)**. If the dialog box is not running you will have to restart your computer before proceeding to the next step.
+During this procedure you might get the “Service Marked for Deletion” error message. In that case, make sure the Services dialog box is not running **(Control Panel > Administrative Tools > Services)**. If the dialog box is not running you will have to restart your computer before proceeding to the next step.
 
 ## Configuring permissions for SharePoint 2007
 
 ### **Problem:**
-The account on which I have installed the SPDocKit has permissions to run it, but two other accounts receive errors when trying to load the farm with all the webapps. The users have both farm administrator and local administrator rights. The problem occurs on SharePoint 2007.
+The account with which I have installed SPDocKit has permissions to run it, but two other accounts receive errors when trying to load the farm with all the webapps. The users have both farm administrator and local administrator rights. The problem occurs on SharePoint 2007.
 
 ### **Solution:**
 The user account that you use to log on to the web server is not a member of either of the following roles:
@@ -68,7 +68,7 @@ The user account that you use to log on to the web server is not a member of eit
 
 For more information please see [this article](https://support.microsoft.com/en-us/help/896148/you-receive-error-messages-when-you-try-to-use-the-stsadm-exe-command-line-tool-to-perform-certain-administrative-operations-in-windows-sharepoint-services).
 
-## Should this program only be opened on the server console or it is okay to open it via Remote Desktop?
+## Should this program only be opened on the server console or is it okay to open it via Remote Desktop?
 
 The application will work on both the console and the Remote Desktop session.
 
@@ -105,8 +105,8 @@ Stop the SPDocKit Service in the services MMC console, then open the Command Pro
 The service will be reinstalled with the new installation.
 
 ## SQL server and SharePoint product versions warning
-We have an internal list of SQL server and SharePoint product versions so that we can match build numbers to description. For example, if your SQL server build number is 10.50.1765.0, you will see “SQL Server 2008 R2 CU6, 21 Feb 2011” in your reports.  
-If the warning appears as in SPDocKit, you can click the Update button and it will just get the data from our server if you have Internet access on your servers.
+We have an internal list of SQL Server and SharePoint product versions so that we can match build numbers to description. For example, if your SQL server build number is 10.50.1765.0, you will see “SQL Server 2008 R2 CU6, 21 Feb 2011” in your reports.  
+If the warning appears as in SPDocKit, you can click the Update button and SPDocKit will fetch the internal list from our servers, if you have Internet access on your servers.
 
 ## I am receiving a 2103 error code during installation. How do I fix it?
 In order to install SPDocKit on a Windows server you will have to run it with administrative privileges.
@@ -134,4 +134,4 @@ When trying to view Content & Usage Reports: Number of Unique Visitors, List of 
 >*System.Data.SqlClient.SqlException: Cannot open database “WSS_UsageApplication” requested by the login. The login failed. Login failed for user CONTOSO\user.*
 
 ### **Solution:**
-1. make sure that the user account running SPDocKit has the proper [permission privileges](#internal/requirements/user-permission-requirements). Specifically, the user must be a member of **SharePoint_Shell_Access** role on **Usage and Health Database**.
+1. Make sure that the user account running SPDocKit has the proper [permission privileges](#internal/requirements/user-permission-requirements). Specifically, the user must be a member of **SharePoint_Shell_Access** role on **Usage and Health Database**.

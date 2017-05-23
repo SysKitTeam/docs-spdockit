@@ -7,9 +7,9 @@ All files and folders should be named using lowercase letters, spaces and any sp
 
 # General file structure
 Root directory contains index.md. This is the landing page for this product's docs.
-Root direcotry also contains TOC.md. This file dictates the order of root categories.
+Root directory also contains TOC.md. This file dictates the order of root categories.
 
-Add directories to create categories and place files within. Update TOC.md accordingly.
+Add directories to create categories and place files within. Update TOC.md accordingly. See existing TOS.md file for examples of this.
 Each root directory must contain his own TOS.md. This file dictates order of articles in navigation.
 Directories within this one should not have TOC.md files.
 Every TOC.md file should have explicitly set slug attribute.
@@ -23,6 +23,7 @@ You can add any metadata you need in header block of every MD file.
 Example:  
     ---  
     title: Quick Start Guide  
+    description: Short description of what article describes.  
     author: Some Person  
     date: 21/2/2017  
     ---  

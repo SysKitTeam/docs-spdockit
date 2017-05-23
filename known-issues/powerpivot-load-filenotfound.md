@@ -19,12 +19,12 @@ If the error still occurs, please do the following:
 1. Determine the correct major version [MajorVersion] of “PowerPivot for SharePoint Add-in”. You can do this by viewing the installed programs list and locating Microsoft SQL Server PowerPivot for SharePoint.
 1. After you have the correct version, open the SPDocKit.exe.config file. It should be located in the installation directory. By default, this is C:\Program Files\Acceleratio\SPDocKit.
 1. Inside the runtime tag, add the following as a child node and save the file:
-      ``` <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
-    <dependentAssembly>
-    <assemblyIdentity name="Microsoft.AnalysisServices.SPAddin" publicKeyToken="89845DCD8080CC91" culture="neutral" />
-    <bindingRedirect oldVersion="0.0.0.0-[MajorVersion].0.0.0" newVersion="[MajorVersion].0.0.0" />
-    </dependentAssembly>
-    </assemblyBinding>   ```
+      ```<assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">  
+    <dependentAssembly>  
+    <assemblyIdentity name="Microsoft.AnalysisServices.SPAddin" publicKeyToken="89845DCD8080CC91" culture="neutral" />  
+    <bindingRedirect oldVersion="0.0.0.0-[MajorVersion].0.0.0" newVersion="[MajorVersion].0.0.0" />  
+    </dependentAssembly>  
+    </assemblyBinding>```
 1. Repeat the process for Acceleratio.SPDocKit.Service.exe.config if you are using automatic snapshots.
 1. Restart SPDocKit.
 1. Restart the SPDocKit service if you are using automatic snapshots.

@@ -1,5 +1,5 @@
 ---
-title: Error: Configuration Wizard won’t connect to a provided server and database.
+title: Error Configuration Wizard won’t connect to a provided server and database.
 description: Connecting to Server and Database with SPDocKit
 author: Mia Tomaić
 date: 19/5/2017
@@ -8,7 +8,7 @@ date: 19/5/2017
 # Error: Configuration Wizard won’t connect to a provided server and database.
 
 ## Problem:
-The SQL Server Browser service is not running. When this service is not running you cannot connect on named instances.
+The SQL Server Browser service is not running. When this service is not running you cannot connect to named instances.
 
 ## Solution:
 The SQL Server Browser service needs to be up and running.

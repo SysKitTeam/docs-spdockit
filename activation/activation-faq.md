@@ -1,9 +1,21 @@
 ---  
-title: Licensing FAQ
+title: Activation FAQ
 author: Matija Hanzic  
 date: 16/5/2017  
-description: This article outlines licensing FAQs.
+description: This article outlines activation FAQs.
 --- 
+### Is the trial version a Farm or Consultant License?
+The trial is the latest released application version containing all available application features.
+
+### What are the trial limitations?
+The trial version of SPDocKit has a couple of limitations:
+* Limited information in the generated documentation and exported reports. Export to .docx or .xlsx formats is not available. You can see examples of how exported [reports](https://www.spdockit.com/resources/reports/) and [documentation](https://www.spdockit.com/resources/documentation-examples/) look like in the full version.
+* Best Practices reports are limited to the dashboard overview.
+* Permissions management is limited to 20 actions.
+* The comparison feature is completely functional when comparing the same farm
+    * Comparison of different farms with snapshots made with the trial software is not possible.
+
+If you would like to see more about the limited features, [contact us](https://www.spdockit.com/support/contact-us/) and we will be more than happy to organize a demo for you and your colleagues to show SPDocKit at its full strength.
 
 ### What happens during product activation?
 
@@ -28,6 +40,7 @@ If you cannot find your product activation code, you should send a support reque
 ### How do I activate my product?
 
 You can activate your product 24 hours a day, seven days a week on the Internet. Product activation requires you to type in your product activation code and press activate. You must have an active connection to the Internet in order to activate your product.
+If you do not have access to internet, please use [offline activation](#internal/activation/offline-activation).
 
 ### What does Acceleratio Ltd. do with the information sent during the product activation process?
 
@@ -57,28 +70,15 @@ Product reactivation is required only under exceptional circumstances – if, fo
 
 One SPDocKit farm license can be activated on all servers within the same SharePoint farm. If you want to use SPDocKit for multiple SharePoint farms, you will need to purchase an additional farm license for every farm you wish to document.
 
-### What are the Consultant license restrictions?
 
-There are several restrictions in the Consultant edition:
-* Consultant License Call Home – once activated on a SharePoint server or on a workstation, the Consultant license has to be re-activated every 30 days.
-* The license file generated for the offline activation is only valid for 72 hours. If you try to activate SPDocKit with a license file generated more than 72 hours ago, the activation process will fail.
-* SPDocKit Service is not available with the Consultant license. This also means that the following features are unavailable due to this restriction:
-    * Automatic Queries and Rules*
-    * Automatic Snapshots*
-    * Automatic Data Retention*
-    * Automatic Email Subscriptions*
-    * Performance Monitoring
-    * Event Viewer Alerts
+### We have different SharePoint versions running in our environments — does this cost extra in terms of licensing?
 
-*These actions can still be manually executed.
+Acceleratio does not charge extra for different SharePoint versions simultaneously running in your environments.
 
-### What are the trial limitations?
+### How much does it cost to license non-production farms? (Non-production farms include any farm that is not considered production,e.g. DEV, UAC, QA)
 
-The trial version of SPDocKit has a couple of limitations:
-* Limited information in the generated documentation and exported reports. Export to .docx or .xlsx formats is not available. You can see examples of how exported [reports](https://www.spdockit.com/resources/reports/) and [documentation](https://www.spdockit.com/resources/documentation-examples/) look like in the full version.
-* Best Practices reports are limited to the dashboard overview.
-* Permissions management is limited to 20 actions.
-* The comparison feature is completely functional when comparing the same farm
-    * Comparison of different farms with snapshots made with the trial software is not possible.
+SPDocKit Non-Production licenses can only be used on non production environments, such as DEV, UAC or QA. If you have more non production than production farms, then the charge for non-production licenses is significantly cheaper than production licenses. [Contact us](https://www.spdockit.com/support/contact-us/) with the info on how many production vs. non production farms you have, and we will put together a quote that best suits your needs.
 
-If you would like to see more about the limited features, [contact us](https://www.spdockit.com/support/contact-us/) and we will be more than happy to organize a demo for you and your colleagues to show SPDocKit at its full strength.
+### Where can I find the EULA for SPDocKit?
+Our End User License Agreement is located at the following [link](https://www.spdockit.com/eula).
+

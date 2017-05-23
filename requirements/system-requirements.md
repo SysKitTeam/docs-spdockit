@@ -73,6 +73,6 @@ From version 7.0, SPDocKit offers support for SharePoint Online. SPDocKit Online
 User must have [proper privileges](#internal/requirements/sharepoint-online-user-permissions-requirements/) to run the application.
 
 ### Learn More
-* [Installation Guide](#internal/installation/installation-guide.md)
-* [How to create farm documentation](#internal/how-to/farm-documentation/create-farm-documentation.md)
-* [How to compare SharePoint farms](#internal/how-to/compare-wizard/compare-sharepoint-farms.md)
+* [Installation Guide](#internal/installation/installation-guide)
+* [How to create farm documentation](#internal/how-to/farm-documentation/create-farm-documentation)
+* [How to compare SharePoint farms](#internal/how-to/compare-wizard/compare-sharepoint-farms)
