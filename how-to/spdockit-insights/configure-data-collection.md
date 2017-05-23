@@ -49,41 +49,9 @@ Additional configuration is done by means of the SPDocKit Insights application.
     - ULS event of **Unexpected**, **Exception** and **Critical** level will be collected.
     - Windows Event Log and SQL logs will **not** be collected.
     - Performance data will be collected if supported by the SPDocKit license edition.
-4. To customize the default settings click the **Settings button** located in the bottom left corner.
-5. On the settings screen the available settings are divided into:
-    - Farm settings scoped by each farm.
-    - Agent settings scoped by each agent.
 
-### Available farm settings:
-- **Assigned Agent**
-    - When the SPDocKit Insights Agent starts for the first time, it will be associated with **all** the farms in your SPDocKit database. If at some point you connect another farm to your SPDocKit database, it will be associated with the first free active agent.
-    - If the agent associated by default is not satisfactory, change this option.
-    - If for some reason you wish to stop monitoring a farm, just select _None_ as the desired agent.
-    - One agent can be assigned to multiple farms. 
-- **ULS Collection Configuration**
-    - Here you can change which ULS event levels you want to collect. You can choose from the standard SharePoint ULS levels.
-    - All of the ULS categories and sources are preselected by default.
-- **Windows Event Log Collection Configuration**
-    - Disabled by default. 
-    - Configure levels and event sources to monitor.
-- **SQL Collection Configuration**
-    - Disabled by default.
-- **Performance Monitoring**
-    - Enabled by default. Availability depends on the SPDocKit license edition.
-
-### Available Agent Options
-- **Enable/Disable data collection**
-    - Will stop/start data collection (log and performance data) from all farms associated with the selected SPDocKit Insights Agent.
-- **Collection Interval**
-    - How often to collect log data (default is 15 seconds).
-- **Data retention period**
-- **Max index size**
-        - Data collection will stop when this limit is reached. 
-- **Remove Agent** -only supported for an inactive agent.
-    - Uninstall the selected SPDocKit Insights Agent form the machine where it is located.
-        - You can do so by uninstalling SPDocKit completely, or by modifying your current installation. Navigate to the SPDocKit installation file, choose the option Modify Available Options, uncheck the Collection Service feature and finish the installation wizard.
-    - Wait a couple of minutes for the agent to register as offline.
-    - Remove the agent by using this option.
+4. To customize the default settings click the **Settings button** located in the bottom left corner. 
+    - For more details on available settings follow click [here](#internal/how-to/spdockit-insights/customize-settings/).
 
 ### Configure Alerts[**](#realTime2)
 - Select the Event Viewer tab in the left navigation.
