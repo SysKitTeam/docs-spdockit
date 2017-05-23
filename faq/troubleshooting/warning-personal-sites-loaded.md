@@ -1,11 +1,9 @@
 ---
 title: I am receiving a warning “All Personal Sites will be loaded” while loading the farm.
-description: Server Load Requirements for SPDocKit
+description: Article describes the issue that might occurre while loading Personal sites.
 author: Mia Tomaić
 date: 18/5/2017
 ---
-
-# I am receiving a warning “All Personal Sites will be loaded” while loading the farm.
 
 ## Problem:
 While trying to load our SharePoint farm with SPDocKit I received:

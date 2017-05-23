@@ -1,11 +1,9 @@
 ---
 title: Errors while trying to load the SharePoint farm
-description: Server Load Requirements for SPDocKit
+description: Article describes known issues that might occurre while loading SharePoint farm.
 author: Mia Tomaić
 date: 18/5/2017
 ---
-
-# Errors while trying to load the SharePoint farm
 
 ## Problem:
 While trying to load the SharePoint farm I received the following errors:
@@ -26,4 +24,4 @@ There are also errors in the event log such as this one:
 ## Solution:
 The user running the SPDocKit needs to have the proper privileges to retrieve information from the SharePoint farm.
 
-Follow [these instructions](#internal/requirements/user-permissions-requirements) to configure your SharePoint farm.
+Follow [these instructions](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) to configure your SharePoint farm.

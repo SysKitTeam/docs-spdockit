@@ -1,11 +1,9 @@
 ---
 title: I am receiving ”The service was unable to read Active Directory properties for Group SID(s): ‘Group Name'”.
-description: Server Load Requirements for SPDocKit
+description: This article describes the issue of service not being able to read Active Directory properties for group SID(s).
 author: Mia Tomaić
 date: 18/5/2017
 ---
-
-# I am receiving ”The service was unable to read Active Directory properties for Group SID(s): ‘Group Name'”.
 
 ## Problem:
 While loading a SharePoint farm the following error message was displayed in the event log:

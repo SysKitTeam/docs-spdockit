@@ -1,11 +1,9 @@
 ---
 title: I am receiving ”Failed at retrieving SQL Accounts from the following servers: ‘Server Name”’.
-description: Server Load Requirements for SPDocKit
+description: This article describes how to handle issue when SPDocKit failes at retrieving SQL account from server.
 author: Mia Tomaić
 date: 18/5/2017
 ---
-
-# I am receiving ”Failed at retrieving SQL Accounts from the following servers: ‘Server Name”’.
 
 ## Problem:
 While loading a SharePoint farm the following error message was displayed in the event log:

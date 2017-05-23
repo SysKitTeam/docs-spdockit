@@ -1,11 +1,9 @@
 ---
 title: Error: Inbound traffic on TCP Port 1433 needs to be allowed on the SQL Server.
-description: Configuring SQL Server
+description: This article explains how to allow inbound traffic on TCP port 1433.
 author: Mia Tomaić
 date: 19/5/2017
 ---
-
-# Error: Inbound traffic on TCP Port 1433 needs to be allowed on the SQL Server.
 
 ## Problem:
 Port 1433 is closed on the SQL server.
