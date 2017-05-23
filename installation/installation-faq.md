@@ -62,4 +62,4 @@ The application is easy to install — the Installation Wizard will guide you th
 
 ### How much hard disk space is required for the installation?
 
-Bare installation takes around 300MB of disk space, but if you decide to store farm snapshots locally additional disk space will be required for farm snapshots. 
+A full installation takes around 300MB of disk space, but if you decide to store farm snapshots locally additional disk space will be required for them. 
