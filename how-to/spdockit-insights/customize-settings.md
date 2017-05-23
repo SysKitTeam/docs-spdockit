@@ -12,7 +12,7 @@ To customize SPDocKit Insights settings click the **Settings button** located in
 
 ### Available farm settings:
 - **Assigned Agent**
-    - When the SPDocKit Insights Agent starts for the first time, it will be associated with **all** the farms in your SPDocKit database. If at some point you connect another farm to your SPDocKit Database, it will be associated with the first free active agent.
+    - When the SPDocKit Insights Agent starts for the first time, it will be associated with **all** the farms in your SPDocKit database. If at some point you connect another farm to your SPDocKit database, it will be associated with the first free active agent.
     - If the agent associated by default is not satisfactory, change this option.
     - If for some reason you wish to stop monitoring a farm, just select _None_ as the desired agent.
     - One agent can be assigned to multiple farms. 
@@ -21,7 +21,7 @@ To customize SPDocKit Insights settings click the **Settings button** located in
     - All of the ULS categories and sources are preselected by default.
 - **Windows Event Log Collection Configuration**
     - Disabled by default. 
-    - Configurable levels and event sources to monitor.
+    - Configure levels and event sources to monitor.
 - **SQL Collection Configuration**
     - Disabled by default.
 - **Performance Monitoring**
@@ -39,6 +39,6 @@ To customize SPDocKit Insights settings click the **Settings button** located in
     - How often to collect performance data (default is 60 seconds)
 - **Remove Agent** -only supported for an inactive agent.
     - Uninstall the selected SPDocKit Insights Agent form the machine where it is located.
-        - You can do so by uninstalling SPDocKit completely, or by modifying your current installation. Navigate to SPDocKit installation file, choose the option Modify Available Options, uncheck the Collection Service feature and finish the installation wizard.
+        - You can do so by uninstalling SPDocKit completely, or by modifying your current installation. Navigate to the SPDocKit installation file, choose the option Modify Available Options, uncheck the Collection Service feature and finish the installation wizard.
     - Wait a couple of minutes for the agent to register as offline.
     - Remove the agent by using this option.
