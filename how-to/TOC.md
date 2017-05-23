@@ -51,5 +51,5 @@ private: true
 ## [Configure Data Collection](configure-data-collection.md)
 ## [Customize Settings](customize-settings.md)
 ## [Use SPDocKit Insights](use-spdockit-insights.md)
-## [Write Search Queries](insights-search-query-guide.md)
+## [Write Search Queries](search-query-guide.md)
 ## [Search Alerts](search-alerts.md)
