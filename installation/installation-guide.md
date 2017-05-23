@@ -2,10 +2,8 @@
 title: Installation Guide
 author: Tomislav Sirovec      
 date: 17/5/2017  
+description: This article explains how to install SPDocKit.
 ---
-
-# Installation Guide
-
 This article explains how to install SPDocKit.
 
 __System Requirements:__ The product uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. It needs to be installed on a __SharePoint 2010, SharePoint 2013 or SharePoint 2016 server to load farm information.__
@@ -37,8 +35,8 @@ If during the installation you encounter any problems and wish to enable logging
 Note that this will work for both .exe and .msi installation files.
 
 ## Learn More
-* [How to: Create Farm Documentation](#internal/how-to/farm-documentation/create-farm-documentation/).
-* [How to: Compare SharePoint Farms](#internal/how-to/compare-wizard/compare-sharepoint-farms/).
-* [How to: Configure Automatic Snapshots](how-to/sharepoint-farm-snapshot/configure-automatic-snapshots/).
+* [How to: Create Farm Documentation](#internal/how-to/farm-documentation/create-farm-documentation/)
+* [How to: Compare SharePoint Farms](#internal/how-to/compare-wizard/compare-sharepoint-farms/)
+* [How to: Configure Automatic Snapshots](how-to/sharepoint-farm-snapshot/configure-automatic-snapshots/)
 
      
