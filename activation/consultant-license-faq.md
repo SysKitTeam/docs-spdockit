@@ -67,3 +67,7 @@ If you purchase the Consultant license, you will be able to run SPDocKit on your
 ### Can I use SPDocKit to run reports on the various customer farms that I will work on over the course of a year? Does the license allow for the installation and use of the product so long as it is uninstalled when I am done?
 
 Yes, you can use it to document various customers over the course of a year. Each SPDocKit activated with a Consultant license will be deactivated after 30 days. You will have to re-activate your license again if you wish to continue using it on the same machine.
+
+### How do I cancel my SPDocKit subscription?
+
+While we are sad to see you go, you may cancel your subscription at any time before the subsequent renewal is due, by notifying our [support team](https://www.spdockit.com/support/contact-us/). You will still be able to use the remaining days, but your subscription will be canceled at the end of your term.

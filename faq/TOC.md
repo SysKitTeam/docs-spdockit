@@ -4,6 +4,7 @@ slug: faq
 private: true
 ---
 
+# [How to FAQ](how-to-faq.md)
 # [Miscellaneous](miscellaneous.md)
 # [Security](security.md)
 # Troubleshooting
