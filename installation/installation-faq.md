@@ -10,10 +10,10 @@ Yes, the same installation file can be used to install SPDocKit on any SharePoin
 
 ### Error: Service won't start or times out when starting. 
 I’m trying to start SPDocKit service but it will not start. The following error events appear in the application log:
-> Timeout (30000 milliseconds) waiting for a transaction response from the ‘ServiceName’ service.
-or
->A timeout was reached (30000 milliseconds) while waiting for the ‘ServiceName’ service to connect.
-or
+> Timeout (30000 milliseconds) waiting for a transaction response from the ‘ServiceName’ service.  
+or  
+>A timeout was reached (30000 milliseconds) while waiting for the ‘ServiceName’ service to connect.  
+or  
 >The ‘ServiceName’ service failed to start due to the following error:
 ‘The service did not respond to the start or control request in a timely fashion.’
 
@@ -35,11 +35,11 @@ This value represents the time in milliseconds before a service times out.
 ### How do I set up SPDocKit?
 
 SPDocKit supports SharePoint 2007, SharePoint 2010, SharePoint 2013 and SharePoint 2016 server. [See more details here.](#internal/requirements/system-requirements)
-Check out our [installation guide](#internal/installation/instalaltion-guide) which is followed by the [configuration guide](#internal/configuration/configure-spdockit).
-Once you have installed everything you can [take snapshot](#internal/how-to/sharepoint-farm-snapshots/maunal-snapshots) of your farm.
+Check out our [installation guide](#internal/installation/instalaltion-guide) and the followup, the [configuration guide](#internal/configuration/configure-spdockit).
+Once you have installed everything you can [take a snapshot](#internal/how-to/sharepoint-farm-snapshots/maunal-snapshots) of your farm.
 
-### If I choose ''run only'' option in SPDocKit, what happens?
-If you choose “run only”, the following features will not be available:
+### If I choose the “Run only” option in SPDocKit, what happens?
+If you choose “Run only”, the following features will not be available:
 
 * SPDocKit Service and all autoamtic features
 * Permissions Explorer History
@@ -52,9 +52,9 @@ If you choose “run only”, the following features will not be available:
 
 ### Can we install SPDocKit on a workstation?
 
-You can install SPDocKit on a workstation and generate documentation from it, but to gather data you will still need to run or install the tool on the actual SharePoint server. SPDocKit needs to be installed on the SharePoint server to load the data because there aren’t any APIs to retrieve from workstations.  
+You can install SPDocKit on a workstation and generate documentation from it, but to gather data you will still need to run or install the tool on the actual SharePoint server. SPDocKit needs to be installed on the SharePoint server to load data because there aren’t any APIs available from workstations.
 
-If you would like to document SharePoint Online permissions, you can load permissions data directly from the workstation. You would require [SPDocKit Online](https://www.spdockit.com/orders/) license for this action.
+If you would like to document SharePoint Online permissions, you can load permissions data directly from the workstation. You would require a [SPDocKit Online](https://www.spdockit.com/orders/) license for this action.
 
 ### Is it difficult to install SPDocKit?
 

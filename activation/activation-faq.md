@@ -12,7 +12,7 @@ The trial version of SPDocKit has a couple of limitations:
 * Limited information in the generated documentation and exported reports. Export to .docx or .xlsx formats is not available. You can see examples of how exported [reports](https://www.spdockit.com/resources/reports/) and [documentation](https://www.spdockit.com/resources/documentation-examples/) look like in the full version.
 * Best Practices reports are limited to the dashboard overview.
 * Permissions management is limited to 20 actions.
-* The comparison feature is completely functional when comparing the same farm
+* The comparison feature is completely functional when comparing the same farm.
     * Comparison of different farms with snapshots made with the trial software is not possible.
 
 If you would like to see more about the limited features, [contact us](https://www.spdockit.com/support/contact-us/) and we will be more than happy to organize a demo for you and your colleagues to show SPDocKit at its full strength.
