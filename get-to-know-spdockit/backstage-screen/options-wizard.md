@@ -58,7 +58,7 @@ The selection you make here applies both for the __SPDocKit Service taking an au
 
 __This tab was removed in version 6.2__, as the Monitoring feature has been completely redesigned since. 
 
-If you would like to explore your farm's SharePoint ULS and Windows event viewer logs, or track server health by monitoring performance counters, then [configure the SPDocKit Insights feature](#internal/how-to/monitoring/configure-automatic-monitoring-loading/). [Learn more about SPDocKit Insights](#internal/get-to-know-documentation-toolkit/monitoring-screen/) and how it can help you address all possible issues in your farm.
+If you would like to explore your farm's SharePoint ULS and Windows event viewer logs, or track server health by monitoring performance counters, then [configure the SPDocKit Insights feature](#internal/how-to/spdockit-insights/configure-data-collection.md). Learn more about [SPDocKit Insights](#internal/get-to-spdockit/spdockit-insights) and how it can help you address all possible issues in your farm.
 
 ## Data Retention
 
@@ -68,7 +68,7 @@ Set the preferred database size and SPDocKit will warn you when the database siz
 
 If your SPDocKit database becomes too big, you can force a manual data retention using the __Execute__ button. Please note that this action will also try to execute the SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – being member of the sysadmin server role or db_owner database role. Without those permissions, data will still be deleted, but the database size will not decrease. You can still attempt to manually decrease the size of SPDocKit's databases by executing the SHRINKDATABASE command manually after the data retention job has run.
 
-Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](#internal/get-to-know-documentation-toolkit/track-changes-screen/).
+Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](#internal/get-to-know-spdockit/snapshots-screen/).
 
 ## Subscription Settings
 
@@ -76,7 +76,7 @@ If you wish to use the __Subscriptions and Alerts__ feature, check the __Subscri
 
 To enable __email__ as the preferred delivery method, configure outgoing email server settings. After the outgoing email server settings are provided, you can test if these are valid by clicking the __Test Email Settings__ button. There is also an option to customize the email footer and email body text. 
 
-[Read more about scheduling subscriptions and alerts.](#internal/get-to-know-documentation-toolkit/backstage-screen/email-subscription-manager/)
+[Read more about scheduling subscriptions and alerts.](#internal/get-to-know-spdockit/backstage-screen/subscriptions-and-alerts/)
 
 ## Email Settings
 
@@ -88,10 +88,10 @@ The __Email Alerts__ feature has been redesigned in SPDocKit 6.2.0. __Please not
 
 In order to create an alert containing the Farm Documentation, Farm Differences, or Best Practices Documentation reports, please follow these instructions.
 
-1. Enable automatic subscriptions in the [Subscription Settings](#internal/get-to-know-documentation-toolkit/backstage-screen/options-wizard/#panel-8) tab.
-2. [Create new alert](#internal/how-to/email-subscriptions/create-new-alert/) containing the Farm Documentation, Farm Differences or Best Practices Documentation reports.
+1. Enable automatic subscriptions in the [Subscription Settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard) tab.
+2. [Create new alert](#internal/how-to/subscriptions-and-alerts/create-new-alert/) containing the Farm Documentation, Farm Differences or Best Practices Documentation reports.
 3. When adding a Farm Differences report, you will be prompted to select the target farm (if there are multiple farms in your SPDocKit database). The source farm will already be set to the farm you picked in the General tab. If you want to compare the current farm state with the previous one, both filters must have the same farm selected. If you wish to compare differences for two different farms, change the destination farm filter accordingly.
-3. Please note that alerts are sent only after a service takes a snapshot and only if there are differences detected. If you would like to receive these reports even if there are no differences detected, please [create a subscription](#internal/how-to/email-subscriptions/create-new-email-subscription/) instead of an alert in step 2.
+3. Please note that alerts are sent only after a service takes a snapshot and only if there are differences detected. If you would like to receive these reports even if there are no differences detected, please [create a subscription](#internal/how-to/subscriptions-and-alerts/create-new-subscription/) instead of an alert in step 2.
 5. When done click Save & Close.
 
 ## Compare
