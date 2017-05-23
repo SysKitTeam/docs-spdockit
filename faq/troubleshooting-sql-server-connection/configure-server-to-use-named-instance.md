@@ -1,11 +1,9 @@
 ---
 title: Error: Check if your SQL Server is configured to use a named instance.
-description: Configuring SQL Server
+description: This article explains how to handle issue caused by wrong database server.
 author: Mia Tomaić
 date: 19/5/2017
 ---
-
-# Error: Check if your SQL Server is configured to use a named instance.
 
 ## Problem:
 The wrong database server name has been entered while trying to connect to the database server through the SPDocKit Configuration Wizard.

@@ -1,11 +1,10 @@
 ---
 title: Troubleshooting
-description: General troubleshooting questions
+description: SPDocKit troubleshooting questions
 author: Mia Tomaić
 date: 22/5/2017
 ---
 
-# Troubleshooting
 
 ## How can I update the product versions offline?
 [Here](https://customers.acceleratio.net/Utilities/productversions.aspx)  is the link for the offline update. 
@@ -34,7 +33,7 @@ When I tried to load a SharePoint farm with the SPDocKit I received the followin
 
 ### **Solution:**
 * The product needs to run on the same server as SharePoint, so make sure SharePoint is installed on the server where you are trying to load the farm.
-* In order to load the SharePoint farm you need to have the proper privileges. Check [this article](#internal/requirements/user-permissions-requirements) for more details.
+* In order to load the SharePoint farm you need to have the proper privileges. Check [this article](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for more details.
 
 ## Error occurred while upgrading to the latest version.
 
@@ -134,4 +133,4 @@ When trying to view Content & Usage Reports: Number of Unique Visitors, List of 
 >*System.Data.SqlClient.SqlException: Cannot open database “WSS_UsageApplication” requested by the login. The login failed. Login failed for user CONTOSO\user.*
 
 ### **Solution:**
-1. make sure that the user account running SPDocKit has the proper [permission privileges](#internal/requirements/user-permission-requirements). Specifically, the user must be a member of **SharePoint_Shell_Access** role on **Usage and Health Database**.
+1. make sure that the user account running SPDocKit has the proper [permission privileges](#internal/requirements/sharepoint-on-premises-user-permission-requirements). Specifically, the user must be a member of **SharePoint_Shell_Access** role on **Usage and Health Database**.

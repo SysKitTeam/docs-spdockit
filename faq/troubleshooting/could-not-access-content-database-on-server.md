@@ -1,6 +1,6 @@
 ---
 title:  I am receiving “Could not access content database ‘Database Name’ on server ‘Server Name’.”
-description: Server Load Requirements for SPDocKit
+description: This article explains how to handle issue when site collection load is not working properly.
 author: Mia Tomaić
 date: 18/5/2017
 ---

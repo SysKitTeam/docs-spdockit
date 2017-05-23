@@ -1,6 +1,6 @@
 ---
 title: I am receiving “Could not load User Profile Service Application, check your permissions or event log.”
-description: Server Load Requirements for SPDocKit
+description: This article describes the issue of SPDocKit not being able to load User Profile Service Application.
 author: Mia Tomaić
 date: 18/5/2017
 ---

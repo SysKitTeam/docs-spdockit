@@ -1,11 +1,9 @@
 ---
 title: Error: Service user does not have rights to connect to the SQL server.
-description: Configuring SQL server
+description: Article describes how to grant rights to service user that are necessary to connect to the SQL server.
 author: Mia Tomaić
 date: 19/5/2017
 ---
-
-# Error: Service user does not have rights to connect to the SQL server.
 
 ## Problem:
 The service user does not have rights to connect to the SQL server.
