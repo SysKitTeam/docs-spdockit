@@ -6,7 +6,7 @@ description: This article explains how to configure the database for SPDocKit.
 --- 
 This article explains how to configure the database for SPDocKit.
 
-SPDocKit  uses the database for storing data gathered from your SharePoint farm. If you choose not to use a database, some of the features will not be available.
+SPDocKit uses the database for storing data gathered from your SharePoint farm. If you choose not to use a database, some of the features will not be available.
 
 These are as it follows: Some of the Site Explorer reports, Permissions Explorer history records and Permissions reports, Content & Usage reports, report subscriptions and alerts, SPDocKit Insights feature, license management, Queries and Rules and custom made report views.
 
