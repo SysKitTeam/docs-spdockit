@@ -38,7 +38,7 @@ Enabling the __automatic index reorganization__ will result in better space usag
 
 This section allows you to choose what will be loaded by both the __SPDocKit Service__ when taking an __automatic snapshot__, and if you select the __Default__ mode in the Take Snapshot wizard. 
 
-We redesigned the load screen to be more user friendly, and at the same time we added more cool features you can now load. With the Load Depth option you can specify the depth to which you want to crawl your farm.  
+We redesigned the load screen to be more user friendly, and at the same time we added more cool features you can now load.   
    There are 4 categories:  
    
 
