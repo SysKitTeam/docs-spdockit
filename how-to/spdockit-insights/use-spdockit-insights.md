@@ -46,7 +46,7 @@ The default dashboard has three views:
 2. Tiles
 3. Grid 
 
-Most performance counters collected have a warning and critical limit based on the values collected within a certain time period. This will impact the status of the server visible on the dashboards. Since most counters are not visible on the main dashboard, additional dashboards with more details are available:
+Most performance counters collected have a warning and critical limit based on the values collected within a certain time period. This will impact the displayed status of the server on the dashboards. Since most counters are not visible on the main dashboard, additional dashboards with more details are available:
 - Clicking on the farm name leads to the **farm dashboard**.
 - Clicking on a server (double click for the grid view) leads to the **detailed server view**.
 
