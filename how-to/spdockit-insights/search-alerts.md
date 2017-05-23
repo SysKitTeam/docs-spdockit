@@ -7,7 +7,7 @@ date: 22/5/2017
 <!--
 1. treba napomenuti za licence, ali nisam siguran kak tocno 
 -->
-SPDocKit Insights provides the ability to be notified when a search query is satisfied. This is done as the events are being collected from the servers. When defining alerts, you can target a single farm, or apply the alert to all farms contained within the SPDocKit database. Once sent, the alert for a farm is not evaluated again for a configurable back off period. Without the back off period, mailboxes would suffer greatly once a problem arises.
+SPDocKit Insights provides the ability to be notified when a search query is satisfied. This is done as the events are being collected from the servers. When defining alerts, you can target a single farm, or apply the alert to all farms contained within the SPDocKit database. Once sent, the alert for a farm will not be evaluated again within a certain back off time period, which you can configure. Without the back off period, mailboxes would suffer greatly once a problem arises.
 
 Outgoing email settings must be configured to use the alerting feature. To configure the outgoing email settings please use SPDocKit.
 
