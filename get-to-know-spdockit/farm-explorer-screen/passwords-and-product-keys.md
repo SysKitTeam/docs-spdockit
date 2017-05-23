@@ -3,15 +3,15 @@ title: Passwords and Product Keys
 ---
 This section allows you to define and document important information about your farm, including:
 
-* service account Passwords
+* service account passwords
 * Product Keys for installed SharePoint products
-* the SharePoint farm Passphrase
+* the SharePoint farm passphrase
 
 ## Entering Information
 
-To enter the information you want, just click on the __Password/Key__ cell in the grid and type it in.
+To enter the information you want, just click on the cells under the __Password/Key__ columns in the grid and type the information into them.
 
-## Encrypting passwords with saved farms
+## Encrypting Passwords with Saved Farms
 
 If you have defined passwords, you can choose to encrypt them. Passwords will be secured with an AES 256-bit encryption. To save the farm and encrypted passwords:
 

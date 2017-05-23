@@ -19,7 +19,7 @@ To manage your licenses do the following:
 5. Enter the __Number of Licenses__ (users) for the edition you have selected.
 6. Click __Add__ to save.
 
-## Adding Licenses for custom features
+## Adding Licenses for Custom Features
 
 1. Click the __Add License__ button in the License Management dialog.
 2. Choose the __Custom Feature__ license type.

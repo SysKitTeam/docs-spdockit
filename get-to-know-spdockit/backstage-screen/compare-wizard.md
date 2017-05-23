@@ -11,4 +11,4 @@ Compare Wizard provides the possibility to track farm configuration changes and 
 * [Compare SharePoint Permissions](#internal/how-to/compare-wizard/compare-site-permissions/) – compare SharePoint permissions on a different subsites, lists, and list items or track changes made to their permissions through a selected time period.
 * [Compare Web.config files](#internal/how-to/compare-wizard/compare-web-config-files/) – verify that web.config files on all of your web front end servers are identical for the same web application. You can also check what the differences are between web.config files on various web applications.
 
-_*Learn more about comparing SharePoint objects by clicking on the preferred feature._
+_*Learn more about comparing SharePoint objects by clicking on the feature you're interested in._
