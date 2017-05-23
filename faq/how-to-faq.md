@@ -48,8 +48,25 @@ There are two parts of storage that are used by any database:
 In order to reduce the database size you can do the following:
 
 1. Open __Options Wizard__, and in the left menu select [Data Retention](get-to-know-spdockit/backstage-screen/options-wizard#data-retention)). Here is where you will see how your retention policies are defined.
-1. You will see __Force Data Retention__ button, and next to that is an “Execute” Button. Pressing “Execute” will automatically delete old information, then attempt to shrink your database (the way this runs is determined by the settings in step 1). Please note: this can take a little bit of time to run.
+1. You will see __Force Data Retention__ button, and next to that is an __Execute__ button. Pressing this button will automatically delete old information, then attempt to shrink your database (the way this runs is determined by the settings in step 1).  
+   __Please note:__ this can take a little bit of time to run.
+
 If you are not running the latest version, you can do this manually:
-Shrink the database by following these instructions.
-Change the database to the Simple Recovery Model and perform backup (This article explains the differences between SQL’s different recovery models).
-Your database will probably shrink successfully, but if you need help we can assist you remotely. If you need remote assistance, please make sure to have TeamViewer installed. Here is the link for that.
+* Shrink the database by following [these instructions](http://msdn.microsoft.com/en-us/library/ms189035.aspx).
+* Change the database to the __Simple Recovery Model__ and perform backup ([This article](http://msdn.microsoft.com/en-us/library/ms189275.aspx) explains the differences between SQL’s different recovery models).  
+
+### How to find out which SPDocKit version you are using?
+
+To find out which version of SPDocKit you are using, please follow these steps:
+1. Open SPDocKit.
+1. From the File menu choose __Help__.
+1. Your version will be written under __About SPDocKit__ part of the screen.
+
+### What should I do to stop receiving ''There is no data to show for this object'' for all User Profile Reports?
+This message is sometimes generated when there are insufficient rights given to an end user. To load User Profile Synchronization connections you need to do the following:
+
+1. Start the __User Profile Synchronization Service__.
+1. You need to be a member of the __Administrators__ group for the UPA service and have __Full control__ access. The user taking a snapshot fo your farm must have “full control” permissions for the UPA.  
+ This is done by adding them as an administrator using the “Administrators” button in SharePoint __Central Administration > Application Management > Manage Service Applications__.
+
+For more information, please see the [following article](C#internal\faq\troubleshooting\could-not-load-user-profile-service).
