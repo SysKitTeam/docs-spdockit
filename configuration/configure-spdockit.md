@@ -1,7 +1,7 @@
 ---  
 title: Configure SPDocKit
 author: Matija Hanzic  
-date: 16/5/2017  
+date: 22/5/2017  
 description: This article explains how to configure the SPDocKit database and snapshot service before the first usage.
 --- 
 This article explains how to configure the SPDocKit database and snapshot service before the first usage. __SPDocKit Configuration Wizard__ will automatically start when you start SPDocKit for the first time. Follow these steps to successfully configure the application:
