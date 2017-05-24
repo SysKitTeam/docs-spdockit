@@ -15,23 +15,25 @@ You can customize your reports in a few different ways:
 
 From SPDocKit 6.2 version onwards, you have the ability to add or remove columns.
 
-Following reports has these new columns, and they are all located in Permissions Reports section
+Following reports are located in **Permissions Reports** section and have these new columns:
 
 * **Unique Permissions** (Site Collection Reports) - Unique Permissions, Url, Object Type, Last Modified, Created On.
-* **Group Members** (Group Reports) - Principal Username, Email, Account Enabled,  Type.
+* **Group Members** (Group Reports) - Principal Username, Email, Account Enabled, Type.
 * **Member Of** (Group Reports) - Principal Username, Email, Account Enabled, Type.
 * **All Farm Users** (Security Audit) - Email.
-* **All Site Users** (Security Audit) - Email, External User
+* **All Site Users** (Security Audit) - Email, External User.
 * **Users with Privileged Access** (Security Audit) - Principal Username, Email, Account Enabled, Type.
-* **Detailed Permissions reports** (Subsite/List/List Item) - Account Enabled, Email, Principal Username, Url
+* **Detailed Permissions reports** (Subsite/List/List Item) - Account Enabled, Email, Principal Username, Url.
 * **Hierarchy reports** (Site Collection/Subsite/List) - Principal Username, Email, Account Enabled, Type, Unique Permissions, Url, Object Type, Last Modified, Created On.
-* **Site Structure** - Unique Permissions, Url, Object Type, Last Modified, Created On.
-* **Unmodified Content** - Unique Permissions, Url, Object Type, Last Modified, Created On.
-* **User Permission Overview** (User Reports) - Last Modified, Object Type, Url
-* **User Permission Details** (User Reports) - Created On, Last Modified, Object Type, Unique Permissions, Url
-* **Matrix Permissions reports** (Subsite/List/Lite Item) - Account Enabled, Email, Principal Username, Type
-* **Permission Level Usage** (Site Collection Reports) - Url
-* **Sharepoint Groups** (Site Collection Reports) - Account Enabled, Email, Last Modified, Object Type, Principal Username, Type, Url
+* **User Permission Overview** (User Reports) - Last Modified, Object Type, Url.
+* **User Permission Details** (User Reports) - Created On, Last Modified, Object Type, Unique Permissions, Url.
+* **Matrix Permissions reports** (Subsite/List/Lite Item) - Account Enabled, Email, Principal Username, Type.
+* **Permission Level Usage** (Site Collection Reports) - Url.
+* **Sharepoint Groups** (Site Collection Reports) - Account Enabled, Email, Last Modified, Object Type, Principal Username, Type, Url.
+
+Also, reports with new columns which are located in **Content & Usage Reports** are:
+* **Site Structure** (Structure Reports) - Unique Permissions, Url, Object Type, Last Modified, Created On.
+* **Unmodified Content** (Usage Reports - Content Usage) - Unique Permissions, Url, Object Type, Last Modified, Created On.
 
 Go to the **View** tab, select the **Choose Columns** button and list of the available columns will appear. You can drag and drop them, or simply double click the column, and it will “go” on the report.
 
