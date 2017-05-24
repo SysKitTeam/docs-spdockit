@@ -44,7 +44,9 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
    * __Settings__
    * __Projects__  
    
-     From version 7 and onwards, you can document most of the Project Server settings, list of projects and their permissions. 
+     From version 7 and onwards, you can document most of the Project Server settings, list of projects and their permissions.  
+
+     To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
 
 
 4. Select the snapshot target.  

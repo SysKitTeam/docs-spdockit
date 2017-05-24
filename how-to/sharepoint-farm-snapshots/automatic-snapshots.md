@@ -43,13 +43,15 @@ Please note! Please check the [permission requirements](#internal/requirements/u
    
    From version 7 and onwards, you can document most of the Project Server settings, list of projects and their permissions.  
 
-   Click __Save__ when finished.
+   To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load. 
+
+   Click __Save__ when finished.  
 
 1. Go to Load Target to select the scope on which SPDocKit Service will crawl for data – for example, the entire farm, web application, site collection or specific subsites.
 
 1. Click Save to apply changes and finish configuring the automatic SPDocKit Service for creating an automatic snapshot of your farm’s permissions state.
 
-When using [Permissions Explorer](#internal/get-to-know-spdockit/permissions-explorer-screen) and [Permissions Reports](#internal/get-to-know-spdockit/permissions-reports-screen), you will be able to reload previously taken records by clicking on the preferred date-time marked entries from the Permissions Date filter. This filter contains both automatically and manually taken snapshots of your farm’s permissions state.
+
 
 If you wish to receive an email notification after automatically-taken farm snapshots, follow these instructions:
 
