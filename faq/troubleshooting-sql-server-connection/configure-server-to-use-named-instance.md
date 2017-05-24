@@ -1,5 +1,5 @@
 ---
-title: Error: Check if your SQL Server is configured to use a named instance.
+title: Check if your SQL Server is configured to use a named instance.
 description: This article explains how to handle issue caused by wrong database server.
 author: Mia Tomaić
 date: 19/5/2017

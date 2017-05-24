@@ -1,5 +1,5 @@
 ---
-title: I am receiving ”The service was unable to read Active Directory properties for Group SID(s): ‘Group Name'”.
+title: I am receiving ”The service was unable to read Active Directory properties for Group SID(s)”.
 description: This article describes the issue of service not being able to read Active Directory properties for group SID(s).
 author: Mia Tomaić
 date: 18/5/2017

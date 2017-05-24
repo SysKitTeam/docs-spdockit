@@ -1,5 +1,5 @@
 ---
-title: I am receiving ”Failed at retrieving SQL Accounts from the following servers: ‘Server Name”’.
+title: I am receiving ”Failed at retrieving SQL Accounts from the following servers".
 description: This article describes how to handle issue when SPDocKit failes at retrieving SQL account from server.
 author: Mia Tomaić
 date: 18/5/2017

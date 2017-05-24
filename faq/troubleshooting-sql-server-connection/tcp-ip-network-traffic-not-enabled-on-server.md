@@ -1,5 +1,5 @@
 ---
-title: Error: TCP/IP network traffic is not enabled on the SQL Server.
+title: TCP/IP network traffic is not enabled on the SQL Server.
 description: This article explains how to enable TCP/IP network traffic on SQL server. 
 author: Mia Tomaić
 date: 19/5/2017
