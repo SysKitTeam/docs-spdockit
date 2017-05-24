@@ -48,8 +48,8 @@ We redesigned the load screen to be more user friendly, and at the same time we 
     * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
 
    ### Security  
-   * __Database Permissions__ - selecting this will enable you to view Database Permissions report. Showing information about all users, across all databases on a SQL Server. 
-   * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
+   * __Database Permissions__ - selecting this will enable you to view the Database Permissions report. This report will will display SharePoint databases and any users with access to them, along with their roles.
+   * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions__ check box and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of AD groups. 
    * __Security Audit__ - with Sharepoint 2016 Feature Pack 1, Microsoft provided the ability to log all permission changes on a given site collection. Selecting the __Security Audit__ checkbox will load afformentioned logs and provide you with a user friendly report to view them.
 
    ### Server Settings  
