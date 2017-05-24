@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 24/5/2017
 ---
 
-Best Practice section contains built-in Reports that help SharePoint administrators to check if their SharePoint farm has been configured according to the configuration best practices and if the current state of SharePoint farm confronts with published software boundaries and limits. It also allows administrators to [create their own best practice reports].
+Best Practice section contains built-in reports that help SharePoint administrators check if their SharePoint farm has been configured according to the configuration best practices and if the current state of SharePoint farm confronts with published software boundaries and limits. It also allows administrators to [create their own best practice reports].
 
 The following options are available:
 
