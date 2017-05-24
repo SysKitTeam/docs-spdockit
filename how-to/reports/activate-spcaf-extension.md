@@ -31,11 +31,14 @@ Create a file with extension “.lic”, e.g., **“license.lic“**. Then, open
     After you install the extension, you need to activate it. Take the license file (**whose name must be license.lic**) and place it in: **“%ProgramData%\SPDocKit\Extensions\SPCAF”**.  
     Please note that, by default, the folders Extensions and SPCAF do not exist and **you need to create them**.
 
-3. After that, go to the SPCAF Reports in the Content & Usage Reports section of SPDocKit. Select any report, and you will notice the following message:
+3. After that, go to the SPCAF Reports in the Content & Usage Reports section of SPDocKit. Select any report, and you will notice the following message:  
+![SPCAF-Trial](#img/spcaf-trial.png)
 
 4. Click the **Activate your license** button.  
+![SPCAF-Activation-1](#img/spcaf-activation2.png)  
 You will notice a **challenge code** (in the previous picture). Visit the webpage [activation.spcaf.com](https://activation.rencore.com/) and enter the code, as well as your e-mail adress and the license key. The license key is the same one from the second step of this wizard. You need to open it with any text editor and copy/paste it. Click **Submit**.
-You will receive further instructions in your e-mail shortly, but here is what you need to do:
+You will receive further instructions in your e-mail shortly, but here is what you need to do:  
+![SPCAF-Activation-2](#img/spcaf-activation.png)
 
 5. Open the email and take the attached file (**activations.caf**). Place it in the following folder: **“%USERPROFILE%\AppData\Local\SPCAF”**
 
