@@ -16,5 +16,5 @@ Best Practices reports checking some numerical values, like the amount of RAM pe
 
 Please note that if you edit these values, the Best Practice report will display a warning that the default values have been changed.
 
-![Customize Best Practices Reports](#img/customize-best-practices.png)
+
 
