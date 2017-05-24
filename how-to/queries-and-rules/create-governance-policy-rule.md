@@ -8,13 +8,13 @@ This section describes how to use the SPDocKit Rule wizard to create a rule to h
 
 1. Select the rule type. The available rule types depend on the selected scope: list or subsite.
 
-   The rule name will, by default, be the same as the rule type, but you can edit that later. Click Next to continue. Read more about supported rule types.
+   The rule name will, by default, be the same as the rule type, but you can edit that later. Click Next to continue. Read more about [supported rule types](#internal/get-to-know-spdockit/queries-and-rules-screen).
 
 1. Under Rule Configuration, select Yes to require documents to be checked out before they can be edited. Click Next to continue.
 
 1. Define how your rule will be executed. You can choose between the manual or the automatic option.
    * __Manual execution__ – you will have to start this rule from the Home ribbon using the Run button every time you want to enforce the selected policy.
-   * __Automatic execution__ – requires an active SPDocKit Service and a defined schedule.
+   * __Automatic execution__ – requires an active SPDocKit Service and a [defined schedule](#internal/get-to-know-spdockit/queries-and-rules-screen).
 
    If the SPDocKit Service is not running, a warning bar will appear. Click Configure to enable the SPDocKit Service.
 
