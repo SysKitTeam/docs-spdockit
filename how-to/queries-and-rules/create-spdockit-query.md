@@ -10,8 +10,6 @@ This section describes how to use the SPDocKit Query wizard to create a query re
 
 2. Type in the name of your query and select a query scope. The query scope defines the type of SharePoint objects that will be crawled for their properties in this report. Click Next to continue.
 
-
-
 3. Select the list fields you would like to include in this report. Read more about [supported query properties](#internal/get-to-know-spdockit/queries-and-rules-screen). Click Next to continue.
 
 
@@ -20,7 +18,7 @@ This section describes how to use the SPDocKit Query wizard to create a query re
 5. Choose whether you would like to manually execute this query or automatically execute it. Click Next to continue.
 
    * __Manual execution__ – you will have to run this query from the Home ribbon using the Run button every time you want to check whether there are any changes.
-   * __Automatic execution__ – requires an active SPDocKit Service and a defined schedule.
+   * __Automatic execution__ – requires an active SPDocKit Service and a [defined schedule](#internal/get-to-know-spdockit/queries-and-rules-screen).
 
    If the SPDocKit Service is not running, a warning bar will appear. Click __Configure__ to enable the SPDocKit Service.
 
