@@ -4,10 +4,7 @@ description: addresses some common problems
 author: Vinko Bedek
 date: 24/5/2017
 ---
-<!-- remove a couple of things. I feel that they are no longer neccessary.
-1. No Agents Available - the message can only be seen in SPDockit. And the message there contains more than enough details.
-2. Collection Disabled - this was added originaly because the index could grow too large and it would just disable collection without any clue on why when the user saw the message. We have now added a much nicer message and how to fix information '
-3. Removed the 'not available to consultants'-->
+
 
 There are a couple of problems that may be encountered when using SPDocKit Insights.
 
