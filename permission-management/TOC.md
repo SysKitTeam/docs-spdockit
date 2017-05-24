@@ -14,4 +14,5 @@ private: true
 # [Clean Site Collections Wizard](clean-site-collections-wizard.md)
 # [Permission Levels Wizard](permission-levels-wizard.md)
 # [Site Collection Administrators Wizard](site-collection-administrators-wizard.md)
+# [Restore Permissions](restore-permissions.md)
 # [SPDocKit Permission Management Event Log](spdockit-permission-management-event-log.md)
