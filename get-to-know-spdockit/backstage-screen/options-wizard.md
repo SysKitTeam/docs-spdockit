@@ -36,13 +36,34 @@ Enabling the __automatic index reorganization__ will result in better space usag
 
 ## Snapshot Options
 
-This section allows you to choose what will be loaded by both the __SPDocKit Service__ when taking an __automatic snapshot__, and if you select the __Default__ mode in the Take Snapshot wizard. The available options are: personal sites, installed programs and available updates, SQL Server information, IIS settings information, features and solutions, backup and analyze solution files, permissions, Active Directory group members, content types, workflows and Project Server settings and projects.
+This section allows you to choose what will be loaded by both the __SPDocKit Service__ when taking an __automatic snapshot__, and if you select the __Default__ mode in the Take Snapshot wizard. 
 
-__Farm settings__ are always loaded and cannot be excluded when taking a snapshot.
+We redesigned the load screen to be more user friendly, and at the same time we added more cool features you can now load.   
+   There are 4 categories:  
+   
+
+   ### Sharepoint  
+   * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and you cannot change this option. 
+   * Content Types - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where the content types are defined.
+    * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
+
+   ### Security  
+   * __Database Permissions__ - selecting this will enable you to view Database Permissions report. Showing information about all users, across all databases on a SQL Server. 
+   * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
+   * __Security Audit__ - with Sharepoint 2016 Feature Pack 1, Microsoft provided the ability to log all permission changes on a given site collection. Selecting the __Security Audit__ checkbox will load afformentioned logs and provide you with a user friendly report to view them.
+
+   ### Server Settings  
+   * __Installed Programs and available Updates__
+   * __SQL server and IIS Setttins Information__
+
+   ### Project Server  
+   * __Settings__
+   * __Projects__  
+   
+     From version 7 and onwards, you can document most of the Project Server settings, list of projects and their permissions. 
+
 
 You can also specify the load depth, which means how deep you want to crawl your SharePoint with SPDocKit. Possible choices are: site collection. subsites, list, and list items. Be aware that there are some dependencies related to the load depth selection and the available SharePoint information SPDocKit can retrieve. For example, if you want to load content types and workflows, lists are the minimum required load depth. SPDocKit will warn you if your current selection is not possible and provide instruction messages for enabling certain load options.
-
-SPDocKit allows you to backup all *.wsp files in use by your farm, but you’ll need to define a location for this backup. This data can also be used later on to find out if there are any problems with the assemblies deployed on your farm.
 
 Finally, you can customize the __snapshots name template__. Under Snapshot Configuration, note the Snapshot Name Template field. We have prepared the Farm Name, Snapshot Mode (which can be either Automatic or Manual), and Date (which you can customize any way you like), keywords that can be included in the name template. The default date format is: “Date:yyyy_MM_dd_HH_mm_ss”. You can change the format by rearranging the item order and delimiter type. You can observe this name if you go to the Snapshots tab and include the File Name column using the View ribbon button called __Choose Columns__.
 
