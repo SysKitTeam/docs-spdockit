@@ -5,7 +5,7 @@ author: Martin Pisacic
 date: 18/5/2017
 ---
 
-## Activate SPCAF Extension
+# Activate SPCAF Extension
 
 SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It provides detailed information about SharePoint customization’s (WSPs or Add-ins) code quality, dependencies, complexity and more.
 
@@ -17,19 +17,19 @@ Please refer to the [RENCORE GmbH](https://www.spcaf.com/) website for more info
 
 If you only wish to try the SPCAF extension without activation, there is a trial mode where you can see the summary report. Click [here](https://rencore.com/products/spcaf/try/) for more information.
 
-### Installing
+### **Installing**
 
 1. To install SPCAF extension you can use either online of offline installation. For detailed instructions click [here](#internal/how-to/reports/install-spdockit/extensions).
 
-### Activation
+### **Activation**
 
 Please note that if you already have the licensed SPCAF on a machine together with SPDocKit, the SPFAC plugin will be activated automatically.
 
 2. As we mentioned before, you will receive your license key from Rencore. The key will be in a plain text format. This is what you need to do to create a license file:
 Create a file with extension “.lic”, e.g., **“license.lic“**. Then, open the file in your preferred text editor (e.g., notepad) and paste in your license key.
 
-After you install the extension, you need to activate it. Take the license file (**whose name must be license.lic**) and place it in: **“%ProgramData%\SPDocKit\Extensions\SPCAF”**.
-Please note that, by default, the folders Extensions and SPCAF do not exist and **you need to create them**.
+    After you install the extension, you need to activate it. Take the license file (**whose name must be license.lic**) and place it in: **“%ProgramData%\SPDocKit\Extensions\SPCAF”**.  
+    Please note that, by default, the folders Extensions and SPCAF do not exist and **you need to create them**.
 
 3. After that, go to the SPCAF Reports in the Content & Usage Reports section of SPDocKit. Select any report, and you will notice the following message:
 

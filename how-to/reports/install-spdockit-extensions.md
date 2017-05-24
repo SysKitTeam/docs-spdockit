@@ -5,7 +5,7 @@ author: Martin Pisacic
 date: 18/5/2017
 ---
 
-## Install SPDocKit Extensions
+# Install SPDocKit Extensions
 
 To install the extensions straight from SPDocKit, follow these instructions:
 
@@ -17,7 +17,7 @@ If there are any available updates for previously installed extensions, you will
 3. Once the plugin is installed, SPDocKit and the SPDocKit Service need to be restarted for the changes to take effect.  
 Reports you gained installing the extension will be located under one of the SPDocKit report category, depending on the data they contain.
 
-### Offline Installation
+### **Offline Installation**
 
 If your server does not have an internet connection, you can use the Offline installation process by following these instructions:
 
@@ -28,6 +28,6 @@ The default folder is **C:\ProgramData\SPDocKit\Extensions**.
 
 3. Once it is successfully installed, restart SPDocKit and the plugin will be ready for use.v
 
-### Learn more
+### **Learn more**
 
 * [How to: Activate SPCAF extension](#internal/how-to/reports/activate-spcaf-extension)
