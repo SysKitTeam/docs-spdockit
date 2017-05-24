@@ -1,6 +1,8 @@
 ---
 title: Farm Explorer Screen
-description: This article explains Farm Explorer. 
+description: This article explains available Farm Explorer options. 
+author: Tomislav Sirovec
+date: 24/5/2017
 ---
 Farm Explorer allows system administrators to explore loaded SharePoint configuration settings. Use the tree view in the left navigation bar to expand and collapse sections and to preview values in the main grid.
 

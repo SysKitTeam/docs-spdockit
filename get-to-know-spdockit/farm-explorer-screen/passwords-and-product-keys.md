@@ -1,5 +1,8 @@
 ---
 title: Passwords and Product Keys
+description: This article describes how to define and document service account passwords, product key and passphrase of your SharePOint farm.
+author: Iva Novoselic
+date: 24/5/2017
 ---
 This section allows you to define and document important information about your farm, including:
 
