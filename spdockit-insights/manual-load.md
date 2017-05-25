@@ -21,14 +21,14 @@ When performing a manual load, you will be prompted on how much historical data 
 * how much data per server per event type (ULS, SQL, Event Log) to load
 
 Reading all of the events and indexing them takes time, so be sure not to load more than necessary for your analysis.  
-After the load starts you will be able to monitor the collection progress. Closing this dialog will not stop the load and you can always view the collection progress by clicking the View Progress button. The collection progress is also available from the button in the bottom left corner.  
+After the load starts you will be able to monitor the collection progress. Closing this dialog will not stop the load and you can always view the collection progress by clicking the **View Progress** button. The collection progress is also available from the button in the bottom left corner.  
 
 Events can still be searched while the manual load is performed, but the load must finish for the new events to appear in the search results.  
 
 <!--cannot decide if '...when the load started' or '...where the load started'. when is the logical choice since we are talking about time,
 but where sound nicer, at least to me -->
 Once the load finishes all events up to the point where the load started will be available for searching.   
-Additional manual loads will either start where the previous load finished, or load the configured amount of data.
+Additional manual loads will either start where the previous load finished, or load the maximum configured amount of data.
 
 
 
