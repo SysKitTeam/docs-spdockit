@@ -9,13 +9,14 @@ This article gives a basic overview of how to use SPDocKit Insights.
 
 Start SPDocKit Insights:
 - From the Windows start menu.
-- If SPDocKit was installed with SPDocKit Insights, SPDocKit Insights is available from the SPDocKit start page.
+- If SPDocKit was installed with SPDocKit Insights, SPDocKit Insights is available from the SPDocKit Action page.
+- using Insights ribbon availbale on each SPDocKit tab
 
 The home screen of SPDocKit Insights shows some statistical data about the event collection process and an overview of performance data collected.
 
 ## Use SPDocKit Insights Event Viewer to search for events
 
-1. Select the search tab in the left navigation. 
+1. Select the Event Viewer tab in the left navigation. 
 2. Select the farm for which you wish to perform the search.
     - Selecting a farm is only available if multiple farms are used with the same SPDocKit database.
 3. Select the time range in which to search for events.
@@ -53,6 +54,5 @@ Most performance counters collected have a warning and critical limit based on t
 In the detailed server view historical collected performance counter data can be explored. Unlike the other views and dashboards, the detailed view will not have data automatically refreshed.
 
 
-
-
-<a name="licenseLimitations"></a>*_Not available in all license editions._
+<a name="licenseLimitations"></a>*_Not available in all license editions.
+ Please check [feature availability by license type.](https://www.spdockit.com/orders/features-by-licenses/)_

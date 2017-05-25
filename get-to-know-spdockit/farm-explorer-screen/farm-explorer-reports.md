@@ -30,10 +30,13 @@ This section provides information about settings about farm SQL Server, SQL Alia
 
 Make sure to check in __SQL Server information__ option when taking a snapshot of your farm in order to explore and document these settings.
 
-### Project Server
+### Project Server 
 These reports document Microsoft Project Server settings. You will be able to see Project Server sites, security and database information, operational policies, time and task management settings, the projects list, and project permissions. 
 
 Make sure to check in __Project Server__ options when taking a snapshot of your farm in order to explore and document these settings.
+
+This feature is not available in all license types. Please check [feature availability by license type.](https://www.spdockit.com/orders/features-by-licenses/)
+
 
 ### Scheduled tasks
 With the Scheduled Tasks report, SharePoint administrators can more easily visualize important scheduled jobs across the SharePoint farm. This viewer offers the following tasks:

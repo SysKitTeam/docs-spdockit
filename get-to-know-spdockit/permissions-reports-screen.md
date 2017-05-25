@@ -55,7 +55,7 @@ __Health checks__
 * __Externaly Shared Content Hierarchy__ - shows externally shared content in the tenant * hierarchy. Only the externally shared content is displayed.  
 * __Anonymous Access Links__ - a list of content in the tenant that has been shared with an anonymous guest link.
 
-*These reports are available only as a part of SPDocKit Online edition for SharePoint Online.  
+*These reports are available only as a part of SPDocKit Online edition for SharePoint Online. Please check [feature availability by license type.](https://www.spdockit.com/orders/features-by-licenses/)  
 
 ## Security audit
 * __All Farm Users__ – shows all users with permissions to the selected farm, sorted by domain. This report also provides information about a user’s status in AD (enabled or disabled).  
