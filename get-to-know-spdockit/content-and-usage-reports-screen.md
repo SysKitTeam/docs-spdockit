@@ -5,13 +5,13 @@ author: Iva Novoselic
 date: 24/5/2017
 ---
 
-Content and Usage reports provide a quick overview of your farm storage and content usage, features usage and activations and SharePoint structure.
+Content and Usage Reports provide a quick overview of your farm storage and content usage, features usage and activations and SharePoint structure.
 
 
-### Usage Reports
-__Content Overview__ – graphical overview of your farm metrics. Available informations are: Site Collection and Content Databases Sizes, SP Collections Sizes over Time, Used SharePoint Space, Servers By Role, Site Collections per Web App and Content Databases over Time.  
-__Number of Unique Visitors__ – shows the number of unique visitors, for each site collection.  
-__List of Site Visitors__ – shows a list of all visitors, per selected site. 
+### Usage reports
+__Content Overview__ – graphical overview of your farm metrics. Displays information about site collection and content database sizes, total SharePoint's site collections sizes over time, used SharePoint space, servers by role, site collections per Web application and content databases over time.  
+__Number of Unique Visitors__ – shows the number of unique visitors, for each site collection. The number of total farm visitors is the set of all unique visitors on specific site collections.
+__List of Site Visitors__ – shows a list of all visitors on the selected site. 
 
 __Content Usage__
   * __Content Type Usage__ – shows all lists that contain a specific content type within a selected site collection.  
@@ -24,30 +24,30 @@ __Database Growth__
   * __Logs Size Growth__ – shows the size of farm database logs. Also, with the forecast option, you can track and manage the growth.
   * __DB Disk Usage__ – shows the relation between the allocated space for a certain database (solid line) and the actual space used by the database (dotted line). Allocated space is calculated by summing the .mdf and .ndf database files.
 
-### Feature Reports
+### Feature reports
 __Features List__ – shows all features present on a SharePoint farm. It also specifies whether the feature is custom or default, and its scope. 
 
-__Feature Activations__
+__Feature activations__
   * __Activations__ – displays a list of SharePoint objects on which a specific feature is activated.
- * __Activations by Edition__ – displays all features on a selected site collection/collections, grouped by SharePoint Edition.  
+ * __Activations by Edition__ – displays all features on the selected site collections, grouped by SharePoint edition.  
 
 __Feature Usage by Edition__ – shows the usage of feature licenses per SharePoint edition (Foundation, Standard or Enterprise). To see a complete report, define the number of available feature licenses using [License Management](#internal\get-to-know-spdockit\backstage-screen\license-management).
 
-__Feature Usage by Scope__ – checks license compliance for custom features at different farm scopes (web application, site collection, or subsite). To see a complete report, define the number of available custom feature licenses using [License Management](#internal\get-to-know-spdockit\backstage-screen\license-management).
+__Feature Usage by Scope__ – checks license compliance for custom features at different farm scopes (Web application, site collection, or subsite). To see a complete report, define the number of available custom feature licenses using [License Management](#internal\get-to-know-spdockit\backstage-screen\license-management).
 
-### Structure Reports
-__Site Structure__ – shows a hierarchical structure of a selected site collection down to the list item level. Content Display Level filter allows you to change the report’s granularity level.
+### Structure reports
+__Site Structure__ – shows a hierarchical structure of a selected site collection down to the list item level. Content Display Level filter allows you to change the report’s granularity.
 
-### SPCAF Reports
+### SPCAF reports
 SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It provides detailed information about a SharePoint customization’s (WSPs or Add-ins) code quality, dependencies, and complexity, among other things.  
 Find out more [about SPCAF](https://www.spcaf.com/) and how it can help you keep your SharePoint farm healthy and clean.       
 Use SPDocKit to load WSPs information from your SharePoint farm and then analyze them by [adding SPCAF extension reports](#internal/how-to/reports/install-spdockit-extensions) using Extension Manager. 
 
 __Available reports__: Analysis Summary, Code Quality, Code Metrics, Code Dependencies and Code Inventory.  
 
-__Supported SharePoint Versions__: SP2013, SP2016.
+__Supported SharePoint versions__: SP2013, SP2016.
 
-### Workflow Reports
+### Workflow reports
 This plugin for SPDocKit will allow you to analyze workflow usage on your farm.
 
 __Workflows per Site__ – Lists available workflow templates on your sites.  

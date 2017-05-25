@@ -49,7 +49,7 @@ Used to exclude events from your search. **Level:Critical NOT administration** w
 
 Similar results can be achieved by using the – operator. **Level:critical – administration**.
 
-## Clause Grouping
+## Clause grouping
 Use parantheses to form subqueries. **(Server:Server1 OR Server:Server2) AND Level:Error** will return all events with Level equal to errors from both Server1 and Server2.
 
 You can also write your queries in the following way **Server:(Server1 OR Server2)**
@@ -90,7 +90,7 @@ There are a couple of exceptions:
 
 **Example 9:** Query **SPUpdatedConcurrencyException Source:"SharePoint Server Search"** will match events that contain the word "SPUpdatedConcurrencyException" and have a source of SharePoint Server Search. Note the use of double quotations since the Source is comprised of multiple words.
 
-## Fields by Result Type 
+## Fields by result type 
 <a name="fields" ></a>
 ### ULS fields
 

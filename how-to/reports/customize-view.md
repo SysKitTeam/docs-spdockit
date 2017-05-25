@@ -9,7 +9,7 @@ This section describes how SharePoint administrators can customize View for Shar
 
 You can customize your reports in a few different ways:
 
-### **Add or Remove columns**
+### **Add or remove columns**
 
 From SPDocKit 6.2 version onwards, you have the ability to add or remove columns.
 

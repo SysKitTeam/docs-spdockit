@@ -12,7 +12,7 @@ You can notice the Database Connection Chooser in the __top right corner__ of th
 When you install SPDocKit for the first time, the installation will ask you to use our [Configuration Wizard](#internal/help/configuration-wizard/configure-documentation-toolkit-for-sharepoint/). The database you set up there will be the Default one. After that, you can use the Database Connection Chooser to quickly setup other connections.
 
 This is how you do it:
-## New Database Connection
+## New database connection
 
 1. Click on the Database Connections dropdown button, which can be found above the ribbon and on the right, and choose __Edit__.
 
@@ -26,10 +26,10 @@ Here you can input your Connection Name, the SQL Server you wish to use, and of 
 
 To change the database, you can use the __Database Connection__ dialog to list all created connections and the __Set as Active__ button to connect to a database. A much simpler solution is to use the dropdown. Click on the connection you want and the database will be switched immediately.
 
-## Edit a Connection
+## Edit a connection
 
 On the main __Database Connection__ dialog, select the connection you want and click the __Edit__ button. You can edit a connection's name, but you can also completely change the SQL Server or the database you are using. When done click OK.
 
-## Delete a Connection
+## Delete a connection
 
 To delete a connection, select it and click the __Delete__ button.

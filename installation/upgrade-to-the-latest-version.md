@@ -5,8 +5,6 @@ date: 17/5/2017
 description: This article explains how to upgrade SPDocKit to the latest major version.
 ---
 
-# Upgrade to the Latest Version
-
 This article explains how to upgrade SPDocKit to the latest major version. SPDocKit database, saved farms, snapshots and application settings will be preserved in the upgrade process.
 
 ## Preparation:
@@ -39,7 +37,7 @@ This article explains how to upgrade SPDocKit to the latest major version. SPDoc
 
    Note that with a major release of SPDocKit you need a new license key. If you have a valid Software Assurance go to our customer’s portal, where you will see your new key. In case you do not have it, you will need a new license. In that case, please [contact us](https://www.spdockit.com/support/contact-us/).
 
-## Tips & Tricks
+## Tips & tricks
 If during the installation you encounter any problems and wish to enable logging to help you resolve the problems, you can start the installation using the command prompt with the following argument:
 * */l=”full path” will create a log file on a specified location.
 * */log will create the log file in the installation directory.

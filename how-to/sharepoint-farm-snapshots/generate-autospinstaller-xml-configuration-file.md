@@ -12,7 +12,7 @@ AutoSPInstaller is an open-source project by __Brian Lalancette__. It's based on
 
 This feature allows you to create an AutoSPInstaller script based on previously loaded farm settings using SPDocKit. Once you load SharePoint farm settings and you are happy with your farm configuration, you can create a copy of that environment using the __Save XML configuration__ feature.
 
-SPDocKit gathers all the relevant data from your farm, and allows you to modify the settings. It then creates an XML file containing the settings of the selected SharePoint farm, such as services and web applications, as well as managed accounts or host named mappings.
+SPDocKit gathers all the relevant data from your farm, and allows you to modify the settings. It then creates an XML file containing the settings of the selected SharePoint farm, such as services and Web applications, as well as managed accounts or host named mappings.
 
 The combination of SPDocKit and AutoSPInstaller is a tremendous time-saver when you have to create two identical farms. It bypasses the painstaking manual configuration of those farms and it gives administrators the ability to copy the configuration of one farm quickly to another and then deploy it.
 
@@ -24,7 +24,7 @@ To generate an AutoSPInstaller XML configuration file, follow these instructions
 
 1. Navigate to the __Farm Explorer__ in the navigation bar and click __Save XML Configuration__ from the Farm Explorer Home ribbon.
 
-1. The AutoSPInstaller Configuration File Wizard will open, and under __General Settings__ choose where you wish to save your file and the web applications and services you wish to include. Click __Next__ to continue.
+1. The AutoSPInstaller Configuration File Wizard will open, and under __General Settings__ choose where you wish to save your file and the Web applications and services you wish to include. Click __Next__ to continue.
 
 1. Specify the farm account and the general farm configuration for your new farm. Click __Next__ to continue.
 

@@ -4,7 +4,7 @@ author: Matija Hanzic
 date: 16/5/2017  
 description: This article outlines the steps needed to perform an offline SPDocKit activation. Use this type of activation in case your SharePoint servers are not connected to the internet.
 --- 
-### Farm License
+### Farm license
 
 The Farm license is tied to a __farm ID__ and can be activated only on servers with SharePoint installed.
 
@@ -21,7 +21,7 @@ The Farm license is tied to a __farm ID__ and can be activated only on servers w
 3. Click on the __Browse__ button, locate your license file and upload it.
 4. Click the __Activate__ button. Activation takes a couple of seconds and is a one time process. You can activate a single Farm license on all servers in your SharePoint farm.
 
-### Consultant License
+### Consultant license
 
 The Consultant license can be activated on any server, but you need to have a valid SPDocKit Consultant subscription. Please take special care that the Consultant license is intended for external (customers' farms) usage only. Here is how to activate a Consultant license offline.
 
@@ -42,7 +42,7 @@ The __One-time activation__ option allows short-term activation of SPDocKit. If 
 
 __Please note!__ The Consultant license file is valid for 72 hours from the time of generation.
 
-### Site License
+### Site license
 
 The Site license is tied to a __domain name__, __workstation ID__ or __farm ID__, which means you can use it to activate SPDocKit on an unlimited number of SharePoint farms and workstations/computers within one physical location.
 
@@ -59,7 +59,7 @@ The Site license is tied to a __domain name__, __workstation ID__ or __farm ID__
 3. Click on the __Browse__ button and locate your license file and upload it.
 4. Click the __Activate__ button. Activation takes a couple of seconds and is a one time process.
 
-### Workstation License or SPDocKit Online License
+### Workstation license or SPDocKit Online license
 
 The Workstation license is tied to the __workstation ID__ and cannot be used on a SharePoint server. It is intended for people who would like to explore SPDocKit reports, manage permissions directly from their computers or do not have direct access to SharePoint servers.
 

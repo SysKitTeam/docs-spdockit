@@ -11,7 +11,7 @@ __Summary:__ Upon inspecting the event log after a failed load, the following ex
 at Acceleratio.SPDocKit.Administration.SharePointCrawler.#LJ.#CxF()`
 
 
-This happens when SPDocKit tries to enumerate the site collections in a web application and, because of possible farm misconfigurations, they are not properly available using the SharePoint API. To confirm that this is the case, check your site collections using Central Administration and also by using Powershell.
+This happens when SPDocKit tries to enumerate the site collections in a Web application and, because of possible farm misconfigurations, they are not properly available using the SharePoint API. To confirm that this is the case, check your site collections using Central Administration and also by using Powershell.
 
 `Get-SPWebApplication [WebAppUrl] | Get-SPSite –Limit All`
 

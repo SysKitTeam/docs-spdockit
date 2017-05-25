@@ -14,7 +14,7 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
 
 
 
-## SPDocKit Insights Agent Required Configuration
+## SPDocKit Insights Agent required configuration
 1. [Install SPDocKit Insights Agent](#internal/installation/installation-guide/) preferably on a **server that is not part of your SharePoint farm**. Run the SPDocKit setup file and select **SPDocKit Insights Agent** feature in the **advanced** install mode. Check [system requirements](#internal/requirements/system-requirements/) for this server.
 2. Start the **SPDocKit Insights Configuration Utility** to configure the installed SPDocKit Insights Agent.
     - Will be started automatically after installation if the SPDocKit Insights Agent is installed on a separate server.
@@ -35,7 +35,7 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
     - Take note of the URL in the confirmation message. This is needed to connect to the SPDocKit Insights Agent if the SPDocKit Insights Application is installed on a separate server or workstation.
     - If the SPDocKit Insights application is installed on the same server as the SPDocKit Insights Agent, SPDocKit Insights will start automatically.
 
-## SPDocKit Insights Additional Configuration
+## SPDocKit Insights additional configuration
 Additional configuration is done by means of the SPDocKit Insights application.
 
 1. [Install SPDocKit Insights](#internal/installation/installation-guide/) on **any** server, with or without SPDocKit. Run the SPDocKit setup file and select the Insights Viewer feature in the **advanced** install mode.
@@ -53,7 +53,7 @@ Additional configuration is done by means of the SPDocKit Insights application.
 4. To customize the default settings click the **Settings button** located in the bottom left corner. 
     - For more details on available settings follow click [here](#internal/how-to/spdockit-insights/customize-settings/).
 
-### Configure Alerts[**](#realTime2)
+### Configure alerts[**](#realTime2)
 - Select the Event Viewer tab in the left navigation.
 - Select a farm if you are monitoring multiple farms.
 - The alerts option will be available:

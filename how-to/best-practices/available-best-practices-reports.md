@@ -6,10 +6,10 @@ date: 25/5/2017
 ---
 We have prepared a detailed overview of all available reports in SPDocKit with descriptions and instructions in our [Best Practices Library](https://bp.spdockit.com/).
 
-### Visit Our Best Practices Library
+### Visit our best practices library
 The built-in reports contain information from various sources: most of them come from official articles by __TechNet__, __MSDN__, or other reliable sources, and some pieces of information come from personal experience. The purpose of these articles is to help you validate your farm configuration and optimize it according to the latest SharePoint best practices.
 
-### Available Best Practices Checks
+### Available best practices checks
 With each new release, Best Practices are extended with new reports. Our tool covers the following areas:
 * Configuration
 * Databases

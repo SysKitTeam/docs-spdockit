@@ -23,7 +23,7 @@ Data is being collected continuously in real-time[*](#realTime) and stored in an
 SPDocKit Insights enables you to filter and search the gathered log data by various fields (ie. correlation ID, category, source, server, message, event ID ...), make complex queries, and is essentially a search engine for all your log files.
 The collected performance data and the associated performance dashboards are also a useful addition to getting a handle on your farm.
 
-## Quick Start Guide
+## Quick start guide
 1. Install and configure SPDocKit on the SharePoint farm you wish to document and manage.
 2. On a server outside of the selected farm, [install and configure the SPDocKit Insights Agent](#internal/how-to/spdockit-insights/configure-data-collection/).
 3. [Install and configure SPDocKit Insights](#internal/how-to/spdockit-insights/configure-data-collection/) application to start exploring the collected data. You can install SPDocKit Insights on any Windows server or a workstation that is inside a trusted domain.

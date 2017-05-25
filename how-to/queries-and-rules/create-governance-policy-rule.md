@@ -22,7 +22,7 @@ This section describes how to use the SPDocKit Rule wizard to create a rule to h
 
 1. Use filters to enforce your rule on SharePoint document libraries only. Select the List Template as a filtering condition, click the underlined value “specific” and choose Document library as the preferred template. Click Next to continue.
 
-1. Define the extent to which you wish to enforce this rule across your SharePoint farm. You can target __the entire web application, or specific site collections, subsites, lists and list items__. Each time the rule runs, it will configure all document libraries from the specified scope to require document check-out before editing.
+1. Define the extent to which you wish to enforce this rule across your SharePoint farm. You can target __the entire Web application, or specific site collections, subsites, lists and list items__. Each time the rule runs, it will configure all document libraries from the specified scope to require document check-out before editing.
 
    If you have chosen the manual execution in the previous steps, you can skip this step – select Skip target selection; ask me on execution checkbox. You will be able to choose the desired scope each time you start the rule.
 
@@ -31,6 +31,6 @@ This section describes how to use the SPDocKit Rule wizard to create a rule to h
 1. Run this rule right away or wait for the scheduled time for the rule to run automatically, after which you can explore the results. Each time you or the SPDocKit Service executes a rule, a history record is created. Click on the desired record and explore which changes, and where, were made on that particular day.
 
 
-#### Tips & Tricks
+#### Tips & tricks
 
 SPDocKit comes with a couple of predefined manual rules: Document Library Checkout Required and Document Library Version History. Also, you can edit their definitions to make them better suit your needs.

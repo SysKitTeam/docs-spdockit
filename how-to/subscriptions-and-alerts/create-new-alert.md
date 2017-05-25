@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 17/5/2017
 ---
 This section describes how to create scheduled __Alerts__ for SPDocKit reports. 
-If you wish to use the __Subscriptions and Alerts__ feature, please make sure you configured the [Subscription Settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard.md#subscription-settings) properly.
+If you wish to use the __Subscriptions and Alerts__ feature, please make sure you configured the [Subscription Settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings) properly.
 
 Alerts are sent after each automatic snapshot, that is, snapshot created by the SPDocKit Service.
   * __Best Practice__ reports will be sent when either warnings or errors are detected in the latest snapshot.
@@ -20,7 +20,7 @@ Instructions:
 
 1. Go to the Delivery tab and set the delivery method you would like to use.
 
-    * __Email__ – required fields are Send To and Body. Provide the email address to which you wish to send the alert. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard.md#snapshot-options).
+    * __Email__ – required fields are Send To and Body. Provide the email address to which you wish to send the alert. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard#snapshot-options).
     * __File Share__ – input the File Share location here. You can use the Test button to check if the given location is reachable and if SPDocKit can write to the location.
     * __SharePoint Library__ – If this is the first time you are using this feature, you need to create a new library connection. 
     
@@ -36,7 +36,7 @@ Instructions:
 1. You can add more reports by repeating the previous steps. Also, you can  __Edit__  current report settings or  __Delete__  added reports.
 1. Click Save & Close to finish creating the Alert and exit. If you wish to send this alert immediately, click the Save & Send Now.
 
-### Tips & Tricks
+### Tips & tricks
 
 If you would like to schedule best practice alerts, __Alert Me__ is available on the Home ribbon of the Best Practices tab. The selected best practices report will be added to a new alert automatically.
 

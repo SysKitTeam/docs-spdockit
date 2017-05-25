@@ -11,7 +11,7 @@ This section describes how to import and export SPDocKit settings. If you need t
 
 To import certain settings to other SPDocKit installations, select __Import Settings__, then choose the location from which you wish to import. Click __OK__ to proceed.
 
-## Available Options
+## Available options
 
 Importing and exporting application settings affects the report and export options, data collection interval, database index reorganization, snapshot load setup, data retention policy and options, customer improvement participation selection, email settings, and Best Practices report settings.
 

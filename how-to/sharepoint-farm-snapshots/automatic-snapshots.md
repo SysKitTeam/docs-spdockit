@@ -10,7 +10,7 @@ SPDocKit allows administrators to configure a schedule to create automatic Share
 1. Navigate to the Backstage Configuration Screen and click Configure.
 
 1. Skip to the Service Settings option, select the Enable Service checkbox and type in the service account details. Click Validate Account and then Next to continue.  
-Please note! Please check the [permission requirements](#internal/requirements/user-permissions-requirements) for the service account.  
+__Please note!__ Check the [permission requirements](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for the service account.  
 
    Once the Configuration wizard is finished, navigate to the __Backstage Configuration Screen > Options > Service Settings__. You can change the snapshots folder location or choose to save them to the database. [Define the period](#internal/get-to-know-spdockit/backstage-screen/options-wizard) for creating snapshots with the Data Collection Interval.
 
@@ -47,7 +47,7 @@ Please note! Please check the [permission requirements](#internal/requirements/u
 
    Click __Save__ when finished.  
 
-1. Go to Load Target to select the scope on which SPDocKit Service will crawl for data – for example, the entire farm, web application, site collection or specific subsites.
+1. Go to Load Target to select the scope on which SPDocKit Service will crawl for data – for example, the entire farm, Web application, site collection or specific subsites.
 
 1. Click Save to apply changes and finish configuring the automatic SPDocKit Service for creating an automatic snapshot of your farm’s permissions state.
 
