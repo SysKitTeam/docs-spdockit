@@ -4,8 +4,6 @@ author: Tomislav Sirovec
 date: 17/5/2017 
 ---
 
-# Upgrade to the Latest Version
-
 This article explains how to upgrade SPDocKit to the latest major version. SPDocKit database, saved farms, snapshots and application settings will be preserved in the upgrade process.
 
 ## Preparation:
