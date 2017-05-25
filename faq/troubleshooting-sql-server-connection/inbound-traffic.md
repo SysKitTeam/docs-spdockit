@@ -18,7 +18,7 @@ Inbound traffic on TCP Port 1433 needs to be allowed on the SQL server.
 7. In this step, leave the default selection: Allow the connection.
 8. Select the profiles for which this rule applies.
 
-**Note:** *If the SQL server is in the same domain with other servers and you wish to open this port only for the domain traffic, it is enough to select Domain. For other scenarios use the Private or Public profile option.*
+    **Note:** *If the SQL server is in the same domain with other servers and you wish to open this port only for the domain traffic, it is enough to select Domain. For other scenarios use the Private or Public profile option.*
 
 9. Specify the name and the description of this rule.
 10. Inbound traffic on the SQL server is now allowed and SQL connection should be available!

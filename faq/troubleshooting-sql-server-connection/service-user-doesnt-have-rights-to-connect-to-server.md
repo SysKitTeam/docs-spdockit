@@ -19,6 +19,6 @@ The service user needs to be granted the __dbcreator__ and __securityadmin__ ser
 6. Click on the **Server Roles** tab in the left navigation bar.
 7. Check the boxes next to the **dbcreator** and **securityadmin** list items. Granting these privileges to a user means they will be able to create databases and manage other users’ privileges.
 
-**Note:** *If the user wants to be the system administrator of the SQL server it is enough to check the **sysadmin** item in the list.*
+    **Note:** *If the user wants to be the system administrator of the SQL server it is enough to check the **sysadmin** item in the list.*
 
 8. SQL connection should now be available.

@@ -37,6 +37,6 @@ Note that this will work for both .exe and .msi installation files.
 ## Learn More
 * [How to: Create Farm Documentation](#internal/how-to/farm-documentation/create-farm-documentation/)
 * [How to: Compare SharePoint Farms](#internal/how-to/compare-wizard/compare-sharepoint-farms/)
-* [How to: Configure Automatic Snapshots](#internal/how-to/sharepoint-farm-snapshot/configure-automatic-snapshots/)
+* [How to: Configure Automatic Snapshots](#internal/how-to/sharepoint-farm-snapshots/automatic-snapshots/)
 
      

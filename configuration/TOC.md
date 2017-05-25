@@ -6,6 +6,7 @@ private: true
 
 # [Configure SPDocKit](configure-spdockit.md)
 # [Configure SPDocKit Database](configure-spdockit-database.md)
+# [Configure SPDocKit LocalDB](configure-localdb.md)
 # [Configure Multiple Farms to Use the Same SPDocKit Database](configure-multiple-farms-to-use-same-spdockit-database.md)
 # [Import and Export SPDocKit Settings](import-and-export-spdockit-settings.md)
 # [Configure SPDocKit on a Workstation](configure-spdockit-on-a-workstation.md)
