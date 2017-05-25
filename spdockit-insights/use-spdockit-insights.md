@@ -20,7 +20,7 @@ The home screen of SPDocKit Insights shows some statistical data about the event
     - Selecting a farm is only available if multiple farms are used with the same SPDocKit database.
 3. Select the time range in which to search for events.
     - Please limit the range as much as possible for optimal performance. 
-4. Enter your search query. Click [here](#internal/how-to/spdockit-insights/search-query-guide/) for more details on writing a search query.
+4. Enter your search query. Click [here](#internal/spdockit-insights/search-query-guide/) for more details on writing a search query.
 5. An empty query (all events within the specified time range) is also supported, but use sparingly or on small time ranges. Just click search or press the enter key.
 
 ### Viewing results
@@ -35,11 +35,11 @@ By default, SPDocKit Insights uses a layout similar to a search engine to displa
 2. When satisfied with the constructed query, press the search button again.
 
 ### Alerts
-You have created a very useful query and would like to be notified when an event that satisfied this query appears? No problem, just create an alert[*](#licenseLimitations) by clicking the alert button on the search results page. Click [here](#internal/how-to/spdockit-insights/search-alerts) for more details.
+You have created a very useful query and would like to be notified when an event that satisfied this query appears? No problem, just create an alert[*](#licenseLimitations) by clicking the alert button on the search results page. Click [here](#internal/spdockit-insights/search-alerts) for more details.
         
 ## Use SPDocKit to view farm performance
 
-SPDocKit Insights collects performance data[*](#licenseLimitations) by default. This behavior can be modified in the [settings](#internal/how-to/spdockit-insights/customize-settings/).  
+SPDocKit Insights collects performance data[*](#licenseLimitations) by default. This behavior can be modified in the [settings](#internal/spdockit-insights/customize-settings/).  
 To view the collected data, select the performance tab in the left navigation.  
 The default dashboard has three views:
 1. Compact

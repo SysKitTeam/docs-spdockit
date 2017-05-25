@@ -51,7 +51,7 @@ Additional configuration is done by means of the SPDocKit Insights application.
     - Performance data will be collected if supported by the SPDocKit license edition.
 
 4. To customize the default settings click the **Settings button** located in the bottom left corner. 
-    - For more details on available settings follow click [here](#internal/how-to/spdockit-insights/customize-settings/).
+    - For more details on available settings follow click [here](#internal/spdockit-insights/customize-settings/).
 
 ### Configure alerts[**](#realTime2)
 - Select the Event Viewer tab in the left navigation.

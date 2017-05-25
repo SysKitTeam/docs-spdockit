@@ -29,7 +29,7 @@ A simple pie chart of what is the largest producer of events in the farm. In mos
 ### Entries by Server
 A simple pie chart showing how the collected events are distributed among the farm servers.
 
-#Entries by Level
+### Entries by Level
 A simple pie chart showing how the collected events are distributed by the ULS and event log levels.
 
 

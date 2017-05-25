@@ -1,10 +1,13 @@
 ---
 title: Configure SPDocKit on a Workstation
+description: This article explains how to configure SPDocKit on a workstation.
+author: Tomislav Kunaj
+date: 25/5/2017
 ---
 
 This article explains how to configure [SPDocKit on a workstation](#internal/blog/spdockit-workstation-license/). An SPDocKit workstation instance allows you to manage both SharePoint On-Premise and SharePoint Online permissions, view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
 
-__Requirements__: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [workstation or site/team/consultant license](https://www.spdockit.com/orders/) and the user running the application on a workstation needs to have adequate [permissions](#internal/requirements/spdockit-user-permission-requirements/).
+__Requirements__: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [workstation or site/team/consultant license](https://www.spdockit.com/orders/) and the user running the application on a workstation needs to have adequate [permissions](#internal/requirements/sharepoint-on-premises-user-permission-requirements/).
 
 __Please note!__ To use SPDocKit reports on your workstation, you need to have SPDocKit installed on an actual SharePoint server to load the data. A workstation installation cannot create new farm snapshots or load information about permissions; it can only explore previously loaded data and manage permissions in real-time using Permissions Explorer.
 
@@ -36,4 +39,4 @@ To install and configure an SPDocKit instance, follow these instructions:
 7. Click __Finish__ to start using SPDocKit on your workstation.
 
 ### Learn more
-* [How to: Manage SharePoint Online permissions with SPDocKit Workstation](#interal/how-to/sharepoint-online/how-to-manage-sharepoint-online-permissions-with-spdockit-workstation/)
+* [How to: Manage SharePoint Online permissions with SPDocKit](#interal/how-to/sharepoint-online/manage-sharepoint-online-permissions)
