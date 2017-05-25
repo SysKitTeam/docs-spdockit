@@ -21,4 +21,4 @@ private: true
 # [Queries and Rules Screen](queries-and-rules-screen.md)
 # [Snapshots Screen](snapshots-screen.md)
 # [SharePoint Online](sharepoint-online.md)
-# [SPDocKit Insights](spdockit-insights.md)
+# [SPDocKit Insights](insights-quick-start-guide.md)
