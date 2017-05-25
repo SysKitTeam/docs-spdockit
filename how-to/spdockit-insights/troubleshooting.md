@@ -6,18 +6,18 @@ date: 24/5/2017
 ---
 
 
-There are a couple of problems that may be encountered when using SPDocKit Insights.
+There are a couple of problems that may be encountered while using SPDocKit Insights.
 
 ### There are no active agents available.
 
 #### Problem
-When starting SPDocKit Insights through the SPDocKit start page you receive the following message: There are no active agents available. Please ensure that SPDocKit Insights Agent is working correctly.
+When starting SPDocKit Insights through the SPDocKit start page you receive the following message: There are no active agents available. Please ensure that the SPDocKit Insights Agent is working correctly.
 
 #### Solution
 There are two possibilities why you got this message:  
 * The SPDocKit Insights Agent/s is **not installed** but it is still listed in your SPDocKit database. This can happen if you used the SPDocKit Insights feature but then upgraded to a new version without installing the agent. This can be fixed by installing the aforementioned feature. See [here](#internal/installation/upgrade-to-the-latest-version/) for more information.
-* The SPDocKit Insights Agent is installed but you haven’t gone through the **SPDocKit Insights Agent Configuration**. Please go [here](#internal/how-to/spdockit-insights/configure-data-collection/) and see section: **SPDocKit Insights Agent Required Configuration**.
-    - this can happen if you performed an upgrade of a SPDocKit installation where SPDocKit Insights Agent was installed side by side with SPDocKit. In such a case the configuration utility will not start automatically after installation which will leave the agent as not started.
+* The SPDocKit Insights Agent is installed but you haven’t gone through the **SPDocKit Insights Agent Configuration**. Please go [here](#internal/how-to/spdockit-insights/configure-data-collection/) and check the section titled **SPDocKit Insights Agent Required Configuration**.
+    - this can happen if you performed an upgrade of a SPDocKit installation where a SPDocKit Insights Agent was installed side by side with SPDocKit. In that case, the configuration utility will not start automatically after installation, which will leave the agent as not started.
 
 ### Connection to the SPDocKit Insights Agent failed
 
@@ -51,7 +51,7 @@ The **offline or not accessible** state will occur if SPDocKit Insights cannot c
 * There is a firewall issue preventing the connection.
     - SPDocKit Insights connects to the SPDocKit Insights Agent over HTTP. The port configured for the SPDocKit Insights Agent must not be blocked.
 * The agent could have been uninstalled.
-    - you can remove uninstalled agents from the settings available in the bottom left corner. Select the uninstalled agent and click on the **Remove** button.
+    - you can remove uninstalled agents via the settings available in the bottom left corner. Select the uninstalled agent and click on the **Remove** button.
 
 
 ### Data is not being collected
