@@ -2,7 +2,7 @@
 title: SharePoint Online User Permissions Requirements
 author: Matija Hanzic  
 date: 17/5/2017
-description:  
+description: This article lists required privileges to load SharePoint Online settings with tutorial how to aquire those privileges.
 --- 
 To run SPDocKit and to retrieve all SharePoint Online settings you want to document, the user running the application and SPDocKit service account needs to have proper privileges. Here is the list of required privileges to load SharePoint Online settings:
 

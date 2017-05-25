@@ -1,8 +1,8 @@
 ---
 title: System Requirements
-description:
-author:
-date:
+description: This article lists the minimum hardware and software requirements for the installation of the SPDocKit.
+author: Matija Hanzic
+date: 25/5/2017
 ---
 This article lists the minimum hardware and software requirements for SPDocKit. View the corresponding section depending on the scenario you need - either SPDocKit for SharePoint On-Premises or SharePoint Online.
 

@@ -1,8 +1,8 @@
 ---
 title: Supported SharePoint Editions
-description:
-author:
-date:
+description: This article lists all SharePoint editions that are supported by SPDocKit.
+author: Matija Hanzic
+date: 25/5/2017
 ---
 The following SharePoint editions and additional products are supported by SPDocKit:
 
