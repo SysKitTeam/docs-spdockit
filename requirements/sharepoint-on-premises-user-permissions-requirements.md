@@ -9,7 +9,7 @@ To run SPDocKit and to retrieve all SharePoint settings you want to document, bo
 1. __Local Administrators__ and __WSS_ADMIN_WPG group member__ on every machine in the SharePoint farm. Required to retrieve list of installed applications on farm servers.
 2. __SharePoint farm administrator__. Required to retrieve SharePoint farm settings.
 3. __Member of SharePoint_Shell_Access role__ on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
-4. Special privileges for the __Service Account__: Service account needs to have privileges listed above as well as the __Log on as a Service__ right. [Click here for instructions](http://technet.microsoft.com/en-us/library/cc794944(WS.10).aspx) on how to configure that right.
+4. Special privileges for the __Service Account__: Service account needs to have privileges listed above as well as the __Log on as a Service__ right. [Click here for instructions](https://goo.gl/MRGS73) on how to configure that right.
 5. [Server specific requirements](#internal/requirements/server-load-permission-requirements/) needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL Server configuration information for DB servers.
 
 
