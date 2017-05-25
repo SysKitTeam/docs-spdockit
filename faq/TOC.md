@@ -23,7 +23,7 @@ private: true
 # Troubleshooting SQL Server Connection
 ## [SPDocKit won’t connect to a provided server and database](configuration-wizard-connect-to-server-and-database.md)
 ## [Configure SQL server to listen on a specific port](configure-server-to-specific-port.md)
-##  [Is SQL Server configured to use a named instance](configure-server-to-use-named-instance.md)
+## [Is SQL Server configured to use a named instance](configure-server-to-use-named-instance.md)
 ## [Inbound traffic on TCP Port 1433 needs to be allowed on the SQL](inbound-traffic.md)
 ## [Service user does not have rights to connect to the SQL server](service-user-doesnt-have-rights-to-connect-to-server.md)
 ## [TCP/IP network traffic not enabled on the SQL Server](tcp-ip-network-traffic-not-enabled-on-server.md)

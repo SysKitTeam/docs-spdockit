@@ -11,7 +11,7 @@ private: true
 ## [Compare Wizard](compare-wizard.md)
 ## [Role Based Security](role-based-security.md)
 # [Farm Explorer Screen](farm-explorer-screen.md)
-## [Farm Explorer Reports](farm-explorer.reports.md)
+## [Farm Explorer Reports](farm-explorer-reports.md)
 ## [Passwords and Product keys](passwords-and-product-keys.md)
 # [Site Explorer Screen](site-explorer-screen.md)
 # [Permissions Exporer Screen](permissions-explorer-screen.md)

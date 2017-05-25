@@ -53,3 +53,5 @@ private: true
 ## [Use SPDocKit Insights](use-spdockit-insights.md)
 ## [Write Search Queries](search-query-guide.md)
 ## [Search Alerts](search-alerts.md)
+## [Search Query Guide](search-query-guide.md)
+## [Troubleshooting](troubleshooting.md)
