@@ -5,7 +5,7 @@ author: Tomislav Kunaj
 date: 25/5/2017
 ---
 
-This article explains how to configure [SPDocKit on a workstation](#internal/blog/spdockit-workstation-license/). An SPDocKit workstation instance allows you to manage both SharePoint On-Premise and SharePoint Online permissions, view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
+This article explains how to configure SPDocKit on a workstation. An SPDocKit workstation instance allows you to manage both SharePoint On-Premise and,view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
 
 __Requirements__: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [workstation or site/team/consultant license](https://www.spdockit.com/orders/) and the user running the application on a workstation needs to have adequate [permissions](#internal/requirements/sharepoint-on-premises-user-permission-requirements/).
 
@@ -20,9 +20,6 @@ To install and configure an SPDocKit instance, follow these instructions:
 3. When using SPDocKit on a workstation, there are differences depending on if you are using a database or not.
     * When using it __without a database__, the features available are as follows:
         * Snapshots (Farm Explorer and Best Practices reports)
-        * Live permissions explorer
-        * Permissions management for SharePoint On-premise
-        * Permissions management for SharePoint Online
     * When using SPDocKit on a workstation __with a database__, you can access:
         * Snapshots (Farm Explorer and Best Practices reports)
         * All reports (Site Explorer, Permissions Reports, Content & Usage reports and Monitoring reports) except Queries and Rules
@@ -38,5 +35,6 @@ To install and configure an SPDocKit instance, follow these instructions:
 
 7. Click __Finish__ to start using SPDocKit on your workstation.
 
-### Learn more
-* [How to: Manage SharePoint Online permissions with SPDocKit](#interal/how-to/sharepoint-online/manage-sharepoint-online-permissions)
+
+### Learn More
+* [How to connect to SharePoint Online](#internal/how-to/sharepoint-online/connect-spo)
