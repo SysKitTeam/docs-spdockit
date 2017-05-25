@@ -46,7 +46,7 @@ In case you have a very strict security policy and cannot add this account to th
 
 2. Go to Windows Update service and start it in Service Microsoft Management Console.
 
-# Additional SQL Server Load Requirements
+## Additional SQL Server Load Requirements
 #### Problem:
 
 While trying to create a SPDocKit snapshot, I received the following warning:
