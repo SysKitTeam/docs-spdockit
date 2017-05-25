@@ -1,6 +1,6 @@
 ---
-title: SPDocKit Insights Search Query Guide
-description: How to write search queries
+title: SPDocKit Insights Event Viewer
+description: How to write search queries in SPDocKit Insights Event Viewer.
 author: Vinko Bedek
 date: 19/5/2017
 ---

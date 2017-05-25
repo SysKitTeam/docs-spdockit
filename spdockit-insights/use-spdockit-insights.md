@@ -13,7 +13,7 @@ Start SPDocKit Insights:
 
 The home screen of SPDocKit Insights shows some statistical data about the event collection process and an overview of performance data collected.
 
-## Use SPDocKit Insights to search for events
+## Use SPDocKit Insights Event Viewer to search for events
 
 1. Select the search tab in the left navigation. 
 2. Select the farm for which you wish to perform the search.
