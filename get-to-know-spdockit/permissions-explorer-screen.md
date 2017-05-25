@@ -2,7 +2,7 @@
 title: Permissions Explorer Screen
 description: This article describes how to use SPDocKit Permissions Explorer to explore SharePoint permissions.
 author: Iva Novoselic
-title: 24/5/2017
+date: 24/5/2017
 ---
 With Permissions Explorer farm administrators can explore SharePoint permissions real time by simply navigating to the specific securable object. Use the tree view in the navigation on the left-hand side to expand the desired SharePoint securable objects and view permissions details in the main grid.
 

@@ -3,7 +3,6 @@ title: Manage Users
 description: How to manage users
 author: Vinko Bedek
 date: 22/5/2017
-title: 
 ---
 
 This section explains how to add principals and manage users.

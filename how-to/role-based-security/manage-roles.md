@@ -3,7 +3,6 @@ title: Manage Roles
 description: How to manage roles
 author: Vinko Bedek
 date: 19/5/2017
-title: 
 ---
 
 This section describes how to manage SPDocKit roles.

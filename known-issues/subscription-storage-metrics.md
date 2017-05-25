@@ -1,6 +1,8 @@
 ---
 title: Storage Metrics report subscription
 description: This article describes a known issue related to Stroage Metrics subscriptions.
+author: Iva Novoselic  
+date: 25/5/2017
 ---
 
 __Summary:__ The main reason that this report cannot be used as a subscription is the sheer volume of data that would result if we were to expand all of the data.

@@ -1,6 +1,8 @@
 ---
 title: Create Custom Best Practices Reports
 description: This section describes how SharePoint administrators can use SPDocKit to create Best Practices reports for a SharePoint Farm.
+author: Iva Novoselic
+date: 25/5/2017  
 ---
 This section describes how SharePoint administrators can use SPDocKit to create Best Practice reports for a SharePoint Farm. In this guide, we will show you how you can build a report that counts the number of content databases per web application.
 

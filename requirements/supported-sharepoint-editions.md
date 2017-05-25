@@ -1,5 +1,8 @@
 ---
 title: Supported SharePoint Editions
+description:
+author:
+date:
 ---
 The following SharePoint editions and additional products are supported by SPDocKit:
 

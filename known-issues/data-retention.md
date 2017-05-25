@@ -1,6 +1,8 @@
 ---
-Title: Data retention not working properly
+title: Data retention not working properly
 description: This article describes a known issue related to the data retention not working properly.
+author: Iva Novoselic  
+date: 25/5/2017
 ---
 
 __Summary:__ I receive the following error when running the data retention:

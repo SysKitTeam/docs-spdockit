@@ -1,6 +1,8 @@
 ---
-Title: Distributed Cache Loading Issue
+title: Distributed Cache Loading Issue
 description: This article explains loading issue when Distributed Cache settings cannot be loaded onto a server because that is not part of a Distributed Cache Cluster.
+author: Iva Novoselic  
+date: 25/5/2017
 ---
 
 __Summary:__ SPDocKit does not load Distributed Cache settings data and displays a warning message during the load:

@@ -1,6 +1,8 @@
 ---
 title: PowerPivot FileNotFoundException issue
 description: This article describes how to resolve loading issue with FileNotFoundException error message appearing.
+author: Iva Novoselic  
+date: 25/5/2017
 ---
 
 __Summary:__ During the snapshot process, the following error can be observed either in the Snapshot Wizard or the event log:

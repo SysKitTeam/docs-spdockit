@@ -1,6 +1,8 @@
 ---
-Title: Load crashes with NullReference exception
+title: Load crashes with NullReference exception
 description: This article expalins the possible cause of the farm load crash with NullReference exception.
+author: Iva Novoselic  
+date: 25/5/2017
 ---
 
 __Summary:__ Upon inspecting the event log after a failed load, the following exception can be found:

@@ -1,6 +1,8 @@
 ---
 title: Customize Documentation Template
 description: This section describes how you can use your own documentation template (docx) to generate SharePoint Farm documentation with the SPDocKit.
+author: Iva Novoselic  
+date: 25/5/2017  
 ---
 
 ### Quick Guide

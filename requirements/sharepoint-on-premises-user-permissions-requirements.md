@@ -1,7 +1,8 @@
 ---  
 title: SharePoint On-Premises User Permissions Requirements
 author: Matija Hanzic  
-date: 17/5/2017  
+date: 17/5/2017
+description:
 --- 
 To run SPDocKit and to retrieve all SharePoint settings you want to document, both the user running SPDocKit and the SPDocKit service account need to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
 

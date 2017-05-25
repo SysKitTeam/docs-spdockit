@@ -2,6 +2,7 @@
 title: Unistallation Guide
 author: Tomislav Sirovec      
 date: 17/5/2017 
+description: This article explains how to uninstall SPDocKit.
 ---
 We are sorry to hear you are leaving the Acceleratio family, but here are the steps how to uninstall the __SPDocKit__.
 
