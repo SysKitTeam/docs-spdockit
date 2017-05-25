@@ -15,6 +15,8 @@ Activate your fully featured version and explore all the amazing reports.
 Explore all possible configuration scenarios and choose the right one for your environment and license. 
 # [Get to Know SPDocKit](get-to-know-spdockit.md)
 Dive into a detailed overview of what SPDocKit has to offer. Check out the available report types and feature sets. 
+# [SPDocKit Insights](spdockit-insights.md)
+Monitor SharePoint performance via an interactive live dashboard and search through Windows Event Log, SharePoint ULS, and SQL logs across all farm servers. 
 # [Permission Management](permission-management.md)
 Permissions management has never been easier using SPDocKit actions and wizards. Take a look and learn how to use them! 
 # [How To](how-to.md)
