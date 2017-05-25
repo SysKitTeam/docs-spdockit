@@ -49,6 +49,6 @@ private: true
 # SharePoint Online
 ## [Connect to SharePoint Online](connect-to-spo.md)
 ## [Manage SharePoint Online Permissions](manage-sharepoint-online-permissions.md)
-## [SharePoint Online Permissions Reports](spo-snapshot.md)
+## [SharePoint Online Permissions Reports](spo-snapshots.md)
 
 
