@@ -79,7 +79,7 @@ The selection you make here applies both for the __SPDocKit Service taking an au
 
 __This tab was removed in version 6.2__, as the Monitoring feature has been completely redesigned since. 
 
-If you would like to explore your farm's SharePoint ULS and Windows event viewer logs, or track server health by monitoring performance counters, then [configure the SPDocKit Insights feature](#internal/how-to/spdockit-insights/configure-data-collection.md). Learn more about [SPDocKit Insights](#internal/get-to-spdockit/spdockit-insights) and how it can help you address all possible issues in your farm.
+If you would like to explore your farm's SharePoint ULS and Windows event viewer logs, or track server health by monitoring performance counters, then [configure the SPDocKit Insights feature](#internal/how-to/spdockit-insights/configure-data-collection). Learn more about [SPDocKit Insights](#internal/get-to-know-spdockit/spdockit-insights) and how it can help you address all possible issues in your farm.
 
 ## Data Retention
 

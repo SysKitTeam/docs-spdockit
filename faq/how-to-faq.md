@@ -47,7 +47,7 @@ There are two parts of storage that are used by any database:
 
 In order to reduce the database size you can do the following:
 
-1. Open the __Options wizard__, select the [Data Retention](get-to-know-spdockit/backstage-screen/options-wizard#data-retention) tab. Here is where you will see how your retention policies are defined.
+1. Open the __Options wizard__, select the [Data Retention](#internal/get-to-know-spdockit/backstage-screen/options-wizard#data-retention) tab. Here is where you will see how your retention policies are defined.
 1. You will see the __Force Data Retention__ button, and next to that is an __Execute__ button. Pressing this button will automatically delete old information, then attempt to shrink your database (the way this runs is determined by the settings in step 1).  
    __Please note:__ this can take a little bit of time to run.
 
@@ -70,4 +70,4 @@ This message is sometimes generated when there are insufficient rights given to 
 All accounts taking a snapshot must have the same level of access.
 
 
-For more information, please see the [following article](C#internal\faq\troubleshooting\could-not-load-user-profile-service).
+For more information, please see the [following article](#internal/faq/troubleshooting/could-not-load-user-profile-service).
