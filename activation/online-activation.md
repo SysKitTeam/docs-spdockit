@@ -4,7 +4,7 @@ author: Matija Hanzic
 date: 16/5/2017  
 description: This article outlines the steps needed to perform SPDocKit activation.
 --- 
-### Farm License
+### Farm license
 
 The Farm license is tied to a __farm ID__ and can be activated only on servers with SharePoint installed. This also means that you can activate a single Farm license on all servers in one SharePoint farm.
 
@@ -18,7 +18,7 @@ The Farm license is tied to a __farm ID__ and can be activated only on servers w
 
 4. Click the __Activate__ button to start the activation process. Activation takes a couple of seconds and is a one time process.
 
-### Consultant License
+### Consultant license
 
 The Consultant license can be activated on any server, but you need to have a valid SPDocKit Consultant subscription. Please take special care that the Consultant license is intended for external (customers' farms) usage only. Here is how to activate a Consultant license online.
 
@@ -33,7 +33,7 @@ The Consultant license can be activated on any server, but you need to have a va
 
 __Please note!__ The Consultant license requires re-activation every 30 days. When your current Consultant subscription expires, SPDocKit will warn you that re-activation is needed.
 
-### Site License
+### Site license
 
 The Site license is tied to a __domain name__, __workstation ID__ or __farm ID__, which means you can use it to activate SPDocKit on an unlimited number of SharePoint farms and workstations/computers within one physical location.
 
@@ -47,7 +47,7 @@ The Site license is tied to a __domain name__, __workstation ID__ or __farm ID__
 
 4. Click the __Activate__ button to start the activation process. Activation takes a couple of seconds and it is a one time process.
 
-### Workstation License or SPDocKit Online License
+### Workstation license or SPDocKit Online license
 
 The Workstation license is tied to the __workstation ID__ and cannot be used on a SharePoint server. It is intended for people who would like to explore SPDocKit reports, manage permissions directly from their computers or do not have the direct access to SharePoint servers.
 
@@ -62,6 +62,6 @@ The Workstation license is tied to the __workstation ID__ and cannot be used on 
 4. Click the __Activate__ button to start the activation process. Activation takes a couple of seconds and it is a one time process.
 
 
-### Related Articles:
+### Related articles:
 * [SPDocKit Offline Activation](#internal/activation/offline-activation/)
 * [Licensing FAQ](#internal/activation/activation-faq/)

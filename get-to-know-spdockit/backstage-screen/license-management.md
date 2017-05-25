@@ -10,7 +10,7 @@ To manage your licenses do the following:
 * Click on the __License Management__ button.
 * The __Edit__ and __Delete__ buttons can be used to edit or delete existing licensing info. To add license info use the __Add License__ button.
 
-## Adding SharePoint Edition Licenses
+## Adding SharePoint edition licenses
 
 1. Click the __Add License__ button in the License Management dialog.
 2. In case you have more than one SharePoint farm in the same SPDocKit database, the farm filter will appear and allow you to choose the farm you wish to configure licenses for.
@@ -19,7 +19,7 @@ To manage your licenses do the following:
 5. Enter the __Number of Licenses__ (users) for the edition you have selected.
 6. Click __Add__ to save.
 
-## Adding Licenses for Custom Features
+## Adding licenses for custom features
 
 1. Click the __Add License__ button in the License Management dialog.
 2. Choose the __Custom Feature__ license type.

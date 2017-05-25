@@ -6,7 +6,7 @@ date: 17/5/2017
 ---
 This section explains how you can use the Compare Wizard to compare different farms or snapshots of an existing farm. Navigate to the Backstage Actions Screen and click the __Compare Wizard__ button.
 
-### Compare Farm with a Previous Snapshot
+### Compare farm with a previous snapshot
 
 1. Select Farms as the comparison type and then the __Compare farm with a previous farm snapshot__ subtype. Click Next to continue. 
 
@@ -24,7 +24,7 @@ This section explains how you can use the Compare Wizard to compare different fa
     Farm compare uses the [Compare template](#internal/get-to-know-spdockit/backstage-screen/options-wizard/#compare) when displaying changes between snapshots. This template is also used for the __Differences report__ alert that is sent automatically as part of SPDocKit's Subscriptions and Alerts job. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons – both manual and automatic – performed by the SPDocKit Service.
 
 
-### Compare Two Different SharePoint Farms
+### Compare two different SharePoint farms
 1. Select Farms as the comparison type and then the __Compare two different farms__ subtype. Click Next to continue.
 
 1. Under __Farm Selection__, select the snapshots you wish to compare and click Next. From version 6.1 onwards, farm snapshots are, by default, stored in the __SPDocKit database__. If you have more than one farm connected to the same SPDocKit database, you will see snapshots from all these farms.
@@ -57,7 +57,7 @@ This section explains how you can use the Compare Wizard to compare different fa
 
     Farm compare uses the [Compare template](#internal/get-to-know-spdockit/backstage-screen/options-wizard/#compare) when displaying changes between snapshots. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons.
 
-### Compare with out of the Box Farm
+### Compare with out of the box farm
 1. Select Farms for the comparison type and then the __Compare with out of the box farm__ subtype to continue the process.
 
 1. Under __Farm Selection__, select the snapshot you wish to compare with default farm settings and click Next.

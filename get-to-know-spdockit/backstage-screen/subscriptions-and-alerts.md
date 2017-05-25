@@ -20,7 +20,7 @@ Alerts will be marked with the bell icon, while the scheduled subscriptions will
 * Adjust the time when these subscriptions will be sent and outgoing email server settings
 * Search through the listed subscriptions and alerts.
 
-### Related Articles
+### Related articles
 
 * [Configure SPDocKit database](#)
 * [Configure subscription settings](#)

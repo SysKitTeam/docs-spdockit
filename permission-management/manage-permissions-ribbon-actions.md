@@ -47,7 +47,7 @@ __Create Group__ creates a new SharePoint group on the selected SharePoint objec
  * __Supported Principal selection:__ SharePoint user, Active Directory Group 
 
 
-## Manage Permissions
+## Manage permissions
 
 __Edit Permissions__ modifies assigned permission levels for a selected principal.
 

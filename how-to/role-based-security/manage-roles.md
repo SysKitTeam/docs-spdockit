@@ -8,7 +8,7 @@ title:
 
 This section describes how to manage SPDocKit roles.
 
-### Create New Role
+### Create a new role
 
 To create a new role, follow these instructions:
 1. Navigate to the **Backstage Configuration Screen** and click **Manage Roles**.
@@ -33,13 +33,13 @@ Click **Next** to continue.
 6. Add users to this new role.  
    Click **Next** to create your role and exit the Role Wizard.
 
-### Edit an Existing Role
+### Edit an existing role
 To edit an existing role, follow these instructions:
 1. Navigate to the Backstage Configuration Screen
 2. Click **Manage Roles**
 3. Select the role you wish to edit, and then click **Edit**.
 
-### Delete an Existing Role
+### Delete an existing role
 1. Navigate to the Backstage Configuration Screen
 2. Click **Manage Roles**
 3. Select the role you wish to edit, and then click **Delete**.

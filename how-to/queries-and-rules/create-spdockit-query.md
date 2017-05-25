@@ -34,6 +34,6 @@ This section describes how to use the SPDocKit Query wizard to create a query re
 8. Run this query right away or wait for the scheduled time for the query to run automatically, after which you can explore the results. Each time you or the SPDocKit Service executes a query definition, a history record is created. Click on the desired record and explore the query results by date.
 
 
-#### Tips & Tricks
+#### Tips & tricks
 
 SPDocKit comes with a couple of predefined manual queries: Checked Out Files, Document Libraries Without Check Out, and Document Libraries Without Versioning. If you wish to run them, you will just be required to select a query scope. Also, you can edit the query definitions to better suit your needs.

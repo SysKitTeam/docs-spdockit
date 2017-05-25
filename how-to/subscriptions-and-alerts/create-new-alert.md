@@ -36,7 +36,7 @@ Instructions:
 1. You can add more reports by repeating the previous steps. Also, you can  __Edit__  current report settings or  __Delete__  added reports.
 1. Click Save & Close to finish creating the Alert and exit. If you wish to send this alert immediately, click the Save & Send Now.
 
-### Tips & Tricks
+### Tips & tricks
 
 If you would like to schedule best practice alerts, __Alert Me__ is available on the Home ribbon of the Best Practices tab. The selected best practices report will be added to a new alert automatically.
 

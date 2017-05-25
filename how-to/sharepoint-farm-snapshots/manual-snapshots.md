@@ -12,7 +12,7 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
 1. Navigate to the Backstage Actions Screen and click the Take Snapshot button.
 1. Select the snapshot mode you wish the application to execute. There are three choices:
     * __Default__ – Performs a load using the setup provided in the [Snapshot Options](#internal\get-to-know-spdockit\backstage-screen\options-wizard) and [Load Target](#internal\get-to-know-spdockit\backstage-screen\options-wizard). This includes farm settings, features and solutions, and permissions down to the subsite level on the whole farm by default, and can be changed by the user at any time in the Options Wizard.
-    * __Custom__ – Allows the user to specify exactly what information should be loaded. You can also choose which web applications, site collections or even subsites data will be retrieved.
+    * __Custom__ – Allows the user to specify exactly what information should be loaded. You can also choose which Web applications, site collections or even subsites data will be retrieved.
     It can be the fastest load option if the user wishes to have access only to specific data, and is aware what data he is interested in. This mode is recommended for more advanced users who are looking to generate specific reports.
     * __Full__ – Performs a load that collects all available information where possible (some data will still not be collected if a database is not used with SPDocKit).
     This is the recommended load mode if you don’t mind waiting and want to be sure you have all the data once the load finishes.
@@ -50,6 +50,6 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
 
 
 4. Select the snapshot target.  
-Again, this step will be skipped unless you chose the Custom snapshot mode. Some data is collected from the Central Administration and farm servers regardless of the selection here; however, permissions, workflows, content types, etc., will not show information for items that have not been selected here. You can choose your target to be the entire farm, web application, site collection or specific subsites. 
+Again, this step will be skipped unless you chose the Custom snapshot mode. Some data is collected from the Central Administration and farm servers regardless of the selection here; however, permissions, workflows, content types, etc., will not show information for items that have not been selected here. You can choose your target to be the entire farm, Web application, site collection or specific subsites. 
 
 1. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](#internal/get-to-know-spdockit/farm-explorer-screen/index) and [permission reports](#internal/get-to-know-spdockit/permissions-reports-screen) will be ready for use!

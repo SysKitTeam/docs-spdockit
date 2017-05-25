@@ -6,7 +6,7 @@ description: This article outlines SPDocKit consultant license FAQs.
 --- 
 ### How does the Consultant license differ from the Farm license?
 
-The Consultant license allows you to document unlimited farms for a period of one year (subscription license), while the Farm license is a perpetual license but limited to a single farm.
+The Consultant license allows you to document an unlimited number of farms for a period of one year (subscription license), while the Farm license is a perpetual license but limited to a single farm.
 If you are doing SharePoint consulting for various customers, we recommend the Consultant license, but if you are an in-house consultant then the Farm license would be your choice.
 
 ### What are the Consultant license restrictions?
@@ -28,8 +28,8 @@ There are several restrictions in the Consultant edition:
 
 Yes, the Consultant license allows you to document unlimited farms for the duration of the subscription term.
 
-__TERMS__  
-Under the terms of a Consultant License, only one consultant is permitted to use the SPDocKit. A consultant is a specific individual designated to use the SPDocKit. A Consultant License may be used concurrently on different computers/servers/farms. The consultant may install unlimited numbers of copies of the software, for example on a desktop, laptop, servers or client servers/farms, provided that the specified consultant is the only individual that uses the SPDocKit.
+#### TERMS
+Under the terms of a Consultant license, only one consultant is permitted to use SPDocKit. A consultant is a specific individual designated to use SPDocKit. A Consultant License may be used concurrently on different computers/servers/farms. The consultant may install unlimited numbers of copies of the software, for example on a desktop, laptop, servers or client servers/farms, provided that the specified consultant is the only individual that uses the SPDocKit.
 
 The Consultant license is sold as a yearly subscription and must be renewed upon expiration for continued use.
 

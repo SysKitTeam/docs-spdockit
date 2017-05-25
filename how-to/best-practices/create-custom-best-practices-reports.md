@@ -2,7 +2,7 @@
 title: Create Custom Best Practices Reports
 description: This section describes how SharePoint administrators can use SPDocKit to create Best Practices reports for a SharePoint Farm.
 ---
-This section describes how SharePoint administrators can use SPDocKit to create Best Practice reports for a SharePoint Farm. In this guide, we will show you how you can build a report that counts the number of content databases per web application.
+This section describes how SharePoint administrators can use SPDocKit to create Best Practice reports for a SharePoint Farm. In this guide, we will show you how you can build a report that counts the number of content databases per Web application.
 
 1. After taking a manual snapshot or loading an older snapshot, go to the Best Practices tab in your navigation bar. To create a custom report, click __New__.
 
@@ -21,9 +21,9 @@ This section describes how SharePoint administrators can use SPDocKit to create 
 1. Select the fields where you want to apply the formatting. You can edit the conditional formatting rules by clicking the underlined value __specific__. For this report, select the field __COUNT (Database Name)__. Click Next to continue.
 
 1. Enter the preferred values and formatting rules. Click OK.
-In this case, we will adjust the values so that when the number of databases per web application is over 300, the report will show an error. If the value is between 250 and 300, the report will show a warning, and if the value is less than 250 the report will give a positive result.
+In this case, we will adjust the values so that when the number of databases per Web application is over 300, the report will show an error. If the value is between 250 and 300, the report will show a warning, and if the value is less than 250 the report will give a positive result.
 
-1. You can add conditions to filter data. Click the underlined value __specific__ to edit the conditions. For example, when the condition __Does Not Contain__ is selected, the report will not show web applications that contain an entered value in their names. For this case, enter "Central Administration" to filter out that web application from the report.
+1. You can add conditions to filter data. Click the underlined value __specific__ to edit the conditions. For example, when the condition __Does Not Contain__ is selected, the report will not show Web applications that contain an entered value in their names. For this case, enter "Central Administration" to filter out that Web application from the report.
 
 1. Click Next, then click Finish to close the wizard. Wait a few seconds and your SharePoint Best Practice report will be created!
 

@@ -10,13 +10,13 @@ This section allows you to define and document important information about your 
 * Product Keys for installed SharePoint products
 * the SharePoint farm passphrase
 
-## Entering Information
+## Entering information
 
 To enter the information you want, just click on the cells under the __Password/Key__ columns in the grid and type the information into them.
 
-## Encrypting Passwords with Saved Farms
+## Encrypting passwords and saving them with snapshots
 
-If you have defined passwords, you can choose to encrypt them. Passwords will be secured with an AES 256-bit encryption. To save the farm and encrypted passwords:
+If you have defined passwords, you can choose to encrypt them. Passwords will be secured with an AES 256-bit encryption. To save the farm snapshot with the encrypted passwords:
 
 * From the __File__ menu choose __Save__.
 * Fill in the __Name__ field.

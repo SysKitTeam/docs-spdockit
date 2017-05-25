@@ -47,7 +47,7 @@ Please note! Please check the [permission requirements](#internal/requirements/u
 
    Click __Save__ when finished.  
 
-1. Go to Load Target to select the scope on which SPDocKit Service will crawl for data – for example, the entire farm, web application, site collection or specific subsites.
+1. Go to Load Target to select the scope on which SPDocKit Service will crawl for data – for example, the entire farm, Web application, site collection or specific subsites.
 
 1. Click Save to apply changes and finish configuring the automatic SPDocKit Service for creating an automatic snapshot of your farm’s permissions state.
 
