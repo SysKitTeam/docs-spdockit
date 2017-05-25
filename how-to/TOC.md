@@ -47,11 +47,3 @@ private: true
 # SharePoint Online
 ## [Manage SharePoint Online Permissions](manage-sharepoint-online-permissions.md)
 
-# SPDocKit Insights
-## [Configure Data Collection](configure-data-collection.md)
-## [Customize Settings](customize-settings.md)
-## [Use SPDocKit Insights](use-spdockit-insights.md)
-## [Write Search Queries](search-query-guide.md)
-## [Search Alerts](search-alerts.md)
-## [Search Query Guide](search-query-guide.md)
-## [Troubleshooting](troubleshooting.md)
