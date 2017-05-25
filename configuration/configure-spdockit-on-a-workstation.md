@@ -7,7 +7,7 @@ date: 25/5/2017
 
 This article explains how to configure SPDocKit on a workstation. An SPDocKit workstation instance allows you to manage SharePoint On-Premise,view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
 
-__Requirements__: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [workstation or site/team/consultant license](https://www.spdockit.com/orders/) and the user running the application on a workstation needs to have adequate [permissions](#internal/requirements/sharepoint-on-premises-user-permission-requirements/).
+__Requirements__: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [workstation or site/team/consultant license](https://www.spdockit.com/orders/) and the user running the application on a workstation needs to have adequate [permissions](#internal/requirements/sharepoint-on-premises-user-permissions-requirements/).
 
 __Please note!__ To use SPDocKit reports on your workstation, you need to have SPDocKit installed on an actual SharePoint server to load the data. A workstation installation cannot create new farm snapshots or load information about permissions; it can only explore previously loaded data and manage permissions in real-time using Permissions Explorer.
 
