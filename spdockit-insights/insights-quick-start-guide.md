@@ -26,7 +26,7 @@ The collected performance data and the associated performance dashboards are als
 ## Quick start guide
 1. Install and configure SPDocKit on the SharePoint farm you wish to document and manage.
 2. On a server outside of the selected farm, [install and configure the SPDocKit Insights Agent](#internal/spdockit-insights/configure-data-collection/).
-3. [Install and configure SPDocKit Insights](#internal/how-to/spdockit-insights/configure-data-collection/) application to start exploring the collected data. You can install SPDocKit Insights on any Windows server or a workstation that is inside a trusted domain.
+3. [Install and configure SPDocKit Insights](#internal/spdockit-insights/configure-data-collection/) application to start exploring the collected data. You can install SPDocKit Insights on any Windows server or a workstation that is inside a trusted domain.
 4. Start [using SPDocKit Insights](#internal/spdockit-insights/configure-data-collection/).
 5. [Configure alerts] to make the most out of the SPDocKit Insights experience.
 
