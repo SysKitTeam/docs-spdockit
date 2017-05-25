@@ -21,7 +21,7 @@ This is the current size of the data in the index for the selected farm. It is a
 The current number of events for the selected farm. 
 
 ### Updated On
-This metric is a bit of a misnomer. The value shown here is the time when the most recent event collected for the selected farm had originally occurred. 
+The value shown here is the time when the most recent event collected for the selected farm had originally occurred. 
 
 ### Entries by Source
 A simple pie chart of what is the largest producer of events in the farm. In most cases, this will be the ULS logs. Note that for other values to appear here, Event Log and/or SQL logs collection must be enabled in the settings.
