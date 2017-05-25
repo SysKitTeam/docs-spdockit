@@ -32,7 +32,7 @@ A simple pie chart showing how the collected events are distributed by the ULS a
 A quick glance at the overall server health. For more details, please use the performance tab. 
 
 ### Top Servers by Disk Space Usage
-Top 5 used disks across all servers, based on the last collected value.
+Top 5 disks by disk space used across all servers, based on the last collected value.
 
 ### Top Servers by CPU Utilization
 Top 5 servers with highest processor usage based on the last 15 minutes of data collected.
