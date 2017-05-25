@@ -1,5 +1,5 @@
 ---
-title: SPDocKit Insights
+title: Configure SPDocKit Insights
 description: SPDocKit Insights Installation and Initial Configuration
 author: Vinko Bedek
 date: 17/5/2017
