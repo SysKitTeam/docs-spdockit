@@ -1,5 +1,5 @@
 ---
-title: Use SPDocKit Insights
+title: How to use SPDocKit Insights
 description: How to use SPDocKit Insights
 author: Vinko Bedek
 date: 22/5/2017

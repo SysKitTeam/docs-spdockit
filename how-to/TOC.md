@@ -29,6 +29,8 @@ private: true
 ## [Install SPDocKit Extensions](install-spdockit-extensions.md)
 ## [Change the limit on Site topology Report](change-limit-site-topology-report.md)
 ## [Activate SPCAF Extension](activate-spcaf-extension.md)
+## [Explore Administrative Actions](administrative-actions.md)
+## [Audit Permissions Changes](security-audit.md)
 
 # Best Practices
 ## [Available Best Practices Reports](available-best-practices-reports.md)
