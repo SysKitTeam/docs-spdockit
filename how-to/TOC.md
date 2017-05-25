@@ -47,5 +47,8 @@ private: true
 ## [Manage Users](manage-users.md)
 
 # SharePoint Online
+## [Connect to SharePoint Online](connect-to-spo.md)
 ## [Manage SharePoint Online Permissions](manage-sharepoint-online-permissions.md)
+## [SharePoint Online Permissions Reports](spo-snapshot.md)
+
 
