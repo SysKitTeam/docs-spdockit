@@ -1,20 +1,21 @@
 ---
-title: Search Alerts
-description: How to use alerts
+title: How to manually start event collection
+description: How to use manual load option to gather ULS, windows event log events and sql server logs.
 author: Vinko Bedek
 date: 25/5/2017
 ---
-<!--needs a link added to insights features by edition -->
 
-Depending on the license editions used on the farms that SPDocKit Insights monitors, some features may not be available. For more details, click [here].  
+Depending on the license editions used on the farms that SPDocKit Insights monitors, some features may not be available. For more details, please check [features by license type](http://take.ms/hyjqD) comparison.
+
 One of these features is continuous event collection. Consultants do not have this functionality since the reasoning behind the consultant license edition is that SPDocKit is not to be continuously used on a farm, but when the need arises.  
 But we also recognize the power of searching over indexed events and as such consultants may perform a manual load.
 
-The manual load option will only be visible if your license does not support automatic event collection. 
+The manual load option will only be visible if your license does not support automatic event collection. It is marked with a little __triangle__ icon.
 
 The manual load option is available:
 * on the home dashboard if no data has been collected on the current day
 * on the search page 
+ - press it to start manual event collection.
 
 When performing a manual load, you will be prompted on how much historical data to load:
 * how far into the past to load
