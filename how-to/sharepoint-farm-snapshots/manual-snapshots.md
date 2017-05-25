@@ -7,11 +7,11 @@ description: This article explains how to perform a manual snapshot in SPDocKit
 
 
 This section describes how you can use the SPDocKit Snapshot wizard to collect SharePoint farm settings and permissions.
-Please note! Adjustments and settings you make using this wizard apply to the current snapshot-taking process only. If you wish to configure a default snapshot-taking setting, use the [Options wizard](#internal\get-to-know-spdockit\backstage-screen\options-wizard). The selection you make there will be used as a default load template.
+Please note! Adjustments and settings you make using this wizard apply to the current snapshot-taking process only. If you wish to configure a default snapshot-taking setting, use the [Options wizard](#internal/get-to-know-spdockit/backstage-screen/options-wizard). The selection you make there will be used as a default load template.
 
 1. Navigate to the Backstage Actions Screen and click the Take Snapshot button.
 1. Select the snapshot mode you wish the application to execute. There are three choices:
-    * __Default__ – Performs a load using the setup provided in the [Snapshot Options](#internal\get-to-know-spdockit\backstage-screen\options-wizard) and [Load Target](#internal\get-to-know-spdockit\backstage-screen\options-wizard). This includes farm settings, features and solutions, and permissions down to the subsite level on the whole farm by default, and can be changed by the user at any time in the Options Wizard.
+    * __Default__ – Performs a load using the setup provided in the [Snapshot Options](#internal/get-to-know-spdockit/backstage-screen/options-wizard) and [Load Target](#internal/get-to-know-spdockit/backstage-screen/options-wizard). This includes farm settings, features and solutions, and permissions down to the subsite level on the whole farm by default, and can be changed by the user at any time in the Options Wizard.
     * __Custom__ – Allows the user to specify exactly what information should be loaded. You can also choose which Web applications, site collections or even subsites data will be retrieved.
     It can be the fastest load option if the user wishes to have access only to specific data, and is aware what data he is interested in. This mode is recommended for more advanced users who are looking to generate specific reports.
     * __Full__ – Performs a load that collects all available information where possible (some data will still not be collected if a database is not used with SPDocKit).
