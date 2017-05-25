@@ -7,7 +7,7 @@ date: 17/05/2017
 
 This section describes how to create scheduled __Subscriptions__ for SPDocKit reports. Data you receive from these subscriptions is gathered from the __last loaded farm snapshot__ information.
 
-If you wish to use __Subscriptions and Alerts__ feature, please make sure you configured the [Subscription Settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard.md#subscription-settings) properly.
+If you wish to use __Subscriptions and Alerts__ feature, please make sure you configured the [Subscription Settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings) properly.
 
 1. Navigate to the Backstage Configuration Screen and click __Subscriptions and Alerts__, or find this button in the Home ribbon.
 1. When the Subscriptions and Alerts manager opens, click __New Subscription__.
@@ -30,7 +30,7 @@ If you wish to use __Subscriptions and Alerts__ feature, please make sure you co
 
 1. Go to the Delivery tab and set the delivery method you would like to use.
 
-    * __Email__ – required fields are Send To and Body. Provide the email address to which you wish to send the subscription. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard.md#snapshot-options).
+    * __Email__ – required fields are Send To and Body. Provide the email address to which you wish to send the subscription. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard#snapshot-options).
     * __File Share__ – input the File Share location here. You can use the Test button to check if the given location is reachable and if SPDocKit can write to the location.
     * __SharePoint Library__ – If this is the first time you are using this feature, you need to create a new library connection. 
     
