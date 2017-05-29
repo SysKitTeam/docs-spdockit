@@ -41,7 +41,7 @@ You have created a very useful query and would like to be notified when an event
 ## Use SPDocKit to view farm performance
 
 SPDocKit Insights collects performance data[*](#licenseLimitations) by default. This behavior can be modified in the [settings](#internal/spdockit-insights/customize-settings/).  
-To view the collected data, select the performance tab in the left navigation.  
+To view the collected data, select the [Performance](#internal/spdockit-insights/insights-performance) tab in the left navigation.  
 The default dashboard has three views:
 1. Compact
 2. Tiles
@@ -54,5 +54,5 @@ Most performance counters collected have a warning and critical limit based on t
 In the detailed server view historical collected performance counter data can be explored. Unlike the other views and dashboards, the detailed view will not have data automatically refreshed.
 
 
-<a name="licenseLimitations"></a>*_Not available in all license editions.
- Please check [feature availability by license type.](https://www.spdockit.com/orders/features-by-licenses/)_
+<a name="licenseLimitations"></a>*
+ _Please check [feature availability by license type.](https://www.spdockit.com/orders/features-by-licenses/)_

@@ -21,7 +21,7 @@ __Restore Permission Inheritance__ button deletes all unique permissions and sel
   * __Scope:__ currently selected SharePoint object
 
 Please note!  
-* If you choose to restore the permission inheritance on a __folder__, you can choose an additional option to restore permission inheritance for all subitems as well.
+* If you choose to restore the permission inheritance on a __folder__, you can choose an additional option to restore permission inheritance for __all subitems__ as well.
 
 * Restoring permission inheritance on a __subsite__, will also restore the permission inheritance on lists and list items on that subsite.
 
