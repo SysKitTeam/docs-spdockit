@@ -1,5 +1,5 @@
 ---
-title: Explore SharePoint Online Reports
+title: Take Snapshot of SharePoint Online
 description: This article describes how to take snapshot of your Office 365 tenant or a specific Site Collection to explore permissions.
 author: Iva Novoselic
 date: 25/5/2017
@@ -22,15 +22,15 @@ Here is what you need to do:
     This is the recommended load mode if you don’t mind waiting and want to be sure you have all the data once the load finishes.
 
 
-    There are some differences in what you can load compared to the classic load of a sharepoint farmm. 
-    These are the only available options:      
-    ### SharePoint section:  
-    * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and you cannot change this option. 
-    * Content Types - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where the content types are defined.
-    * __Workflows__
+There are some differences in what you can load compared to the classic load of a sharepoint farmm. 
+These are the only available options:      
+### SharePoint section:  
+* The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and you cannot change this option. 
+* Content Types - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where the content types are defined.
+* __Workflows__
 
-    ### Security
-    * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
+### Security
+* __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
 
 1. Select the snapshot target.  
 Again, this step will be skipped unless you chose the Custom snapshot mode. You can choose your target to be the entire farm, Web application, site collection or specific subsites. 
