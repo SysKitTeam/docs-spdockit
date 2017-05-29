@@ -5,9 +5,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-This article will explain how to take a snapshot of your SPO Tennant.
-
-Requirements: To make a snapshot of your SPO tennant you need a Consultant Plus or SPDocKit Online license.   
+This article will explain how to take a snapshot of your SPO Tennant. Please check the [feature availability by license type](https://www.spdockit.com/orders/features-by-licenses/).
 Read more about the [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly on a workstation.  
 
 __Please note__ that in order for this feature to work, __you will need to use a database__.
@@ -23,7 +21,6 @@ Here is what you need to do:
     * __Full__ – Performs a load that collects all available information where possible. 
     This is the recommended load mode if you don’t mind waiting and want to be sure you have all the data once the load finishes.
 
-   __Please note!__ What you choose to take a snapshot of, within the Custom mode, applies only to the current load and does not affect loading executed by the SPDocKit service.
 
     There are some differences in what you can load compared to the classic load of a sharepoint farmm. 
     These are the only available options:      
