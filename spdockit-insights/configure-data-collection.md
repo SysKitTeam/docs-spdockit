@@ -8,11 +8,9 @@ date: 17/5/2017
 TODO: 
 1. footnotes, do we need them here? But i would still like to mention somewhere in this document that there are some limitations
 -->
-SPDocKit Insights provides continuous load of the SharePoint ULS, Windows Event logs, SQL logs in real-time[*](#realTime). If you enable this feature, the SPDocKit Insights Agent will gather selected events and store them on your disk. SPDocKit Insights presents a centralized place for you to explore, detect and prevent possible issues appearing on your SharePoint farm. Performance data is also collected and is stored in the SPDocKit database.
+SPDocKit Insights provides continuous load of the SharePoint ULS, Windows Event logs, SQL logs in real-time[*](#realTime). If you enable this feature, the SPDocKit Insights Agent will gather selected events and store them on in __index location on your disk__. SPDocKit Insights presents a centralized place for you to explore, detect and prevent possible issues appearing on your SharePoint farm. Performance data is also collected and is stored in the __SPDocKit database__.
 
-Use SPDocKit Insights to keep multiple farms under control and find problems more easily. Here is how the optimal installation scheme looks like:
-
-
+Use SPDocKit Insights to keep multiple farms under control and find problems more easily.
 
 ## SPDocKit Insights Agent required configuration
 1. [Install SPDocKit Insights Agent](#internal/installation/installation-guide/) preferably on a **server that is not part of your SharePoint farm**. Run the SPDocKit setup file and select **SPDocKit Insights Agent** feature in the **advanced** install mode. Check [system requirements](#internal/requirements/system-requirements/) for this server.
@@ -52,13 +50,6 @@ Additional configuration is done by means of the SPDocKit Insights application.
 
 4. To customize the default settings click the **Settings button** located in the bottom left corner. 
     - For more details on available settings follow click [here](#internal/spdockit-insights/customize-settings/).
-
-### Configure alerts[**](#realTime2)
-- Select the Event Viewer tab in the left navigation.
-- Select a farm if you are monitoring multiple farms.
-- The alerts option will be available:
-    - in the upper right corner.
-    - after performing a search, an alert can be created for the current query.
 
 <a name="realTime"></a>*_License edition limitations may apply. Manual load will be required to use the log gathering feature._
 

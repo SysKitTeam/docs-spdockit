@@ -15,7 +15,8 @@ The manual load option will only be visible if your license does not support aut
 The manual load option is available:
 * on the home dashboard if no data has been collected on the current day
 * on the search page 
- - press it to start manual event collection.
+  
+Press it to start manual event collection.
 
 When performing a manual load, you will be prompted on how much historical data to load:
 * how far into the past to load
