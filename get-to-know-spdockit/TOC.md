@@ -20,5 +20,5 @@ private: true
 # [Best Practices Screen](best-practices-screen.md)
 # [Queries and Rules Screen](queries-and-rules-screen.md)
 # [Snapshots Screen](snapshots-screen.md)
-# [SharePoint Online](sharepoint-online.md)
+
 
