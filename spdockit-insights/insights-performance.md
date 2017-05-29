@@ -5,21 +5,15 @@ author: Hrvoje Bagarić
 date: 29/5/2017
 ---
 
+SPDocKit Insights collects performance data by default. This behavior can be modified in the settings. Additionally user can change the performance data collection interval. The default value is 60 seconds.
 
-## SPDocKit Insights Performance Detailed Overview
-
-SPDocKit Insights collects performance data* by default. This behavior can be modified in the settings. Additionally user can change the performance data collection interval. The default value is 60 seconds.
-
-<a name="realTime2"></a>*_License edition limitations may apply._
+Please check the [feature availability by license type](https://www.spdockit.com/orders/features-by-licenses/).
 
 The SPDocKit Insights Agent relies on performance counters to monitor the server performance. The SPDocKit Insights calculates the following server status:
 
 - Healthy – colored green
-
 - Warning – colored yellow
-
 - Critical – colored green
-
 - Offline or not accessible – colored grey
 
 The server is in critical state if atleast one metric collected is in critical state, in warning state if at least one metric is in warning state and none of the other metrics are in critical state, and the server is in healthy state if there are no metrics in warning or critical state.
