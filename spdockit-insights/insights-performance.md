@@ -1,5 +1,5 @@
 ---
-title: SPDocKit Insights Performance Detailed Overview
+title: SPDocKit Insights Performance 
 description: Detailed overview on how the SPDocKit Insights collects and presents farm performance data.
 author: Hrvoje Bagarić
 date: 29/5/2017
