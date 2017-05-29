@@ -7,7 +7,7 @@ date: 25/5/2017
 
 This article explains how to use SPDocKit Transfer Permissions Wizard to transfer all directly assigned SharePoint permissions and group memberships of one principal (SharePoint user or Active Directory group) to another. 
 
-**Wizard Scope**:farm, web application, site collection  
+**Wizard Scope**: farm, web application, site collection  
 **Supported People Picker source selection**: user, Active Directory group  
 **Supported People Picker destination selection**: user(s), Active Directory group(s)
 

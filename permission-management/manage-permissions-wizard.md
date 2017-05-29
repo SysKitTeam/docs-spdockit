@@ -13,7 +13,7 @@ This article describes how to grant permissions to the desired principal on a sp
 # Grant Permissions
 This wizard option will grant specified permissions to selected principals on a selected SharePoint objects all across the defined wizard scope.
 1. Navigate to Permissions Explorer and click on the **Manage Permissions Wizard** in the Wizards ribbon.
-2. Select **Grant permissions** option and Next to continue.
+2. Select **Grant permissions** option and **Next** to continue.
 3. The **Target** step allows you to specify the entire farm, web application, specific site collections or subsites in which changes will be made.
 
 * **Farm**- all SharePoint objects that match specified criteria across the selected farm will be affected.  

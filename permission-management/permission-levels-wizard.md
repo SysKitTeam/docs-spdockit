@@ -66,6 +66,7 @@ This wizard option allows you to remove particular base permission from the exis
 This wizard  option is useful if you want to modify existing permission level with new set of base permissions. It is important to note that this action will overwrite any existing base permission level and all matched permission level(s) will only contain set of newly selected base permissions at the end.
 
 1.  Navigate to Permissions Explorer and click on the **Permission Levels Wizard** in the Wizards ribbon.
+
 2. Select **Edit permission(s) for permission level** option and **Next** to continue.
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 4.  Define which existing permission levels changes will be applied on. There are three options for targeting desired permission levels. User can define match criteria by:
