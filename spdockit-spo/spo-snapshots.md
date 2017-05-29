@@ -11,7 +11,7 @@ Requirements: To make a snapshot of your SPO tennant you need a Consultant Plus 
 Also, read more about the [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly on a workstation.  
 
 __Please note__ that in order for this feature to work, __you will need to use a database__.
-You can either use a [classic database](#internal/configuration/configure-spdockit-database) or a [localDB](#internal/configuration/configure-localdb) which we enabled for use in version 7 and onwards.
+You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.
 
 Here is what you need to do:
 1. You can start the loading proces (snapshot) from Backstage. __File -> Actions -> Take Snapshot__. Or click the __Take Snapshot button__ in __Home ribbon__ of Farm and Site Explorer, Permissions Reports, Content & Usage Reports section, and Snapshots tab.
