@@ -32,9 +32,9 @@ This wizard option allows you to edit existing permission levels across the sele
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 4. Define which existing permission levels changes will be applied on. There are three options for targeting desired permission levels. User can define match criteria by:
 
-* **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
-* **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
-* **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
+    * **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
+    * **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
+    * **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
 
@@ -52,9 +52,9 @@ This wizard option allows you to remove particular base permission from the exis
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 4. Define which existing permission levels changes will be applied on. There are three options for targeting desired permission levels. User can define match criteria by:
 
-* **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
-* **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
-* **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
+    * **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
+    * **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
+    * **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
 5.  Select which base permissions you would like to remove from permission levels that satisfy a matching criteria. The list of base permissions is fetched from selected web application settings. Some base permissions are associated to other base permissions, so SPDocKit will automatically select them also. Extra care should be devoted to configuring this step, as mistakes can result in empty permission levels.
@@ -71,9 +71,9 @@ This wizard  option is useful if you want to modify existing permission level wi
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 4.  Define which existing permission levels changes will be applied on. There are three options for targeting desired permission levels. User can define match criteria by:
 
-* **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
-* **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
-* **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
+    * **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
+    * **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
+    * **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
 
@@ -94,9 +94,9 @@ This wizard option allows you to delete existing permission levels across the sp
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 4. Define which existing permission levels changes will be applied on. There are three options for targeting desired permission levels. User can define match criteria by:
 
-* **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
-* **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
-* **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
+    * **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
+    * **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
+    * **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
 5. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.

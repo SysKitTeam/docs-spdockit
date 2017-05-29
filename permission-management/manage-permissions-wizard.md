@@ -16,17 +16,17 @@ This wizard option will grant specified permissions to selected principals on a 
 2. Select **Grant permissions** option and **Next** to continue.
 3. The **Target** step allows you to specify the entire farm, web application, specific site collections or subsites in which changes will be made.
 
-* **Farm**- all SharePoint objects that match specified criteria across the selected farm will be affected.  
-* **Web Application**– all SharePoint objects that match specified criteria across the selected web application will be affected.  
-* **Site Collection** – all SharePoint objects that match specified criteria across the selected site collections will be affected. Changes will not affect other site collections on the same web application, unless you’ve selected them also.  
-* **Subsite** – all SharePoint objects that match specified criteria across the selected subsite will be affected. Changes will not affect other subsites, unless you’ve selected them also.
+    * **Farm**- all SharePoint objects that match specified criteria across the selected farm will be affected.  
+    * **Web Application**– all SharePoint objects that match specified criteria across the selected web application will be affected.  
+    * **Site Collection** – all SharePoint objects that match specified criteria across the selected site collections will be affected. Changes will not affect other site collections on the same web application, unless you’ve selected them also.  
+    * **Subsite** – all SharePoint objects that match specified criteria across the selected subsite will be affected. Changes will not affect other subsites, unless you’ve selected them also.
 
 4. Select which SharePoint objects this wizard will affect: subsites, lists or list items. Provided options can be matched by:
 
-* **name** – changes will apply only to object with an exact name match (not case sensitive).  
-* **name contains** – changes will apply only to object whose name contains specified term (not case sensitive).  
-* **regular expression** – changes will apply only to object whose name matches specified regular expression.  
-* **template**– changes will apply only to object whose base template matches the selected one (not applicable for list items).
+    * **name** – changes will apply only to object with an exact name match (not case sensitive).  
+    * **name contains** – changes will apply only to object whose name contains specified term (not case sensitive).  
+    * **regular expression** – changes will apply only to object whose name matches specified regular expression.  
+    * **template**– changes will apply only to object whose base template matches the selected one (not applicable for list items).
 
     If multiple site collections or subsites are selected, changes will apply only to the ones where such objects exist.
 
@@ -46,17 +46,17 @@ This wizard option will remove specified permissions from desired principals on 
 2. Select **Remove permissions** option and **Next** to continue.
 3. The **Target** step allows you to specify the entire farm, web application, specific site collections or subsites in which changes will be made. 
 
-* **Farm**- all SharePoint objects that match specified criteria across the selected farm will be affected. 
-* **Web Application**– all SharePoint objects that match specified criteria across the selected web application will be affected.  
-* **Site Collection** – all SharePoint objects that match specified criteria across the selected site collections will be affected. Changes will not affect other site collections on the same web application, unless you’ve selected them also.  
-* **Subsite** – all SharePoint objects that match specified criteria across the selected subsite will be affected. Changes will not affect other subsites, unless you’ve selected them also.
+    * **Farm**- all SharePoint objects that match specified criteria across the selected farm will be affected. 
+    * **Web Application**– all SharePoint objects that match specified criteria across the selected web application will be affected.  
+    * **Site Collection** – all SharePoint objects that match specified criteria across the selected site collections will be affected. Changes will not affect other site collections on the same web application, unless you’ve selected them also.  
+    * **Subsite** – all SharePoint objects that match specified criteria across the selected subsite will be affected. Changes will not affect other subsites, unless you’ve selected them also.
 
 4. Select which SharePoint objects this wizard will affect: subsites, lists or list items. Provided options can be matched by:
 
-* **name** – changes will apply only to object with an exact name match (not case sensitive).   
-* **name contains** – changes will apply only to object whose name contains specified term (not case sensitive).
-* **regular expression** – changes will apply only to object whose name matches specified regular expression.
-* **template**– changes will apply only to object whose base template matches the selected one (not applicable on list items).
+    * **name** – changes will apply only to object with an exact name match (not case sensitive).   
+    * **name contains** – changes will apply only to object whose name contains specified term (not case sensitive).
+    * **regular expression** – changes will apply only to object whose name matches specified regular expression.
+    * **template**– changes will apply only to object whose base template matches the selected one (not applicable on list items).
 
     If multiple site collections or subsites are selected, changes will apply only to the ones where such objects exist.
 

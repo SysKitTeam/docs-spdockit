@@ -18,11 +18,11 @@ This wizard option will create a SharePoint groups on the selected site collecti
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 4.  New groups will have the same configuration settings – name, owner, description, etc. In order to proceed to the next step, group will require a valid name and owner. Supported People Picker selection for the group owner are **SharePoint user** and **SharePoint group**. Just like in SharePoint, there are other group properties you can adjust using this wizard:
 
-* Who can view memberships of the group
-* Who can edit the membership of the group
-* Will the requests to join/leave this group be allowed
-* Will these request be auto-accepted
-* Send membership request to provided email requests
+    * Who can view memberships of the group
+    * Who can edit the membership of the group
+    * Will the requests to join/leave this group be allowed
+    * Will these request be auto-accepted
+    * Send membership request to provided email requests
 
 5. All of the newly created groups will have same permissions assigned to them where possible. If, for some reason, some permission levels are not available on a certain site collection, they will be skipped. If no permissions can be assigned to the new group on a site collection, that site collection will be skipped and no new groups will be created.
 6. In this step, as Group Members you can add Users and AD groups. Plus, as a default member, you can add Owner of the group by simply checking the provided box.
@@ -36,10 +36,10 @@ This wizard option will delete a SharePoint groups on the selected site collecti
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 4.  Groups to be deleted can be matched by:
 
-* **directly**– select the group you wish to delete from the drop down menu
-* **name** – changes will apply only to group with an exact name match (not case sensitive)
-* **name contains** – changes will apply only to groups whose name contains specified term (not case sensitive)
-* **regular expression** – changes will apply only to groups whose name contains specified regular expression
+    * **directly**– select the group you wish to delete from the drop down menu
+    * **name** – changes will apply only to group with an exact name match (not case sensitive)
+    * **name contains** – changes will apply only to groups whose name contains specified term (not case sensitive)
+    * **regular expression** – changes will apply only to groups whose name contains specified regular expression
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such groups exist.
 5. All the groups fitting the selected criteria will be displayed on the **Preview** step, along with their location. This allows you to modify any settings you might like before the wizard action is executed.
@@ -52,11 +52,11 @@ This wizard option will rename specific SharePoint groups on selected site colle
 2. Select **Rename** option and **Next** to continue.
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 
-Groups to be renamed can be matched by:
-* **directly**– select the group you wish to delete from the drop down menu
-* **name** – changes will apply only to group with an exact name match (not case sensitive)
-* **name contains** – changes will apply only to groups whose name contains specified term (not case sensitive)
-* **regular expression** – changes will apply only to groups whose name contains specified regular expression
+    Groups to be renamed can be matched by:
+    * **directly**– select the group you wish to delete from the drop down menu
+    * **name** – changes will apply only to group with an exact name match (not case sensitive)
+    * **name contains** – changes will apply only to groups whose name contains specified term (not case sensitive)
+    * **regular expression** – changes will apply only to groups whose name contains specified regular expression
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such groups exist.
 
