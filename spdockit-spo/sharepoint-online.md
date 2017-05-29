@@ -29,5 +29,3 @@ _Please note! Some of the SPDocKit reports will not be available for the SharePo
 * _Adminstrative Actions Report_
 * _Security Audit Report_
 * _Cleanup Reports and Cleanup Wizard_
-
-
