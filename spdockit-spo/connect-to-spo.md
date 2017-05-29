@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-Requirements: To connect to an SPO site and to manage SharePoint Online permissions on your workstation, you must use SPDocKit workstation or team/consultant license.  
+Requirements: To connect to an SPO site and to manage SharePoint Online permissions on your workstation, you must use SPDocKit workstation, site or team/consultant license.  
 Also, please note that in order for this feature to work, you will need to use a database.  
 You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.
 
