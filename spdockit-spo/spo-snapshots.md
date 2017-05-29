@@ -5,10 +5,10 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-This article will explain how to make a snapshot of your SPO Tennant.
+This article will explain how to take a snapshot of your SPO Tennant.
 
 Requirements: To make a snapshot of your SPO tennant you need a Consultant Plus or SPDocKit Online license.   
-Also, read more about the [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly on a workstation.  
+Read more about the [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly on a workstation.  
 
 __Please note__ that in order for this feature to work, __you will need to use a database__.
 You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.
