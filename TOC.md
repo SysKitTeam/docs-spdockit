@@ -18,7 +18,7 @@ Dive into a detailed overview of what SPDocKit has to offer. Check out the avail
 # [SPDocKit Insights](spdockit-insights.md)
 Monitor SharePoint performance via an interactive live dashboard and search through Windows Event Log, SharePoint ULS, and SQL logs across all farm servers.
 # [SPDocKit Online](spdockit-spo.md)  
-SPDocKit helps you keep SharePoint Online permissions under control. Connect to a SharePoint Online site, manage and explore permissions or track changes.
+SPDocKit helps you keep SharePoint Online permissions under control. Connect to a SharePoint Online site to manage and explore permissions.
 # [Permission Management](permission-management.md)
 Permissions management has never been easier using SPDocKit actions and wizards. Take a look and learn how to use them! 
 # [How To](how-to.md)
