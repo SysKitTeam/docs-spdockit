@@ -1,6 +1,6 @@
 ---
 title: SPDocKit Online
-slug: spdockit-online
+slug: spdockit-spo
 private: true
 ---
 
