@@ -11,5 +11,6 @@ private: true
 # [How to manually start event collection](manual-load.md)
 # [How to write queries in Event Viewer](search-query-guide.md)
 # [Event Viewer Alerts](search-alerts.md)
+# [SPDocKit Insights Performance Detailed Overview](insights-performance-detailed.md)
 # [Customize Insights Settings](customize-settings.md)
 # [Troubleshooting](insights-troubleshooting.md)
