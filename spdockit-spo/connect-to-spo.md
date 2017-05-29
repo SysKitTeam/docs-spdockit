@@ -8,10 +8,9 @@ Please check the [feature availability by license type](https://www.spdockit.com
 
 In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.
 
-Read more about the [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly on a workstation.
+Make sure that the user running the applicatio has been granted all [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly.
 
-Before being able to manage a Sharepoint Online site, you need to connect to it.
-You can access the Connect form from two places:
+You can access the __Connect___ form from two places:
 * Go to __Backstage -> Actions -> SharePoint Online__ button
 * Go to the __Home ribbon__ on either __Farm, Site or Permission Explorer__ and click connect
 
