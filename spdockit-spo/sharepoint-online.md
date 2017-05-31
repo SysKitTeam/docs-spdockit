@@ -1,5 +1,5 @@
 ---
-title: SharePoint Online
+title: SPDocKit Online
 description: This article describes how can SPDocKit help you manage and explore your SharePoint Online permissions. 
 author: Iva Novoselic
 date: 25/5/2017
