@@ -17,10 +17,10 @@ The following commands are available:
 * __Export as PDF__ button allows you to export the selected report as a PDF document.
 * __Export as XLSX__ button allows you to export the selected report as an XLSX document.
 * __Export as DOCX__ button allows you to export the selected report as a DOCX document.
-* __Compare Wizard__ – read more about the [Compare Wizard](#internal/get-to-know-documentation-toolkit/backstage-screen/compare-wizard/).
+* __Compare Wizard__ – read more about the [Compare Wizard](#internal/get-to-know-spdockit/backstage-screen/compare-wizard/).
 * __Subscriptions and Alerts__ – create and manage your SPDocKit report subscriptions and alerts.
 * __Schedule this Report__ – add the currently selected SPDocKit report to a new report subscription or a previously created one.
-* __Options__ – read more about the [Options Wizard](#internal/get-to-know-documentation-toolkit/backstage-screen/options-wizard/).
+* __Options__ – read more about the [Options Wizard](#internal/get-to-know-spdockit/backstage-screen/options-wizard/).
 * __Save XML Configuration__ – [wizard that helps you generate an AutoSPInstaller XML file](#internal/how-to/sharepoint-farm-snapshots/generate-autospinstaller-xml-configuration-file/) based on the currently opened snapshot.
 
 ## View ribbon
