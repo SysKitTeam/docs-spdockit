@@ -28,6 +28,6 @@ The collected performance data and the associated performance dashboards are als
 4. Start [using SPDocKit Insights](#internal/spdockit-insights/configure-data-collection/).
 5. [Configure alerts](#internal/spdockit-insights/search-alerts) to make the most out of the SPDocKit Insights experience.
 
-Please check updated [Features by Licenses](https://www.spdockit.com/orders/features-by-licenses/) overview for this feature availability.
+Please check updated [Features by Licenses](https://www.spdockit.com/orders) overview for this feature availability.
 
 

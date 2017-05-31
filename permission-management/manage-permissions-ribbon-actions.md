@@ -120,7 +120,7 @@ __Site Collection Administrators__ - modify current set of administrators. Chang
 
 Some of these actions have the __Preview__ step to make sure that the pending changes will do exactly what you wanted and have specified. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using __Save Log__ button.
 
-## Changes
+## Changes*
 __Audit__ - use this button to track down all permissions changes made on the selected securable object. This button will take you to a Audit Permissions report and show details about who made a certain action and on which securable object.  
 __Restore__ - allows you to restore previous state of permissions for the selected object. Just choose the snapshot date you wish to revert the permissions to and follow the [restore wizard](#internale/permission-management/restore-permissions) steps to finish the process.   
 This feature is not available in all license types. Please check [feature availability by license type.](https://www.spdockit.com/orders/features-by-licenses/)
@@ -128,3 +128,5 @@ This feature is not available in all license types. Please check [feature availa
 
 ## SPDocPerm Event Log
 In addition, you can track and explore all permission changes made by SPDocKit using [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log).
+
+*Please check [feature availability by license type.](https://www.spdockit.com/orders)

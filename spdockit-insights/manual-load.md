@@ -5,7 +5,7 @@ author: Vinko Bedek
 date: 25/5/2017
 ---
 
-Depending on the license editions used on the farms that SPDocKit Insights monitors, some features may not be available. For more details, please check [features by license type](http://take.ms/hyjqD) comparison.
+Depending on the license editions used on the farms that SPDocKit Insights monitors, some features may not be available. For more details, please check [features by license type](https://www.spdockit.com/orders) comparison.
 
 One of these features is continuous event collection. Consultants do not have this functionality since the reasoning behind the consultant license edition is that SPDocKit is not to be continuously used on a farm, but when the need arises.  
 But we also recognize the power of searching over indexed events and as such consultants may perform a manual load.

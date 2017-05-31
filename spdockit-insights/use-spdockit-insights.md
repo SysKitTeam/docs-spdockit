@@ -55,4 +55,4 @@ In the detailed server view historical collected performance counter data can be
 
 
 <a name="licenseLimitations"></a>*
- _Please check [feature availability by license type.](https://www.spdockit.com/orders/features-by-licenses/)_
+ _Please check [feature availability by license type.](https://www.spdockit.com/orders)_

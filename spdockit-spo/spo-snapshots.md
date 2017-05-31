@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-This article will explain how to take a snapshot of your SPO Tennant. Please check the [feature availability by license type](https://www.spdockit.com/orders/features-by-licenses/).
+This article will explain how to take a snapshot of your SPO Tennant. Please check the [feature availability by license type](https://www.spdockit.com/orders/#online).
 Read more about the [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly on a workstation.  
 
 __Please note__ that in order for this feature to work, __you will need to use a database__.

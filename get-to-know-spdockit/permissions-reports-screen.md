@@ -55,7 +55,6 @@ __Health checks__
 * __Externaly Shared Content Hierarchy__ - shows externally shared content in the tenant * hierarchy. Only the externally shared content is displayed.  
 * __Anonymous Access Links__ - a list of content in the tenant that has been shared with an anonymous guest link.
 
-*These reports are available only as a part of SPDocKit Online edition for SharePoint Online. Please check [feature availability by license type.](https://www.spdockit.com/orders/features-by-licenses/)  
 
 ## Security audit
 * __All Farm Users__ – shows all users with permissions to the selected farm, sorted by domain. This report also provides information about a user’s status in AD (enabled or disabled).  
@@ -63,7 +62,9 @@ __Health checks__
 * __Number of Users per Site__ – shows the number of users with some type of permission across the entire farm, grouped by site collections. This total number is then broken down by their Active Directory status (either active or disabled).  
 * __Users with Privileged Access__ – shows all users with privileged access on the farm, i.e., site administrators, or primary and secondary administrators.  
 * __Administrative Actions__ - This report is available only for SharePoint 2016 farms with FP1 installed.   
-* __Permissions Audit__ - shows a complete log of permissions changes on a specific site collection in a given time period. This report requires that you enable __Editing users and permissions__ events to audit and take a snapshot with the Security Audit option checked.
+* __Permissions Audit__ * - shows a complete log of permissions changes on a specific site collection in a given time period. This report requires that you enable __Editing users and permissions__ events to audit and take a snapshot with the Security Audit option checked.
 
 
 Visit [SPDocKit resources center](https://www.spdockit.com/resources/reports) for videos and samples of SharePoint documentation and reports by SPDocKit.
+
+*Please check [feature availability by license type.](https://www.spdockit.com/orders)
