@@ -4,10 +4,7 @@ description: SPDocKit Insights Installation and Initial Configuration
 author: Vinko Bedek
 date: 17/5/2017
 ---
-<!--
-TODO: 
-1. footnotes, do we need them here? But i would still like to mention somewhere in this document that there are some limitations
--->
+
 SPDocKit Insights provides continuous load of the SharePoint ULS, Windows Event logs, SQL logs in real-time[*](#realTime). If you enable this feature, the SPDocKit Insights Agent will gather selected events and store them on in __index location on your disk__. SPDocKit Insights presents a centralized place for you to explore, detect and prevent possible issues appearing on your SharePoint farm. Performance data is also collected and is stored in the __SPDocKit database__.
 
 Use SPDocKit Insights to keep multiple farms under control and find problems more easily.
@@ -51,8 +48,9 @@ Additional configuration is done by means of the SPDocKit Insights application.
 4. To customize the default settings click the **Settings button** located in the bottom left corner. 
     - For more details on available settings follow click [here](#internal/spdockit-insights/customize-settings/).
 
-<a name="realTime"></a>*_License edition limitations may apply. Manual load will be required to use the log gathering feature._
+Please check [feature availability by license type.](https://www.spdockit.com/orders). 
 
+<a name="realTime"></a>*_Manual load will be required to use the log gathering feature._  
 <a name="realTime2"></a>**_License edition limitations may apply._
 
 

@@ -35,7 +35,7 @@ These reports document Microsoft Project Server settings. You will be able to se
 
 Make sure to check in __Project Server__ options when taking a snapshot of your farm in order to explore and document these settings.
 
-This feature is not available in all license types. Please check [feature availability by license type.](https://www.spdockit.com/orders/features-by-licenses/)
+This feature is not available in all license types. Please check [feature availability by license type.](https://www.spdockit.com/orders)
 
 
 ### Scheduled tasks

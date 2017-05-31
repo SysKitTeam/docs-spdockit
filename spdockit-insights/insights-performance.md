@@ -7,7 +7,7 @@ date: 29/5/2017
 
 SPDocKit Insights collects performance data by default. This behavior can be modified in the settings. Additionally user can change the performance data collection interval. The default value is 60 seconds.
 
-Please check the [feature availability by license type](https://www.spdockit.com/orders/features-by-licenses/).
+Please check the [feature availability by license type](https://www.spdockit.com/orders). 
 
 The SPDocKit Insights Agent relies on performance counters to monitor the server performance. The SPDocKit Insights calculates the following server status:
 
