@@ -28,7 +28,7 @@ Here is what you need to do:
        *    Content Types - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where the content types are defined.
        * __Workflows__
 
-     * Security
+    * Security
         * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
 
 1. Select the snapshot target.  
