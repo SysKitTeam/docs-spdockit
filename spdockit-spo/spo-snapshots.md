@@ -18,8 +18,7 @@ Here is what you need to do:
     * __Default__ – Performs a load using the setup provided in the [Snapshot Options](#internal/get-to-know-spdockit/backstage-screen/options-wizard) and [Load Target](#internal/get-to-know-spdockit/backstage-screen/options-wizard). This includes farm settings, features and solutions, and permissions down to the subsite level on the whole tennant by default, and can be changed by the user at any time in the Options Wizard.
     * __Custom__ – Allows the user to specify exactly what information should be loaded. You can also choose which Web applications, site collections or even subsites data will be retrieved.
     It can be the fastest load option if the user wishes to have access only to specific data, and is aware what data he is interested in. This mode is recommended for more advanced users who are looking to generate specific reports.
-    * __Full__ – Performs a load that collects all available information where possible. 
-    This is the recommended load mode if you don’t mind waiting and want to be sure you have all the data once the load finishes.
+    * __Full__ – Performs a load that collects all available information where possible. This is the recommended load mode if you don’t mind waiting and want to be sure you have all the data once the load finishes.
 
     There are some differences in what you can load compared to the classic load of a SharePoint farmm. 
     These are the only available options:      
@@ -30,7 +29,7 @@ Here is what you need to do:
     * __Workflows__
 
 
-   ### Security
+    ### Security
    * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
 
 1. Select the snapshot target.  
