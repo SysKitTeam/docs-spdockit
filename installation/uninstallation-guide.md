@@ -12,5 +12,7 @@ We are sorry to hear you are leaving the Acceleratio family, but here are the st
 1. Click __Next__ and wait for the wizard to remove SPDocKit.
 1. Your SPDocKit has been successfully removed!
 
+Please note! SPDocKit database will not be removed automatically from your SQL Server.
+
 If you have any suggestions how to improve our product, wish to express your dissatisfaction or share the reason why you removed our application, please feel free to [contact us](https://www.spdockit.com/support/contact-us/).
 
