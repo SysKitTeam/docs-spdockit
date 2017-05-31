@@ -5,7 +5,7 @@ author: Tomislav Sirovec
 date: 31/5/2017
 ---
 
-Please check the [feature availability by license type](https://www.spdockit.com/orders/features-by-licenses/).
+Please check the [feature availability by license type](https://www.spdockit.com/orders).
 
 In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.
 
