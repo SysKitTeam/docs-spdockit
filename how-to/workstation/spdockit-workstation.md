@@ -9,7 +9,7 @@ Please check the [feature availability by license type](https://www.spdockit.com
 
 In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.
 
-Make sure that the user running the application has been granted all [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly.
+Make sure that the user running the application has been granted all [user permissions](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) required to run SPDocKit properly.
 
 Here is what you need to do:
 * Go to the __Home ribbon__ on either __Farm, Site or Permission Explorer__ and click __Connect__
