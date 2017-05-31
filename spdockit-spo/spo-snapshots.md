@@ -23,13 +23,13 @@ Here is what you need to do:
     There are some differences in what you can load compared to the classic load of a SharePoint farmm. 
     These are the only available options:  
 
-   ## SharePoint section:
+   #### SharePoint section:
 
    *  The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and you cannot change this option. 
    *    Content Types - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where the content types are defined.
    * __Workflows__
 
-   ## Security:     
+   #### Security:     
 
    * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
 
