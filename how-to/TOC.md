@@ -46,5 +46,8 @@ private: true
 ## [Manage Roles](manage-roles.md)
 ## [Manage Users](manage-users.md)
 
+# SPDocKit Workstation
+## [SPDocKit on a Workstation](spdockit-workstation.md)
+
 
 
