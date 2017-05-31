@@ -35,4 +35,6 @@ These are the only available options:
 1. Select the snapshot target.  
 Again, this step will be skipped unless you chose the Custom snapshot mode. You can choose your target to be the entire farm, Web application, site collection or specific subsites. 
 
-1. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](#internal/get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports) and [permission reports](#internal/get-to-know-spdockit/permissions-reports-screen) will be ready for use!
+1. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](#internal/get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports) and [permission reports](#internal/get-to-know-spdockit/permissions-reports-screen) will be ready for use!  
+
+Also, make sure to check our [permission management features](#internal/permission-management/manage-permissions-ribbon-actions) located in __Permissions Explorer__ tab. Please note that Permission management buttons are enabled only in __live mode__ of Permissions Explorer. There is no need for a snapshot in this case. 
