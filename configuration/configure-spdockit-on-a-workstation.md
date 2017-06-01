@@ -13,7 +13,7 @@ __Please note!__ To use SPDocKit reports on your workstation, you need to have S
 
 To install and configure an SPDocKit instance, follow these instructions:
 
-1. [Download](#internal/downloads/) SPDocKit to your workstation. __The SPDocKitSetup.exe file is the same for both server and workstation installation__.
+1. [Download](https://www.spdockit.com/downloads/) SPDocKit to your workstation. __The SPDocKitSetup.exe file is the same for both server and workstation installation__.
 
 2. Follow the [Installation Guide](#internal/installation/installation-guide/) to install it on your workstation. Once you have successfully installed the tool, the Configuration Wizard will open.
 
@@ -37,4 +37,4 @@ To install and configure an SPDocKit instance, follow these instructions:
 
 
 ### Learn More
-* [How to connect to SharePoint Online](#internal/how-to/sharepoint-online/connect-spo)
+* [How to connect to SharePoint Online](#internal/spdockit-spo/sharepoint-online/connect-to-spo)
