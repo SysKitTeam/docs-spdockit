@@ -27,9 +27,11 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
    
 
    ### Sharepoint  
+
    * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and you cannot change this option. 
    * Content Types - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where the content types are defined.
-    * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
+   * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
+   * Features and Solutions, Worksflows
 
    ### Security  
    * __Database Permissions__ - selecting this will enable you to view Database Permissions report. Showing information about all users, across all databases on a SQL Server. 
@@ -47,7 +49,6 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
      From version 7 and onwards, you can document most of the Project Server settings, list of projects and their permissions.  
 
      To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
-
 
 4. Select the snapshot target.  
 Again, this step will be skipped unless you chose the Custom snapshot mode. Some data is collected from the Central Administration and farm servers regardless of the selection here; however, permissions, workflows, content types, etc., will not show information for items that have not been selected here. You can choose your target to be the entire farm, Web application, site collection or specific subsites. 
