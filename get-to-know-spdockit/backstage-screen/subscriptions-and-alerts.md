@@ -24,6 +24,6 @@ Alerts will be marked with the bell icon, while the scheduled subscriptions will
 
 ### Related articles
 
-* [Configure SPDocKit database](#)
-* [Configure subscription settings](#)
-* [How to create a new subscription](#)
+* [Configure SPDocKit database](#internal/configuration/configure-spdockit-database)
+* [Configure subscription settings](#internal/get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings)
+* [How to create a new subscription](#internal/how-to/subscriptions-and-alerts/create-new-subscription)

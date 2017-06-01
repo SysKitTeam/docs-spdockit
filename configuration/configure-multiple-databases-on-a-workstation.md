@@ -9,7 +9,7 @@ This article will explain how to use our new Connection String Chooser. A featur
 
 You can notice the Database Connection Chooser in the __top right corner__ of the application.
 
-When you install SPDocKit for the first time, the installation will ask you to use our [Configuration Wizard](#internal/help/configuration-wizard/configure-documentation-toolkit-for-sharepoint/). The database you set up there will be the Default one. After that, you can use the Database Connection Chooser to quickly setup other connections.
+When you install SPDocKit for the first time, the installation will ask you to use our [Configuration Wizard](#internal/configuration/configure-spdockit-database/). The database you set up there will be the Default one. After that, you can use the Database Connection Chooser to quickly setup other connections.
 
 This is how you do it:
 ## New database connection
