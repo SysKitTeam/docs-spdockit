@@ -14,7 +14,7 @@ This section explains how you can use the Compare Wizard to compare different fa
 
     If you are not using the SPDocKit database, snapshots will be stored in the Snapshots folder defined in Service Settings. The default Snapshots folder is __C:\ProgramData\SPDocKit\Snapshots__.
 
-   The Farm selection step will list all available snapshots from the __SPDocKit database__ or __Snapshots folder__. If the desired snapshot is not located in either of these locations, click __Import__ to select a snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](#intrenal/get-to-know-spdockit/snapshots-screen), click __Import__ in the Snapshots tab.
+   The Farm selection step will list all available snapshots from the __SPDocKit database__ or __Snapshots folder__. If the desired snapshot is not located in either of these locations, click __Import__ to select a snapshot file from another location. Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](#internal/get-to-know-spdockit/snapshots-screen), click __Import__ in the Snapshots tab.
 
 1. Click Next to see the farm compare results.
 
@@ -33,7 +33,7 @@ This section explains how you can use the Compare Wizard to compare different fa
 
    The Farm selection step will list all available snapshots from the __SPDocKit database__ or __Snapshots folder__. If the desired snapshot is not located in either of these locations, click __Import__ to select a snapshot file from another location.  This is helpful in situations when you wish to compare snapshots of two farms and the snapshots are not stored in the same SPDocKit database, but on a disk location on SharePoint's servers. Copy the farm snapshots from the non-local farm to any disk location on the local SharePoint server and click Import to use them for farm comparison.
 
-    Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](#intrenal/get-to-know-spdockit/snapshots-screen), click __Import__ in the Snapshots tab.
+    Importing snapshots is a one-time action, so the next time you run the Compare Wizard you will have to repeat the process. If you would like to [import these snapshots permanently](#internal/get-to-know-spdockit/snapshots-screen), click __Import__ in the Snapshots tab.
 
 1. The next couple of steps allow you to map the properties of the two farms and perform a detailed comparisons. Grids will be displayed to allow you to map farm servers, accounts, service applications, and more, from one farm to the other. Use the drop down menu to define which farm properties should be paired. Once you have paired them, SPDocKit will remember the mappings you specified and reuse them for each subsequent comparison between these two farms.
 

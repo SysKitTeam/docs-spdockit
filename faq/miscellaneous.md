@@ -134,4 +134,4 @@ When trying to view Content & Usage Reports: Number of Unique Visitors, List of 
 >*System.Data.SqlClient.SqlException: Cannot open database “WSS_UsageApplication” requested by the login. The login failed. Login failed for user CONTOSO\user.*
 
 ### **Solution:**
-Make sure that the user account running SPDocKit has the proper [permission privileges](#internal/requirements/sharepoint-on-premises-user-permission-requirements). Specifically, the user must be a member of **SharePoint_Shell_Access** role on **Usage and Health Database**.
+Make sure that the user account running SPDocKit has the proper [permission privileges](#internal/requirements/sharepoint-on-premises-user-permissions-requirements). Specifically, the user must be a member of **SharePoint_Shell_Access** role on **Usage and Health Database**.
