@@ -31,9 +31,9 @@ __Feature activations__
   * __Activations__ – displays a list of SharePoint objects on which a specific feature is activated.
  * __Activations by Edition__ – displays all features on the selected site collections, grouped by SharePoint edition.  
 
-__Feature Usage by Edition__ – shows the usage of feature licenses per SharePoint edition (Foundation, Standard or Enterprise). To see a complete report, define the number of available feature licenses using [License Management](#internal\get-to-know-spdockit\backstage-screen\license-management).
+__Feature Usage by Edition__ – shows the usage of feature licenses per SharePoint edition (Foundation, Standard or Enterprise). To see a complete report, define the number of available feature licenses using [License Management](#internal/get-to-know-spdockit/backstage-screen/license-management).
 
-__Feature Usage by Scope__ – checks license compliance for custom features at different farm scopes (Web application, site collection, or subsite). To see a complete report, define the number of available custom feature licenses using [License Management](#internal\get-to-know-spdockit\backstage-screen\license-management).
+__Feature Usage by Scope__ – checks license compliance for custom features at different farm scopes (Web application, site collection, or subsite). To see a complete report, define the number of available custom feature licenses using [License Management](#internal/get-to-know-spdockit/backstage-screen/license-management).
 
 ### Structure reports
 __Site Structure__ – shows a hierarchical structure of a selected site collection down to the list item level. Content Display Level filter allows you to change the report’s granularity.
