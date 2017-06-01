@@ -26,17 +26,17 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
    There are 4 categories:  
    
 
-   ### Sharepoint  
+    ### Sharepoint  
 
    * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and you cannot change this option. 
-   * Content Types - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where the content types are defined.
+   * __Content Types__ - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where the content types are defined.
    * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
-   * Features and Solutions, Worksflows
+   * __Features and Solutions__, __Worksflows__
 
    ### Security  
    * __Database Permissions__ - selecting this will enable you to view Database Permissions report. Showing information about all users, across all databases on a SQL Server. 
    * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
-   * __Security Audit__ - with Sharepoint 2016 Feature Pack 1, Microsoft provided the ability to log all permission changes on a given site collection. Selecting the __Security Audit__ checkbox will load afformentioned logs and provide you with a user friendly report to view them.
+   * __Security Audit__ - Permission Audit report enables you to see complete history of permission changes on site collection.
 
    ### Server Settings  
    * __Installed Programs and available Updates__

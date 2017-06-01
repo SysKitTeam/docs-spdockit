@@ -20,19 +20,18 @@ __Please note!__ Check the [permission requirements](#internal/requirements/shar
 
     With the Load Depth option you can specify the depth to which you want to crawl your farm.
 
-   Choose what you would like to load.
-    
+   Choose what you would like to load.    
 
-   ### Sharepoint  
+    ### Sharepoint  
    * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
-   * Content Types - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
+   * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
    * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
-   * Features and Solutions, Worksflows
+   * __Features and Solutions__, __Worksflows__
 
    ### Security  
    * __Database Permissions__ - Selecting this will enable you to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 
    * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
-   * __Security Audit__ - With Sharepoint 2016 Feature Pack 1, Microsoft provided the ability to log all permission changes on a given site collection. Selecting the __Security Audit__ checkbox will load afformentioned logs and provide you with a user friendly report to view them.
+   * __Security Audit__ - Permission Audit report enables you to see complete history of permission changes on site collection.
 
    ### Server Settings  
    * __Installed Programs and available Updates__
