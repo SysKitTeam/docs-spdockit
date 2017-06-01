@@ -52,7 +52,7 @@ This wizard option will rename specific SharePoint groups on selected site colle
 2. Select **Rename** option and **Next** to continue.
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 
-    Groups to be renamed can be matched by:
+4. Groups to be renamed can be matched by:
     * **directly**– select the group you wish to delete from the drop down menu
     * **name** – changes will apply only to group with an exact name match (not case sensitive)
     * **name contains** – changes will apply only to groups whose name contains specified term (not case sensitive)
