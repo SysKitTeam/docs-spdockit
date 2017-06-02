@@ -52,7 +52,8 @@ We redesigned the load screen to be more user friendly, and at the same time we 
    ### Security  
    * __Database Permissions__ - selecting this will enable you to view the Database Permissions report. This report will will display SharePoint databases and any users with access to them, along with their roles.
    * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions__ check box and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of AD groups. 
-   * __Security Audit__ - with Sharepoint 2016 Feature Pack 1, Microsoft provided the ability to log all permission changes on a given site collection. Selecting the __Security Audit__ checkbox will load afformentioned logs and provide you with a user friendly report to view them.
+   * __Administrative Actions Log__ - this option will be visible only for SharePoint 2016 FP1 farms and enables you to browse and analyze administrative actions logs collected from your SharePoint farm.
+   * __Security Audit__ - this option is required for Permission Audit report which enables you to see complete history of permission changes on site collection.
 
    ### Server settings  
    * __Installed Programs and available Updates__

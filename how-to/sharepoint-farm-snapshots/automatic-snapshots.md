@@ -31,7 +31,8 @@ __Please note!__ Check the [permission requirements](#internal/requirements/shar
    ### Security  
    * __Database Permissions__ - Selecting this will enable you to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 
    * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
-   * __Security Audit__ - Permission Audit report enables you to see complete history of permission changes on site collection.
+   * __Administrative Actions Log__ - this option will be visible only for SharePoint 2016 FP1 farms and enables you to browse and analyze administrative actions logs collected from your SharePoint farm.
+   * __Security Audit__ - this option is required for Permission Audit report which enables you to see complete history of permission changes on site collection.
 
    ### Server Settings  
    * __Installed Programs and available Updates__
