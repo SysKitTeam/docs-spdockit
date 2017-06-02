@@ -7,7 +7,7 @@ date:26/5/2017
 
 This article explains how to use SPDocKit's Restore Permissions Wizard to restore permissions on a securable object to an earlier state. Please check the [feature availability by license type](https://www.spdockit.com/orders)  
 
-### Wizard Scope: 
+### Wizard scope: 
 A securable object (subsite, list, folder, list item) and it's permissions scope. 
 
 ### Prerequisites: 
