@@ -43,7 +43,7 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
 
    ### Project Server  
    * __Settings__
-   * __Projects__  
+   * __Projects__   
    
      From version 7 and onwards, you can document most of the Project Server settings, list of projects and their permissions.  
 
