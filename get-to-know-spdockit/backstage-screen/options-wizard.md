@@ -40,32 +40,28 @@ Enabling the __automatic index reorganization__ will result in better space usag
 
 This section allows you to choose what will be loaded by both the __SPDocKit Service__ when taking an __automatic snapshot__, and if you select the __Default__ mode in the Take Snapshot wizard. 
 
-We redesigned the load screen to be more user friendly, and at the same time we added more cool features you can now load.   
-   There are 4 categories:  
+We redesigned the load screen to be more user friendly, and at the same time we added more cool features you can now load. There are 4 categories:  
+  * __Sharepoint__
+     * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
+     * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
+     * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
+     * __Features and Solutions__, __Workflows__
+
+  * __Security__ 
+     * __Database Permissions__ - Selecting this will enable you to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 
+     * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
+     * __Administrative Actions Log__ - this option will be visible only for SharePoint 2016 FP1 farms and enables you to browse and analyze administrative actions logs collected from your SharePoint farm.
+     * __Security Audit__ - this option is required for Permission Audit report which enables you to see complete history of permission changes on site collection.
+
+  * __Server Settings__ 
+     * __Installed Programs and available Updates__
+     * __SQL Server and IIS Setttins Information__
+
+  * __Project Server__ 
+     * __Settings__
+     * __Projects__  
    
-
-   ### Sharepoint  
-   * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
-   * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
-   * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
-   * __Features and Solutions__, __Workflows__
-
-   ### Security  
-   * __Database Permissions__ - Selecting this will enable you to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 
-   * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
-   * __Administrative Actions Log__ - this option will be visible only for SharePoint 2016 FP1 farms and enables you to browse and analyze administrative actions logs collected from your SharePoint farm.
-   * __Security Audit__ - this option is required for Permission Audit report which enables you to see complete history of permission changes on site collection.
-
-   ### Server Settings  
-   * __Installed Programs and available Updates__
-   * __SQL Server and IIS Setttins Information__
-
-   ### Project Server  
-   * __Settings__
-   * __Projects__  
-   
-     From version 7 and onwards, you can document most of the Project Server settings, list of projects and their permissions. 
-
+From version 7 and onwards, you can document most of the Project Server settings, list of projects and their permissions. 
 
 You can also specify the load depth, which means how deep you want to crawl your SharePoint with SPDocKit. Possible choices are: site collection. subsites, list, and list items. Be aware that there are some dependencies related to the load depth selection and the available SharePoint information SPDocKit can retrieve. For example, if you want to load content types and workflows, lists are the minimum required load depth. SPDocKit will warn you if your current selection is not possible and provide instruction messages for enabling certain load options.
 
