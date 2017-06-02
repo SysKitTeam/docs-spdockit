@@ -30,7 +30,7 @@ Navigate to our Permissions Reports section to easily detect all permissions cha
 * SPDocKit 7 supports __Office 365 groups__.  You can connect to Office 365 group site collection's in Permissions Explorer, as well as gather farm explorer and permissions report data for these kinds of sites.
 
 * New Best Practices Reports
-  *	[DC Collocation Compliance](https://bp.spdockit.com/article/configuration/distributed-cache/distributed-cache-collocation-compliance/) checks if distributed cache service is running on the same server as any Search, Excel, or Project Server services.
+  *	[DC Collocation Compliance](https://bp.spdockit.com/article/configuration/distributed-cache/distributed-cache-collocation-compliance/) checks if the distributed cache service is running on the same server as any Search, Excel, or Project Server services.
   *	[Search Running](https://bp.spdockit.com/article/service-applications/search/search-running/) checks if your Search service is up and running and if it has at least one crawl schedule configured.
   *	[Number of Web Applications](https://bp.spdockit.com/article/sharepoint-software-boundaries-and-limits/limits-by-hierarchy/web-application-limits/number-web-applications/), [Number of Content Databases](https://bp.spdockit.com/article/sharepoint-software-boundaries-and-limits/limits-by-hierarchy/content-database-limits/number-content-databases/), [Number of Site  Collections](https://bp.spdockit.com/article/sharepoint-software-boundaries-and-limits/limits-by-hierarchy/site-collection-limits/number-site-collections/) check recommended SharePoint topology limitations.
   *	[Farm in Trial](https://bp.spdockit.com/article/updates/sharepoint/farm-in-trial/) checks if your SharePoint farm is in trial mode.
@@ -51,7 +51,7 @@ Navigate to our Permissions Reports section to easily detect all permissions cha
 
 * [Permissions Health Check](#internal/get-to-know-spdockit/permissions-reports-screen) reports are a set of new permissions reports, which can help you stay compliant with permissions governance best practices and detect users with directly given permissions, lists containing items with broken permissions inheritance, and what those items are specifically.  
 * New Cleanup report called, __Site Collections with Disabled Owner__, lists all site collection owners who have been disabled or deleted in Active Directory.  
-* __Permission Level Usage__ report shows site collections where a certain permission level exists.used.
+* __Permission Level Usage__ report shows site collections where a certain permission level exists and whether it is being used.
 * Now, you can choose to __restore permission inheritance recursively on folder__ structures. If you decide to use this feature, permissions inheritance will be restored for all list items of the currently selected folder. 
 * New management action, called __Add to Group__, helps you add a specified principal to the selected SharePoint group.   
 * [Server to Server Compare](#internal/how-to/compare-wizard/compare-servers) is now possible. Compare any two SQL, IIS, or other server settings in your farm using Compare Wizard.  
@@ -66,7 +66,7 @@ Navigate to our Permissions Reports section to easily detect all permissions cha
 * New query property, __Author__, was added for lists and subsites reports. 
 * The farm name will now be visible in the Compare Wizard exported results.
 * Query results can now be sent in __XLSX and DOCX format__ as well, not only PDF.
-* You can now see how long it took  for SPDocKit to take a snapshot of your farm. We've added a load duration column to the Snapshots tab.
+* You can now see how long it took for SPDocKit to take a snapshot of your farm. We've added a load duration column to the Snapshots tab.
 * Farm Account and Crawl Account passwords are no longer required fields in the wizard for creating configuration XML file for the AutoSPInstaller.
 * The Principals filter now supports __principal type as a filtering option__. Expand the Principals filter to select only desired principal types.
 * Object-to-object comparison type in the Permissions Compare wizard can now detect group membership differences.
@@ -81,45 +81,45 @@ Navigate to our Permissions Reports section to easily detect all permissions cha
 * Grant permissions and Add to Group permissions management actions will no longer offer groups without permissions on the selected securable object.
 * If farm snapshots fail for any reason, you will now receive a note explaining why you did not receive any subscription or alert reports.
 * AppFabric Patch Best practices report now supports SP2016.
-* Now, you can track what SPDocKit service is doing in the background. We’ve added a SPDocKit service status details in the lower right corner.
+* Now, you can track what the SPDocKit Service is doing in the background. We’ve added it's status details in the lower right corner.
 * FarmID information has been added to the Farm Info report and License Details.
-* A Web Application scope has been added to the Load Depth selection. Now, you can take a snapshot of your farm, down to the web application level, without having to load all site collections and lower securable objects.
+* A Web application scope has been added to the Load Depth selection. Now, you can take a snapshot of your farm, down to the Web application level, without having to load all site collections and lower securable objects.
 * It is now possible to create alerts directly from the Compare wizard UI.
-* All Site Users reports are no longer just a SPDocKit extension, it is now part of the built-in Permissions Reports. This report will show you a complete list of users who have an access to the selected Site Collection.
+* All Site Users reports are no longer just a SPDocKit extension, it is now part of the built-in Permissions Reports. This report will show you a complete list of users who have access to the selected site collection.
 * The Last Compiled Time Property of the Audiences report (User Profiles) has been removed from the compare template. 
 * SPDocKit can now be installed on Windows Server 2008.
 * Permissions Explorer gained improved Group Memberships filter.
 * You can now use the permissions management wizards with the NT AUTHORITY/Authenticated Users but only when using SPDocKit on a SharePoint server.
 
-## UI Improvements
+## UI improvements
 * New splash screen with our theme colours.
 * View in SharePoint, Site Permissions, Principal Permissions, Principal Properties, Permission Details, Allow AD Access, and Show All Groups buttons are now located in the View ribbon.
-* An Insights ribbon has been added, allowing easy access to information about agent and viewers or to start SPDocKit Insights.
-* Improved SPDocKit UI in the smaller resolution.
+* An Insights ribbon has been added, allowing easy access to information about agents and viewers or to start SPDocKit Insights.
+* Improved SPDocKit UI for smaller resolutions.
 * Added tooltips explaining the button actions.
 * New icon set for different lists types. We now distinguish between document library, task list, and calendar.
 * Snapshot Options UI has been redesigned. New properties have been added and divided into new logical categories.
 
-## Bug Fixes
+## Bug fixes
 * Resolved an issue with Number of Unique Visitors report, which showed some users twice due to being case sensitive.
 * Resolved issue with the exception “System.Data.SqlClient.SqlException: Cannot use the special principal 'dbo'.” appearing when trying to add user to an Admin role in SPDocKit role based security.
 * Resolved issue with exception “System.Security.SecurityException: The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security.” appearing when users were running the SPDocKit on a workstation, when they were not a local administrator on the machine, and tried to use permissions management actions.
 * Resolved issue with exception “System.NullReferenceException: Object reference not set to an instance of an object.” appearing when trying to edit a best practices report on a workstation without opening a snapshot first. 
 * Users with privileged access report was not showing Full Read policy users.
 * Permissions from sites with broken permissions level inheritance were not properly loaded.
-* Resolved display issue with the embedded web browser control which is used for some reports, such as SPCASF reports, web.config, or Content Hierarchy report. Internet Explorer security settings should no longer interfere with the report generation.
-* If a SPDocKit report was scheduled to generate  and send data for all available securable object, and a new securable object was added afterwards in the farm topology, the report data would not include it in sent reports.  
+* Resolved display issue with the embedded web browser control which is used for some reports, such as SPCAF reports, web.config, or Content Hierarchy report. Internet Explorer security settings should no longer interfere with the report generation.
+* If a SPDocKit report was scheduled to generate and send data for all available securable objects, and a new securable object was added afterwards in the farm, the report data would not include it in sent reports.  
 * Resolved issue with displaying the wrong number of selected reports when generating a documentation. Farm Overview reports were not included in the report count.
 * Resolved issue with EventID field from the windows event log not being indexed.
-* It is now possible to run SPDocKit  rules on the lists and document libraries with the AllowDeletion property set to False.
+* It is now possible to run SPDocKit rules on the lists and document libraries with the AllowDeletion property set to False.
 * Resolved an issue with the exception “System.InvalidOperationException: No language-neutral solution exists in the store.” appearing when SPDocKit tries to load a solution that is not working properly.
-* Resolved an issue with SharePoint Groups report remembering the filter state from the site collection Hierarchy report and using it to generate the report data.
+* Resolved an issue with SharePoint Groups report remembering the filter state from the Site Collection Hierarchy report and using it to generate the report data.
 * Resolved an issue with the transfer action removing the source principal's permissions from the whole site collection instead of just from the current scope.
 * Resolved an issue with the inability to change the Queries and Rules folder name.
-* Resolved an issue with MonthlyDayOfWeekSchedule enum not being supported in Scheduled Task report.
+* Resolved an issue with the MonthlyDayOfWeekSchedule enum schedule not being supported in the Scheduled Task report.
 
 ## Deprecated Features
-* Language Packs up to Date best practices  report is no longer available.
+* Language Packs up to Date best practices report is no longer available.
 * Site Collection Duplicate IDs best practices report is no longer available.
 * Scope Rules Count per Search Scope is no longer available for SharePoint 2013/2016.
 * Scope Rules Count per Search Service Application is no longer available for SharePoint 2013/2016.
