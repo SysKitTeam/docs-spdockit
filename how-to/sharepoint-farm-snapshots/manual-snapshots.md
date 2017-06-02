@@ -18,36 +18,32 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
     This is the recommended load mode if you don’t mind waiting and want to be sure you have all the data once the load finishes.
 
    __Please note!__ What you choose to take a snapshot of, within the Custom mode, applies only to the current load and does not affect loading executed by the SPDocKit service.
-1. Choose what you would like to load.
+1. Choose what you would like to load. This page is only available if you have chosen the Custom mode; otherwise it will be skipped together with the Target page.
 
-   This page is only available if you have chosen the Custom mode; otherwise it will be skipped together with the Target page.
+   With the Load Depth option you can specify the depth to which you want to crawl your farm.
    
-   We redesigned the load screen to be more user friendly, and at the same time we added more cool features you can now load. With the Load Depth option you can specify the depth to which you want to crawl your farm.  
-   There are 4 categories:  
-  
-   ### Sharepoint  
-   * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
-   * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
-   * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
-   * __Features and Solutions__, __Workflows__
+   We redesigned the load screen to be more user friendly, and added more loading options. There are 4 categories:  
+   * __Sharepoint__
+     * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
+     * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
+     * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
+     * __Features and Solutions__, __Workflows__
 
-   ### Security  
-   * __Database Permissions__ - Selecting this will enable you to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 
-   * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
-   * __Administrative Actions Log__ - this option will be visible only for SharePoint 2016 FP1 farms and enables you to browse and analyze administrative actions logs collected from your SharePoint farm.
-   * __Security Audit__ - this option is required for Permission Audit report which enables you to see complete history of permission changes on site collection.
+   * __Security__ 
+     * __Database Permissions__ - Selecting this will enable you to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 
+     * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
+     * __Administrative Actions Log__ - this option will be visible only for SharePoint 2016 FP1 farms and enables you to browse and analyze administrative actions logs collected from your SharePoint farm.
+     * __Security Audit__ - this option is required for Permission Audit report which enables you to see complete history of permission changes on site collection.
 
-   ### Server Settings  
-   * __Installed Programs and available Updates__
-   * __SQL Server and IIS Setttins Information__
+   * __Server Settings__ 
+     * __Installed Programs and available Updates__
+     * __SQL Server and IIS Setttins Information__
 
-   ### Project Server  
-   * __Settings__
-   * __Projects__   
-   
-     From version 7 and onwards, you can document most of the Project Server settings, list of projects and their permissions.  
+   * __Project Server__ 
+     * __Settings__
+     * __Projects__  
 
-     To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
+   To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
 
 4. Select the snapshot target.  
 Again, this step will be skipped unless you chose the Custom snapshot mode. Some data is collected from the Central Administration and farm servers regardless of the selection here; however, permissions, workflows, content types, etc., will not show information for items that have not been selected here. You can choose your target to be the entire farm, Web application, site collection or specific subsites. 

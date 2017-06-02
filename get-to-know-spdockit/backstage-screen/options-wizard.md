@@ -40,7 +40,7 @@ Enabling the __automatic index reorganization__ will result in better space usag
 
 This section allows you to choose what will be loaded by both the __SPDocKit Service__ when taking an __automatic snapshot__, and if you select the __Default__ mode in the Take Snapshot wizard. 
 
-We redesigned the load screen to be more user friendly, and at the same time we added more cool features you can now load. There are 4 categories:  
+We redesigned the load screen to be more user friendly, and added more load options. There are 4 categories:  
   * __Sharepoint__
      * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
      * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
@@ -61,7 +61,7 @@ We redesigned the load screen to be more user friendly, and at the same time we 
      * __Settings__
      * __Projects__  
    
-From version 7 and onwards, you can document most of the Project Server settings, list of projects and their permissions. 
+From version 7 and onwards, you can document Project Server settings, list of projects and their permissions. 
 
 You can also specify the load depth, which means how deep you want to crawl your SharePoint with SPDocKit. Possible choices are: site collection. subsites, list, and list items. Be aware that there are some dependencies related to the load depth selection and the available SharePoint information SPDocKit can retrieve. For example, if you want to load content types and workflows, lists are the minimum required load depth. SPDocKit will warn you if your current selection is not possible and provide instruction messages for enabling certain load options.
 
