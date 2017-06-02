@@ -16,16 +16,16 @@ From the other filters, you can choose the date range, users who performed the a
 
 By default, the Permissions Audit report contains these columns:  
 
-__Action__ – Type of action performed (e.g. group created, group member added, permissions granted, permission inheritance broken, etc.)  
-__Time__ – Time of day the action was performed (it is shown in Local Time).  
-__Performed By__ – User who performed the action.  
-__Target__ – Principal or permission level which was modified.  
-__Details__ – Details about the performed action; it depends on the type of action that was performed.  
-__Url__ – URL of the SharePoint object on which level action was performed.  
+* __Action__ – Type of action performed (e.g. group created, group member added, permissions granted, permission inheritance broken, etc.)  
+* __Time__ – Time of day the action was performed (it is shown in Local Time).  
+* __Performed By__ – User who performed the action.  
+* __Target__ – Principal or permission level which was modified.  
+* __Details__ – Details about the performed action; it depends on the type of action that was performed.  
+* __Url__ – URL of the SharePoint object on which level action was performed.  
 
 You can customize this grid by adding 3 optional columns:  
-__Email__ - Email of user who performed the action.  
-__Object Type__ – Type of SharePoint object on which level action was performed.  
-__Username__ – Login name of user who performed the action.  
+* __Email__ - Email of user who performed the action.  
+* __Object Type__ – Type of SharePoint object on which level action was performed.  
+* __Username__ – Login name of user who performed the action.  
 
 Important: You can only load the Security Audit logs with SPDocKit on a SharePoint machine, not on a workstation. However, loaded data can be viewed on a workstation as well. 
