@@ -2,7 +2,7 @@
 title: Restore Permissions Wizard
 description: This article describes how to restore SharePoint permissions to a previous state using SPDocKit.
 author: Marko Gudan
-date:26/5/2017
+date: 26/5/2017
 ---
 
 This article explains how to use SPDocKit's Restore Permissions Wizard to restore permissions on a securable object to an earlier state. Please check the [feature availability by license type](https://www.spdockit.com/orders)  
