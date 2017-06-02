@@ -16,9 +16,7 @@ __Please note!__ Check the [permission requirements](#internal/requirements/shar
 
    With the __Database Index Reorganization__, you can enable automatic index reorganization. That means your database space usage and performance when reading data will improve. During index reorganization, SPDocKit might be unavailable.
 
-1. Skip to the __Snapshot Options__ and customize the snapshot options that are going to be used by the SPDocKit Service such as __Load Options__ and __Load Performance__.  
-
-    With the Load Depth option you can specify the depth to which you want to crawl your farm. Choose what you would like to load.    
+1. Skip to the __Snapshot Options__ part of Options wizard and customize the snapshot options that are going to be used by the SPDocKit Service such as __Load Options__ and __Load Performance__.  With the __Load Depth__ option you can specify the depth to which you want to crawl your farm. Also, choose what you would like to load each time that SPDocKit Service crawls your farm.    
   * __Sharepoint__
      * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
      * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
@@ -39,9 +37,9 @@ __Please note!__ Check the [permission requirements](#internal/requirements/shar
      * __Settings__
      * __Projects__  
   
-    To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load. 
-
-   Click __Save__ when finished.  
+  To reduce the farm load time we recommend unchecking Personal Sites. 
+  
+  You can use the load performance slider to switch between low resource usage and a high-performance load. Click __Save__ when finished.  
 
 1. Go to Load Target to select the scope on which SPDocKit Service will crawl for data – for example, the entire farm, Web application, site collection or specific subsites.
 
