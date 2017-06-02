@@ -118,7 +118,7 @@ Navigate to our Permissions Reports section to easily detect all permissions cha
 * Resolved an issue with the inability to change the Queries and Rules folder name.
 * Resolved an issue with the MonthlyDayOfWeekSchedule enum schedule not being supported in the Scheduled Task report.
 
-## Deprecated Features
+## Deprecated features
 * Language Packs up to Date best practices report is no longer available.
 * Site Collection Duplicate IDs best practices report is no longer available.
 * Scope Rules Count per Search Scope is no longer available for SharePoint 2013/2016.
@@ -126,7 +126,7 @@ Navigate to our Permissions Reports section to easily detect all permissions cha
 * SharePoint Edition Name property is no longer available in the Farm Info report.
 * Farm Differences report no longer supports the PDF format.
 
-## Licensing Changes
+## Licensing changes
 * Please check out our [licensing options](https://www.spdockit.com/orders/) and compare updated available features by the license type.
 * We've changed the Offline activation process for consultants. [Read more about it.](#internal/activation/offline-activation)
 
