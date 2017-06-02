@@ -6,9 +6,9 @@ date: 24/5/2017
 ---
 This section allows you to define and document important information about your farm, including:
 
-* service account passwords
-* Product Keys for installed SharePoint products
-* the SharePoint farm passphrase
+* Service account passwords.
+* Product Keys for installed SharePoint products.
+* The SharePoint farm passphrase.
 
 ## Entering information
 
