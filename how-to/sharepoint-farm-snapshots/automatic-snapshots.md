@@ -26,7 +26,7 @@ __Please note!__ Check the [permission requirements](#internal/requirements/shar
    * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
    * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
    * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
-   * __Features and Solutions__, __Worksflows__
+   * __Features and Solutions__, __Workflows__
 
    ### Security  
    * __Database Permissions__ - Selecting this will enable you to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 

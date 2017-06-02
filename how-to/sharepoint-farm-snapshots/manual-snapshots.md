@@ -24,22 +24,21 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
    
    We redesigned the load screen to be more user friendly, and at the same time we added more cool features you can now load. With the Load Depth option you can specify the depth to which you want to crawl your farm.  
    There are 4 categories:  
-   
-
-    ### Sharepoint  
-   * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and you cannot change this option. 
-   * __Content Types__ - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where the content types are defined.
+  
+   ### Sharepoint  
+   * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
+   * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
    * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
-   * __Features and Solutions__, __Worksflows__
+   * __Features and Solutions__, __Workflows__
 
    ### Security  
-   * __Database Permissions__ - selecting this will enable you to view Database Permissions report. Showing information about all users, across all databases on a SQL Server. 
+   * __Database Permissions__ - Selecting this will enable you to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 
    * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
    * __Security Audit__ - Permission Audit report enables you to see complete history of permission changes on site collection.
 
    ### Server Settings  
    * __Installed Programs and available Updates__
-   * __SQL server and IIS Setttins Information__
+   * __SQL Server and IIS Setttins Information__
 
    ### Project Server  
    * __Settings__
