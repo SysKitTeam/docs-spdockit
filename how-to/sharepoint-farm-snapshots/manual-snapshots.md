@@ -26,7 +26,7 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
    There are 4 categories:  
    
 
-   ### Sharepoint  
+    ### Sharepoint  
    * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and you cannot change this option. 
    * __Content Types__ - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where the content types are defined.
    * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
