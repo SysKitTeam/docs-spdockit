@@ -8,7 +8,7 @@ date: 7/6/2017
 We have just shipped a new major release, SPDocKit 7, and are proud to present SPDocKit Insights - a feature set designed to help you track SharePoint performance and ease searching through ULS, windows event and SQL logs. The release also delivers Project Server documentation, SharePoint Online support, and a new advanced permissions management feature - restoring permissions to a previously recorded state. Read more about all the available features in the list below.
 
 __Product version:__ 7.0.0  
-__Build number:__   4784  
+__Build number:__   4786    
 __Release date:__ Jun 7, 2017  
 
 [Click here to download the new release.](https://www.spdockit.com/downloads/)
