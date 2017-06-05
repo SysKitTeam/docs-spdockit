@@ -13,13 +13,14 @@ This section describes how to use SPDocKit to compare SharePoint permissions bet
 ### **Object-to-object compare**
 
 Use the Compare wizard to:
-
 * Examine the permission settings in relation to another SharePoint object.
 * Find out which permissions should be given/taken to the preferred SharePoint object users in compare to another similar SharePoint object.
-* Compare SharePoint object permissions for the entire history by selecting the same SharePoint object for a different time period.  
+* Compare SharePoint object permissions for the entire history by selecting the same SharePoint object for a different time period.
+
+Instructions:  
 
 1. Select **Object to Object Compare** subtype and click **Next** to proceed to the results screen.  
-1. Choose a certain permission record by the date you want to compare from the **Permissions Date** dropdown menu. Select a web application and site collection, then drill down to the site, subsite, list and list item. Do this on both sides to compare the permissions for selected objects.
+2. Choose a certain permission record by the date you want to compare from the **Permissions Date** dropdown menu. Select a web application and site collection, then drill down to the site, subsite, list and list item. Do this on both sides to compare the permissions for selected objects.
 
 ### **Permission differences**
 
