@@ -26,18 +26,6 @@ The following buttons are available in the Compare ribbon:
 
 ## View ribbon
 The following buttons are available in the View ribbon:  
-<<<<<<< HEAD
-__Choose Columns__ – customize your report view. Remove or reorder columns to personalize it to your needs.  
-__Reset Layout__ – restore the default report view settings.  
-__Expand/Collapse__ – makes browsing reports much easier when you have large amount of data.  
-__View in SharePoint__ – view the selected site in SharePoint.  
-__Site Permissions__ – view and manage the selected securable object's permissions in SharePoint directly from your browser.  
-__Principal Permissions__ – view and manager permissions for the selected principal on a specific object, directly from your browser.  
-__Principal Properties__ – show principal properties.  
-__Permission Details__ – show permission details.  
-__Allow AD Access__ - enable this option if you would like to see AD group memberships, but keep in mind that this might increase the report generation time.  
-__Show All Groups__ - enable this option if you would like to see SharePoint groups that do not have any permissions assigned but still exist on this site collection.
-=======
 * __Choose Columns__ – customize your report view. Remove or reorder columns to personalize it to your needs.  
 * __Reset Layout__ – restore the default report view settings.  
 * __Expand/Collapse__ – makes browsing reports much easier when you have large amount of data.  
@@ -48,5 +36,5 @@ __Show All Groups__ - enable this option if you would like to see SharePoint gro
 * __Permission Details__ – show permission details.  
 * __Allow AD Access__ - enable this option if you would like to see AD group memberships, but keep in mind that this might increase the report generation time.  
 * __Show All Groups__ - enable this option if you would like to see SharePoint groups that do not have any permissions assigned but still exist on this site collection.
->>>>>>> efbc38bdb5de7c3496d6e4f5e317798f0301de37
+
 
