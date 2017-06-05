@@ -20,6 +20,6 @@ Administrative Actions report lists every action executed, along with some addit
 * Correlation ID, which can be used to track changes that are connected to a single action
 * Further action details 
 
-Actions are listed in a master-detail grid, meaning you can view additional details of an action by clicking on it. SharePoint logs different types of actions. Please refer to this [TechNet article](https://technet.microsoft.com/en-us/library/mt790698(v=office.16).aspx#Anchor_6) for a list of actions that can be detected and monitored. 
+Actions are listed in a master-detail grid, meaning you can view additional details of an action by clicking on it. SharePoint logs different types of actions. Please refer to this [TechNet article](https://tinyurl.com/ycs8rawa) for a list of actions that can be detected and monitored. 
 
 __Limitations__: This report is available only for SharePoint On-Premises.
