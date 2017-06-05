@@ -7,8 +7,8 @@ date: 18/5/2017
 This section describes how to use SPDocKit to compare SharePoint farm **web application** configurations.
 
 You can use this wizard to:
-* examine the web application’s configuration in relation to another SharePoint web application,
-* compare SharePoint Web Application configurations for the entire history by selecting the same SharePoint web application in a different time period.
+* Examine the web application’s configuration in relation to another SharePoint web application.
+* Compare SharePoint Web Application configurations for the entire history by selecting the same SharePoint web application in a different time period.
 
 Here is how to do it:
 
