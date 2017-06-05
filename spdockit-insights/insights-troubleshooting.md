@@ -37,7 +37,7 @@ As noted when the message appears, this can happen because:
         - when completing the **SPDocKit Insights Agent Configuration**
         - from within SPDocKit by clicking on the **Check Status** button on the **Insights ribbon page**.
 
-### "Agent Status: offline or not accessible 
+### "Agent Status: offline or not accessible" 
 
 #### Problem
 You receive an error that an agent is offline or not accessible. Similar behavior can be seen in the info on the settings page for a listed SPDocKit Insights Agent.
