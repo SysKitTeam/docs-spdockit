@@ -13,13 +13,13 @@ __Content Overview__ – graphical overview of your farm metrics. Displays infor
 __Number of Unique Visitors__ – shows the number of unique visitors, for each site collection. The number of total farm visitors is the set of all unique visitors on specific site collections.
 __List of Site Visitors__ – shows a list of all visitors on the selected site. 
 
-  #### Content Usage
+#### Content Usage
   * __Content Type Usage__ – shows all lists that contain a specific content type within a selected site collection.  
   * __Dead Documents__ – shows you a list of documents to which their author no longer has access, documents whose author can no longer be found on the farm, or those whose author has been disabled or deleted from the AD.  
   * __Storage Metrics__ – shows you the storage space used by each SharePoint object on the farm. You can easily see the object’s size relative to the total size of the content database and quickly find the biggest storage space consumer.  
   * __Unmodified Content__– gives you an easy overview of how much time has elapsed since certain SharePoint documents have been modified. With the Content Type filter, you can select the type of data you’re interested in.
-  
-  #### Database Growth  
+
+#### Database Growth  
   * __DB Size Growth__ – shows farm database size over a given time period. Use the forecast option to predict future database growth.
   * __Logs Size Growth__ – shows the size of farm database logs. Also, with the forecast option, you can track and manage the growth.
   * __DB Disk Usage__ – shows the relation between the allocated space for a certain database (solid line) and the actual space used by the database (dotted line). Allocated space is calculated by summing the .mdf and .ndf database files.
