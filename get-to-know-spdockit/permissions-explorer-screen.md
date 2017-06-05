@@ -9,7 +9,7 @@ With Permissions Explorer farm administrators can explore SharePoint permissions
 To create and use the SPDocKit permission reports, you will have to take a snapshot of your farm with the SharePoint permissions settings included. From the filtering options on the right-hand side, you can choose the date you wish to explore permissions from.
 
 ## Manage ribbon
-Use permissions management actions to grant, edit or remove SharePoint permissions on the selected securable object. You can also audit permissions changes or restore permissions to a previously recorded state. Read more about available [permissions management actions](#internal/permission-management/manage-permission-ribbon-actions).
+Use permissions management actions to grant, edit or remove SharePoint permissions on the selected securable object. You can also audit permissions changes or restore permissions to a previously recorded state. Read more about available [permissions management actions](#internal/permission-management/manage-permissions-ribbon-actions).
 
 ### Tips & tricks
 Select a principal and right-click. A context menu will appear with all available permission management options. They work the same way as the ones from the Manage ribbon.
