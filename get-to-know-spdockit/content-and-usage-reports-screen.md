@@ -17,8 +17,8 @@ __List of Site Visitors__ – shows a list of all visitors on the selected site.
   * __Content Type Usage__ – shows all lists that contain a specific content type within a selected site collection.  
   * __Dead Documents__ – shows you a list of documents to which their author no longer has access, documents whose author can no longer be found on the farm, or those whose author has been disabled or deleted from the AD.  
   * __Storage Metrics__ – shows you the storage space used by each SharePoint object on the farm. You can easily see the object’s size relative to the total size of the content database and quickly find the biggest storage space consumer.  
-  * __Unmodified Content__– gives you an easy overview of how much time has elapsed since certain SharePoint documents have been modified. With the Content Type filter, you can select the type of data you’re interested in.  
-
+  * __Unmodified Content__– gives you an easy overview of how much time has elapsed since certain SharePoint documents have been modified. With the Content Type filter, you can select the type of data you’re interested in.
+  
   #### Database Growth  
   * __DB Size Growth__ – shows farm database size over a given time period. Use the forecast option to predict future database growth.
   * __Logs Size Growth__ – shows the size of farm database logs. Also, with the forecast option, you can track and manage the growth.
