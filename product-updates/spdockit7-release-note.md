@@ -74,14 +74,14 @@ Navigate to our Permissions Reports section to easily detect all permissions cha
 * Better error logging when loading IIS settings.
 * Optimized loading process and expansion of the permissions explorer structure.
 * Personal sites are now ignored in the Cleanup reports.
-* Added report throttling for Permissions reports and configurable options to the General tab in Options wizard. This way, the SQL server cannot get overloaded by the number of selected site collections and principals.
+* Added report throttling for Permissions reports and configurable options to the General tab in Options Wizard. This way, the SQL server cannot get overloaded by the number of selected site collections and principals.
 * Grant permissions and Add to Group permissions management actions will no longer offer groups without permissions on the selected securable object.
 * If farm snapshots fail for any reason, you will now receive a note explaining why you did not receive any subscription or alert reports.
 * AppFabric Patch Best practices report now supports SP2016.
 * Now, you can track what the SPDocKit Service is doing in the background. We’ve added it's status details in the lower right corner.
 * FarmID information has been added to the Farm Info report and License Details.
 * A Web application scope has been added to the Load Depth selection. Now, you can take a snapshot of your farm, down to the Web application level, without having to load all site collections and lower securable objects.
-* It is now possible to create alerts directly from the Compare wizard UI.
+* It is now possible to create alerts directly from the Compare Wizard UI.
 * All Site Users reports are no longer just a SPDocKit extension, it is now part of the built-in Permissions Reports. This report will show you a complete list of users who have access to the selected site collection.
 * The Last Compiled Time Property of the Audiences report (User Profiles) has been removed from the compare template. 
 * SPDocKit can now be installed on Windows Server 2008.
