@@ -1,5 +1,5 @@
 ---
-title: SPDocKit reporting changes in the User Profile Service Application
+title: Unaccounted differences in the UPA settings
 description: This article describes a problem with incorrectly collecting User Profile Service Application data.
 author: Tomislav Kunaj
 date: 5/6/2017

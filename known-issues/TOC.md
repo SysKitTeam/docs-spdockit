@@ -15,4 +15,4 @@ private: true
 # [PowerPivot FileNotFoundException issue](powerpivot-load-filenotfound.md)
 # [SQL Clusters support](sql-cluster-support.md)
 # [Storage Metrics report subscription](subscription-storage-metrics.md)
-# [SPDocKit reporting changes in the User Profile Service Application](spdockit-reporting-upa-changes.md)
+# [Unaccounted differences in the UPA settings](spdockit-reporting-upa-changes.md)
