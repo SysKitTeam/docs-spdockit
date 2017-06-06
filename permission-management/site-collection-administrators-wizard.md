@@ -14,7 +14,7 @@ Supported People Picker principal selection for:
 * **Secondary Administrator**: SharePoint user
 * **Administrators Group**: SharePoint user, Active Directory group (multiselect allowed)
 
-# Set Primary Administrator
+### Set Primary Administrator
 This wizard option allows you to set a specified user as a primary administrator in place of the existing one across the selected wizard scope. People picker supports exactly one SharePoint user as a valid choice.
 1.  Navigate to Permissions Explorer and click on the **Site Collection Administrators Wizard** in the Wizards ribbon.
 
@@ -28,7 +28,7 @@ This wizard option allows you to set a specified user as a primary administrator
 
 6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Set Secondary Administrator 
+### Set Secondary Administrator 
 This wizard option allows you to set a specified user as a secondary administrator in place of the existing one (if they are not the same) on the selected site collections.
 
 1. Navigate to Permissions Explorer and click on the **Site Collection Administrators Wizard** in the Wizards ribbon.
@@ -43,7 +43,7 @@ This wizard option allows you to set a specified user as a secondary administrat
 
 6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Add to Site Collection Administrators Group
+### Add to Site Collection Administrators Group
 This wizard option allows you to add one or more users to the Site Collection Administrators Group of the selected site collections.
 
 1. Navigate to Permissions Explorer and click on the **Site Collection Administrators Wizard** in the Wizards ribbon.
@@ -59,7 +59,7 @@ This wizard option allows you to add one or more users to the Site Collection Ad
 
 6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Remove from Site Collection Administrators Group
+### Remove from Site Collection Administrators Group
 This wizard option allows you to remove one or more users and AD groups from the Site Collection Administrators Group of the selected site collections.
 
 1. Navigate to Permissions Explorer and click on the **Site Collection Administrators Wizard** in the Wizards ribbon.
