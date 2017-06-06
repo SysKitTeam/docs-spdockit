@@ -100,7 +100,7 @@ In case you encounter a similar error again, try the following:
 
 Stop the SPDocKit Service in the services MMC console, then open the Command Prompt and type in the following to delete the service:
 
-    sc delete SPDocKitService
+>*sc delete SPDocKitService*
 
 The service will be reinstalled with the new installation.
 

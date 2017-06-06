@@ -1,5 +1,5 @@
 ---
-title: SharePoint Online Forms Authentication 
+title: SharePoint On-Premises Forms Authentication 
 description: This article describes the issue of SPDocKit Workstation not supporting forms authentication when connecting to SharePoint On-Premises.
 author: Iva Novoselic  
 date: 25/5/2017
