@@ -1,3 +1,7 @@
+---
+private: true
+---
+
 # Git notes
 Each product has a separate repository. For different versions of a product we use git branches.
 Each branch name must start with v, eg: v6. You can also have versions with decimals, eg. v6.2.
