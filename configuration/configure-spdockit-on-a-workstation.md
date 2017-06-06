@@ -37,4 +37,4 @@ To install and configure an SPDocKit instance, follow these instructions:
 
 
 ### Learn More
-* [How to connect to SharePoint Online](#internal/spdockit-spo/sharepoint-online/connect-to-spo)
+* [How to connect to SharePoint Online](#internal/spdockit-spo/connect-to-spo)

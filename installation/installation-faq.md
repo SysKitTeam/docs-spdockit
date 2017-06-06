@@ -35,8 +35,8 @@ This value represents the time in milliseconds before a service times out.
 ### How do I set up SPDocKit?
 
 SPDocKit supports SharePoint 2007, SharePoint 2010, SharePoint 2013 and SharePoint 2016 server. [See more details here.](#internal/requirements/system-requirements)
-Check out our [installation guide](#internal/installation/instalaltion-guide) and the followup, the [configuration guide](#internal/configuration/configure-spdockit).
-Once you have installed everything you can [take a snapshot](#internal/how-to/sharepoint-farm-snapshots/maunal-snapshots) of your farm.
+Check out our [installation guide](#internal/installation/installation-guide) and the followup, the [configuration guide](#internal/configuration/configure-spdockit).
+Once you have installed everything you can [take a snapshot](#internal/how-to/sharepoint-farm-snapshots/manual-snapshots) of your farm.
 
 ### If I choose the “Run only” option in SPDocKit, what happens?
 If you choose “Run only”, the following features will not be available:

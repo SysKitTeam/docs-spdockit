@@ -26,7 +26,7 @@ This wizard option allows you to set a specified user as a primary administrator
 
 5. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard. If the user is already set as the primary admin on any of selected site collections, wizard will inform you.
 
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-managemt-event-log). There will be information about changes that were made as well as who made those changes.
+6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
 # Set Secondary Administrator 
 This wizard option allows you to set a specified user as a secondary administrator in place of the existing one (if they are not the same) on the selected site collections.
@@ -41,7 +41,7 @@ This wizard option allows you to set a specified user as a secondary administrat
 
 5. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard. If the user is already set as the secondary admin on any of selected site collections, wizard will inform you.
 
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-manager/spdockit-permission-manager-event-log). There will be information about changes that were made as well as who made those changes.
+6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-manager/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
 # Add to Site Collection Administrators Group
 This wizard option allows you to add one or more users to the Site Collection Administrators Group of the selected site collections.
