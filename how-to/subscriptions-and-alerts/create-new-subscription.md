@@ -17,10 +17,10 @@ If you wish to use __Subscriptions and Alerts__ feature, please make sure you co
      Available delivery periods, are:
 
     * __Immediately after service snapshot__ – the subscription will be sent immediately after the SPDocKit Service finishes creating farm snapshot.
-   * __Daily__ – the subscription will be sent each day
-   * __Weekly__ – the subscription will be sent each Monday (you can change the default day through the subscription settings tab in Options dialog)
-   * __Monthly__ – the subscription will be sent on the first day of each month
-   * __Quarterly__ –  the subscription will be sent on the first day of each quarter
+   * __Daily__ – the subscription will be sent each day.
+   * __Weekly__ – the subscription will be sent each Monday (you can change the default day through the subscription settings tab in Options dialog).
+   * __Monthly__ – the subscription will be sent on the first day of each month.
+   * __Quarterly__ –  the subscription will be sent on the first day of each quarter.
 
    Under the Status section you can see the following information:
 

@@ -36,10 +36,10 @@ This wizard option will delete a SharePoint groups on the selected site collecti
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 4.  Groups to be deleted can be matched by:
 
-    * **directly**– select the group you wish to delete from the drop down menu
-    * **name** – changes will apply only to group with an exact name match (not case sensitive)
-    * **name contains** – changes will apply only to groups whose name contains specified term (not case sensitive)
-    * **regular expression** – changes will apply only to groups whose name contains specified regular expression
+    * **Directly**– select the group you wish to delete from the drop down menu.
+    * **Name** – changes will apply only to group with an exact name match (not case sensitive).
+    * **Name contains** – changes will apply only to groups whose name contains specified term (not case sensitive).
+    * **Regular expression** – changes will apply only to groups whose name contains specified regular expression.
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such groups exist.
 5. All the groups fitting the selected criteria will be displayed on the **Preview** step, along with their location. This allows you to modify any settings you might like before the wizard action is executed.
@@ -53,10 +53,10 @@ This wizard option will rename specific SharePoint groups on selected site colle
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
 
 4. Groups to be renamed can be matched by:
-    * **directly**– select the group you wish to delete from the drop down menu
-    * **name** – changes will apply only to group with an exact name match (not case sensitive)
-    * **name contains** – changes will apply only to groups whose name contains specified term (not case sensitive)
-    * **regular expression** – changes will apply only to groups whose name contains specified regular expression
+    * **Directly**– select the group you wish to delete from the drop down menu.
+    * **Name** – changes will apply only to group with an exact name match (not case sensitive).
+    * **Name contains** – changes will apply only to groups whose name contains specified term (not case sensitive).
+    * **Regular expression** – changes will apply only to groups whose name contains specified regular expression.
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such groups exist.
 

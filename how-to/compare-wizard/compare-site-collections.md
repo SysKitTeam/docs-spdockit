@@ -7,8 +7,8 @@ date: 18/5/2017
 This sections describes how to use SPDocKit to compare SharePoint farm **site collection** configurations.
 
 You can use this wizard to:
-* examine the site collection’s configuration in a relation to another SharePoint site collection,
-* compare SharePoint site collection configuration for the entire history by selecting the same SharePoint site collection in a different time period.
+* Examine the site collection’s configuration in a relation to another SharePoint site collection.
+* Compare SharePoint site collection configuration for the entire history by selecting the same SharePoint site collection in a different time period.
 
 Here is how to do it:
 

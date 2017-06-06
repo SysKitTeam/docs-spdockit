@@ -37,7 +37,7 @@ SharePoint groups without permissions are the ones that have no assigned permiss
 
 3. Wizard will crawl specified site collection and list all users that match a selected criteria. You can delete them all, or select the ones you wish to delete permanently from this site collection. Before continuing to the final step, wizard will require one more confirmation that the selected groups should be deleted.
 
-4. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom fSPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+4. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
 # Delete SharePoint Groups Without Users
 SharePoint groups without users are the ones that have no assigned members on the specified site collection.

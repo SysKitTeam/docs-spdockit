@@ -25,7 +25,7 @@ If your server does not have an internet connection, you can use the Offline ins
 2. Once you have downloaded a plugin, navigate to the SPDocKit installation folder and find Extensions. Paste the downloaded plugin files there.  
 The default folder is **C:\ProgramData\SPDocKit\Extensions**.
 
-3. Once it is successfully installed, restart SPDocKit and the plugin will be ready for use.v
+3. Once it is successfully installed, restart SPDocKit and the plugin will be ready for use.
 
 ### **Learn more**
 

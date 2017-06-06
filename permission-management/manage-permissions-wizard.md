@@ -25,10 +25,10 @@ This wizard option will grant specified permissions to selected principals on a 
 
 4. Select which SharePoint objects this wizard will affect: subsites, lists or list items. Provided options can be matched by:
 
-    * **name** – changes will apply only to object with an exact name match (not case sensitive).  
-    * **name contains** – changes will apply only to object whose name contains specified term (not case sensitive).  
-    * **regular expression** – changes will apply only to object whose name matches specified regular expression.  
-    * **template**– changes will apply only to object whose base template matches the selected one (not applicable for list items).
+    * **Name** – changes will apply only to object with an exact name match (not case sensitive).  
+    * **Name contains** – changes will apply only to object whose name contains specified term (not case sensitive).  
+    * **Regular expression** – changes will apply only to object whose name matches specified regular expression.  
+    * **Template**– changes will apply only to object whose base template matches the selected one (not applicable for list items).
 
     If multiple site collections or subsites are selected, changes will apply only to the ones where such objects exist.
 
@@ -58,10 +58,10 @@ This wizard option will remove specified permissions from desired principals on 
 
 4. Select which SharePoint objects this wizard will affect: subsites, lists or list items. Provided options can be matched by:
 
-    * **name** – changes will apply only to object with an exact name match (not case sensitive).   
-    * **name contains** – changes will apply only to object whose name contains specified term (not case sensitive).
-    * **regular expression** – changes will apply only to object whose name matches specified regular expression.
-    * **template**– changes will apply only to object whose base template matches the selected one (not applicable on list items).
+    * **Name** – changes will apply only to object with an exact name match (not case sensitive).   
+    * **Name contains** – changes will apply only to object whose name contains specified term (not case sensitive).
+    * **Regular expression** – changes will apply only to object whose name matches specified regular expression.
+    * **Template**– changes will apply only to object whose base template matches the selected one (not applicable on list items).
 
     If multiple site collections or subsites are selected, changes will apply only to the ones where such objects exist.
 
