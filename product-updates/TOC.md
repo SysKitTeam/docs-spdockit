@@ -4,4 +4,4 @@ slug: product-updates
 private: true
 ---
 
-# [SPDocKit 7](just-released-spdockit7.md)
+# [SPDocKit 7](spdockit7-release-note.md)
