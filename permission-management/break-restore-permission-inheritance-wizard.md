@@ -10,7 +10,7 @@ This article explains how to use SPDocKit **Break/Restore Inheritance Wizard** t
 **Wizard Scope**: farm, web application, site collection(s)  
 **SharePoint objects changes can be applied on**: subsite(s) (excluding root sites), list(s)
 
-# Break Permission Inheritance
+### Break Permission Inheritance
 
 This wizard allows you to break permission inheritance on the desired subsites or lists all across the selected farm, web application or site collection. Once the permission inheritance has been broken, all permission changes applied to the selected object will no longer apply to parent permissions and vice verse.
 
@@ -34,7 +34,7 @@ This wizard allows you to break permission inheritance on the desired subsites o
 5. In the Preview step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
 6.  The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about what changes were made as well as who made those changes.
 
-# Restore Permission Inheritance
+### Restore Permission Inheritance
 
 This wizard allows you to restore permission inheritance on the desired subsites or lists all across the selected farm, web application or site collection.
 

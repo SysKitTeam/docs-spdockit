@@ -9,7 +9,7 @@ This article explains how to use Manage ribbon to easily manage SharePoint permi
 
 __Refresh__ – reloads currently selected SharePoint object permission information or the entire permissions explorer tree.  
 
-## Inheritance
+### Inheritance
 __Break Permission Inheritance__ button copies the parent permissions and then stops the permissions inheritance for the selcected object. Any changes made to a parent site will not apply to the selected site in the future and vice verse.
 
   * __Available On:__ sites(not the root ones), lists, list items that inherit permissions from the parent site  
@@ -25,7 +25,7 @@ Please note!
 
 * Restoring permission inheritance on a __subsite__, will also restore the permission inheritance on lists and list items on that subsite.
 
-## Grant
+### Grant
 
 __Grant Permissions__ allows you to assign permissions to a user or a group on a selected SharePoint securable object with unique permissions.
 
@@ -47,7 +47,7 @@ __Create Group__ creates a new SharePoint group on the selected SharePoint objec
  * __Supported Principal selection:__ SharePoint user, Active Directory Group 
 
 
-## Manage permissions
+### Manage permissions
 
 __Edit Permissions__ modifies assigned permission levels for a selected principal.
 
@@ -85,7 +85,7 @@ __Copy to group__ adds a selected principal to a SharePoint group, but keeps his
 
 Please note! Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
 
-## Remove
+### Remove
 
 __Delete User__ deletes the selected principal from the entire Site Collection. User or Active Directory group will no longer have any permissions assigned and will be deleted from the entire site collection.
 
@@ -102,7 +102,7 @@ __Remove Users from Groups__ remove the selected user from the selected SharePoi
   * __Scope:__ Site Collection in which currently focused SharePoint object is
   * __Available On:__ SharePoint group members- SharePoint users, Active Directory groups
 
-## Configure
+### Configure
 
 __Permission Levels__ - add, remove or modify permission levels on the selected site collection or subsite. Click on the desired listed permission level to edit its currently configured base permissions or use __Add Permission Level__ button to create new permission level.
 
@@ -120,12 +120,12 @@ __Site Collection Administrators__ - modify current set of administrators. Chang
 
 Some of these actions have the __Preview__ step to make sure that the pending changes will do exactly what you wanted and have specified. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using __Save Log__ button.
 
-## Changes
+### Changes
 __Audit__ - use this button to track down all permissions changes made on the selected securable object. This button will take you to a Audit Permissions report and show details about who made a certain action and on which securable object.  
 __Restore__ - allows you to restore previous state of permissions for the selected object. Just choose the snapshot date you wish to revert the permissions to and follow the [restore wizard](#internal/permission-management/restore-permissions) steps to finish the process.   
 This feature is not available in all license types. Please check [feature availability by license type.](https://www.spdockit.com/orders)
 
 
-## SPDocPerm Event Log
+### SPDocPerm Event Log
 In addition, you can track and explore all permission changes made by SPDocKit using [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log).
 

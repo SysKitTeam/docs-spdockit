@@ -10,7 +10,7 @@ This article describes how to use SPDocKit Group Membership wizard to manage Sha
 **Wizard Scope**: farm, web application, site collection(s)  
 **Supported People Picker principal selection**: Active Directory groups, users (multiselect supported)
 
-# Add User(s) to Specific Group
+### Add User(s) to Specific Group
 This wizard option will add a selected principal to a desired SharePoint groups within the selected wizard scope.
 1. Navigate to Permissions Explorer and click on the **Membership Wizard** in the Wizards ribbon. 
 
@@ -33,7 +33,7 @@ This wizard option will add a selected principal to a desired SharePoint groups 
 
 6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Remove User(s) from Specific Group
+### Remove User(s) from Specific Group
 
 This wizard option will remove a selected principals from a desired SharePoint groups within the selected wizard scope.
 
@@ -58,7 +58,7 @@ This wizard option will remove a selected principals from a desired SharePoint g
 
 6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Remove User(s) from all Groups
+### Remove User(s) from all Groups
 This wizard option will remove a selected principal from all SharePoint groups within the selected wizard scope. User will still exist on the specific site collection but will have no assigned permissions through SharePoint groups.
 1.  Navigate to Permissions Explorer and click on the **Membership Wizard** in the Wizards ribbon.
 
@@ -72,5 +72,5 @@ This wizard option will remove a selected principal from all SharePoint groups w
 
 6.  The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Remove User(s) from entire Site Collection
+### Remove User(s) from entire Site Collection
 This wizard option has identical steps like the previous one **Remove user(s) from all groups**. The main difference is that using **Remove user(s) from entire Site Collection** option means that selected users will no longer have any assigned permissions, directly or through SharePoint groups, and they will be deleted from all the selected site collections in your SharePoint farm.

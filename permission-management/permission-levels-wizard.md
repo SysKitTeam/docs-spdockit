@@ -8,7 +8,7 @@ This article explains how to use SPDocKit Permission Levels Wizard to create, de
 
 **Wizard Scope**: farm, web application, site collection(s)
 
-# Add Permission Level
+### Add Permission Level
 This wizard options allows you to create new permission level across multiple site collections.
 1.  Navigate to Permissions Explorer and click on the **Permission Levels Wizard** in the Wizards ribbon.
 
@@ -28,7 +28,7 @@ This wizard options allows you to create new permission level across multiple si
 
 7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Add Permission(s) to Permission Level
+### Add Permission(s) to Permission Level
 This wizard option allows you to edit existing permission levels across the selected wizard scope. This option is useful if you want to add particular base permission to the existing permission level. It is important to note that this option will only add selected base permission(s) to specified permission level while the rest of base permissions will stay unaltered.
 
 1. Navigate to Permissions Explorer and click on the **Permission Levels Wizard** in the Wizards ribbon.
@@ -51,7 +51,7 @@ This wizard option allows you to edit existing permission levels across the sele
 
 7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Remove Permission(s) from Permission Level
+### Remove Permission(s) from Permission Level
 This wizard option allows you to remove particular base permission from the existing permission level. It is important to note that this option will only remove selected base permissions from permission levels while the rest of base permissions will stay unaltered.
 
 1. Navigate to Permissions Explorer and click on the **Permission Levels Wizard** in the Wizards ribbon.
@@ -74,7 +74,7 @@ This wizard option allows you to remove particular base permission from the exis
 
 7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Edit Permission(s) for Permission Level
+### Edit Permission(s) for Permission Level
 This wizard  option is useful if you want to modify existing permission level with new set of base permissions. It is important to note that this action will overwrite any existing base permission level and all matched permission level(s) will only contain set of newly selected base permissions at the end.
 
 1.  Navigate to Permissions Explorer and click on the **Permission Levels Wizard** in the Wizards ribbon.
@@ -102,7 +102,7 @@ This wizard  option is useful if you want to modify existing permission level wi
 
 7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Delete Permission Level
+### Delete Permission Level
 This wizard option allows you to delete existing permission levels across the specified wizard scope. It is a useful feature when you want to delete multiple permission levels quickly all over multiple site collections.
 1. Navigate to Permissions Explorer and click on the **Permission Levels Wizard** in the Wizards ribbon.
 

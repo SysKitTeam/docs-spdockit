@@ -10,7 +10,7 @@ This article describes how to grant permissions to the desired principal on a sp
 **Supported People Picker principal selection**: user, Active Directory group, SharePoint group (multiselect allowed)  
 **SharePoint objects changes can be applied on**: subsites, lists, list items
 
-# Grant Permissions
+### Grant Permissions
 This wizard option will grant specified permissions to selected principals on a selected SharePoint objects all across the defined wizard scope.
 1. Navigate to Permissions Explorer and click on the **Manage Permissions Wizard** in the Wizards ribbon.
 
@@ -42,7 +42,7 @@ This wizard option will grant specified permissions to selected principals on a 
 
 7.  The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Remove Permissions
+### Remove Permissions
 This wizard option will remove specified permissions from desired principals on a selected SharePoint objects all across the defined wizard scope.
 
 1. Navigate to Permissions Explorer and click on the **Manage Permissions Wizard** in the Wizards ribbon.

@@ -11,7 +11,7 @@ This article describes how to use SPDocKit Manage Groups Wizard to manage ShareP
 **SharePoint objects changes can be applied on**: SharePoint groups  
 **Supported People Picker principal selection**: user, SharePoint group
 
-# Create SharePoint Group
+### Create SharePoint Group
 This wizard option will create a SharePoint groups on the selected site collection(s).
 1. Navigate to Permissions Explorer and click on the **Manage Groups Wizard** in the Wizards ribbon.
 2. Select **Create** option and **Next** to continue.
@@ -29,7 +29,7 @@ This wizard option will create a SharePoint groups on the selected site collecti
 7. These cases and more will be displayed in the **Preview** step of the wizard, before any action has been made. This step will list all the actions that will be taken in the next step of the wizard, which allows you to modify any settings you might like to.
 8. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Delete SharePoint Group
+### Delete SharePoint Group
 This wizard option will delete a SharePoint groups on the selected site collection(s).
 1.  Navigate to Permissions Explorer and click on the **Manage Groups Wizard** in the Wizards ribbon.
 2. Select **Delete** option and **Next** to continue.
@@ -45,7 +45,7 @@ This wizard option will delete a SharePoint groups on the selected site collecti
 5. All the groups fitting the selected criteria will be displayed on the **Preview** step, along with their location. This allows you to modify any settings you might like before the wizard action is executed.
 6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Rename SharePoint Group
+### Rename SharePoint Group
 This wizard option will rename specific SharePoint groups on selected site collection(s).
 
 1. Navigate to Permissions Explorer and click on the **Manage Groups Wizard** in the Wizards ribbon.

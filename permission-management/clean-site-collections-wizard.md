@@ -8,7 +8,7 @@ This article explains how to use Clean Site Collection Wizard to keep your Share
 
 **Wizard Scope**: site collection
 
-# Delete Orphaned Users
+### Delete Orphaned Users
 Orphaned users are defined as users (users or AD groups) that are disabled or deleted from AD but had access to SharePoint farm and therefore can still be found on site collection.
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 
@@ -18,7 +18,7 @@ Orphaned users are defined as users (users or AD groups) that are disabled or de
 
 4. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Delete Users Without Permissions
+### Delete Users Without Permissions
 Users (users or AD groups) without permissions are the ones that have no directly assigned permissions nor they have been granted any rights through some SharePoint group. This will also include users with „Limited access“ that remains after the user no longer has permissions for any specific item in the selected site collection.
 
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
@@ -29,7 +29,7 @@ Users (users or AD groups) without permissions are the ones that have no directl
 
 4. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Delete SharePoint Groups Without Permissions
+### Delete SharePoint Groups Without Permissions
 SharePoint groups without permissions are the ones that have no assigned permissions on the specified site collection. This will also include groups with „Limited access“ that remains after the group no longer has permissions for any specific item in the selected site collection.
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 
@@ -39,7 +39,7 @@ SharePoint groups without permissions are the ones that have no assigned permiss
 
 4. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-# Delete SharePoint Groups Without Users
+### Delete SharePoint Groups Without Users
 SharePoint groups without users are the ones that have no assigned members on the specified site collection.
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 
