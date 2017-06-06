@@ -49,7 +49,7 @@ SharePoint groups without users are the ones that have no assigned members on th
 
 4. The final step shows user the changes that were made. If some errors have occurred, they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made, as well as who made those changes.
 
-# Replace Group Owners Disabled in AD
+### Replace Group Owners Disabled in AD
 This wizard will help you find group owners which are disabled in Active Directory. After that you can provide a new user to replace the disabled one as a new group owner.
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 
