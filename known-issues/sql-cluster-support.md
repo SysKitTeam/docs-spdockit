@@ -1,5 +1,5 @@
 ---
-title: SQL Clusters Support
+title: SQL Clusters support
 description: This article describes the problem with information about SQL clusters missing inside SPDocKit documentation.
 author: Iva Novoselic  
 date: 25/5/2017

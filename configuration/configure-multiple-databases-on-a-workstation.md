@@ -16,11 +16,11 @@ This is how you do it:
 
 1. Click on the Database Connections dropdown button, which can be found above the ribbon and on the right, and choose __Edit__.
 
-Alternatively, in the Backstage (File – > Configuration), under Configuration settings click Database Connections.
+    Alternatively, in the Backstage (File – > Configuration), under Configuration settings click Database Connections.
 
 2. After that, click the __Add__ button. The __New Database Connection__ dialog will open.
 
-Here you can input your Connection Name, the SQL Server you wish to use, and of course the database you want to connect to. To access the database, you can use either Windows or SQL authentication. Press OK and a Progress dialog will appear. This dialog will output any errors, if they have occurred. If no errors have occurred, you can __Close__ the window and continue on to the next steps.
+    Here you can input your Connection Name, the SQL Server you wish to use, and of course the database you want to connect to. To access the database, you can use either Windows or SQL authentication. Press OK and a Progress dialog will appear. This dialog will output any errors, if they have occurred. If no errors have occurred, you can __Close__ the window and continue on to the next steps.
 
 3. You will be returned to the Database Connection window. Select the connection you just made and click __Set as Active__. In a few moments, the database connection will change - and that is it!
 

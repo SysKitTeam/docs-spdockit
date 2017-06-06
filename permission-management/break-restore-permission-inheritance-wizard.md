@@ -24,10 +24,10 @@ This wizard allows you to break permission inheritance on the desired subsites o
 
 4. Select which objects this wizard will affect: lists or subsites. Both of the provided options can be matched by:
 
-    * **name** – changes will apply only to object with an exact name match (not case sensitive)
-    * **name contains** – changes will apply only to object whose name contains specified term (not case sensitive)
-    * **regular expression** – changes will apply only to object whose name matches specified regular expression
-    * **template**– changes will apply only to object whose base template matches the selected one
+    * **Name** – changes will apply only to object with an exact name match (not case sensitive).
+    * **Name contains** – changes will apply only to object whose name contains specified term (not case sensitive).
+    * **Regular expression** – changes will apply only to object whose name matches specified regular expression.
+    * **Template**– changes will apply only to object whose base template matches the selected one.
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such objects exist.
 

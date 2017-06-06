@@ -39,9 +39,9 @@ This wizard option allows you to edit existing permission levels across the sele
 
 4. Define which existing permission levels changes will be applied on. There are three options for targeting desired permission levels. User can define match criteria by:
 
-    * **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
-    * **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
-    * **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
+    * **Name** – changes will apply only to permission levels with an exact name match (not case sensitive).  
+    * **Name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive).  
+    * **Regular expression** – changes will apply only to permission levels whose name matches specified regular expression.
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
 
@@ -62,9 +62,9 @@ This wizard option allows you to remove particular base permission from the exis
 
 4. Define which existing permission levels changes will be applied on. There are three options for targeting desired permission levels. User can define match criteria by:
 
-    * **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
-    * **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
-    * **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
+    * **Name** – changes will apply only to permission levels with an exact name match (not case sensitive).  
+    * **Name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive).
+    * **Regular expression** – changes will apply only to permission levels whose name matches specified regular expression.
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
 
@@ -85,9 +85,9 @@ This wizard  option is useful if you want to modify existing permission level wi
 
 4.  Define which existing permission levels changes will be applied on. There are three options for targeting desired permission levels. User can define match criteria by:
 
-    * **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
-    * **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
-    * **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
+    * **Name** – changes will apply only to permission levels with an exact name match (not case sensitive).  
+    * **Name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive).  
+    * **Regular expression** – changes will apply only to permission levels whose name matches specified regular expression.
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
 
@@ -112,9 +112,9 @@ This wizard option allows you to delete existing permission levels across the sp
 
 4. Define which existing permission levels changes will be applied on. There are three options for targeting desired permission levels. User can define match criteria by:
 
-    * **name** – changes will apply only to permission levels with an exact name match (not case sensitive)  
-    * **name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive)  
-    * **regular expression** – changes will apply only to permission levels whose name matches specified regular expression
+    * **Name** – changes will apply only to permission levels with an exact name match (not case sensitive).  
+    * **Name contains** – changes will apply only to permission levels whose name contains specified term (not case sensitive).  
+    * **Regular expression** – changes will apply only to permission levels whose name matches specified regular expression.
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
     

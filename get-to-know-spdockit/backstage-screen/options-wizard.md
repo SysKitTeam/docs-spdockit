@@ -8,15 +8,15 @@ date: 25/5/2017
 
 Here you can change the startup options:
 
-* whether to load the last opened farm snapshot on SPDocKit startup or not.
-* enable Verbose logging – use this only for diagnostics purposes or when asked by the support team
-* modify how many site collections will be shown in the Site Topology report
-* modify the maximum number of principals that will be used to generate data for in throttled reports
-* modify the maximum number of site collections that will be used to generate data for in throttled reports
-* modify the maximum number of query results per site collection
-* turn on the automatic update check
-* change skin
-* adjust proxy settings
+* Whether to load the last opened farm snapshot on SPDocKit startup or not.
+* Enable Verbose logging – use this only for diagnostics purposes or when asked by the support team.
+* Modify how many site collections will be shown in the Site Topology report.
+* Modify the maximum number of principals that will be used to generate data for in throttled reports.
+* Modify the maximum number of site collections that will be used to generate data for in throttled reports.
+* Modify the maximum number of query results per site collection.
+* Turn on the automatic update check.
+* Change skin.
+* Adjust proxy settings.
 
 ## Save
 

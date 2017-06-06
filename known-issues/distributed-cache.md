@@ -1,5 +1,5 @@
 ---
-title: Distributed Cache Loading Issue
+title: Distributed Cache loading issue
 description: This article explains loading issue when Distributed Cache settings cannot be loaded onto a server because that is not part of a Distributed Cache Cluster.
 author: Iva Novoselic  
 date: 25/5/2017

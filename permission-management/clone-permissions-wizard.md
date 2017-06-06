@@ -11,9 +11,9 @@ Use Clone Permissions Wizard to easily achieve that selected destination princip
 
 **Please note!** Source principal’s permissions will not in any way be changed by this wizard. Destination principals will lose all previously assigned permissions and acquire every directly given permission and SharePoint group memberships as the source principal.
 
-**Wizard Scope**: farm, web application, site collection  
-**Supported People Picker source selection**: user, Active Directory group  
-**Supported People Picker destination selection**: user(s), Active Directory group(s)
+**Wizard Scope**: farm, web application, site collection.  
+**Supported People Picker source selection**: user, Active Directory group.  
+**Supported People Picker destination selection**: user(s), Active Directory group(s).
 
 1.  Navigate to Permissions Explorer and click on the **Clone Wizard** in the Wizards ribbon.
 

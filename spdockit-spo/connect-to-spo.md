@@ -11,7 +11,7 @@ In order for this feature to work, you will first have to configure SPDocKit dat
 Make sure that the user running the applicatio has been granted all [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly.
 
 You can access the __Connect___ form from two places:
-* Go to __Backstage -> Actions -> SharePoint Online__ button
+* Go to __Backstage > Actions > SharePoint Online__ button
 * Go to the __Home ribbon__ on either __Farm, Site or Permission Explorer__ and click connect
 
 Once the Connect form opens, SharePoint Online radio button will be preselected. Here is what you need to do:

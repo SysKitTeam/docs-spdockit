@@ -87,5 +87,5 @@ To reset your password, please go to the [following link](https://customers.acce
 1. Enter the email address associated with your account
 1. Click on __Reset Password__.
 1. Instructions on how to reset your password will be emailed to you. Please note: sometimes these notifications can end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your __Safe Senders List__.
-1. If for some reason you are still unable to retrieve the new password email, please [contact us](https://www.spdockit.com/support/contact-us/)  for further assistance.
+1. If for some reason you are still unable to retrieve the new password, please [contact us](https://www.spdockit.com/support/contact-us/)  for further assistance.
 

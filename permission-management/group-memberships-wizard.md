@@ -22,10 +22,10 @@ This wizard option will add a selected principal to a desired SharePoint groups 
 
     After you’ve chosen the right users, select which group they should be added to. There are couple of possible matching criteria:
 
-    * **specific group**– drop down menu provides a list of the existing SharePoint groups in the selected site collection
-    * **name** – changes will apply only to the group with an exact name match (not case sensitive)
-    * **name contains** – changes will apply only to the group whose name contains specified term (not case sensitive)
-    * **regular expression** – changes will apply only to object whose name contains specified regular expression
+    * **Specific group**– drop down menu provides a list of the existing SharePoint groups in the selected site collection.
+    * **Name** – changes will apply only to the group with an exact name match (not case sensitive).
+    * **Name contains** – changes will apply only to the group whose name contains specified term (not case sensitive).
+    * **Regular expression** – changes will apply only to object whose name contains specified regular expression.
 
     If multiple site collections are selected, changes will apply only to the ones where such objects exist.
 
@@ -47,10 +47,10 @@ This wizard option will remove a selected principals from a desired SharePoint g
 
     After you’ve chosen the right users, select which group they should be removed from. There are couple of possible matching criteria:
 
-    * **specific group**– drop down menu provides a list of the existing SharePoint groups in the selected site collection
-    * **name** – changes will apply only to the group with an exact name match (not case sensitive)
-    * **name contains** – changes will apply only to the group whose name contains specified term (not case sensitive)
-    * **regular expression** – changes will apply only to object whose name contains specified regular expression
+    * **Specific group**– drop down menu provides a list of the existing SharePoint groups in the selected site collection.
+    * **Name** – changes will apply only to the group with an exact name match (not case sensitive).
+    * **Name contains** – changes will apply only to the group whose name contains specified term (not case sensitive).
+    * **Regular expression** – changes will apply only to object whose name contains specified regular expression.
 
     If multiple site collections are selected, changes will apply only to the ones where such objects exist.
 

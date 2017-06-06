@@ -1,5 +1,5 @@
 ---
-title: We have just released SPDocKit 7.0.0
+title: SPDocKit 7 - Release Note
 description: This article describes all new features, improvements and bug fixes delivered in SPDocKit 7.
 author: Iva Novoselic
 date: 7/6/2017

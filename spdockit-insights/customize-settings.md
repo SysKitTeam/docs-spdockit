@@ -14,7 +14,7 @@ To customize SPDocKit Insights settings click the **Settings button** located in
 - **Assigned agent**
     - When the SPDocKit Insights Agent starts for the first time, it will be associated with **all** the farms in your SPDocKit database. If at some point you connect another farm to your SPDocKit database, it will be associated with the first free active agent.
     - If the agent associated by default is not satisfactory, change this option.
-    - If for some reason you wish to stop monitoring a farm, just select _None_ as the desired agent.
+    - If for some reason you wish to stop monitoring a farm, just select __None__ as the desired agent.
     - One agent can be assigned to multiple farms. 
 - **ULS collection configuration**
     - Here you can change which ULS event levels you want to collect. You can choose from the standard SharePoint ULS levels.
@@ -33,6 +33,7 @@ To customize SPDocKit Insights settings click the **Settings button** located in
 - **Collection interval**
     - How often to collect log data (default is 15 seconds).
 - **Data retention period**
+  
 - **Max index size**
     - Data collection will stop when this limit is reached. 
 - **Performance data collection interval**

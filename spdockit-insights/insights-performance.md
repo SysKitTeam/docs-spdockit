@@ -45,7 +45,7 @@ The server overview dashboard shows all metrics that are collected for each serv
 
 - __.NET__ category – this category is assigned to all non-SQL SharePoint servers. The metrics in this category show how the processes on each non-SQL SharePoint server are using .NET framework capabilities.
 
-- __SQL__ category – this category is assigned to all SQL servers in SharePoint farms. Each server in Always-On cluster is included as well. These metrics are show the SQL server performance.
+- __SQL__ category – this category is assigned to all SQL servers in SharePoint farms. Each server in Always-On cluster is included as well. These metrics show the SQL server performance.
 
 If the metric is in warning or critical state the notification above the metric name will indicate the problem. It will tell how the metric crossed the threshold value. The status of each metric is calculated based on average in the last fifteen minutes. The status of metrics for which the warning or critical thresholds are not defined will not be calculated.
 

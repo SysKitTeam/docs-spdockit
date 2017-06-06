@@ -12,7 +12,7 @@ __Please note__ that in order for this feature to work, __you will need to use a
 You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.
 
 Here is what you need to do:
-1. You can start the loading proces (snapshot) from Backstage. __File -> Actions -> Take Snapshot__. Or click the __Take Snapshot button__ in __Home ribbon__ of Farm and Site Explorer, Permissions Reports, Content & Usage Reports section, and Snapshots tab.
+1. You can start the loading proces (snapshot) from Backstage. __File > Actions > Take Snapshot__. Or click the __Take Snapshot button__ in __Home ribbon__ of Farm and Site Explorer, Permissions Reports, Content & Usage Reports section, and Snapshots tab.
 
 1. Select the snapshot mode you wish the application to execute. There are three choices:
     * __Default__ – Performs a load using the setup provided in the [Snapshot Options](#internal/get-to-know-spdockit/backstage-screen/options-wizard) and [Load Target](#internal/get-to-know-spdockit/backstage-screen/options-wizard). This includes farm settings, features and solutions, and permissions down to the subsite level on the whole tennant by default, and can be changed by the user at any time in the Options Wizard.
@@ -38,4 +38,5 @@ Here is what you need to do:
 
 1. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](#internal/get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports) and [permission reports](#internal/get-to-know-spdockit/permissions-reports-screen) will be ready for use!  
 
-    Also, make sure to check our [permission management features](#internal/permission-management/manage-permissions-ribbon-actions) located in __Permissions Explorer__ tab. Please note that Permission management buttons are enabled only in __live mode__ of Permissions Explorer. There is no need for a snapshot in this case. 
+    Also, make sure to check our [permission management features](#internal/permission-management/manage-permissions-ribbon-actions) located in __Permissions Explorer__ tab.  
+    Please note that Permission management buttons are enabled only in __live mode__ of Permissions Explorer. There is no need for a snapshot in this case. 

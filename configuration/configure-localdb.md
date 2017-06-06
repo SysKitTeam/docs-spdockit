@@ -9,7 +9,7 @@ This article will explain how to use LocalDB with SPDocKit. LocalDB is included 
 
 ## Install LocalDB
 
-LocalDB can be installed by running the [SPDocKit installation wizard](#internal/configure/installation-guide). You have two ways to install LocalDB:
+LocalDB can be installed by running the [SPDocKit installation wizard](#internal/installation/installation-guide). You have two ways to install LocalDB:
 
 * If you choose the __Default__ setup type, on the __Embedded Database__ wizard page check the __Install an Embedded Database__ option.
 * If you choose the __Advanced__ setup type on the __Custom Setup__ wizard page include the __Embedded Database__ feature in your installation.

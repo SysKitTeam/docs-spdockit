@@ -22,7 +22,7 @@ Navigate to the search page to use the SPDocKit Insights alerting feature:
     - Provides history of executed alerts.
 2. An alert can be created for the current query from the search results.
 
-This feature is not available in all license types. Please check [feature availability by license type.](https://www.spdockit.com/orders).
+This feature is not available in all license types. Please check [feature availability by license type.](https://www.spdockit.com/orders)
 
 
 
