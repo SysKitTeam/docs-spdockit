@@ -8,7 +8,7 @@ private: true
 # [Custom features missing in reports](custom-features-missing.md)
 # [Data retention not working properly](data-retention.md)
 # [Distributed Cache loading issue](distributed-cache.md)
-# [SharePoint Online Forms Authentication ](forms-authentication-spo.md)
+# [SharePoint On-Premises Forms Authentication ](forms-authentication-on-prem.md)
 # [Load crashes with NullReference exception](load-crashes-nullexception.md)
 # [Available Windows updates](load-windows-updates.md)
 # [Permissions Wizard issue](permissions-wizard-issue.md)
