@@ -16,19 +16,17 @@ __Release date:__ Jun 7, 2017
 ## Features
 * __SPDocKit Insights:__ A brand new set of SPDocKit features opens a completely different era in tracking [SharePoint performance and troubleshooting issues.](#internal/spdockit-insights/use-spdockit-insights) Install SPDoKit Insights to find out which farm servers are the most critical, drill down to a specific performance counter, and resolve issues before it is too late.
   * An improved __SPDocKit Event Viewer__ is now also available as a part of SPDocKit Insights. It will help you crawl and search through ULS logs, Windows event entries, and SQL logs from all of the farm servers to quickly isolate the problem and make sure that everything keeps running smoothly.   
-  * Consultants will again be able to [manually load SPDocKit Event Viewer](#internal/spdockit-insights/manual-load) entries.  
-* You can now schedule [SPDocKit Event Viewer alerts](#internal/spdockit-insights/search-alerts) for a specific error and receive email notifications when one of your servers satisfies this query.  
-* The most wanted feature for the last year has finally arrived. You can now use SPDocKit and previously taken farm snapshots to [restore SharePoint permissions](#internal/permission-management/restore-permissions) from a certain date for a selected securable object.  
-* There is a new [Permissions Audit](#internal/how-to/reports/security-audit) report for tracking who changed certain SharePoint permissions, as well as when and what the exact action performed was. 
+  * Consultants will again be able to [manually load SPDocKit Event Viewer](#internal/spdockit-insights/manual-load) entries.
+* You can now schedule [SPDocKit Event Viewer alerts](#internal/spdockit-insights/search-alerts) for a specific error and receive email notifications when one of your servers satisfies this query.
+* The most wanted feature for the last year has finally arrived. You can now use SPDocKit and previously taken farm snapshots to [restore SharePoint permissions](#internal/permission-management/restore-permissions) from a certain date for a selected securable object.
+* There is a new [Permissions Audit](#internal/how-to/reports/security-audit) report for tracking who changed certain SharePoint permissions, as well as when and what the exact action performed was.
 Navigate to our Permissions Reports section to easily detect all permissions changes across the entire site collection and keep your SharePoint security at the high level.
 * SPDocKit 7 delivers __Project Server documentation__. Load project server settings and permissions, explore reports using Farm Explorer, compare settings through a desired time period and schedule these reports to be directed to your email.
-* [SharePoint Online Snapshots](#internal/spdockit-spo/sharepoint-online) are now available in SPDocKit. Apart from being able to manage SharePoint Online permissions, you can now take snapshot of your entire tenant or a selected site collection. Use Permissions Reports section to gather valuable information about structure, granted permissions, broken permissions inheritance, and more. 
+* [SharePoint Online Snapshots](#internal/spdockit-spo/sharepoint-online) are now available in SPDocKit. Apart from being able to manage SharePoint Online permissions, you can now take snapshot of your entire tenant or a selected site collection. Use Permissions Reports section to gather valuable information about structure, granted permissions, broken permissions inheritance, and more.
   * You can also __compare SharePoint Online permissions__ for a selected securable object and group memberships, as well as track permissions differences using Compare Wizard.
    * __Restoring SharePoint Online permissions__ to a selected snapshot state is also available.
-* [Externally Shared](#internal/get-to-know-spdockit/permissions-reports-screen) reports help you find out what tenant content has been shared with an external user, who has access to your SharePoint Online sites, and if there is some content that has been shared using anonymous guest links. 
-
+* [Externally Shared](#internal/get-to-know-spdockit/permissions-reports-screen) reports help you find out what tenant content has been shared with an external user, who has access to your SharePoint Online sites, and if there is some content that has been shared using anonymous guest links.
 * SPDocKit 7 supports __Office 365 groups__.  You can connect to Office 365 group site collection's in Permissions Explorer, as well as gather farm explorer and permissions report data for these kinds of sites.
-
 * New Best Practices Reports
   *	[DC Collocation Compliance](https://bp.spdockit.com/article/configuration/distributed-cache/distributed-cache-collocation-compliance/) checks if the distributed cache service is running on the same server as any Search, Excel, or Project Server services.
   *	[Search Running](https://bp.spdockit.com/article/service-applications/search/search-running/) checks if your Search service is up and running and if it has at least one crawl schedule configured.
@@ -48,7 +46,6 @@ Navigate to our Permissions Reports section to easily detect all permissions cha
     *	Query Processing Components
     *	Search Components
     *	Analytic Reporting Databases
-
 * [Permissions Health Check](#internal/get-to-know-spdockit/permissions-reports-screen) reports are a set of new permissions reports, which can help you stay compliant with permissions governance best practices and detect users with directly given permissions, lists containing items with broken permissions inheritance, and what those items are specifically.  
 * New Cleanup report called, __Site Collections with Disabled Owner__, lists all site collection owners who have been disabled or deleted in Active Directory.  
 * __Permission Level Usage__ report shows site collections where a certain permission level exists and whether it is being used.
