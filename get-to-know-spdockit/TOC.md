@@ -14,7 +14,7 @@ private: true
 ## [Farm Explorer Reports](farm-explorer-reports.md)
 ## [Passwords and Product keys](passwords-and-product-keys.md)
 # [Site Explorer Screen](site-explorer-screen.md)
-# [Permissions Exporer Screen](permissions-explorer-screen.md)
+# [Permissions Explorer Screen](permissions-explorer-screen.md)
 # [Permissions Reports Screen](permissions-reports-screen.md)
 # [Content and Usage Reports Screen](content-and-usage-reports-screen.md)
 # [Best Practices Screen](best-practices-screen.md)
