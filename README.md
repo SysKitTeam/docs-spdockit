@@ -1,6 +1,7 @@
 ---
 private: true
 ---
+# SPDocKit
 
 SPDocKit is the ultimate SharePoint management and administration tool created by Acceleratio Ltd. It was developed for administrators and consultants to save time and automate their administration tasks.
 
@@ -19,5 +20,5 @@ Features:
 * Monitor farm performance – keep an eye on server performance counters
 * Monitor ULS, SQL and Windows Event Logs to keep your farm healthy
 
-SharePoint farm administration is faster and easier with SPDocKit.
+SharePoint farm administration is faster and easier with SPDocKit.  
 Download free trial! https://www.spdockit.com/
