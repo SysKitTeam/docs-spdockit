@@ -17,3 +17,7 @@ Yes, you can do that via the SPDocKit Configuration wizard by navigating to: __F
 Do not use your SharePoint databases as the database for SPDocKit. When configuring SPDocKit, you should always create a new database that is dedicated for SPDocKit.
 
 Note: If there is an existing SPDocKit database you can connect to it.
+
+### Can I run the SPDocKit Service as local system instead of an AD user?
+Unfortunately, you can't use local system account as the SPDocKit Service account. The service account needs to have specific rights which can't be given to a local system account.
+See the [user permission requirements.](#internal/requirements/sharepoint-on-premises-user-permissions-requirements)
