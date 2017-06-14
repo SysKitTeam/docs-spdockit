@@ -118,8 +118,9 @@ Navigate to our Permissions Reports section to easily detect all permissions cha
 ## Deprecated features
 * Language Packs up to Date best practices report is no longer available.
 * Site Collection Duplicate IDs best practices report is no longer available.
-* Scope Rules Count per Search Scope is no longer available for SharePoint 2013/2016.
-* Scope Rules Count per Search Service Application is no longer available for SharePoint 2013/2016.
+* Scope Rules Count per Search Scope best practices report is no longer available for SharePoint 2013/2016.
+* Scope Rules Count per Search Service Application best practices report is no longer available for SharePoint 2013/2016.
+* Exchange Task Sync best practices report is no longer available for SharePoint 2016.
 * SharePoint Edition Name property is no longer available in the Farm Info report.
 * Farm Differences report no longer supports the PDF format.
 
