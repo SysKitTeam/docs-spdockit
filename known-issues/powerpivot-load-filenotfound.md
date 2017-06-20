@@ -24,7 +24,8 @@ If the error still occurs, please do the following:
       ```
     <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">    
     <dependentAssembly>      
-    <assemblyIdentity name="Microsoft.AnalysisServices.SPAddin" publicKeyToken="89845DCD8080CC91" culture="neutral" />  <bindingRedirect oldVersion="0.0.0.0-[MajorVersion].0.0.0" newVersion="[MajorVersion].0.0.0" />    
+    <assemblyIdentity name="Microsoft.AnalysisServices.SPAddin" publicKeyToken="89845DCD8080CC91" culture="neutral" />  
+    <bindingRedirect oldVersion="0.0.0.0-[MajorVersion].0.0.0" newVersion="[MajorVersion].0.0.0" />    
     </dependentAssembly>    
     </assemblyBinding>  
     ```
