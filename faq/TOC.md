@@ -8,6 +8,7 @@ private: true
 # [Miscellaneous](miscellaneous.md)
 # [Security](security.md)
 # Troubleshooting
+## [RPC Server is Unavailable](rpc-server-unavailable.md)
 ## [Could not access content database](could-not-access-content-database-on-server.md)
 ## [Could not load Search Service Application](could-not-load-search-service-application.md)
 ## [Could not load User Profile Service Application](could-not-load-user-profile-service.md)
