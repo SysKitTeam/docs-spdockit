@@ -19,33 +19,29 @@ This is the issue on servers that don’t have access to the Internet. The Windo
 
 If this is not possible [contact us](https://www.spdockit.com/support/contact-us/) and we will provide you with a certificate and instructions on how to import it to your problematic server.
 
-## There is a firewall between SharePoint and the SQL Server. Which ports should be opened for SPDocKit?
-
-SPDocKit uses WMI which connects over RPC to fetch information about the server's configuration. This information is displayed in the Farm Explorer -> Servers List (disk, processor, memory). This requires that the RPC service is running on the remote machine and that the following inbound rule is enabled in the firewall to allow connections: **RPC TCP 135 (COM+ network access (DCOM-IN))**
-
 ## I am getting "This product cannot be activated since it is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator".
 
-### **Problem:**
+### Problem:
 
 When I tried to load a SharePoint farm with SPDocKit I received the following error:
 
 >*This product cannot be activated because this is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator.*
 
-### **Solution:**
+### Solution:
 * The product needs to run on the same server as SharePoint, so make sure SharePoint is installed on the server where you are trying to load the farm.
 * In order to load the SharePoint farm you need to have proper privileges. Check [this article](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for more details.
 
 
 ## Error occurred while upgrading to the latest version.
 
-### **Problem:**
+### Problem:
 You might encounter the following error if you are upgrading to the latest version of the application:
 
 >*Error 1001. An exception occurred while uninstalling. The exception will be ignored and the uninstall will continue. However the application might not be fully uninstalled after the uninstall is complete. -> The specified service does not exists as an installed service.*
 
 When this error occurs you are not able to start the application and you cannot Remove/Repair it from Control Panel > Programs.
 
-### **Solution:**
+### Solution:
 The installation was not able to remove the Windows service. The existing installation needs to be repaired and then removed before you can proceed with the upgrade.
 
 Here is what you need to do:
@@ -58,10 +54,10 @@ During this procedure you might get the “Service Marked for Deletion” error 
 
 ## Configuring permissions for SharePoint 2007
 
-### **Problem:**
+### Problem:
 The account with which I have installed SPDocKit has permissions to run it, but two other accounts receive errors when trying to load the farm with all the webapps. The users have both farm administrator and local administrator rights. The problem occurs on SharePoint 2007.
 
-### **Solution:**
+### Solution:
 The user account that you use to log on to the web server is not a member of either of the following roles:
 1. The Security Administrator role on the SQL server
 2. The Database Creator role on the SQL server.
@@ -84,18 +80,18 @@ The application will work on both the console and the Remote Desktop session.
 
 ## Cannot upgrade as "The specified service already exists".
 
-### **Problem:**
+### Problem:
 When trying to upgrade to the latest version of SPDocKit you might receive an error:
 
 >*The specified service already exists.*
 
-### **Solution:**
+### Solution:
 The previous version has not been removed correctly. Here is what you need to do:
 
 1. Go to **Add/Remove programs** and uninstall the SPDocKit manually (if the product is not listed, you do not have the proper privileges or somebody else installed the application, e.g. an Administrator user, so logon as the user who initially installed the application then remove it).
 2. Once the program has been removed you can restart the new installation you have downloaded and install the application.
 
-### **Additional notes:**
+### Additional notes:
 In case you encounter a similar error again, try the following:
 
 Stop the SPDocKit Service in the services MMC console, then open the Command Prompt and type in the following to delete the service:
@@ -117,10 +113,12 @@ If you have a firewall between the server hosting the application and the server
 
 * All ports from 49152 and above should be open – during the IIS load we use Microsoft component that utilize dynamic ports and that is the main reason why we require to open these ports on firewall. [Read more](https://support.microsoft.com/en-us/help/929851/the-default-dynamic-port-range-for-tcp-ip-has-changed-in-windows-vista)
 * Inbound rules on Windows Server 2008, 2008 R2, 2012 and 2012 R2 are (this is inside the windows firewall):
-    * File and printer sharing (NB-Session-In)
-    * Network Discovery (NB-Name-In)
-    * Network Discovery (NB-Datagram-In)
-    * COM+ Remote Administration (DCOM-In)
+  * COM+ Network Access (DCOM-IN)
+  * COM+ Remote Administration (DCOM-In)
+  * File and printer sharing (NB-Session-In)
+  * Network Discovery (NB-Name-In)
+  * Network Discovery (NB-Datagram-In)
+
 * In case you have the third party firewall the ports are:
     * RPC TCP 135
     * NetBIOS Datagram Service UDP 138   
@@ -129,9 +127,9 @@ If you have a firewall between the server hosting the application and the server
 
 ## I am receiving "Cannot open database "WSS_UsageApplication" requested by the login. The login failed"
 
-### **Problem:**
+### Problem:
 When trying to view Content & Usage Reports: Number of Unique Visitors, List of Site Visitors, Feature Usage by Edition I received:  
 >*System.Data.SqlClient.SqlException: Cannot open database “WSS_UsageApplication” requested by the login. The login failed. Login failed for user CONTOSO\user.*
 
-### **Solution:**
+### Solution:
 Make sure that the user account running SPDocKit has the proper [permission privileges](#internal/requirements/sharepoint-on-premises-user-permissions-requirements). Specifically, the user must be a member of **SharePoint_Shell_Access** role on **Usage and Health Database**.

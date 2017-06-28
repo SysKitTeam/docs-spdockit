@@ -121,3 +121,6 @@ If you wish to grant the necessary permissions to the SPDocKit accounts:
 2. Navigate to __Security__ > __Logins__ and select the SPDocKit account.
 3. Right click on the account and open the __Login Properties__ dialog.
 4. Under __User Mappings__, make sure that the account has the __db_owner__ database role for all affected databases.
+
+### Learn more
+* [RPC Server Permission Requirements](#internal/faq/troubleshooting/rpc-server-unavailable)
