@@ -123,4 +123,4 @@ If you wish to grant the necessary permissions to the SPDocKit accounts:
 4. Under __User Mappings__, make sure that the account has the __db_owner__ database role for all affected databases.
 
 ### Learn more
-* [RPC Server Permission Requirements](#internal/faq/troubleshooting/rpc-server-unavailable)
+* [RPC Server is Unavailable](#internal/faq/troubleshooting/rpc-server-unavailable)
