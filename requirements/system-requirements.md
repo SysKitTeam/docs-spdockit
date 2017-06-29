@@ -22,7 +22,7 @@ This article lists the minimum hardware and software requirements for SPDocKit. 
   * For SharePoint 2010: Windows 2012 or Windows 2008 
   * On Windows 2008 you will need to download [Windows PowerShell Snap-In 1.0](http://www.iis.net/download/powershell) to fully extract information about IIS Settings
   * SQL 2008 or better is supported
-  * __Microsoft .NET Framework 3.5 SP1__ for SharePoint 2010, __Microsoft .NET Framework 4.0__ for SharePoint 2013 and SharePoint 2016.
+  * __Microsoft .NET Framework 3.5 SP1__ for SharePoint 2010, __Microsoft .NET Framework 4.5__ for SharePoint 2013 and SharePoint 2016.
 
 * Hardware
   * CPU – any standard server CPU
