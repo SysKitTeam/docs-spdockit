@@ -24,6 +24,6 @@ Permissions management has never been easier using SPDocKit actions and wizards.
 # [How To](how-to.md)
 When you get stuck trying to make magic happen, these guides will tell you the secret. 
 # [FAQ](faq.md)
-These are some of the most common questions and answers about SPDocKit. If you couldn't find the answer to your problem, please contact us.
+These are some of the most common questions and answers about SPDocKit. If you cannot find the answer to your problem, please contact us.
 # [Known Issues](known-issues.md)
 Even the best of us fail sometimes. We are working on it! 
