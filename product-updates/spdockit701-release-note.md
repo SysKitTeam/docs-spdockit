@@ -25,6 +25,6 @@ Most of the improvements we made apply to the farm snapshot optimization. We imp
 * Resolved an issue when you try to connect to a SharePoint Online site in SPDocKit using the admin site collection. 
 * Resolved an issue with Farm Explorer not showing report data for the SharePoint Online root site. 
 * Resolved an issue when loading SharePoint Online sites with a large number of subsites and lists with over 5000 items.
-* Resolved an issue when to trying to load IIS settings on a SharePoint 2016 single server environment. 
+* Resolved an issue when trying to load IIS settings on a SharePoint 2016 single server environment. 
 
 [Click here to download the new release.](https://www.spdockit.com/downloads/)
