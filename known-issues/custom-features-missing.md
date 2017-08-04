@@ -11,7 +11,7 @@ __Summary:__ Custom features deployed on your farm are missing inside SPDocKit f
 
 This happens when the custom feature is not deployed on the farm server where SPDocKit is installed. For instance, if the custom feature is deployed only to WFE servers while SPDocKit is installed on your APP server.
 
-__Application version:__ 4.1.0 and newer
+__Application version:__ 4.1.0 and newer.
 
 __Solution:__ Install SPDocKit on and run the load process from a server where the custom features are deployed.
 
