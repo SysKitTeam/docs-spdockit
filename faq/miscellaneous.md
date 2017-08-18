@@ -7,7 +7,7 @@ date: 22/5/2017
 
 
 ## How can I update the product versions offline?
-[Here](https://customers.acceleratio.net/Utilities/productversions.aspx) is the link for the offline update. 
+[Here](https://my.syskit.com/Utilities/productversions.aspx) is the link for the offline update. 
 
 Click the **Generate button**. Download **all of** the files, copy them to the server that has no internet access and overwrite the existing files (default location: **%ProgramData%\SPDocKit\Settings**).
 
@@ -15,7 +15,7 @@ After you copy these files, please restart the application in order to apply the
 
 ## I am getting "The service did not respond to the start or control request in a timely fashion".
 
-This is the issue on servers that don’t have access to the Internet. The Windows server will try to check the code signing certificate that was used to sign the application executables. Allow Internet access on the server, then start the service and the issue is solved. Please note that you need to do this only once — the first time Windows will check the Acceleratio code signing certificate and from then on it will work fine.
+This is the issue on servers that don’t have access to the Internet. The Windows server will try to check the code signing certificate that was used to sign the application executables. Allow Internet access on the server, then start the service and the issue is solved. Please note that you need to do this only once — the first time Windows will check the SysKit code signing certificate and from then on it will work fine.
 
 If this is not possible [contact us](https://www.spdockit.com/support/contact-us/) and we will provide you with a certificate and instructions on how to import it to your problematic server.
 
@@ -70,7 +70,7 @@ The application will work on both the console and the Remote Desktop session.
 
 ## I am having problems running the application when UAC (User Access Control) is enabled.
 
-1. Locate the application installation directory in Program files and find the SPDocKit.exe file (usually: C:\Program files\Acceleratio\SPDocKit).
+1. Locate the application installation directory in Program files and find the SPDocKit.exe file (usually: C:\Program files\SysKit\SPDocKit).
 2. Create a shortcut for that file on the desktop.
 3. To execute the application, right-click the shortcut then choose Run as the administrator.
 4. The UAC dialog box will be shown and you will be prompted to run the application as the administrator.

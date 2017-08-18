@@ -24,7 +24,7 @@ The application can be installed on a workstation with a __Windows 7, Windows 8 
 6. When using the Advanced installation mode, select the desired feature using the dropdown menu next to the feature name. If the icon next to the feature is gray, this feature will be installed. If the icon next to the feature name is little red cross, then this feature will not be installed at the end of this process.
     * __SPDocKit Insights Agent__ crawls the ULS, Windows Event Logs, SQL Server logs and indexes them. Install this feature on a __server outside of your SharePoint farm__ for minimal impact.
     * __SPDocKit Insights Viewer__  is used to search and view the events that the Agent has indexed. This is a standalone application which can be run without a SPDocKit application. You can install it on any available server, including the one where SPDocKit is installed. [Read more about SPDocKit Insights](#internal/spdockit-insights/insights-quick-start-guide).
-7. Choose the installation folder e.g. __C:\Program Files\Acceleratio\SPDocKit.__ Click __Next__ > to proceed.
+7. Choose the installation folder e.g. __C:\Program Files\SysKit\SPDocKit.__ Click __Next__ > to proceed.
 8. Select the location where to create application shortcuts and the preferred availability option (__Anyone__ or __Only me__). Click __Next__ > to proceed.
 9. The installation wizard will unpack your files and you will be able to run the application from: __Start__ > __All Programs__ > __SPDocKit.__
 10. [Configure SPDocKit database and Snapshot Service](#internal/configuration/configure-spdockit/) settings.

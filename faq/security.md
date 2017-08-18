@@ -23,7 +23,7 @@ Permissions are stored in the SPDocKit database. You should protect the database
 We use APIs, not HTTPS, to retrieve information. The product can only run on a SharePoint server, so there is no server-to-server communication that can be intercepted.
 
 ### Owing to security restrictions, clients aren't able to grant access to SharePoint production farms — is there a workaround?
-Acceleratio has helped some of the largest organizations worldwide to work around this issue by installing SPDocKit on a testing or non-production server. This is the best solution if you are unable to access the SP production server/farm.
+SysKit has helped some of the largest organizations worldwide to work around this issue by installing SPDocKit on a testing or non-production server. This is the best solution if you are unable to access the SP production server/farm.
 
 ### How does SPDocKit store passwords? Is storing passwords optional or mandatory?
 
@@ -47,7 +47,7 @@ This article explains how to exclude the installation folder from antivirus scan
 This folder may have to be excluded from antivirus scans when you use file-level antivirus software in SharePoint. If this folder is not excluded, you may see unexpected behavior. For example, you may receive “access denied” error messages.
 
 Please configure your antivirus software to exclude the following folder from antivirus scanning:
-> Drive:\Program Files\Acceleratio\SPDocKit
+> Drive:\Program Files\SysKit\SPDocKit
 
 __Please note:__ The placeholder Drive represents the letter of the drive on which you have your SharePoint application installed. Typically, this drive letter is C.
 

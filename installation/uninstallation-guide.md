@@ -4,7 +4,7 @@ author: Tomislav Sirovec
 date: 17/5/2017 
 description: This article explains how to uninstall SPDocKit.
 ---
-We are sorry to hear you are leaving the Acceleratio family, but here are the steps how to uninstall the __SPDocKit__.
+We are sorry to hear you are leaving the SysKit family, but here are the steps how to uninstall the __SPDocKit__.
 
 1. Open the __Control Panel > Programs > Programs and Features__.
 1. Find SPDocKit and click the __Uninstall__ button.

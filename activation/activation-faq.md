@@ -19,11 +19,11 @@ If you would like to see more about the limited features, [contact us](https://w
 
 ### What happens during product activation?
 
-Product activation is a simple process that occurs during registration of the purchased product. The product key is entered and then authenticated with the Acceleratio Ltd. product activation server in order to activate the product. The entire activation process is quick and easy, and the majority of users will have to perform product activation only once.
+Product activation is a simple process that occurs during registration of the purchased product. The product key is entered and then authenticated with the SysKit Ltd. product activation server in order to activate the product. The entire activation process is quick and easy, and the majority of users will have to perform product activation only once.
 
 ### Who will be required to activate their products?
 
-Anyone who purchases SPDocKit will be required to activate the product. If the product is ordered online from the Acceleratio Ltd. website, the product activation code will be sent via email.
+Anyone who purchases SPDocKit will be required to activate the product. If the product is ordered online from the SysKit Ltd. website, the product activation code will be sent via email.
 
 ### How soon must I activate my product?
 
@@ -42,21 +42,21 @@ If you cannot find your product activation code, you should send a support reque
 You can activate your product 24 hours a day, seven days a week on the Internet. Product activation requires you to type in your product activation code and press activate. You must have an active connection to the Internet in order to activate your product.
 If you do not have access to internet, please use [offline activation](#internal/activation/offline-activation).
 
-### What does Acceleratio Ltd. do with the information sent during the product activation process?
+### What does SysKit Ltd. do with the information sent during the product activation process?
 
-We use the information only to verify that your product is used within the scope allowed by the Acceleratio Ltd. End-User License Agreement (EULA). The information is stored in a database and used only for product activation data. If you register your product, none of the activation information will ever be linked to your personal customer information.
+We use the information only to verify that your product is used within the scope allowed by the SysKit Ltd. End-User License Agreement (EULA). The information is stored in a database and used only for product activation data. If you register your product, none of the activation information will ever be linked to your personal customer information.
 
 ### What is product activation?
 
-Product activation is an anonymous, secure and hassle-free process that authenticates licensed users during the installation process. The process verifies that the product activation code is genuine and has not been activated on more systems than allowed by the Acceleratio Ltd. End-User License Agreement (EULA).
+Product activation is an anonymous, secure and hassle-free process that authenticates licensed users during the installation process. The process verifies that the product activation code is genuine and has not been activated on more systems than allowed by the SysKit Ltd. End-User License Agreement (EULA).
 
-### Why does Acceleratio Ltd. require their customers to activate the software?
+### Why does SysKit Ltd. require their customers to activate the software?
 
-Product activation is a simple way to reduce and deter unauthorized use and casual copying of Acceleratio Ltd. products with a minimal effect on our loyal customers.
+Product activation is a simple way to reduce and deter unauthorized use and casual copying of SysKit Ltd. products with a minimal effect on our loyal customers.
 
-### Will the activation process ever send data to Acceleratio Ltd. after I activate my product?
+### Will the activation process ever send data to SysKit Ltd. after I activate my product?
 
-No. Activation is a secure and anonymous one-time process. After activation is complete, the license manager runs alongside the product for the sole purpose of verifying the integrity of the license file and the validity of the product license. The activation technology in the product does not send any additional information to Acceleratio Ltd.
+No. Activation is a secure and anonymous one-time process. After activation is complete, the license manager runs alongside the product for the sole purpose of verifying the integrity of the license file and the validity of the product license. The activation technology in the product does not send any additional information to SysKit Ltd.
 
 ### How long does the product activation take to complete?
 
@@ -73,7 +73,7 @@ One SPDocKit farm license can be activated on all servers within the same ShareP
 
 ### We have different SharePoint versions running in our environments — does this cost extra in terms of licensing?
 
-Acceleratio does not charge extra for different SharePoint versions simultaneously running in your environments.
+SysKit does not charge extra for different SharePoint versions simultaneously running in your environments.
 
 ### How much does it cost to license non-production farms? (Non-production farms include any farm that is not considered production,e.g. DEV, UAC, QA)
 
@@ -83,7 +83,7 @@ SPDocKit Non-Production licenses can only be used on non production environments
 Our End User License Agreement is located at the following [link](https://www.spdockit.com/eula).
 
 ### I forgot my password — can you tell me how to reset it?
-To reset your password, please go to the [following link](https://customers.acceleratio.net/ForgotPassword.aspx).
+To reset your password, please go to the [following link](https://my.syskit.com/ForgotPassword.aspx).
 1. Enter the email address associated with your account
 1. Click on __Reset Password__.
 1. Instructions on how to reset your password will be emailed to you. Please note: sometimes these notifications can end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your __Safe Senders List__.

@@ -12,7 +12,7 @@ The Farm license is tied to a __farm ID__ and can be activated only on servers w
 2. On the activation screen choose the __Farm or Site__ option.
 3. Fill in the __Company__ and __Product Key__ fields.
 
-    The product key is a combination of letters and numbers. In order to claim your activation key, please log in to our [customers portal](https://customers.acceleratio.net/). There you will be able to track your orders and download the latest application versions you are entitled to. When a major upgrade becomes available, all customers with a valid software assurance will have their profile refreshed with new version download link and a brand new activation key.
+    The product key is a combination of letters and numbers. In order to claim your activation key, please log in to our [customers portal](https://my.syskit.com). There you will be able to track your orders and download the latest application versions you are entitled to. When a major upgrade becomes available, all customers with a valid software assurance will have their profile refreshed with new version download link and a brand new activation key.
 
     Once you have entered the product key it will be validated against our activation server. If your key is valid, a green check mark will appear next to it.
 
@@ -41,7 +41,7 @@ The Site license is tied to a __domain name__, __workstation ID__ or __farm ID__
 2. On the activation screen choose the __Farm or Site__ option.
 3. Fill in the __Company__ and __Product Key__ fields.
 
-    The product key is a combination of letters and numbers. In order to claim your activation key, please log in to our [customers portal](https://customers.acceleratio.net/). There you will be able to track your orders and download the latest application versions that you are entitled to. When a major upgrade becomes available, all customers with a valid software assurance will have their profile refreshed with a new version download link and a brand new activation key.
+    The product key is a combination of letters and numbers. In order to claim your activation key, please log in to our [customers portal](https://my.syskit.com). There you will be able to track your orders and download the latest application versions that you are entitled to. When a major upgrade becomes available, all customers with a valid software assurance will have their profile refreshed with a new version download link and a brand new activation key.
 
     Once you have entered the product key it will be validated against our activation server. If your key is valid, a green check mark will appear next to it.
 
@@ -55,7 +55,7 @@ The Workstation license is tied to the __workstation ID__ and cannot be used on 
 2. On the activation screen choose the __Workstation/Site/Online__ option.
 3. Fill in the __Company__ and __Product Key__ fields.
 
-    The product key is a combination of letters and numbers. In order to claim your activation key, please log in to our [customers portal](https://customers.acceleratio.net/). There you will be able to track your orders and download the latest application versions you are entitled to. When a major upgrade becomes available, all customers with a valid software assurance will have their profile refreshed with new version download link and a brand new activation key.
+    The product key is a combination of letters and numbers. In order to claim your activation key, please log in to our [customers portal](https://my.syskit.com). There you will be able to track your orders and download the latest application versions you are entitled to. When a major upgrade becomes available, all customers with a valid software assurance will have their profile refreshed with new version download link and a brand new activation key.
 
     Once you have entered the product key it will be validated against our activation server. If your key is valid, a green check mark will appear next to it.
 

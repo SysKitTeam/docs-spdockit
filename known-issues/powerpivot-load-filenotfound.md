@@ -19,7 +19,7 @@ However, if for any reason you do not wish to install “PowerPivot for SharePoi
 If the error still occurs, please do the following:
 
 1. Determine the correct major version [MajorVersion] of “PowerPivot for SharePoint Add-in”. You can do this by viewing the installed programs list and locating Microsoft SQL Server PowerPivot for SharePoint.
-1. After you have the correct version, open the SPDocKit.exe.config file. It should be located in the installation directory. By default, this is C:\Program Files\Acceleratio\SPDocKit.
+1. After you have the correct version, open the SPDocKit.exe.config file. It should be located in the installation directory. By default, this is C:\Program Files\SysKit\SPDocKit.
 1. Inside the runtime tag, add the following as a child node and save the file:
       ```
     <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">    

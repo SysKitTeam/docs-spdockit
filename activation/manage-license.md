@@ -5,7 +5,7 @@ date: 23/5/2017
 description: This article outlines how to deactivate, change or re-activate your SPDocKit license.
 --- 
 
-The SPDocKit license key is available at your profile in our [Customers Portal](https://customers.acceleratio.net/).
+The SPDocKit license key is available at your profile in our [Customers Portal](https://my.syskit.com).
 In order to check your current license status in SPDocKit, navigate to __File > Help > License Details__. You can see if SPDocKit is activated or not, which license edition you are currently using, how many days is the license valid for and the farm ID.
 
 
