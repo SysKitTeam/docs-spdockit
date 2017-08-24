@@ -29,4 +29,4 @@ In this case, we will adjust the values so that when the number of databases per
 
 1. Click Next, then click Finish to close the wizard. Wait a few seconds and your SharePoint Best Practice report will be created!
 
-Download this report: [Number of content databases per Web Application](https://www.spdockit.com/wp-content/uploads/2013/04/Number-of-content-databases-per-Web-Application.zip).
+Download this report: [Number of content databases per Web Application](#internal/_assets/Number-of-content-databases-per-Web-Application.zip).
