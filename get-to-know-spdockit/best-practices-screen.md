@@ -18,6 +18,6 @@ The following options are available:
 * Personalize the Best Practices dashboard by hiding reports you do not wish to track or adjust some of the built-in values using the [Customize Best Practices](#internal/how-to/best-practices/personalize-best-practices-reports) button.
 * [Creating new alerts](#internal/how-to/subscriptions-and-alerts/create-new-alert) for the configuration settings you wish to track. If you choose to create an alert for a specific best practice report, you will receive this report each time SPDocKit detects either an error or a warning.
 
-Visit our [best practices library](https://bp.spdockit.com/) to read more about the available best practice reports.
+Visit our [best practices library](https://docs.syskit.com/bp/) to read more about the available best practice reports.
 
 Check our [SPDocKit resources center](https://www.spdockit.com/resources/reports) for videos and samples of SharePoint documentation and reports by SPDocKit.
