@@ -33,7 +33,7 @@ Here is how you can give user these privileges:
   * Open SharePoint Management Shell.
   * Type the following PowerShell command: `<Add-SPShellAdmin -UserName DOMAIN\YourAccount>` [(click here to learn more)](http://technet.microsoft.com/en-us/library/ff607596.aspx).
   * If you want to grant PowerShell shell access to a single database [check this article](http://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
-  * If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](https://www.spdockit.com/wp-content/uploads/2015/02/Configure-SPShellAdmin.zip):
+  * If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](#internal/_assets/Configure-SPShellAdmin.zip):
     ```
     if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null) 
     {Add-PSSnapin Microsoft.SharePoint.PowerShell;}  
