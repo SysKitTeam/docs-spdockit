@@ -5,19 +5,19 @@ author: Matija Hanzic
 date: 2/6/2017
 ---
 
-#### Problem
+### Problem
 
 While trying to load Project server site settings with SPDocKit I received:
 
 > The HTTP request is unauthorized with client authentication scheme 'Ntlm'. The authentication header received from the server was 'NTLM'.
 
-#### Why is this error occurring?
+### Why is this error occurring?
 
 During the Take Snapshot process SPDocKit will try to retrieve information about your Project server sites. Please note that the following rights on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your Project server sites the following rights are necessary:
 
 * __SPDocKit account__ needs to be a member of the Project Server __Administrators__ group on each of the Project server sites
 
-#### Solution
+### Solution
 
 1. In a browser navigate to your Project server site.
 2. Click __Settings__ > __PWA Settings__ to open up the PWA Settings page.

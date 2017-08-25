@@ -5,20 +5,20 @@ author: Iva Novoselic
 date: 16/5/2017
 ---
 
-#### Problem
+### Problem
 
 While trying to load SharePoint farm settings with SPDocKit I received:
 
 > Error occurred while loading server ‘ServerName’.
 
-#### Why is this warning showing?
+### Why is this warning showing?
 
 During the Take Snapshot process SPDocKit will try to retrieve information about your servers. Please note that the following rights on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practice reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your servers, the following rights are necessary:
 
 * __Local Administrator__ on the server
 * __Windows Update service__ up and running
 
-#### What will these granted rights be used for?
+### What will these granted rights be used for?
 
 1. Adding SPDocKit user accounts to the __Local Administrator__ group on the server is needed for WMI remote access and to get information about Windows updates. In case that you can’t give that right due to security requirements, see lower for what you can grant instead this. The following reports will not be available:
   * Farm Explorer -> Servers in Farm -> Processors Info
@@ -33,7 +33,7 @@ During the Take Snapshot process SPDocKit will try to retrieve information about
   * Farm Explorer -> Servers in Farm -> Available Windows Updates
   * Best Practices -> Updates -> Servers -> Windows Updates
 
-#### Solution
+### Solution
 
 1. Add your SPDocKit user accounts to the __Local Administrators__ group on the specified server.
 In case you have a very strict security policy and cannot add this account to the __Local Administrators__ group, you can use this procedure to get most of the reports working:
@@ -47,13 +47,13 @@ In case you have a very strict security policy and cannot add this account to th
 2. Go to Windows Update service and start it in Service Microsoft Management Console.
 
 ## Additional SQL Server load requirements
-#### Problem:
+### Problem:
 
 While trying to create a SPDocKit snapshot, I received the following warning:
 
 > Loaded Server ‘ServerName’.
 
-#### Why is this warning showing?
+### Why is this warning showing?
 
 There are some additional SPDocKit permission requirements necessary to load SQL servers information. Please note that the following rights on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practice reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your SQL servers the following rights are necessary:
 
@@ -61,7 +61,7 @@ There are some additional SPDocKit permission requirements necessary to load SQL
 * __Dbcreator__ server role and __VIEW SERVER STATE__ permission
 * __Dbaccess__ permission on __model__ database
 
-#### What will these granted rights be used for?
+### What will these granted rights be used for?
 
 __Public__ server role is needed to fetch the real SQL server name. This right is necessary to connect to the SQL server and perform some basic T-SQL queries. Also when you add an account to SQL server, public role is automatically granted. If you are not granted this role, following reports will not be available:
 * Farm Explorer -> SQL -> SQL Aliases
@@ -79,7 +79,7 @@ __dbaccess__ permission is necessary in order to load information about the mode
 * Best Practices -> Databases -> ModelDB -> ModelDB Files Initial Size
 * Best Practices -> Databases -> ModelDB -> ModelDB Recovery Model
 
-#### Solution
+### Solution
 
 1. Create a new user on the SQL server that will be used by SPDocKit.
 2. Add __dbcreator__ role to your SPDocKit account and execute the following T-SQL query:
@@ -93,19 +93,19 @@ __dbaccess__ permission is necessary in order to load information about the mode
       > EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
 
 ## Database Permissions load requirements
-#### Problem:
+### Problem:
 
 While trying to create a SPDocKit snapshot, I received the following warning:
 
 > Unable to load database permissions for ‘DatabaseName’.
 
-#### Why is this warning showing?
+### Why is this warning showing?
 
 There are some additional SPDocKit permission requirements necessary to load the database permission information. Please note that the following rights on your SQL Server databases are optional, but depending on them, data for the __Database Permissions__ report will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the database permissions the following rights are necessary:
 
 * __db_owner__ database role on each of the affected databases
 
-#### Solution
+### Solution
 
 To eliminate this warning you either have to grant the necessary permissions to SPDocKit accounts or turn off the load __Database Permissions__ option.
 
