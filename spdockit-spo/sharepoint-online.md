@@ -10,6 +10,7 @@ SPDocKit 7 brings extended SharePoint Online support. Apart from the live explor
 Please check the [feature availability by license type](https://www.spdockit.com/orders/#online).
 
 In order to fully exhaust all available features:
+1. Check [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit Online and to retrieve all SharePoint Online settings you want to document.
 1. Install SPDocKit on your workstation (any machine that is not part of the SharePoint farm).
 1. Configure SPDocKit database, it is required for this feature set. You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.  
 1. [Connect](#internale/spdockit-spo/connect-to-spo) to a SharePoint Online site(s).
