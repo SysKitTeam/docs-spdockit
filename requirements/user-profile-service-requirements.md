@@ -20,3 +20,6 @@ Here is what you need to do:
 5. Repeat the process for the selected account but now in the **Administrators** group. Select your app from the list of Service Applications and click Administrators on the ribbon.
 6. Choose the account running SPDocKit from the popup dialog box and make sure it has **Full control** permission checked.
 7. Now when your account/user has the proper privileges, please restart both the SPDocKit application and the SPDocKit service. You should be able to load the User Profile Service Application properties now.
+
+## Learn More
+* [SharePoint On-Premises User Permissions Requirements](sharepoint-on-premises-user-permissions-requirements.md)
