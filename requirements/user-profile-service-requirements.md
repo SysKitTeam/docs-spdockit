@@ -4,12 +4,12 @@ description: This article describes the issue of SPDocKit not being able to load
 author: Mia Tomaić
 date: 18/5/2017
 ---
-## Problem:
+### Problem:
 While trying to load a SharePoint farm with SPDocKit I received:  
 
 *Could not load User Profile Service Application, check your permissions or event log.*
 
-## Solution:
+### Solution:
 The account running SPDocKit does not have the proper privileges to load the User Profile Service Application properties.
 
 Here is what you need to do:
@@ -21,5 +21,5 @@ Here is what you need to do:
 6. Choose the account running SPDocKit from the popup dialog box and make sure it has **Full control** permission checked.
 7. Now when your account/user has the proper privileges, please restart both the SPDocKit application and the SPDocKit service. You should be able to load the User Profile Service Application properties now.
 
-## Learn More
+### Learn More
 * [SharePoint On-Premises User Permissions Requirements](#internal/requirements/sharepoint-on-premises-user-permissions-requirements)
