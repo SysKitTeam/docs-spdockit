@@ -11,8 +11,8 @@ To run SPDocKit and to retrieve all SharePoint settings you want to document, bo
 3. __Member of SharePoint_Shell_Access role__ on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
 4. Special privileges for the __Service Account__: Service account needs to have privileges listed above as well as the __Log on as a Service__ right. [Click here for instructions](https://goo.gl/MRGS73) on how to configure that right.
 5. [Server specific requirements](#internal/requirements/server-load-permission-requirements/) needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL Server configuration information for DB servers.
-6. [Search service application requirements](#internal/requirements/search-service-requirements/) needed to retrieve 
-7. [User Profile service application requirements](#internal/requirements/user-profile-service-requirements/) needed to retrieve 
+6. [Search service application requirements](#internal/requirements/search-service-requirements/) needed to retrieve Search service application configuration data (content sources, crawl rules, managed properties, search topologies...).
+7. [User Profile service application requirements](#internal/requirements/user-profile-service-requirements/) needed to retrieve User Profile service application configuration data (Synchronization Connections, MySite Settings, Audiences, User Profile Properties...).
 
 Here is how you can give user these privileges:
 
