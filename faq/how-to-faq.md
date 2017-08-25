@@ -68,4 +68,4 @@ This message is sometimes generated when there are insufficient rights given to 
 All accounts taking a snapshot must have the same level of access.
 
 
-For more information, please see the [following article](#internal/faq/troubleshooting/could-not-load-user-profile-service).
+For more information, please see the [following article](#internal/requirements/user-profile-service-requirements).
