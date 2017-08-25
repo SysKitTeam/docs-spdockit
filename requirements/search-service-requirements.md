@@ -18,4 +18,4 @@ Login failed for user ‘CONTOSO\bob’.*
 The user running the application needs to have the proper privileges to access information about the Search Service Application. [See this article](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for more details on configuring privileges.
 
 ## Learn More
-* [SharePoint On-Premises User Permissions Requirements](sharepoint-on-premises-user-permissions-requirements.md)
+* [SharePoint On-Premises User Permissions Requirements](#internal/requirements/sharepoint-on-premises-user-permissions-requirements)
