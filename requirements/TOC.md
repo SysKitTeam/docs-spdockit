@@ -10,4 +10,6 @@ private: true
 # [SharePoint Online User Permissions Requirements](sharepoint-online-user-permissions-requirements.md)
 # [Server Load Permission Requirements](server-load-permission-requirements.md)
 # [Project Server Load Requirements](project-server-requirements.md)
+# [Search Service Application Requirements](search-service-requirements.md)
+# [User Profile Service Application Requirements](user-profile-service-requirements.md)
 # [Requirements FAQ](requirements-faq.md)

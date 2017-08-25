@@ -10,8 +10,6 @@ private: true
 # Troubleshooting
 ## [RPC Server is Unavailable](rpc-server-unavailable.md)
 ## [Could not access content database](could-not-access-content-database-on-server.md)
-## [Could not load Search Service Application](could-not-load-search-service-application.md)
-## [Could not load User Profile Service Application](could-not-load-user-profile-service.md)
 ## [Error occurred while loading Web Application](error-occurred-while-loading.md)
 ## [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](error-while-loading-problems-solutions-rule-definitions.md)
 ## [Errors while trying to load the SharePoint farm](errors-while-loading-farm.md)
