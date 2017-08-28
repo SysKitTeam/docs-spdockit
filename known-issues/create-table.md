@@ -1,15 +1,15 @@
 ---
 title: CREATE TABLE permissions denied
 description: This article describes the error appearing in the ULS log that states that SPDocKit processes are trying to create tables in SharePoint databases.
-author: Iva Novoselic  
-date: 25/5/2017
+author: Matija Hanzic  
+date: 28/8/2017
 ---
 
 __Summary:__ Errors appear in the ULS log that state that SPDocKit processes are trying to create tables in SharePoint databases.
 
 First and foremost, SPDocKit does not create tables or modify SharePoint databases during the snapshot process. The problem occurs when there is a permissions issue with the SPDocKit service account.
 
-SPDocKit queries the NeedsUpgrade property of the content database, and by a series of unfortunate events in the SharePoint API, the API tries to create some tables in the database. When the permissions are correctly set up, there are no attempts to create tables.
+SPDocKit queries the NeedsUpgrade property of the SharePoint database. The query fails because of the lack of __SELECT__ permission from the Versions table, and this causes SharePoint to erroneously conclude that the database should be upgraded, but fails because the __CREATE TABLE__ permission is missing as well. When the permissions are correctly set up, there are no attempts to create tables.
 
 The issue can easily be reproduced in PowerShell by using the SPDocKit account or for that matter any account that lacks sufficient permissions:
 
@@ -20,4 +20,13 @@ After running these commands, two things can be noticed:
 1. The NeedsUpgrade property will return the wrong value: it will always be true.
 2. CREATE TABLE errors will appear in the ULS log.
 
-__Solution:__ Please ensure that the SPDocKit service account has the required permissions on the database in question. SPDocKit permission requirements article will help you check which are the required permissions.  Specifically, add the SPDocKit service account to the SharePoint_Shell_Access role for all SharePoint databases.
+__Solution:__ Please ensure that the SPDocKit service account has the required permissions on the database in question. You need to manually add the __SELECT__ permission to the Versions table on all of the affected SharePoint databases. 
+
+1. Run the following SQL query to grant the necessary permissions:
+     
+      > GRANT SELECT ON OBJECT::[dbo].[Versions] TO [DOMAIN\USERNAME]; 
+
+2. Now when your account/user has the proper privileges, please restart both the SPDocKit application and the SPDocKit service.
+
+
+ 
