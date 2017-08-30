@@ -23,8 +23,10 @@ After running these commands, two things can be noticed:
 __Solution:__ Please ensure that the SPDocKit service account has the required permissions on the database in question. You need to manually add the __SELECT__ permission to the Versions table on all of the affected SharePoint databases. 
 
 1. Run the following SQL query to grant the necessary permissions:
-     
-      > GRANT SELECT ON OBJECT::[dbo].[Versions] TO [DOMAIN\USERNAME]; 
+      
+      > USE [SPDatabaseName];  
+      > GRANT SELECT ON OBJECT::[dbo].[Versions] TO [DOMAIN\USERNAME];  
+      > GO
 
 2. Now when your account/user has the proper privileges, please restart both the SPDocKit application and the SPDocKit service.
 
