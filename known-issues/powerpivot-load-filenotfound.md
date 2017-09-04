@@ -1,6 +1,6 @@
 ---
 title: PowerPivot FileNotFoundException issue
-description: This article describes how to resolve loading issue with FileNotFoundException error message appearing.
+description: A FileNotFoundException error message keeps appearing during SPDocKit's snapshot process.
 author: Iva Novoselic  
 date: 25/5/2017
 ---

@@ -1,6 +1,6 @@
 ---
 title: Data retention not working properly
-description: This article describes a known issue related to the data retention not working properly.
+description: Data retention is not working properly.
 author: Iva Novoselic  
 date: 25/5/2017
 ---
