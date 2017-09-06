@@ -2,12 +2,12 @@
 title: SPDocKit 7.1.0 - Release Note
 description: This article describes improvements and bug fixes delivered in SPDocKit 7.1.0
 author: Tomislav Sirovec
-date: 16/8/2017
+date: 6/9/2017
 ---
 
-We are proud to present a new, refreshed version of __SPDocKit__. To stay in line with our rebranding process, SPDocKit now comes with a refreshed palette of colors and a new set of icons! We felt like a change was needed, and with a move to a new office space, we decided to do a bit more than just remodeling and changing our address. In the rebranding process, we’ve gone all out by changing the company name and logo and the names of all our products __except__ SPDocKit's.  
+We are proud to present a new, refreshed version of __SPDocKit__. To stay in line with our product rebranding process, SPDocKit now comes with a refreshed palette of colors and a new set of icons! We felt like a change was needed, and with a move to a new office space, we decided to do a bit more than just remodeling and changing our address. In the rebranding process, we’ve gone all out by changing the the logo and names of all our products __except__ SPDocKit's.  
 
-Our company name has been changed from __Acceleratio__ to __SysKit__! We’ve also renamed all our other products, but, as mentioned earlier, SPDocKit will keep its original name and logo for now. You can read the backstory on these changes in the [Rebranding Announcement](http://spdockit.com/blog/rebranding-announcement-acceleratio-becomes-syskit-act-1-scene-3-action/) blog post.  
+ You can read the backstory on these changes in the [Rebranding Announcement](http://spdockit.com/blog/rebranding-announcement-acceleratio-becomes-syskit-act-1-scene-3-action/) blog post.  
 
 This release brings a dozen of improvements and a few bug fixes. Most noticeably, we redesigned how we load __Features and Solutions__, so you should see quite an improvement on load speed. There is also a redesigned __Compare and Configuration wizard__, __faster Live permission explorer for SPO__ (SharePoint Online), and generally __better handling of SPO sites__.  
 
