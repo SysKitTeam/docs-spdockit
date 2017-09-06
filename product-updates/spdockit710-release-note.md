@@ -13,7 +13,7 @@ This release brings a dozen of improvements and a few bug fixes. Most noticeably
 
 __Product version:__ 7.1.0  
 __Build number:__ 8768      
-__Release date:__  Aug 25, 2017
+__Release date:__  Sep 6, 2017
 
 [Click here to download the new release.](https://www.spdockit.com/downloads/)
 
