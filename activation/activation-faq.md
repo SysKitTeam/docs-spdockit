@@ -56,7 +56,7 @@ Product activation is a simple way to reduce and deter unauthorized use and casu
 
 ### Will the activation process ever send data to SysKit after I activate my product?
 
-No. Activation is a secure and anonymous one-time process. After activation is complete, the license manager runs alongside the product for the sole purpose of verifying the integrity of the license file and the validity of the product license. The activation technology in the product does not send any additional information to SysKit 
+No. Activation is a secure and anonymous one-time process. After activation is complete, the license manager runs alongside the product for the sole purpose of verifying the integrity of the license file and the validity of the product license. The activation technology in the product does not send any additional information to SysKit. 
 
 ### How long does the product activation take to complete?
 
