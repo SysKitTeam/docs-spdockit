@@ -3,7 +3,7 @@ private: true
 ---
 # SPDocKit
 
-SPDocKit is the ultimate SharePoint management and administration tool created by SysKit It was developed for administrators and consultants to save time and automate their administration tasks.
+SPDocKit is the ultimate SharePoint management and administration tool created by SysKit. It was developed for administrators and consultants to save time and automate their administration tasks.
 
 Improve your SharePoint farm performance with this user-friendly and powerful solution trusted by thousands of global customers.
 
