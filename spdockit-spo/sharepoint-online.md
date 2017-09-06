@@ -25,7 +25,7 @@ Apart from numerous permissions report that can help you understand SharePoint O
 
 
 _Please note! Some of the SPDocKit reports will not be available for the SharePoint Online environment:_
-* _Content & Usage Reports (only Site Structure report is fully functional)_
+* _Content & Usage Reports (functional reports are: Content Type Usage, Unmodified Content, Features List and Features Activations, Site Structure)_
 * _Best Practices Reports_
 * _Adminstrative Actions Report_
 * _Security Audit Report_
