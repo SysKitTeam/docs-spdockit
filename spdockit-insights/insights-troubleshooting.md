@@ -84,3 +84,17 @@ No emails have arrived for a configured alert.
 As the index grows the refiner calculations become more complex from a time and memory standpoint. To protect the SPDocKit Insights Agent from consuming all the resources just because of one simple search query, we implemented a limit of 120 000 000 events in the index. After this limit has been passed, the refiners will become static and no calculations will be performed. Indexing and searching will continue to work as usual well beyond this limit. 
 
 The limit is configurable in the agent settings under the _Advanced Options_ but care should be taken when changing this option.
+
+
+### "Insights Agent is unistalled but still visible in the application"
+
+#### Problem
+__Please note__ that this is merely an example of a situation when the agent needs to be removed:  
+Insights Agent is unistalled but when you open SPDocKit Insights viewer application - on home screen there is a message: "Agent XYZ is not up to date. Please update it."  
+
+
+#### Solution
+Since the agent is unistalled, this problem has nothing to do with the agent not being up to date. What you need to do is:
+* Navigate to Settings (bottom left corner).
+* Select the agent that's uninstalled.
+* Select the Remove agent option.
