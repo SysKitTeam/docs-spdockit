@@ -12,6 +12,8 @@ __Please note__ that in order for this feature to work, __you will need to use a
 You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.
 
 Here is what you need to do:
+
+## Manual Snapshot
 1. You can start the loading proces (snapshot) from Backstage. __File > Actions > Take Snapshot__. Or click the __Take Snapshot button__ in __Home ribbon__ of Farm and Site Explorer, Permissions Reports, Content & Usage Reports section, and Snapshots tab.
 
 1. Select the snapshot mode you wish the application to execute. There are three choices:
@@ -38,5 +40,22 @@ Here is what you need to do:
 
 1. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](#internal/get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports) and [permission reports](#internal/get-to-know-spdockit/permissions-reports-screen) will be ready for use!  
 
-    Also, make sure to check our [permission management features](#internal/permission-management/manage-permissions-ribbon-actions) located in __Permissions Explorer__ tab.  
-    Please note that Permission management buttons are enabled only in __live mode__ of Permissions Explorer. There is no need for a snapshot in this case. 
+
+## Automatic Snapshot
+
+SPDocKit Service allows you to configure a schedule to create automatic SharePoint Online snapshots. Once configured, the SPDocKit Service can save your farm settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](internal/how-to/subscriptions-and-alerts/create-new-subscription) for more information on how to do this.  
+
+It is not required to have Local Admin privilages for a service account. It can be any account, even Local System. See [here](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684190(v=vs.85).aspx) for more information on Local System account. While setting up the service account via configuration wizard, simply choose what is more convenient to you. 
+
+__Please note__ that if you wish to use Local System account certain conditions must be met:
+* You are using an embedded database.
+* You are using SQL Authentication to connect to your database.
+* You are using a local SQL server.  
+
+For more information on how to setup an automatic snapshot see [this](internal#/how-to/sharepoint-farm-snapshots/automatic-snapshots) article.    
+__Please note__ that not all settings will be available if you are taking a snapshot of a SharePoint Online. 
+
+
+Also, make sure to check our [permission management features](#internal/permission-management/manage-permissions-ribbon-actions) located in __Permissions Explorer__ tab.  
+Please note that Permission management buttons are enabled only in __live mode__ of Permissions Explorer. There is no need for a snapshot in this case. 
+
