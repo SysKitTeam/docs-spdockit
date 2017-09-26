@@ -45,17 +45,17 @@ Here is what you need to do:
 
 SPDocKit Service allows you to configure a schedule to create automatic SharePoint Online snapshots. Once configured, the SPDocKit Service can save your farm settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](internal/how-to/subscriptions-and-alerts/create-new-subscription) for more information on how to do this.  
 
-It is not required to have Local Admin privilages for a service account. It can be any account, even Local System. See [here](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684190(v=vs.85).aspx) for more information on Local System account. While setting up the service account via configuration wizard, simply choose what is more convenient to you. 
+It is not required to have Local Admin privilages for a service account. It can be any account, even Local System. See [here](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684190(v=vs.85).aspx) for more information on the Local System account. While setting up the service account via configuration wizard, simply choose what is more convenient to you. 
 
-__Please note__ that if you wish to use Local System account certain conditions must be met:
+__Please note:__ Local System account can be used only for SPDocKit service (not possible for SPDocKit Insights Service) if one of the folowing conditions are met:
 * You are using an embedded database.
 * You are using SQL Authentication to connect to your database.
-* You are using a local SQL server.  
+* You are using a local SQL Server.  
 
 For more information on how to setup an automatic snapshot see [this](internal#/how-to/sharepoint-farm-snapshots/automatic-snapshots) article.    
-__Please note__ that not all settings will be available if you are taking a snapshot of a SharePoint Online. 
+__Please note__ that not all settings will be available if you are taking a snapshot of a SharePoint Online environment. 
 
 
-Also, make sure to check our [permission management features](#internal/permission-management/manage-permissions-ribbon-actions) located in __Permissions Explorer__ tab.  
-Please note that Permission management buttons are enabled only in __live mode__ of Permissions Explorer. There is no need for a snapshot in this case. 
+Also, make sure to check our [permission management features](#internal/permission-management/manage-permissions-ribbon-actions) located in the __Permissions Explorer__ tab.  
+__Please note__ that Permission management buttons are enabled only in __live mode__ of Permissions Explorer. A snapshot is not needed in that case.
 
