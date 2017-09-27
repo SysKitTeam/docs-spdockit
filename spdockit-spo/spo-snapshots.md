@@ -43,11 +43,11 @@ Here is what you need to do:
 
 ## Automatic Snapshot
 
-SPDocKit Service allows you to configure a schedule to create automatic SharePoint Online snapshots. Once configured, the SPDocKit Service can save your farm settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](internal/how-to/subscriptions-and-alerts/create-new-subscription) for more information on how to do this.  
+The SPDocKit Service allows you to configure a schedule to create automatic SharePoint Online snapshots. Once configured, this service can save your tenant settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](internal/how-to/subscriptions-and-alerts/create-new-subscription) for more information on how to do this.  
 
-It is not required to have Local Admin privilages for a service account. It can be any account, even Local System. See [here](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684190(v=vs.85).aspx) for more information on the Local System account. While setting up the service account via configuration wizard, simply choose what is more convenient to you. 
+The service account can be any account, including the Local System Account. While setting up the service account via configuration wizard, simply choose what is more convenient to you. 
 
-__Please note:__ Local System account can be used only for SPDocKit service (not possible for SPDocKit Insights Service) if one of the folowing conditions are met:
+__Please note:__ The Local System account can be used to run the SPDocKit service (but not the SPDocKit Insights Service) if one of the following conditions are met:
 * You are using an embedded database.
 * You are using SQL Authentication to connect to your database.
 * You are using a local SQL Server.  
