@@ -45,7 +45,7 @@ DisableCompanyWideSharingLinks.
 
 
 * System Permissions are no longer shown for SharePoint Online sites.
-* Fixed an issue where database checkbox could not be selected after going through the Configuration Wizard.
+* Fixed an issue where database check box could not be selected after going through the Configuration Wizard.
 * Date and Time fields in reports will now be in your __local time format__. 
 * Resolved an issue with the creation and renaming of the Best Practice folder. 
 * Resolved an issue where loading a certain site collection would result in a timeout.

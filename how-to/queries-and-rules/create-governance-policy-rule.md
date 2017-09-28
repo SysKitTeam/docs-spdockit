@@ -24,7 +24,7 @@ This section describes how to use the SPDocKit Rule wizard to create a rule to h
 
 1. Define the extent to which you wish to enforce this rule across your SharePoint farm. You can target __the entire Web application, or specific site collections, subsites, lists and list items__. Each time the rule runs, it will configure all document libraries from the specified scope to require document check-out before editing.
 
-   If you have chosen the manual execution in the previous steps, you can skip this step – select Skip target selection; ask me on execution checkbox. You will be able to choose the desired scope each time you start the rule.
+   If you have chosen the manual execution in the previous steps, you can skip this step – select Skip target selection; ask me on execution check box. You will be able to choose the desired scope each time you start the rule.
 
 1. Click Finish to close the Rule Wizard.
 
