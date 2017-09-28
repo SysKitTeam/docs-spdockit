@@ -17,13 +17,13 @@ Here is what you need to do:
 1. You can start the loading proces (snapshot) from Backstage. __File > Actions > Take Snapshot__. Or click the __Take Snapshot button__ in __Home ribbon__ of Farm and Site Explorer, Permissions Reports, Content & Usage Reports section, and Snapshots tab.
 
 1. Select the snapshot mode you wish the application to execute. There are three choices:
-    * __Default__ – Performs a load using the setup provided in the [Snapshot Options](#internal/get-to-know-spdockit/backstage-screen/options-wizard) and [Load Target](#internal/get-to-know-spdockit/backstage-screen/options-wizard). This includes farm settings, features and solutions, and permissions down to the subsite level on the whole tennant by default, and can be changed by the user at any time in the Options Wizard.
+    * __Default__ – Performs a load using the setup provided in the [Snapshot Options](#internal/get-to-know-spdockit/backstage-screen/options-wizard) and [Load Target](#internal/get-to-know-spdockit/backstage-screen/options-wizard). This includes farm settings, features and solutions, and permissions down to the subsite level on the whole tenant by default, and can be changed by the user at any time in the Options Wizard.
     * __Custom__ – Allows the user to specify exactly what information should be loaded. You can also choose which Web applications, site collections or even subsites data will be retrieved.
     It can be the fastest load option if the user wishes to have access only to specific data, and is aware what data he is interested in. This mode is recommended for more advanced users who are looking to generate specific reports.
     * __Full__ – Performs a load that collects all available information where possible. This is the recommended load mode if you don’t mind waiting and want to be sure you have all the data once the load finishes.
 
-    There are some differences in what you can load compared to the classic load of a SharePoint farmm. 
-    These are the only available options:  
+    There are some differences in what you can load compared to the classic load of a SharePoint farm. 
+    These are the available options:  
 
    #### SharePoint section:
 
@@ -36,7 +36,7 @@ Here is what you need to do:
    * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
 
 1. Select the snapshot target.  
-    Again, this step will be skipped unless you chose the Custom snapshot mode. You can choose your target to be the entire farm, Web application, site collection or specific subsites. 
+    Again, this step will be skipped unless you chose the Custom snapshot mode. You can choose your target to be an entire farm, Web application, site collection or specific subsites. 
 
 1. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](#internal/get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports) and [permission reports](#internal/get-to-know-spdockit/permissions-reports-screen) will be ready for use!  
 
@@ -45,14 +45,14 @@ Here is what you need to do:
 
 The SPDocKit Service allows you to configure a schedule to create automatic SharePoint Online snapshots. Once configured, this service can save your tenant settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](internal/how-to/subscriptions-and-alerts/create-new-subscription) for more information on how to do this.  
 
-The service account can be any account, including the Local System Account. While setting up the service account via configuration wizard, simply choose what is more convenient to you. 
+The service account can be any account, including the Local System Account. While setting up the service account via configuration wizard, simply choose what is more convenient for you. 
 
 __Please note:__ The Local System account can be used to run the SPDocKit service (but not the SPDocKit Insights Service) if one of the following conditions are met:
 * You are using an embedded database.
 * You are using SQL Authentication to connect to your database.
 * You are using a local SQL Server.  
 
-For more information on how to setup an automatic snapshot see [this](internal#/how-to/sharepoint-farm-snapshots/automatic-snapshots) article.    
+For more information on how to setup an automatic snapshot see [this article](internal#/how-to/sharepoint-farm-snapshots/automatic-snapshots) .    
 __Please note__ that not all settings will be available if you are taking a snapshot of a SharePoint Online environment. 
 
 
