@@ -30,7 +30,7 @@ Here is what you need to do:
 
    *  The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm/tenant settings by default and you cannot change this option. 
    *    Content Types - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where content types are defined.
-   * __Workflows__
+ 
 
    #### Security:     
 
@@ -67,8 +67,7 @@ __But please note:__ The Local System account can be used to run the SPDocKit se
 
    *  The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load tenant settings by default and you cannot change this option. 
    *    Content Types - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where content types are defined.
-   * __Workflows__
-
+ 
    #### Security:     
 
    * __Permissions__ - If you want to know the permissions of each list item on the tenant, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
