@@ -43,9 +43,9 @@ Here is what you need to do:
 
 
 ## Automatic Snapshot
-
+Available from SPDocKit version: 7.2  
 The SPDocKit Service allows you to configure a schedule to create automatic SharePoint Online snapshots. Once configured, this service can save your tenant settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](internal/how-to/subscriptions-and-alerts/create-new-subscription) for more information on how to do this.  
-Available from SPDocKit version: 7.2
+
 
 1. Navigate to the __Backstage Configuration Screen__ and click __Configure__.
 
