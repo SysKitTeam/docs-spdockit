@@ -10,7 +10,7 @@ Read more about the [user permissions](#internal/requirements/sharepoint-online-
 
 __Please note__ that in order for this feature to work, __you will need to use a database__.
 You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.  
-Available from SPDocKit version: 7.0
+
 
 Here is what you need to do:
 
@@ -45,6 +45,7 @@ Here is what you need to do:
 ## Automatic Snapshot
 
 The SPDocKit Service allows you to configure a schedule to create automatic SharePoint Online snapshots. Once configured, this service can save your tenant settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](internal/how-to/subscriptions-and-alerts/create-new-subscription) for more information on how to do this.  
+Available from SPDocKit version: 7.2
 
 1. Navigate to the __Backstage Configuration Screen__ and click __Configure__.
 
