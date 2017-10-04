@@ -8,7 +8,7 @@ Please check the [feature availability by license type](https://www.spdockit.com
 
 In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.
 
-Make sure that the user running the applicatio has been granted all [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly.
+Make sure that the user running the application has been granted all [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly.
 
 You can access the __Connect___ form from two places:
 * Go to __Backstage > Actions > SharePoint Online__ button
