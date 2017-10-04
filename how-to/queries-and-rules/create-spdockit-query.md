@@ -20,7 +20,7 @@ This section describes how to use the SPDocKit Query wizard to create a query re
 6. Under Filters select the Checked Out To list property, click the underlined value “specific” and choose the Is Not Empty condition. Click Next to continue.  
 7. Define the extent to which this query should be enforced across your SharePoint farm. Depending on your selected query scope in the first step of this wizard, you can target an entire __web application, specific site collections, subsites, or lists and list items__. Each time the query is executed, it will list all files that are currently checked out to someone on the specified scope.
 
-   If you have chosen the manual execution in the previous steps, you can skip this step – select the __Skip target selection; ask me on execution__ checkbox. You will be able to choose the desired scope each time you start the query. Click Finish to run your query.
+   If you have chosen the manual execution in the previous steps, you can skip this step – select the __Skip target selection; ask me on execution__ check box. You will be able to choose the desired scope each time you start the query. Click Finish to run your query.
 
    It is also possible to send the query results to specified email addresses in one of the three available formats: __PDF, DOCX, XLSX__. This will be sent for both manual and automatic execution, each time a query is executed.
 

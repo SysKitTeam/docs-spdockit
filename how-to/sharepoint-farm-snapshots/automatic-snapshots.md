@@ -9,7 +9,7 @@ SPDocKit allows administrators to configure a schedule to create automatic Share
 
 1. Navigate to the Backstage Configuration Screen and click Configure.
 
-1. Skip to the Service Settings option, select the Enable Service checkbox and type in the service account details. Click Validate Account and then Next to continue.  
+1. Skip to the Service Settings option, select the Enable Service check box and type in the service account details. Click Validate Account and then Next to continue.  
 __Please note!__ Check the [permission requirements](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for the service account.  
 
 1. Once the Configuration wizard is finished, navigate to the __Backstage Configuration Screen > Options > Service Settings__. You can change the snapshots folder location or choose to save them to the database. [Define the period](#internal/get-to-know-spdockit/backstage-screen/options-wizard) for creating snapshots with the Data Collection Interval.
@@ -50,6 +50,6 @@ __Please note!__ Check the [permission requirements](#internal/requirements/shar
 If you wish to receive an email notification after automatically-taken farm snapshots, follow these instructions:
 
 1. Navigate to the __Backstage Configure Screen > Options > Subscription Settings.__
-1. Check in __Subscriptions Enabled__ box, and select the __Enable email sending__ checkbox to enable email to be sent. Fill out the necessary details, then click __Test email settings__ to make sure that the email alert is set up properly. [Here](#internal/get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings) are more information on these settings.
+1. Check in __Subscriptions Enabled__ box, and select the __Enable email sending__ check box to enable email to be sent. Fill out the necessary details, then click __Test email settings__ to make sure that the email alert is set up properly. [Here](#internal/get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings) are more information on these settings.
 3. Click __Save__ to close the Options wizard and apply the changes.
 After that you need to create a new subscription. For detailed information on how to do that please go [here](#internal/how-to/subscriptions-and-alerts/create-new-subscription/).

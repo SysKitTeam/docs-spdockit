@@ -10,7 +10,7 @@ This advanced security feature is meant to help admins take control and allow th
 
 To enable this feature, navigate to the __Backstage Configuration Screen__, click __Role Based Security__, and select the __Enable role based security__ check box. Click Save to apply this change.
 
-Please note that the user who enables this feature will automatically be assigned to the Admin role. For role based security to work, you have to use a database and have the __db_owner__ permissions.
+Please note that the user who enables this feature will automatically be assigned to the Admin role. For role based security to work, you have to use a database and have the __securityadmin__ and __db_owner__ permissions.
 
 ## Admin role
 This role gives you full control over SPDocKit, as well as over the entire role based security system. As an admin you can create new custom roles, and assign users or groups to them or to one of our predefined roles (Admin and Viewer).

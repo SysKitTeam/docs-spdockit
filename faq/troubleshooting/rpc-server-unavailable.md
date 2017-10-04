@@ -45,6 +45,12 @@ Verify the firewall state between RPC Client and RPC Server.
 * If the firewall is disabled, there is no need for any additional changes.
 * If the firewall is enabled, verify that the required ports are also enabled, as stated [here](#internal/faq/miscellaneous/#network-ports-required-for-gathering-the-data) in the section entitled “Network ports required for gathering the data”.
 
+Also, __some users__ had success with the following:
+* Add an inbound firewall rule for "RPC Dynamic Ports" for program "C:\Windows\System32\inetsrv\inetinfo.exe" on the problematic servers.
+* Also add an inbound rule for "RPC Dynamic Ports" for program "%systemroot%\system32\dllhost.exe". 
+
+You can limit these rules to apply only to the account running SPDocKit. 
+
 #### 4. Network connection not set properly
 If RPC Client and RPC Server are different machines, verify that there is an available network connection between these servers.
 * Try __ping, tracert__ or similar commands to check if RPC Server is accessible through the network from RPC Client.

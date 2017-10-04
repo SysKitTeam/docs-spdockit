@@ -30,7 +30,7 @@ Here is what you need to do:
 
    *  The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm/tenant settings by default and you cannot change this option. 
    *    Content Types - If you would like to see the content types used on your sites, you’ll need to crawl down to each list with the __Content Type__ checkbox selected, since that is where content types are defined.
- 
+
 
    #### Security:     
 
