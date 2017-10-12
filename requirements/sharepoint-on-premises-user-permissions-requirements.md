@@ -58,7 +58,7 @@ To be able to create a new SPDocKit dedicated database, the user account running
 These privileges will be granted automatically when a new SPDocKit database is created or during a database upgrade.
 
 * SPDocKit service account will be granted the __SPDocKit_service_role__ role on the SPDocKit database. This role will make the service account a member of the __db_datawrite__ and __db_datareader__ roles and grant __EXECUTE__ permissions on all the stored procedures in the database.
-  * In the event that the SPDocKit install account is not in the __securityAdmin__ role, please add the SPDocKit service account manually to the __SPDocKit_service_role__. [Consult the following article](#internal/faq/troubleshooting/service-account-role/) for additional information.
+  * In the event that the SPDocKit install account is not in the __securityAdmin__ role, please add the SPDocKit service account manually to the __SPDocKit_service_role__. [Consult the following article](#internal/faq/troubleshooting/error-adding-service-account-to-role/) for additional information.
  * The account running load from the SPDocKit console needs to have the same privileges as the SPDocKit service account (see above).
 
 ### Workstation Requirements
