@@ -12,7 +12,7 @@ todo:
 
 SPDocKit Insights is designed to allow SharePoint administrators to collect and monitor information about their farm health from:
 * SharePoint ULS logs across all farm servers.
-* the Windows Application Event log.
+* the Windows Event logs: Application, Security, Setup, System, Forwarded events.
 * SQL Server error log.
 * Performance counters data will also be collected with certain license editions.
 
