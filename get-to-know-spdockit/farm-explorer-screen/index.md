@@ -34,4 +34,4 @@ The following commands are available:
 _The Site and Principal Permissions buttons are not enabled for Farm Explorer reports._
 
 
-In version 7.2 we expanded our filters to be aplicable on the Farm Explorer screen as well. It means that you are now able to more easily manage your snapshots. But most importantly we improved the way they are managed across the application - so you will have much smoother experience.
+In version 7.2 we expanded our filters to be aplicable on the Farm Explorer screen as well. It means that you are now able to more easily manage your snapshots. But, __most importantly__ we improved the way they are managed across the application - so you will have much smoother experience.
