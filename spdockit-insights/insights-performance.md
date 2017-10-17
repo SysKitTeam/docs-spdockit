@@ -13,7 +13,7 @@ The SPDocKit Insights Agent relies on performance counters to monitor the server
 
 - Healthy – colored green
 - Warning – colored yellow
-- Critical – colored green
+- Critical – colored red
 - Offline or not accessible – colored grey
 
 The server is in critical state if atleast one metric collected is in critical state, in warning state if at least one metric is in warning state and none of the other metrics are in critical state, and the server is in healthy state if there are no metrics in warning or critical state.
