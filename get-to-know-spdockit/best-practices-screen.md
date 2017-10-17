@@ -18,7 +18,7 @@ The following options are available:
 * Personalize the Best Practices dashboard by hiding reports you do not wish to track or adjust some of the built-in values using the [Customize Best Practices](#internal/how-to/best-practices/personalize-best-practices-reports) button.
 * [Creating new alerts](#internal/how-to/subscriptions-and-alerts/create-new-alert) for the configuration settings you wish to track. If you choose to create an alert for a specific best practice report, you will receive this report each time SPDocKit detects either an error or a warning.
 
-In version 7.2 we expanded our filters to be aplicable on the Farm Explorer screen as well. It means that you are now able to more easily manage your snapshots. But most importantly we improved the way they are managed across the application - so you will have much smoother experience.
+In version 7.2 we expanded our filters to be aplicable on the Best Practices screen as well. It means that now, you can more easily manage your snapshots. But most importantly we improved the way they are managed across the application - so the experience using the application will be much smoother.
 
 Visit our [best practices library](https://docs.syskit.com/bp/) to read more about the available best practice reports.
 
