@@ -53,8 +53,8 @@ The server overview dashboard shows all metrics that are collected for each serv
 
 - __SQL__ category – this category is assigned to all SQL servers in SharePoint farms. Each server in Always-On cluster is included as well. These metrics show the SQL server performance.
 
-If the metric is in warning or critical state the notification next to the metric name will indicate a problem using a red color to indicate a critical state, or a yellow to indicate a warning.
-The status of each metric is calculated based on average in the last fifteen minutes. The status of metrics for which the warning or critical thresholds are not defined will not be calculated.  
+If the metric is in a warning or critical state the notification next to the metric name will indicate a problem using a red color to indicate a critical state, or a yellow to indicate a warning.
+The status of each metric is calculated based on the average in the last fifteen minutes. The status of metrics for which the warning or critical thresholds are not defined will not be calculated.  
 
 Hover the mouse over any chart and in __top right corner__ you will notice the maximize button. Click it to expand the chart over the entire screen. You can toggle __Show thresholds__ button to show or hide the treshold lines (both critical and warning).  
 When the treshold lines are active the chart will scale to accommodate both the treshold lines and the vaules. When the treshold lines are turned off, the scaling will be done accordingly - only to the chart values will be shown.   
