@@ -30,4 +30,4 @@ Alternatively, you can select one specific site collection. On Permissions Explo
 
 ## Remove:
 To remove a connected site collection select it, and click __Remove__ on the __Manage tab__.  
-If you wish to remove entire tenant at once -> select the tenant and again, click the __Remove__ button.
+If you wish to remove the entire tenant at once -> select the tenant and again, click the __Remove__ button.
