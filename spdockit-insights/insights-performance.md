@@ -25,7 +25,13 @@ When the user is located on Performance tab of SPDocKit Insights a help link wil
 
 ## The Farms Performance Overview Dashboard
 
-The farms performance overview dashboard shows all farms currently monitored by SPDocKit Insights Agent. It shows status for each server in those farms. Additionally it displays main performance metrics (CPU usage, RAM usage, network usage and disk usage) for each server in a concise manner. Users can choose between three different views: Compact, Tiles, Grid. All views display the same data just in different format. The dashboards are continuously updated as the new data is collected.
+The farms performance overview dashboard shows all farms currently monitored by SPDocKit Insights Agent. It shows status for each server in those farms. Additionally it displays main performance metrics (CPU usage, RAM usage, network usage and disk usage) for each server in a concise manner. Users can choose between three different views: Compact, Tiles, Grid. All views display the same data just in different format. The dashboards are continuously updated as the new data is collected.  
+
+There are four option by which you can __group__ the servers. They are: 
+* Farm - grouping will be done by the farm. With Critical servers first, then Warning, Healthy, and the Offline ones. 
+* Type - the servers will be divided in two groups - SharePoint and SQL Servers.
+* Status - Critical servers first, then the ones with Warning status, then Healthy and the Offline ones. 
+* None - there will be no special grouping, all servers are together. Status is still shown in the usual maner. Critical -> Warning -> Healthy -> Offline.
 
 Sometimes the server will be shown in warning or critical state when none of the four general metrics are in warning or critical state. This indicates that some of the metrics which are not shown on the main dashboard are in critical or warning state.
 
@@ -47,7 +53,13 @@ The server overview dashboard shows all metrics that are collected for each serv
 
 - __SQL__ category – this category is assigned to all SQL servers in SharePoint farms. Each server in Always-On cluster is included as well. These metrics show the SQL server performance.
 
-If the metric is in warning or critical state the notification above the metric name will indicate the problem. It will tell how the metric crossed the threshold value. The status of each metric is calculated based on average in the last fifteen minutes. The status of metrics for which the warning or critical thresholds are not defined will not be calculated.
+If the metric is in a warning or critical state the notification next to the metric name will indicate a problem using a red color to indicate a critical state, or a yellow to indicate a warning.
+The status of each metric is calculated based on the average in the last fifteen minutes. The status of metrics for which the warning or critical thresholds are not defined will not be calculated.  
+
+Hovering over any chart will show a __maximize button__ in the top right corner. Click it to expand the chart over the entire screen. You can toggle __Show thresholds__ button to show or hide the treshold lines (both critical and warning).  
+When the treshold lines are active the chart will scale to fit both the treshold lines and the vaules. When the treshold lines are turned off, the chart will be rescaled to optimally include only the collected chart values.  
+If the selected chart/counter has __more than one instance__, on the top right of the chart (next to the show tresholds button) there will be a __dropdown__ where you can change the instance you wish to observe.
+ 
 
 The users can change the time range to view older data. By default SPDocKit Insights shows data collected during the last sixty minutes. The metric status is still calculated based on the last 15 minutes.
 
