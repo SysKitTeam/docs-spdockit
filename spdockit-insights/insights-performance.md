@@ -57,8 +57,8 @@ If the metric is in a warning or critical state the notification next to the met
 The status of each metric is calculated based on the average in the last fifteen minutes. The status of metrics for which the warning or critical thresholds are not defined will not be calculated.  
 
 Hovering over any chart will show a __maximize button__ in the top right corner. Click it to expand the chart over the entire screen. You can toggle __Show thresholds__ button to show or hide the treshold lines (both critical and warning).  
-When the treshold lines are active the chart will scale to accommodate both the treshold lines and the vaules. When the treshold lines are turned off, the scaling will be done accordingly - only to the chart values will be shown.   
-If the selected chart/counter has __more than one instance__, on the top right (next to the show tresholds button) there will be a __dropdown__ where you can change the instance you wish to observe.
+When the treshold lines are active the chart will scale to fit both the treshold lines and the vaules. When the treshold lines are turned off, the chart will be rescaled to optimally include only the collected chart values.  
+If the selected chart/counter has __more than one instance__, on the top right of the chart (next to the show tresholds button) there will be a __dropdown__ where you can change the instance you wish to observe.
  
 
 The users can change the time range to view older data. By default SPDocKit Insights shows data collected during the last sixty minutes. The metric status is still calculated based on the last 15 minutes.
