@@ -29,7 +29,7 @@ The farms performance overview dashboard shows all farms currently monitored by 
 
 Also, there are four options, by which you can __group__ the servers. They are: 
 * Farm - grouping will be done by the farm. With critical servers first, then warning, healthy, and the offline ones. 
-* Type - the servers will be divided in two groups. SharePoint and SQL Servers.
+* Type - the servers will be divided in two groups - SharePoint and SQL Servers.
 * Status - Critical servers first, then the ones with Warning, then Healthy and the Offline ones. 
 * None - there will be no special grouping, all servers are together. Status is still shown in the usuall maner. Critical -> Warning -> Healthy -> Offline.
 
