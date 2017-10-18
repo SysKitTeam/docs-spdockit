@@ -25,7 +25,7 @@ However, if you wish you can discover ALL of the Tennant sites and connect to al
 You can now explore SharePoint Online sites you've chosen.
 
 ## Edit: 
-To edit the existing tenant connection, select the tenant on the __Permission Explorer screen__ and click the __Edit button__ located on the __Manage tab__. By ticking or unticking the checkboxes you can choose which site collections you wish to manage. Also, you can change the credentials you use for connecting to each site collection. 
+To edit the existing tenant connection, select the tenant on either the __Permission Explorer screen__ or the __Site Explorer screen__ and click the __Edit button__ located on the __Home tab__. By ticking or unticking the checkboxes you can choose which site collections you wish to manage. Also, you can change the credentials you use for connecting to each site collection. 
 Alternatively, you can select one specific site collection. On Permissions Explorer screen -> SharePoint sites node -> choose a site collection and click __Edit__ to manage its credentials. 
 
 ## Remove:
