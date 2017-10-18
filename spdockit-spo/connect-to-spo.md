@@ -29,5 +29,5 @@ To edit the existing tenant connection, select the tenant on the __Permission Ex
 Alternatively, you can select one specific site collection. On Permissions Explorer screen -> SharePoint sites node -> choose a site collection and click __Edit__ to manage its credentials. 
 
 ## Remove:
-To remove a connected site collection, select it, and on the __Manage tab__ click __Remove__.  
+To remove a connected site collection select it, and click __Remove__ on the __Manage tab__.  
 If you wish to remove entire tenant at once -> select the tenant and again, click the __Remove__ button.
