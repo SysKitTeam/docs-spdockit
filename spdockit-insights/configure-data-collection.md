@@ -29,7 +29,7 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
     - **Max Index Size** – by default we set this value to 200GB with a maximum of 1TB. Feel free to change it to suit your needs and hardware capabilities.
         - If the service determines that the index exceeds the maximum index size, it will stop the data collection. Note that the actual size of the index can vary because of index reorganization and can require up to 3 times the amount of disk space specified here.
 4. Confirm by clicking the OK button.
-    - Take note of the URL in the confirmation message. This is needed to connect to the SPDocKit Insights Agent if the SPDocKit Insights Viewer is installed on a separate server or workstation. If that is the case copy the URL, start the Viewer on whatever server or workstation you installed it, and copy it into the required field. 
+    - Take note of the URL in the confirmation message. This is needed to connect to the SPDocKit Insights Agent if the SPDocKit Insights Viewer is installed on a separate server or workstation. If that is the case copy the URL, start the Viewer on whatever server or workstation you installed it, and paste it into the required field. 
     - If the SPDocKit Insights Viewer is installed on the same server as the SPDocKit Insights Agent, SPDocKit Insights will start automatically.
 
 ## SPDocKit Insights additional configuration
