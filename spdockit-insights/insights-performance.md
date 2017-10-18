@@ -27,7 +27,7 @@ When the user is located on Performance tab of SPDocKit Insights a help link wil
 
 The farms performance overview dashboard shows all farms currently monitored by SPDocKit Insights Agent. It shows status for each server in those farms. Additionally it displays main performance metrics (CPU usage, RAM usage, network usage and disk usage) for each server in a concise manner. Users can choose between three different views: Compact, Tiles, Grid. All views display the same data just in different format. The dashboards are continuously updated as the new data is collected.  
 
-Also, there are four options, by which you can __group__ the servers. They are: 
+There are four option by which you can __group__ the servers. They are: 
 * Farm - grouping will be done by the farm. With critical servers first, then warning, healthy, and the offline ones. 
 * Type - the servers will be divided in two groups - SharePoint and SQL Servers.
 * Status - Critical servers first, then the ones with Warning, then Healthy and the Offline ones. 
