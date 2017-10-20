@@ -17,12 +17,14 @@ To resolve this issue execute the following SQL commands. The account running th
 Replace __SPDocKitServiceAccount__ and __SPDocKit\_DB__ with the actual values from your environment.  
 In case the local system account was selected during SPDocKit configuration please use _NT AUTHORITY\SYSTEM_ as the value for __SPDocKitServiceAccount__.
 
-> CREATE LOGIN [__SPDocKitServiceAccount__] FROM WINDOWS;
->
-> USE [__SPDocKit\_DB__];  
->
-> CREATE USER [__SPDocKitServiceAccount__] FOR LOGIN [__SPDocKitServiceAccount__] WITH DEFAULT_SCHEMA=[__SPDocKitServiceAccount__];
->
-> DECLARE @username nvarchar(max)  
-> SELECT @username = principal.name FROM sys.database_principals AS principal WHERE sid=SUSER_SID('__SPDocKitServiceAccount__')  
-> EXEC sp_addrolemember @rolename = spdockit\_service\_role, @membername = @username
+```sql
+CREATE LOGIN [__SPDocKitServiceAccount__] FROM WINDOWS;
+
+USE [__SPDocKit\_DB__];  
+
+CREATE USER [__SPDocKitServiceAccount__] FOR LOGIN [__SPDocKitServiceAccount__] WITH DEFAULT_SCHEMA=[__SPDocKitServiceAccount__];
+
+DECLARE @username nvarchar(max)  
+SELECT @username = principal.name FROM sys.database_principals AS principal WHERE sid=SUSER_SID('__SPDocKitServiceAccount__')  
+ EXEC sp_addrolemember @rolename = spdockit\_service\_role, @membername = @username
+ ```
