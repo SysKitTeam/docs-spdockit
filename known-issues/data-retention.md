@@ -14,10 +14,10 @@ This error will appear if your database is version 6.0 or older and you update i
 __Application Version:__ 6.1.0
 
 __Solution:__ In order to resolve this problem, please execute the following query on your SPDocKit database. This query will update SPDocKit database settings which will allow data retention job to execute properly.
-
+```sql
     ALTER TABLE [dbo].[LoadedPrincipals] DROP CONSTRAINT [FK_LoadedPrincipals_LoadingInfos]ALTER TABLE [dbo].[LoadedPrincipals] WITH CHECK ADD CONSTRAINT [FK_LoadedPrincipals_LoadingInfos] FOREIGN KEY([LoadingInfoID])
     REFERENCES [dbo].[LoadingInfos] ([ID])
     ON DELETE CASCADE
     GO
-
+```
 __Status:__ Solved in version 6.1.1
