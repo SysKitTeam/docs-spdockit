@@ -19,7 +19,7 @@ The process of adding a user account to the role must be repeated each time a ne
 4. If you want to grant PowerShell shell access to all content databases run this script
 [(download Configure-SPShellAdmin.ps1)](#internal/_assets/Configure-SPShellAdmin.zip):
 
-```
+```powershell
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)
 {Add-PSSnapin Microsoft.SharePoint.PowerShell;}
 cls
