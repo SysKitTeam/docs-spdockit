@@ -83,15 +83,17 @@ __dbaccess__ permission is necessary in order to load information about the mode
 
 1. Create a new user on the SQL server that will be used by SPDocKit.
 2. Add __dbcreator__ role to your SPDocKit account and execute the following T-SQL query:
-      > USE master  
-      > GO  
-      > GRANT VIEW SERVER STATE TO “DOMAIN\ACCOUNT”
-      
+```sql
+      USE master  
+      GO  
+      GRANT VIEW SERVER STATE TO “DOMAIN\ACCOUNT”
+   ```   
 3. Execute following T-SQL query to add necessary permissions:
-      > USE model  
-      > GO  
-      > EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
-
+```sql
+      USE model  
+      GO  
+      EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
+```
 ## Database Permissions load requirements
 ### Problem:
 
