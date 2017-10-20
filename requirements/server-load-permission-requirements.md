@@ -94,6 +94,7 @@ __dbaccess__ permission is necessary in order to load information about the mode
       GO  
       EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
 ```
+
 ## Database Permissions load requirements
 ### Problem:
 
