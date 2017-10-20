@@ -8,7 +8,7 @@ date: 25/5/2017
 __Summary:__ Upon inspecting the event log after a failed load, the following exception can be found:
 
 > TSystem.NullReferenceException: Object reference not set to an instance of an object.
-at Acceleratio.SPDocKit.Administration.SharePointCrawler.#LJ.#CxF()`
+at Acceleratio.SPDocKit.Administration.SharePointCrawler.#LJ.#CxF()
 
 
 This happens when SPDocKit tries to enumerate site collections in a Web application and, because of possible farm misconfigurations, they are not properly available using the SharePoint API. To confirm that this is the case, check your site collections using Central Administration and also by using Powershell.

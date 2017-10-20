@@ -7,7 +7,7 @@ date: 25/5/2017
 
 __Summary:__ SPDocKit does not load Distributed Cache settings data and displays a warning message during the load:
 
-`Distributed Cache settings cannot be loaded on a server that is not part of a Distributed Cache Cluster.`
+> Distributed Cache settings cannot be loaded on a server that is not part of a Distributed Cache Cluster.
 
 This happens because SPDocKit queries only the server it is installed on for Distributed Cache data, so if the server on which SPDocKit is running is not a host for the Distributed Cache service, no data will be loaded.
 
