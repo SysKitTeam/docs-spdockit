@@ -18,6 +18,6 @@ Once the Connect form opens, SharePoint Online radio button will be preselected.
 1. enter the SharePoint Online Site url.
 1. If this is your fist time making a connection you will need to specify __Username and Password__. If you have already done this step before, you can choose __Existing Credentials__ radio button and pick them from a dropdown or you can use integrated credentials.
 1. If you wish to connect only to the specified site, click OK and finish.  
-However, if you wish you can discover ALL of the Tennant sites and connect to all of them in one step. Click on __Discover Tenant Sites__ radio button and use a check box to select the sites you wish to connnect to.
+However, if you wish you can discover ALL of the Tenant sites and connect to all of them in one step. Click on __Discover Tenant Sites__ radio button and use a check box to select the sites you wish to connnect to.
 
 You can now explore SharePoint Online sites you've chosen.
