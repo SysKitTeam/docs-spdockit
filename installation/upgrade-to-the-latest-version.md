@@ -12,7 +12,7 @@ This article explains how to upgrade SPDocKit to the latest major version. SPDoc
 1. Perform a __database backup__ before proceeding with the upgrade process, especially when upgrading to a new major versions of SPDocKit.
 1. Due to a number of database modifications, the upgrade to SPDocKit 7.0 may take a while. 
 1. We redesigned the email alerts feature, previously located under the Email Alerts tab in the Options dialog. __Email alerts will not be preserved__ when upgrading from version 6.2.0. and lower. You will have to create new alerts. For more information on this, please follow [these](#internal/get-to-know-spdockit/backstage-screen/options-wizard#email-alerts)  instructions.
-1. Connected SharePoint Online tennants and added site collections (on a workstation) __will not be preserved__ after the upgrade to SPDocKit 7.0.
+1. Connected SharePoint Online tenants and added site collections (on a workstation) __will not be preserved__ after the upgrade to SPDocKit 7.0.
 1. If you were using SPDocKit's Event Collection feature (now called __SPDocKit Insights__) introduced in version 6.2 you will need to upgrade it as well. __Version of the Viewer application must match with the Agent (Collection Service)__. Click [here](#internal/spdockit-insights/configure-data-collection) for more information.
 
 ## Instructions
