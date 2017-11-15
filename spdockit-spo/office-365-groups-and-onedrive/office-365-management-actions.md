@@ -1,0 +1,35 @@
+---
+title: Office 365 Management Actions 
+description: This article explains how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object. 
+author: Tomislav Sirovec
+date: 14/11/2017
+---
+
+This article explains how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object.  
+Management buttons are enabled only in __live mode__ of Permissions Explorer and when Groups and Teams node is selected.
+
+### Groups
+
+__Create__ button will create a new Office 365 group. Fields to fill up are: Name, Group ID, Description (not required), Privacy and Owner.
+- Available on: Groups and Teams node of the given tenant.
+- Scope: entire tenant.
+
+__Delete__ button will delete selected group. You can pick a group from the main report while on Groups and Teams node, or you can select it from a list inside the Groups and Teams node.
+- Available on: Groups and Teams node of the given tenant.
+- Scope: group is deleted on entire tenant.
+
+### Membership
+
+__Add Owner__ button will add owner/s to the selected group.
+- Available on: main report while on Groups and Teams node or from a list inside the Groups and Teams node.
+- Scope: currently selected Office 365 group
+
+__Add Member__ button will add member/s to the selected group.
+- Available on: main report while on Groups and Teams node or from a list inside the Groups and Teams node.
+- Scope: currently selected Office 365 group 
+
+__Remove__ button will remove the selected user (either owner or a member) from the selected group. 
+- Available on: list of Office 365 groups inside the Groups and Teams node.
+- Scope: selected members or owners of the currently selected Office 365 group
+
+

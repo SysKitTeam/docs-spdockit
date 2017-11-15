@@ -20,6 +20,17 @@ This article explains how to configure the SPDocKit database and service before 
     * Automatic Subscriptions and Alerts
     * Index Reorganization
     * Automatic Rules and Queries
-4. On the __Service Configuration__ wizard page click __Next__ to complete the Configuration Wizard and apply the changes.
+
+    If you installed a SPDocKit Insights Agent and wish to setup SPDocKit Insights Service, you can also check __Enable SPDocKit Insights Service.__  
+    As of version 7.2 there is only one Configuration Wizard for setting up the database, SPDocKit and SPDocKit Insights Service. Also note that now you must use the __same service account for both SPDocKit and SPDocKit Insights Service.__ 
+
+4. If you have chosen to enable SPDocKit Insights Service in the previous step, now you need to provide more details to properly setup the agent:
+- **Index Location** – you need to ensure that the provided service account has write access to the index location directory. The directory for the index must be empty or contain an existing index.  It is recommended not to place the index on the system drive. Be careful if you plan to use the system drive for index location, as it can be quickly filled up.
+- **Port To Use** - this is the port that the SPDocKit Insight Agent will use to communicate with the SPDocKit Insights application. By default, port 7895 is set, but you can change it to suit your needs.
+- **Max Index Size** – by default we set this value to 200GB with a maximum of 1TB. Feel free to change it to suit your needs and hardware capabilities.
+    - If the service determines that the index exceeds the maximum index size, it will stop the data collection. Note that the actual size of the index can vary because of index reorganization and can require up to 3 times the amount of disk space specified here.
+   - Take note of the Connection URL. This is needed to connect to the SPDocKit Insights Agent if the SPDocKit Insights Viewer is installed on a separate server or workstation. If that is the case copy the URL, start the Viewer on whatever server or workstation you installed it, and paste it into the required field. If the SPDocKit Insights Viewer is installed on the same server as the SPDocKit Insights Agent, SPDocKit Insights will start automatically. 
+
+5. click __Next__ to complete the Configuration Wizard and apply the changes.
 
 __Please note!__ To configure your SPDocKit settings more thoroughly, navigate to the __File__ tab, click on the __Configuration__ in the left navigation bar and press [Options](#internal/get-to-know-spdockit/backstage-screen/options-wizard/) button.
