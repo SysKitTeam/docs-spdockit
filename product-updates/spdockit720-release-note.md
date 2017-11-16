@@ -1,6 +1,6 @@
 ---
 title: SPDocKit 7.2.0 - Release Note
-description: This article describes nre features,improvements and bug fixes delivered in SPDocKit 7.2.0
+description: This article describes new features, improvements and bug fixes delivered in SPDocKit 7.2.0.
 author: Iva Novoselic
 date: 22/11/2017
 ---
