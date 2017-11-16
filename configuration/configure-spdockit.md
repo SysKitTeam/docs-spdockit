@@ -14,7 +14,14 @@ This article explains how to configure the SPDocKit database and service before 
 
     After providing the information, click the __Test Connection__ button to ensure that the settings are correct.
 
-3. On the __Service Configuration__ wizard page check __Enable Service__ and type the service account details. The service account needs to have the [following privileges](#internal/requirements/sharepoint-on-premises-user-permissions-requirements/) to be able to run the service, create snapshots and other associated jobs. If you do not want to use the SPDocKit Service you can leave the __Enable Service__ unchecked, but the following features will not be available:
+3. On the __Service Configuration__ wizard page check __Enable Service__ and type the service account details. The service account needs to have the [following privileges](#internal/requirements/sharepoint-on-premises-user-permissions-requirements/) to be able to run the service, create snapshots and other associated jobs.  
+* Alternativly, you can use a Local System Account.  
+__But please note:__ The Local System account can be used to run the SPDocKit service (but not the SPDocKit Insights Service) if one of the following conditions are met:  
+    * You are using an embedded database.
+    * You are using SQL Authentication to connect to your database.
+    * You are using a local SQL Server.  
+      
+    If you do not want to use the SPDocKit Service you can leave the __Enable Service__ unchecked, but the following features will not be available:
     * Automatic Snapshots
     * Automatic Data Retention
     * Automatic Subscriptions and Alerts
@@ -22,7 +29,7 @@ This article explains how to configure the SPDocKit database and service before 
     * Automatic Rules and Queries
 
     If you installed a SPDocKit Insights Agent and wish to setup SPDocKit Insights Service, you can also check __Enable SPDocKit Insights Service.__  
-    As of version 7.2 there is only one Configuration Wizard for setting up the database, SPDocKit and SPDocKit Insights Service. Also note that if you are using SPDocKit and SPDocKit Insights Service on the same machine now you must use the __same service account for both SPDocKit and SPDocKit Insights Service.__ 
+    As of version 7.2 there is only one Configuration Wizard for setting up the database, SPDocKit and SPDocKit Insights Service. Also note that if you are using SPDocKit and SPDocKit Insights Service __on the same machine__ now you must use the __same service account for both SPDocKit and SPDocKit Insights Service.__ 
 
 4. If you have chosen to enable SPDocKit Insights Service in the previous step, now you need to provide more details to properly setup the agent:
 - **Index Location** – you need to ensure that the provided service account has write access to the index location directory. The directory for the index must be empty or contain an existing index.  It is recommended not to place the index on the system drive. Be careful if you plan to use the system drive for index location, as it can be filled up quickly.

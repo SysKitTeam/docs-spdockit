@@ -6,7 +6,7 @@ date: 14/11/2017
 ---
 
 This article explains how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object.  
-Management buttons are enabled only in __live mode__ of Permissions Explorer and when Groups and Teams node is selected.
+Management buttons are enabled in __live mode__ of Permissions Explorer, when Groups and Teams node is selected as well as any specific group bellow the node.
 
 ### Groups
 
@@ -21,10 +21,12 @@ __Delete__ button will delete selected group. You can pick a group from the main
 ### Membership
 
 __Add Owner__ button will add owner/s to the selected group.
+Along the classic way of adding each user individually, clicking on the __Import from File__ button you can add, as much users, as you want. We support both .csv and .txt files. The users can be separated by a tab, semicolon, comma or a space. 
 - Available on: main report while on Groups and Teams node or from a list inside the Groups and Teams node.
 - Scope: currently selected Office 365 group
 
 __Add Member__ button will add member/s to the selected group.
+Along the classic way of adding each user individually, clicking on the __Import from File__ button you can add, as much users, as you want. We support both .csv and .txt files. The users can be separated by a tab, semicolon, comma or a space.
 - Available on: main report while on Groups and Teams node or from a list inside the Groups and Teams node.
 - Scope: currently selected Office 365 group 
 

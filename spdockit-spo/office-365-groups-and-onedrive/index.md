@@ -5,9 +5,12 @@ author: Tomislav Sirovec
 date: 14/11/2017
 ---
 
-This article describes the Groups and Teams general report, as well as the report for each group in particular.  
+This article describes the Groups and Teams general report, as well as the report for each group in particular.
+The data on the main report that we provide about the Office 365 Groups and Teams are as follows: Display Name (of the O365 group), Email, Security Enabled (False/True), Visibiliy of the group (Private/Public), Proxy Addresses and Created On.
 Also, it describes available SPDocKit Management actions and wizards for Office 365 Groups and Teams.  
 Additionally it provides information on our OneDrive report.
+
+To start exploring features and reports navigate to Permission Explorer
 
 __Note!__ Before you can start exploring Groups and Teams reports, SPDocKit will ask you to provide permissions for the following:  
 - __View your basic profile__ (allows the app to see your basic profile.     Name, picture, username).
@@ -15,7 +18,9 @@ __Note!__ Before you can start exploring Groups and Teams reports, SPDocKit will
 - __Sign in as you__ (allows you to sign into the app with your account and allows the app to read your basic profile information).
 - __Read directory data__ (allows the app to read data in your organization's directory).
 - __Read and write all groups__ (allows the app to create groups and read all group properties and memberships on your behalf. Additionally allows the app to manage your groups and to update group content for groups you are a member of).
-- __Read and write all users' full profiles__ (allows the app to read and write the full set of profile properties, reports, and managers of other users in your organizatios, on your behalf).
+- __Read and write all users' full profiles__ (allows the app to read and write the full set of profile properties, reports, and managers of other users in your organizatios, on your behalf).  
+
+If you do not accept or do not have the right privileges, Groups and Teams set of features and reports will not be available.
 
 Click [here](#internal/spdockit-spo/office-365-groups-teams/office-365-management-actions) if you wish to learn more on how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object.  
 Management buttons are enabled only in __live mode__ of Permissions Explorer and when Groups and Teams node is selected. Available actions are divided in two subsections:  
