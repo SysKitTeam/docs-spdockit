@@ -32,4 +32,6 @@ When SPDocKit is using LocalDB, you can explore by clicking __File__ > __Configu
 
 * __Export Database__ allows you to backup your LocalDB database to a file.
 * __Import Database__ allows you to restore your LocalDB database from a previous backup.
-* __Reset Database__ allows you to reset all data inside your LocalDB database.
+* __Reset Database__ allows you to reset all the data inside your LocalDB database.
+
+Please note that this feature is not designed in a way that can be shared with more users using the same machine. Meaning - the user which ran the Configuration Wizard and set up the LocalDB is the only one who can use it. 
