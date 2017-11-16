@@ -4,7 +4,7 @@ description: This article describes new features, improvements and bug fixes del
 author: Iva Novoselic
 date: 22/11/2017
 ---
-SPDocKit 7.2.0 is a minor release with a lot of new features and significant improvements. New Configuration Wizard, unified snapshot experience, better permission reports filtering and subscription improvements are just a beginning of what this version has to offer. SPDocKit Online now supports Office 365 Groups and Teams, OneDrive for Business and automatic snapshots SPDocKit Insights has gained better grouping and filtering options, additional Event Logs as well as numerous user experience adjustments. 
+SPDocKit 7.2.0 is a minor release with a lot of new features and significant improvements. New Configuration Wizard, unified snapshot experience, better permission reports filtering and subscription improvements are just a beginning of what this version has to offer. SPDocKit Online now supports Office 365 Groups and Teams, OneDrive for Business and automatic snapshots. SPDocKit Insights has gained better grouping and filtering options, additional Event Logs as well as numerous user experience adjustments. 
 
 Give it a try and let us know what you think!
 
@@ -24,7 +24,7 @@ __Release date:__  Nov 22, 2017
 * SPDocKit Insights Event Viewer can collect all types of Windows Logs – on top of the Application event log, we’ve added the ability to search through __Security, Setup, System and Forwarded Events logs__. It is also possible to create alerts for all of these logs. 
 * SPDocKit Insights Performance Dashboard has gained new grouping abilities. You can group detected servers by __type, status, or farm, or you can choose not to group them at all__. Combine existing dashboard layout options with the specific type of grouping for the optimal monitoring experience. Also, we've added the option to filter servers by status.
 * SPDocKit Insights Single Server Performance Dashboard now offers the possibility of __maximizing each of the performance counters charts__ for a better experience. Also, you can choose whether to turn on the warning and error threshold visualization.
-* The Snapshot Date filter is now available across the entire application, including the Farm Explorer and Best Practices sections. This makes it easier to track which data user is currently exploring, and it provides a more unified experience.
+* The __Snapshot Date filter is now available across the entire application__, including the Farm Explorer and Best Practices sections. This makes it easier to track which data user is currently exploring, and it provides a more unified experience.
 * SPDocKit Insights Configuration Wizard and SPDocKit Console Configuration Wizard are now connected in __one powerful wizard with a single user interface__. You no longer need to use multiple configuration files to adjust all available features; just follow the wizard steps, and you will be good to go. We tried to make it as intuitive as possible, with improved messages and guidelines.
 * The People Picker Settings report is now part of the farm documentation. Hence, you will be able to track differences in People Picker configuration settings using the Compare Wizard and receive them as a report subscription.
 
@@ -53,7 +53,7 @@ __Release date:__  Nov 22, 2017
 
 
 ## Bug fixes
-* Now you can upload SPDocKit subscriptions to a SharePoint library containing special character “&” in the name of the subscriptions. Before, sending a report subscription would fail with the following error: _"Could not ensure subscription folder on SharePoint."_
+* Now you can upload SPDocKit subscriptions to a SharePoint library containing special character “&” in the name of the subscriptions. Before, sending a report subscription would fail with the following error: ` "Could not ensure subscription folder on SharePoint." `
 * Now, SPDocKit will no longer break if you click the Manage Servers button when using it on a workstation. Before, clicking on this option would result in a crash with the error message: _“The INSERT statement conflicted with the FOREIGN KEY constraint ‘FK_MonitoringServers_Farms.’ The conflict occurred in database ‘SPDockit,’ table ‘dbo.Farms,’ column 'ID.' The statement has been terminated.”_
 * SPDocKit will now correctly detect insufficient farm permissions. Before, the user would receive the following error even when using a valid license: _“Acceleratio.SPDocKit.Business.DescriptionFiles.InvalidFarmException: Invalid SPDFarm file.”_
 Anonymous View and Edit URL links now support the length of 2,048 chars. Before, the user would receive this error when trying to generate SPDocKit reports: _“System.Data.SqlClient.SqlException: String or binary data would be truncated. The data for table-valued parameter ‘@TableVariable’ doesn't conform to the table type of the parameter. The statement has been terminated. ”_
