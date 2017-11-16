@@ -27,11 +27,17 @@ __Release date:__  Nov 22, 2017
   * receive report subscriptions and alerts for SharePoint Online.
 
 * Now you can __filter all Hierarchy permission reports by Permission Level__. Select which permission levels you are interested in, and find all users who have been granted that privilege in the entire hierarchy, all the way to the list item.
+
 * SPDocKit Insights Event Viewer can now collect [all types of Windows Logs](#internal/spdockit-insights/customize-settings)– on top of the Application event log, we’ve added the ability to search through __Security, Setup, System and Forwarded Events logs__. It is also possible to create alerts for all of these logs. 
+
 * SPDocKit Insights Performance Dashboard has gained new grouping abilities. You can group detected servers by [type, status, or farm, or you can choose not to group them at all](#internal/spdockit-insights/insights-performance). Combine existing dashboard layout options with the specific type of grouping for the optimal monitoring experience. Also, we've added the option to filter servers by status.
+
 * SPDocKit Insights Single Server Performance Dashboard now offers the possibility of __maximizing each of the performance counters charts__ for a better experience. Also, you can choose whether to turn on the warning and error threshold visualization.
+
 * The __Snapshot Date filter is now available across the entire application__, including the Farm Explorer and Best Practices sections. This makes it easier to track which data user is currently exploring, and it provides a more unified experience.
+
 * SPDocKit Insights Configuration Wizard and SPDocKit Console Configuration Wizard are now connected in [one powerful wizard with a single user interface](#internal/configuration/configure-spdockit). You no longer need to use multiple configuration files to adjust all available features; just follow the wizard steps, and you will be good to go. We tried to make it as intuitive as possible, with improved messages and guidelines.
+
 * The People Picker Settings report is now part of the farm documentation. Hence, you will be able to track differences in People Picker configuration settings using the Compare Wizard and receive them as a report subscription.
 
 ## Improvements
