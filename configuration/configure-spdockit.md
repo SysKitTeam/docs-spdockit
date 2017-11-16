@@ -22,7 +22,7 @@ This article explains how to configure the SPDocKit database and service before 
     * Automatic Rules and Queries
 
     If you installed a SPDocKit Insights Agent and wish to setup SPDocKit Insights Service, you can also check __Enable SPDocKit Insights Service.__  
-    As of version 7.2 there is only one Configuration Wizard for setting up the database, SPDocKit and SPDocKit Insights Service. Also note that now you must use the __same service account for both SPDocKit and SPDocKit Insights Service.__ 
+    As of version 7.2 there is only one Configuration Wizard for setting up the database, SPDocKit and SPDocKit Insights Service. Also note that if you are using SPDocKit and SPDocKit Insights Service on the same machine now you must use the __same service account for both SPDocKit and SPDocKit Insights Service.__ 
 
 4. If you have chosen to enable SPDocKit Insights Service in the previous step, now you need to provide more details to properly setup the agent:
 - **Index Location** – you need to ensure that the provided service account has write access to the index location directory. The directory for the index must be empty or contain an existing index.  It is recommended not to place the index on the system drive. Be careful if you plan to use the system drive for index location, as it can be filled up quickly.
