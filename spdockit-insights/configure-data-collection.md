@@ -13,7 +13,7 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
 
 ## SPDocKit Insights Agent required configuration
 1. [Install SPDocKit Insights Agent](#internal/installation/installation-guide/) preferably on a **server that is not part of your SharePoint farm**. Run the SPDocKit setup file and select **SPDocKit Insights Agent** feature in the **advanced** install mode. Check [system requirements](#internal/requirements/system-requirements/) for this server.
-2. Start the **SPDocKit Insights Configuration Utility** to configure the installed SPDocKit Insights Agent.
+2. Start the **SPDocKit Configuration Wizard** to configure the installed SPDocKit Insights Agent.
     - Will be started automatically after installation if the SPDocKit Insights Agent is installed on a separate server.
     - Also available from the SPDocKit start screen if installed on the same server as SPDocKit.
     - Also available from the Windows start menu.
