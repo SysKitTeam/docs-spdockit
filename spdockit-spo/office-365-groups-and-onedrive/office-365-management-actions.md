@@ -10,7 +10,7 @@ Management buttons are enabled only in __live mode__ of Permissions Explorer and
 
 ### Groups
 
-__Create__ button will create a new Office 365 group. Fields to fill up are: Name, Group ID, Description (not required), Privacy and Owner.
+__Create__ button will create a new Office 365 group. Fields to fill in are: Name, Group ID, Description (not required), Privacy and Owner.
 - Available on: Groups and Teams node of the given tenant.
 - Scope: entire tenant.
 

@@ -21,7 +21,7 @@ Wizard Scope: entire tenant
     - Match teams and groups by name that contains
     - Match teams and groups that match the specified regular expression
 1. __Preview step__ will show you changes before executing them. Click Next.
-1. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using Save Log button. In addition, SPDocKit will create Event Log entry in custom SPDocPerm event log. There will be information about changes that were made as well as who made those changes.
+1. The last step shows user the changes that have been made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using Save Log button. In addition, SPDocKit will create Event Log entry in custom SPDocPerm event log. There will be information about changes that were made as well as who made those changes.
 
 ## Membership section
 
@@ -31,7 +31,7 @@ Wizard Scope: entire tenant
    - Add Owner/s to specified groups
    - Remove owner/s from specified groups
    - Remove owner/s from all groups
-2. On next step define the __Target__ for your action. By default that is entire tenant. If you have more than one tenant connected, there is a dropdown where you can choose which one you want.
+2. In the next step define the __Target__ for your action. By default that is entire tenant. If you have more than one tenant connected, there is a dropdown where you can choose which one you want.
 3. On the __Principal Selection__ step populate the people picker with the users of interest.  
 In __Group Selection__ subsection select criteria used to match Office  Groups and Teams
    - You can pick specific groups from a dropdown
@@ -41,7 +41,7 @@ In __Group Selection__ subsection select criteria used to match Office  Groups a
 If you chose Remove user/s from all groups - in the first step, Group Selection subsection will be disabled. 
 
 4. __Preview step__ will show you changes before executing them. Click Next.
-5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using Save Log button. In addition, SPDocKit will create Event Log entry in custom SPDocPerm event log. There will be information about changes that were made as well as who made those changes.
+5. The last step shows the user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using Save Log button. In addition, SPDocKit will create an Event Log entry in custom SPDocPerm event log. There will be information about changes that were made as well as who made those changes.
 
 ### Members wizard  
 -will add or remove members from Office 365 Teams and Groups
@@ -49,15 +49,15 @@ If you chose Remove user/s from all groups - in the first step, Group Selection 
    - Add Owner/s to specified groups
    - Remove owner/s from specified groups
    - Remove owner/s from all groups
-2. On next step define the __Target__ for your action. By default that is entire tenant. If you have more than one tenant connected, there is a dropdown where you can choose which one you want.
-3. On the __Principal Selection__ step populate the people picker with the users of interest.  
-In __Group Selection__ subsection select criteria used to match Office  Groups and Teams
+2. In next step define the __Target__ for your action. By default that is the entire tenant. If you have more than one tenant connected, there is a dropdown where you can choose which one you want.
+3. In the __Principal Selection__ step populate the people picker with the users of interest.  
+In the __Group Selection__ subsection select the criteria used to match Office Groups and Teams
    - You can pick specific groups from a dropdown
-   - Match teams and groups by name that contains
+   - Match teams and groups by the name that contains
    - Match teams and groups that match the specified regular expression  
 
-If you chose Remove user/s from all groups - in the first step, Group Selection subsection will be disabled. 
+If you chose Remove user/s from all groups - in the first step, the Group Selection subsection will be disabled. 
 
-4. __Preview step__ will show you changes before executing them. Click Next.
-5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using Save Log button. In addition, SPDocKit will create Event Log entry in custom SPDocPerm event log. There will be information about changes that were made as well as who made those changes.
+4. __The Preview step__ will show you the changes before executing them. Click Next.
+5. The last step shows the user the changes that have been made. If some errors have occurred, they will be displayed here. It is possible to save this log to disk as a .txt file using Save Log button. In addition, SPDocKit will create an Event Log entry in the custom SPDocPerm event log. There will be information about the changes that have been made as well as who made those changes.
 
