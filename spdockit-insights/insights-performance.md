@@ -20,6 +20,8 @@ The server is in critical state if atleast one metric collected is in critical s
 
 The individual metrics are calculated based on their average value during the last 15 minutes. By using this approach the SPDocKit Insights can ignore short spikes in activity.
 
+You can filter servers using these statuses. While on Performance tab click on the __Filter icon__, located right of the search bar. Clicking on the desired status will filter servers. You can even combine more then one status. Such as Warning and Critical.
+
 When the user is located on Performance tab of SPDocKit Insights a help link will be show. Following that link user can see all the details about the metrics SPDocKit Insights Agent collects. The description of each metric, warning and error thresholds are listed (where applicable).
 
 
@@ -34,6 +36,7 @@ There are four option by which you can __group__ the servers. They are:
 * None - there will be no special grouping, all servers are together. Status is still shown in the usual maner. Critical -> Warning -> Healthy -> Offline.
 
 Sometimes the server will be shown in warning or critical state when none of the four general metrics are in warning or critical state. This indicates that some of the metrics which are not shown on the main dashboard are in critical or warning state.
+
 
 By clicking on farm name users can navigate to detailed farm overview dashboard and by clicking on specific server the users can navigate to server overview dashboard.
 
