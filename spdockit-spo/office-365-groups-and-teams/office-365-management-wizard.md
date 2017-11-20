@@ -13,7 +13,7 @@ Wizard Scope: entire tenant
 ## Groups section
 
 ### Delete Groups wizard  
--will delete the selected groups/s from entire tenant.  
+-will delete the selected groups(s) from entire tenant.  
 
 1. By default, __Target__ is entire tenant. If you have more than one tenant connected, there is a dropdown where you can choose which one you want.
 1. On __Group Selection__ step pick the groups you want to delete.  
@@ -28,9 +28,9 @@ Wizard Scope: entire tenant
 ### Owners wizard  
 -will add or remove owners from Office 365 Teams and Groups.
 1. Select whether you want to add or remove owners from Office 365 Teams and Groups
-   - Add Owner/s to specified groups
-   - Remove owner/s from specified groups
-   - Remove owner/s from all groups  
+   - Add Owner(s) to specified groups
+   - Remove owner(s) from specified groups
+   - Remove owner(s) from all groups  
 
 2. In the next step define the __Target__ for your action. By default that is entire tenant. If you have more than one tenant connected, there is a dropdown where you can choose which one you want.
 3. In the __Principal Selection__ step populate the people picker with the users of interest.  
@@ -47,10 +47,10 @@ If you chose Remove user/s from all groups - in the first step, Group Selection 
 
 ### Members wizard  
 -will add or remove members from Office 365 Teams and Groups
-1. Select whether you want to add or remove owners from Office 365 Teams and Groups
-   - Add Owner/s to specified groups
-   - Remove owner/s from specified groups
-   - Remove owner/s from all groups
+1. Select whether you want to add or remove members from Office 365 Teams and Groups
+   - Add Member(s) to specified groups
+   - Remove Member(s) from specified groups
+   - Remove Member(s) from all groups
 2. In next step define the __Target__ for your action. By default that is the entire tenant. If you have more than one tenant connected, there is a dropdown where you can choose which one you want.
 3. In the __Principal Selection__ step populate the people picker with the users of interest.  
 Along the classic way of adding each user individually, clicking on the __Import from File__ button you can add, as much users, as you want. We support both .csv and .txt files. The users can be separated by a tab, semicolon, comma or a space.   

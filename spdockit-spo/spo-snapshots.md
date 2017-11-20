@@ -71,7 +71,7 @@ __But please note:__ The Local System account can be used to run the SPDocKit se
  
    #### Security:     
 
-   * __Permissions__ - If you want to know the permissions of each list item on the tenant, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
+   * __Permissions__ - If you want to know the permissions of each list item on the tenant, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the __Security groups__. 
 
 
 1. Go to __Load Target__ to select the scope on which SPDocKit Service will crawl for data – for example, the entire farm/tenant, Web application, site collection or specific subsites.
