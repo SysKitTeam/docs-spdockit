@@ -22,12 +22,12 @@ __Note!__ Before you can start exploring Groups and Teams reports, SPDocKit will
 
 If you do not accept or do not have the right privileges, Groups and Teams set of features and reports will not be available.
 
-Click [here](#internal/spdockit-spo/office-365-groups-teams/office-365-management-actions) if you wish to learn more on how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object.  
+Click [here](#internal/spdockit-spo/office-365-groups-and-teams/office-365-management-actions) if you wish to learn more on how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object.  
 Management buttons are enabled only in __live mode__ of Permissions Explorer and when Groups and Teams node is selected. Available actions are divided in two subsections:  
 * __Groups__: Create, Delete  
 * __Membership__: Add Owner, Add Member, Remove
 
-If you need more information on how to use SPDocKit's Groups and Membership Office 365 __Wizards__ [click here.](#internal/spdockit-spo/office-365-groups-teams/office-365-management-wizard)  
+If you need more information on how to use SPDocKit's Groups and Membership Office 365 __Wizards__ [click here.](#internal/spdockit-spo/office-365-groups-and-teams/office-365-management-wizard)  
 Wizard buttons are visible only in __live mode__ of Permissions Explorer and when either Groups and Teams node is selected or a specific group. Available actions are divided in two subsections:  
 * __Groups__: Delete Groups
 * __Membership__: Owners, Members  
