@@ -17,7 +17,7 @@ __Release date:__  Nov 22, 2017
 ## Features
 * SPDocKit Online  now supports __Office 365 Groups and Teams__! Use Permissions Explorer to see a list of all Office 365 Groups and Teams available in your tenant, and explore ownership and membership details for each group. Try Compare Wizard options to track down group membership changes more easily.  
 
-* Office 365 Groups and Teams can also be easily managed using [SPDocKit actions and wizards](#internal/spdockit-spo/office-365-groups-and-onedrive). Use Office 365 ribbon actions to add or remove owners and members or easily delete and create new groups. Moreover, use SPDocKit Office 365 Group wizards to __add or remove users from multiple groups__ in just a couple of steps.
+* Office 365 Groups and Teams can also be easily managed using [SPDocKit actions and wizards](#internal/spdockit-spo/office-365-groups-and-teams). Use Office 365 ribbon actions to add or remove owners and members or easily delete and create new groups. Moreover, use SPDocKit Office 365 Group wizards to __add or remove users from multiple groups__ in just a couple of steps.
   * The greatest benefit of using SPDocKit group management options is the ability to __import the users to People Picker directly from .csv or .txt files__ without having to type in numerous users one by one when adding or removing them from a group.
 
 * SPDocKit Online supports __OneDrive for Business, as well__! Again, navigate to Permissions Explorer to see a list of all currently used OneDrive personal sites, and check the usage status along with the warning and maximum storage quota. 
