@@ -20,6 +20,6 @@ The following options are available:
 
 In version 7.2 we streamlined the selection of farms and snapshots by including those filters on the Farm Explorer and Best Practices tabs and persisting the selection across all tabs. This should remove the need to switch back and forth between the snapshots list and the other tabs in order to change the viewed snapshot data. We hope this results in a much more enjoyable experience for you.
 
-Visit our [Best Practices library](https://docs.syskit.com/bp/) to read more about the available best practice reports.
+Visit our [best practices library](https://docs.syskit.com/bp/) to read more about the available best practice reports.
 
 Check our [SPDocKit resources center](https://www.spdockit.com/resources/reports) for videos and samples of SharePoint documentation and reports by SPDocKit.
