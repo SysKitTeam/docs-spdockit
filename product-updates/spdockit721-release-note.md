@@ -8,7 +8,7 @@ date: 12/12/2017
 This is a service release containing minor bug fixes. 
 
 __Product version:__ 7.2.1   
-__Build number:__   XXXX     
+__Build number:__ 9389       
 __Release date:__ Dec 14, 2017    
 
 [Click here to download the new release.](https://www.spdockit.com/downloads/)
