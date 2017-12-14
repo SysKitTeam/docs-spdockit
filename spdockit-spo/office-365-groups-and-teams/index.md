@@ -20,7 +20,7 @@ __Note!__ Before you can start exploring Groups and Teams reports, SPDocKit will
 - __Read and write all groups__ (allows the app to create groups and read all group properties and memberships on your behalf. Additionally allows the app to manage your groups and to update group content for groups you are a member of).
 - __Read and write all users' full profiles__ (allows the app to read and write the full set of profile properties, reports, and managers of other users in your organizatios, on your behalf).  
 
-If you do not accept or do not have the right privileges, Groups and Teams set of features and reports will not be available.
+If you do not accept or do not have the right privileges __(SharePoint Online Global Admin)__, Groups and Teams set of features and reports will not be available.
 
 Click [here](#internal/spdockit-spo/office-365-groups-and-teams/office-365-management-actions) if you wish to learn more on how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object.  
 Management buttons are enabled only in __live mode__ of Permissions Explorer and when Groups and Teams node is selected. Available actions are divided in two subsections:  

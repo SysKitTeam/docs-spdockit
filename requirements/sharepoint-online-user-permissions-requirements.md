@@ -9,7 +9,7 @@ To run SPDocKit and to retrieve all SharePoint Online settings you want to docum
 1. __Office 365 Global Administrator__ account. Required to retrieve SharePoint Online tenant level settings.*
 2. __Site Collection Administrator__ privileges for each site you are trying to explore and manage.
 
-*You can use SPDocKit Online without a __Office 365 Global Administrator__ account, but you will not be able to document tenant level settings, only site collection level settings.
+*You can use SPDocKit Online without a __Office 365 Global Administrator__ account, but you will not be able to document tenant level settings, only site collection level settings. Also, without Global Admin privilege - Office 365 reports and management will not be available. 
     
 ### SPDocKit database requirements
 
