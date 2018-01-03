@@ -10,7 +10,7 @@ This article explains how to use Manage ribbon to easily manage SharePoint permi
 __Refresh__ – reloads currently selected SharePoint object permission information or the entire permissions explorer tree.  
 
 ### Inheritance
-__Break Permission Inheritance__ button copies the parent permissions and then stops the permissions inheritance for the selcected object. Any changes made to a parent site will not apply to the selected site in the future and vice verse.
+__Break Permission Inheritance__ button copies the parent permissions and then stops the permissions inheritance for the selected object. Any changes made to a parent site will not apply to the selected site in the future and vice verse.
 
   * __Available On:__ sites(not the root ones), lists, list items that inherit permissions from the parent site  
   * __Scope:__ currently selected SharePoint object
@@ -121,7 +121,7 @@ __Site Collection Administrators__ - modify current set of administrators. Chang
 Some of these actions have the __Preview__ step to make sure that the pending changes will do exactly what you wanted and have specified. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using __Save Log__ button.
 
 ### Changes
-__Audit__ - use this button to track down all permissions changes made on the selected securable object. This button will take you to a Audit Permissions report and show details about who made a certain action and on which securable object.  
+__Audit__ - use this button to track down all permissions changes made on the selected securable object. This button will take you to the Audit Permissions report and show details about who made a certain action and on which securable object.  
 __Restore__ - allows you to restore previous state of permissions for the selected object. Just choose the snapshot date you wish to revert the permissions to and follow the [restore wizard](#internal/permission-management/restore-permissions) steps to finish the process.   
 This feature is not available in all license types. Please check [feature availability by license type.](https://www.spdockit.com/orders)
 
