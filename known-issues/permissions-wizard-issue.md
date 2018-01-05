@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-__Summary:__ When using SPDockit’s permission wizards from a workstation, some principals cannot be found. It can happen while selecting principals using SPDocKit’s people picker or during the Preview and Apply steps. The problem occurs when the permission wizard targets multiple site collections, some of which are from different SharePoint farms or Office365 tenants.
+__Summary:__ When using SPDocKit’s permission wizards from a workstation, some principals cannot be found. It can happen while selecting principals using SPDocKit’s people picker or during the Preview and Apply steps. The problem occurs when the permission wizard targets multiple site collections, some of which are from different SharePoint farms or Office365 tenants.
 
 __Application Version:__ 5.2.0 and newer
 

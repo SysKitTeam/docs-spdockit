@@ -10,7 +10,7 @@ This article gives a basic overview of how to use SPDocKit Insights.
 Start SPDocKit Insights:
 - From the Windows start menu.
 - If SPDocKit was installed with SPDocKit Insights, SPDocKit Insights is available from the SPDocKit Action page.
-- Using Insights ribbon availbale on each SPDocKit tab.
+- Using Insights ribbon available on each SPDocKit tab.
 
 The home screen of SPDocKit Insights shows some statistical data about the event collection process and an overview of performance data collected.
 

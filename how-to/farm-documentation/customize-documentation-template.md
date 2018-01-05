@@ -1,6 +1,6 @@
 ---
 title: Customize Documentation Template
-description: This section describes how you can use your own documentation template (docx) to generate SharePoint Farm documentation with the SPDocKit.
+description: This section describes how you can use your own documentation template (.dotx) to generate SharePoint Farm documentation with the SPDocKit.
 author: Iva Novoselic  
 date: 25/5/2017  
 ---
@@ -9,7 +9,7 @@ date: 25/5/2017
 
 To prepare a template for your documentation, you need to prepare a Word document template and customize Word styles. SPDocKit uses Word styles to generate customized output to match your corporate branding.
 
-1. Create a custom Word document template (dotx). Use your existing template or download our [sample documentation template.](https://www.spdockit.com/wp-content/uploads/2015/08/SharePoint-Farm-Documentation-Template.dotx) 
+1. Create a custom Word document template (.dotx). Use your existing template or download our [sample documentation template.](https://www.spdockit.com/wp-content/uploads/2015/08/SharePoint-Farm-Documentation-Template.dotx) 
 
    We recommend you use the __Medium Shading 1 – Accent 1__ table style with this template. Customize the following styles to match your corporate branding: Heading1, Heading2, Heading3, Heading4, Normal and Hyperlink (you can make any changes required as long as these changes are performed over the style itself).
 
@@ -20,7 +20,7 @@ To prepare a template for your documentation, you need to prepare a Word documen
 1.  Start SPDocKit.
 1.  In the Home ribbon, click __Change Styles__.
 1.  Select __Upload a Custom Template__. Click Next to continue.
-1.  Browse your Word template (dotx) and choose the table style you want to use when generating tables (we recommend you use __Medium Shading 1 – Accent 1__ with [our template](https://www.spdockit.com/wp-content/uploads/2015/08/SharePoint-Farm-Documentation-Template.dotx)).
+1.  Browse your Word template (.dotx) and choose the table style you want to use when generating tables (we recommend you use __Medium Shading 1 – Accent 1__ with [our template](https://www.spdockit.com/wp-content/uploads/2015/08/SharePoint-Farm-Documentation-Template.dotx)).
 1. Click Finish to save.
 
 ### Customizing styles

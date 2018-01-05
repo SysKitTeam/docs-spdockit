@@ -1,6 +1,6 @@
 ---
 title: SPDocKit Permissions Management Event Log
-descripton: This article explains where SPDocKit saves all the details regarding performed permission changes on your SharePoint farm.
+description: This article explains where SPDocKit saves all the details regarding performed permission changes on your SharePoint farm.
 author: Mia Tomaić
 date: 25/5/2017
 ---

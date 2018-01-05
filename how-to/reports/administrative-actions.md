@@ -15,7 +15,7 @@ __Prerequisites__: SharePoint 2016 Feature Pack 1
 
 Administrative Actions report lists every action executed, along with some additional information, such as:  
 * Action type 
-* Timestamp when the action happend 
+* Timestamp when the action happened 
 * Username of the account that made the change and in which domain (target) 
 * Correlation ID, which can be used to track changes that are connected to a single action
 * Further action details 

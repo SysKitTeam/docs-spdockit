@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 23/5/2017
 ---
 
-### How can I measure the size of the SPDocKit database?
+## How can I measure the size of the SPDocKit database?
 By executing this SQL query you will get the overall size of your database as well as the used and free space inside the database:
 
 >*SELECT  
@@ -34,7 +34,7 @@ t.Name, s.Name, p.Rows
 ORDER BY  
 t.Name*
 
-### The SPDocKit database size has grown too big — how do I trim or reduce its size?
+## The SPDocKit database size has grown too big — how do I trim or reduce its size?
 
 There is a data retention feature that helps manage your database size in SPDocKit. If you turn this feature on, the retention job will usually happen every day at the random time between 1:30AM and 5AM. However, even when our tool deletes old data from the tables, the SQL server will still use the same amount of disk space.
 
@@ -53,14 +53,14 @@ If you are not running the latest version, you can do this manually:
 * Shrink the database by following [these instructions](http://msdn.microsoft.com/en-us/library/ms189035.aspx).
 * Change the database to the __Simple Recovery Model__ and perform a backup ([This article](http://msdn.microsoft.com/en-us/library/ms189275.aspx) explains the differences between SQL’s different recovery models).  
 
-### How to find out which SPDocKit version you are using?
+## How to find out which SPDocKit version you are using?
 
 To find out which version of SPDocKit you are using, please follow these steps:
 1. Open SPDocKit.
 1. From the File menu choose __Help__.
 1. Your version will be written under __About SPDocKit__ part of the screen.
 
-### What should I do to stop receiving ''There is no data to show for this object'' for all User Profile Reports?
+## What should I do to stop receiving ''There is no data to show for this object'' for all User Profile Reports?
 This message is sometimes generated when there are insufficient rights given to an end user. To load User Profile Synchronization connections you need to do the following:
 
 1. Start the __User Profile Synchronization Service__.

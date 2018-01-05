@@ -8,7 +8,7 @@ date: 19/5/2017
 This article will explain how to write SPDocKit Insights search queries.
 
 ## Search
-A search query consists of terms and operators. By default, the AND operator is utilised when constructing queries. Terms can be a single word or a phrase. A phrase is a group of words enclosed with double quotes.
+A search query consists of terms and operators. By default, the AND operator is utilized when constructing queries. Terms can be a single word or a phrase. A phrase is a group of words enclosed with double quotes.
 
 Input your query in the searchbox, then press enter or the search button to start the search. Once you have a set of results, you can easily drill down by using the refiners on the left side of the screen or by clicking on various links in the result text.
 
@@ -50,7 +50,7 @@ Used to exclude events from your search. **Level:Critical NOT administration** w
 Similar results can be achieved by using the – operator. **Level:critical – administration**.
 
 ## Clause grouping
-Use parantheses to form subqueries. **(Server:Server1 OR Server:Server2) AND Level:Error** will return all events with Level equal to errors from both Server1 and Server2.
+Use parentheses to form subqueries. **(Server:Server1 OR Server:Server2) AND Level:Error** will return all events with Level equal to errors from both Server1 and Server2.
 
 You can also write your queries in the following way **Server:(Server1 OR Server2)**
 
@@ -80,11 +80,11 @@ There are a couple of exceptions:
 
 **Example 4:** Query **Level:Critical admin\*** will match events that have a Level of Critical and contain a word that starts with "admin".
 
-**Example 5:** Query **Level:Critical Server:Server1** will match events that occured on Server1 with a Level of Critical.</p>
+**Example 5:** Query **Level:Critical Server:Server1** will match events that occurred on Server1 with a Level of Critical.</p>
 
 **Example 6:** Query **Level:Critical AND Server:Server1**, same as example 5.
 
-**Example 7:** Query **Level:Critical AND Server:Server1– database** will match events that occured on Server1 with a Level of Critical that do not contain the word "database".
+**Example 7:** Query **Level:Critical AND Server:Server1– database** will match events that occurred on Server1 with a Level of Critical that do not contain the word "database".
 
 **Example 8:** Query **database AND NOT (Level:Critical OR Level:Unexpected)** will match events that contain the word "database" and not of a Level of Critical and are not of a Level of Unexpected.
 

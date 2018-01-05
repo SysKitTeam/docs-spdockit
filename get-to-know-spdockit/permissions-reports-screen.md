@@ -52,7 +52,7 @@ __Health checks__
 ## Externally shared*
 * __External Users__ - lists all external users in tenant.  
 * __Externally Shared Content__  - list of content in the tenant shared with external users, along with the external users it is shared with and the permissions they have on the content.   
-* __Externaly Shared Content Hierarchy__ - shows externally shared content in the tenant * hierarchy. Only the externally shared content is displayed.  
+* __Externally Shared Content Hierarchy__ - shows externally shared content in the tenant * hierarchy. Only the externally shared content is displayed.  
 * __Anonymous Access Links__ - a list of content in the tenant that has been shared with an anonymous guest link.
 
 

@@ -16,8 +16,8 @@ Here is what you need to do:
 
 Once the Connect form opens, make sure that SharePoint On-Premises radio button is selected. Here is what you need to do next:
 1. enter the SharePoint On-Premise Site url.
-1. If the user adding the connection has the privilages on a site you are trying to add, you can use Integrated credentials. Othervise you will need to specify different credentials. 
-1. If this is your first time connecting to a site, we will automaticaly create a new Farm and a corresponding Web Application using a default naming scheme. You can change those names before completing the wizard but __please note__ - this is mearly a container for the sites you are adding and a representation of a real farm. 
+1. If the user adding the connection has the privileges on a site you are trying to add, you can use Integrated credentials. Otherwise you will need to specify different credentials. 
+1. If this is your first time connecting to a site, we will automatically create a new Farm and a corresponding Web Application using a default naming scheme. You can change those names before completing the wizard but __please note__ - this is mearly a container for the sites you are adding and a representation of a real farm. 
 
 
 You can now explore SharePoint On-Premise site you've chosen.

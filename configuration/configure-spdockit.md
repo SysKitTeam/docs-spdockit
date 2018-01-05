@@ -15,7 +15,7 @@ This article explains how to configure the SPDocKit database and service before 
     After providing the information, click the __Test Connection__ button to ensure that the settings are correct.
 
 3. On the __Service Configuration__ wizard page check __Enable Service__ and type the service account details. The service account needs to have the [following privileges](#internal/requirements/sharepoint-on-premises-user-permissions-requirements/) to be able to run the service, create snapshots and other associated jobs.  
-* Alternativly, you can use a Local System Account.  
+* Alternatively, you can use a Local System Account.  
 __But please note:__ The Local System account can be used to run the SPDocKit service (but not the SPDocKit Insights Service) if one of the following conditions are met:  
     * You are using an embedded database.
     * You are using SQL Authentication to connect to your database.

@@ -93,7 +93,7 @@ This wizard  option is useful if you want to modify existing permission level wi
 
 5. Next step is to select which set of base permissions this permission level should have.
 
-    The list of avilable base permissions is fetched from selected web application settings. Some base permissions are associated with other base permissions. SPDocKit will automatically select associated base permissions depending on the base permissions you choose. Any deselected base permissions will be deleted from matching permission levels.
+    The list of available base permissions is fetched from selected web application settings. Some base permissions are associated with other base permissions. SPDocKit will automatically select associated base permissions depending on the base permissions you choose. Any deselected base permissions will be deleted from matching permission levels.
 
 6. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
 

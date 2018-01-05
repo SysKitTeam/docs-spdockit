@@ -37,7 +37,7 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
 
    * __Server Settings__ 
      * __Installed Programs and available Updates__
-     * __SQL Server and IIS Setttins Information__
+     * __SQL Server and IIS Settings Information__
 
    * __Project Server__ 
      * __Settings__
