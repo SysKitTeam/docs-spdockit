@@ -14,7 +14,7 @@ In order to fully exhaust all available features:
 1. Install SPDocKit on your workstation (any machine that is not part of the SharePoint farm).
 1. Configure SPDocKit database, it is required for this feature set. You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.  
 1. [Connect](#internal/spdockit-spo/connect-to-spo) to a SharePoint Online site(s).
-1. Use Permission Explorer to easily navigate through SharePoint Online permissions by selecting a scurable object you are interested in. You can also [manage permissions](#internal/permission-management/manage-permissions-ribbon-actions) for these sites using both management actions and wizard.
+1. Use Permission Explorer to easily navigate through SharePoint Online permissions by selecting a securable object you are interested in. You can also [manage permissions](#internal/permission-management/manage-permissions-ribbon-actions) for these sites using both management actions and wizard.
 1. [Take snapshot](#internal/spdockit-spo/spo-snapshots) of your SharePoint Online environment to explore available SPDocKit Permissions Reports.
 
 Apart from numerous permissions report that can help you understand SharePoint Online site structure, permissions inheritance, granted permissions for a specific securable object and principal permissions, you can:
@@ -27,6 +27,6 @@ Apart from numerous permissions report that can help you understand SharePoint O
 _Please note! Some of the SPDocKit reports will not be available for the SharePoint Online environment:_
 * _Content & Usage Reports (functional reports are: Content Type Usage, Unmodified Content, Features List and Features Activations, Site Structure)_
 * _Best Practices Reports_
-* _Adminstrative Actions Report_
+* _Administrative Actions Report_
 * _Security Audit Report_
 * _Cleanup Reports and Cleanup Wizard_

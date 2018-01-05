@@ -15,7 +15,7 @@ You can use either [SQL Server database](#internal/configuration/configure-spdoc
 Here is what you need to do:
 
 ## Manual Snapshot
-1. You can start the loading proces (snapshot) from Backstage. __File > Actions > Take Snapshot__. Or click the __Take Snapshot button__ in __Home ribbon__ of Farm and Site Explorer, Permissions Reports, Content & Usage Reports section, and Snapshots tab.
+1. You can start the loading process (snapshot) from Backstage. __File > Actions > Take Snapshot__. Or click the __Take Snapshot button__ in __Home ribbon__ of Farm and Site Explorer, Permissions Reports, Content & Usage Reports section, and Snapshots tab.
 
 1. Select the snapshot mode you wish the application to execute. There are three choices:
     * __Default__ – Performs a load using the setup provided in the [Snapshot Options](#internal/get-to-know-spdockit/backstage-screen/options-wizard) and [Load Target](#internal/get-to-know-spdockit/backstage-screen/options-wizard). This includes farm/tenant settings, features and solutions, and permissions down to the subsite level on the whole tenant by default, and can be changed by the user at any time in the Options Wizard.
@@ -52,7 +52,7 @@ The SPDocKit Service allows you to configure a schedule to create automatic Shar
 1. Skip to the Service Settings option.
    * Select the Enable Service checkbox and type in the service account details. Click Validate Account and then Next to continue.  
 Make sure to __check the__ [permission requirements](#internal/requirements/sharepoint-online-user-permissions-requirements) for the service account.   
-    * Alternativly, you can use a Local System Account.  
+    * Alternatively, you can use a Local System Account.  
 __But please note:__ The Local System account can be used to run the SPDocKit service (but not the SPDocKit Insights Service) if one of the following conditions are met:
       * You are using an embedded database.
       * You are using SQL Authentication to connect to your database.

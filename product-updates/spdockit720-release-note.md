@@ -42,7 +42,7 @@ __Release date:__  Nov 22, 2017
 
 ## Improvements
 * SPDocKit Insights Dashboard will now automatically signal if some of the top-listed servers are in a critical or warning state. The color of the chart will change according to the server’s performance counter state.
-* Now you can click on the specific server status in the Server Health Overview chart to drill down directly to the Performance Ddashboard and see all servers that met the selected status threshold.
+* Now you can click on the specific server status in the Server Health Overview chart to drill down directly to the Performance Dashboard and see all servers that met the selected status threshold.
 * The user experience for filtering previously collected logs through SPDocKit Insights Event Viewer has been improved. You no longer need to press enter or click the search button after selecting a specific refiner. Event Viewer will now automatically filter results the moment  you click the refiner. Use the All button to revert changes and clear the refiner selection.
 * The custom range on the SPDocKit Insights Performance Dashboard is now presented as a specific time interval with clearly displayed start and end times, making it easier to adjust the time frame if needed.
 * The user experience in the Single Server Performance Dashboard regarding performance counter instance selection has also been improved. Click on the kebab menu to select the desired performance counter instance.

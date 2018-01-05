@@ -1,6 +1,6 @@
 ---
 title: Passwords and Product Keys
-description: This article describes how to define and document service account passwords, product key and passphrase of your SharePOint farm.
+description: This article describes how to define and document service account passwords, product key and passphrase of your SharePoint farm.
 author: Iva Novoselic
 date: 24/5/2017
 ---

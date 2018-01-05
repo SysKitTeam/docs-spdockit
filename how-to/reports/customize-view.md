@@ -27,7 +27,7 @@ Following reports are located in **Permissions Reports** section and have these 
 * **User Permission Details** (User Reports) - Created On, Last Modified, Object Type, Unique Permissions, Url.
 * **Matrix Permissions reports** (Subsite/List/Lite Item) - Account Enabled, Email, Principal Username, Type.
 * **Permission Level Usage** (Site Collection Reports) - Url.
-* **Sharepoint Groups** (Site Collection Reports) - Account Enabled, Email, Last Modified, Object Type, Principal Username, Type, Url.
+* **SharePoint Groups** (Site Collection Reports) - Account Enabled, Email, Last Modified, Object Type, Principal Username, Type, Url.
 
 Also, reports with new columns which are located in **Content & Usage Reports** are:
 * **Site Structure** (Structure Reports) - Unique Permissions, Url, Object Type, Last Modified, Created On.

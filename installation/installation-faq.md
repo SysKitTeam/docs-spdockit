@@ -41,7 +41,7 @@ Once you have installed everything you can [take a snapshot](#internal/how-to/sh
 ### If I choose the “Run only” option in SPDocKit, what happens?
 If you choose “Run only”, the following features will not be available:
 
-* SPDocKit Service and all autoamtic features
+* SPDocKit Service and all automatic features
 * Permissions Explorer History
 * Site Explorer History
 * Permissions Reports

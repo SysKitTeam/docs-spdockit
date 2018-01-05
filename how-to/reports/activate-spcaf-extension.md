@@ -23,7 +23,7 @@ If you only wish to try the SPCAF extension without activation, there is a trial
 
 ### **Activation**
 
-Please note that if you already have the licensed SPCAF on a machine together with SPDocKit, the SPFAC plugin will be activated automatically.
+Please note that if you already have the licensed SPCAF on a machine together with SPDocKit, the SPCAF plugin will be activated automatically.
 
 2. As we mentioned before, you will receive your license key from Rencore. The key will be in a plain text format. This is what you need to do to create a license file:
 Create a file with extension “.lic”, e.g., **“license.lic“**. Then, open the file in your preferred text editor (e.g., notepad) and paste in your license key.
@@ -36,7 +36,7 @@ Create a file with extension “.lic”, e.g., **“license.lic“**. Then, open
 
 4. Click the **Activate your license** button.  
 ![SPCAF-Activation-Code](#img/spcaf-activation-code.png)  
-You will notice a **challenge code** (in the previous picture). Visit the webpage [activation.spcaf.com](https://activation.rencore.com/) and enter the code, as well as your e-mail adress and the license key. The license key is the same one from the second step of this wizard. You need to open it with any text editor and copy/paste it. Click **Submit**.
+You will notice a **challenge code** (in the previous picture). Visit the webpage [activation.spcaf.com](https://activation.rencore.com/) and enter the code, as well as your e-mail address and the license key. The license key is the same one from the second step of this wizard. You need to open it with any text editor and copy/paste it. Click **Submit**.
 You will receive further instructions in your e-mail shortly, but here is what you need to do:  
 ![SPCAF-Activation](#img/spcaf-activation.png)
 

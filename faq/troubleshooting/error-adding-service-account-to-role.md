@@ -7,7 +7,7 @@ date: 12/10/2017
 
 ## Problem:
 There is a warning during SPDocKit configuration: 
-> *Error adding sevice account to "spdockit\_service\_role" database role. Check your SQL permissions.*
+> *Error adding service account to "spdockit\_service\_role" database role. Check your SQL permissions.*
 
 ## Information
 The __spdockit_service_role__ database role is given to the service account automatically during the configuration process. When the __SPDocKit install account__ is not in the __securityadmin__ SQL role then this step fails and must be performed manually.

@@ -19,7 +19,7 @@ The following commands are available:
 * __Import__ – use this button to add a snapshot to this list from any other location. Once that the snapshot is imported, it remains here until the user removes it.
 * __Export__– use this button to create farm snapshot file which can be transferred to any other location. This comes in handy if your snapshots are stored in SPDocKit database but you need to move them from one server to another.
 * __Show Changes__ – shows differences between the currently selected snapshot and an older snapshot (if one exists).
-* __Compare Wizard__– starts Compare Wizard for more complexed comparisons.
+* __Compare Wizard__– starts Compare Wizard for more complex comparisons.
 * __Compare to Local__ – compares a snapshot with the currently loaded local farm.
 * __Compare Selected__  – if two snapshots are selected, this button compares SharePoint settings stored in these two.
 * __Mark Configuration as Good__ – use this button to mark which SPDocKit snapshot captured your SharePoint farm with all the settings configured in a best possible way. Also, this will exclude that snapshot from data retention policy. Meaning, it will not be deleted.

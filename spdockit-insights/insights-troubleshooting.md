@@ -86,15 +86,15 @@ As the index grows the refiner calculations become more complex from a time and 
 The limit is configurable in the agent settings under the _Advanced Options_ but care should be taken when changing this option.
 
 
-### "Insights Agent is unistalled but still visible in the application"
+### "Insights Agent is uninstalled but still visible in the application"
 
 #### Problem
 __Please note__ that this is merely an example of a situation when the agent needs to be removed:  
-Insights Agent is unistalled but when you open SPDocKit Insights viewer application - on home screen there is a message: "Agent XYZ is not up to date. Please update it."  
+Insights Agent is uninstalled but when you open SPDocKit Insights viewer application - on home screen there is a message: "Agent XYZ is not up to date. Please update it."  
 
 
 #### Solution
-Since the agent is unistalled, this problem has nothing to do with the agent not being up to date. What you need to do is:
+Since the agent is uninstalled, this problem has nothing to do with the agent not being up to date. What you need to do is:
 * Navigate to Settings (bottom left corner).
 * Select the agent that's uninstalled.
 * Select the Remove agent option.
