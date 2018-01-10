@@ -5,7 +5,7 @@ author: Igor Mesaric
 date: 10/01/2018
 ---
 
-This section describes how to add comments and tags to Farm Explorer Reports and individual Snapshots.
+This section describes how to add comments and tags to Reports and individual Snapshots.
 
 ### **Comments** 
 
@@ -29,3 +29,8 @@ To include your comments in the generated documentation navigate to the **Backst
 
 ### **Tags**
 
+In the Permissions Explorer, you can find another useful feature - adding tags to Securable Objects.
+
+Tags can be added Live but also in all created Snapshots.
+
+To add a tag navigate to the top menu's **Tags** tab, select your target Securable Object in the **Permissions Explorer** and select the **Add Tag** button. In the same tab, you can also find the **Delete Tag** button to remove the tag from the selected Object. 
