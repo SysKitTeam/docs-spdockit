@@ -33,4 +33,9 @@ In the Permissions Explorer, you can find another useful feature - adding tags t
 
 Tags can be added Live but also in all created Snapshots.
 
-To add a tag navigate to the top menu's **Tags** tab, select your target Securable Object in the **Permissions Explorer** and select the **Add Tag** button. In the same tab, you can also find the **Delete Tag** button to remove the tag from the selected Object. 
+To add a tag navigate to the top menu's **Tags** tab, select your target Securable Object in the **Permissions Explorer** and select the **Add Tag** button. In the same tab, you can also find the **Delete Tag** button to remove the tag from a selected Object. 
+
+To view all created tags navigate to **Snapshots** section and select the **Tagged Objects** overview. 
+Information about the tagged objects is displayed in the **Object**, **Object Type** and **Object Url** columns and by default grouped by tag.  
+
+To be continued...

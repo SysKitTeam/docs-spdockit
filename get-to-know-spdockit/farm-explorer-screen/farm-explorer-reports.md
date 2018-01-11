@@ -28,6 +28,8 @@ Make sure to check in __IIS Settings information__ option when taking a snapshot
 ### SQL Server reports
 This section provides information about settings about farm SQL Server, SQL Aliases, SQL Service Accounts and many other SQL Server configuration settings. It also provides an easy overview of the database permissions.
 
+**Always On** reports are also included in this section and provide information about Groups, Replicas, Databases and Listeners configured in the Always On Availability Groups feature available from SQL Server 2012 onwards.
+
 Make sure to check in __SQL Server information__ option when taking a snapshot of your farm in order to explore and document these settings.
 
 ### Project Server 
