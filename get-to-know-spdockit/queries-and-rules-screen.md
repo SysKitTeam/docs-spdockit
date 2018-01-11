@@ -78,6 +78,6 @@ Each time a selected query is executed, SPDocKit saves the results in the query 
 
 Also, each time a rule is executed, SPDocKit creates a history record. Records are sorted by date and time of the rule execution. Select a specific rule definition, click the desired date, and a list of applied changes will appear in the grid below.
 
-Take note that the query wizard allows you to specify whether the query results, both automatic and manual, will be visible only in the query history or if they will also be sent to a specified email addresses in a __PDF, XLSX or DOCX__ format. 
+Take note that the query wizard allows you to specify whether the query results, both automatic and manual, will be visible only in the query history or if they will also be sent to the specified email addresses in a __PDF, XLSX or DOCX__ format. 
  
 Rule results can be explored only within the SPDocKit user interface.
