@@ -37,5 +37,3 @@ To add a tag navigate to the top menu's **Tags** tab, select your target Securab
 
 To view all created tags navigate to **Snapshots** section and select the **Tagged Objects** overview. 
 Information about the tagged objects is displayed in the **Object**, **Object Type** and **Object Url** columns and by default grouped by tag.  
-
-To be continued...
