@@ -16,3 +16,4 @@ private: true
 # [SQL Clusters support](sql-cluster-support.md)
 # [Storage Metrics report subscription](subscription-storage-metrics.md)
 # [Unaccounted differences in the UPA settings](spdockit-reporting-upa-changes.md)
+# [Custom Query issue with URL export](custom-query-issue.md)
