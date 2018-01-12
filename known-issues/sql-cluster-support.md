@@ -9,6 +9,6 @@ __Summary:__ Information about SQL clusters is missing in SPDocKit's documentati
 
 __Application Version:__ 3.0.0 and newer
 
-__Solution:__ Currently there is no workaround for this issue.
+__Solution:__ There is no workaround for this issue.
 
-__Status:__ Not resolved.
+__Status:__ Solved in version 7.3
