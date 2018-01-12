@@ -23,6 +23,7 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
         - **Local administrator on SharePoint servers** – the service account needs to be a member of the Local Administrators group on all SharePoint servers. This is required in order to be able to read log files from the disk.
         - **Local administrator on the Local server** – the service account needs to be a member of the Local Administrators group on the server where the SPDocKit Insights Agent is installed.
     - **SPDocKit Database** 
+         - **Database name** - connect to the existing SPDocKit database. Note that using a newly created empty database does not work and results in **Empty database** error screen when running SpDocKit Insights.
         - **SPDocKit\_service\_role** on the SPDocKit database – the provided service account needs to be granted the **SPDocKit\_service\_role** role on the **SPDocKit database**.
     - **Index Location** – you need to ensure that the provided service account has write access to the index location directory. The directory for the index must be empty or contain an existing index.  It is recommended not to place the index on the system drive. Be careful if you plan to use the system drive for index location, as it can be quickly filled up.
     - **Port To Use** - this is the port that the SPDocKit Insight Agent will use to communicate with the SPDocKit Insights application. By default, port 7895 is set, but you can change it to suit your needs.
