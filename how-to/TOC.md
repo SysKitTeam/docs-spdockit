@@ -41,6 +41,7 @@ private: true
 ## [Create SharePoint Governance Policy Rule](create-governance-policy-rule.md)
 ## [Create SPDocKit Query](create-spdockit-query.md)
 ## [Change SPDocKit Query Results Limit](change-query-results-limit.md)
+## [Create Audit Querys and Rules](create-audit-queries-and-rules.md)
 
 # Role Based Security
 ## [Manage Roles](manage-roles.md)
