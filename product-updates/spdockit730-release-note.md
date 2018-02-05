@@ -63,7 +63,7 @@ Elimination of the color for xml syntax, for performance reasons, when the repor
 
 * Addition of a URL column to the Group Members report, which might make it more convenient to use during an audit. 
 
-* Addition of __Recycle Settings__ to the IIS group of reports. For more information on recycle settings, [click here](https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/applicationpools/add/recycling/periodicrestart/) 
+* Addition of __Recycle Settings__ to the IIS group of reports. For more information on recycle settings, [click here](https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/applicationpools/add/recycling/periodicrestart/). 
 
 * A new __Securable Objects filter__ for User Permission Details report. This means that you can now view items for which the selected user does not have permission. Those items will be colored gray.
 
