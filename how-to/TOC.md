@@ -31,6 +31,7 @@ private: true
 ## [Activate SPCAF Extension](activate-spcaf-extension.md)
 ## [Explore Administrative Actions](administrative-actions.md)
 ## [Audit Permissions Changes](security-audit.md)
+## [Add Comments and Tags](comments-and-tags.md)
 
 # Best Practices
 ## [Available Best Practices Reports](available-best-practices-reports.md)
