@@ -26,24 +26,24 @@ To view all comments you have created, navigate to the top menu's __Comments__ t
 
 The __All Comments__ report can easily be exported by selecting the __Export as PDF/XLSX/DOCX__ option from the __Home__ tab in the top menu.
 
-To include your comments in the generated documentation navigate to the __Backstage__ and on the __Configuration__ screen and select __Options__. Under __Report Options__ check the __Include comments in documentation__ option. Your comments will now be visible in the generated documentation. 
+To include your comments in the generated documentation navigate to the __Backstage__ and select __Options__ on the __Configuration__ screen. Under __Report Options__ check the __Include comments in documentation__ option. Your comments will now be visible in the generated documentation. 
 
 
 ### __Tags__
 
 In the Permissions Explorer, you can find another useful feature - adding tags to Securable Objects.
 
-Tags can be added Live but also in all created Snapshots.
+Tags can be added Live but also when exploring previously created snapshots.
 
-To add a tag navigate to the top menu's __Tags__ tab under __Data__ category, select your target Securable Object in the __Permissions Explorer__ and select the __Add Tag__ button. In the same tab, you can also find the __Delete Tag__ button to remove a tag from the selected Object. 
+To add a tag navigate to the top menu's __Tags__ tab under the __Data__ category. Select your target - Securable Object - in the __Permissions Explorer__, and select the __Add Tag__ button. In the same tab, you can also find the __Delete Tag__ button to remove a tag from the selected Object. 
 
 __Add Tag__ and __Delete Tag__ options are also available in the context menu which appears if you right-click a Securable Object in the tree view.
 
 To view all created tags navigate to __Snapshots__ section and select the __Tagged Objects__ report. 
-Information about all tagged objects is displayed in the __Object__, __Object Type__ and __Object Url__ columns and by default grouped by __Tag__.  The __Tagged Objects__ report can also be accessed directly from the __Permissions Explorer__ by selecting the __Go to Report__ option in the top menu's __Tags__ tab. 
+Information about all tagged objects is displayed in the __Object__, __Object Type__ and __Object Url__ columns which, by default, are grouped by __Tag__.  The __Tagged Objects__ report can also be accessed directly from the __Permissions Explorer__ by selecting the __Go to Report__ option in the top menu's __Tags__ tab. 
 
 The __Tagged Objects__ report can easily be exported by selecting the __Export as PDF/XLSX/DOCX__ option from the __Home__ tab in the top menu.
 
 Each of the tagged objects can easily be accessed by selecting the appropriate row in the __Tagged Objects__ report and clicking the __Go to Object__ button in the top menu __Tags__ tab.
 
-Another great thing is the possibility to __search the Securable Objects by tags__. In the __Permissions Explorer__ simply type the tag name into the __Search__ text field. All Securable Objects tagged with the inputed text are displayed in a dropdown list. When you select a single object from the list, the object also becomes selected in the tree view and the permissions are displayed in the grid. 
+Another upside of using the tag feature is the possibility to __search the Securable Objects by tags__. In the __Permissions Explorer__ simply type the tag name into the __Search__ text field. All Securable Objects tagged with the inputted text are displayed in a dropdown list. When you select a single object from the list, the object also becomes selected in the tree view and the permissions are displayed in the grid. 
