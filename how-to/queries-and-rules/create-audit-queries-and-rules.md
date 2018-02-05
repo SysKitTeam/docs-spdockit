@@ -25,7 +25,7 @@ Rules give you the possibility to change all of the Audit Settings on the site c
 
 With the provided __Audit Editing Users and Permissions__ sample Rule you can enable the __Editing users and permissions__ setting on single or multiple site collections in a single step.
 
-You can also enable or disable all of the other Audit Settings by creating your own Rule that best fits your needs. The before mentioned __Audit Settings__ category is also available in the __Rule Wizard__ when the __Rule Scope__ is set to __Site Collections__. You can also set the rule to run automatically on a schedule to ensure that the rule is applied to all newly created site collections.
+You can also enable or disable all of the other Audit Settings by creating your own Rule that best fits your needs. The before mentioned __Audit Settings__ category is also available in the __Rule Wizard__ when the __Rule Scope__ is set to __Site Collections__. You can also set the rule to run automatically on a schedule, and thereby ensure that it will be applied to all newly created site collections.
 
 For a detailed description of the Rule creation please read [this article](#internal/how-to/queries-and-rules/create-governance-policy-rule).
 
