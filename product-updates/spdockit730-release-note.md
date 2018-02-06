@@ -8,9 +8,9 @@ SPDocKit 7.3.0 is a release with GDPR in mind. It contains numerous improvements
 
 Give it a try and let us know what you think!
 
-__Product version:__ 7.3.0 
-__Build number:__ XXXX  
-__Release date:__ Feb ??, 2018
+__Product version:__ 7.3.0  
+__Build number:__ 9552  
+__Release date:__ Feb 14, 2018
 
 [Click here to download the new release.](https://www.spdockit.com/downloads/)
 
