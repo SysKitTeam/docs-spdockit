@@ -1,5 +1,5 @@
 ---
-title: SPDocKit 7.2.0 - Release Note
+title: SPDocKit 7.3.0 - Release Note
 description: This article describes new features, improvements and bug fixes delivered in SPDocKit 7.3.0.
 author: Tomislav Sirovec
 date: 01/02/2018
@@ -29,7 +29,7 @@ __Release date:__ Feb 14, 2018
 
 * __SPDocKit Tags!__ You can now tag objects in Permission s Explorer. You can tag anything, from site collections, sites, and subsites, down to lists, folders and list items. A list of all __Tagged Objects__ can be found as a report on the Snapshots tab. This feature makes it easy to categorize your objects (e.g., as personal or classified data).
 
-All the features above can be used to help you __become GDPR compliant__. For more information about these features and about GDPR compliance in general, [click here] (!!!!!!!!!!!!!!!!!!!!!!!!!!! ).
+All the [features above](https://www.spdockit.com/whats-new/) can be used to help you __become GDPR compliant__. For more information about GDPR compliance, [click here](http://blog.syskit.com/sharepoint-and-gdpr-compliance-classify-prepare-and-protect).
 
 
 ## Improvements
