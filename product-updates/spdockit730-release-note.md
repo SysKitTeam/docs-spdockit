@@ -103,7 +103,7 @@ Elimination of the color for xml syntax, for performance reasons, when the repor
 
 * Improved error handling if the Best Practices generation fails with the error: “System.NullReferenceException: Object reference not set to an instance of an object.” 
 
-* Fixed a bug with inserting a permission level for a site collection while collecting all of the permissions records: “SQL error: 2627. Error details: Error:System.Data.SqlClient.SqlError: Violation of PRIMARY KEY constraint 'PK_RoleProperties'. Cannot insert duplicate key in object 'dbo.RoleProperties'. ”The problem occurs with subsites that have unique permissions levels.
+* Fixed a bug with inserting a permission level for a site collection while collecting all of the permissions records: __“SQL error: 2627. Error details: Error:System.Data.SqlClient.SqlError: Violation of PRIMARY KEY constraint 'PK_RoleProperties'. Cannot insert duplicate key in object 'dbo.RoleProperties'.”__ The problem occurs with subsites that have unique permissions levels.
 
 * Fixed an issue with Tenant Compare (SharePoint Online) where the name of the farm was not visible in the Compare results.
 
@@ -111,7 +111,7 @@ Elimination of the color for xml syntax, for performance reasons, when the repor
 
 * Fixed a number of Best Practice reports that would crash the application if upgraded from SPDocKit version 7.2.1 to version 7.3. The reports are: Farm Backup History and SQL Alias.
 
-* Fixed an issue where you would get the error: “System.NotSupportedException: LINQ to Entities does not recognize the method 'Boolean Contains(System.String)' method, and this method cannot be translated into a store expression” while trying to set up the SPDocKit application. 
+* Fixed an issue where you would get the error: __“System.NotSupportedException: LINQ to Entities does not recognize the method 'Boolean Contains(System.String)' method, and this method cannot be translated into a store expression” while trying to set up the SPDocKit application.__ 
 
 * Fixed an issue where Configuration Wizard would misbehave when only the SPDocKit Agent was installed and an attempt was being made to perform an upgrade. More precisely, the Configuration window would be out of place and you would see the same popup message twice.
 
