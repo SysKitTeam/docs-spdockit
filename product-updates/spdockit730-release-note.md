@@ -51,7 +51,8 @@ All the [features above](https://www.spdockit.com/whats-new/) can be used to hel
 * A __new selection template__ that you can use when choosing which reports you wish to see in the Best Practices documentation. We aimed to achieve the same functionality as in the Farm Documentation. 
 
 * Improvements to Excel export for the __Farm Differences report__. It should be more readable now.
-Elimination of the color for xml syntax, for performance reasons, when the report has more than 2000 lines or 300,000 characters. 
+
+* Elimination of the color for xml syntax, for performance reasons, when the report has more than 2000 lines or 300,000 characters. 
 
 * A new __Privileged Access Type__ filter to the __Users with Privileged Access report__. This means that you can now filter the farm/site collection admins, users with full control/full read, etc. Also, the BUILTIN\Administrators group is now resolved, and it shows local administrators from every SharePoint server—but not SQL!
 
