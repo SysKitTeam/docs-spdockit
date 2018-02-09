@@ -31,8 +31,8 @@ The application can be installed on a workstation with a __Windows 7, Windows 8 
 
 ## Tips & tricks
 If during the installation you encounter any problems and wish to enable logging to help you resolve the problems, you can start the installation using the command prompt with the following argument:
-* */l=”full path” will create a log file on a specified location.
-* */log will create the log file in an installation directory.
+* /l=”full path” will create a log file on a specified location.
+* /log will create the log file in an installation directory. (C:\Program Files\SysKit\SPDocKit by default).
 
 Note that this will work for both .exe and .msi installation files.
 
