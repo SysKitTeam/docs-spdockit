@@ -5,6 +5,7 @@ private: true
 
 # [Product Updates](product-updates)
 Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
+## [SPDocKit 7.3.0](spdockit730-release-note.md)
 ## [SPDocKit 7.2.1](spdockit721-release-note.md)
 ## [SPDocKit 7.2.0](spdockit720-release-note.md)
 ## [SPDocKit 7.1.0](spdockit710-release-note.md)
@@ -87,7 +88,6 @@ SPDocKit helps you keep SharePoint Online permissions under control. Connect to 
 ## [Quick Start Guide](sharepoint-online.md)
 ## [Connect to SharePoint Online](connect-to-spo.md)
 ## [Take Snapshot of SharePoint Online](spo-snapshots.md)
-
 ## [Office 365 Groups and Teams](office-365-groups-and-teams)
 ### [Office 365 Management Actions](office-365-management-actions.md)
 ### [Office 365 Management Wizards](office-365-management-wizard.md)
@@ -113,11 +113,9 @@ When you get stuck trying to make magic happen, these guides will tell you the s
 ### [Manual Snapshots](manual-snapshots.md)
 ### [Automatic Snapshots](automatic-snapshots.md)
 ### [Generate an AutoSPInstaller XML Configuration File](generate-autospinstaller-xml-configuration-file.md)
-
 ## [Farm Documentation](farm-documentation)
 ### [Create Farm Documentation](create-farm-documentation.md)
 ### [Customize Documentation Template](customize-documentation-template.md)
-
 ## [Compare Wizard](compare-wizard)
 ### [Compare Farms](compare-sharepoint-farms.md)
 ### [Compare Servers](compare-servers.md)
@@ -125,11 +123,9 @@ When you get stuck trying to make magic happen, these guides will tell you the s
 ### [Compare Site Collections](compare-site-collections.md)
 ### [Compare SharePoint Permissions](compare-sharepoint-permissions.md)
 ### [Compare Web.Config Files](compare-web-config-files.md)
-
 ## [Subscriptions and Alerts](subscriptions-and-alerts)
 ### [Create New Subscription](create-new-subscription.md)
 ### [Create New Alert](create-new-alert.md)
-
 ## [Reports](reports)
 ### [Customize View](customize-view.md)
 ### [Install SPDocKit Extensions](install-spdockit-extensions.md)
@@ -137,21 +133,19 @@ When you get stuck trying to make magic happen, these guides will tell you the s
 ### [Activate SPCAF Extension](activate-spcaf-extension.md)
 ### [Explore Administrative Actions](administrative-actions.md)
 ### [Audit Permissions Changes](security-audit.md)
-
+### [Add Comments and Tags](comments-and-tags.md)
 ## [Best Practices](best-practices)
 ### [Available Best Practices Reports](available-best-practices-reports.md)
 ### [Create Custom Best Practices Reports](create-custom-best-practices-reports.md)
 ### [Personalize Best Practices Reports](personalize-best-practices-reports.md)
-
 ## [Queries and Rules](queries-and-rules)
 ### [Create SharePoint Governance Policy Rule](create-governance-policy-rule.md)
 ### [Create SPDocKit Query](create-spdockit-query.md)
 ### [Change SPDocKit Query Results Limit](change-query-results-limit.md)
-
+### [Create Audit Queries and Rules](create-audit-queries-and-rules.md)
 ## [Role Based Security](role-based-security)
 ### [Manage Roles](manage-roles.md)
 ### [Manage Users](manage-users.md)
-
 ## [Workstation](workstation)
 ### [SPDocKit on a Workstation](spdockit-workstation.md)
 
@@ -195,3 +189,5 @@ Even the best of us fail sometimes. We are working on it!
 ## [SQL Clusters support](sql-cluster-support.md)
 ## [Storage Metrics report subscription](subscription-storage-metrics.md)
 ## [Unaccounted differences in the UPA settings](spdockit-reporting-upa-changes.md)
+## [Custom Query issue with URL export](custom-query-issue.md)
+
