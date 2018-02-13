@@ -176,7 +176,7 @@ These are some of the most common questions and answers about SPDocKit. If you c
 ### [TCP/IP network traffic not enabled on the SQL Server](tcp-ip-network-traffic-not-enabled-on-server.md)
 
 # [Known Issues](known-issues)
-Even the best of us fail sometimes. We are working on it!
+Even the best of us fail sometimes. We are working on it! 
 ## [CREATE TABLE permissions denied](create-table.md)
 ## [Custom features missing in reports](custom-features-missing.md)
 ## [Data retention not working properly](data-retention.md)
@@ -190,3 +190,4 @@ Even the best of us fail sometimes. We are working on it!
 ## [Storage Metrics report subscription](subscription-storage-metrics.md)
 ## [Unaccounted differences in the UPA settings](spdockit-reporting-upa-changes.md)
 ## [Custom Query issue with URL export](custom-query-issue.md)
+
