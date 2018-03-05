@@ -5,7 +5,6 @@ private: true
 
 # [Product Updates](product-updates)
 Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
-## [SPDocKit 7.4.0](spdockit740-release-note.md)
 ## [SPDocKit 7.3.0](spdockit730-release-note.md)
 ## [SPDocKit 7.2.1](spdockit721-release-note.md)
 ## [SPDocKit 7.2.0](spdockit720-release-note.md)
