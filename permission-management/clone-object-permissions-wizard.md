@@ -1,6 +1,6 @@
 ---
 title: Clone Object Permissions Wizard
-description: This article describes how to use the Clone Object Permissions Wizard in order to equalize principal and group permissions on two different SharePoint objects.   
+description: This article describes how to use the Clone Object Permissions Wizard in order to match principal and group permissions on two different SharePoint objects.   
 author: Igor Mesaric
 date: 2/3/2018
 ---
