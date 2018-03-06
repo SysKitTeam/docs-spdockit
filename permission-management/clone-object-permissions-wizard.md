@@ -7,7 +7,7 @@ date: 2/3/2018
 
 This article explains how to use SPDocKit to easily clone SharePoint permissions from one object to another.
 
-The Clone Object Permissions Wizard enables you to clone the permissions between objects that are a part of a different site collections or even different web applications.
+The Clone Object Permissions Wizard enables you to clone the permissions between objects that are a part of different site collections or even different web applications.
 
 **Please note!** Source object's permission inheritance must be broken in order to use this wizard. Source object permissions will not be affected by this wizard. Based on the options selected in the wizard, the destination principals and/or groups can lose all previously assigned permissions or acquire additional permissions. SharePoint groups of the target site collection can also be changed, which affects not only the target object but also all other objects to which the group is assigned.
 
