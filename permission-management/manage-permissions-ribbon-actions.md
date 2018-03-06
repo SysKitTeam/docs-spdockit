@@ -29,9 +29,10 @@ Please note!
 
 __Grant Permissions__ allows you to assign permissions to a user or a group on a selected SharePoint securable object with unique permissions.
 
- *  __Scope:__ currently selected object, Site Collection in which the selected object is if granting permissions through SharePoint Group  
+ * __Scope:__ currently selected object, Site Collection in which the selected object is if granting permissions through SharePoint Group  
  * __Supported Principal selection:__ SharePoint user, Active Directory Group or SharePoint group  
  * __Assign permissions method:__ directly or through the SharePoint group  
+ * __Additional option:__ when granting permissions directly, if the currently selected object is a List or Folder, another useful option is available: __Grant to everything in this folder/list, even to items with unique permissions.__ If checked, the permission will be granted even on the child objects with broken permission inheritance. 
 
 Please note! Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
 
