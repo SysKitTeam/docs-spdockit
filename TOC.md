@@ -100,6 +100,7 @@ Permissions management has never been easier using SPDocKit actions and wizards.
 ## [Group Memberships Wizard](group-memberships-wizard.md)
 ## [Clone Permissions Wizard](clone-permissions-wizard.md)
 ## [Transfer Permissions Wizard](transfer-permissions-wizard.md)
+## [Clone Object Permissions Wizard](clone-object-permissions-wizard.md)
 ## [Manage Permissions Wizard](manage-permissions-wizard.md)
 ## [Clean Site Collections Wizard](clean-site-collections-wizard.md)
 ## [Permission Levels Wizard](permission-levels-wizard.md)
