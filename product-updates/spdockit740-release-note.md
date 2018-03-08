@@ -1,74 +1,61 @@
 ---
 title: SPDocKit 7.4.0 - Release Note
-description: This article describes new features, improvements and bug fixes delivered in SPDocKit 7.4.0.
+description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit 7.4.0.
 author: Igor Mesarić
 date: 26/02/2018
 ---
-SPDocKit 7.4.0 is a release ... TODO
+
+SPDocKit 7.4.0 is a minor release that gives SPDocKit an additional facelift. It’s not just about looks: some interesting features were also added. Permission management received a set of awesome new possibilities, a new report was added, and numerous improvements were made. 
+
+Give it a try and let us know what you think!
 
 __Product version:__ 7.4.0  
-__Build number:__ TODO  
-__Release date:__ Apr 14, 2018
-
-[Click here to download the new release.](https://www.spdockit.com/downloads/)
+__Build number:__ XXXX  
+__Release date:__ Apr 12, 2018
 
 ## Features
+* The __Grant to everything in this list/folder, even to items with unique permissions__ option, is now available when you grant the permissions directly . The principal will get the same permissions on all child objects, even if their permission inheritance is broken.
 
-* New option available when you Grant the permissions directly. If you check the __Grant to everything in this list/folder, even to items with unique permission__, the principal will get the same permissions on all child objects.
+*	The new __Clone Object Permissions__ wizard is available! You can now easily copy permissions from one securable object to another in a couple of clicks. The SharePoint Groups and Permission levels can also be recreated, if the cloning is performed between two different site collections. The action is supported even between objects that belong to different web applications!
 
-* __TODO__ Clone object Permissions.
-
-* The __Modified Content__ report was added to the Content Usage reports. You can now see all newly created and/or modified documents in the given time period in one place. 
-
-* Added a new option to the Content Display Level filter - __Folder__. Now the folder level can be shown without the need to display the List Items. 
-
-* New options when comparing current snapshot to older ones. You can now compare it to the last snapshot, the last snapshot marked as good, or any other previously taken snapshot.
+*	The __Modified Content__ report was added to the Content Usage reports. You can now see all newly created and/or modified documents for the given period in one place. 
 
 ## Improvements
 
-* Improved how the Content Display Level filter is set when you drill from Permissions Audit Overview to Permissions Audit Details report. The filter is now automatically changed to List Items Level.
+*	Added a __new option__ to the Content Display Level filter – the Folder. Folders were previously displayed as a part of the List Items Content Display Level.  Now, the folders can be filtered separately without the need to display the List Items. 
 
-* The SharePoint Groups report now has the Owner displayed as the first child of the group. All other members are alphabetically ordered like they were before.
+*	New options are now a vailable when comparing current snapshots to older ones. You can now compare it to the __last snapshot__, the __last snapshot marked as good__, or __any other__ previously taken snapshot. 
 
-* Improved how the About SpDocKit section in the Backstage looks and feels - elements were centered, icons added and old buttons removed. 
+*	Improved how the __Content Display Level filter__ is set when you drill from Permissions Audit Overview down to Permissions Audit Details report. The filter is now automatically changed to List Items Level.
 
-* All of SPDocKit's wizards had a facelift. The changes were made in order to comply with the company's new visual identity. 
+*	The __SharePoint Groups report__ now has the Owner displayed as the first child of the group. All other members are alphabetically ordered like they were before.
 
-* The Help button was replaced with the __Help link__ on all wizards to make them simpler and easier to use. 
+*	Numerous __UI improvements__ were made throughout the whole application to make it easier to use and to comply with the company's new visual identity. 
 
-* When there are no comments on a report, the Comments panel now displays a message instead of being empty. It gives you a brief instruction how to easily create a new comment.
+*	When there are no comments on a report, the __Comments panel__ now displays a message instead of being empty. It gives you a brief instruction on how  to easily create a new comment.
 
-* __TODO__ Activation form
+*	__Activation form__ is updated with some new input fields.
 
 ## Bug fixes
+*	Fixed an issue where an empty Error message was displayed when loading a new Snapshot.
 
-* __TODO__ UI freeze
+*	Fixed an issue where the Compare Result window could not be accessed if the Compare Wizard main window was closed.  The problem occurred only when the Compare Wizard was opened from the Backstage screen.
 
-* __TODO__ Prazan error u Load Wizardu
+*	Improved the way filters behave on reports. Filters are now enabled even   when the opened report has no data to show. This way, you can easily navigate to a farm or snapshot where the data is available and the report is generated. 
 
-* Fixed an issue where the Compare Result window could not be accessed if the Compare Wizard main window was closed.
+*	Fixed an issue where an unwanted folder was created during the installation of SPDocKit on a workstation computer.  Additionally, some folders that were previously created in the user's My Documents\SPDocKit folder have been transferred to the ProgramData\SPDocKit folder.
 
-* Improved the visibility of filters on reports. Filters are now visible even when the opened report has no data to show. This way you can easily navigate to a farm or snapshot where the data is available and the report is generated. 
+*	Fixed an issue where Editing an on-prem connection on a workstation would result in an unexpected error.
 
-* Improved UX - Export and Save tab removed from Backstage.
+*	Fixed an issue where loading Projects would time out. The timeout value is now set to 1800 seconds.   
 
-* Fixed an issue where an unwanted folder was created during the installation of SPDocKit on a workstation computer. All of the folders and files are now created in the C:\ProgramData\SPDocKit folder. 
+*	Fixed an issue with the Best Practices reports which were only supported in SharePoint 2013 and 2016 but were also visible in a SharePoint 2010 environment.
 
-* Fixed an issue where Editing an On-prem connection on a workstation would result with an unexpected error.
+*	Fixed an issue that occurred when starting the Insights service. The following Inner Exception was thrown: __“System.Net.HttpListenerException: The network location cannot be reached.”__ This would cause the service to not start.   
 
-* Fixed an issue where loading Projects would time out. The timeout value is now set to 1800 seconds.   
+*	Fixed an issue with Snapshot loading on a SharePoint 2010 environment, where the following error would appear: __“Error while loading modeldb and tempDB info for [SQLServerName].”__
 
-* Fixed an issue with the Best Practices reports which are supported only in SharePoint 2013 and 2016 but were also visible in a SharePoint 2010 environment.
+*	Fixed an issue where external users were displayed as a part of the Everyone group. Microsoft made changes in the behavior and governance of access by external users in Office 365, so we had to make some adjustments. You can find more information about these changes [here](https://support.microsoft.com/en-us/help/4089534/how-to-grant-the-everyone-claim-to-external-users-in-office-365).
 
-* Fixed an issue that ocurred when starting the Insights service. An Inner Exception was thrown and the service would not start.
+*	Fixed an issue with the Best Practices Dashboard which would show incorrect data (e.g., a green checkmark, although the report itself had some errors).
 
-* __TODO__ modeldb  i tempdb info
-
-* __TODO__ external users više nisu članovi everyone grupe
-
-* __TOTO__ reset layouta postavlja custom sort na SPGroups reportu
-
-* Fixed an issue where Best Practices Dashboard would show incorrect data, e.g. a green checkmark, although the report itself had some errors.
-
-
-## Retired Features 
