@@ -5,6 +5,7 @@ private: true
 
 # [Product Updates](product-updates)
 Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
+## [SPDocKit 7.4.0](spdockit740-release-note.md)
 ## [SPDocKit 7.3.0](spdockit730-release-note.md)
 ## [SPDocKit 7.2.1](spdockit721-release-note.md)
 ## [SPDocKit 7.2.0](spdockit720-release-note.md)
@@ -100,6 +101,7 @@ Permissions management has never been easier using SPDocKit actions and wizards.
 ## [Group Memberships Wizard](group-memberships-wizard.md)
 ## [Clone Permissions Wizard](clone-permissions-wizard.md)
 ## [Transfer Permissions Wizard](transfer-permissions-wizard.md)
+## [Clone Object Permissions Wizard](clone-object-permissions-wizard.md)
 ## [Manage Permissions Wizard](manage-permissions-wizard.md)
 ## [Clean Site Collections Wizard](clean-site-collections-wizard.md)
 ## [Permission Levels Wizard](permission-levels-wizard.md)
@@ -190,4 +192,5 @@ Even the best of us fail sometimes. We are working on it!
 ## [Storage Metrics report subscription](subscription-storage-metrics.md)
 ## [Unaccounted differences in the UPA settings](spdockit-reporting-upa-changes.md)
 ## [Custom Query issue with URL export](custom-query-issue.md)
+## [Recursive groups issue with export](recursive-groups-export.md)
 
