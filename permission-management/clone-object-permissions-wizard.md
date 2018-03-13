@@ -23,7 +23,7 @@ The Clone Object Permissions Wizard enables you to clone the permissions between
 
     * **Source and target objects are a part of the same site collection.**
 
-        The **Keep existing target object permissions** option is available. If checked, all of the target object permissions are preserved and new permissions are added to existing groups or principals. If not checked, all target object permissions are removed and the source permissions are copied.
+        The **Keep existing target object permissions (role assignments and SharePoint group memberships)** option is available. If checked, all of the target object permissions are preserved and new permissions are added to existing groups or principals. If not checked, all target object permissions are removed and the source permissions are copied.
 
         Options **Create SharePoint groups** and **Create missing permission levels** are disabled since they are only applicable in case of different site collections.
 
@@ -35,8 +35,12 @@ The Clone Object Permissions Wizard enables you to clone the permissions between
 
         The **Create missing permission levels** option is also available. If checked, missing permission levels are created on the target site collection with the same base permissions as in the source permission levels. If unchecked, the permission levels are not created and therefore can not be assigned to groups or principals.
 
-        **Please note!** If the source site collection and the target site collection have SharePoint groups with the same name and different members, and the Keep existing target object permissions option is checked, existing members in the target group are preserved and new members from the source group are added.
-        If the Keep existing target object permissions option is not checked, the target group members are removed and source group members recreated. The same rules apply to the permission levels.  
+        **Please note!** 
+        
+        * If the source site collection and the target site collection have SharePoint groups with the same name and different members, and the Keep existing target object permissions option is checked, existing members in the target group are preserved and new members from the source group are added.
+        If the Keep existing target object permissions option is not checked, the target group members are removed and source group members added. 
+
+        * If the source site collection and the target site collection have Permission levels with the same name but different base permissions, the target permission level will not be changed, and it will not be added to any principals or groups. The following message appears in the Preview window: __Permission level [<i>permissionLevelName</i>] already exists on [<i>targetSiteCollection</i>] with different base permissions and will be skipped.__  
 
 4. The **Preview** step shows the changes that will occur in the final step. 
 
