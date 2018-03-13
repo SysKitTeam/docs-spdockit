@@ -35,7 +35,7 @@ The Clone Object Permissions Wizard enables you to clone the permissions between
 
         The **Create missing permission levels** option is also available. If checked, missing permission levels are created on the target site collection with the same base permissions as in the source permission levels. If unchecked, the permission levels are not created and therefore can not be assigned to groups or principals.
 
-        **Please note!** 
+        **Please note:** 
         
         * If the source site collection and the target site collection have SharePoint groups with the same name and different members, and the Keep existing target object permissions option is checked, existing members in the target group are preserved and new members from the source group are added.
         If the Keep existing target object permissions option is not checked, the target group members are removed and source group members added. 
