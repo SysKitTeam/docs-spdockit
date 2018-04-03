@@ -59,3 +59,6 @@ __Release date:__ Apr 12, 2018
 
 *	Fixed an issue with the Best Practices Dashboard which would show incorrect data (e.g., a green checkmark, although the report itself had some errors).
 
+*   Fixed an issue with the Group Memberships filter on Permissions Reports. The __Don't Show Nested Groups Memebers__ option didn't work as it should and showed the same results as if the Show as Flat Structure option was selected. 
+
+*   Fixed an issue with the export of the Storage Metrics report. The following error occurred while exporting: __System.NullReferenceException: Object reference not set to an instance of an object.__
