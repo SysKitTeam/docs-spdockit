@@ -4,7 +4,7 @@ description: This article describes new features, improvements and bug fixes del
 author: Tomislav Sirovec
 date: 01/02/2018
 ---
-SPDocKit 7.3.0 is a release with GDPR in mind. It contains numerous improvements and bug fixes, but most noticeably we prepared a set of features you can use to become [GDPR](https://gdpr-info.eu/) compliant
+SPDocKit 7.3.0 is a release with GDPR in mind. It contains numerous improvements and bug fixes, but most noticeably we prepared a set of features you can use to become [GDPR](https://gdpr-info.eu/) compliant.
 
 Give it a try and let us know what you think!
 

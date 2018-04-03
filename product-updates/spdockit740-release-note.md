@@ -22,6 +22,8 @@ __Release date:__ Apr 12, 2018
 
 ## Improvements
 
+* Enabled the use of TLS 1.2 when establishing secure connections, in preparation for Microsoft's mandatory use of TLS 1.2 for Office 365 connections.
+
 *	Added a __new option__ to the Content Display Level filter – the Folder. Folders were previously displayed as a part of the List Items Content Display Level.  Now, the folders can be filtered separately without the need to display the List Items. 
 
 *	New options are now available when comparing current snapshots to older ones. You can now compare it to the __last snapshot__, the __last snapshot marked as good__, or __any other__ previously taken snapshot. 
