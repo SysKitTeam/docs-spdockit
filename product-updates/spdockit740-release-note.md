@@ -24,7 +24,7 @@ __Release date:__ Apr 12, 2018
 
 *	Added a __new option__ to the Content Display Level filter – the Folder. Folders were previously displayed as a part of the List Items Content Display Level.  Now, the folders can be filtered separately without the need to display the List Items. 
 
-*	New options are now a vailable when comparing current snapshots to older ones. You can now compare it to the __last snapshot__, the __last snapshot marked as good__, or __any other__ previously taken snapshot. 
+*	New options are now available when comparing current snapshots to older ones. You can now compare it to the __last snapshot__, the __last snapshot marked as good__, or __any other__ previously taken snapshot. 
 
 *	Improved how the __Content Display Level filter__ is set when you drill from Permissions Audit Overview down to Permissions Audit Details report. The filter is now automatically changed to List Items Level.
 
@@ -55,10 +55,10 @@ __Release date:__ Apr 12, 2018
 
 *	Fixed an issue with Snapshot loading on a SharePoint 2010 environment, where the following error would appear: __“Error while loading modeldb and tempDB info for [SQLServerName].”__
 
-*	Fixed an issue where external users were displayed as a part of the Everyone group. Microsoft made changes in the behavior and governance of access by external users in Office 365, so we had to make some adjustments. You can find more information about these changes [here](https://support.microsoft.com/en-us/help/4089534/how-to-grant-the-everyone-claim-to-external-users-in-office-365).
+*	Fixed an issue where external users were displayed as a part of the Everyone group. Microsoft made changes in the behaviour and governance of access by external users in Office 365, so we had to make some adjustments. You can find more information about these changes [here](https://support.microsoft.com/en-us/help/4089534/how-to-grant-the-everyone-claim-to-external-users-in-office-365).
 
 *	Fixed an issue with the Best Practices Dashboard which would show incorrect data (e.g., a green checkmark, although the report itself had some errors).
 
-*   Fixed an issue with the Group Memberships filter on Permissions Reports. The __Don't Show Nested Groups Memebers__ option didn't work as it should and showed the same results as if the Show as Flat Structure option was selected. 
+*   Fixed an issue with the Group Memberships filter on Permissions Reports. The __Don't Show Nested Groups Members__ option didn't work as it should and showed the same results as if the Show as Flat Structure option was selected. 
 
-*   Fixed an issue with the export of the Storage Metrics report. The following error occurred while exporting: __System.NullReferenceException: Object reference not set to an instance of an object.__
+*   Fixed an issue with the export of the Storage Metrics report. The following error occurred while exporting: __"System.NullReferenceException: Object reference not set to an instance of an object."__
