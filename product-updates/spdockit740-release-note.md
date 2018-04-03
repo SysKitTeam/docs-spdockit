@@ -5,13 +5,15 @@ author: Igor Mesarić
 date: 26/02/2018
 ---
 
-SPDocKit 7.4.0 is a minor release that gives SPDocKit an additional facelift. It’s not just about looks: some interesting features were also added. Permission management received a set of awesome new possibilities, a new report was added, and numerous improvements were made. 
+SPDocKit 7.4.0 is a minor release that gives SPDocKit an additional facelift. It's not just about looks: some interesting features were also added. Permission management received a set of awesome new possibilities, a new report was added, and numerous improvements were made. 
 
 Give it a try and let us know what you think!
 
 __Product version:__ 7.4.0  
-__Build number:__ XXXX  
-__Release date:__ Apr 12, 2018
+__Build number:__ 9766  
+__Release date:__ Apr 04, 2018
+
+[Click here to download the new release.](https://www.spdockit.com/downloads/)
 
 ## Features
 * The __Grant to everything in this list/folder, even to items with unique permissions__ option, is now available when you grant the permissions directly . The principal will get the same permissions on all child objects, even if their permission inheritance is broken.
