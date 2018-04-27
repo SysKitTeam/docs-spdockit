@@ -23,7 +23,7 @@ Please note! Adjustments and settings you make using this wizard apply to the cu
    With the Load Depth option you can specify the depth to which you want to crawl your farm.
    
    We redesigned the load screen to be more user friendly, and added more loading options. There are 4 categories:  
-   * __Sharepoint__
+   * __SharePoint__
      * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
      * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
      * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
