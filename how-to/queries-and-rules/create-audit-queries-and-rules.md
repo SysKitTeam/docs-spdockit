@@ -10,7 +10,7 @@ From SPDocKit version 7.3.0 onwards, you can find new sample Queries and Rules i
 
 ## Audit Queries
 
-With the help of __Audit Settings__ Query samples, you can easily monitor the current Audit Settings on your site collections. The sample Queries mirror the site collection Audit Settings categories in Sharepoint, and therefore, three Audit Settings sample Queries are available: __Audit Log Trimming__, __Documents and Items__ and __Lists, Libraries, and Sites__.
+With the help of __Audit Settings__ Query samples, you can easily monitor the current Audit Settings on your site collections. The sample Queries mirror the site collection Audit Settings categories in SharePoint, and therefore, three Audit Settings sample Queries are available: __Audit Log Trimming__, __Documents and Items__ and __Lists, Libraries, and Sites__.
 
 When you run the Audit Settings sample Queries, each of them enables you to choose the target web application and/or site collections from which you want to retrieve the Audit Settings.
 
