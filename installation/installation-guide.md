@@ -33,7 +33,7 @@ The application can be installed on a workstation with a __Windows 7, Windows 8 
 If during the installation you encounter any problems and wish to enable logging to help you resolve the problems, you can start the installation using the command prompt with the following argument:
 * /l=”full path” will create a log file on a specified location.
 
-For example, if you want to place the log file named __spdockit_installation_log.txt__ in the __temp__ folder on the __C:\\__ drive, the full command would look like this:
+For example, if you want to place the log file named __spdockit_installation_log.txt__ in the __temp__ folder on the __C:\\__ drive, the full command will look like this:
 
 `SPDocKitSetup.exe /l="C:\temp\spdockit_installation_log.txt"`
 
