@@ -55,13 +55,13 @@ __Edit Permissions__ modifies assigned permission levels for a selected principa
   * __Scope__: currently selected SharePoint object with unique permissions
   * __Available On:__ SharePoint users, AD groups, SharePoint groups
 
-__Clone Permissions__ Source principal’s permissions will not be changed in any way by this wizard. Destination principals will lose all previously assigned permissions and acquire every directly given permission and SharePoint group memberships as the source principal.
+__Copy Permissions__ Source principal’s permissions will not be changed in any way by this wizard. Destination principals will lose all previously assigned permissions and acquire every directly given permission and SharePoint group memberships as the source principal.
 
   * __Scope:__ currently selected SharePoint object with unique permissions
   * __Available On:__ SharePoint user, Active Directory group
   * __Destination principals selection:__ SharePoint user, Active Directory group
 
-__Transfer Permissions__ Source principal’s permissions will lose all previously directly assigned permissions and group memberships. Destination principals will lose all previously assigned permissions and acquire every directly given permission and SharePoint group memberships as the source principal.
+__Move Permissions__ Source principal’s permissions will lose all previously directly assigned permissions and group memberships. Destination principals will lose all previously assigned permissions and acquire every directly given permission and SharePoint group memberships as the source principal.
 
   * __Scope:__ currently selected SharePoint object with unique permissions
   * __Available On:__ SharePoint user, Active Directory group
