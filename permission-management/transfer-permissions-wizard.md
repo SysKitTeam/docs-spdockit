@@ -1,11 +1,11 @@
 ---
-title: Move Permissions Wizard
-description: This article describes how to use SPDocKit to move all directly assigned SharePoint permissions and group memberships of one principal (SharePoint user or Active Directory group) to another. 
+title: Transfer Permissions Wizard
+description: This article describes how to use SPDocKit to transfer all directly assigned SharePoint permissions and group memberships of one principal (SharePoint user or Active Directory group) to another. 
 author: Mia Tomaić
 date: 25/5/2017
 ---
 
-This article explains how to use SPDocKit Move Permissions Wizard to move all directly assigned SharePoint permissions and group memberships of one principal (SharePoint user or Active Directory group) to another. 
+This article explains how to use SPDocKit Transfer Permissions Wizard to transfer all directly assigned SharePoint permissions and group memberships of one principal (SharePoint user or Active Directory group) to another. 
 
 **Wizard Scope**: farm, web application, site collection.  
 **Supported People Picker source selection**: user, Active Directory group.  
@@ -13,7 +13,7 @@ This article explains how to use SPDocKit Move Permissions Wizard to move all di
 
 **Please note!** Source principal’s permissions will lose all previously directly assigned permissions and group memberships. Destination principals will lose all previously assigned permissions and acquire every directly given permission and SharePoint group memberships as the source principal.
 
-1. Navigate to Permissions Explorer and click on the **Move Wizard** in the Wizards ribbon.
+1. Navigate to Permissions Explorer and click on the **Transfer Wizard** in the Wizards ribbon.
 
 2. In the **Target** step define which farm, web application or site collection will be a wizard scope.
 

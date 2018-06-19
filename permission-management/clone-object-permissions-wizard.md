@@ -1,13 +1,13 @@
 ---
-title: Copy Object Permissions Wizard
-description: This article describes how to use the Copy Object Permissions Wizard in order to match principal and group permissions on two different SharePoint objects.   
+title: Clone Object Permissions Wizard
+description: This article describes how to use the Clone Object Permissions Wizard in order to match principal and group permissions on two different SharePoint objects.   
 author: Igor Mesaric
 date: 2/3/2018
 ---
 
-This article explains how to use SPDocKit to easily copy SharePoint permissions from one object to another.
+This article explains how to use SPDocKit to easily clone SharePoint permissions from one object to another.
 
-The Copy Object Permissions Wizard enables you to copy the permissions between objects that are a part of different site collections or even different web applications.
+The Clone Object Permissions Wizard enables you to clone the permissions between objects that are a part of different site collections or even different web applications.
 
 **Please note!** Source object's permission inheritance must be broken in order to use this wizard. Source object permissions will not be affected by this wizard. Based on the options selected in the wizard, the destination principals and/or groups can lose all previously assigned permissions or acquire additional permissions. SharePoint groups of the target site collection can also be changed, which affects not only the target object but also all other objects to which the group is assigned.
 
@@ -15,7 +15,7 @@ The Copy Object Permissions Wizard enables you to copy the permissions between o
 **Supported source SharePoint Object selection**: all object levels from site collection root site to list item.  
 **Supported target SharePoint Object selection**: all object levels from site collection root site to list item.
 
-1.  Navigate to Permissions Explorer and select the source object in the object tree. Select the **Copy Object Permissions** options in the **Manage** ribbon.
+1.  Navigate to Permissions Explorer and select the source object in the object tree. Select the **Clone Object Permissions** options in the **Manage** ribbon.
 
 2. In the **Target selection** step select the target SharePoint object. 
 
