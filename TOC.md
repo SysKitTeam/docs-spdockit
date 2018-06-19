@@ -70,28 +70,6 @@ Dive into a detailed overview of what SPDocKit has to offer. Check out the avail
 ## [Queries and Rules Screen](queries-and-rules-screen.md)
 ## [Snapshots Screen](snapshots-screen.md)
 
-# [SPDocKit Insights](spdockit-insights)
-Monitor SharePoint performance via an interactive live dashboard and search through Windows Event Log, SharePoint ULS, and SQL logs across all farm servers.
-## [Quick Start Guide](insights-quick-start-guide.md)
-## [Configure SPDocKit Insights](configure-data-collection.md)
-## [How to Use SPDocKit Insights](use-spdockit-insights.md)
-## [Insights Home](insights-home.md)
-## [Query Insights Event Viewer](search-query-guide.md)
-## [Event Viewer Alerts](search-alerts.md)
-## [Manual Event Viewer Collection](manual-load.md)
-## [Insights Performance](insights-performance.md)
-## [Customize Insights Settings](customize-settings.md)
-## [Troubleshooting](insights-troubleshooting.md)
-
-# [SPDocKit Online](spdockit-spo)
-SPDocKit helps you keep SharePoint Online permissions under control. Connect to a SharePoint Online site to manage and explore permissions.
-## [Quick Start Guide](sharepoint-online.md)
-## [Connect to SharePoint Online](connect-to-spo.md)
-## [Take Snapshot of SharePoint Online](spo-snapshots.md)
-## [Office 365 Groups and Teams](office-365-groups-and-teams)
-### [Office 365 Management Actions](office-365-management-actions.md)
-### [Office 365 Management Wizards](office-365-management-wizard.md)
-
 # [Permission Management](permission-management)
 Permissions management has never been easier using SPDocKit actions and wizards. Take a look and learn how to use them! 
 ## [Manage Permissions Ribbon Actions](manage-permissions-ribbon-actions.md)
@@ -182,7 +160,6 @@ Even the best of us fail sometimes. We are working on it!
 ## [Custom features missing in reports](custom-features-missing.md)
 ## [Data retention not working properly](data-retention.md)
 ## [Distributed Cache loading issue](distributed-cache.md)
-## [SharePoint On-Premises Forms Authentication ](forms-authentication-on-prem.md)
 ## [Load crashes with NullReference exception](load-crashes-nullexception.md)
 ## [Available Windows updates](load-windows-updates.md)
 ## [Permissions Wizard issue](permissions-wizard-issue.md)
