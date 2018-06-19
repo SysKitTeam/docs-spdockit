@@ -65,9 +65,13 @@ These privileges will be granted automatically when a new SPDocKit database is c
 
 ### Workstation Requirements
 
-When running the application on a workstation, the SPDocKit user connecting to any SharePoint 2010, SharePoint 2013 or SharePoint 2016 site will need to be granted __Site Collection Administrator__ privileges for each site he is trying to explore and manage.
+When SPDocKit is installed on a workstation, only an existing database can be used. Also, the user running SPDocKit will need to be granted the __db_datareader__ rights on the existing SPDocKit database.
+To create a new database, please install SPDocKit on a SharePoint server. 
 
-To connect to an existing SPDocKit database from the workstation, the SPDocKit user will need to be granted the __db_datareader__ rights on SPDocKit database.
+To view and manage Live permissions in Permissions Explorer the user has to be a Site Collection Administrators of the Site Collection where the changes are made, otherwise, the following warning message appears: __'You do not have sufficient permissions to view this report'.__
+As a Farm Administrator, you can view and manage permissions on all Site Collections in a SharePoint farm.  
+
+Please note: To create a new snapshot, you need to use SPDocKit installed on a SharePoint server. 
 
 ### Error Message
 
