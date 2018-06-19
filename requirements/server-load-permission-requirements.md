@@ -93,7 +93,7 @@ __dbaccess__ permission is necessary in order to load information about the mode
       USE model  
       GO  
       EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
-```
+  ```
 
 ## SQL Always On reports load requirements
 ### Problem:
@@ -104,15 +104,18 @@ After taking a SPDocKit snapshot, Always On reports show the following warning:
 
 ### Why is this warning showing?
 
-To retrieve data for Always On reports, the user running SPDocKit needs to have the __sysadmin__ database role on the primary SQL Server of an Always On group. 
+It is possible that there are no Always On Groups configured in your SPDocKit farm.  Therefore, no data is available. If that is not the case, the user running SPDocKit probably doesn't have necessary permissions to execute required system stored procedures on SQL server.
+
+To retrieve data for Always On reports, the user running SPDocKit needs to have the __sysadmin__ database role on targeted SQL Server.
 
 ### Solution
 
-1. If needed, create a new user on the before mentioned SQL server.
+1. If needed, create a new user on the targeted SQL server.
 2. To add the user to the sysadmin role, execute the following T-SQL query:
 ```sql
-      TODO
-```
+      EXECUTE sp_addsrvrolemember 'DOMAIN\ACCOUNT', 'sysadmin';  
+      GO  
+  ```
 
 ## Database Permissions load requirements
 ### Problem:
