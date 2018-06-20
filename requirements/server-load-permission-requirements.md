@@ -87,13 +87,13 @@ __dbaccess__ permission is necessary in order to load information about the mode
       USE master  
       GO  
       GRANT VIEW SERVER STATE TO “DOMAIN\ACCOUNT”
-   ```   
+```   
 3. Execute following T-SQL query to add necessary permissions:
 ```sql
       USE model  
       GO  
       EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
-  ```
+```
 ## SQL Always On reports load requirements
 ### Problem:
 
@@ -114,7 +114,7 @@ To retrieve data for Always On reports, the user running SPDocKit needs to have 
 ```sql
       EXECUTE sp_addsrvrolemember 'DOMAIN\ACCOUNT', 'sysadmin';  
       GO  
-  ```
+```
 You can also make these changes by using the SQL __Server Management Studio__.
 Navigate to __Security__ > __Logins__ > __'SPDocKit user'__, right click and select __Properties__.
 Select the __Server Roles__ page, mark the __sysadmin__ checkbox under Server Roles, and click OK to apply changes.
