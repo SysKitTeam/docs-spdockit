@@ -110,12 +110,15 @@ To retrieve data for Always On reports, the user running SPDocKit needs to have 
 
 ### Solution
 
-1. Create a new user on the SQL server that will be used by SPDocKit.
+1. The user running the SPDocKit snapshot needs to be given a sysadmin role.
 2. To add the user to the sysadmin role, execute the following T-SQL query:
 ```sql
       EXECUTE sp_addsrvrolemember 'DOMAIN\ACCOUNT', 'sysadmin';  
       GO  
   ```
+You can also make these changes by using the SQL __Server Management Studio__.
+Navigate to __Security__ > __Logins__ > __'SPDocKit user'__, right click and select __Properties__.
+Select the __Server Roles__ page, mark the __sysadmin__ checkbox under Server Roles, and click OK to apply changes.
 
 ## Database Permissions load requirements
 ### Problem:
