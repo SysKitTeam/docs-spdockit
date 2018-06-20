@@ -94,6 +94,8 @@ __dbaccess__ permission is necessary in order to load information about the mode
       GO  
       EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
 ```
+<br>
+
 ## SQL Always On reports load requirements
 ### Problem:
 
