@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 16/5/2017
 ---
 
-### Problem
+### Problem:
 
 While trying to load SharePoint farm settings with SPDocKit I received:
 
@@ -93,7 +93,32 @@ __dbaccess__ permission is necessary in order to load information about the mode
       USE model  
       GO  
       EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
-```
+  ```
+
+## SQL Always On reports load requirements
+### Problem:
+
+After taking a SPDocKit snapshot, Always On reports show the following warning:
+
+> There is no data to show for this report.
+
+### Why is this warning showing?
+
+It is possible that there are no Always On Groups configured in your SPDocKit farm.  Therefore, no data is available. If that is not the case, the user running SPDocKit probably doesn't have necessary permissions to execute required system stored procedures on SQL server.
+
+To retrieve data for Always On reports, the user running SPDocKit needs to have the __sysadmin__ database role on targeted SQL Server.
+
+### Solution
+
+1. The user running the SPDocKit snapshot needs to be given a sysadmin role.
+2. To add the user to the sysadmin role, execute the following T-SQL query:
+```sql
+      EXECUTE sp_addsrvrolemember 'DOMAIN\ACCOUNT', 'sysadmin';  
+      GO  
+  ```
+You can also make these changes by using the SQL __Server Management Studio__.
+Navigate to __Security__ > __Logins__ > __'SPDocKit user'__, right click and select __Properties__.
+Select the __Server Roles__ page, mark the __sysadmin__ checkbox under Server Roles, and click OK to apply changes.
 
 ## Database Permissions load requirements
 ### Problem:
