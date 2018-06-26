@@ -84,7 +84,13 @@ __Copy to group__ adds a selected principal to a SharePoint group, but keeps his
   * __Scope:__ currently selected SharePoint object with unique permissions
   * __Available On:__ SharePoint user, Active Directory group
 
-Please note! Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
+  Please note! Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
+
+__Copy Object Permissions__ enables you to copy the permissions between objects that are a part of different site collections or even different web applications. Source object permissions will not be affected by this wizard. Based on the options selected in the wizard, the destination principals and/or groups can lose all previously assigned permissions or acquire additional permissions. SharePoint groups of the target site collection can also be changed, which affects not only the target object but also all other objects to which the group is assigned. Where existing, the permission inheritance of target object will be broken in order to apply new role assignments.
+
+  * __Scope:__ currently selected SharePoint object with unique permissions  
+  * __Available On:__ all objects (from site collection root site to list item)  
+  * __Destination object selection:__ all objects (from site collection root site to list item) belonging to the same or different site collection/web application
 
 ### Remove
 

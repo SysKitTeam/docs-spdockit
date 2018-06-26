@@ -44,7 +44,6 @@ Activate your fully featured version and explore all the amazing reports.
 Explore all possible configuration scenarios and choose the right one for your environment and license. 
 ## [Configure SPDocKit](configure-spdockit.md)
 ## [Configure SPDocKit Database](configure-spdockit-database.md)
-## [Configure SPDocKit LocalDB](configure-localdb.md)
 ## [Configure Multiple Farms to Use the Same SPDocKit Database](configure-multiple-farms-to-use-same-spdockit-database.md)
 ## [Import and Export SPDocKit Settings](import-and-export-spdockit-settings.md)
 ## [Configure SPDocKit on a Workstation](configure-spdockit-on-a-workstation.md)
@@ -125,8 +124,6 @@ When you get stuck trying to make magic happen, these guides will tell you the s
 ## [Role Based Security](role-based-security)
 ### [Manage Roles](manage-roles.md)
 ### [Manage Users](manage-users.md)
-## [Workstation](workstation)
-### [SPDocKit on a Workstation](spdockit-workstation.md)
 
 # [FAQ](faq)
 These are some of the most common questions and answers about SPDocKit. If you cannot find the answer to your problem, please contact us.

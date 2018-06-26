@@ -13,7 +13,7 @@ This screen will display snapshots found in SPDocKit database and snapshots fold
 
 The following commands are available:
 
-* __Take Snapshot__ – take a manual snapshot of your farm, or create a snapshot in the background using SPDocKit Service.
+* __Take Snapshot__ – take a manual snapshot of your farm, or create a snapshot in the background using SPDocKit Service. Available on a SharePoint server only.
 * __Open__ – open currently selected snapshot.
 * __Delete__– this button will delete the currently selected snapshot from previously defined snapshot locations. Snapshots saved to a disk location will be deleted only if they are from the local farm. Snapshots saved in the SPDocKit database will be deleted regardless of the farm they are created on.
 * __Import__ – use this button to add a snapshot to this list from any other location. Once that the snapshot is imported, it remains here until the user removes it.

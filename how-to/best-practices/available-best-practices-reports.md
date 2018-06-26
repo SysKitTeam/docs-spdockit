@@ -21,6 +21,5 @@ With each new release, Best Practices are extended with new reports. Our tool co
 * Site Collection Health
 * Updates
 * Web Applications
-* Reports Updates
 
 We will regularly update all articles delivered with this product, but please note that the guidance information might change frequently, so we encourage you to check the official resources for changes. Below every article [in the library](https://docs.syskit.com/bp/) you will find all relevant and official articles listed in the Additional information section.
