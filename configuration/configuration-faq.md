@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 22/5/2017
 ---
 ### What is the SPDocKit Service?
-The SPDocKit Service is a Windows Service created by SPDocKit used to execute automatic jobs on a schedule. The automatic jobs the service executes are create snapshots, sending of subscription and alerts, index reorganization, data retention and executing and sending of queries and rules.
+The SPDocKit Service is a Windows Service created by SPDocKit used to execute automatic jobs on a schedule. The automatic jobs the service executes are creating snapshots, sending of subscription and alerts, index reorganization, data retention and executing and sending of queries and rules.
 
 ### Can these tasks still be executed without the SPDocKit Service?
 If the service is not configured, you can still execute these actions manually, except for the index reorganization job.
@@ -21,3 +21,6 @@ Note: If there is an existing SPDocKit database you can connect to it.
 ### Can I run the SPDocKit Service as local system instead of an AD user?
 Unfortunately, you can't use local system account as the SPDocKit Service account. The service account needs to have specific rights which can't be given to a local system account.
 See the [user permission requirements.](#internal/requirements/sharepoint-on-premises-user-permissions-requirements)
+
+### Can I run the SPDocKit Service on a workstation?
+Unfortunately, the SPDocKit Service can be used on a SharePoint server only.

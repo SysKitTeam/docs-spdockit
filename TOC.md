@@ -44,7 +44,6 @@ Activate your fully featured version and explore all the amazing reports.
 Explore all possible configuration scenarios and choose the right one for your environment and license. 
 ## [Configure SPDocKit](configure-spdockit.md)
 ## [Configure SPDocKit Database](configure-spdockit-database.md)
-## [Configure SPDocKit LocalDB](configure-localdb.md)
 ## [Configure Multiple Farms to Use the Same SPDocKit Database](configure-multiple-farms-to-use-same-spdockit-database.md)
 ## [Import and Export SPDocKit Settings](import-and-export-spdockit-settings.md)
 ## [Configure SPDocKit on a Workstation](configure-spdockit-on-a-workstation.md)
@@ -69,28 +68,6 @@ Dive into a detailed overview of what SPDocKit has to offer. Check out the avail
 ## [Best Practices Screen](best-practices-screen.md)
 ## [Queries and Rules Screen](queries-and-rules-screen.md)
 ## [Snapshots Screen](snapshots-screen.md)
-
-# [SPDocKit Insights](spdockit-insights)
-Monitor SharePoint performance via an interactive live dashboard and search through Windows Event Log, SharePoint ULS, and SQL logs across all farm servers.
-## [Quick Start Guide](insights-quick-start-guide.md)
-## [Configure SPDocKit Insights](configure-data-collection.md)
-## [How to Use SPDocKit Insights](use-spdockit-insights.md)
-## [Insights Home](insights-home.md)
-## [Query Insights Event Viewer](search-query-guide.md)
-## [Event Viewer Alerts](search-alerts.md)
-## [Manual Event Viewer Collection](manual-load.md)
-## [Insights Performance](insights-performance.md)
-## [Customize Insights Settings](customize-settings.md)
-## [Troubleshooting](insights-troubleshooting.md)
-
-# [SPDocKit Online](spdockit-spo)
-SPDocKit helps you keep SharePoint Online permissions under control. Connect to a SharePoint Online site to manage and explore permissions.
-## [Quick Start Guide](sharepoint-online.md)
-## [Connect to SharePoint Online](connect-to-spo.md)
-## [Take Snapshot of SharePoint Online](spo-snapshots.md)
-## [Office 365 Groups and Teams](office-365-groups-and-teams)
-### [Office 365 Management Actions](office-365-management-actions.md)
-### [Office 365 Management Wizards](office-365-management-wizard.md)
 
 # [Permission Management](permission-management)
 Permissions management has never been easier using SPDocKit actions and wizards. Take a look and learn how to use them! 
@@ -147,8 +124,6 @@ When you get stuck trying to make magic happen, these guides will tell you the s
 ## [Role Based Security](role-based-security)
 ### [Manage Roles](manage-roles.md)
 ### [Manage Users](manage-users.md)
-## [Workstation](workstation)
-### [SPDocKit on a Workstation](spdockit-workstation.md)
 
 # [FAQ](faq)
 These are some of the most common questions and answers about SPDocKit. If you cannot find the answer to your problem, please contact us.
@@ -182,7 +157,6 @@ Even the best of us fail sometimes. We are working on it!
 ## [Custom features missing in reports](custom-features-missing.md)
 ## [Data retention not working properly](data-retention.md)
 ## [Distributed Cache loading issue](distributed-cache.md)
-## [SharePoint On-Premises Forms Authentication ](forms-authentication-on-prem.md)
 ## [Load crashes with NullReference exception](load-crashes-nullexception.md)
 ## [Available Windows updates](load-windows-updates.md)
 ## [Permissions Wizard issue](permissions-wizard-issue.md)

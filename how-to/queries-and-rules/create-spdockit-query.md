@@ -18,15 +18,24 @@ This section describes how to use the SPDocKit Query wizard to create a query re
 
    If the SPDocKit Service is not running, a warning bar will appear. Click __Configure__ to enable the SPDocKit Service.  
 6. Under Filters select the Checked Out To list property, click the underlined value “specific” and choose the Is Not Empty condition. Click Next to continue.  
-7. Define the extent to which this query should be enforced across your SharePoint farm. Depending on your selected query scope in the first step of this wizard, you can target an entire __web application, specific site collections, subsites, or lists and list items__. Each time the query is executed, it will list all files that are currently checked out to someone on the specified scope.
+7. Define the query targets. Depending on your selected query scope in the first step of this wizard, you can target an entire __web application, specific site collections, subsites, or lists and list items__. Each time the query is executed, it will list all files that are currently checked out to someone on the specified scope.
 
    If you have chosen the manual execution in the previous steps, you can skip this step – select the __Skip target selection; ask me on execution__ check box. You will be able to choose the desired scope each time you start the query. Click Finish to run your query.
 
-   It is also possible to send the query results to specified email addresses in one of the three available formats: __PDF, DOCX, XLSX__. This will be sent for both manual and automatic execution, each time a query is executed.
+   It is also possible to send the query results to specified email addresses in one of the three available formats: __XLSX, DOCX, PDF__. This will be sent for both manual and automatic execution, each time a query is executed.
 
 8. Run this query right away or wait for the scheduled time for the query to run automatically, after which you can explore the results. Each time you or the SPDocKit Service executes a query definition, a history record is created. Click on the desired record and explore the query results by date.
 
 
 #### Tips & tricks
 
-SPDocKit comes with a couple of predefined manual queries: Checked Out Files, Document Libraries Without Check Out, and Document Libraries Without Versioning. If you wish to run them, you will just be required to select a query scope. Also, you can edit the query definitions to better suit your needs.
+SPDocKit comes with a couple of predefined manual queries grouped into two folders.
+
+The __Samples__ folder contains following queries: __Checked Out Files__, __Document Libraries Without Check Out__, and __Document Libraries Without Versioning__. 
+
+The __Audit Settings__ folder contains following queries: __Audit Log Trimming__, __Documents and Items__, and __Lists, Libraries, and Sites__.
+
+
+If you wish to run them, you will just be required to select a query scope. Also, you can edit the query definitions to better suit your needs.
+
+To learn more about the __Audit settings__ queries, please check out the [following article](#internal/how-to/queries-and-rules/create-audit-queries-and-rules/).

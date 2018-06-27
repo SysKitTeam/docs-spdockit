@@ -6,8 +6,8 @@ date: 24/5/2017
 ---
 The Farm Explorer contains multiple report groups. Take a farm snapshot in order to document all available configuration settings.
 
-### Farm configuration
-Farm configuration reports contain information about farm topology, site topology, services on servers, application management, security, monitoring and other settings gathered from the SharePoint Central Administration.
+### Farm
+Farm reports contain information about farm topology, site topology, services on servers, application management, security, monitoring and other settings gathered from the SharePoint Central Administration.
 
 ### Servers in farm
 This section provides your SharePoint administrators with information about servers that are part of the SharePoint farm. 
@@ -21,7 +21,7 @@ The following information is provided:
 Make sure to check the __Installed Programs and Available Updates__ option when taking a snapshot of your farm in order to document and explore these settings.
 
 ### IIS reports
-IIS reports provide information about application pools, IIS sites and other site settings such as bidings, IIS authentication, SSL settings and more.  
+IIS reports provide information about application pools, IIS sites and other site settings such as bindings, IIS authentication, SSL settings and more.  
 
 Make sure to check in __IIS Settings information__ option when taking a snapshot of your farm in order to explore and document these settings.
 

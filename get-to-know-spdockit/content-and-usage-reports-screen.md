@@ -28,7 +28,7 @@ __List of Site Visitors__ – shows a list of all visitors on the selected site.
 ### Feature reports
 __Features List__ – shows all features present on a SharePoint farm. It also specifies whether the feature is custom or default, and its scope. 
 
-#### Feature activation
+__Feature activations__
  * __Activations__ – displays a list of SharePoint objects on which a specific feature is activated.
  * __Activations by Edition__ – displays all features on the selected site collections, grouped by SharePoint edition.  
 
@@ -37,7 +37,7 @@ __Feature Usage by Edition__ – shows the usage of feature licenses per SharePo
 __Feature Usage by Scope__ – checks license compliance for custom features at different farm scopes (Web application, site collection, or subsite). To see a complete report, define the number of available custom feature licenses using [License Management](#internal/get-to-know-spdockit/backstage-screen/license-management).
 
 ### Structure reports
-__Site Structure__ – shows a hierarchical structure of a selected site collection down to the list item level. Content Display Level filter allows you to change the report’s granularity.
+__SharePoint Structure__ – shows a hierarchical structure of selected site collections down to the list item level. The Include Content filter allows you to change the report’s granularity.
 
 ### SPCAF reports
 SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It provides detailed information about a SharePoint customization’s (WSPs or Add-ins) code quality, dependencies, and complexity, among other things.  

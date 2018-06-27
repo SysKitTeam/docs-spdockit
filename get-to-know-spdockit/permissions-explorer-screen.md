@@ -20,7 +20,7 @@ Use SPDocKit permission wizards to easily grant, edit or remove SharePoint permi
 ## Compare ribbon
 The following buttons are available in the Compare ribbon:
 
-* __Compare to Parent__ – available for sites with broken permissions only. Choose this button to compare differences between the selected securable object and it's parent.    
+* __Compare to Parent__ – available for objects with broken permissions only. Choose this button to compare differences between the selected securable object and it's parent.    
 * __Compare to Previous__ – available when there are previous permission records for the selected securable object. Explore how permissions for a selected securable object have changed over time.  
 * __Advanced Compare__ – to compare the selected securable object to any other securable object from historical loading info.
 
