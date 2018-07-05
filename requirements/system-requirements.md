@@ -28,7 +28,7 @@ This article lists the minimum hardware and software requirements for SPDocKit. 
   * CPU – any standard server CPU
   * Memory – up to 200 MB RAM while idle, up to 1GB RAM during the data load
   * Disk – 200 MB disk space
-  * Display - 1366 x 768
+  * Display – 1366 x 768
   
 ### Running on a workstation
 
@@ -40,7 +40,7 @@ From version 5.2., SPDocKit installed on a workstation also supports connecting 
   * CPU – any Windows 7, Windows 8 or Windows 10 capable CPU
   * Memory – up to 200 MB RAM while idle
   * Disk – 100 MB disk space
-  * Display - 1366 x 768
+  * Display – 1366 x 768
 
 ### Running SPDocKit Insights Agent
 
@@ -58,7 +58,7 @@ Please note that we advise you __not to install the SPDocKit Insights Agent on a
   * CPU – any standard server CPU
   * Memory – up to 500 MB RAM
   * Installation – 100 MB disk space
-  * Display - 1366 x 768
+  * Display – 1366 x 768
   * Index – we recommend minimum of 200GB disk space required to store the index containing all the data (ULS, SQL logs and Windows Event logs). However, this largely depends on your infrastructure and how big your farm/s are. It is recommended to change the index location to a secondary drive.
 
 ## SharePoint Online
@@ -75,7 +75,7 @@ From version 7.0, SPDocKit offers support for SharePoint Online. SPDocKit Online
   * CPU – any standard server CPU
   * Memory – up to 500 MB RAM
   * Installation – 100 MB disk space 
-  * Display - 1366 x 768
+  * Display – 1366 x 768
 
 User must have [proper privileges](#internal/requirements/sharepoint-online-user-permissions-requirements/) to run the application.
 
