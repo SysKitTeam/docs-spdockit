@@ -28,6 +28,7 @@ This article lists the minimum hardware and software requirements for SPDocKit. 
   * CPU – any standard server CPU
   * Memory – up to 200 MB RAM while idle, up to 1GB RAM during the data load
   * Disk – 200 MB disk space
+  * Display – 1366 x 768
   
 ## Running on a workstation
 
@@ -39,6 +40,7 @@ From version 5.2., SPDocKit installed on a workstation also supports real-time v
   * CPU – any Windows 7, Windows 8 or Windows 10 capable CPU
   * Memory – up to 200 MB RAM while idle
   * Disk – 100 MB disk space
+  * Display – 1366 x 768
 
 ### Learn more
 * [Installation Guide](#internal/installation/installation-guide)
