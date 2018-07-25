@@ -24,7 +24,7 @@ The top menu's __Comments__ ribbon enables you to easily __Add__, __Edit__, and 
 
 To view all comments you have created, navigate to the top menu's __Comments__ ribbon and select the __Go to Report__ option. The __All Comments__ report opens with the columns __Author__, __Comment__, and __Last Modified__ displayed and grouped by __Path__. When you double-click a comment from the grid, associated Farm Explorer Report or Snapshot to which the comment belongs is displayed. The same action can also be done by clicking the __Go to Comment__ button in the top menu __Comments__ ribbon.  
 
-The __All Comments__ report can easily be exported by selecting the __Export as PDF/XLSX/DOCX__ option from the __Home__ ribbon in the top menu.
+The __All Comments__ report can easily be exported by selecting the __Export__ option from the __Home__ ribbon in the top menu.
 
 To include your comments in the generated documentation navigate to the __Backstage__ and select __Options__ on the __Configuration__ screen. Under __Report Options__ check the __Include comments in documentation__ option. Your comments will now be visible in the generated documentation. 
 
@@ -42,7 +42,7 @@ __Add Tag__ and __Delete Tag__ options are also available in the context menu wh
 To view all created tags navigate to __Snapshots__ section and select the __Tagged Objects__ report. 
 Information about all tagged objects is displayed in the __Object__, __Object Type__ and __Object Url__ columns which, by default, are grouped by __Tag__.  The __Tagged Objects__ report can also be accessed directly from the __Permissions Explorer__ by selecting the __Go to Report__ option in the top menu's __Tags__ ribbon. 
 
-The __Tagged Objects__ report can easily be exported by selecting the __Export as PDF/XLSX/DOCX__ option from the __Home__ ribbon in the top menu.
+The __Tagged Objects__ report can easily be exported by selecting the __Export__ option from the __Home__ ribbon in the top menu.
 
 Each of the tagged objects can easily be accessed by selecting the appropriate row in the __Tagged Objects__ report and clicking the __Go to Object__ button in the top menu __Tags__ ribbon.
 

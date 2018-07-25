@@ -14,19 +14,19 @@ If you wish to use __Subscriptions and Alerts__ feature, please make sure you co
 
 1. Type in the subscription name and select the schedule type which defines how often you want to receive this subscription. If you have more than one farm in SPDocKit database, you can select to create a subscription for non-local farms as well. These subscriptions will not be sent automatically unless the SPDocKit Service is configured on the selected farm as well.
 
-     Available delivery periods, are:
+    Available delivery periods, are:
 
     * __Immediately after service snapshot__ – the subscription will be sent immediately after the SPDocKit Service finishes creating farm snapshot.
-   * __Daily__ – the subscription will be sent each day.
-   * __Weekly__ – the subscription will be sent each Monday (you can change the default day through the subscription settings tab in Options dialog).
-   * __Monthly__ – the subscription will be sent on the first day of each month.
-   * __Quarterly__ –  the subscription will be sent on the first day of each quarter.
+    * __Daily__ – the subscription will be sent each day.
+    * __Weekly__ – the subscription will be sent each Monday (you can change the default day through the subscription settings tab in Options dialog).
+    * __Monthly__ – the subscription will be sent on the first day of each month.
+    * __Quarterly__ –  the subscription will be sent on the first day of each quarter.
 
-   Under the Status section you can see the following information:
+    Under the Status section you can see the following information:
 
-   * Whether SPDocKit Service is running on the selected farm or not. This is required because SPDocKit service sends the automatic subscriptions.
-   * Whether automatic subscriptions are enabled on the selected farm or not.
-   * Last sent on – information on when was the last time this subscription was sent. If this is an entirely new subscription, it will say Never.
+    * Whether SPDocKit Service is running on the selected farm or not. This is required because SPDocKit service sends the automatic subscriptions.
+    * Whether automatic subscriptions are enabled on the selected farm or not.
+    * Last run time – information on when was the last time this subscription was sent. If this is an entirely new subscription, it will say Never.
 
 1. Go to the Delivery tab and set the delivery method you would like to use.
 
@@ -40,7 +40,7 @@ If you wish to use __Subscriptions and Alerts__ feature, please make sure you co
 
        You can select all three delivery methods. Scheduled reports will be sent to the email addresses you provided and uploaded to the File Share and SharePoint document library.
 
-1. Go to the Reports tab and click __Add Report__ to select which reports you wish to subscribe to. Choose a report from one of the main groups such as the Documentation, Content Usage, Feature reports, Group Memberships, Permissions, Structure, Best Practices and Farm Explorer reports.
+1. Go to the Reports tab and click __Add Report__ to select which reports you wish to subscribe to. Choose a report from one of the main groups such as the Documentation, Permissions Reports, Content & Usage Reports, Best Practices, and Farm Explorer reports.
 
 1. For certain reports, you will have to adjust filters to complete the report configuration. The filters will define the data displayed in the report. Click OK to add the selected report to the subscription.
 To define the preferred date format, use curly brackets. Only culture-invariant formats are supported, for example: __{MM-dd-yyyy}, {dd-MM-yyyy}, or {MM-yyyyy-dd}__.

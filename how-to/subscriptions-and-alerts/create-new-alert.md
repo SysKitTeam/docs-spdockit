@@ -16,7 +16,7 @@ Instructions:
 
 1. When the Manager opens, click __New Alert__. In the General tab, type in the alert name. Under Status section you can see the following information:
    * Whether automatic subscriptions are enabled on the selected farm or not.
-   * Last sent on – information on when was the last time this alert was sent. If this is an entirely new alert, it will say Never.
+   * Last run time – information on when was the last time this alert was sent. If this is an entirely new alert, it will say Never.
 
 1. Go to the Delivery tab and set the delivery method you would like to use.
 

@@ -23,6 +23,17 @@ The following commands are available:
 * __Options__ – read more about the [Options Wizard](#internal/get-to-know-spdockit/backstage-screen/options-wizard/).
 * __Save XML Configuration__ – [wizard that helps you generate an AutoSPInstaller XML file](#internal/how-to/sharepoint-farm-snapshots/generate-autospinstaller-xml-configuration-file/) based on the currently opened snapshot.
 
+## Comments ribbon
+The following commands are available:
+
+* __Show__ - enable or disable comments.
+* __Go to Report__ - opens the __All Comments__ report.
+* __Add__ - allows you to add a new comment on the selected row.
+* __Edit__ - enables you to edit existing comments.
+* __Delete__ - enables you to delete existing comments. 
+
+For more information about comments please read the [following article](#internal/how-to/reports/comments-and-tags/).
+
 ## View ribbon
 The following commands are available:
 

@@ -33,4 +33,8 @@ This section describes how to use the SPDocKit Rule wizard to create a rule to h
 
 #### Tips & tricks
 
-SPDocKit comes with a couple of predefined manual rules: Document Library Checkout Required and Document Library Version History. Also, you can edit their definitions to make them better suit your needs.
+SPDocKit comes with a couple of predefined manual rules: __Audit Editing Users and Permissions__, __Document Library Checkout Required__ and __Document Library Version History__. 
+
+Also, you can edit their definitions to make them better suit your needs.
+
+To learn more about the __Audit settings__ rules, please check out the [following article](#internal/how-to/queries-and-rules/create-audit-queries-and-rules/).
