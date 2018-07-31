@@ -6,7 +6,7 @@ date: 14/11/2017
 ---
 
 
-**_<span style="color:red">As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is SysKit Security Manager.</span>_**</br>
+**_<span style="color:red">As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is [SysKit Security Manager](https://www.syskit.com/products/security-manager/).</span>_**</br>
 **_<span style="color:red">For instructions on the upgrade path or any other questions contact us at [support@syskit.com](mailto:support@syskit.com).</span>_**
 
 This article describes the Groups and Teams general report, as well as the report for each group in particular.

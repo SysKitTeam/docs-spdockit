@@ -5,7 +5,8 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-**_As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is SysKit Security Manager. For instructions on the upgrade path or any other questions contact us at [support@syskit.com](mailto:support@syskit.com)._**
+**_<span style="color:red">As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is [SysKit Security Manager](https://www.syskit.com/products/security-manager/).</span>_**</br>
+**_<span style="color:red">For instructions on the upgrade path or any other questions contact us at [support@syskit.com](mailto:support@syskit.com).</span>_**
 
 This article will explain how to take a snapshot of your SPO Tenant. Please check the [feature availability by license type](https://www.spdockit.com/orders/#online).
 Read more about the [user permissions](#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly on a workstation.  
