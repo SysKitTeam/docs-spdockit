@@ -5,6 +5,9 @@ author: Tomislav Sirovec
 date: 14/11/2017
 ---
 
+
+**_As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is SysKit Security Manager. For instructions on the upgrade path or any other questions contact us at [support@syskit.com](mailto:support@syskit.com)._**
+
 This article describes the Groups and Teams general report, as well as the report for each group in particular.
 The data on the main report that we provide about the Office 365 Groups and Teams are as follows: Display Name (of the O365 group), Email, Security Enabled (False/True), Visibility of the group (Private/Public), Proxy Addresses and Created On.
 Also, it describes available SPDocKit Management actions and wizards for Office 365 Groups and Teams.  

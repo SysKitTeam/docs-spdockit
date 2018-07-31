@@ -5,6 +5,8 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
+**_As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is SysKit Security Manager. For instructions on the upgrade path or any other questions contact us at [support@syskit.com](mailto:support@syskit.com)._**
+
 SPDocKit 7 brings extended SharePoint Online support. Apart from the live explorer we had from previous versions, you can now take snapshots of your SharePoint Online environment and use it later to view all permission reports historically.
 
 Please check the [feature availability by license type](https://www.spdockit.com/orders/#online).

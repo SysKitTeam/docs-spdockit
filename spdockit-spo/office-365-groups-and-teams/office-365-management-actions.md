@@ -5,6 +5,8 @@ author: Tomislav Sirovec
 date: 14/11/2017
 ---
 
+**_As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is SysKit Security Manager. For instructions on the upgrade path or any other questions contact us at [support@syskit.com](mailto:support@syskit.com)._**
+
 This article explains how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object.  
 Management buttons are enabled in __live mode__ of Permissions Explorer, when Groups and Teams node is selected as well as any specific group bellow the node.
 

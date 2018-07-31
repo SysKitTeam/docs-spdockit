@@ -5,6 +5,8 @@ author: Tomislav Sirovec
 date: 14/11/2017
 ---
 
+**_As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is SysKit Security Manager. For instructions on the upgrade path or any other questions contact us at [support@syskit.com](mailto:support@syskit.com)._**
+
 This article describes how to use SPDocKit's Groups and Membership Office 365 Wizards.  
 Wizard buttons are visible only in __live mode__ of Permissions Explorer and when either Groups and Teams node is selected or a specific group.  
 Wizard Scope: entire tenant

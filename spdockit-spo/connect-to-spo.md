@@ -4,6 +4,9 @@ description: This article describes how to connect to your Office 365 tenant or 
 author: Tomislav Sirovec
 date: 25/5/2017
 ---
+
+**_As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is SysKit Security Manager. For instructions on the upgrade path or any other questions contact us at [support@syskit.com](mailto:support@syskit.com)._**
+
 Please check the [feature availability by license type](https://www.spdockit.com/orders/#online).
 
 In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](#internal/configuration/configure-spdockit-database) or a [LocalDB instance](#internal/configuration/configure-localdb) that is shipped with SPDocKit.
