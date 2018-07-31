@@ -4,6 +4,10 @@ author: Matija Hanzic
 date: 17/5/2017
 description: This article lists required privileges to load SharePoint Online settings with tutorial how to acquire those privileges.
 --- 
+
+**_<span style="color:red">As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is [SysKit Security Manager](https://www.syskit.com/products/security-manager/).</span>_**</br>
+**_<span style="color:red">For instructions on the upgrade path or any other questions contact us at [support@syskit.com](mailto:support@syskit.com).</span>_**
+
 To run SPDocKit and to retrieve all SharePoint Online settings you want to document, the user running the application and SPDocKit service account needs to have proper privileges. Here is the list of required privileges to load SharePoint Online settings:
 
 1. __Office 365 Global Administrator__ account. Required to retrieve SharePoint Online tenant level settings.*
