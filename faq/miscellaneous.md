@@ -13,12 +13,6 @@ Click the **Generate button**. Download **all of** the files, copy them to the s
 
 After you copy these files, please restart the application in order to apply the changes.
 
-## I am getting "The service did not respond to the start or control request in a timely fashion".
-
-This is the issue on servers that don’t have access to the Internet. The Windows server will try to check the code signing certificate that was used to sign the application executables. Allow Internet access on the server, then start the service and the issue is solved. Please note that you need to do this only once — the first time Windows will check the SysKit code signing certificate and from then on it will work fine.
-
-If this is not possible [contact us](https://www.spdockit.com/support/contact-us/) and we will provide you with a certificate and instructions on how to import it to your problematic server.
-
 ## I am getting "This product cannot be activated since it is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator".
 
 ### Problem:
