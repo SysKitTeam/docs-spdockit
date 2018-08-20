@@ -3,16 +3,6 @@ title: Table of Contents
 private: true
 ---
 
-# [Product Updates](product-updates)
-Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
-## [SPDocKit 7.4.0](spdockit740-release-note.md)
-## [SPDocKit 7.3.0](spdockit730-release-note.md)
-## [SPDocKit 7.2.1](spdockit721-release-note.md)
-## [SPDocKit 7.2.0](spdockit720-release-note.md)
-## [SPDocKit 7.1.0](spdockit710-release-note.md)
-## [SPDocKit 7.0.1](spdockit701-release-note.md)
-## [SPDocKit 7.0.0](spdockit7-release-note.md)
-
 # [Requirements](requirements)
 Make sure that your environment and the account used for the application meet SPDocKit requirements. 
 ## [Supported SharePoint Editions](supported-sharepoint-editions.md)
@@ -22,111 +12,95 @@ Make sure that your environment and the account used for the application meet SP
 ## [Project Server Load Requirements](project-server-requirements.md)
 ## [Search Service Application Requirements](search-service-requirements.md)
 ## [User Profile Service Application Requirements](user-profile-service-requirements.md)
-## [Requirements FAQ](requirements-faq.md)
 
 # [Installation](installation)
 Learn how to install SPDocKit or update it to the latest version. 
-## [Installation Guide](installation-guide.md)
+## [Install SPDocKit](installation-guide.md)
 ## [Upgrade to the Latest Version](upgrade-to-the-latest-version.md)
-## [Uninstallation Guide](uninstallation-guide.md)
-## [Installation FAQ](installation-faq.md)
+## [Uninstall SPDocKit](uninstallation-guide.md)
 
 # [Activation](activation)
 Activate your fully featured version and explore all the amazing reports. 
-## [Activation Privacy Statement](activation-privacy-statement.md)
-## [Online Activation](online-activation.md)
-## [Offline Activation](offline-activation.md)
+## [Activate SPDocKit](activate-spdockit.md)
 ## [Manage License](manage-license.md)
-## [Activation FAQ](activation-faq.md)
-## [Consultant License FAQ](consultant-license-faq.md)
+## [Activation Privacy Statement](activation-privacy-statement.md)
 
 # [Configuration](configuration)
 Explore all possible configuration scenarios and choose the right one for your environment and license. 
 ## [Configure SPDocKit](configure-spdockit.md)
 ## [Configure SPDocKit Database](configure-spdockit-database.md)
-## [Configure Multiple Farms to Use the Same SPDocKit Database](configure-multiple-farms-to-use-same-spdockit-database.md)
 ## [Import and Export SPDocKit Settings](import-and-export-spdockit-settings.md)
-## [Configure SPDocKit on a Workstation](configure-spdockit-on-a-workstation.md)
-## [Configure Multiple databases on a Workstation](configure-multiple-databases-on-a-workstation.md)
-## [Configuration FAQ](configuration-faq.md)
 
-# [Get to Know SPDocKit](get-to-know-spdockit)
-Dive into a detailed overview of what SPDocKit has to offer. Check out the available report types and feature sets. 
-## [Backstage Screen](backstage-screen)
-### [Subscriptions and Alerts](subscriptions-and-alerts.md)
-### [Options Wizard](options-wizard.md)
-### [License Management](license-management.md)
-### [Compare Wizard](compare-wizard.md)
-### [Role Based Security](role-based-security.md)
-## [Farm Explorer Screen](farm-explorer-screen)
-### [Farm Explorer Reports](farm-explorer-reports.md)
-### [Passwords and Product keys](passwords-and-product-keys.md)
-## [Site Explorer Screen](site-explorer-screen.md)
-## [Permissions Explorer Screen](permissions-explorer-screen.md)
-## [Permissions Reports Screen](permissions-reports-screen.md)
-## [Content and Usage Reports Screen](content-and-usage-reports-screen.md)
-## [Best Practices Screen](best-practices-screen.md)
-## [Queries and Rules Screen](queries-and-rules-screen.md)
+# Create SharePoint Farm Snapshots
 ## [Snapshots Screen](snapshots-screen.md)
+## [Manual Snapshots](manual-snapshots.md)
+## [Automatic Snapshots](automatic-snapshots.md)
 
-# [Permission Management](permission-management)
-Permissions management has never been easier using SPDocKit actions and wizards. Take a look and learn how to use them! 
-## [Manage Permissions Ribbon Actions](manage-permissions-ribbon-actions.md)
-## [Break/Restore Permission Inheritance Wizard](break-restore-permission-inheritance-wizard.md)
-## [Manage Groups Wizard](manage-groups-wizard.md)
-## [Group Memberships Wizard](group-memberships-wizard.md)
-## [Copy Permissions Wizard](clone-permissions-wizard.md)
-## [Move Permissions Wizard](transfer-permissions-wizard.md)
-## [Copy Object Permissions Wizard](clone-object-permissions-wizard.md)
-## [Manage Permissions Wizard](manage-permissions-wizard.md)
-## [Clean Site Collections Wizard](clean-site-collections-wizard.md)
-## [Permission Levels Wizard](permission-levels-wizard.md)
-## [Site Collection Administrators Wizard](site-collection-administrators-wizard.md)
-## [Restore Permissions](restore-permissions.md)
-## [SPDocKit Permission Management Event Log](spdockit-permission-management-event-log.md)
 
-# [How To](how-to)
-When you get stuck trying to make magic happen, these guides will tell you the secret. 
-## [SharePoint Farm Snapshots](sharepoint-farm-snapshots)
-### [Manual Snapshots](manual-snapshots.md)
-### [Automatic Snapshots](automatic-snapshots.md)
+# Explore Reports & Create Documentation(explore-reports-and-create-documentation)
+## Farm Explorer(farm-explorer)
+### [Farm Explorer Screen](farm-explorer-screen)
+### [Farm Explorer Reports](farm-explorer-reports.md)
+### [Farm Documentation](farm-documentation)
+### [Passwords and Product keys](passwords-and-product-keys.md)
 ### [Generate an AutoSPInstaller XML Configuration File](generate-autospinstaller-xml-configuration-file.md)
-## [Farm Documentation](farm-documentation)
-### [Create Farm Documentation](create-farm-documentation.md)
-### [Customize Documentation Template](customize-documentation-template.md)
-## [Compare Wizard](compare-wizard)
-### [Compare Farms](compare-sharepoint-farms.md)
-### [Compare Servers](compare-servers.md)
-### [Compare Web Applications](compare-web-applications.md)
-### [Compare Site Collections](compare-site-collections.md)
-### [Compare SharePoint Permissions](compare-sharepoint-permissions.md)
-### [Compare Web.Config Files](compare-web-config-files.md)
-## [Subscriptions and Alerts](subscriptions-and-alerts)
+### [Change the limit on Site topology Report](change-limit-site-topology-report.md)
+## [Site Explorer](site-explorer-screen.md)
+## [Permission reports](permission-reports)
+### [Permissions Reports screen](permissions-reports.md)
+### [Explore Administrative Actions](administrative-actions.md)
+## [Content and Usage Reports](content-and-usage-reports)
+### [Content and Usage Reports Screen](content-and-usage-reports-screen.md)
+## [Best Practices](best-practices)
+### [Best Practices Screen](best-practices-screen.md)
+### [Best Practices Reports](best-practices-reports.md)
+## [Subscriptions & Alerts](subscriptions-and-alerts)
+### [Subscriptions and Alerts](subscriptions-and-alerts.md)
 ### [Create New Subscription](create-new-subscription.md)
 ### [Create New Alert](create-new-alert.md)
-## [Reports](reports)
+## [Customizing Reports](customizing-reports)
 ### [Customize View](customize-view.md)
-### [Install SPDocKit Extensions](install-spdockit-extensions.md)
-### [Change the limit on Site topology Report](change-limit-site-topology-report.md)
-### [Activate SPCAF Extension](activate-spcaf-extension.md)
-### [Explore Administrative Actions](administrative-actions.md)
-### [Audit Permissions Changes](security-audit.md)
-### [Add Comments and Tags](comments-and-tags.md)
-## [Best Practices](best-practices)
-### [Available Best Practices Reports](available-best-practices-reports.md)
-### [Create Custom Best Practices Reports](create-custom-best-practices-reports.md)
-### [Personalize Best Practices Reports](personalize-best-practices-reports.md)
-## [Queries and Rules](queries-and-rules)
-### [Create SharePoint Governance Policy Rule](create-governance-policy-rule.md)
-### [Create SPDocKit Query](create-spdockit-query.md)
-### [Change SPDocKit Query Results Limit](change-query-results-limit.md)
-### [Create Audit Queries and Rules](create-audit-queries-and-rules.md)
-## [Role Based Security](role-based-security)
-### [Manage Roles](manage-roles.md)
-### [Manage Users](manage-users.md)
+### [Add Comments & Tags](comments-and-tags.md)
+
+# [Compare SharePoint Configurations](compare-sharepoint-configurations)
+## [Compare Wizard](compare-wizard.md)	
+## [Compare Farms](compare-sharepoint-farms.md)	
+## [Compare Servers](compare-servers.md)	
+## [Compare Web Applications](compare-web-applications.md)	
+## [Compare Site Collections](compare-site-collections.md)	
+## [Compare SharePoint Permissions](compare-sharepoint-permissions.md)	
+## [Compare Web.Config Files](compare-web-config-files.md)	
+
+# [Manage SharePoint Permissions](manage-sharepoint-permissions)
+
+
+
+
+
+
+
+
+
+
+# [Release Notes](product-updates)
+Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
+## [SPDocKit 7.4.0](spdockit740-release-note.md)
+## [SPDocKit 7.3.0](spdockit730-release-note.md)
+## [SPDocKit 7.2.1](spdockit721-release-note.md)
+## [SPDocKit 7.2.0](spdockit720-release-note.md)
+## [SPDocKit 7.1.0](spdockit710-release-note.md)
+## [SPDocKit 7.0.1](spdockit701-release-note.md)
+## [SPDocKit 7.0.0](spdockit7-release-note.md)
 
 # [FAQ](faq)
 These are some of the most common questions and answers about SPDocKit. If you cannot find the answer to your problem, please contact us.
+
+## [Requirements](requirements-faq.md)
+## [Installation](installation-faq.md)
+## [Activation](activation-faq.md)
+## [Configuration](configuration-faq.md)
+
+
 ## [How to FAQ](how-to-faq.md)
 ## [Miscellaneous](miscellaneous.md)
 ## [Security](security.md)

@@ -7,7 +7,7 @@ date: 10/01/2018
 
 This section describes how to add comments and tags to Reports and individual Snapshots.
 
-### __Comments__ 
+## __Comments__ 
 
 To distinguish and describe existing Snapshots and Farm Explorer Reports, you can use the __Comment__ feature available from SPDocKit 7.3 onwards.
 
@@ -29,7 +29,7 @@ The __All Comments__ report can easily be exported by selecting the __Export__ o
 To include your comments in the generated documentation navigate to the __Backstage__ and select __Options__ on the __Configuration__ screen. Under __Report Options__ check the __Include comments in documentation__ option. Your comments will now be visible in the generated documentation. 
 
 
-### __Tags__
+## __Tags__
 
 In the Permissions Explorer, you can find another useful feature - adding tags to Securable Objects.
 

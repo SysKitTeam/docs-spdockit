@@ -60,7 +60,7 @@ To find out which version of SPDocKit you are using, please follow these steps:
 1. From the File menu choose __Help__.
 1. Your version will be written under __About SPDocKit__ part of the screen.
 
-## What should I do to stop receiving ''There is no data to show for this object'' for all User Profile Reports?
+## What should I do to stop receiving "There is no data to show for this object" for all User Profile Reports?
 This message is sometimes generated when there are insufficient rights given to an end user. To load User Profile Synchronization connections you need to do the following:
 
 1. Start the __User Profile Synchronization Service__.
