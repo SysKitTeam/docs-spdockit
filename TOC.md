@@ -38,7 +38,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 
 
 # [Explore Reports & Create Documentation](explore-reports-and-create-documentation)
-## Farm Explorer(farm-explorer)
+## [Farm Explorer](farm-explorer)
 ### [Farm Explorer Screen](farm-explorer-screen)
 ### [Farm Explorer Reports](farm-explorer-reports.md)
 ### [Farm Documentation](farm-documentation)
