@@ -45,7 +45,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ### [Passwords and Product keys](passwords-and-product-keys.md)
 ### [Generate an AutoSPInstaller XML Configuration File](generate-autospinstaller-xml-configuration-file.md)
 ### [Change the limit on Site topology Report](change-limit-site-topology-report.md)
-## [Site Explorer](site-explorer-screen)
+## [Site Explorer](site-explorer)
 ### [Site Explorer Screen](site-explorer-screen.md)
 ## [Permission reports](permission-reports)
 ### [Permissions Reports screen](permissions-reports-screen.md)
@@ -147,7 +147,7 @@ Even the best of us fail sometimes. We are working on it!
 ## [Recursive groups issue with export](recursive-groups-export.md)
 
 # [Troubleshooting](troubleshooting)
-## [SharePoint](sharepoint.md)	
+## [SharePoint](sharepoint)	
 ### [All Personal Sites will be loaded](warning-personal-sites-loaded.md)	
 ### [Could not access content database](could-not-access-content-database-on-server.md)	
 ### [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)	
