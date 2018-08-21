@@ -1,7 +1,7 @@
 ---
 title: Table of Contents
 private: true
----
+--- 
 
 # [Requirements](requirements)
 Make sure that your environment and the account used for the application meet SPDocKit requirements. 
@@ -48,6 +48,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ## [Site Explorer](site-explorer-screen.md)
 ## [Permission reports](permission-reports)
 ### [Permissions Reports screen](permissions-reports.md)
+### [Audit Permissions Changes](security-audit.md)
 ### [Explore Administrative Actions](administrative-actions.md)
 ## [Content and Usage Reports](content-and-usage-reports)
 ### [Content and Usage Reports Screen](content-and-usage-reports-screen.md)
@@ -60,7 +61,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ### [Create New Alert](create-new-alert.md)
 ## [Customizing Reports](customizing-reports)
 ### [Customize View](customize-view.md)
-### [Add Comments & Tags](comments-and-tags.md)
+### [Add Comments & Tags](add-comments.md)
 
 # [Compare SharePoint Configurations](compare-sharepoint-configurations)
 ## [Compare Wizard](compare-wizard.md)	
@@ -72,17 +73,43 @@ Explore all possible configuration scenarios and choose the right one for your e
 ## [Compare Web.Config Files](compare-web-config-files.md)	
 
 # [Manage SharePoint Permissions](manage-sharepoint-permissions)
+## [Permissions Explorer Screen](permissions-explorer-screen.md)
+## [Manage Permissions Ribbon Actions](manage-permissions-ribbon-actions.md)
+## Users and Groups Actions 
+### [Manage Groups Wizard](manage-groups-wizard.md)
+### [Group Memberships Wizard](group-memberships-wizard.md)
+### [Copy Permissions Wizard](clone-permissions-wizard.md)
+### [Move Permissions Wizard](transfer-permissions-wizard.md)
+### [Manage Permissions Wizard](manage-permissions-wizard.md)
+## Securable Objects Actions
+### [Break/Restore Permission Inheritance Wizard](break-restore-permission-inheritance-wizard.md)
+### [Restore Permissions](restore-permissions.md)
+### [Copy Object Permissions Wizard](clone-object-permissions-wizard.md)
+## Site Collection Actions
+### [Site Collection Administrators Wizard](site-collection-administrators-wizard.md)
+### [Permission Levels Wizard](permission-levels-wizard.md)
+### [Clean Site Collections Wizard](clean-site-collections-wizard.md)
+## [Add Tags](add-tags.md)
+## [SPDocKit Permission Management Event Log](spdockit-permission-management-event-log.md)
+
+# [Configure & Extend SPDocKit](configure-and-extend-spdockit)
+## [Backstage Screen](backstage-screen)
+## [Options Wizard](options-wizard.md)
+## [License Management](license-management.md)
+## [Role Based Security](role-based-security.md)
+## Extend SPDocKit(extend-spdockit)
+### [Install SPDocKit Extensions](install-spdockit-extensions.md)
+### [Activate SPCAF Extension](activate-spcaf-extension.md)
+
+# [Query & Change SharePoint Settings](query-and-change-sharepoint-settings)
+## [Queries and Rules Screen](queries-and-rules-screen.md)
+## [Create SharePoint Governance Policy Rule](create-governance-policy-rule.md)	
+## [Create SPDocKit Query](create-spdockit-query.md)	
+## [Change SPDocKit Query Results Limit](change-query-results-limit.md)	
+## [Create Audit Queries and Rules](create-audit-queries-and-rules.md)	
 
 
-
-
-
-
-
-
-
-
-# [Release Notes](product-updates)
+# [Release Notes](product-updates)  
 Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
 ## [SPDocKit 7.4.0](spdockit740-release-note.md)
 ## [SPDocKit 7.3.0](spdockit730-release-note.md)
@@ -94,36 +121,13 @@ Check out the new SPDocKit version delights. See the changes in the latest versi
 
 # [FAQ](faq)
 These are some of the most common questions and answers about SPDocKit. If you cannot find the answer to your problem, please contact us.
-
 ## [Requirements](requirements-faq.md)
 ## [Installation](installation-faq.md)
 ## [Activation](activation-faq.md)
 ## [Configuration](configuration-faq.md)
-
-
-## [How to FAQ](how-to-faq.md)
-## [Miscellaneous](miscellaneous.md)
+## [Features](features-faq.md)
 ## [Security](security.md)
-## [Troubleshooting](troubleshooting)
-### [RPC Server is Unavailable](rpc-server-unavailable.md)
-### [Could not access content database](could-not-access-content-database-on-server.md)
-### [Error occurred while loading Web Application](error-occurred-while-loading.md)
-### [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](error-while-loading-problems-solutions-rule-definitions.md)
-### [Errors while trying to load the SharePoint farm](errors-while-loading-farm.md)
-### [Failed at retrieving SQL Accounts from the following servers](failed-at-retrieving-accounts-from-servers.md)
-### [My permissions loading status is reported as ”Failed”](permissions-loading-status.md)
-### [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)
-### [Service was unable to read Active Directory properties](service-was-unable-to-read-active-directory-properties.md)
-### [SQL Server is unavailable](sql-server-unavailable.md)
-### [All Personal Sites will be loaded](warning-personal-sites-loaded.md)
-### [Error adding service account to "spdockit_service_role" database role](error-adding-service-account-to-role.md)
-## [Troubleshooting SQL Server Connection](troubleshooting-sql-server-connection)
-### [SPDocKit won’t connect to a provided server and database](configuration-wizard-connect-to-server-and-database.md)
-### [Configure SQL server to listen on a specific port](configure-server-to-specific-port.md)
-### [Is SQL Server configured to use a named instance](configure-server-to-use-named-instance.md)
-### [Inbound traffic on TCP Port 1433 needs to be allowed on the SQL](inbound-traffic.md)
-### [Service user does not have rights to connect to the SQL server](service-user-doesnt-have-rights-to-connect-to-server.md)
-### [TCP/IP network traffic not enabled on the SQL Server](tcp-ip-network-traffic-not-enabled-on-server.md)
+## [Miscellaneous](miscellaneous.md)
 
 # [Known Issues](known-issues)
 Even the best of us fail sometimes. We are working on it! 
@@ -140,4 +144,28 @@ Even the best of us fail sometimes. We are working on it!
 ## [Unaccounted differences in the UPA settings](spdockit-reporting-upa-changes.md)
 ## [Custom Query issue with URL export](custom-query-issue.md)
 ## [Recursive groups issue with export](recursive-groups-export.md)
+
+# [Troubleshooting](troubleshooting)
+## [SharePoint]		
+### [All Personal Sites will be loaded](warning-personal-sites-loaded.md)	
+### [Could not access content database](could-not-access-content-database-on-server.md)	
+### [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)	
+## [Server Load & User Permissions]		
+### [RPC Server is Unavailable](rpc-server-unavailable.md)	
+### [Error occurred while loading Web Application](error-occurred-while-loading.md)	
+### [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](error-while-loading-problems-solutions-rule-definitions.md)	
+### [Errors while trying to load the SharePoint farm](errors-while-loading-farm.md)	
+### [Failed at retrieving SQL Accounts from the following servers](failed-at-retrieving-accounts-from-servers.md)	
+### [My permissions loading status is reported as ”Failed”](permissions-loading-status.md)	
+### [Service was unable to read Active Directory properties](service-was-unable-to-read-active-directory-properties.md)	
+### [SQL Server is unavailable](sql-server-unavailable.md)	
+### [Error adding service account to "spdockit_service_role" database role](error-adding-service-account-to-role.md)	
+## [SQL Server Connection]		
+### [SPDocKit won’t connect to a provided server and database](configuration-wizard-connect-to-server-and-database.md)	
+### [Configure SQL server to listen on a specific port](configure-server-to-specific-port.md)	
+### [Is SQL Server configured to use a named instance](configure-server-to-use-named-instance.md)	
+### [Inbound traffic on TCP Port 1433 needs to be allowed on the SQL](inbound-traffic.md)	
+### [Service user does not have rights to connect to the SQL server](service-user-doesnt-have-rights-to-connect-to-server.md)	
+### [TCP/IP network traffic not enabled on the SQL Server](tcp-ip-network-traffic-not-enabled-on-server.md)	
+
 
