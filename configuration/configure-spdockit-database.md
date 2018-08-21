@@ -28,7 +28,7 @@ __Please note!__ This should be a SPDocKit dedicated database, please __do not p
 
 4. Click Next, wait a few seconds and your SPDocKit database will be ready to use!
 
-
+ 
 ## Multiple Farms in a single SPDocKit database
 This article will explain how you can configure multiple instances of SPDocKit, on different SharePoint farms, to use the same SPDocKit database.
 For general information on how to configure a SPDocKit database go [here](#internal/configuration/configure-spdockit-database/).

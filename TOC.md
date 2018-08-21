@@ -5,13 +5,13 @@ private: true
 
 # [Requirements](requirements)
 Make sure that your environment and the account used for the application meet SPDocKit requirements. 
+## [SharePoint On-Premises User Permissions Requirements](user-permissions-requirements.md)
 ## [Supported SharePoint Editions](supported-sharepoint-editions.md)
 ## [System Requirements](system-requirements.md)
-## [SharePoint On-Premises User Permissions Requirements](sharepoint-on-premises-user-permissions-requirements.md)
 ## [Server Load Permission Requirements](server-load-permission-requirements.md)
 ## [Project Server Load Requirements](project-server-requirements.md)
-## [Search Service Application Requirements](search-service-requirements.md)
-## [User Profile Service Application Requirements](user-profile-service-requirements.md)
+## [Service Application Permission Requirements](service-app-perm-requirements.md)
+
 
 # [Installation](installation)
 Learn how to install SPDocKit or update it to the latest version. 
