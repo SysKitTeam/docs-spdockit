@@ -31,13 +31,13 @@ Explore all possible configuration scenarios and choose the right one for your e
 ## [Configure SPDocKit Database](configure-spdockit-database.md)
 ## [Import and Export SPDocKit Settings](import-and-export-spdockit-settings.md)
 
-# Create SharePoint Farm Snapshots
+# [Create SharePoint Farm Snapshots](create-sharepoint-farm-snapshots)
 ## [Snapshots Screen](snapshots-screen.md)
 ## [Manual Snapshots](manual-snapshots.md)
 ## [Automatic Snapshots](automatic-snapshots.md)
 
 
-# Explore Reports & Create Documentation(explore-reports-and-create-documentation)
+# [Explore Reports & Create Documentation](explore-reports-and-create-documentation)
 ## Farm Explorer(farm-explorer)
 ### [Farm Explorer Screen](farm-explorer-screen)
 ### [Farm Explorer Reports](farm-explorer-reports.md)
@@ -75,17 +75,17 @@ Explore all possible configuration scenarios and choose the right one for your e
 # [Manage SharePoint Permissions](manage-sharepoint-permissions)
 ## [Permissions Explorer Screen](permissions-explorer-screen.md)
 ## [Manage Permissions Ribbon Actions](manage-permissions-ribbon-actions.md)
-## Users and Groups Actions 
+## [Users and Groups Actions](users-and-groups-actions)
 ### [Manage Groups Wizard](manage-groups-wizard.md)
 ### [Group Memberships Wizard](group-memberships-wizard.md)
 ### [Copy Permissions Wizard](clone-permissions-wizard.md)
 ### [Move Permissions Wizard](transfer-permissions-wizard.md)
 ### [Manage Permissions Wizard](manage-permissions-wizard.md)
-## Securable Objects Actions
+## [Securable Objects Actions](securable-objects-actions)
 ### [Break/Restore Permission Inheritance Wizard](break-restore-permission-inheritance-wizard.md)
 ### [Restore Permissions](restore-permissions.md)
 ### [Copy Object Permissions Wizard](clone-object-permissions-wizard.md)
-## Site Collection Actions
+## [Site Collection Actions](site-collection-actions)
 ### [Site Collection Administrators Wizard](site-collection-administrators-wizard.md)
 ### [Permission Levels Wizard](permission-levels-wizard.md)
 ### [Clean Site Collections Wizard](clean-site-collections-wizard.md)
@@ -93,11 +93,11 @@ Explore all possible configuration scenarios and choose the right one for your e
 ## [SPDocKit Permission Management Event Log](spdockit-permission-management-event-log.md)
 
 # [Configure & Extend SPDocKit](configure-and-extend-spdockit)
-## [Backstage Screen](backstage-screen)
+## [Backstage Screen](backstage-screen.md)
 ## [Options Wizard](options-wizard.md)
 ## [License Management](license-management.md)
 ## [Role Based Security](role-based-security.md)
-## Extend SPDocKit(extend-spdockit)
+## [Extend SPDocKit](extend-spdockit)
 ### [Install SPDocKit Extensions](install-spdockit-extensions.md)
 ### [Activate SPCAF Extension](activate-spcaf-extension.md)
 
@@ -150,7 +150,7 @@ Even the best of us fail sometimes. We are working on it!
 ### [All Personal Sites will be loaded](warning-personal-sites-loaded.md)	
 ### [Could not access content database](could-not-access-content-database-on-server.md)	
 ### [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)	
-## [Server Load & User Permissions]		
+## [Server Load & User Permissions](server-load-and-user-permissions)	
 ### [RPC Server is Unavailable](rpc-server-unavailable.md)	
 ### [Error occurred while loading Web Application](error-occurred-while-loading.md)	
 ### [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](error-while-loading-problems-solutions-rule-definitions.md)	
