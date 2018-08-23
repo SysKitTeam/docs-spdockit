@@ -89,3 +89,12 @@ To reset your password, please go to the [following link](https://my.syskit.com/
 1. Instructions on how to reset your password will be emailed to you. Please note: sometimes these notifications can end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your __Safe Senders List__.
 1. If for some reason you are still unable to retrieve the new password, please [contact us](https://www.spdockit.com/support/contact-us/)  for further assistance.
 
+### Implementation is not part of the FIPS validated cryptographic algorithms
+__Problem:__  
+When activating the application an error occurred: “This implementation is not part of the Windows Platform FIPS validated cryptographic algorithms.”
+
+__Solution:__  
+1. Navigate to the SPDocKit installation folder.
+2. Open each of the configuration files (name.exe.config).
+3. Under the ``` <runtime>``` please paste the line ``` <enforceFIPSPolicy  enabled="false"> ```
+4. Run activation once again.

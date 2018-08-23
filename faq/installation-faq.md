@@ -8,6 +8,9 @@ date: 22/5/2017
 ### Is the installation file the same for different SharePoint versions?
 Yes, the same installation file can be used to install SPDocKit on any SharePoint version or to a workstation.
 
+### Does the installation / upgrade require a server restart? 
+No, unless you’re updating Microsoft .NET Framework, in that case Microsoft .NET Framework requires a restart.
+
 ### Error: Service won't start or times out when starting. 
 I’m trying to start SPDocKit service but it will not start. The following error events appear in the application log:
 > Timeout (30000 milliseconds) waiting for a transaction response from the ‘ServiceName’ service.  

@@ -16,3 +16,8 @@ For more details check our [system requirements](#internal/requirements/system-r
 ### What are the hardware requirements for SPDocKit?
 
 Hardware requirements are the same as the requirements for the underlying operating system. When running and loading farms, the application can use up to 1 GB RAM.
+
+### Problem: Logins other than the current user can only be seen by members of the sysadmin role
+Solution: What you need to do is: on every SQL server, give the service account __db_owner__ and __view any database__ permission.  
+However, if you do not need or do not wish to load SQL server data, this is how you can disable the load.  
+Go to: File > Options > Snapshot Options > Security > Database Permissions
