@@ -14,5 +14,12 @@ The following options are available:
 * __Options__ button gives you access to configuration options for adjusting SPDocKit to your needs.
 * __Permissions Explorer__ leads you directly to SharePoint permissions, both live and historical records, collected by SPDocKit.
 * __Permission Wizards__ button gives you quick access to all permissions management options available. 
+* __Permissions Reports__ button will show you a set of permissions reports. 
+* __Analytics & Content__ button will take to our Analytics & Usage Reports. SharePoint Analytics report is preselected where you can see popularity trends and visits history for each site collection.
+* __Audit Logs__ button will take you to the Audit Log Details report, where we'll show you a complete audit log on the selected site collections in a given time period.
 * Use the __Queries and Rules__ button to open and create desired procedures or reports to enforce your SharePoint Governance policies.
-* __Insights__ button runs the __SysKit Insights__ application if installed on the machine.
+
+
+
+
+

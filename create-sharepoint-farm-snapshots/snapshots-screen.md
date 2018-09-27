@@ -23,7 +23,7 @@ The following commands are available:
 * __Compare to Local__ – compares a snapshot with the currently loaded local farm.
 * __Compare Selected__  – if two snapshots are selected, this button compares SharePoint settings stored in these two.
 * __Mark Configuration as Good__ – use this button to mark which SPDocKit snapshot captured your SharePoint farm with all the settings configured in a best possible way. Also, this will exclude that snapshot from data retention policy. Meaning, it will not be deleted.
-* __Rename Farm__ - if you store snapshots from more than one farm, this option allows you to change a deafult farm name for easier distinction. This option will work only if snapshots are stored in SPDocKit database.
+* __Rename Farm__ - if you store snapshots from more than one farm, this option allows you to change a default farm name for easier distinction. This option will work only if snapshots are stored in SPDocKit database.
 * __Manage Servers__ - use this button to add third party servers to SPDocKit farm documentation. You can add servers that are not part of your SharePoint farm but affect it in any way. You can also exclude certain farm servers which means that SPDocKit will not load any data related to these servers.
 * __File Name__ – to activate this column go to the __View__ tab and use the __Choose Columns__ button. For more information on how to change the default file name [see here](#internal/get-to-know-spdockit/backstage-screen/options-wizard#snapshot-options) and observe the snapshots name template section.
 * __Load Duration__ - this column displays how long it took to take a snapshot of your environment.

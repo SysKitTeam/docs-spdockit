@@ -43,3 +43,5 @@ You will receive further instructions in your e-mail shortly, but here is what y
 5. Open the email and take the attached file (**activations.caf**). Place it in the following folder: **“%USERPROFILE%\AppData\Local\SPCAF”**
 
 And that is it. You may try opening some of the SPCAF reports to make sure they are working properly.
+
+__Please note! SPCAF section will be visible in the navigation tree only after [installing](#internal/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions/) the extension.__

@@ -27,6 +27,8 @@ The default folder is **C:\ProgramData\SPDocKit\Extensions**.
 
 3. Once it is successfully installed, restart SPDocKit and the plugin will be ready for use.
 
+__Please note! SPCAF or Workflow Analytics section will be visible in the navigation tree only after installing the extension.__
+
 ### **Learn more**
 
 * [How to: Activate SPCAF extension](#internal/how-to/reports/activate-spcaf-extension)

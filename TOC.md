@@ -51,8 +51,10 @@ Explore all possible configuration scenarios and choose the right one for your e
 ### [Permissions Reports screen](permissions-reports-screen.md)
 ### [Audit Permissions Changes](security-audit.md)
 ### [Explore Administrative Actions](administrative-actions.md)
-## [Content and Usage Reports](content-and-usage-reports)
-### [Content and Usage Reports Screen](content-and-usage-reports-screen.md)
+## [Analytics and Usage Reports](analytics-and-usage-reports)
+### [Analytics and Usage Reports Screen](analytics-and-usage-reports-screen.md)
+## [Audit Reports](audit-reports)
+### [Audit Reports Screen](audit-reports-screen.md)
 ## [Best Practices](best-practices)
 ### [Best Practices Screen](best-practices-screen.md)
 ### [Best Practices Reports](best-practices-reports.md)
@@ -129,6 +131,7 @@ These are some of the most common questions and answers about SPDocKit. If you c
 ## [Features](features-faq.md)
 ## [Security](security.md)
 ## [Miscellaneous](miscellaneous.md)
+## [SPDocKit Insights Migration](spdockit-insights-migration.md)
 
 # [Known Issues](known-issues)
 Even the best of us fail sometimes. We are working on it! 
