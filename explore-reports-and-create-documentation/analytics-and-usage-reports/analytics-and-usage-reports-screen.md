@@ -7,8 +7,6 @@ date: 24/5/2017
 
 Analytics and Usage Reports provide a quick overview of your farm storage and content usage, features usage and activations and SharePoint structure.
 
-
-### Usage reports
 __Content Overview__ – graphical overview of your farm metrics. Displays information about site collection and content database sizes, total SharePoint's site collections sizes over time, used SharePoint space, servers by role, site collections per Web application and content databases over time.  
 
 ### Analytics
@@ -32,7 +30,7 @@ __Content Overview__ – graphical overview of your farm metrics. Displays infor
 * __Database Size Growth__ - shows farm database size over a given time period. Use the forecast option to predict future database growth.
 * __Logs Size Growth__ – shows the size of farm database logs. Also, with the forecast option, you can track and manage the growth.
 * __Document Extensions Overview__ - shows the number of documents and their total size by extension.
-* __Document Extensions Details__ - shows
+* __Document Extensions Details__ - shows the number of documents and their total size by extension for each site collection. 
   
 ### Feature reports
 * __Features List__ – shows all features present on a SharePoint farm. It also specifies whether the feature is custom or default, and its scope. 
@@ -48,8 +46,7 @@ Find out more [about SPCAF](https://www.spcaf.com/) and how it can help you keep
 Use SPDocKit to load WSPs information from your SharePoint farm and then analyze them by [adding SPCAF extension reports](#internal/how-to/reports/install-spdockit-extensions) using Extension Manager. 
 
 __Available reports__: Analysis Summary, Code Quality, Code Metrics, Code Dependencies and Code Inventory.  
-
-__Supported SharePoint versions__: SP2013, SP2016.
+__Supported SharePoint versions__: SP2013, SP2016.  
 
 __Please note! SPCAF section will be visible in the navigation tree only after [installing](#internal/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions/) the extension.__
 
