@@ -49,6 +49,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ### [Site Explorer Screen](site-explorer-screen.md)
 ## [Permission reports](permission-reports)
 ### [Permissions Reports screen](permissions-reports-screen.md)
+### [Security Audit](security-audit.md)
 ## [Analytics and Usage Reports](analytics-and-usage-reports)
 ### [Analytics and Usage Reports Screen](analytics-and-usage-reports-screen.md)
 ### [SharePoint Analytics](sharepoint-analytics-report.md)
