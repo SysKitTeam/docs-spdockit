@@ -20,7 +20,7 @@ Reports you gained installing the extension will be located under one of the SPD
 
 If your server does not have an internet connection, you can use the Offline installation process by following these instructions:
 
-1. On the SPDocKit web site, under Resources, go to [Extensions](https://www.spdockit.com/resources/extensions/) to download the plugins you wish to use.
+1. On the SPDocKit web site, under Resources, go to [Extensions](https://www.syskit.com/products/spdockit/resources/extensions/) to download the plugins you wish to use.
 
 2. Once you have downloaded a plugin, navigate to the SPDocKit installation folder and find Extensions. Paste the downloaded plugin files there.  
 The default folder is **C:\ProgramData\SPDocKit\Extensions**.
@@ -31,4 +31,4 @@ __Please note! SPCAF or Workflow Analytics section will be visible in the naviga
 
 ### **Learn more**
 
-* [How to: Activate SPCAF extension](#internal/how-to/reports/activate-spcaf-extension)
+* [How to: Activate SPCAF extension](#internal/configure-and-extend-spdockit/extend-spdockit/activate-spcaf-extension)

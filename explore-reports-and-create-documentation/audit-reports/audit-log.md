@@ -5,7 +5,7 @@ author: Marko Gudan
 date: 31/5/2017
 ---
 
-This article explains how you can use the  __Audit Log Details report__ to inspect permission changes on site collections. Audit Log Details report enables you to see __the complete history of permission changes on site collections__. Please check the [feature availability by license type for more info.](https://www.spdockit.com/orders)
+This article explains how you can use the  __Audit Log Details report__ to inspect permission changes on site collections. Audit Log Details report enables you to see __the complete history of permission changes on site collections__. 
 
 To track permissions changes, the audit option must be enabled on a site collection level in SharePoint.
 

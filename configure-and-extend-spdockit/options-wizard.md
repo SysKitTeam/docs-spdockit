@@ -95,7 +95,7 @@ If you wish to use the __Subscriptions and Alerts__ feature, check the __Subscri
 
 To enable __email__ as the preferred delivery method, configure outgoing email server settings. After the outgoing email server settings are provided, you can test if these are valid by clicking the __Test Email Settings__ button. There is also an option to customize the email footer and email body text. 
 
-[Read more about scheduling subscriptions and alerts.](#internal/get-to-know-spdockit/backstage-screen/subscriptions-and-alerts/)
+[Read more about scheduling subscriptions and alerts.](#internal/explore-reports-and-create-documentation/subscriptions-and-alerts/subscriptions-and-alerts)
 
 ## Compare
 

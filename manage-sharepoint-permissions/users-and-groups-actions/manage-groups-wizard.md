@@ -27,7 +27,7 @@ This wizard option will create a SharePoint groups on the selected site collecti
 5. All of the newly created groups will have same permissions assigned to them where possible. If, for some reason, some permission levels are not available on a certain site collection, they will be skipped. If no permissions can be assigned to the new group on a site collection, that site collection will be skipped and no new groups will be created.
 6. In this step, as Group Members you can add Users and AD groups. Plus, as a default member, you can add Owner of the group by simply checking the provided box.
 7. These cases and more will be displayed in the **Preview** step of the wizard, before any action has been made. This step will list all the actions that will be taken in the next step of the wizard, which allows you to modify any settings you might like to.
-8. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+8. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
 ### Delete SharePoint Group
 This wizard option will delete a SharePoint groups on the selected site collection(s).
@@ -43,7 +43,7 @@ This wizard option will delete a SharePoint groups on the selected site collecti
 
     If multiple SharePoint site collections are selected, changes will apply only to the ones where such groups exist.
 5. All the groups fitting the selected criteria will be displayed on the **Preview** step, along with their location. This allows you to modify any settings you might like before the wizard action is executed.
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
 ### Rename SharePoint Group
 This wizard option will rename specific SharePoint groups on selected site collection(s).
@@ -62,4 +62,4 @@ This wizard option will rename specific SharePoint groups on selected site colle
 
     **Please note!** Since group names must be unique on a site collection, new name must not already be used by an existing group on that site collection, otherwise the rename process will skip that group.
 5. All the groups fitting the selected criteria will be displayed on the **Preview** step, along with their location. This allows you to modify any settings you might like before the wizard action is executed.
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.

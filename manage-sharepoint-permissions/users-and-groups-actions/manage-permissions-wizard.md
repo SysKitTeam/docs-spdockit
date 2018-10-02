@@ -40,7 +40,7 @@ This wizard option will grant specified permissions to selected principals on a 
 
 6.  In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
 
-7.  The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+7.  The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
 ### Remove Permissions
 This wizard option will remove specified permissions from desired principals on a selected SharePoint objects all across the defined wizard scope.
@@ -72,4 +72,4 @@ This wizard option will remove specified permissions from desired principals on 
 
 6.  In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
 
-7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.

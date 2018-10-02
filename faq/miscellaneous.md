@@ -23,7 +23,7 @@ When I tried to load a SharePoint farm with SPDocKit I received the following er
 
 ### Solution:
 * The product needs to run on the same server as SharePoint, so make sure SharePoint is installed on the server where you are trying to load the farm.
-* In order to load the SharePoint farm you need to have proper privileges. Check [this article](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for more details.
+* In order to load the SharePoint farm you need to have proper privileges. Check [this article](#internal/requirements/user-permissions-requirements) for more details.
 
 
 ## Error occurred while upgrading to the latest version.
@@ -39,7 +39,7 @@ When this error occurs you are not able to start the application and you cannot 
 The installation was not able to remove the Windows service. The existing installation needs to be repaired and then removed before you can proceed with the upgrade.
 
 Here is what you need to do:
-1. Obtain the original MSI file you used to install the product (product version e.g. 1.0.3 is listed in **Control Panel > Programs**, but you can [contact us](https://www.spdockit.com/support/contact-us/) to obtain the original installation).
+1. Obtain the original MSI file you used to install the product (product version e.g. 1.0.3 is listed in **Control Panel > Programs**, but you can [contact us](https://www.syskit.com/company/contact-us/) to obtain the original installation).
 2. Right-click the MSI file and choose **Repair** to repair the application.
 3. Use **Control Panel > Programs** to uninstall the application.
 4. Once uninstalled, you can **install** the latest version as planned.
@@ -126,4 +126,4 @@ When trying to view Content & Usage Reports: Number of Unique Visitors, List of 
 >*System.Data.SqlClient.SqlException: Cannot open database “WSS_UsageApplication” requested by the login. The login failed. Login failed for user CONTOSO\user.*
 
 ### Solution:
-Make sure that the user account running SPDocKit has the proper [permission privileges](#internal/requirements/sharepoint-on-premises-user-permissions-requirements). Specifically, the user must be a member of **SharePoint_Shell_Access** role on **Usage and Health Database**.
+Make sure that the user account running SPDocKit has the proper [permission privileges](#internal/requirements/user-permissions-requirements). Specifically, the user must be a member of **SharePoint_Shell_Access** role on **Usage and Health Database**.

@@ -41,7 +41,7 @@ This value represents the time in milliseconds before a service times out.
 
 SPDocKit supports SharePoint 2010, SharePoint 2013 and SharePoint 2016 server. [See more details here.](#internal/requirements/system-requirements)
 Check out our [installation guide](#internal/installation/installation-guide) and the followup, the [configuration guide](#internal/configuration/configure-spdockit).
-Once you have installed everything you can [take a snapshot](#internal/how-to/sharepoint-farm-snapshots/manual-snapshots) of your farm.
+Once you have installed everything you can [take a snapshot](#internal/create-sharepoint-farm-snapshots/manual-snapshots) of your farm.
 
 ### If I choose the “Run only” option in SPDocKit, what happens?
 If you choose “Run only”, the following features will not be available:
@@ -60,7 +60,7 @@ You can install SPDocKit on a workstation and generate documentation from it, bu
 
 ### Is it difficult to install SPDocKit?
 
-The application is easy to install — the Installation Wizard will guide you through it. If you need help with the deployment please [contact us](https://www.spdockit.com/support/contact-us/) so we can provide you with the adequate support.
+The application is easy to install — the Installation Wizard will guide you through it. If you need help with the deployment please [contact us](https://www.syskit.com/company/contact-us/) so we can provide you with the adequate support.
 
 ### How much hard disk space is required for the installation?
 

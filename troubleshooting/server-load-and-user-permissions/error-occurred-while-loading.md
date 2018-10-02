@@ -23,7 +23,7 @@ and the following error messages are stored in the event log:
  *http://intranet/sites/Sales*
 
 ## Solution:
-The user running the application needs to have proper privileges to access the information about Site Collections stored in the content databases. [See this article](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for more details on configuring privileges.
+The user running the application needs to have proper privileges to access the information about Site Collections stored in the content databases. [See this article](#internal/requirements/user-permissions-requirements) for more details on configuring privileges.
 
 If you are still having issues with individual Web Applications or other items you need to do the following:
 make sure the user has Shell access to the given content database, using the following PowerShell code to grant access:

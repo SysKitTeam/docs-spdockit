@@ -118,13 +118,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 
 # [Release Notes](product-updates)  
 Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
-## [SPDocKit 7.4.0](spdockit740-release-note.md)
-## [SPDocKit 7.3.0](spdockit730-release-note.md)
-## [SPDocKit 7.2.1](spdockit721-release-note.md)
-## [SPDocKit 7.2.0](spdockit720-release-note.md)
-## [SPDocKit 7.1.0](spdockit710-release-note.md)
-## [SPDocKit 7.0.1](spdockit701-release-note.md)
-## [SPDocKit 7.0.0](spdockit7-release-note.md)
+## [SPDocKit 8.0](spdockit-8-release-note.md)
 
 # [FAQ](faq)
 These are some of the most common questions and answers about SPDocKit. If you cannot find the answer to your problem, please contact us.
@@ -155,7 +149,6 @@ Even the best of us fail sometimes. We are working on it!
 
 # [Troubleshooting](troubleshooting)
 ## [SharePoint](sharepoint)	
-### [All Personal Sites will be loaded](warning-personal-sites-loaded.md)	
 ### [Could not access content database](could-not-access-content-database-on-server.md)	
 ### [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)	
 ## [Server Load & User Permissions](server-load-and-user-permissions)	

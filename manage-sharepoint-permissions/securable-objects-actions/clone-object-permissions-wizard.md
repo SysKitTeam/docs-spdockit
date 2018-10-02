@@ -44,5 +44,5 @@ The Copy Object Permissions Wizard enables you to copy the permissions between o
 
 4. The **Preview** step shows the changes that will occur in the final step. 
 
-5. In the **Apply Changes** step, all changes are displayed as they are applied. It is possible to save the log for later reference by clicking the **Save Log** button. The changes are also saved in the [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log).
+5. In the **Apply Changes** step, all changes are displayed as they are applied. It is possible to save the log for later reference by clicking the **Save Log** button. The changes are also saved in the [SPDocPerm event log](#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log).
 
