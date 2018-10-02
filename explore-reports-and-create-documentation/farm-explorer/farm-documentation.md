@@ -22,7 +22,7 @@ This section describes how you can generate SharePoint farm documentation using 
 
 1. The __Document Outline__ tab displays how the table of contents of your document will look.
 
-1.  With the Options tab you can choose whether [Passwords and Product Keys](#internal/get-to-know-spdockit/farm-explorer-screen/passwords-and-product-keys)  will be displayed in the generated document. If these were not defined, the check box will be disabled.
+1.  With the Options tab you can choose whether [Passwords and Product Keys](#internal/explore-reports-and-create-documentation/farm-explorer/passwords-and-product-keys)  will be displayed in the generated document. If these were not defined, the check box will be disabled.
 
 1. Click the __Generate__ button, wait a few moments and your SharePoint farm documentation will be generated!
 

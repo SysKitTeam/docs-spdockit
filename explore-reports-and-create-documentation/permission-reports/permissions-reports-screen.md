@@ -39,6 +39,5 @@ The Permissions Reports section contains a number of reports on SharePoint Permi
 * __Uniquely Secured List Items__ - shows all list items with broken permissions inheritance.
 
 
-Visit [SPDocKit resources center](https://www.spdockit.com/resources/reports) for videos and samples of SharePoint documentation and reports by SPDocKit.
+Visit [SPDocKit resources center](https://www.syskit.com/products/spdockit/resources/) for videos and samples of SharePoint documentation and reports by SPDocKit.
 
-*Please check [feature availability by license type.](https://www.spdockit.com/orders)
