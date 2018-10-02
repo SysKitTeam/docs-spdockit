@@ -11,8 +11,8 @@ To run SPDocKit and to retrieve all SharePoint settings you want to document, bo
 3. __Member of SharePoint_Shell_Access role__ on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
 4. Special privileges for the __Service Account__: Service account needs to have privileges listed above as well as the __Log on as a Service__ right. [Click here for instructions](https://goo.gl/MRGS73) on how to configure that right.
 5. [Server specific requirements](#internal/requirements/server-load-permission-requirements/) needed to retrieve additional server configuration data (RAM, processors, disk space…) and SQL Server configuration information for DB servers.
-6. [Search service application requirements](#internal/requirements/search-service-requirements/) needed to retrieve Search service application configuration data (content sources, crawl rules, managed properties, search topologies...).
-7. [User Profile service application requirements](#internal/requirements/user-profile-service-requirements/) needed to retrieve User Profile service application configuration data (Synchronization Connections, MySite Settings, Audiences, User Profile Properties...).
+6. [Search service application requirements](#internal/requirements/service-app-perm-requirements/) needed to retrieve Search service application configuration data (content sources, crawl rules, managed properties, search topologies...).
+7. [User Profile service application requirements](#internal/requirements/service-app-perm-requirements/) needed to retrieve User Profile service application configuration data (Synchronization Connections, MySite Settings, Audiences, User Profile Properties...).
 
 Here is how you can give user these privileges:
 
@@ -60,7 +60,7 @@ To be able to create a new SPDocKit dedicated database, the user account running
 These privileges will be granted automatically when a new SPDocKit database is created or during a database upgrade.
 
 * SPDocKit service account will be granted the __SPDocKit_service_role__ role on the SPDocKit database. This role will make the service account a member of the __db_datawrite__ and __db_datareader__ roles and grant __EXECUTE__ permissions on all the stored procedures in the database.
-  * In the event that the SPDocKit install account is not in the __securityAdmin__ role, please add the SPDocKit service account manually to the __SPDocKit_service_role__. [Consult the following article](#internal/faq/troubleshooting/error-adding-service-account-to-role/) for additional information.
+  * In the event that the SPDocKit install account is not in the __securityAdmin__ role, please add the SPDocKit service account manually to the __SPDocKit_service_role__. [Consult the following article](#internal/troubleshooting/server-load-and-user-permissions/error-adding-service-account-to-role) for additional information.
  * The account running load from the SPDocKit console needs to have the same privileges as the SPDocKit service account (see above).
 
 ### Workstation Requirements

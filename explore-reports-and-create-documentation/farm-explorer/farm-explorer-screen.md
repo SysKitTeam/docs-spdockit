@@ -17,11 +17,11 @@ The following commands are available:
 * __Export as PDF__ button allows you to export the selected report as a PDF document.
 * __Export as XLSX__ button allows you to export the selected report as an XLSX document.
 * __Export as DOCX__ button allows you to export the selected report as a DOCX document.
-* __Compare Wizard__ – read more about the [Compare Wizard](#internal/get-to-know-spdockit/backstage-screen/compare-wizard/).
+* __Compare Wizard__ – read more about the [Compare Wizard](#internal/compare-sharepoint-configurations/compare-wizard/).
 * __Subscriptions and Alerts__ – create and manage your SPDocKit report subscriptions and alerts.
 * __Schedule this Report__ – add the currently selected SPDocKit report to a new report subscription or a previously created one.
-* __Options__ – read more about the [Options Wizard](#internal/get-to-know-spdockit/backstage-screen/options-wizard/).
-* __Save XML Configuration__ – [wizard that helps you generate an AutoSPInstaller XML file](#internal/how-to/sharepoint-farm-snapshots/generate-autospinstaller-xml-configuration-file/) based on the currently opened snapshot.
+* __Options__ – read more about the [Options Wizard](#internal/configure-and-extend-spdockit/options-wizard).
+* __Save XML Configuration__ – [wizard that helps you generate an AutoSPInstaller XML file](#internal/explore-reports-and-create-documentation/farm-explorer/generate-autospinstaller-xml-configuration-file/) based on the currently opened snapshot.
 
 ## Comments ribbon
 The following commands are available:
@@ -32,7 +32,7 @@ The following commands are available:
 * __Edit__ - enables you to edit existing comments.
 * __Delete__ - enables you to delete existing comments. 
 
-For more information about comments please read the [following article](#internal/how-to/reports/comments-and-tags/).
+For more information about comments please read the [following article](#internal/explore-reports-and-create-documentation/customizing-reports/add-comments/).
 
 ## View ribbon
 The following commands are available:

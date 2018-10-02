@@ -18,7 +18,7 @@ This article explains how to configure the SPDocKit database and service before 
 
     After providing the information, click the __Test Connection__ button to ensure that the settings are correct.
 
-3. On the __Service Configuration__ wizard page check __Enable Service__ and type the service account details. The service account needs to have the [following privileges](#internal/requirements/sharepoint-on-premises-user-permissions-requirements/) to be able to run the service, create snapshots and other associated jobs.  
+3. On the __Service Configuration__ wizard page check __Enable Service__ and type the service account details. The service account needs to have the [following privileges](#internal/requirements/user-permissions-requirements/) to be able to run the service, create snapshots and other associated jobs.  
       
     If you do not want to use the SPDocKit Service you can leave the __Enable Service__ unchecked, but the following features will not be available:
     * Automatic Snapshots
@@ -36,7 +36,7 @@ __Please note!__ To configure your SPDocKit settings more thoroughly, navigate t
 
 This article explains how to configure SPDocKit on a workstation. An SPDocKit workstation instance allows you to manage SharePoint On-Premise, view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
 
-__Requirements__: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [workstation or site/team/consultant license](https://www.spdockit.com/orders/) and the user running the application on a workstation needs to have adequate [permissions](#internal/requirements/sharepoint-on-premises-user-permissions-requirements/).
+__Requirements__: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [workstation or site/team/consultant license](https://www.spdockit.com/orders/) and the user running the application on a workstation needs to have adequate [permissions](#internal/requirements/user-permissions-requirements/).
 
 __Please note!__ To use SPDocKit reports on your workstation, you need to have SPDocKit installed on an actual SharePoint server to load the data. A workstation installation cannot create new farm snapshots or load information about permissions; it can only explore previously loaded data and manage permissions in real-time using Permissions Explorer.
 

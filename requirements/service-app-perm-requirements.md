@@ -52,4 +52,4 @@ Here is what you need to do:
 7. Now when your account/user has the proper privileges, please restart both the SPDocKit application and the SPDocKit service. You should be able to load the User Profile Service Application properties now.
 
 ### Learn More
-* [SharePoint On-Premises User Permissions Requirements](#internal/requirements/sharepoint-on-premises-user-permissions-requirements)
+* [SharePoint On-Premises User Permissions Requirements](#internal/requirements/user-permissions-requirements)

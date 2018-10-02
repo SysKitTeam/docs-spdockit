@@ -5,14 +5,14 @@ date: 23/5/2017
 description: This article explains how to perform a automatic snapshot (using a service account) in SPDocKit.
 ---
 
-SPDocKit allows administrators to configure a schedule to create automatic SharePoint farm snapshots. Once configured, the SPDocKit Service can save your farm settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](#internal/how-to/subscriptions-and-alerts/create-new-subscription/) for more information on how to do this.
+SPDocKit allows administrators to configure a schedule to create automatic SharePoint farm snapshots. Once configured, the SPDocKit Service can save your farm settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](#internal/explore-reports-and-create-documentation/subscriptions-and-alerts/create-new-subscription/) for more information on how to do this.
 
 1. Navigate to the Backstage Configuration Screen and click Configure.
 
 1. Skip to the Service Settings option, select the Enable Service check box and type in the service account details. Click Validate Account and then Next to continue.  
-__Please note!__ Check the [permission requirements](#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for the service account.  
+__Please note!__ Check the [permission requirements](#internal/requirements/user-permissions-requirements) for the service account.  
 
-1. Once the Configuration wizard is finished, navigate to the __Backstage Configuration Screen > Options > Service Settings__. You can change the snapshots folder location or choose to save them to the database. [Define the period](#internal/get-to-know-spdockit/backstage-screen/options-wizard) for creating snapshots with the Data Collection Interval.
+1. Once the Configuration wizard is finished, navigate to the __Backstage Configuration Screen > Options > Service Settings__. You can change the snapshots folder location or choose to save them to the database. [Define the period](#internal/configure-and-extend-spdockit/options-wizard) for creating snapshots with the Data Collection Interval.
 
    With the __Database Index Reorganization__, you can enable automatic index reorganization. That means your database space usage and performance when reading data will improve. During index reorganization, SPDocKit might be unavailable.
 
@@ -50,6 +50,6 @@ __Please note!__ Check the [permission requirements](#internal/requirements/shar
 If you wish to receive an email notification after automatically-taken farm snapshots, follow these instructions:
 
 1. Navigate to the __Backstage Configure Screen > Options > Subscription Settings.__
-1. Check in __Subscriptions Enabled__ box, and select the __Enable email sending__ check box to enable email to be sent. Fill out the necessary details, then click __Test email settings__ to make sure that the email alert is set up properly. [Here](#internal/get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings) are more information on these settings.
+1. Check in __Subscriptions Enabled__ box, and select the __Enable email sending__ check box to enable email to be sent. Fill out the necessary details, then click __Test email settings__ to make sure that the email alert is set up properly. [Here](#internal/configure-and-extend-spdockit/options-wizard#subscription-settings) are more information on these settings.
 3. Click __Save__ to close the Options wizard and apply the changes.
-After that you need to create a new subscription. For detailed information on how to do that please go [here](#internal/how-to/subscriptions-and-alerts/create-new-subscription/).
+After that you need to create a new subscription. For detailed information on how to do that please go [here](#internal/explore-reports-and-create-documentation/subscriptions-and-alerts/create-new-subscription).

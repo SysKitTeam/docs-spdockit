@@ -4,7 +4,7 @@ description: This article states how to use Snapshots Screen an track changes ma
 author: Iva Novoselic
 date: 23/5/2017
 ---
-The __Snapshots Screen__ allows SharePoint administrators to track changes made to the SharePoint Farm during its lifetime. SPDocKit can generate snapshots periodically, or administrators can take a configuration snapshot manually right before making complicated changes. The snapshots contain information about all the [settings SPDocKit can retrieve](#internal/how-to/sharepoint-farm-snapshots/manual-snapshots).
+The __Snapshots Screen__ allows SharePoint administrators to track changes made to the SharePoint Farm during its lifetime. SPDocKit can generate snapshots periodically, or administrators can take a configuration snapshot manually right before making complicated changes. The snapshots contain information about all the [settings SPDocKit can retrieve](#internalcreate-sharepoint-farm-snapshots/manual-snapshots).
 
 This screen will display snapshots found in SPDocKit database and snapshots folder on a disk and group them by the farm they were created on:
 * __Blue icon__ indicates that the snapshot is stored in a SPDocKit database. 
@@ -25,5 +25,5 @@ The following commands are available:
 * __Mark Configuration as Good__ – use this button to mark which SPDocKit snapshot captured your SharePoint farm with all the settings configured in a best possible way. Also, this will exclude that snapshot from data retention policy. Meaning, it will not be deleted.
 * __Rename Farm__ - if you store snapshots from more than one farm, this option allows you to change a default farm name for easier distinction. This option will work only if snapshots are stored in SPDocKit database.
 * __Manage Servers__ - use this button to add third party servers to SPDocKit farm documentation. You can add servers that are not part of your SharePoint farm but affect it in any way. You can also exclude certain farm servers which means that SPDocKit will not load any data related to these servers.
-* __File Name__ – to activate this column go to the __View__ tab and use the __Choose Columns__ button. For more information on how to change the default file name [see here](#internal/get-to-know-spdockit/backstage-screen/options-wizard#snapshot-options) and observe the snapshots name template section.
+* __File Name__ – to activate this column go to the __View__ tab and use the __Choose Columns__ button. For more information on how to change the default file name [see here](#internal/configure-and-extend-spdockit/options-wizardd#snapshot-options) and observe the snapshots name template section.
 * __Load Duration__ - this column displays how long it took to take a snapshot of your environment.
