@@ -55,7 +55,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ### [Document Extensions Report](document-extensions-report.md)
 ## [Audit Reports](audit-reports)
 ### [Audit Reports Screen](audit-reports-screen.md)
-### [Audit Permissions Changes](security-audit.md)
+### [Audit Permissions Changes](audit-log.md)
 ### [Explore Administrative Actions](administrative-actions.md)
 ### [Explore Audit Settings](audit-settings.md)
 ## [Best Practices](best-practices)
