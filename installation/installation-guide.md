@@ -33,8 +33,8 @@ For example, if you want to place the log file named __spdockit_installation_log
 Note that this will work for both .exe and .msi installation files.
 
 ## Learn more
-* [How to: Create Farm Documentation](#internal/how-to/farm-documentation/create-farm-documentation/)
-* [How to: Compare SharePoint Farms](#internal/how-to/compare-wizard/compare-sharepoint-farms/)
-* [How to: Configure Automatic Snapshots](#internal/how-to/sharepoint-farm-snapshots/automatic-snapshots/)
+* [How to: Create Farm Documentation](#internal/explore-reports-and-create-documentation/farm-explorer/farm-documentation/)
+* [How to: Compare SharePoint Farms](#internal/compare-sharepoint-configurations/compare-sharepoint-farms/)
+* [How to: Configure Automatic Snapshots](#internal/create-sharepoint-farm-snapshots/automatic-snapshots/)
 
      

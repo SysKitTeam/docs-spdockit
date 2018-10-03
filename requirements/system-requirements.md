@@ -14,7 +14,7 @@ This article lists the minimum hardware and software requirements for SPDocKit. 
 * The product needs to be installed (or started) on a **SharePoint 2016, SharePoint 2013 or SharePoint 2010 Server**
    * For SharePoint 2013 & 2010: SharePoint Foundation, Standard and Enterprise are supported.
    * You can install the product on a WFE (recommended), Application, Index or any other server in the farm.
-   * User must have [proper privileges](#internal/requirements/sharepoint-on-premises-user-permissions-requirements/) to run the application.
+   * User must have [proper privileges](#internal/requirements/user-permissions-requirements/) to run the application.
 
 * Software
   * For SharePoint 2016: Windows 2012 R2 or Windows Server 2016
@@ -44,5 +44,5 @@ From version 5.2., SPDocKit installed on a workstation also supports real-time v
 
 ### Learn more
 * [Installation Guide](#internal/installation/installation-guide)
-* [How to create farm documentation](#internal/how-to/farm-documentation/create-farm-documentation)
-* [How to compare SharePoint farms](#internal/how-to/compare-wizard/compare-sharepoint-farms)
+* [How to create farm documentation](#internal/explore-reports-and-create-documentation/farm-explorer/farm-documentation.md)
+* [How to compare SharePoint farms](#internal/compare-sharepoint-configurations/compare-sharepoint-farms)
