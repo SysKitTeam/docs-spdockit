@@ -12,6 +12,8 @@ To view the report go to __Audit Reports > Audit Settings__.
 
 Once you [take a snapshot](#internal/create-sharepoint-farm-snapshots/manual-snapshots) of your farm, the report will list all site collections and their respective audit settings.  
 
+If you wish for SharePoint (and then SPDocKit) to gather your audit logs, you need to enable them (Site Settings > Site collection audit settings). This report will give you an overview of your audit settings state, on each site collection. 
+
 The Audit Settings report contains these columns:
 
 * Site Collection
@@ -30,5 +32,6 @@ Once you click on a certain row, Audit Settings details will load at the bottom,
 * __Checking out or Checking in Items__
 * __Editing Items__
 * __Opening, Downloading, Viewing Items, or Viewing Item Properties__
+
 
 You can use the filters on the right hand side to customize the report. SharePoint Objects filter will allow you to change the site collections. While Audit Settings filter will allow you to filter by specific audit setting.

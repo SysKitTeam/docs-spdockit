@@ -9,7 +9,7 @@ This article explains how you can use the SharePoint Analytics report. The repor
 
 Report data comes from [SPDocKit database](#internal/configuration/configure-spdockit-database) and in order to start collecting the data you need to enable the SharePoint Analytics Collection. To do so, go to __Options > Service Settings__ and enable the checkbox "enable collection of site analytics from SharePoint's Usage and Health Data Collection service".
 
-In the field below, you can find a list of service accounts to ignore when collecting analytics. This can be useful if you do not want report to be cluttered with "less relevant" system user/s. Also, the form is essentially a people picker and you can add any user you want here.  
+In the field below, you can find a list of service accounts to ignore when collecting analytics. This can be useful if you do not want report to be cluttered with "less relevant" system user/s. Also, the form is essentially a people picker and you can add any user you want here. So, the user you enter here __will not__ be visible on the report. 
 
 To view the report go to __Analytics % Usage Reports > Analytics > SharePoint Analytics__.
 
