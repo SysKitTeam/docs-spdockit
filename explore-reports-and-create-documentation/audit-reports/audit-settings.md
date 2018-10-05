@@ -34,4 +34,4 @@ Once you click on a certain row, Audit Settings details will load at the bottom,
 * __Opening, Downloading, Viewing Items, or Viewing Item Properties__
 
 
-You can use the filters on the right hand side to customize the report. SharePoint Objects filter will allow you to change the site collections. While Audit Settings filter will allow you to filter by specific audit setting.
+You can use the filters on the right-hand side to customize the report. SharePoint Objects filter will allow you to change the site collections, while the Audit Settings filter will allow you to filter by specific audit setting.

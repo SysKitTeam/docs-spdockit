@@ -5,11 +5,11 @@ author: Tomislav Sirovec
 date: 28/9/2018
 ---
 
-This article explains how you can use the SharePoint Analytics report. The report shows the total visits each site collection had in the last 7 days along with the maximum number of daily unique visitors, and how the visits compare to the previous period. Also includes data on each site collection's size, number of subsites, date when it was last accessed and last modified. 
+This article explains how you can use the SharePoint Analytics report. The report shows the total number of hits each site collection had in the last 7 days along with the maximum number of daily unique visitors, and how the number of hits compares to the previous period. Also includes data on each site collection's size, the number of subsites, and the date when it was last accessed and last modified. 
 
-Report data comes from [SPDocKit database](#internal/configuration/configure-spdockit-database) and in order to start collecting the data you need to enable the SharePoint Analytics Collection. To do so, go to __Options > Service Settings__ and enable the checkbox "enable collection of site analytics from SharePoint's Usage and Health Data Collection service".
+Report data comes from [SPDocKit database](#internal/configuration/configure-spdockit-database), and in order to start collecting the data, you need to enable the SharePoint Analytics Collection. To do so, go to __Options > Service Settings__ and enable the checkbox "Enable collection of site analytics from SharePoint's Usage and Health Data Collection service". For more information on available options, read [this article](#internal/configure-and-extend-spdockit/options-wizard).
 
-In the field below, you can find a list of service accounts to ignore when collecting analytics. This can be useful if you do not want report to be cluttered with "less relevant" system user/s. Also, the form is essentially a people picker and you can add any user you want here. So, the user you enter here __will not__ be visible on the report. 
+In the field below, you can find a list of accounts to ignore when collecting analytics. This can be useful if you do not want the report to be cluttered with "less relevant" system users. The form is essentially a people picker and you can add any user you want here. Just to make it clear, the hits made by users you enter here __will not__ be taken into account when collecting data used in reports. 
 
 To view the report go to __Analytics % Usage Reports > Analytics > SharePoint Analytics__.
 
@@ -24,8 +24,8 @@ The SharePoint Analytics grid report contains these columns:
 * __Last Accessed__ - The date when the site collection was last accessed.
 * __Last Content Modified__ - The date when the content on a site collection was last modified.
 
-You can customize this grid by adding optional column:
+You can customize this grid by adding an optional column:
 
 * __Web Application__ - Web application name. 
 
-Click on a grid row and a corresponding chart will load at the bottom. The chart can be modified to show __visitors, storage and subsites__. Also, the data range can ne changed either by clicking on a __zoom button__ or by mouse wheel.  
+Click on a grid row and a corresponding chart will load at the bottom. The chart can be modified to show __visitors, storage, and subsites__. Also, the data range can be changed either by clicking on a __zoom button__ or by mouse wheel.  

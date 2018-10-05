@@ -25,7 +25,7 @@ To deactivate your current license, please follow these steps:
 
 SPDocKit license is now deactivated and you can use it again.
 
-If you experience any problems reactivating the license, [contact our support team](https://www.spdockit.com/support/contact-us/) to help you troubleshoot the issue.
+If you experience any problems reactivating the license, [contact our support team](https://www.syskit.com/company/contact-us/) to help you troubleshoot the issue.
 Please provide the __farm ID__ of the SharePoint farm currently activated with the key you would like to reactivate.
 
 
