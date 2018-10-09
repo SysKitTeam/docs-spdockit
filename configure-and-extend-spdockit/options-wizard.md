@@ -29,14 +29,18 @@ Here you can also change the report throttling options:
 * Modify the maximum number of permissions to use in the Permission Details reports.
 * Modify the maximum number of rows in a report.
 * Modify the maximum number of rows supported in report export.
+* Modify the maximum number of audit logs supported in the Audit Log Details report. 
 
 ## Service settings
 
-This section allows you to configure the __SPDocKit Service running period__ and the __default snapshot location__.
+The snapshots are by default saved to the SPDocKit database. To back up your snapshots, enable the __Save backup of snapshot file to disk__ option. 
+You can also define a preferred disk location, where the backup files will be saved.
 
-You can choose whether to save snapshots directly to the SPDocKit database or to the preferred disk location (or both).
-
+Here you can also define the __SPDocKit Service running period__. 
 The time you set here determines when the Service will start taking an automatic snapshot to collect the data you specified in the __Snapshot Options__ and __Load Target__ tabs of the Options Wizard. The __SPDocKit Service__ will repeat that task whenever the selected recurrence period runs out. The minimal period is 4 hours, while the default value is 1 day. 
+
+Check the __Enable collection of site analytics from SharePoint's Usage and Health Data Collection service__ option if you want SPDocKit to collect data used for generating the SharePoint Analytics and Inactive Sites report. After being enabled for the first time, the Analytics job will immediately start to collect data for the last 7 days. It will further run on a daily basis (around 3 AM) and collect data for the previous day.   
+You can also define accounts for which the data will not be collected.
 
 Enabling the __automatic index reorganization__ will result in better space usage and performance of the SPDocKit database. This job will always be run outside of regular business hours (around 5 AM by default).
 
@@ -44,18 +48,19 @@ Enabling the __automatic index reorganization__ will result in better space usag
 
 This section allows you to choose what will be loaded by both the __SPDocKit Service__ when taking an __automatic snapshot__, and if you select the __Default__ mode in the Take Snapshot wizard. 
 
-We redesigned the load screen to be more user friendly, and added more load options. There are 4 categories:  
+The options are grouped into 4 categories:  
   * __SharePoint__
-     * The __Farm Settings__ check box will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
-     * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm, since that is where the content types are defined.
+     * The __Farm Settings__ checkbox will be selected by default. That means that SPDocKit will load farm settings by default and this option cannot be changed. 
+     * __Content Types__ - When this option is selected, you’ll need to crawl down to each list on the farm since that is where the content types are defined.
      * SPDocKit also allows you to backup all __*.wsp files__ in use by your farm, but you’ll need to define a location for this backup. This data can also be used later to find out whether there are any problems with the assemblies deployed on your farm.
      * __Features and Solutions__, __Workflows__
+     * __Document Versions, Extensions and Sizes__ - Enable this option to collect data about the __number of documents on a farm and their total size by extension__, which is used in Document Extensions Overview and Document Extension Details report.
 
   * __Security__ 
      * __Database Permissions__ - Selecting this will enable you to view the Database Permissions report. This report shows information about all users, across all databases on a SQL Server. 
      * __Permissions__ - If you want to know the permissions of each list item on the farm, you can get that information by selecting the __Permissions check box__ and setting the Load Depth to list item. You can also select the __Active Directory Group Members__ check box if you wish to load members of the AD groups. 
      * __Administrative Actions Log__ - this option will be visible only for SharePoint 2016 FP1 farms and enables you to browse and analyze administrative actions logs collected from your SharePoint farm.
-     * __Security Audit__ - this option is required for Permission Audit report which enables you to see complete history of permission changes on site collection.
+     * __Audit Logs__ - this option is required to collect data for Audit Reports where a complete history of changes made on site collections is shown. Enable the __Include Changes Made by System Account__ to load actions made by the System Account. 
 
   * __Server Settings__ 
      * __Installed Programs and available Updates__

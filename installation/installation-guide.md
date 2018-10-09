@@ -6,20 +6,17 @@ description: This article explains how to install SPDocKit.
 ---
 This article explains how to install SPDocKit.
 
-__System Requirements:__ The product uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. It needs to be installed on a __SharePoint 2010, SharePoint 2013 or SharePoint 2016 server to load farm information.__
+__System Requirements:__ The product uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. It needs to be installed on a __SharePoint 2010, SharePoint 2013, SharePoint 2016 or SharePoint 2019 server to load farm information.__
 
 The application can be installed on a workstation with a __Windows 7, Windows 8 or Windows 10__ operating system, but you will not be able to load SharePoint farm settings, only connect to an existing SPDocKit database and open already saved snapshots. [Read more about required system settings.](#internal/requirements/system-requirements/)
 
 1. [Download](https://www.spdockit.com/downloads/) Application.
-2. Unpack and run __SPDocKitSetup.exe.__ The wizard will guide you through the installation steps, click Next > to proceed.
-3. Click I Accept the terms of the license agreement to accept the license and then click Next > to proceed.
-4. Choose the desired installation type:
-    * __Install__ - the product will be installed on your computer.
-    * __Run__ - the application will NOT be installed on your server but rather unpacked to a temporary folder. This is a zero footprint run, the application will not make any changes to your server. Some functions like automatic snapshots will not be available in this mode.
-5. Choose the installation folder e.g. __C:\Program Files\SysKit\SPDocKit.__ Click __Next__ > to proceed.
-6. Select the location where to create application shortcuts and the preferred availability option (__Anyone__ or __Only me__). Click __Next__ > to proceed.
-7. The installation wizard will unpack your files and you will be able to run the application from: __Start__ > __All Programs__ > __SPDocKit.__
-8. [Configure SPDocKit database and Snapshot Service](#internal/configuration/configure-spdockit/) settings.
+1. Unpack and run __SPDocKitSetup.exe.__ The wizard will guide you through the installation steps, click Next > to proceed.
+1. Click I Accept the terms of the license agreement to accept the license and then click Next > to proceed.
+1. Choose the installation folder e.g. __C:\Program Files\SysKit\SPDocKit.__ Click __Next__ > to proceed.
+1. Select the location where to create application shortcuts and the preferred availability option (__Anyone__ or __Only me__). Click __Next__ > to proceed.
+1. The installation wizard will unpack your files and you will be able to run the application from: __Start__ > __All Programs__ > __SPDocKit.__
+1. [Configure SPDocKit database and Snapshot Service](#internal/configuration/configure-spdockit/) settings.
 
 ## Tips & tricks
 If you encounter any problems during the installation and wish to enable logging to help you resolve the problems, you can start the installation using the command prompt with the following argument:

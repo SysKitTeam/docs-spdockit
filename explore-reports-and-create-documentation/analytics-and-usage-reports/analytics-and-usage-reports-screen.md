@@ -10,7 +10,7 @@ Analytics and Usage Reports provide a quick overview of your farm storage and co
 __Content Overview__ – graphical overview of your farm metrics. Displays information about site collection and content database sizes, total SharePoint's site collections sizes over time, used SharePoint space, servers by role, site collections per Web application and content databases over time.  
 
 ### Analytics
-* __SharePoint Analytics__ - Shows the total visits each site collection had in the last 7 days along with the maximum number of daily unique visitors, and how the visits compare to the previous period. Also includes data on each site collection's size, number of subsites, date when it was last accessed and last modified. 
+* __SharePoint Analytics__ - Shows the total number of hits each site collection had in the last 7 days along with the maximum number of daily unique visitors, and how the hits compare to the previous period. Also includes data on each site collection's size, number of subsites, date when it was last accessed and last modified. 
 * __Site Visitors List__ – Shows a list of all visitors on the selected site. 
 
 ###  Usage & Structure

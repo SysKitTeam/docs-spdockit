@@ -73,7 +73,7 @@ __Release date:__ Oct 17/18, 2018
 
 * __Improved Permission Level filter__ that now works on Permission Matrix and User Permissions Details report when multiple site collections are selected.
 
-* __Snapshot filter__ can now be extended in which case it shows the information about load depth, snapshot mode, permissions loaded status, and if a snapshot is marked as good configuration.
+* __Snapshot filter can now be extended__ in which case it shows the information about load depth, snapshot mode, permissions loaded status, and if a snapshot is marked as good configuration.
 
 * __Validation of Snapshot files improved__. When trying to import a snapshot that is created with a newer version of SPDocKit than the one you are running, an appropriate message appears. 
 
@@ -83,7 +83,7 @@ __Release date:__ Oct 17/18, 2018
 
 * __Numerous UX/UI improvements__ - new icons; improved report and filter descriptions; clearer error and warning messages and many more. 
 
-* Multiple __Export buttons replaced with one Export button__. Default export type is set to XLSX, with an available dropdown option where you can select a different export type. 
+* __Multiple Export buttons replaced with one Export button__. Default export type is set to XLSX, with an available dropdown option where you can select a different export type. 
 
 * Improved the __look of emails__ you receive from SPDocKit subscriptions, alerts, and queries.
 
