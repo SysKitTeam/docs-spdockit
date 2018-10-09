@@ -42,4 +42,4 @@ __Please note!__ When selecting two or more audit settings in the __Audit Settin
     - Editing Users and Permissions setting - Off checkbox is selected. 
     - Searching Site Content setting - On checkbox is selected. 
 
-    The report will show site collections where the Editing Users and Permissions setting is turned Off __AND__ the Searching Site Content setting is turned On.
+The report will show site collections where the Editing Users and Permissions setting is turned Off __AND__ the Searching Site Content setting is turned On.
