@@ -34,4 +34,12 @@ Once you click on a certain row, Audit Settings details will load at the bottom,
 * __Opening, Downloading, Viewing Items, or Viewing Item Properties__
 
 
-You can use the filters on the right-hand side to customize the report. SharePoint Objects filter will allow you to change the site collections, while the Audit Settings filter will allow you to filter by specific audit setting.
+You can use the filters on the right-hand side to customize the report. 
+* The __Farm filter__ is visible in case a database connected to multiple farms is used by SPDocKit.
+* The __SharePoint Objects filter__ enables you to select web applications and site collections. You can view settings of __all site collections in a SharePoint farm__ by selecting all web applications. 
+* The __Audit Settings filter__ makes it possible to filter the report by the status of specific audit settings (On or Off). By default, all audit settings are selected. <br/>
+__Please note!__ When selecting two or more audit settings in the __Audit Settings__ filter, the __AND operator is used__ between them, as demonstrated in the following __example__:
+    - Editing Users and Permissions setting - Off checkbox is selected. 
+    - Searching Site Content setting - On checkbox is selected. 
+
+    The report will show site collections where the Editing Users and Permissions setting is turned Off __AND__ the Searching Site Content setting is turned On.
