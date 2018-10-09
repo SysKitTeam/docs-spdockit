@@ -47,7 +47,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ### [Change the limit on Site topology Report](change-limit-site-topology-report.md)
 ## [Site Explorer](site-explorer)
 ### [Site Explorer Screen](site-explorer-screen.md)
-## [Permission reports](permission-reports)
+## [Permission Reports](permission-reports)
 ### [Permissions Reports screen](permissions-reports-screen.md)
 ### [Security Audit](security-audit.md)
 ## [Analytics and Usage Reports](analytics-and-usage-reports)
