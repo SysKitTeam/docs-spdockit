@@ -11,9 +11,9 @@ Give it a try and let us know what you think!
 
 __Product version:__ 8.0.2 
 
-__Build number:__ 105xx 
+__Build number:__ 10503 
 
-__Release date:__ Oct 17/18, 2018 
+__Release date:__ Oct 18, 2018 
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
 

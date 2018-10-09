@@ -118,7 +118,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 
 # [Release Notes](product-updates)  
 Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
-## [SPDocKit 8.0](spdockit-8-release-note.md)
+## [SPDocKit 8.0.2](spdockit-8-release-note.md)
 
 # [FAQ](faq)
 These are some of the most common questions and answers about SPDocKit. If you cannot find the answer to your problem, please contact us.
