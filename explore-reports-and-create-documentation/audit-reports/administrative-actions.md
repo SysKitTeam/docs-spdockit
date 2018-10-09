@@ -1,5 +1,5 @@
 ---
-title: Administrative actions
+title: Administrative Actions Report
 description: This article explains how you can use the Administrative Actions report to get a centralized overview of all administrative actions made on your SharePoint farm.
 author: Marko Gudan
 date: 05/6/2017
