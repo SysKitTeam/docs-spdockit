@@ -53,7 +53,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ## [Analytics and Usage Reports](analytics-and-usage-reports)
 ### [Analytics and Usage Reports Screen](analytics-and-usage-reports-screen.md)
 ### [SharePoint Analytics](sharepoint-analytics-report.md)
-### [Document Extensions Report](document-extensions-report.md)
+### [Document Extensions Reports](document-extensions-reports.md)
 ## [Audit Reports](audit-reports)
 ### [Audit Reports Screen](audit-reports-screen.md)
 ### [Audit Permissions Changes](audit-log.md)
