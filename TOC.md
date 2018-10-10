@@ -32,12 +32,14 @@ Explore all possible configuration scenarios and choose the right one for your e
 ## [Import and Export SPDocKit Settings](import-and-export-spdockit-settings.md)
 
 # [Create SharePoint Farm Snapshots](create-sharepoint-farm-snapshots)
+Load your SharePoint Farm settings manually or automate the task with the service.
 ## [Snapshots Screen](snapshots-screen.md)
 ## [Manual Snapshots](manual-snapshots.md)
 ## [Automatic Snapshots](automatic-snapshots.md)
 
 
 # [Explore Reports & Create Documentation](explore-reports-and-create-documentation)
+View and export SPDocKit's comprehensive SharePoint documentation.
 ## [Farm Explorer](farm-explorer)
 ### [Farm Explorer Screen](farm-explorer-screen.md)
 ### [Farm Explorer Reports](farm-explorer-reports.md)
@@ -71,6 +73,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ### [Add Comments & Tags](add-comments.md)
 
 # [Compare SharePoint Configurations](compare-sharepoint-configurations)
+Compare SharePoint farms, securable objects, or hardware resources at different time points. 
 ## [Compare Wizard](compare-wizard.md)	
 ## [Compare Farms](compare-sharepoint-farms.md)	
 ## [Compare Servers](compare-servers.md)	
@@ -80,6 +83,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ## [Compare Web.Config Files](compare-web-config-files.md)	
 
 # [Manage SharePoint Permissions](manage-sharepoint-permissions)
+Define SharePoint's user and group permissions with a set of easy to use wizards and actions.
 ## [Permissions Explorer Screen](permissions-explorer-screen.md)
 ## [Manage Permissions Ribbon Actions](manage-permissions-ribbon-actions.md) 
 ## [Users and Groups Actions](users-and-groups-actions)
@@ -100,6 +104,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ## [SPDocKit Permission Management Event Log](spdockit-permission-management-event-log.md)
 
 # [Configure & Extend SPDocKit](configure-and-extend-spdockit)
+Adjust SPDocKit's settings to your needs and add additional capabilities.
 ## [Backstage Screen](backstage-screen.md)
 ## [Options Wizard](options-wizard.md)
 ## [License Management](license-management.md)
@@ -109,6 +114,7 @@ Explore all possible configuration scenarios and choose the right one for your e
 ### [Activate SPCAF Extension](activate-spcaf-extension.md)
 
 # [Query & Change SharePoint Settings](query-and-change-sharepoint-settings)
+View and change SharePoint settings manually, or define automatic execution to enforce your governance policies.
 ## [Queries and Rules Screen](queries-and-rules-screen.md)
 ## [Create SharePoint Governance Policy Rule](create-governance-policy-rule.md)	
 ## [Create SPDocKit Query](create-spdockit-query.md)	
@@ -148,6 +154,7 @@ Even the best of us fail sometimes. We are working on it!
 ## [Recursive groups issue with export](recursive-groups-export.md)
 
 # [Troubleshooting](troubleshooting)
+Find a solution to the most common problems which appear when working with SPDocKit. It's probably permissions.
 ## [SharePoint](sharepoint)	
 ### [Could not access content database](could-not-access-content-database-on-server.md)	
 ### [The service application ‘UPA Name’ does not have any proxies that are default in a proxy group](service-app-does-not-have-proxies.md)	
