@@ -22,7 +22,7 @@ __Release date:__ Oct 18, 2018
 ## Important Changes
 
 * __SPDocKit Consultant__ is now a standalone installation designed with the intent to simplify and better focus the usage of SPDocKit on your client's farm, as opposed to the old interface which was better suited for internal usage. As a highly requested feature, we removed the need to install any software on your client's farm servers. To create snapshots use the zero footprint executable __SPDocKit Snapshot Wizard - Consultant__ or the new __[SPDocKit Powershell module](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS)__ if you prefer to use PowerShell. For more information about SPDocKit Consultant, please visit the following [link](https://www.syskit.com/products/spconsultant/).
-* For Farm users the __use of a dedicated SPDocKit database is now reqired__. 
+* For Farm users the __use of a dedicated SPDocKit database is now required__. 
 * SPDocKit 8 is bringing some __changes in the licensing__ - we are transitioning from perpetual licensing to the subscription model. Read more about these changes [here](#TODO link na Sarin blog post).
 
 ## Features
@@ -35,7 +35,7 @@ __Release date:__ Oct 18, 2018
 
 * New and better __Audit reports__ available! You can now __view all actions__ logged by SharePoint in the Audit logs. View the total number of actions performed on all site collections on the __Audit Log Overview report__. For more details drill down to the __[Audit Log Details](https://docs.syskit.com/spdockit/v8/explore-reports-and-create-documentation/audit-reports/audit-log/)__ report which shows every action that was made, by whom, and when. To see the configured audit settings on each site collection in your farm, take a look at the new Audit Settings report. You can now find these reports in a separate category – Audit Logs.
 
-* New __User to User Compare__ available! It is now possible to compare permissions between users, AD and SP Groups. You can also check how one user’s permissions differ between two snapshots. More on this topic available in this article. 
+* New __User to User Compare__ available! It is now possible to compare permissions between users, AD and SP Groups. You can also check how one user’s permissions differ between two snapshots. More on this topic available in [this](#internal/compare-sharepoint-configurations/compare-sharepoint-permissions) article. 
 
 * __New XLSX export__ introduced to SPDocKit that comes with an inbuilt functionality to sort and filter data in each column! It is available on all reports, subscriptions and compare results. The old export style available under a different name – Legacy Export as XLSX.
 
@@ -132,7 +132,7 @@ __Release date:__ Oct 18, 2018
 * __LocalDB is no longer supported__ when SPDocKit is installed on a workstation. Only SPDocKit's installed on SharePoint servers can create databases. Workstations cannot create their own database and must connect to already existing databases.
 
 * __SPDocKit run mode__ has been replaced with new apps used with SPDocKit Consultant.
-For more information visit the [following link](#TODO link na consultant).
+For more information visit the [following link](https://docs.syskit.com/spconsultant/v8/).
 
 * The __XML File__ option for saving snapshots has been removed.
 
