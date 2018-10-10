@@ -44,11 +44,11 @@ If you do not have access to internet, please use [offline activation](#internal
 
 ### What does SysKit do with the information sent during the product activation process?
 
-We use the information only to verify that your product is used within the scope allowed by the SysKit End-User License Agreement (EULA). The information is stored in a database and used only for product activation data. If you register your product, none of the activation information will ever be linked to your personal customer information.
+We use the information only to verify that your product is used within the scope allowed by the [SysKit End-User License Agreement (EULA)](https://www.syskit.com/eula). The information is stored in a database and used only for product activation data. If you register your product, none of the activation information will ever be linked to your personal customer information.
 
 ### What is product activation?
 
-Product activation is an anonymous, secure and hassle-free process that authenticates licensed users during the installation process. The process verifies that the product activation code is genuine and has not been activated on more systems than allowed by the SysKit End-User License Agreement (EULA).
+Product activation is an anonymous, secure and hassle-free process that authenticates licensed users during the installation process. The process verifies that the product activation code is genuine and has not been activated on more systems than allowed by the [SysKit End-User License Agreement (EULA)](https://www.syskit.com/eula).
 
 ### Why does SysKit  require their customers to activate the software?
 
@@ -80,7 +80,7 @@ SysKit does not charge extra for different SharePoint versions simultaneously ru
 SPDocKit Non-Production licenses can only be used on non production environments, such as DEV, UAC or QA. If you have more non production than production farms, then the charge for non-production licenses is significantly cheaper than production licenses. [Contact us](https://www.spdockit.com/support/contact-us/) with the info on how many production vs. non production farms you have, and we will put together a quote that best suits your needs.
 
 ### Where can I find the EULA for SPDocKit?
-Our End User License Agreement is located at the following [link](https://www.syskit.com/eula).
+Our End-User License Agreement is located at the following [link](https://www.syskit.com/eula).
 
 ### I forgot my password — can you tell me how to reset it?
 To reset your password, please go to the [following link](https://my.syskit.com/ForgotPassword.aspx).
