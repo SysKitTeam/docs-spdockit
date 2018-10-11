@@ -63,5 +63,5 @@ The User to User Compare report enables you to compare permissions assigned to a
     * The **Include Content** filter enables you to define the granularity of this report. You can track permissions down to the list item level.
     * The **Farm** filter is preselected to your local farm, but you can easily choose any farm in your SPDocKit database. (This filter will show if you have two or more farms in your SPDocKit database.)
     * The **Snapshots** filter enables you to select the Snapshots you want to compare. To compare the permissions of different users in the same snapshot, make sure to select equal Source and Target snapshots.
-    * Te **Principals** filter enables you to select Users, AD Groups and SPGroups. Select the same user in Source and Target to compare permissions of a user at different time points.
+    * The **Principals** filter enables you to select Users, AD Groups and SPGroups. Select the same user in Source and Target to compare permissions of a user at different time points.
 
