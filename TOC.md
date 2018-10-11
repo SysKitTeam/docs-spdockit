@@ -46,7 +46,7 @@ View and export SPDocKit's comprehensive SharePoint documentation.
 ### [Farm Documentation](farm-documentation.md)
 ### [Passwords and Product keys](passwords-and-product-keys.md)
 ### [Generate an AutoSPInstaller XML Configuration File](generate-autospinstaller-xml-configuration-file.md)
-### [Change the limit on Site topology Report](change-limit-site-topology-report.md)
+### [Change the Limit on Site Topology Report](change-limit-site-topology-report.md)
 ## [Site Explorer](site-explorer)
 ### [Site Explorer Screen](site-explorer-screen.md)
 ## [Permission Reports](permission-reports)
@@ -135,6 +135,7 @@ These are some of the most common questions and answers about SPDocKit. If you c
 ## [Features](features-faq.md)
 ## [Security](security.md)
 ## [Miscellaneous](miscellaneous.md)
+## [SPDocKit Insights Removed](spdockit-insights-removed.md)
 ## [SPDocKit Insights Migration](spdockit-insights-migration.md)
 
 # [Known Issues](known-issues)
