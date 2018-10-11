@@ -1,17 +1,17 @@
 ---
-title: SPDocKit 8.0.2 - Release Note
-description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit 8.0.2.
+title: SPDocKit 8 - Release Note
+description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit 8.
 author: Igor Mesarić
 date: 10/05/2018
 ---
 
-SPDocKit 8.0.2 is a major release that comes with a number of big changes. A whole lot of new and improved reports, filters and exports, SharePoint 2019 support, improved UI/UX and much more. We heard your voice and tried to implement as many of your feature requests as possible. We hope to continue receiving your precious feedback and make SPDocKit even better. 
+SPDocKit 8 is a major release that comes with a number of big changes. A whole lot of new and improved reports, filters and exports, SharePoint 2019 support, improved UI/UX and much more. We heard your voice and tried to implement as many of your feature requests as possible. We hope to continue receiving your precious feedback and make SPDocKit even better. 
 
 Give it a try and let us know what you think! 
 
 __Product version:__ 8.0.2 
 
-__Build number:__ 10503 
+__Build number:__ 10515 
 
 __Release date:__ Oct 18, 2018 
 
@@ -23,7 +23,7 @@ __Release date:__ Oct 18, 2018
 
 * __SPDocKit Consultant__ is now a standalone installation designed with the intent to simplify and better focus the usage of SPDocKit on your client's farm, as opposed to the old interface which was better suited for internal usage. As a highly requested feature, we removed the need to install any software on your client's farm servers. To create snapshots use the zero footprint executable __SPDocKit Snapshot Wizard - Consultant__ or the new __[SPDocKit Powershell module](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS)__ if you prefer to use PowerShell. For more information about SPDocKit Consultant, please visit the following [link](https://www.syskit.com/products/spconsultant/).
 * For Farm users the __use of a dedicated SPDocKit database is now required__. 
-* SPDocKit 8 is bringing some __changes in the licensing__ - we are transitioning from perpetual licensing to the subscription model. Read more about these changes [here](#TODO link na Sarin blog post).
+* SPDocKit 8 is bringing some __changes in the licensing__ - we are transitioning from perpetual licensing to the subscription model. Read more about these changes [here](https://blog.syskit.com/spdockit-v8-licensing-changes).
 
 ## Features
 

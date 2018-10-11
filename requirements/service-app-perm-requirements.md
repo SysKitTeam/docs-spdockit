@@ -1,5 +1,5 @@
 ---
-title: Could not load Search Service Application, check your permissions or event log.
+title: Service Application Permission Requirements
 description: Article describes how to handle issue when Search Service Application load is not working properly.
 author: Mia Tomaić
 date: 18/5/2017
