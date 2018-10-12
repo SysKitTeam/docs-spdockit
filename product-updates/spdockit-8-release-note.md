@@ -27,7 +27,7 @@ __Release date:__ Oct 18, 2018
 
 ## Features
 
-* A new __SharePoint Analytics__ and __Inactive Sites__ report is available! We created a new __Analytics job__ that aggregates data from the SharePoint Usage Request tables. The SharePoint Analytics report displays the collected data on a graph and gives you an overview of site visitors and hits over time. The Inactive Sites report uses this data to show you which site collections have no activity and could, therefore, be retired. To emphasize the importance of this changes, we __renamed the Content & Usage category into "Analytics & Usage"__. For more details read [this article](#TODO link na Matijin blog post). 
+* A new __SharePoint Analytics__ and __Inactive Sites__ report is available! We created a new __Analytics job__ that aggregates data from the SharePoint Usage Request tables. The SharePoint Analytics report displays the collected data on a graph and gives you an overview of site visitors and hits over time. The Inactive Sites report uses this data to show you which site collections have no activity and could, therefore, be retired. To emphasize the importance of this changes, we __renamed the Content & Usage category into "Analytics & Usage"__. For more details read [this article](https://blog.syskit.com/analytics-in-sharepoint-on-premises). 
 
 * And we have added even more new reports! The new __Recently Created Sites__, __Recently Created Lists__, __Unmodified Lists__, __Recently Created Documents__, and __Recently Modified Documents__ reports make it easy to check what kind of content was recently created or modified, by whom, and when. You can find these reports in the __Usage & Structure__ folder under the __Analytics & Usage Reports__ category.
 
