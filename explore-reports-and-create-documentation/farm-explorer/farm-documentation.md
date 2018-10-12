@@ -14,7 +14,7 @@ This section describes how you can generate SharePoint farm documentation using 
 
 1. The farm settings you want to export can be selected from the drop-down options.
 
-    In the Generate Documentation window you will be able to select which farm settings reports you wish to include in your Farm Documentation by checking the boxes in the dropdown menu. This selection you make can be saved and used as a template for generating documentation in the future.  
+    In the Generate Documentation window, you will be able to select which farm settings reports you wish to include in your Farm Documentation by checking the boxes in the drop-down menu. This selection you make can be saved and used as a template for generating documentation in the future.  
     SPDocKit also comes with a set of predefined documentation templates, with commonly used options already pre-selected. The documentation templates by default are: All, Full Documentation (without Site Explorer), Regular Documentation and Simple Documentation.  
 
     There is a possibility that there will be a large amount of data contained in Site Explorer reports, so we added a template called Full Documentation without Site Explorer.  

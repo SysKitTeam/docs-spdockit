@@ -29,7 +29,7 @@ __Please note!__ Date filter must be set to Live, otherwise the Restore Permissi
 ### Important: 
 * This wizard will not delete groups or permission levels that did not exist on the selected date and were created in the meantime. 
 * The Permission restore action is reversible only if there is a snapshot containing the current permission data. It is recommended that you have a snapshot containing the current permission data so you can reverse changes if something goes wrong. 
-* Essentially, this feature can be used to __backup__ your permissions on a given point in time. Create the snapshot following the rules explain above - and the __snapshot itself servers as a backup.__ 
+* Essentially, this feature can be used to __backup__ your permissions on a given point in time. Create the snapshot following the rules explained above - and the __snapshot itself serves as a backup.__ 
 
 ### Limitations:
 * Snapshots must be taken with SPDocKit version 7 or higher and must contain permissions data of the target securable object.
