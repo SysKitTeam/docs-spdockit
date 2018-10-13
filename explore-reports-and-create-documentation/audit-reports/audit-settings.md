@@ -1,6 +1,6 @@
 ---
 title: Audit Settings Report
-description: This article describes how to use Audit Settings report. 
+description: This article describes how to use the Audit Settings report. 
 author: Tomislav Sirovec
 date: 03/10/2018
 ---

@@ -19,7 +19,7 @@ From the other filters, you can choose the date range, users who performed the a
 
 By default, the Permissions Audit Details report contains the following columns:  
 
-* __Event Type__ – Type of action performed (e.g. group created, group member added, permissions granted, permission inheritance broken, etc.).  
+* __Event Type__ – Type of action performed (e.g., group created, group member added, permissions granted, permission inheritance broken, etc.).  
 * __Time__ – Time of day the action was performed (it is shown in local time).  
 * __Performed By__ – User who performed the action.  
 * __Target__ – Principal or permission level that was modified.  
