@@ -11,7 +11,7 @@ Give it a try and let us know what you think!
 
 __Product version:__ 8.0.2 
 
-__Build number:__ 10515 
+__Build number:__ 10521 
 
 __Release date:__ Oct 18, 2018 
 
