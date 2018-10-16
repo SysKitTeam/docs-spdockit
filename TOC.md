@@ -3,6 +3,10 @@ title: Table of Contents
 private: true
 --- 
 
+# [Release Notes](product-updates)  
+Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
+## [SPDocKit 8](spdockit-8-release-note.md)
+
 # [Requirements](requirements)
 Make sure that your environment and the account used for the application meet SPDocKit requirements. 
 ## [SharePoint On-Premises User Permissions Requirements](user-permissions-requirements.md)
@@ -120,11 +124,6 @@ View and change SharePoint settings manually, or define automatic execution to e
 ## [Create SPDocKit Query](create-spdockit-query.md)	
 ## [Change SPDocKit Query Results Limit](change-query-results-limit.md)	
 ## [Create Audit Queries and Rules](create-audit-queries-and-rules.md)	
-
-
-# [Release Notes](product-updates)  
-Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
-## [SPDocKit 8.0.2](spdockit-8-release-note.md)
 
 # [FAQ](faq)
 These are some of the most common questions and answers about SPDocKit. If you cannot find the answer to your problem, please contact us.

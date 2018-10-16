@@ -57,11 +57,11 @@ Membership Differences report allows you to check if group members of your Share
 
 ### **User to User Compare**
 
-The User to User Compare report enables you to compare permissions assigned to any two users, AD or SP Groups. You can even compare the same user at different time points to see if there were some permission changes. 
+The User to User Compare report enables you to compare permissions assigned to any two users, or to AD or SP Groups. You can even compare the same user at different points in time to see if there were any permission changes. 
 
 1. Select the User to User Compare subtype and click Next to proceed to the result screen. 
     * The **Include Content** filter enables you to define the granularity of this report. You can track permissions down to the list item level.
     * The **Farm** filter is preselected to your local farm, but you can easily choose any farm in your SPDocKit database. (This filter will show if you have two or more farms in your SPDocKit database.)
     * The **Snapshots** filter enables you to select the Snapshots you want to compare. To compare the permissions of different users in the same snapshot, make sure to select equal Source and Target snapshots.
-    * The **Principals** filter enables you to select Users, AD Groups and SPGroups. Select the same user in Source and Target to compare permissions of a user at different time points.
+    * The **Principals** filter enables you to select Users, and to select AD Groups and SPGroups. Select the same user in Source and Target to compare the permissions of one user at different time points.
 
