@@ -44,5 +44,5 @@ From version 5.2., SPDocKit installed on a workstation also supports real-time v
 
 ### Learn more
 * [Installation Guide](#internal/installation/installation-guide)
-* [How to create farm documentation](#internal/explore-reports-and-create-documentation/farm-explorer/farm-documentation.md)
+* [How to create farm documentation](#internal/explore-reports-and-create-documentation/farm-explorer/farm-documentation)
 * [How to compare SharePoint farms](#internal/compare-sharepoint-configurations/compare-sharepoint-farms)

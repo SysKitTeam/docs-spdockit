@@ -7,7 +7,7 @@ date: 17/05/2017
 
 This section describes how to create scheduled __Subscriptions__ for SPDocKit reports. Data you receive from these subscriptions is gathered from the __last loaded farm snapshot__ information.
 
-If you wish to use __Subscriptions and Alerts__ feature, please make sure you configured the [Subscription Settings](#internal/configure-and-extend-spdockit/options-wizardd#subscription-settings) properly.
+If you wish to use __Subscriptions and Alerts__ feature, please make sure you configured the [Subscription Settings](#internal/configure-and-extend-spdockit/options-wizard#subscription-settings) properly.
 
 1. Navigate to the Backstage Configuration Screen and click __Subscriptions and Alerts__, or find this button in the Home ribbon.
 1. When the Subscriptions and Alerts manager opens, click __New Subscription__.

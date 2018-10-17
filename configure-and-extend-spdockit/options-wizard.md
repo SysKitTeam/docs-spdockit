@@ -92,7 +92,7 @@ Set the preferred database size and SPDocKit will warn you when the database siz
 
 If your SPDocKit database becomes too big, you can force a manual data retention using the __Execute__ button. Please note that this action will also try to execute the SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – being member of the sysadmin server role or db_owner database role. Without those permissions, data will still be deleted, but the database size will not decrease. You can still attempt to manually decrease the size of SPDocKit's databases by executing the SHRINKDATABASE command manually after the data retention job has run.
 
-Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](#internal/get-to-know-spdockit/snapshots-screen/).
+Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](#internal/create-sharepoint-farm-snapshots/snapshots-screen.md).
 
 ## Subscription settings
 

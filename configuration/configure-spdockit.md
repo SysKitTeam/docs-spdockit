@@ -29,7 +29,7 @@ This article explains how to configure the SPDocKit database and service before 
 
 4. click __Next__ to complete the Configuration Wizard and apply the changes.
 
-__Please note!__ To configure your SPDocKit settings more thoroughly, navigate to the __File__ tab, click on the __Configuration__ in the left navigation bar and press [Options](#internal/get-to-know-spdockit/backstage-screen/options-wizard/) button.
+__Please note!__ To configure your SPDocKit settings more thoroughly, navigate to the __File__ tab, click on the __Configuration__ in the left navigation bar and press [Options](#internal/configure-and-extend-spdockit/backstage-screen) button.
 
 
 ## Workstation

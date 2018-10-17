@@ -11,7 +11,7 @@ This article explains how to upgrade SPDocKit to the latest major version. SPDoc
 1. The account running the application should have __db_owner__ privileges on the SPDocKit database in order to perform the upgrade process successfully. If you are also changing the SPDocKit Service account to a different one, the account running the upgrade should also have the __securityadmin__ role on the SQL Server that is storing the database.. This role will allow him to [grant proper privileges to the new Service account](#internal/requirements/user-permissions-requirements/).
 1. Perform a __database backup__ before proceeding with the upgrade process, especially when upgrading to a new major versions of SPDocKit.
 1. Due to a number of database modifications, the upgrade to SPDocKit 8.0 may take a while. 
-1. __Email alerts will not be preserved__ when upgrading from version 6.2.0. and lower. You will have to create new alerts. For more information on this, please follow [these](#internal/get-to-know-spdockit/backstage-screen/options-wizard#email-alerts)  instructions.
+1. __Email alerts will not be preserved__ when upgrading from version 6.2.0. and lower. You will have to create new alerts. For more information on this, please follow [these](#internal/configure-and-extend-spdockit/options-wizard) instructions.
 1. Connected __SharePoint Online__ tenants and added site collections (on a workstation) __will not be preserved__ after the upgrade to SPDocKit 8.0.
 1. __SPDocKit Insights__ has been discontinued in SPDocKit version 8.0.
 
