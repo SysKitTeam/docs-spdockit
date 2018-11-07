@@ -162,6 +162,7 @@ Find a solution to the most common problems which appear when working with SPDoc
 ### [RPC Server is Unavailable](rpc-server-unavailable.md)	
 ### [Error occurred while loading Web Application](error-occurred-while-loading.md)	
 ### [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](error-while-loading-problems-solutions-rule-definitions.md)	
+### [Error while loading IIS Settings Information](error-while-loading-iis-settings.md)
 ### [Errors while trying to load the SharePoint farm](errors-while-loading-farm.md)	
 ### [Failed at retrieving SQL Accounts from the following servers](failed-at-retrieving-accounts-from-servers.md)	
 ### [My permissions loading status is reported as ”Failed”](permissions-loading-status.md)	
