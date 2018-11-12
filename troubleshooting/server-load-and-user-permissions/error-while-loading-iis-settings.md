@@ -23,6 +23,8 @@ The following error message is stored in the event log:
 ## Solution:
 To successfully load IIS Settings, the IIS 6 Metabase Compatibility role has to be enabled. 
 
+__Please note:__ A server restart could be required for the changes to take effect.
+
 To enable the role, follow these steps:
 
 1. Open the Server Manager on IIS server
@@ -32,7 +34,7 @@ b) On the left side menu, click the __Local Server__ option, navigate to the __R
 1. __Before You Begin__ step - continue to the next step by clicking Next.
 1. __Installation Type__ step - make sure the __Role-base or feature-based installation__ option is selected.
 1. __Server Selection__ step - make sure the IIS server is selected.
-1. __Server Roles__ step - make sure to check the __IIS 6 Metabase Compatibility__ option. You can find it under Web Server (IIS) > Management Tools > IIS 6 Management Compatibility > IIS 6 Metabase Compatibility.
+1. __Server Roles__ step - make sure the __IIS 6 Metabase Compatibility__ option is checked. You can find it under Web Server (IIS) > Management Tools > IIS 6 Management Compatibility > IIS 6 Metabase Compatibility.
 1. __Features__ step - continue to the next step.
 1. __Confirmation__ step - check the __Restart the destination server automatically if required__ option and click __Install__.
 1. __Results__ step - displays the installation progress. Once the installation is finished, the __Installation succeeded__ message is displayed. 
