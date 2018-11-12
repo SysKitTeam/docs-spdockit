@@ -21,11 +21,11 @@ The following error message is stored in the event log:
   *at Acceleratio.SPCommon.TimeoutableAction.#392.#5Ygb()*
 
 ## Solution:
-To successfully load the IIS Settings, the IIS 6 Metabase Compatibility role has to be enabled. 
+To successfully load IIS Settings, the IIS 6 Metabase Compatibility role has to be enabled. 
 
 To enable the role, follow these steps:
 
-1. Open the Server Manager on the IIS server
+1. Open the Server Manager on IIS server
 1. a) On the Dashboard screen, select the __Add roles and features__ option
 OR
 b) On the left side menu, click the __Local Server__ option, navigate to the __Roles and Features__ section, and select __Add Roles and Features__ option in the __Tasks__ drop-down menu on the right side of the screen. The __Add Roles and Features Wizard__ opens.
