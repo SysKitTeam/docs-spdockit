@@ -1,6 +1,6 @@
 ---
 title: Error while loading IIS Settings Information
-description: This article explains how to handle the issue with IIS Settings load is not working properly on SharePoint 2019.
+description: This article explains how to handle the issue with IIS Settings load on SharePoint 2019.
 author: Igor Mesarić    
 date: 07/11/2018
 ---
@@ -25,7 +25,7 @@ To successfully load the IIS Settings, the IIS 6 Metabase Compatibility role has
 
 To enable the role, follow these steps:
 
-1. Open the Server Manager
+1. Open the Server Manager on the IIS server
 1. a) On the Dashboard screen, select the __Add roles and features__ option
 OR
 b) On the left side menu, click the __Local Server__ option, navigate to the __Roles and Features__ section, and select __Add Roles and Features__ option in the __Tasks__ drop-down menu on the right side of the screen. The __Add Roles and Features Wizard__ opens.
