@@ -6,6 +6,7 @@ private: true
 # [Release Notes](product-updates)  
 Check out the new SPDocKit version delights. See the changes in the latest version and upgrade. 
 ## [SPDocKit 8](spdockit-8-release-note.md)
+## [SPDocKit 8.0.3](spdockit-8-0-3-release-note.md)
 
 # [Requirements](requirements)
 Make sure that your environment and the account used for the application meet SPDocKit requirements. 

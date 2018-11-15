@@ -16,10 +16,11 @@ __Release date:__ Nov 16, 2018
 ## Improvements:
 * Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article](#internal/troubleshooting/server-load-and-user-permissions/error-while-loading-iis-settings.md)
 * Improved error handling when opening snapshots.
-* Improved error loging in the Event log. 
+* Improved error logging in the Event log. 
 
 ## Bug fixes:
 * Resolved an issue where the Analytics system job would cause an error when loading site collections with duplicate GUIDs.
+* Fixed a bug where opening SPDocKit double-clicking a SPDFarm file resulted in a change of opened snapshot when navigating to Best Practice reports. 
 * Fixed an issue where an incorrect Last Modified date was displayed on Inactive Sites report.
 * Fixed an issue where the System Account would be displayed as Unknown in the Audit Log Details report. 
 * Resolved an issue with the DB Server Hotfixes report which wrongly displayed non-database servers in single server environments. 
