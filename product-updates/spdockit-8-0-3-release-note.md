@@ -11,7 +11,7 @@ __Product version:__ 8.0.3
 __Build number:__   10628     
 __Release date:__ Nov 16, 2018    
 
-[Click here to download the new release.](https://www.spdockit.com/downloads/)
+[Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
 
 ## Improvements:
 * Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](#internal/troubleshooting/server-load-and-user-permissions/error-while-loading-iis-settings)
