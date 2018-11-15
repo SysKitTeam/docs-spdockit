@@ -14,7 +14,7 @@ __Release date:__ Nov 16, 2018
 [Click here to download the new release.](https://www.spdockit.com/downloads/)
 
 ## Improvements:
-* Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article](#internal/troubleshooting/server-load-and-user-permissions/error-while-loading-iis-settings.md)
+* Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](#internal/troubleshooting/server-load-and-user-permissions/error-while-loading-iis-settings)
 * Improved error handling when opening snapshots.
 * Improved error logging in the Event log. 
 
