@@ -16,18 +16,20 @@ __Release date:__ Nov 16, 2018
 ## Improvements:
 * Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](#internal/troubleshooting/server-load-and-user-permissions/error-while-loading-iis-settings)
 * Improved error handling when opening snapshots.
-* Improved error logging in the Event log. 
 
 ## Bug fixes:
-* Resolved an issue where the Analytics system job would cause an error when loading site collections with duplicate GUIDs.
-* Fixed a bug where opening SPDocKit double-clicking a SPDFarm file resulted in a change of opened snapshot when navigating to Best Practice reports. 
-* Fixed an issue where an incorrect Last Modified date was displayed on Inactive Sites report.
-* Fixed an issue where the System Account would be displayed as Unknown in the Audit Log Details report. 
+* Resolved an issue that involved the Analytics system job causing an error when loading site collections with duplicate GUIDs.
+The following error occurred: 
+    > "System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_SiteCollectionMetricsByDate'. Cannot insert duplicate key in object      
+   'dbo.SiteCollectionMetricsByDate'."
+* Fixed a bug in which opening SPDocKit by double-clicking a SPDFarm file resulted in a change of an opened snapshot when navigating to Best Practice reports. 
+* Fixed an issue related to an incorrect Last Modified date being displayed on the Inactive Sites report.
+* Fixed an issue related to the System Account displaying as "Unknown" in the Audit Log Details report. 
 * Resolved an issue with the DB Server Hotfixes report which wrongly displayed non-database servers in single server environments. 
-* Fixed a bug where the Date Range was erroneously exported from Audit Log Details and Administrative Actions reports.
-* Resolved an issue where the app would throw a smart error when trying to load an SP2007 snapshot.
-* Fixed a bug where the ESC key would cause a smart error if pressed in specific situations in the Options dialog. 
-* Fixed a bug where a smart error would show when saving passwords to a snapshot from the Passwords and Product Keys reports.
-* Fixed a bug where a special character (Hex 0x1B) would cause an error when exporting the Dead Documents report. 
-* Resolved an issue with the project server load on SP2019 environments.
+* Fixed a bug in which the Date Range was erroneously exported from Audit Log Details and Administrative Actions reports.
+* Resolved an issue related to the app throwing a smart error when trying to load an SP2007 snapshot.
+* Fixed a bug in which the ESC key would cause a smart error if pressed in specific situations in the Options dialog. 
+* Fixed a bug involving a smart error showing when saving passwords to a snapshot from the Passwords and Product Keys reports.
+* Fixed a bug related to a special character (Hex 0x1B) causing an error when exporting the Dead Documents report. 
+* Resolved an issue with the project server load in SharePoint 2016 and 2019 environments.
     
