@@ -25,7 +25,7 @@ The following error occurred:
 * Fixed a bug in which opening SPDocKit by double-clicking a SPDFarm file resulted in a change of an opened snapshot when navigating to Best Practice reports. 
 * Fixed an issue related to an incorrect Last Modified date being displayed on the Inactive Sites report.
 * Fixed an issue related to the System Account displaying as "Unknown" in the Audit Log Details report. 
-* Resolved an issue with the DB Server Hotfixes report which wrongly displayed non-database servers in single server environments. 
+* Resolved an issue with the DB Server Hotfixes report, which wrongly displayed non-database servers in single server environments. 
 * Fixed a bug in which the Date Range was erroneously exported from Audit Log Details and Administrative Actions reports.
 * Resolved an issue related to the app throwing a smart error when trying to load an SP2007 snapshot.
 * Fixed a bug in which the ESC key would cause a smart error if pressed in specific situations in the Options dialog. 
