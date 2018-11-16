@@ -31,5 +31,5 @@ The following error occurred:
 * Fixed a bug in which the ESC key would cause a smart error if pressed in specific situations in the Options dialog. 
 * Fixed a bug involving a smart error showing when saving passwords to a snapshot from the Passwords and Product Keys reports.
 * Fixed a bug related to a special character (Hex 0x1B) causing an error when exporting the Dead Documents report. 
-* Resolved an issue with the project server load in SharePoint 2016 and 2019 environments.
+* Resolved an issue with the Project Server load in SharePoint 2016 and 2019 environments.
     
