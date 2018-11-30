@@ -165,6 +165,7 @@ Find a solution to the most common problems which appear when working with SPDoc
 ### [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](error-while-loading-problems-solutions-rule-definitions.md)	
 ### [Error while loading IIS Settings Information](error-while-loading-iis-settings.md)
 ### [Errors while trying to load the SharePoint farm](errors-while-loading-farm.md)	
+### [Errors while loading server information](errors-while-loading-server-information.md)
 ### [Failed at retrieving SQL Accounts from the following servers](failed-at-retrieving-accounts-from-servers.md)	
 ### [My permissions loading status is reported as ”Failed”](permissions-loading-status.md)	
 ### [Service was unable to read Active Directory properties](service-was-unable-to-read-active-directory-properties.md)	
