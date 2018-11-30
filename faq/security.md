@@ -52,4 +52,4 @@ Please configure your antivirus software to exclude the following folder from an
 __Please note:__ The placeholder Drive represents the letter of the drive on which you have your SharePoint application installed. Typically, this drive letter is C.
 
 In case you have a policy that you mustn’t exclude the whole folder, please configure your antivirus software to exclude the following file from antivirus scanning:
-> SPDocKit Service
+> SPDocKit Service.exe
