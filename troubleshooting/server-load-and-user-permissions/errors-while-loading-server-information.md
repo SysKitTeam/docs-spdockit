@@ -20,7 +20,7 @@ In order to allow SPDocKit to successfully gather all the information about your
 * Local Administrator on the server
 * Windows Update service up and running
 
-For more information on how to add SPDocKit user to the Local Administrators group and how to start Windows Update service, read the [following article.](#internal/requirements/server-load-permission-requirements/#sharepoint-server-information)
+For more information on how to add the SPDocKit user to the Local Administrators group and how to start Windows Update service, read the [following article.](#internal/requirements/server-load-permission-requirements/#sharepoint-server-information)
 
 
 ## SQL Server Information

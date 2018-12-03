@@ -43,7 +43,7 @@ In case you have a very strict security policy and cannot add this account to th
   * Add your SPDocKit accounts to the following local groups: __Backup Operators__ and __Performance Log Users__. This will allow us to remotely execute WMI queries and get information about SQL servers.
   * Start __winmgmt.msc__, right click on WMI Control and select Properties.
   * Go to the __Security__ tab and expand Root node. In the expanded list select __cimv2__ and click on the __Security__ button.
-  * Click on __Advanced__ button, then click __Add…__ and enter desired user and click OK.
+  * Click on __Advanced__ button, then click __Add…__ and enter the desired user and click OK.
   * Select option __This namespace and subnamespaces__ in a dropdown list Apply to.
   * Make sure that you select __Enable Account__ and __Remote Enable__ on the __Allow list__ and then click OK four times.
 
@@ -73,7 +73,7 @@ __Sysadmin__ database role is needed to run system extended stored procedures on
 
 * Farm Explorer -> SQL -> Always On reports
 
-__Public__ server role is needed to fetch the real SQL server name. This permission is necessary to connect to the SQL server and perform some basic T-SQL queries. Also when you add an account to SQL server, public role is automatically granted. If you are not granted this role, following reports will not be available:
+The __Public__ server role is needed to fetch the real SQL server name. This permission is necessary to connect to the SQL server and perform some basic T-SQL queries. Also when you add an account to the SQL server, public role is automatically granted. If you are not granted this role, the following reports will not be available:
 * Farm Explorer -> SQL -> SQL Aliases
 * Best Practices -> Databases -> SQL Aliases
 
@@ -89,7 +89,7 @@ __Dbaccess__ permission is necessary in order to load information about the mode
 * Best Practices -> Databases -> ModelDB -> ModelDB Files Initial Size
 * Best Practices -> Databases -> ModelDB -> ModelDB Recovery Model
 
-__Db_owner__ database role on each of the affected databases is necessary in order to to allow SPDocKit to successfully gather all the database permissions. In case this permission is not granted, the following report will not be available:
+__Db_owner__ database role on each of the affected databases is necessary in order to allow SPDocKit to successfully gather all the database permissions. In case this permission is not granted, the following report will not be available:
 * Farm Explorer -> SQL -> Database Permissions
 
 ### Granting permissions  
@@ -97,12 +97,12 @@ __Db_owner__ database role on each of the affected databases is necessary in ord
 Follow these steps to grant required permissions:
 
 1. Create a new user on the SQL server that will be used by SPDocKit.
-1. Add __sysadmin__ role to your SPDocKit account.
+1. Add the __sysadmin__ role to your SPDocKit account.
 
 In case you have a very strict security policy and cannot add the sysadmin role to the SPDocKit account, you can use the following procedure to get most of the SQL reports working:
 
 1. Create a new user on the SQL server that will be used by SPDocKit.
-1. Add __dbcreator__ role to your SPDocKit account and execute the following T-SQL query:
+1. Add the __dbcreator__ role to your SPDocKit account and execute the following T-SQL query:
 ```sql
       USE master  
       GO  
@@ -125,7 +125,7 @@ To grant the __db_owner__ database role to the SPDocKit accounts, follow these s
 
 ## Project Server Information
 
-During the snapshot creation process SPDocKit will try to retrieve information about your Project server sites. Please note that the following permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit.
+During the snapshot creation process, SPDocKit will try to retrieve information about your Project server sites. Please note that the following permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit.
 
 ### Required Permissions
 In order to allow SPDocKit to successfully gather all the information about your Project server sites the following permissions are necessary:
@@ -134,7 +134,7 @@ In order to allow SPDocKit to successfully gather all the information about your
 
 ### Affected reports
 
-The mentioned permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit. Without the above mentioned permissions, the following reports will not be available:
+The mentioned permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit. Without the above-mentioned permissions, the following reports will not be available:
 
 * Farm Explorer -> Project Server -> all reports
 
