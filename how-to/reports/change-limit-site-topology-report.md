@@ -13,4 +13,4 @@ Please note that changing the limit to a higher number of site collections also 
 
 1. Navigate to the **Backstage Configuration Screen** and click **Options**.
 
-2. Under **General** options, you change the value limit in the **Report Options** section. Enter the value in the **Maximum number of site collections to show in Site Topology report field**. Click **Save** to save and finish your customization.
+2. Under **Report Options**, you change the value limit. Enter the value in the **Maximum number of site collections to show in Site Topology report field**. Click **Save** to save and finish your customization.
