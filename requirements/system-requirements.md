@@ -11,12 +11,13 @@ This article lists the minimum hardware and software requirements for SPDocKit. 
 
 ### Requirements
 
-* The product needs to be installed (or started) on a **SharePoint 2016, SharePoint 2013 or SharePoint 2010 Server**
+* The product needs to be installed (or started) on a **SharePoint 2019, SharePoint 2016, SharePoint 2013 or SharePoint 2010 Server**
    * For SharePoint 2013 & 2010: SharePoint Foundation, Standard and Enterprise are supported.
    * You can install the product on a WFE (recommended), Application, Index or any other server in the farm.
    * User must have [proper privileges](#internal/requirements/user-permissions-requirements/) to run the application.
 
 * Software
+  * For SharePoint 2019: Windows 2012 R2 or Windows Server 2016
   * For SharePoint 2016: Windows 2012 R2 or Windows Server 2016
   * For SharePoint 2013: Windows 2012 or Windows 2008 R2
   * For SharePoint 2010: Windows 2012 or Windows 2008 
