@@ -4,7 +4,7 @@ description: This article states how to use Snapshots Screen an track changes ma
 author: Iva Novoselic
 date: 23/5/2017
 ---
-The __Snapshots Screen__ allows SharePoint administrators to track changes made to the SharePoint Farm during its lifetime. SPDocKit can generate snapshots periodically, or administrators can take a configuration snapshot manually right before making complicated changes. The snapshots contain information about all the [settings SPDocKit can retrieve](#internalcreate-sharepoint-farm-snapshots/manual-snapshots).
+The __Snapshots Screen__ allows SharePoint administrators to track changes made to the SharePoint Farm during its lifetime. SPDocKit can generate snapshots periodically, or administrators can take a configuration snapshot manually right before making complicated changes. The snapshots contain information about all the [settings SPDocKit can retrieve](#internal/configure-and-extend-spdockit/options-wizard).
 
 This screen will display snapshots found in SPDocKit database and snapshots folder on a disk and group them by the farm they were created on:
 * __Blue icon__ indicates that the snapshot is stored in a SPDocKit database. 
