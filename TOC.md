@@ -46,6 +46,7 @@ Load your SharePoint Farm settings manually or automate the task with the servic
 # [Explore Reports & Create Documentation](explore-reports-and-create-documentation)
 View and export SPDocKit's comprehensive SharePoint documentation.
 ## [Farm Explorer](farm-explorer)
+### [Farm Dashboard](farm-dashboard.md)
 ### [Farm Explorer Screen](farm-explorer-screen.md)
 ### [Farm Explorer Reports](farm-explorer-reports.md)
 ### [Farm Documentation](farm-documentation.md)
@@ -62,6 +63,7 @@ View and export SPDocKit's comprehensive SharePoint documentation.
 ### [SharePoint Analytics](sharepoint-analytics.md)
 ### [Document Extensions Reports](document-extensions-reports.md)
 ## [Audit Reports](audit-reports)
+### [Audit Dashboard](audit-dashboard.md)
 ### [Audit Reports Screen](audit-reports-screen.md)
 ### [Audit Log Details](audit-log-details.md)
 ### [Administrative Actions](administrative-actions.md)
