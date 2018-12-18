@@ -23,7 +23,13 @@ This article explains how to upgrade SPDocKit to the latest major version. SPDoc
 1. Select the location where to create application shortcuts and the preferred availability option (__Anyone__ or __Only me__). Click __Next__ > to proceed.
 1. The installation wizard will unpack your files and you will be able to run the application from: __Start__ > __All Programs__ > __SPDocKit.__
 
-   Note that with a major release of SPDocKit you need a new license key. If you have a valid Software Assurance go to our customer’s portal, where you will see your new key. In case you do not have it, you will need a new license. In that case, please [contact us](https://www.syskit.com/company/contact-us/).
+## PleaseNote:
+
+   When a __single database__ is used with multiple instances of SPDocKit, all instances of SPDocKit have to be upgraded to the new version. Data collection using an older instance of SPDocKit on an upgraded database is __not possible__ until SPDocKit is updated.
+
+   If you do not want to upgrade all instances of SPDocKit to the latest version, creation of a new database is required.
+
+   With a major release of SPDocKit you need a new license key. If you have a valid Software Assurance go to our customer’s portal, where you will see your new key. In case you do not have it, you will need a new license. In that case, please [contact us](https://www.syskit.com/company/contact-us/).
 
 ## Tips & tricks
 If you encounter any problems during the installation and wish to enable logging to help you resolve the problems, you can start the installation using the command prompt with the following argument:
