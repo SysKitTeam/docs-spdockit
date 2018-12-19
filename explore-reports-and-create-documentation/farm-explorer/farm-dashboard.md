@@ -23,7 +23,8 @@ A Horizontal bar chart shows top __Databases__ and __Site Collections__ by its T
 
 __Farm Accounts__ shows a number of Farm Admins and Managed Accounts represented by a horizontal bar chart. For more details about Farm admins and Managed Accounts, clicking on any of the horizontal bars performs a drill and opens a report.
 
-Represented by the doughnut chart are a number of __Service Applications__ and its status, __Health Analyzer Problems__ separated by category as well as __Farm Solutions Deployed__.
+Represented by the doughnut chart is a number of __Service Applications__ and its status, __Health Analyzer Problems__ separated by category as well as __Farm Solutions Deployed__ on which you can perform a drill to get more details.
+
 
  Tile containing __Compliant Best Practices__ and __Failing Best Practices__ is showing you a number of Compliant and Failing Best Practices. Clicking on tile redirects you to the Best Practices Dashboard from which you can perform a drill to the specific detailed report.
 

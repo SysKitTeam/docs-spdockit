@@ -23,7 +23,7 @@ __Site Collections with Audit enabled/disabled__ tile shows you a number of Site
 
 Tile is disabled when all Site Collections audit settings are disabled.
 
-__SP Groups Created and Number of Permissions Inheritance Broken__ a number of Sharepoint Groups Created and Permission Inheritance Broken. Clicking on the tile drills to the Audit Log Details report.
+__SP Groups Created and Number of Permissions Inheritance Broken__ tile shows a number of Sharepoint Groups Created and Permission Inheritance Broken. Clicking on the tile drills to the Audit Log Details report.
 
 Horizontal bar charts are showing __Top Users by Activity__ as well as __Top Site Collections by Change__ which when clicked perform a drill to the Audit Log Details Report.
 
