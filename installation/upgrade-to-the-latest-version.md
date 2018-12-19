@@ -7,7 +7,7 @@ description: This article explains how to upgrade SPDocKit to the latest major v
 
 This article explains how to upgrade SPDocKit to the latest major version. SPDocKit database, saved farms, snapshots and application settings will be preserved in the upgrade process.
 
-## Preparation:
+## Preparation
 1. The account running the application should have __db_owner__ privileges on the SPDocKit database in order to perform the upgrade process successfully. If you are also changing the SPDocKit Service account to a different one, the account running the upgrade should also have the __securityadmin__ role on the SQL Server that is storing the database.. This role will allow him to [grant proper privileges to the new Service account](#internal/requirements/user-permissions-requirements/).
 1. Perform a __database backup__ before proceeding with the upgrade process, especially when upgrading to a new major versions of SPDocKit.
 1. Due to a number of database modifications, the upgrade to SPDocKit 8.0 may take a while. 
@@ -29,7 +29,7 @@ This article explains how to upgrade SPDocKit to the latest major version. SPDoc
 
    If you do not want to upgrade all instances of SPDocKit to the latest version, creation of a new database is required.
 
-   With a major release of SPDocKit you need a new license key. If you have a valid Software Assurance go to our customer’s portal, where you will see your new key. In case you do not have it, you will need a new license. In that case, please [contact us](https://www.syskit.com/company/contact-us/).
+   With a major release of SPDocKit, you need a new license key. If you have a valid Software Assurance go to our customer’s portal, where you will see your new key. In case you do not have it, you will need a new license. In that case, please [contact us](https://www.syskit.com/company/contact-us/).
 
 ## Tips & tricks
 If you encounter any problems during the installation and wish to enable logging to help you resolve the problems, you can start the installation using the command prompt with the following argument:
