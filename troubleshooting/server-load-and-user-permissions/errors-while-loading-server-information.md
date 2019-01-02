@@ -22,6 +22,20 @@ In order to allow SPDocKit to successfully gather all the information about your
 
 For more information on how to add the SPDocKit user to the Local Administrators group and how to start Windows Update service, read the [following article.](#internal/requirements/server-load-permission-requirements/#sharepoint-server-information)
 
+### Affected reports
+
+* Adding SPDocKit user accounts to the __Local Administrator__ group on the server is needed for WMI remote access and to get information about Windows updates. In case you can’t give that kind of permissions due to security requirements, see lower for what you can grant instead this. The following reports will not be available:
+  * Farm Explorer -> Servers in Farm -> Processors Info
+  * Farm Explorer -> Servers in Farm -> Programs List
+  * Farm Explorer -> Servers in Farm -> Available Windows Updates
+  * Farm Explorer -> Servers in Farm -> Disks List
+  * Farm Explorer -> Servers in Farm -> Local Admins
+  * Best Practices -> Hardware Requirements -> Free Disk Space
+  * Best Practices -> Hardware Requirements -> RAM
+  * Best Practices -> Servers -> Hotfixes per Server Role -> all reports
+* To retrieve a list of available Windows updates please make sure that the Windows Update service is up and running. If the service is disabled or not running the following reports will not be available:
+  * Farm Explorer -> Servers in Farm -> Available Windows Updates
+  * Best Practices -> Updates -> Servers -> Windows Updates
 
 ## SQL Server Information
 
@@ -37,7 +51,7 @@ In order to allow SPDocKit to successfully gather all the information about your
 
 * __Sysadmin__ server role
 
-In case that you can’t give those permissions due to security requirements, there are some alternatives available. More information on how to grant the required permissions is available [here.]((#internal/requirements/server-load-permission-requirements/#sql-server-information)
+In case that you can’t give those permissions due to security requirements, there are some alternatives available. More information on how to grant the required permissions is available [here.](#internal/requirements/server-load-permission-requirements/#sql-server-information)
 
 ### Problem:
 
@@ -60,7 +74,7 @@ If you wish to turn off the load __Database Permissions__ option, do the followi
 3. Under the __Security__ section uncheck __Database Permissions__.
 
 
-If you wish to grant the necessary permissions to the SPDocKit accounts, follow this [link.]((#internal/requirements/server-load-permission-requirements/#sql-server-information)
+If you wish to grant the necessary permissions to the SPDocKit accounts, follow this [link.](#internal/requirements/server-load-permission-requirements/#sql-server-information)
 
 ## Project Server
 

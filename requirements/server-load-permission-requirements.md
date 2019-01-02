@@ -15,20 +15,6 @@ In order to allow SPDocKit to successfully gather all the information about your
 * __Local Administrator__ on the server
 * __Windows Update service__ up and running
 
-### Affected reports
-
-* Adding SPDocKit user accounts to the __Local Administrator__ group on the server is needed for WMI remote access and to get information about Windows updates. In case you can’t give that kind of permissions due to security requirements, see lower for what you can grant instead this. The following reports will not be available:
-  * Farm Explorer -> Servers in Farm -> Processors Info
-  * Farm Explorer -> Servers in Farm -> Programs List
-  * Farm Explorer -> Servers in Farm -> Available Windows Updates
-  * Farm Explorer -> Servers in Farm -> Disks List
-  * Farm Explorer -> Servers in Farm -> Local Admins
-  * Best Practices -> Hardware Requirements -> Free Disk Space
-  * Best Practices -> Hardware Requirements -> RAM
-  * Best Practices -> Servers -> Hotfixes per Server Role -> all reports
-* To retrieve a list of available Windows updates please make sure that the Windows Update service is up and running. If the service is disabled or not running the following reports will not be available:
-  * Farm Explorer -> Servers in Farm -> Available Windows Updates
-  * Best Practices -> Updates -> Servers -> Windows Updates
 
 ### Granting permissions  
 
