@@ -28,6 +28,7 @@
   * [Security](faq/security.md)
   * [index](faq/index.md)
   * [Miscellaneous](faq/miscellaneous.md)
+* [Get to Know SPDocKit](get-to-know-spdockit/README.md)
   * [index](get-to-know-spdockit/index.md)
   * [Backstage Screen](get-to-know-spdockit/backstage-screen/README.md)
     * [Subscriptions and Alerts](get-to-know-spdockit/backstage-screen/subscriptions-and-alerts.md)
