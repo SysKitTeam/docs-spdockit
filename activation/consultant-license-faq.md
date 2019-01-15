@@ -66,7 +66,7 @@ A Consultant Subscription allows one consultant to install SPDocKit on an unlimi
 
 ### Can I use my SPDocKit Consultant license on different SharePoint environments?
 
-Yes, your license can be used on all [supported SharePoint environments](consultant-license-faq.md#internal/requirements/supported-sharepoint-editions).
+Yes, your license can be used on all [supported SharePoint environments](../requirements/supported-sharepoint-editions.md).
 
 ### Will it run on my workstation and connect to the farm without installing on the actual servers?
 

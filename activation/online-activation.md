@@ -64,6 +64,6 @@ The Workstation license is tied to the **workstation ID** and cannot be used on 
 
 ### Related articles:
 
-* [SPDocKit Offline Activation](online-activation.md#internal/activation/offline-activation/)
-* [Licensing FAQ](online-activation.md#internal/activation/activation-faq/)
+* [SPDocKit Offline Activation](../activation/offline-activation.md/)
+* [Licensing FAQ](../activation/activation-faq.md/)
 
