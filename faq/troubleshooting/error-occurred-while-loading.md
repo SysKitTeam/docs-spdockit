@@ -28,7 +28,7 @@ and the following error messages are stored in the event log:
 
 ## Solution:
 
-The user running the application needs to have proper privileges to access the information about Site Collections stored in the content databases. [See this article](../requirements/sharepoint-on-premises-user-permissions-requirements.md) for more details on configuring privileges.
+The user running the application needs to have proper privileges to access the information about Site Collections stored in the content databases. [See this article](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/faq/requirements/sharepoint-on-premises-user-permissions-requirements.md) for more details on configuring privileges.
 
 If you are still having issues with individual Web Applications or other items you need to do the following: make sure the user has Shell access to the given content database, using the following PowerShell code to grant access:
 

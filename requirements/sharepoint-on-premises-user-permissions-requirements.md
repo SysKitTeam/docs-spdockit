@@ -1,10 +1,5 @@
 # SharePoint On-Premises User Permissions Requirements
 
-title: SharePoint On-Premises User Permissions Requirements author: Matija Hanzic  
-date: 17/5/2017
-
-## description: This article lists required privileges to load SharePoint settings with tutorial how to acquire those privileges.
-
 To run SPDocKit and to retrieve all SharePoint settings you want to document, both the user running SPDocKit and the SPDocKit service account need to have proper privileges. Here is the list of required privileges to load SharePoint farm settings:
 
 1. **Local Administrators** and **WSS\_ADMIN\_WPG group member** on every machine in the SharePoint farm. Required to retrieve list of installed applications on farm servers.
@@ -48,10 +43,12 @@ Here is how you can give user these privileges:
   Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database $_.Id}
   ```
 
+{% hint style="warning" %}
 Please note:
 
 * The cmdlet Add-SPShellAdmin is going to apply to all current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
 * The cmdlet might fail in some environments; please contact us for further assistance.
+{% endhint %}
 
 ### SPDocKit database requirements
 

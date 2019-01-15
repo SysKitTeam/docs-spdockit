@@ -1,10 +1,5 @@
 # Offline Activation
 
-title: Offline Activation author: Matija Hanzic  
-date: 16/5/2017
-
-## description: This article outlines the steps needed to perform an offline SPDocKit activation. Use this type of activation in case your SharePoint servers are not connected to the internet.
-
 ### Farm license
 
 The Farm license is tied to a **farm ID** and can be activated only on servers with SharePoint installed.
@@ -79,6 +74,6 @@ The Workstation license is tied to the **workstation ID** and cannot be used on 
 
 ### Related articles:
 
-* [SPDocKit Online Activation](../activation/online-activation.md/)
-* [Licensing FAQ](../activation/activation-faq.md/)
+* [SPDocKit Online Activation](online-activation.md)
+* [Licensing FAQ](activation-faq.md)
 

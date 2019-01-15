@@ -1,10 +1,5 @@
 # Consultant License FAQ
 
-title: Consultant License FAQ author: Iva Novoselic  
-date: 22/5/2017
-
-## description: This article outlines SPDocKit consultant license FAQs.
-
 ### How does the Consultant license differ from the Farm license?
 
 The Consultant license allows you to document an unlimited number of farms for a period of one year \(subscription license\), while the Farm license is a perpetual license but limited to a single farm. If you are doing SharePoint consulting for various customers, we recommend the Consultant license, but if you are an in-house consultant then the Farm license would be your choice.
@@ -56,7 +51,7 @@ The Consultant Subscription requires a per user activation, and pursuant to our 
 A Consultant Subscription allows one consultant to install SPDocKit on an unlimited number of farms, for an unlimited number of clients! The following limitations apply:
 
 1. This license is not for in-house IT staff \(i.e. Jack Wagner, a system engineer working as a full-time employee for Ajax Corp, cannot buy an SPDocKit Consultant license for use at Ajax Corp\).
-2. This is a PER CONSULTANT license and it can only be used by ONE consultant. If there is more than one consultant planning to use SPDocKit, each consultant will need to purchase an additional license.  
+2. This is a PER CONSULTANT license and it can only be used by ONE consultant. If there is more than one consultant planning to use SPDocKit, each consultant will need to purchase an additional license.
 
    If there are multiple consultants in a firm, you might want to try our [Team Subscription](https://www.spdockit.com/orders/) which allows for an unlimited amount of consultants to use SPDocKit.
 

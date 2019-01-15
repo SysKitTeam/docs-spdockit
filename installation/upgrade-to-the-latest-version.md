@@ -9,7 +9,7 @@ description: This article explains how to upgrade SPDocKit to the latest major v
 
 This article explains how to upgrade SPDocKit to the latest major version. SPDocKit database, saved farms, snapshots and application settings will be preserved in the upgrade process.
 
-## Preparation:
+## Preparation
 
 1. The account running the application should have **db\_owner** privileges on the SPDocKit database in order to perform the upgrade process successfully. If you are also changing the SPDocKit Service account to a different one, the account running the upgrade should also have the **securityadmin** role on the SQL Server that is storing the database.. This role will allow him to [grant proper privileges to the new Service account](upgrade-to-the-latest-version.md#internal/requirements/sharepoint-on-premises-user-permissions-requirements/).
 2. Perform a **database backup** before proceeding with the upgrade process, especially when upgrading to a new major versions of SPDocKit.

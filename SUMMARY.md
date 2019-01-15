@@ -49,7 +49,6 @@
     * [License Management](get-to-know-spdockit/backstage-screen/license-management.md)
   * [Farm Explorer Screen](get-to-know-spdockit/farm-explorer-screen/README.md)
     * [Passwords and Product keys](get-to-know-spdockit/farm-explorer-screen/passwords-and-product-keys.md)
-    * [index](get-to-know-spdockit/farm-explorer-screen/index.md)
     * [Farm Explorer Reports](get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports.md)
   * [Permissions Explorer Screen](get-to-know-spdockit/permissions-explorer-screen.md)
   * [Site Explorer Screen](get-to-know-spdockit/site-explorer-screen.md)

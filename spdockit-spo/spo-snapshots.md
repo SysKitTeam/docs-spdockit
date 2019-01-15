@@ -9,7 +9,7 @@ date: 25/5/2017
 
 # Take Snapshot of SharePoint Online
 
-_**As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is**_ [_**SysKit Security Manager**_](https://www.syskit.com/products/security-manager/)_**.**_&lt;/br&gt; _**For instructions on the upgrade path or any other questions contact us at**_ [_**support@syskit.com**_](mailto:support@syskit.com)_**.**_
+_**As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is**_ [_**SysKit Security Manager**_](https://www.syskit.com/products/security-manager/)_**.**_ _**For instructions on the upgrade path or any other questions contact us at**_ [_**support@syskit.com**_](mailto:support@syskit.com)_**.**_
 
 This article will explain how to take a snapshot of your SPO Tenant. Please check the [feature availability by license type](https://www.spdockit.com/orders/#online). Read more about the [user permissions](spo-snapshots.md#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly on a workstation.
 
@@ -88,5 +88,9 @@ If you wish to receive an email notification after automatically-taken tenant sn
    After that you need to create a new subscription. For detailed information on how to do that please go [here](spo-snapshots.md#internal/how-to/subscriptions-and-alerts/create-new-subscription/).
 
 Also, make sure to check our [permission management features](spo-snapshots.md#internal/permission-management/manage-permissions-ribbon-actions) located in the **Permissions Explorer** tab.  
+
+
+{% hint style="warning" %}
 **Please note** that Permission management buttons are enabled only in **live mode** of Permissions Explorer. A snapshot is not needed in that case.
+{% endhint %}
 

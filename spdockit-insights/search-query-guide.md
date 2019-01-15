@@ -126,5 +126,3 @@ There are a couple of exceptions:
 * Source
 * Message
 
-  &lt;/ul&gt;
-

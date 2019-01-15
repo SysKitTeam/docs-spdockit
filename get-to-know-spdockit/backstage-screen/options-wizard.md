@@ -68,7 +68,7 @@ From version 7 and onwards, you can document Project Server settings, list of pr
 
 You can also specify the load depth, which means how deep you want to crawl your SharePoint with SPDocKit. Possible choices are: site collection. subsites, list, and list items. Be aware that there are some dependencies related to the load depth selection and the available SharePoint information SPDocKit can retrieve. For example, if you want to load content types and workflows, lists are the minimum required load depth. SPDocKit will warn you if your current selection is not possible and provide instruction messages for enabling certain load options.
 
-Finally, you can customize the **snapshots name template**. Under Snapshot Configuration, note the Snapshot Name Template field. We have prepared the Farm Name, Snapshot Mode \(which can be either Automatic or Manual\), and Date \(which you can customize any way you like\), keywords that can be included in the name template. The default date format is: “Date:yyyy_MMdd\_HH\_mm\_ss”. You can change the format by rearranging the item order and delimiter type. You can observe this name if you go to the Snapshots tab and include the File Name column using the View ribbon button called \_\_Choose Columns_.
+Finally, you can customize the **snapshots name template**. Under Snapshot Configuration, note the Snapshot Name Template field. We have prepared the Farm Name, Snapshot Mode \(which can be either Automatic or Manual\), and Date \(which you can customize any way you like\), keywords that can be included in the name template. The default date format is: “Date:yyyy_MMdd\_HH\_mm\_ss”. You can change the format by rearranging the item order and delimiter type. You can observe this name if you go to the Snapshots tab and include the File Name column using the View ribbon button called \_\_Choose Columns\_.
 
 To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
 
@@ -82,7 +82,7 @@ The selection you make here applies both for the **SPDocKit Service taking an au
 
 **This tab was removed in version 6.2**, as the Monitoring feature has been completely redesigned since.
 
-If you would like to explore your farm's SharePoint ULS and Windows event viewer logs, or track server health by monitoring performance counters, then [configure the SPDocKit Insights feature](../spdockit-insights/configure-data-collection.md). Learn more about [SPDocKit Insights](../spdockit-insights/insights-quick-start-guide.md) and how it can help you address all possible issues in your farm.
+If you would like to explore your farm's SharePoint ULS and Windows event viewer logs, or track server health by monitoring performance counters, then [configure the SPDocKit Insights feature](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/get-to-know-spdockit/spdockit-insights/configure-data-collection.md). Learn more about [SPDocKit Insights](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/get-to-know-spdockit/spdockit-insights/insights-quick-start-guide.md) and how it can help you address all possible issues in your farm.
 
 ## Data retention
 
@@ -92,7 +92,7 @@ Set the preferred database size and SPDocKit will warn you when the database siz
 
 If your SPDocKit database becomes too big, you can force a manual data retention using the **Execute** button. Please note that this action will also try to execute the SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – being member of the sysadmin server role or db\_owner database role. Without those permissions, data will still be deleted, but the database size will not decrease. You can still attempt to manually decrease the size of SPDocKit's databases by executing the SHRINKDATABASE command manually after the data retention job has run.
 
-Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](../get-to-know-spdockit/snapshots-screen.md/).
+Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/get-to-know-spdockit/get-to-know-spdockit/snapshots-screen.md).
 
 ## Subscription settings
 
@@ -100,7 +100,7 @@ If you wish to use the **Subscriptions and Alerts** feature, check the **Subscri
 
 To enable **email** as the preferred delivery method, configure outgoing email server settings. After the outgoing email server settings are provided, you can test if these are valid by clicking the **Test Email Settings** button. There is also an option to customize the email footer and email body text.
 
-[Read more about scheduling subscriptions and alerts.](../get-to-know-spdockit/backstage-screen/subscriptions-and-alerts.md/)
+[Read more about scheduling subscriptions and alerts.](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/get-to-know-spdockit/get-to-know-spdockit/backstage-screen/subscriptions-and-alerts.md)
 
 ## Email settings
 
@@ -112,10 +112,10 @@ The **Email alerts** feature has been redesigned in SPDocKit 6.2.0. **Please not
 
 In order to create an alert containing the Farm Documentation, Farm Differences, or Best Practices Documentation reports, please follow these instructions.
 
-1. Enable automatic subscriptions in the [Subscription Settings](../get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings.md) tab.
-2. [Create new alert](../how-to/subscriptions-and-alerts/create-new-alert.md/) containing the Farm Documentation, Farm Differences or Best Practices Documentation reports.
+1. Enable automatic subscriptions in the [Subscription Settings](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/get-to-know-spdockit/get-to-know-spdockit/backstage-screen/options-wizard/README.md#subscription-settings.md) tab.
+2. [Create new alert](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/get-to-know-spdockit/how-to/subscriptions-and-alerts/create-new-alert.md) containing the Farm Documentation, Farm Differences or Best Practices Documentation reports.
 3. When adding a Farm Differences report, you will be prompted to select the target farm \(if there are multiple farms in your SPDocKit database\). The source farm will already be set to the farm you picked in the General tab. If you want to compare the current farm state with the previous one, both filters must have the same farm selected. If you wish to compare differences for two different farms, change the destination farm filter accordingly.
-4. Please note that alerts are sent only after a service takes a snapshot and only if there are differences detected. If you would like to receive these reports even if there are no differences detected, please [create a subscription](../how-to/subscriptions-and-alerts/create-new-subscription.md/) instead of an alert in step 2.
+4. Please note that alerts are sent only after a service takes a snapshot and only if there are differences detected. If you would like to receive these reports even if there are no differences detected, please [create a subscription](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/get-to-know-spdockit/how-to/subscriptions-and-alerts/create-new-subscription.md) instead of an alert in step 2.
 5. When done click Save & Close.
 
 ## Compare

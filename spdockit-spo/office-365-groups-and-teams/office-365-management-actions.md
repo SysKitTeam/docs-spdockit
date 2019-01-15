@@ -9,7 +9,7 @@ date: 14/11/2017
 
 # Office 365 Management Actions
 
-_**As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is**_ [_**SysKit Security Manager**_](https://www.syskit.com/products/security-manager/)_**.**_&lt;/br&gt; _**For instructions on the upgrade path or any other questions contact us at**_ [_**support@syskit.com**_](mailto:support@syskit.com)_**.**_
+_**As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is**_ [_**SysKit Security Manager**_](https://www.syskit.com/products/security-manager/)_**. For instructions on the upgrade path or any other questions contact us at**_ [_**support@syskit.com**_](mailto:support@syskit.com)_**.**_
 
 This article explains how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object.  
 Management buttons are enabled in **live mode** of Permissions Explorer, when Groups and Teams node is selected as well as any specific group bellow the node.

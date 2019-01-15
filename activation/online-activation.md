@@ -1,10 +1,5 @@
 # Online Activation
 
-title: Online Activation author: Matija Hanzic  
-date: 16/5/2017
-
-## description: This article outlines the steps needed to perform SPDocKit activation.
-
 ### Farm license
 
 The Farm license is tied to a **farm ID** and can be activated only on servers with SharePoint installed. This also means that you can activate a single Farm license on all servers in one SharePoint farm.
@@ -32,7 +27,11 @@ The Consultant license can be activated on any server, but you need to have a va
 
 3. Click the **Activate** button to start the activation process. Activation takes a couple of seconds and it needs to be repeated on every server you choose to activate. You can activate your license on an unlimited number of customers' servers while your subscription is active.
 
-**Please note!** The Consultant license requires re-activation every 30 days. When your current Consultant subscription expires, SPDocKit will warn you that re-activation is needed.
+{% hint style="warning" %}
+**Please note!** 
+
+The Consultant license requires re-activation every 30 days. When your current Consultant subscription expires, SPDocKit will warn you that re-activation is needed.
+{% endhint %}
 
 ### Site license
 
@@ -64,6 +63,6 @@ The Workstation license is tied to the **workstation ID** and cannot be used on 
 
 ### Related articles:
 
-* [SPDocKit Offline Activation](../activation/offline-activation.md/)
-* [Licensing FAQ](../activation/activation-faq.md/)
+* [SPDocKit Offline Activation](offline-activation.md)
+* [Licensing FAQ](activation-faq.md)
 

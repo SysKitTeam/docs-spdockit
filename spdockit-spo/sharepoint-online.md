@@ -9,7 +9,7 @@ date: 25/5/2017
 
 # Quick Start Guide
 
-_**As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is**_ [_**SysKit Security Manager**_](https://www.syskit.com/products/security-manager/)_**.**_&lt;/br&gt; _**For instructions on the upgrade path or any other questions contact us at**_ [_**support@syskit.com**_](mailto:support@syskit.com)_**.**_
+_**As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is**_ [_**SysKit Security Manager**_](https://www.syskit.com/products/security-manager/)_**.**_ _**For instructions on the upgrade path or any other questions contact us at**_ [_**support@syskit.com**_](mailto:support@syskit.com)_**.**_
 
 SPDocKit 7 brings extended SharePoint Online support. Apart from the live explorer we had from previous versions, you can now take snapshots of your SharePoint Online environment and use it later to view all permission reports historically.
 
@@ -25,6 +25,7 @@ Apart from numerous permissions report that can help you understand SharePoint O
 * track permissions changes in your environment using [Permissions Compare](sharepoint-online.md#internal/how-to/compare-wizard/compare-sharepoint-permissions) wizard
 * [restore SharePoint Online permissions](sharepoint-online.md#internal/permission-management/restore-permissions) to a previously recorded state  
 
+{% hint style="warning" %}
 _Please note! Some of the SPDocKit reports will not be available for the SharePoint Online environment:_
 
 * _Content & Usage Reports \(functional reports are: Content Type Usage, Unmodified Content, Features List and Features Activations, Site Structure\)_
@@ -32,4 +33,7 @@ _Please note! Some of the SPDocKit reports will not be available for the SharePo
 * _Administrative Actions Report_
 * _Security Audit Report_
 * _Cleanup Reports and Cleanup Wizard_
+{% endhint %}
+
+\_\_
 

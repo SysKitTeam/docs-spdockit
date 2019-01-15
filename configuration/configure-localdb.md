@@ -22,7 +22,7 @@ After you complete the installation process you can notice in your Control Panel
 
 ## Configure LocalDB
 
-Once LocalDB is installed you need to configure SPDocKit to start using it. This is accomplished by running the [Configuration wizard](../configuration/configure-spdockit-database.md/).
+Once LocalDB is installed you need to configure SPDocKit to start using it. This is accomplished by running the [Configuration wizard](configure-spdockit-database.md).
 
 * Inside the **Configuration wizard** on the **Database** wizard page check the **Use a database** option and select **Use embedded database**.
 

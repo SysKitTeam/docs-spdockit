@@ -9,7 +9,11 @@ description: This article explains how to install SPDocKit.
 
 This article explains how to install SPDocKit.
 
-**Please note!** If you would like to document your SharePoint Online environment, please check the [SPDocKit Online Quick Start Guide](installation-guide.md#internal/spdockit-spo/sharepoint-online) for further instructions.
+{% hint style="warning" %}
+**Please note!**
+
+ If you would like to document your SharePoint Online environment, please check the [SPDocKit Online Quick Start Guide](installation-guide.md#internal/spdockit-spo/sharepoint-online) for further instructions.
+{% endhint %}
 
 **System Requirements:** The product uses the SharePoint Server Object Model to retrieve information about your farm and it needs to run on the SharePoint server to be able to make API calls. It needs to be installed on a **SharePoint 2010, SharePoint 2013 or SharePoint 2016 server to load farm information.**
 

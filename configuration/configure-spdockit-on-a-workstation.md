@@ -9,14 +9,14 @@ date: 25/5/2017
 
 This article explains how to configure SPDocKit on a workstation. An SPDocKit workstation instance allows you to manage SharePoint On-Premise,view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
 
-**Requirements**: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [workstation or site/team/consultant license](https://www.spdockit.com/orders/) and the user running the application on a workstation needs to have adequate [permissions](../requirements/sharepoint-on-premises-user-permissions-requirements/).
+**Requirements**: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [workstation or site/team/consultant license](https://www.spdockit.com/orders/) and the user running the application on a workstation needs to have adequate [permissions](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/requirements/sharepoint-on-premises-user-permissions-requirements/README.md).
 
 **Please note!** To use SPDocKit reports on your workstation, you need to have SPDocKit installed on an actual SharePoint server to load the data. A workstation installation cannot create new farm snapshots or load information about permissions; it can only explore previously loaded data and manage permissions in real-time using Permissions Explorer.
 
 To install and configure an SPDocKit instance, follow these instructions:
 
 1. [Download](https://www.spdockit.com/downloads/) SPDocKit to your workstation. **The SPDocKitSetup.exe file is the same for both server and workstation installation**.
-2. Follow the [Installation Guide](../installation/installation-guide.md/) to install it on your workstation. Once you have successfully installed the tool, the Configuration Wizard will open.
+2. Follow the [Installation Guide](../installation/installation-guide.md) to install it on your workstation. Once you have successfully installed the tool, the Configuration Wizard will open.
 3. When using SPDocKit on a workstation, there are differences depending on if you are using a database or not.
    * When using it **without a database**, the features available are as follows:
      * Snapshots \(Farm Explorer and Best Practices reports\)

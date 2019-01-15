@@ -31,6 +31,6 @@ The Viewer role is predefined, along with the Admin role. This is a read-only ro
 
 ### Learn more
 
-* [How to: Manage Roles](../how-to/role-based-security/manage-roles.md/)
-* [How to: Manage Users](../how-to/role-based-security/manage-users.md/)
+* [How to: Manage Roles](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/get-to-know-spdockit/how-to/role-based-security/manage-roles.md)
+* [How to: Manage Users](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/get-to-know-spdockit/how-to/role-based-security/manage-users.md)
 

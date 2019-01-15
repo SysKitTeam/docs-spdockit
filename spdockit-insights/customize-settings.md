@@ -1,9 +1,5 @@
 # Customize Insights Settings
 
-title: SPDocKit Insights Settings description: Various options described author: Vinko Bedek
-
-## date: 22/5/2017
-
 To customize SPDocKit Insights settings click the **Settings button** located in the bottom left corner. 5. On the settings screen the available settings are divided into:
 
 * Farm settings scoped by each farm.
