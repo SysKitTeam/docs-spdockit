@@ -1,0 +1,2 @@
+# sharepoint-farm-snapshots
+

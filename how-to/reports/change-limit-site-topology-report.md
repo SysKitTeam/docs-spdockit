@@ -1,9 +1,13 @@
 ---
 title: Change the limit on Site Topology Report
-description: This section describes how to change the limit on the Site Topology report in SPDocKit.
+description: >-
+  This section describes how to change the limit on the Site Topology report in
+  SPDocKit.
 author: Martin Pisacic
 date: 18/5/2017
 ---
+
+# change-limit-site-topology-report
 
 This section describes how to change the limit on the Site Topology report in SPDocKit.
 
@@ -12,5 +16,5 @@ By default, the number of site collections shown in the Site Topology report is 
 Please note that changing the limit to a higher number of site collections also means that it will take longer to generate the Site Topology report.
 
 1. Navigate to the **Backstage Configuration Screen** and click **Options**.
-
 2. Under **General** options, you change the value limit in the **Report Options** section. Enter the value in the **Maximum number of site collections to show in Site Topology report field**. Click **Save** to save and finish your customization.
+

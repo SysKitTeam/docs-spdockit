@@ -5,72 +5,65 @@ author: Mia Tomaić
 date: 25/5/2017
 ---
 
+# group-memberships-wizard
+
 This article describes how to use SPDocKit Group Membership wizard to manage SharePoint group memberships – add users to specific group, remove them from one or all SharePoint groups or even delete them permanently from the entire site collection.
 
-**Wizard Scope**: farm, web application, site collection(s)  
-**Supported People Picker principal selection**: Active Directory groups, users (multiselect supported)
+**Wizard Scope**: farm, web application, site collection\(s\)  
+**Supported People Picker principal selection**: Active Directory groups, users \(multiselect supported\)
 
-### Add User(s) to Specific Group
-This wizard option will add a selected principal to a desired SharePoint groups within the selected wizard scope.
-1. Navigate to Permissions Explorer and click on the **Membership Wizard** in the Wizards ribbon. 
+## Add User\(s\) to Specific Group
 
-2. Select **Add user(s) to specific group** option and **Next** to continue.
+This wizard option will add a selected principal to a desired SharePoint groups within the selected wizard scope. 1. Navigate to Permissions Explorer and click on the **Membership Wizard** in the Wizards ribbon.
 
-3. The **Target** step allows you to specify the entire farm, web application  or just specific site collection(s) in which changes will be made.
+1. Select **Add user\(s\) to specific group** option and **Next** to continue.
+2. The **Target** step allows you to specify the entire farm, web application or just specific site collection\(s\) in which changes will be made.
+3. In the configuration step select users you wish to add to the specific group. People Picker supports **SharePoint users** and **Active Directory groups** as a valid choice.
 
-4. In the configuration step select users you wish to add to the specific group. People Picker supports **SharePoint users** and **Active Directory groups** as a valid choice.
+   After you’ve chosen the right users, select which group they should be added to. There are couple of possible matching criteria:
 
-    After you’ve chosen the right users, select which group they should be added to. There are couple of possible matching criteria:
+   * **Specific group**– drop down menu provides a list of the existing SharePoint groups in the selected site collection.
+   * **Name** – changes will apply only to the group with an exact name match \(not case sensitive\).
+   * **Name contains** – changes will apply only to the group whose name contains specified term \(not case sensitive\).
+   * **Regular expression** – changes will apply only to object whose name contains specified regular expression.
 
-    * **Specific group**– drop down menu provides a list of the existing SharePoint groups in the selected site collection.
-    * **Name** – changes will apply only to the group with an exact name match (not case sensitive).
-    * **Name contains** – changes will apply only to the group whose name contains specified term (not case sensitive).
-    * **Regular expression** – changes will apply only to object whose name contains specified regular expression.
+     If multiple site collections are selected, changes will apply only to the ones where such objects exist.
 
-    If multiple site collections are selected, changes will apply only to the ones where such objects exist.
+4. In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
+5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](group-memberships-wizard.md#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-5. In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
-
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
-
-### Remove User(s) from Specific Group
+## Remove User\(s\) from Specific Group
 
 This wizard option will remove a selected principals from a desired SharePoint groups within the selected wizard scope.
 
 1. Navigate to Permissions Explorer and click on the **Membership Wizard** in the Wizards ribbon.
+2. Select **Remove user\(s\) from specific group** option and **Next** to continue.
+3. The **Target** step allows you to specify the entire farm, web application or just specific site collection\(s\) in which changes will be made.
+4. In the configuration step select users you wish to remove from the specific group. People Picker supports **SharePoint users** and **Active Directory groups** as a valid choice.
 
-2. Select **Remove user(s) from specific group** option and **Next** to continue.
+   After you’ve chosen the right users, select which group they should be removed from. There are couple of possible matching criteria:
 
-3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
+   * **Specific group**– drop down menu provides a list of the existing SharePoint groups in the selected site collection.
+   * **Name** – changes will apply only to the group with an exact name match \(not case sensitive\).
+   * **Name contains** – changes will apply only to the group whose name contains specified term \(not case sensitive\).
+   * **Regular expression** – changes will apply only to object whose name contains specified regular expression.
 
-4.  In the configuration step select users you wish to remove from the specific group. People Picker supports **SharePoint users** and **Active Directory groups** as a valid choice.
-
-    After you’ve chosen the right users, select which group they should be removed from. There are couple of possible matching criteria:
-
-    * **Specific group**– drop down menu provides a list of the existing SharePoint groups in the selected site collection.
-    * **Name** – changes will apply only to the group with an exact name match (not case sensitive).
-    * **Name contains** – changes will apply only to the group whose name contains specified term (not case sensitive).
-    * **Regular expression** – changes will apply only to object whose name contains specified regular expression.
-
-    If multiple site collections are selected, changes will apply only to the ones where such objects exist.
+   If multiple site collections are selected, changes will apply only to the ones where such objects exist.
 
 5. In the **Preview step**, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
+6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](group-memberships-wizard.md#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+## Remove User\(s\) from all Groups
 
-### Remove User(s) from all Groups
-This wizard option will remove a selected principal from all SharePoint groups within the selected wizard scope. User will still exist on the specific site collection but will have no assigned permissions through SharePoint groups.
-1.  Navigate to Permissions Explorer and click on the **Membership Wizard** in the Wizards ribbon.
+This wizard option will remove a selected principal from all SharePoint groups within the selected wizard scope. User will still exist on the specific site collection but will have no assigned permissions through SharePoint groups. 1. Navigate to Permissions Explorer and click on the **Membership Wizard** in the Wizards ribbon.
 
-2.  Select **Remove user(s) from all groups** option and **Next** to continue.
+1. Select **Remove user\(s\) from all groups** option and **Next** to continue.
+2. The **Target** step allows you to specify the entire farm, web application or just specific site collection\(s\) in which changes will be made.
+3. In the configuration step select users you wish to remove from all SharePoint groups within the selected scope. People Picker supports **SharePoint users** and **Active Directory groups** as a valid choice.
+4. In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
+5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](group-memberships-wizard.md#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
 
-3. The **Target** step allows you to specify the entire farm, web application or just specific site collection(s) in which changes will be made.
+## Remove User\(s\) from entire Site Collection
 
-4.  In the configuration step select users you wish to remove from all SharePoint groups within the selected scope. People Picker supports **SharePoint users** and **Active Directory groups** as a valid choice.
+This wizard option has identical steps like the previous one **Remove user\(s\) from all groups**. The main difference is that using **Remove user\(s\) from entire Site Collection** option means that selected users will no longer have any assigned permissions, directly or through SharePoint groups, and they will be deleted from all the selected site collections in your SharePoint farm.
 
-5. In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
-
-6.  The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](#internal/permission-management/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
-
-### Remove User(s) from entire Site Collection
-This wizard option has identical steps like the previous one **Remove user(s) from all groups**. The main difference is that using **Remove user(s) from entire Site Collection** option means that selected users will no longer have any assigned permissions, directly or through SharePoint groups, and they will be deleted from all the selected site collections in your SharePoint farm.

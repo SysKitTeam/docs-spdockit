@@ -5,22 +5,27 @@ author: Iva Novoselic
 date: 18/7/2017
 ---
 
-This is a service release containing minor improvements and some bug fixes. 
+# spdockit701-release-note
 
-__Product version:__ 7.0.1   
-__Build number:__   8620     
-__Release date:__ Jul 18, 2017    
+This is a service release containing minor improvements and some bug fixes.
+
+**Product version:** 7.0.1  
+**Build number:** 8620  
+**Release date:** Jul 18, 2017
 
 [Click here to download the new release.](https://www.spdockit.com/downloads/)
 
 ## Improvements:
-Most of the improvements we made apply to the farm snapshot optimization. We improved the way we load:	
+
+Most of the improvements we made apply to the farm snapshot optimization. We improved the way we load:
+
 * SharePoint Online settings and permissions
 * Performance Point settings
 * Project Server settings
 * SiteMaster settings
 
 ## Bug fixes:
+
 * Resolved an issue with the Unmodified Content report not working properly.
 * Resolved an issue when you try to connect to a SharePoint Online site in SPDocKit using the admin site collection. 
 * Resolved an issue with Farm Explorer not showing report data for the SharePoint Online root site. 
@@ -28,3 +33,4 @@ Most of the improvements we made apply to the farm snapshot optimization. We imp
 * Resolved an issue when trying to load IIS settings on a SharePoint 2016 single server environment. 
 
 [Click here to download the new release.](https://www.spdockit.com/downloads/)
+
