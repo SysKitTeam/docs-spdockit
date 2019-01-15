@@ -13,7 +13,9 @@ This article explains how to use SPDocKit to easily copy SharePoint permissions 
 
 Use Clone Permissions Wizard to easily achieve that selected destination principals \(SharePoint users or Active Directory groups\) have identical permissions across one site collection as a source principal.
 
+{% hint style="warning" %}
 **Please note!** Source principal’s permissions will not in any way be changed by this wizard. Destination principals will lose all previously assigned permissions and acquire every directly given permission and SharePoint group memberships as the source principal.
+{% endhint %}
 
 **Wizard Scope**: farm, web application, site collection.  
 **Supported People Picker source selection**: user, Active Directory group.  
