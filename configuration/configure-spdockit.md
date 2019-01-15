@@ -2,14 +2,14 @@
 
 This article explains how to configure the SPDocKit database and service before the first usage. **SPDocKit Configuration wizard** will automatically start when you start SPDocKit for the first time. Follow these steps to successfully configure the application:
 
-1. On the **Database** wizard page select whether to create a new database or use an existing one. [Read more](configure-spdockit.md#internal/configuration/configure-spdockit-database/) about the SPDocKit database.
+1. On the **Database** wizard page select whether to create a new database or use an existing one. [Read more](../configuration/configure-spdockit-database.md/) about the SPDocKit database.
 2. On the **Database Configuration** wizard page specify the **SQL Server, Database Name** and authentication. It is possible to overwrite the existing database under the same name.
    * If you are using the default instance type  "servername", or "servername.yourdomain.loc"
    * If you are using a named instance type "servername\instancename", or "servername.yourdomain.loc\instancename"
    * If your SQL Server is on a non-standard port \(different from 1433\), type "severname,port" or "servername\instance,port". \(FQDN formats are also supported\)
 
      After providing the information, click the **Test Connection** button to ensure that the settings are correct.
-3. On the **Service Configuration** wizard page check **Enable Service** and type the service account details. The service account needs to have the [following privileges](configure-spdockit.md#internal/requirements/sharepoint-on-premises-user-permissions-requirements/) to be able to run the service, create snapshots and other associated jobs.
+3. On the **Service Configuration** wizard page check **Enable Service** and type the service account details. The service account needs to have the [following privileges](../requirements/sharepoint-on-premises-user-permissions-requirements.md/) to be able to run the service, create snapshots and other associated jobs.
 4. Alternatively, you can use a Local System Account. **But please note:** The Local System account can be used to run the SPDocKit service \(but not the SPDocKit Insights Service\) if one of the following conditions are met:
    * You are using an embedded database.
    * You are using SQL Authentication to connect to your database.
@@ -33,5 +33,5 @@ This article explains how to configure the SPDocKit database and service before 
      * Take note of the Connection URL. This is needed to connect to the SPDocKit Insights Agent if the SPDocKit Insights Viewer is installed on a separate server or workstation. If that is the case copy the URL, start the Viewer on whichever server or workstation you installed it, and paste it into the required field. If the SPDocKit Insights Viewer is installed on the same server as the SPDocKit Insights Agent, SPDocKit Insights will start automatically. 
 9. click **Next** to complete the Configuration Wizard and apply the changes.
 
-**Please note!** To configure your SPDocKit settings more thoroughly, navigate to the **File** tab, click on the **Configuration** in the left navigation bar and press [Options](configure-spdockit.md#internal/get-to-know-spdockit/backstage-screen/options-wizard/) button.
+**Please note!** To configure your SPDocKit settings more thoroughly, navigate to the **File** tab, click on the **Configuration** in the left navigation bar and press [Options](../get-to-know-spdockit/backstage-screen/options-wizard.md/) button.
 

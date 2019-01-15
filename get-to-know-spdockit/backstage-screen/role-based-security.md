@@ -31,6 +31,6 @@ The Viewer role is predefined, along with the Admin role. This is a read-only ro
 
 ### Learn more
 
-* [How to: Manage Roles](role-based-security.md#internal/how-to/role-based-security/manage-roles/)
-* [How to: Manage Users](role-based-security.md#internal/how-to/role-based-security/manage-users/)
+* [How to: Manage Roles](../how-to/role-based-security/manage-roles.md/)
+* [How to: Manage Users](../how-to/role-based-security/manage-users.md/)
 

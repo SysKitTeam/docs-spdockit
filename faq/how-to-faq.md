@@ -46,7 +46,7 @@ There are two parts of storage that are used by any database:
 
 In order to reduce the database size you can do the following:
 
-1. Open the **Options wizard**, select the [Data Retention](how-to-faq.md#internal/get-to-know-spdockit/backstage-screen/options-wizard#data-retention) tab. Here is where you will see how your retention policies are defined.
+1. Open the **Options wizard**, select the [Data Retention](../get-to-know-spdockit/backstage-screen/options-wizard#data-retention.md) tab. Here is where you will see how your retention policies are defined.
 2. You will see the **Force Data Retention** button, and next to that is an **Execute** button. Pressing this button will automatically delete old information, then attempt to shrink your database \(the way this runs is determined by the settings in step 1\).  
 
    **Please note:** this can take a little bit of time to run.
@@ -69,5 +69,5 @@ This message is sometimes generated when there are insufficient rights given to 
 
    All accounts taking a snapshot must have the same level of access.
 
-For more information, please see the [following article](how-to-faq.md#internal/requirements/user-profile-service-requirements).
+For more information, please see the [following article](../requirements/user-profile-service-requirements.md).
 

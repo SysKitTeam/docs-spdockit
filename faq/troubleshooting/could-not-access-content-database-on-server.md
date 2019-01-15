@@ -28,7 +28,7 @@ The process of adding a user account to the role must be repeated each time a ne
 3. If you want to grant PowerShell shell access to a single database [check this article](https://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
 4. If you want to grant PowerShell shell access to all content databases run this script
 
-   [\(download Configure-SPShellAdmin.ps1\)](could-not-access-content-database-on-server.md#internal/_assets/Configure-SPShellAdmin.zip):
+   [\(download Configure-SPShellAdmin.ps1\)](../_assets/Configure-SPShellAdmin.zip):
 
 ```text
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)

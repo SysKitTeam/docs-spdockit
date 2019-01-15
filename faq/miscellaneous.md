@@ -26,7 +26,7 @@ When I tried to load a SharePoint farm with SPDocKit I received the following er
 ### Solution:
 
 * The product needs to run on the same server as SharePoint, so make sure SharePoint is installed on the server where you are trying to load the farm.
-* In order to load the SharePoint farm you need to have proper privileges. Check [this article](miscellaneous.md#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for more details.
+* In order to load the SharePoint farm you need to have proper privileges. Check [this article](../requirements/sharepoint-on-premises-user-permissions-requirements.md) for more details.
 
 ## Error occurred while upgrading to the latest version.
 
@@ -133,5 +133,5 @@ When trying to view Content & Usage Reports: Number of Unique Visitors, List of 
 
 ### Solution:
 
-Make sure that the user account running SPDocKit has the proper [permission privileges](miscellaneous.md#internal/requirements/sharepoint-on-premises-user-permissions-requirements). Specifically, the user must be a member of **SharePoint\_Shell\_Access** role on **Usage and Health Database**.
+Make sure that the user account running SPDocKit has the proper [permission privileges](../requirements/sharepoint-on-premises-user-permissions-requirements.md). Specifically, the user must be a member of **SharePoint\_Shell\_Access** role on **Usage and Health Database**.
 

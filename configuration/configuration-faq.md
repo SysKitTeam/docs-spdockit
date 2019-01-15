@@ -17,7 +17,7 @@ If the service is not configured, you can still execute these actions manually, 
 
 ## Can I change the account used to run the SPDocKit Service?
 
-Yes, you can do that via the SPDocKit Configuration wizard by navigating to: **File &gt; Configuration &gt; Configure**. The account used should be an Active Directory account with the [necessary privileges granted.](configuration-faq.md#internal/requirements/sharepoint-on-premises-user-permissions-requirements/)
+Yes, you can do that via the SPDocKit Configuration wizard by navigating to: **File &gt; Configuration &gt; Configure**. The account used should be an Active Directory account with the [necessary privileges granted.](../requirements/sharepoint-on-premises-user-permissions-requirements.md/)
 
 ## During the initial install of SPDocKit, should I choose New database or Use existing database?
 
@@ -27,5 +27,5 @@ Note: If there is an existing SPDocKit database you can connect to it.
 
 ## Can I run the SPDocKit Service as local system instead of an AD user?
 
-Unfortunately, you can't use local system account as the SPDocKit Service account. The service account needs to have specific rights which can't be given to a local system account. See the [user permission requirements.](configuration-faq.md#internal/requirements/sharepoint-on-premises-user-permissions-requirements)
+Unfortunately, you can't use local system account as the SPDocKit Service account. The service account needs to have specific rights which can't be given to a local system account. See the [user permission requirements.](../requirements/sharepoint-on-premises-user-permissions-requirements.md)
 

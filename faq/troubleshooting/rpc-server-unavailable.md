@@ -55,7 +55,7 @@ Verify that RPC Client and RPC Server are using the correct DNS servers for a na
 Verify the firewall state between RPC Client and RPC Server.
 
 * If the firewall is disabled, there is no need for any additional changes.
-* If the firewall is enabled, verify that the required ports are also enabled, as stated [here](rpc-server-unavailable.md#internal/faq/miscellaneous/#network-ports-required-for-gathering-the-data) in the section entitled “Network ports required for gathering the data”.
+* If the firewall is enabled, verify that the required ports are also enabled, as stated [here](../faq/miscellaneous/#network-ports-required-for-gathering-the-data.md) in the section entitled “Network ports required for gathering the data”.
 
 Also, **some users** had success with the following:
 
