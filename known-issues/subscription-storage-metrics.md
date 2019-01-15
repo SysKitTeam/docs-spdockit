@@ -1,11 +1,13 @@
 ---
 title: Storage Metrics report subscription
 description: The Storage Metrics report is unavailable for subscriptions.
-author: Iva Novoselic  
+author: Iva Novoselic
 date: 25/5/2017
 ---
 
-__Summary:__ The main reason that this report cannot be used as a subscription is the sheer volume of data that would result if all nodes were to be expanded.
+# subscription-storage-metrics
+
+**Summary:** The main reason that this report cannot be used as a subscription is the sheer volume of data that would result if all nodes were to be expanded.
 
 Notice that the Expand All command for this report is disabled. Every time a node in the report is expanded, the SharePoint API is queried for that content. The performance hit is negligible when expanding nodes manually, node by node. If we were to expand all the nodes at once, it would likely consume all resources available on the server. Also, the exported pdf would be large and not easily viewable.
 
@@ -13,8 +15,9 @@ The only way that the subscription feature would work is if the number of levels
 
 We believe that limiting the report when used as a subscription in such a way would render it useless, so we decided to rather not have it available at all for subscriptions.
 
-__Application version:__ 5.0.1.
+**Application version:** 5.0.1.
 
-__Solution:__ Currently there is no workaround for this issue.
+**Solution:** Currently there is no workaround for this issue.
 
-__Status:__ Not resolved.
+**Status:** Not resolved.
+

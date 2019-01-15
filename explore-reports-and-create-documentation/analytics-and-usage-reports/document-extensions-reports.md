@@ -1,41 +1,46 @@
 ---
 title: Document Extensions Reports
-description: This article explains how to use SPDocKit Document Extensions Overview report and Document Extension Details report to track the largest documents on a farm.
+description: >-
+  This article explains how to use SPDocKit Document Extensions Overview report
+  and Document Extension Details report to track the largest documents on a
+  farm.
 author: Mia Tomaić
 date: 02/10/2018
 ---
 
-This article explains how you can use the __Document Extensions Overview report__  and __Document Extension Details report__ to inspect space usage by documents. The Document Extension Overview report enables you to see the __number of documents on a farm and their total size by extension__, while the Document Extension Details report enables you to see the __number of documents and their total size by extension on each site collection__. This report also contains a list of all documents for the selected site collection and extension.
+# document-extensions-reports
 
-Report data comes from the [SPDocKit database](#internal/configuration/configure-spdockit-database).
+This article explains how you can use the **Document Extensions Overview report** and **Document Extension Details report** to inspect space usage by documents. The Document Extension Overview report enables you to see the **number of documents on a farm and their total size by extension**, while the Document Extension Details report enables you to see the **number of documents and their total size by extension on each site collection**. This report also contains a list of all documents for the selected site collection and extension.
 
-In order to view space usage by farm documents, you must take a snapshot with load depth set to List Items and Document Versions, with the Extensions and Sizes option checked.  
+Report data comes from the [SPDocKit database](document-extensions-reports.md#internal/configuration/configure-spdockit-database).
 
-To view the Document Extensions Overview report and the Document Extension Details report, go to __Analytics & Usage Report > Storage Metrics & Growth__. Both reports are listed here. The Document Extensions Overview report includes the farm filter if stored data comes from multiple farms. Document Extension Details report additionally includes the Extension filter. Select the appropriate filter values to view the reports. Alternatively, you can open the Document Extension Details report directly from the Document Extensions Overview report by clicking on the __Drill Down__ button on the ribbon. In that case, the report filters will automatically be filled with the farm and the file extension selected in the Document Extensions Overview report.
+In order to view space usage by farm documents, you must take a snapshot with load depth set to List Items and Document Versions, with the Extensions and Sizes option checked.
 
-The Document Extensions __Overview report__ contains a chart and grid with the following columns:
+To view the Document Extensions Overview report and the Document Extension Details report, go to **Analytics & Usage Report &gt; Storage Metrics & Growth**. Both reports are listed here. The Document Extensions Overview report includes the farm filter if stored data comes from multiple farms. Document Extension Details report additionally includes the Extension filter. Select the appropriate filter values to view the reports. Alternatively, you can open the Document Extension Details report directly from the Document Extensions Overview report by clicking on the **Drill Down** button on the ribbon. In that case, the report filters will automatically be filled with the farm and the file extension selected in the Document Extensions Overview report.
 
-* __Document Extension__ - File extension type (e.g., docx, xlsx, pdf, txt, bin, etc.).
-* __Document Count__ - Number of documents by extension (on a farm).
-* __Document Size [MB]__ - Total amount of space used by documents, expressed in megabytes.
+The Document Extensions **Overview report** contains a chart and grid with the following columns:
 
-The Document Extension __Details report__ contains the following columns:
+* **Document Extension** - File extension type \(e.g., docx, xlsx, pdf, txt, bin, etc.\).
+* **Document Count** - Number of documents by extension \(on a farm\).
+* **Document Size \[MB\]** - Total amount of space used by documents, expressed in megabytes.
 
-* __Site Collection Url__ - Absolute URL of the site collection.
-* __Document Extension__ - File extension type (e.g., docx, xlsx, pdf, txt, bin, etc.).
-* __Document Count__ - Number of documents by extension (in a site collection).
-* __Document Size [MB]__ - Total amount of space used by documents, expressed in megabytes.
+The Document Extension **Details report** contains the following columns:
+
+* **Site Collection Url** - Absolute URL of the site collection.
+* **Document Extension** - File extension type \(e.g., docx, xlsx, pdf, txt, bin, etc.\).
+* **Document Count** - Number of documents by extension \(in a site collection\).
+* **Document Size \[MB\]** - Total amount of space used by documents, expressed in megabytes.
 
 You can customize this grid by adding an optional column:
 
-* __Site Collection__ - Relative URL of the site collection.
+* **Site Collection** - Relative URL of the site collection.
 
-The Document Extension Details report also includes a list of all documents for the selected site collection and file extension, placed below the main grid.
-By default, this additional grid contains the following columns:
+The Document Extension Details report also includes a list of all documents for the selected site collection and file extension, placed below the main grid. By default, this additional grid contains the following columns:
 
-* __Title__ - Document title.
-* __Version Count__ - Total number of versions of the document.
-* __Document Size [MB]__ - Total amount of space used by the document, expressed in megabytes.
-* __Url__ - Absolute URL of the document.
+* **Title** - Document title.
+* **Version Count** - Total number of versions of the document.
+* **Document Size \[MB\]** - Total amount of space used by the document, expressed in megabytes.
+* **Url** - Absolute URL of the document.
 
 Important: You can only load the Document Versions, Extensions and Sizes with SPDocKit on a SharePoint machine, not on a workstation. However, once loaded, data can be viewed on a workstation as well.
+

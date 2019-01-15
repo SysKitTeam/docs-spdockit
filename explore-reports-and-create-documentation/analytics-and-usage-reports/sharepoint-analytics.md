@@ -1,31 +1,34 @@
 ---
 title: SharePoint Analytics Report
-description: This article describes how to use the SharePoint Analytics report. 
+description: This article describes how to use the SharePoint Analytics report.
 author: Tomislav Sirovec
 date: 28/9/2018
 ---
 
-This article explains how you can use the SharePoint Analytics report. The report shows the total number of hits each site collection had in the last seven days, along with the maximum number of daily unique visitors, and how the number of hits during that week compares to the previous period. The report also includes data on each site collection's size, the number of subsites it has, and the dates when it was last accessed and last modified. 
+# sharepoint-analytics
 
-Report data comes from the [SPDocKit database](#internal/configuration/configure-spdockit-database), and in order to start collecting the data, you need to enable the SharePoint Analytics Collection. To do so, go to __Options > Service Settings__ and enable the checkbox "Enable collection of site analytics from SharePoint's Usage and Health Data Collection service". For more information on available options, read [this article](#internal/configure-and-extend-spdockit/options-wizard).
+This article explains how you can use the SharePoint Analytics report. The report shows the total number of hits each site collection had in the last seven days, along with the maximum number of daily unique visitors, and how the number of hits during that week compares to the previous period. The report also includes data on each site collection's size, the number of subsites it has, and the dates when it was last accessed and last modified.
 
-In the field below, you can find a list of accounts to ignore when collecting analytics. This can be useful if you do not want the report to be cluttered with "less relevant" system users. The form is essentially a people picker; you can add any user you want here. However, the hits made by users you enter here __will not__ be taken into account when collecting data used in reports. 
+Report data comes from the [SPDocKit database](sharepoint-analytics.md#internal/configuration/configure-spdockit-database), and in order to start collecting the data, you need to enable the SharePoint Analytics Collection. To do so, go to **Options &gt; Service Settings** and enable the checkbox "Enable collection of site analytics from SharePoint's Usage and Health Data Collection service". For more information on available options, read [this article](sharepoint-analytics.md#internal/configure-and-extend-spdockit/options-wizard).
 
-To view the report go to __Analytics & Usage Reports > Analytics > SharePoint Analytics__.
+In the field below, you can find a list of accounts to ignore when collecting analytics. This can be useful if you do not want the report to be cluttered with "less relevant" system users. The form is essentially a people picker; you can add any user you want here. However, the hits made by users you enter here **will not** be taken into account when collecting data used in reports.
+
+To view the report go to **Analytics & Usage Reports &gt; Analytics &gt; SharePoint Analytics**.
 
 The SharePoint Analytics grid report contains these columns:
 
-* __Site Collection Url__ - Relative URL of the site collection.
-* __Total Hits__ - Number of total visits to a given site collection.
-* __Visitors__ - Average number of __visitors__ to a given site collection in the last seven days.
-    - Please note the red or green triangle indicating the trend. It will show you how the page visits compare to the previous period (the previous seven days).
-* __Size [MB]__ - Size in MBs of a given site collection.
-* __Number of Subsites__ - Number of subsites in the selected site collection.
-* __Last Accessed__ - Date when the site collection was last accessed.
-* __Last Content Modified__ - Date when the content on a site collection was last modified.
+* **Site Collection Url** - Relative URL of the site collection.
+* **Total Hits** - Number of total visits to a given site collection.
+* **Visitors** - Average number of **visitors** to a given site collection in the last seven days.
+  * Please note the red or green triangle indicating the trend. It will show you how the page visits compare to the previous period \(the previous seven days\).
+* **Size \[MB\]** - Size in MBs of a given site collection.
+* **Number of Subsites** - Number of subsites in the selected site collection.
+* **Last Accessed** - Date when the site collection was last accessed.
+* **Last Content Modified** - Date when the content on a site collection was last modified.
 
 You can customize this grid by adding an optional column:
 
-* __Web Application__ - Web application name. 
+* **Web Application** - Web application name. 
 
-Click on a grid row and a corresponding chart will load at the bottom. The chart can be modified to show __visitors, storage, and subsites__. Also, the data range can be changed either by clicking on a __zoom button__ or by moving the mouse wheel.  
+Click on a grid row and a corresponding chart will load at the bottom. The chart can be modified to show **visitors, storage, and subsites**. Also, the data range can be changed either by clicking on a **zoom button** or by moving the mouse wheel.
+
