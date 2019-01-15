@@ -7,7 +7,7 @@ author: Vinko Bedek
 date: 25/5/2017
 ---
 
-# manual-load
+# Manual Event Viewer Collection
 
 Depending on the license editions used on the farms that SPDocKit Insights monitors, some features may not be available. For more details, please check [features by license type](https://www.spdockit.com/orders) comparison.
 

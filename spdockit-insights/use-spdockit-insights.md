@@ -5,7 +5,7 @@ author: Vinko Bedek
 date: 22/5/2017
 ---
 
-# use-spdockit-insights
+# How to Use SPDocKit Insights
 
 This article gives a basic overview of how to use SPDocKit Insights.
 

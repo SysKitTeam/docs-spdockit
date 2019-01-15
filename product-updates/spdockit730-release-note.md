@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 01/02/2018
 ---
 
-# spdockit730-release-note
+# SPDocKit 7.3.0
 
 SPDocKit 7.3.0 is a release with GDPR in mind. It contains numerous improvements and bug fixes, but most noticeably we prepared a set of features you can use to become [GDPR](https://gdpr-info.eu/) compliant.
 

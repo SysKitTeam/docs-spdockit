@@ -1,4 +1,4 @@
-# sharepoint-farm-snapshots
+# SharePoint Farm Snapshots
 
 
 

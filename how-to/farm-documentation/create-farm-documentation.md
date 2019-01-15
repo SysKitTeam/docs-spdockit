@@ -7,7 +7,7 @@ Author: Iva Novoselic
 date: 17/5/2017.
 ---
 
-# create-farm-documentation
+# Create Farm Documentation
 
 This section describes how you can generate SharePoint farm documentation using SPDocKit.
 

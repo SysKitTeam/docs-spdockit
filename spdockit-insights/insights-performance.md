@@ -7,7 +7,7 @@ author: Hrvoje Bagarić
 date: 29/5/2017
 ---
 
-# insights-performance
+# Manual Event Viewer Collection
 
 SPDocKit Insights collects performance data by default. This behavior can be modified in the settings. Additionally user can change the performance data collection interval. The default value is 60 seconds.
 

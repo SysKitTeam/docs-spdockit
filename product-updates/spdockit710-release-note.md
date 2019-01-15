@@ -5,7 +5,7 @@ author: Tomislav Sirovec
 date: 6/9/2017
 ---
 
-# spdockit710-release-note
+# SPDocKit 7.1.0
 
 We are proud to present a new, refreshed version of **SPDocKit**. To stay in line with our product rebranding process, SPDocKit now comes with a refreshed palette of colors and a new set of icons! We felt like a change was needed, and with a move to a new office space, we decided to do a bit more than just remodeling and changing our address. In the rebranding process, we’ve gone all out by changing the the logo and names of all our products **except** SPDocKit's.
 

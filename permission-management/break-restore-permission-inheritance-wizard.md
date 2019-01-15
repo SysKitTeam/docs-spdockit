@@ -5,7 +5,7 @@ author: Mia Tomaić
 date: 24/5/2017
 ---
 
-# break-restore-permission-inheritance-wizard
+# Break/Restore Permission Inheritance Wizard
 
 This article explains how to use SPDocKit **Break/Restore Inheritance Wizard** to break or restore SharePoint permission inheritance on the desired subsite or list. SPDocKit applies changes to the current permission state on your SharePoint farm.
 

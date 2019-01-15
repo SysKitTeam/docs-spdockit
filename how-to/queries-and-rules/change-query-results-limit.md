@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-# change-query-results-limit
+# Change SPDocKit Query Results Limit
 
 This section describes how to change the limit on query results in SPDocKit.
 

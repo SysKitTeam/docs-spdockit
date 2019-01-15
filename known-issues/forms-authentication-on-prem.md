@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-# forms-authentication-on-prem
+# SharePoint On-Premises Forms Authentication
 
 **Summary:** SPDocKit does not support connecting to SharePoint On-Premises sites using the Forms authentication credentials. Only Windows credentials are supported when trying to connect to SharePoint On-Premises sites from the SPDocKit workstation instance.
 

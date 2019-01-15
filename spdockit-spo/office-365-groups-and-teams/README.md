@@ -1,4 +1,4 @@
-# office-365-groups-and-teams
+# Office 365 Groups and Teams
 
 
 

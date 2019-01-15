@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-# personalize-best-practices-reports
+# Personalize Best Practices Reports
 
 ## Create a new best practices report
 

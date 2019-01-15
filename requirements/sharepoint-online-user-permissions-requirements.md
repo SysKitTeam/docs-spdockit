@@ -1,4 +1,4 @@
-# sharepoint-online-user-permissions-requirements
+# SharePoint Online User Permissions Requirements
 
 title: SharePoint Online User Permissions Requirements author: Matija Hanzic  
 date: 17/5/2017

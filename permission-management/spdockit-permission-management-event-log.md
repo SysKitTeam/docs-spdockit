@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 25/5/2017
 ---
 
-# spdockit-permission-management-event-log
+# SPDocKit Permission Management Event Log
 
 This article explains where SPDocKit saves all the details regarding performed permission changes on your SharePoint farm.
 

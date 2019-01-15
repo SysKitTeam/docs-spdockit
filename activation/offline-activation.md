@@ -1,4 +1,4 @@
-# offline-activation
+# Offline Activation
 
 title: Offline Activation author: Matija Hanzic  
 date: 16/5/2017

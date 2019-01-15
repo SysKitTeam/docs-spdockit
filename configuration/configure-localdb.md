@@ -5,7 +5,7 @@ author: Matija Hanzic
 date: 2/6/2017
 ---
 
-# configure-localdb
+# Configure SPDocKit LocalDB
 
 This article will explain how to use LocalDB with SPDocKit. LocalDB is included in the SPDocKit installation file and if prerequisites are met, you have the option to install it alongside SPDocKit. This might be easier to use with some features, like SharePoint Online, that require a database, if you do not have a SQL Server.
 

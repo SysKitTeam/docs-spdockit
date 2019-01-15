@@ -1,9 +1,4 @@
-# configure-spdockit-database
-
-title: Configure SPDocKit Database author: Matija Hanzic  
-date: 16/5/2017
-
-## description: This article explains how to configure the database for SPDocKit.
+# Configure SPDocKit Database
 
 This article explains how to configure the database for SPDocKit.
 

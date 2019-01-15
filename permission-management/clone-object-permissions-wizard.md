@@ -7,7 +7,7 @@ author: Igor Mesaric
 date: 2/3/2018
 ---
 
-# clone-object-permissions-wizard
+# Clone Object Permissions Wizard
 
 This article explains how to use SPDocKit to easily clone SharePoint permissions from one object to another.
 

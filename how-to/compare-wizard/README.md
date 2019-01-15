@@ -1,4 +1,4 @@
-# compare-wizard
+# Compare-wizard
 
 
 

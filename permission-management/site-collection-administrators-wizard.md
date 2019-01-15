@@ -8,7 +8,7 @@ author: Mia Tomaić
 date: 25/5/2017
 ---
 
-# site-collection-administrators-wizard
+# Site Collection Administrators Wizard
 
 This article describes how to use Site Collection Administrators wizard to manage site collection admins on multiple sites within a single web application. The operations this wizard supports are setting the primary or secondary administrator, adding a user to the Site Collection’s Administrators Group, and removing a user from the Site Collection’s Administrators Group.
 

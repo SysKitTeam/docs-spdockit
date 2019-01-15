@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 31/5/2017
 ---
 
-# spdockit-workstation
+# SPDocKit on a Workstation
 
 Please check the [feature availability by license type](https://www.spdockit.com/orders).
 

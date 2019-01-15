@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 22/11/2017
 ---
 
-# spdockit720-release-note
+# SPDocKit 7.2.0
 
 SPDocKit 7.2.0 is a minor release with a lot of new features and significant improvements. New Configuration Wizard, unified snapshot experience, better permission reports filtering and subscription improvements are just a beginning of what this version has to offer. SPDocKit Online now supports Office 365 Groups and Teams, OneDrive for Business and automatic snapshots. SPDocKit Insights has gained better grouping and filtering options, additional Event Logs as well as numerous user experience adjustments.
 

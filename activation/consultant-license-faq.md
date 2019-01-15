@@ -1,4 +1,4 @@
-# consultant-license-faq
+# Consultant License FAQ
 
 title: Consultant License FAQ author: Iva Novoselic  
 date: 22/5/2017

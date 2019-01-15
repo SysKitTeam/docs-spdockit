@@ -1,9 +1,4 @@
-# configure-multiple-farms-to-use-same-spdockit-database
-
-title: Configure Multiple Farms to Use the Same SPDocKit Database author: Matija Hanzic  
-date: 23/5/2017
-
-## description: This article will explain how you can configure multiple instances of SPDocKit on different SharePoint farms to use the same SPDocKit database.
+# Configure Multiple Farms to Use the Same SPDocKit Database
 
 This article will explain how you can configure multiple instances of SPDocKit, on different SharePoint farms, to use the same SPDocKit database. For general information on how to configure a SPDocKit database go [here](configure-multiple-farms-to-use-same-spdockit-database.md#internal/configuration/configure-spdockit-database/).
 

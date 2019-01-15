@@ -8,7 +8,7 @@ author: Marko Gudan
 date: 31/5/2017
 ---
 
-# security-audit
+# Audit Permissions Changes
 
 This article explains how you can use the **Permissions Audit report** to inspect permission changes on site collections. Permission Audit report enables you to see **the complete history of permission changes on site collections**. Please check the [feature availability by license type for more info.](https://www.spdockit.com/orders)
 

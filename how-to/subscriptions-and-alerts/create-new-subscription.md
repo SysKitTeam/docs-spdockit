@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 17/05/2017
 ---
 
-# create-new-subscription
+# Create New Subscription
 
 This section describes how to create scheduled **Subscriptions** for SPDocKit reports. Data you receive from these subscriptions is gathered from the **last loaded farm snapshot** information.
 

@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 18/7/2017
 ---
 
-# spdockit701-release-note
+# SPDocKit 7.0.1
 
 This is a service release containing minor improvements and some bug fixes.
 

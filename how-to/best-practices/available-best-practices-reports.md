@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-# available-best-practices-reports
+# Available Best Practices Reports
 
 We have prepared a detailed overview of all available reports in SPDocKit with descriptions and instructions in our [Best Practices Library](https://docs.syskit.com/bp/).
 

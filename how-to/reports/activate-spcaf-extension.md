@@ -5,7 +5,7 @@ author: Martin Pisacic
 date: 18/5/2017
 ---
 
-# activate-spcaf-extension
+# Activate SPCAF Extension
 
 This section explains how to activate SPCAF Extension.
 

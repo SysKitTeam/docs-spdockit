@@ -7,7 +7,7 @@ author: Tomislav Kunaj
 date: 25/5/2017
 ---
 
-# configure-multiple-databases-on-a-workstation
+# Configure Multiple databases on a Workstation
 
 This article will explain how to use our new Connection String Chooser. A feature used to quickly change between databases on a workstation.
 

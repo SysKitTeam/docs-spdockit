@@ -5,7 +5,7 @@ date: 17/5/2017
 description: This article explains how to uninstall SPDocKit.
 ---
 
-# uninstallation-guide
+# Uninstallation Guide
 
 We are sorry to hear you are leaving the SysKit family, but here are the steps how to uninstall the **SPDocKit**.
 

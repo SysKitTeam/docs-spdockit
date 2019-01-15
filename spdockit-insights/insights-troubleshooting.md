@@ -5,7 +5,7 @@ author: Vinko Bedek
 date: 24/5/2017
 ---
 
-# insights-troubleshooting
+# Troubleshooting
 
 There are a couple of problems that may be encountered while using SPDocKit Insights.
 

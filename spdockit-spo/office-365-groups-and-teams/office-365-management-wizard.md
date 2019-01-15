@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 14/11/2017
 ---
 
-# office-365-management-wizard
+# Office 365 Management Wizards
 
 _**As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is**_ [_**SysKit Security Manager**_](https://www.syskit.com/products/security-manager/)_**.**_&lt;/br&gt; _**For instructions on the upgrade path or any other questions contact us at**_ [_**support@syskit.com**_](mailto:support@syskit.com)_**.**_
 

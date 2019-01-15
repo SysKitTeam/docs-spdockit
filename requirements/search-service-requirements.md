@@ -9,7 +9,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# search-service-requirements
+# Search Service Application Requirements
 
 ## Problem:
 

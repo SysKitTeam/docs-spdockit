@@ -5,7 +5,7 @@ date: 17/5/2017
 description: This article explains how to install SPDocKit.
 ---
 
-# installation-guide
+# Installation Guide
 
 This article explains how to install SPDocKit.
 

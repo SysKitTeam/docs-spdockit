@@ -7,7 +7,7 @@ author: Igor Mesarić
 date: 26/02/2018
 ---
 
-# spdockit740-release-note
+# SPDocKit 7.4.0
 
 SPDocKit 7.4.0 is a minor release that gives SPDocKit an additional facelift. It's not just about looks: some interesting features were also added. Permission management received a set of awesome new possibilities, a new report was added, and numerous improvements were made.
 

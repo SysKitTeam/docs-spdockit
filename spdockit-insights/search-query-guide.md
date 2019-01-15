@@ -5,7 +5,7 @@ author: Vinko Bedek
 date: 19/5/2017
 ---
 
-# search-query-guide
+# Query Insights Event Viewer
 
 This article will explain how to write SPDocKit Insights search queries.
 

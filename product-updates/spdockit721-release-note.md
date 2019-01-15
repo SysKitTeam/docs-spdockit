@@ -5,7 +5,7 @@ author: Tomislav Sirovec
 date: 12/12/2017
 ---
 
-# spdockit721-release-note
+# SPDocKit 7.2.1
 
 This is a service release containing minor bug fixes.
 

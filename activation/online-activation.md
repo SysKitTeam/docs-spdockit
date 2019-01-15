@@ -1,4 +1,4 @@
-# online-activation
+# Online Activation
 
 title: Online Activation author: Matija Hanzic  
 date: 16/5/2017

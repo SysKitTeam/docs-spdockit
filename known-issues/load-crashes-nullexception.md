@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-# load-crashes-nullexception
+# Load crashes with NullReference exception
 
 **Summary:** Upon inspecting the event log after a failed load, the following exception can be found:
 

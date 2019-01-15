@@ -5,7 +5,7 @@ author: Vinko Bedek
 date: 17/5/2017
 ---
 
-# insights-quick-start-guide
+# Quick Start Guide
 
 SPDocKit Insights is designed to allow SharePoint administrators to collect and monitor information about their farm health from:
 

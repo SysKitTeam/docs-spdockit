@@ -7,7 +7,7 @@ author: Vinko Bedek
 date: 25/5/2017
 ---
 
-# insights-home
+# Insights Home
 
 The SPDocKit Insights home page gives you an overview of your index's contents as well as a general performance overview regarding your farm health.
 

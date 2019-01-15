@@ -1,4 +1,4 @@
-# manage-license
+# Manage License
 
 title: Manage SPDocKit License author: Iva Novoselic date: 23/5/2017
 

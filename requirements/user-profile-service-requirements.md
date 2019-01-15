@@ -9,7 +9,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# user-profile-service-requirements
+# User Profile Service Application Requirements
 
 ## Problem:
 

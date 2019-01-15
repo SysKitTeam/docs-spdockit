@@ -1,4 +1,4 @@
-# customize-settings
+# Customize Insights Settings
 
 title: SPDocKit Insights Settings description: Various options described author: Vinko Bedek
 

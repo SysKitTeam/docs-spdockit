@@ -1,4 +1,4 @@
-# activation-faq
+# Activation FAQ
 
 title: Activation FAQ author: Matija Hanzic  
 date: 16/5/2017

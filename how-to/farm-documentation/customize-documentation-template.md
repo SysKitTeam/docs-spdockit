@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-# customize-documentation-template
+# Customize Documentation Template
 
 ## Quick guide
 

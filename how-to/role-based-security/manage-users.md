@@ -5,7 +5,7 @@ author: Vinko Bedek
 date: 22/5/2017
 ---
 
-# manage-users
+# Manage Users
 
 This section explains how to add principals and manage users.
 

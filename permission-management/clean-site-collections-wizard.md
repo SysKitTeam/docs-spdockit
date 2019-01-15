@@ -8,7 +8,7 @@ author: Mia Tomaić
 date: 25/5/2017
 ---
 
-# clean-site-collections-wizard
+# Clean Site Collections Wizard
 
 This article explains how to use Clean Site Collection Wizard to keep your SharePoint farm permissions healthy. Track which users and groups are unnecessarily present on your SharePoint farm or lost their permissions for any reason. Use this wizard in combination with Cleanup Reports to find and manage the following: orphaned users, users without permissions or SharePoint groups without permissions.
 
