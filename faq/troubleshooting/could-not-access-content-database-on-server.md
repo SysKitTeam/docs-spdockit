@@ -9,7 +9,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# could-not-access-content-database-on-server
+# Could not access content database
 
 ## Problem:
 

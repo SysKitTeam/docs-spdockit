@@ -8,7 +8,7 @@ author: Iva Novoselic
 date: 24/5/2017
 ---
 
-# content-and-usage-reports-screen
+# Content and Usage Reports Screen
 
 Content and Usage Reports provide a quick overview of your farm storage and content usage, features usage and activations and SharePoint structure.
 

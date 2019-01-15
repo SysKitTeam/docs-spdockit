@@ -9,7 +9,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# service-was-unable-to-read-active-directory-properties
+# Service was unable to read active directory properties
 
 ## Problem:
 

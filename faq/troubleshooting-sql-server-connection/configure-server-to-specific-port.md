@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 19/5/2017
 ---
 
-# configure-server-to-specific-port
+# Configure server to specific port
 
 ## Problem:
 

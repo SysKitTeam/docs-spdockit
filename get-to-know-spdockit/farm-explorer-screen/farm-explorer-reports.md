@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 24/5/2017
 ---
 
-# farm-explorer-reports
+# Farm Explorer Reports
 
 The Farm Explorer contains multiple report groups. Take a farm snapshot in order to document all available configuration settings.
 

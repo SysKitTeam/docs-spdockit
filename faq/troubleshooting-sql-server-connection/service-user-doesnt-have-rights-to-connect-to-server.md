@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 19/5/2017
 ---
 
-# service-user-doesnt-have-rights-to-connect-to-server
+# Servic user doesn't have rights to connect to server
 
 ## Problem:
 

@@ -5,7 +5,7 @@ author: Dejan Stefulj
 date: 28/6/2017
 ---
 
-# rpc-server-unavailable
+# RPC Server is Unavailable
 
 ## Problem
 

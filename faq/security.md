@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 22/5/2017
 ---
 
-# security
+# Security
 
 ## Does SPDocKit make changes to the farm?
 

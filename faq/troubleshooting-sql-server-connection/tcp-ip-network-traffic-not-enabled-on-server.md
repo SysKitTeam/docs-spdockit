@@ -5,7 +5,7 @@ author: Mia Tomaić
 date: 19/5/2017
 ---
 
-# tcp-ip-network-traffic-not-enabled-on-server
+# TCP/IP network traffic not enabled on server
 
 ## Problem:
 

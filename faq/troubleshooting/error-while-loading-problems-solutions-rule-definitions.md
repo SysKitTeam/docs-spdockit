@@ -9,7 +9,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# error-while-loading-problems-solutions-rule-definitions
+# Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’
 
 ## Problem:
 

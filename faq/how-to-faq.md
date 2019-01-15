@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 23/5/2017
 ---
 
-# how-to-faq
+# How to FAQ
 
 ## How can I measure the size of the SPDocKit database?
 

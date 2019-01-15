@@ -5,7 +5,7 @@ author: Mia Tomaić
 date: 19/5/2017
 ---
 
-# inbound-traffic
+# Inbound traffic
 
 ## Problem:
 

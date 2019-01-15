@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 19/5/2017
 ---
 
-# configuration-wizard-connect-to-server-and-database
+# Configuration Wizard -Connect to server and database
 
 ## Problem:
 

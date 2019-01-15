@@ -9,7 +9,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# sql-server-unavailable
+# SQL server unavailable
 
 ## Problem:
 

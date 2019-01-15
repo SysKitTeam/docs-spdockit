@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 24/5/2017
 ---
 
-# site-explorer-screen
+# Site Explorer Screen
 
 The **Site Explorer** allows system administrators to explore SharePoint's Web applications, site collections, and subsites, both live and previously loaded. Use the tree view in the left navigation bar to expand and collapse sections and to preview values in the main grid.
 

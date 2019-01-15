@@ -9,7 +9,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# service-app-does-not-have-proxies
+# Service app does not have proxies
 
 ## Problem:
 
