@@ -7,7 +7,7 @@ date: 25/5/2017
 
 # License Management
 
-The License Management dialog allows you to enter the number of SharePoint Standard and Enterprise licenses \(CALs\) you have purchased. Data provided will be used to generate license compliance and [feature usage reports](license-management.md#internal/explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen). This feature also allows you to define and track custom features licensing and usage.
+The License Management dialog allows you to enter the number of SharePoint Standard and Enterprise licenses \(CALs\) you have purchased. Data provided will be used to generate license compliance and [feature usage reports](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md). This feature also allows you to define and track custom features licensing and usage.
 
 To manage your licenses do the following:
 

@@ -31,7 +31,7 @@ Here is what you need to do: 1. Open the **SharePoint Central Administration** o
 
 ### Learn More
 
-* [SharePoint On-Premises User Permissions Requirements](service-app-perm-requirements.md#internal/requirements/user-permissions-requirements)
+* [SharePoint On-Premises User Permissions Requirements](../requirements/user-permissions-requirements.md)
 
 ## User Profile Service Application Requirements
 
@@ -49,5 +49,5 @@ Here is what you need to do: 1. Open the **SharePoint Central Administration** o
 
 ### Learn More
 
-* [SharePoint On-Premises User Permissions Requirements](service-app-perm-requirements.md#internal/requirements/user-permissions-requirements)
+* [SharePoint On-Premises User Permissions Requirements](../requirements/user-permissions-requirements.md)
 

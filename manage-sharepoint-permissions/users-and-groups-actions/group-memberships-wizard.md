@@ -30,7 +30,7 @@ This wizard option will add a selected principal to a desired SharePoint groups 
      If multiple site collections are selected, changes will apply only to the ones where such objects exist.
 
 4. In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
-5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](group-memberships-wizard.md#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Remove User\(s\) from Specific Group
 
@@ -51,7 +51,7 @@ This wizard option will remove a selected principals from a desired SharePoint g
    If multiple site collections are selected, changes will apply only to the ones where such objects exist.
 
 5. In the **Preview step**, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](group-memberships-wizard.md#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Remove User\(s\) from all Groups
 
@@ -61,7 +61,7 @@ This wizard option will remove a selected principal from all SharePoint groups w
 2. The **Target** step allows you to specify the entire farm, web application or just specific site collection\(s\) in which changes will be made.
 3. In the configuration step select users you wish to remove from all SharePoint groups within the selected scope. People Picker supports **SharePoint users** and **Active Directory groups** as a valid choice.
 4. In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
-5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](group-memberships-wizard.md#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Remove User\(s\) from entire Site Collection
 

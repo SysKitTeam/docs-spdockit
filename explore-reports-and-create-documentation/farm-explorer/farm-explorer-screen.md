@@ -21,11 +21,11 @@ The following commands are available:
 * **Export as PDF** button allows you to export the selected report as a PDF document.
 * **Export as XLSX** button allows you to export the selected report as an XLSX document.
 * **Export as DOCX** button allows you to export the selected report as a DOCX document.
-* **Compare Wizard** – read more about the [Compare Wizard](farm-explorer-screen.md#internal/compare-sharepoint-configurations/compare-wizard/).
+* **Compare Wizard** – read more about the [Compare Wizard](../compare-sharepoint-configurations/compare-wizard.md).
 * **Subscriptions and Alerts** – create and manage your SPDocKit report subscriptions and alerts.
 * **Schedule this Report** – add the currently selected SPDocKit report to a new report subscription or a previously created one.
-* **Options** – read more about the [Options Wizard](farm-explorer-screen.md#internal/configure-and-extend-spdockit/options-wizard).
-* **Save XML Configuration** – [wizard that helps you generate an AutoSPInstaller XML file](farm-explorer-screen.md#internal/explore-reports-and-create-documentation/farm-explorer/generate-autospinstaller-xml-configuration-file/) based on the currently opened snapshot.
+* **Options** – read more about the [Options Wizard](../configure-and-extend-spdockit/options-wizard.md).
+* **Save XML Configuration** – [wizard that helps you generate an AutoSPInstaller XML file](../explore-reports-and-create-documentation/farm-explorer/generate-autospinstaller-xml-configuration-file.md) based on the currently opened snapshot.
 
 ## Comments ribbon
 
@@ -37,7 +37,7 @@ The following commands are available:
 * **Edit** - enables you to edit existing comments.
 * **Delete** - enables you to delete existing comments. 
 
-For more information about comments please read the [following article](farm-explorer-screen.md#internal/explore-reports-and-create-documentation/customizing-reports/add-comments/).
+For more information about comments please read the [following article](../explore-reports-and-create-documentation/customizing-reports/add-comments.md).
 
 ## View ribbon
 

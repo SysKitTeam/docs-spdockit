@@ -15,5 +15,5 @@ But first of all, let us explain why SPDocKit Insights is no longer a part of SP
 
 All existing customers eligible for the upgrade to SysKit Insights can find their new product keys on our [customers' portal](https://my.syskit.com). To learn more about the upgrade paths and licensing changes that come with version 8 of SPDocKit, read [this blog post](https://blog.syskit.com/spdockit-v8-licensing-changes).
 
-Not everything is lost! Although SysKit Insights needs a dedicated database, you can retain your event data stored in the index, as well as the farms you monitored in SPDocKit Insights. For more details on how to migrate your data, follow the steps provided in [this article](spdockit-insights-removed.md#internal/faq/spdockit-insights-migration).
+Not everything is lost! Although SysKit Insights needs a dedicated database, you can retain your event data stored in the index, as well as the farms you monitored in SPDocKit Insights. For more details on how to migrate your data, follow the steps provided in [this article](../faq/spdockit-insights-migration.md).
 

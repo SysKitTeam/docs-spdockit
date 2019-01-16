@@ -27,7 +27,7 @@ This wizard options allows you to create new permission level across multiple si
    **Please note!** Base permissions are connected, so if for example, you want to include Manage Lists base permission into the new permission level, the View Items, View Pages and Open base permissions are also needed. User do not have to worry about these requirements, SPDocKit will take care of them.
 
 5. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](permission-levels-wizard.md#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Add Permission\(s\) to Permission Level
 
@@ -44,7 +44,7 @@ This wizard option allows you to edit existing permission levels across the sele
      If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
 5. Select which base permissions you would like to add to permission levels that satisfy a matching criteria. The list of base permissions is fetched from selected web application settings. Some base permissions require other base permissions and SPDocKit will automatically select associated base permissions so that user does not have to.
 6. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard. If selected base permission\(s\) already exist in matched permission levels, SPDocKit will ignore them and add only base permissions that were not previously contained in specified permission level.
-7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](permission-levels-wizard.md#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Remove Permission\(s\) from Permission Level
 
@@ -61,7 +61,7 @@ This wizard option allows you to remove particular base permission from the exis
      If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
 5. Select which base permissions you would like to remove from permission levels that satisfy a matching criteria. The list of base permissions is fetched from selected web application settings. Some base permissions are associated to other base permissions, so SPDocKit will automatically select them also. Extra care should be devoted to configuring this step, as mistakes can result in empty permission levels.
 6. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard. If selected base permission\(s\) do not exist in matched permission levels, SPDocKit will ignore them and remove only base permissions that previously existed in specified permission level.
-7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](permission-levels-wizard.md#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Edit Permission\(s\) for Permission Level
 
@@ -87,7 +87,7 @@ This wizard option is useful if you want to modify existing permission level wit
    If selected base permission\(s\) already exist in matched permission levels, SPDocKit will ignore them and add only base permissions that were not previously contained in specified permission level.  
    If selected base permission\(s\) do not exist in matched permission levels, SPDocKit will ignore them and remove only base permissions that previously existed in specified permission level.
 
-7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](permission-levels-wizard.md#internal/manage-sharepoint-permissions/spdockit-permission-management-event-log). There will be information about changes that were made as well as who made those changes.
+7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Delete Permission Level
 
@@ -102,7 +102,7 @@ This wizard option allows you to delete existing permission levels across the sp
 
      If multiple SharePoint site collections are selected, changes will apply only to the ones where such permission levels exist.
 4. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
-5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom fSPDocPerm event log\]\(\#internal/permission-management/spdockit-permission-management-event-log\). There will be information about changes that were made as well as who made those changes.
+5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../permission-management/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 **Please Note!** While it is possible to create, delete or edit subsite’s specific permission levels \(breaking permission level inheritance on each subsite, similar to permission inheritance\) SPDocKit does not support such behavior. From SharePoint version 2010 and forward this functionality is hidden from SharePoint interface. Internally SPDocKit is able to work with these permission levels but will not allow user to create, delete or modify permission levels on subsite with permission levels broken inheritance.
 

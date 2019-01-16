@@ -18,7 +18,7 @@ SPDocKit uses a database for storing data gathered from your SharePoint farm.
 **To configure a database on the server installation of SPDocKit, follow the steps below:**
 
 1. Select **Configuration** from the left navigation bar on the **Backstage Screen** and then click the **Configure** button.
-2. On the **Database** wizard page, select whether to create a new database or use the existing one. Read more about the [SPDocKit database requirements](configure-spdockit-database.md#internal/requirements/user-permissions-requirements/).
+2. On the **Database** wizard page, select whether to create a new database or use the existing one. Read more about the [SPDocKit database requirements](../requirements/user-permissions-requirements.md).
 3. On the **Database Configuration** wizard page, specify the **SQL Server, Database Name**, and authentication. It is possible to overwrite the existing database under the same name.
 
    * If you are using the default instance, type  "servername", or "servername.yourdomain.loc".

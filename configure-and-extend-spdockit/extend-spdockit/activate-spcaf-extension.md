@@ -19,7 +19,7 @@ If you only wish to try the SPCAF extension without activation, there is a trial
 
 ## **Installing**
 
-1. To install SPCAF extension you can use either online or offline installation. For detailed instructions click [here](activate-spcaf-extension.md#internal/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions).
+1. To install SPCAF extension you can use either online or offline installation. For detailed instructions click [here](../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md).
 
 ## **Activation**
 
@@ -36,5 +36,5 @@ Please note that if you already have the licensed SPCAF on a machine together wi
 
 And that is it. You may try opening some of the SPCAF reports to make sure they are working properly.
 
-**Please note! SPCAF section will be visible in the navigation tree only after** [**installing**](activate-spcaf-extension.md#internal/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions/) **the extension.**
+**Please note! SPCAF section will be visible in the navigation tree only after** [**installing**](../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
 

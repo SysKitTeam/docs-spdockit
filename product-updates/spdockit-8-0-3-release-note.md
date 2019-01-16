@@ -17,7 +17,7 @@ This is a service release containing minor improvements and bug fixes.
 
 ## Improvements:
 
-* Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](spdockit-8-0-3-release-note.md#internal/troubleshooting/server-load-and-user-permissions/error-while-loading-iis-settings)
+* Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](../troubleshooting/server-load-and-user-permissions/error-while-loading-iis-settings.md)
 * Improved error handling when opening snapshots.
 
 ## Bug fixes:
