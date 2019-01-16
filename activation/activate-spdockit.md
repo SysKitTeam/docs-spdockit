@@ -71,5 +71,5 @@ The Workstation license is tied to the **workstation ID** and cannot be used on 
 
 ### Related articles:
 
-* [Manage License](activate-spdockit.md#internal/activation/manage-license/)
+* [Manage License](../activation/manage-license.md)
 
