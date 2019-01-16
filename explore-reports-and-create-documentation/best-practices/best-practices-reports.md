@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-# best-practices-reports
+# Best Practices Reports
 
 ## Available Reports
 

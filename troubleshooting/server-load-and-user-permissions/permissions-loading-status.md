@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# permissions-loading-status
+# My permissions loading status is reported as ”Failed”
 
 ## Problem:
 

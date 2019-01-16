@@ -5,7 +5,7 @@ author: Mia Tomaić
 date: 25/5/2017
 ---
 
-# group-memberships-wizard
+# Group Memberships Wizard
 
 This article describes how to use SPDocKit Group Membership wizard to manage SharePoint group memberships – add users to specific group, remove them from one or all SharePoint groups or even delete them permanently from the entire site collection.
 

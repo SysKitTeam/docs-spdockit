@@ -5,7 +5,7 @@ author: Igor Mesaric
 date: 10/01/2018
 ---
 
-# add-comments
+# Add Comments & Tags
 
 This section describes how to add comments to Reports and individual Snapshots.
 

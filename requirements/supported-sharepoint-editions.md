@@ -5,7 +5,7 @@ author: Matija Hanzic
 date: 25/5/2017
 ---
 
-# supported-sharepoint-editions
+# Supported SharePoint Editions
 
 The following SharePoint editions and additional products are supported by SPDocKit:
 

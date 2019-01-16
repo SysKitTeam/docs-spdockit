@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 19/5/2017
 ---
 
-# service-user-doesnt-have-rights-to-connect-to-server
+# Service user does not have rights to connect to the SQL server
 
 ## Problem:
 

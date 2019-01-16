@@ -5,7 +5,7 @@ author: Igor Mesarić
 date: 29/11/2018
 ---
 
-# errors-while-loading-server-information
+# Errors while loading server information
 
 ## SharePoint Server Information
 

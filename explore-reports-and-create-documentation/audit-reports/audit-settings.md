@@ -5,7 +5,7 @@ author: Tomislav Sirovec
 date: 03/10/2018
 ---
 
-# audit-settings
+# Audit Settings
 
 This article describes how to use the Audit Settings report.  
 The report shows the state of specific audit settings on the selected site collections.

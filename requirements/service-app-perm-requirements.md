@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# service-app-perm-requirements
+# Service Application Permission Requirements
 
 ## Search Service Application Requirements
 

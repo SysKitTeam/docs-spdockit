@@ -5,7 +5,7 @@ author: Mia Tomaić
 date: 22/5/2017
 ---
 
-# miscellaneous
+# Miscellaneous
 
 ## How can I update the product versions offline?
 

@@ -7,7 +7,7 @@ author: Martin Pisacic
 date: 18/5/2017
 ---
 
-# compare-web-config-files
+# Compare Web.Config Files
 
 This section describes how to use SPDocKit to compare web.config files across different servers, Web applications and Web application zones.
 

@@ -5,7 +5,7 @@ author: Tomislav Sirovec
 date: 11/1/2018
 ---
 
-# custom-query-issue
+# Custom Query issue with URL export
 
 **Summary:** When a custom query report has an URL field, the links in that URL column are not being properly exported. This affects all three export formats \(pdf, xlsx and docx\).
 

@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# error-occurred-while-loading
+# Error occurred while loading Web Application
 
 ## Problem:
 

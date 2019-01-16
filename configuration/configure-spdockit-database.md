@@ -1,4 +1,4 @@
-# configure-spdockit-database
+# Configure SPDocKit Database
 
 title: Configure SPDocKit Database author: Matija Hanzic  
 date: 16/5/2017

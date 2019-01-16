@@ -7,7 +7,7 @@ author: Tomislav Kunaj
 date: 25/5/2017
 ---
 
-# options-wizard
+# Options Wizard
 
 ## General
 

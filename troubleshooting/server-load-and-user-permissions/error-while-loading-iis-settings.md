@@ -7,7 +7,7 @@ author: Igor Mesarić
 date: 07/11/2018
 ---
 
-# error-while-loading-iis-settings
+# Error while loading IIS Settings Information
 
 ## Problem:
 

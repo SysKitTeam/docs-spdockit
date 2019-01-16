@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 23/5/2017
 ---
 
-# snapshots-screen
+# Snapshots Screen
 
 The **Snapshots Screen** allows SharePoint administrators to track changes made to the SharePoint Farm during its lifetime. SPDocKit can generate snapshots periodically, or administrators can take a configuration snapshot manually right before making complicated changes. The snapshots contain information about all the [settings SPDocKit can retrieve](snapshots-screen.md#internal/configure-and-extend-spdockit/options-wizard/#snapshot-options).
 

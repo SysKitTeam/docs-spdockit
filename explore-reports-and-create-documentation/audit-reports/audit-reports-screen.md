@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 27/9/2018
 ---
 
-# audit-reports-screen
+# Audit Reports Screen
 
 This article describes how to use SPDocKit Audit Reports section to easily search through the SharePoint audit logs.
 

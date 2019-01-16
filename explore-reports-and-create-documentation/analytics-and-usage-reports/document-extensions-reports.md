@@ -8,7 +8,7 @@ author: Mia Tomaić
 date: 02/10/2018
 ---
 
-# document-extensions-reports
+# Document Extensions Reports
 
 This article explains how you can use the **Document Extensions Overview report** and **Document Extension Details report** to inspect space usage by documents. The Document Extension Overview report enables you to see the **number of documents on a farm and their total size by extension**, while the Document Extension Details report enables you to see the **number of documents and their total size by extension on each site collection**. This report also contains a list of all documents for the selected site collection and extension.
 

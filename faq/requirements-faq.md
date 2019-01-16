@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 22/5/2017
 ---
 
-# requirements-faq
+# Requirements
 
 ## Why do I have to install this product on the SharePoint server?
 

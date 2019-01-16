@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 22/5/2017
 ---
 
-# configuration-faq
+# Configuration
 
 ## What is the SPDocKit Service?
 

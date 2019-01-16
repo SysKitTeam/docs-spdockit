@@ -7,7 +7,7 @@ author: Tomislav Kunaj
 date: 25/5/2017
 ---
 
-# role-based-security
+# Role Based Security
 
 This advanced security feature is meant to help admins take control and allow them to define different SPDocKit access levels. Users and groups can be assigned to specific roles based on elements of SPDocKit or on SharePoint site collection permissions.
 

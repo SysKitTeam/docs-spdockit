@@ -1,15 +1,14 @@
 ---
 title: Create New Subscription
 description: >-
-  This section describes how to create scheduled subscriptions for SPDocKit
-  reports.
+  This section describes how to create scheduled Subscriptions for SPDocKit
+  reports. Data you receive from these subscriptions is gathered from the last
+  loaded farm snapshot information.
 author: Iva Novoselic
 date: 17/05/2017
 ---
 
-# create-new-subscription
-
-This section describes how to create scheduled **Subscriptions** for SPDocKit reports. Data you receive from these subscriptions is gathered from the **last loaded farm snapshot** information.
+# Create New Subscription
 
 If you wish to use **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](create-new-subscription.md#internal/configure-and-extend-spdockit/options-wizard#subscription-settings) properly.
 

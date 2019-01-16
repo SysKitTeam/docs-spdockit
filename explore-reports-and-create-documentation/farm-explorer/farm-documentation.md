@@ -7,7 +7,7 @@ Author: Iva Novoselic
 date: 17/5/2017.
 ---
 
-# farm-documentation
+# Farm Documentation
 
 ## Generate Documentation
 

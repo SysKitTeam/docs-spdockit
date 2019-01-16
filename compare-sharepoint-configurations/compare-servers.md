@@ -7,7 +7,7 @@ author: Tomislav Sirovec
 date: 31/5/2017
 ---
 
-# compare-servers
+# Compare Servers
 
 This section explains how you can use the Compare Wizard to compare different servers. Including IIS and SQL servers.  
 Navigate to the Backstage Actions Screen and click the **Compare Wizard** button.

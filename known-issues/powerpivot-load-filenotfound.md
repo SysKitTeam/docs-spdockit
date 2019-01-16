@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-# powerpivot-load-filenotfound
+# PowerPivot FileNotFoundException issue
 
 **Summary:** During the snapshot process, the following error can be observed either in the Snapshot Wizard or the event log:
 

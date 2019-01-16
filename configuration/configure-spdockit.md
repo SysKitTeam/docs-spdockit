@@ -1,4 +1,4 @@
-# configure-spdockit
+# Configure SPDocKit
 
 title: Configure SPDocKit author: Matija Hanzic  
 date: 22/5/2017

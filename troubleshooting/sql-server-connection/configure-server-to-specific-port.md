@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 19/5/2017
 ---
 
-# configure-server-to-specific-port
+# Configure SQL server to listen on a specific port
 
 ## Problem:
 

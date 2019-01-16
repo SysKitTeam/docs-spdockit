@@ -7,7 +7,7 @@ author: Vinko Bedek
 date: 12/10/2017
 ---
 
-# error-adding-service-account-to-role
+# Error adding service account to "spdockit\_service\_role" database role
 
 ## Problem:
 

@@ -7,7 +7,7 @@ author: Igor Mesarić
 date: 02/02/2017
 ---
 
-# create-audit-queries-and-rules
+# Create Audit Queries and Rules
 
 This section describes how to use predefined **Audit Settings** Query and Rule samples and how to create your own Audit Settings Queries and Rules.
 

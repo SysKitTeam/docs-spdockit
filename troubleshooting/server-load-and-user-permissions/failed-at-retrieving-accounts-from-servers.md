@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# failed-at-retrieving-accounts-from-servers
+# Failed at retrieving SQL Accounts from the following servers
 
 ## Problem:
 

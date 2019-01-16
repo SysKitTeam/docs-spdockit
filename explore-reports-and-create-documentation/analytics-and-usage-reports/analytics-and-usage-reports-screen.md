@@ -8,7 +8,7 @@ author: Iva Novoselic
 date: 24/5/2017
 ---
 
-# analytics-and-usage-reports-screen
+# Analytics and Usage Reports Screen
 
 Analytics and Usage Reports provide a quick overview of your farm storage and content usage, features usage and activations and SharePoint structure.
 

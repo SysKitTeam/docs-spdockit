@@ -1,4 +1,4 @@
-# user-permissions-requirements
+# SharePoint On-Premises User Permissions Requirements
 
 title: SharePoint On-Premises User Permissions Requirements author: Matija Hanzic  
 date: 17/5/2017

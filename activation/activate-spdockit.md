@@ -1,4 +1,4 @@
-# activate-spdockit
+# Activate SPDocKit
 
 title: Online Activation author: Matija Hanzic  
 date: 16/5/2017

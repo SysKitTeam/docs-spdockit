@@ -8,7 +8,7 @@ author: Iva Novoselic
 date: 24/5/2017
 ---
 
-# permissions-reports-screen
+# Permissions Reports screen
 
 The Permissions Reports section contains a number of reports on SharePoint Permissions and Logical and Structural Reports. With these reports a SharePoint administrator can track permissions for different users and groups across a SharePoint farm and easily manage the SharePoint environment.
 

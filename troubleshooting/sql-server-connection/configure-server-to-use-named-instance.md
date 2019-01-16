@@ -5,7 +5,7 @@ author: Mia Tomaić
 date: 19/5/2017
 ---
 
-# configure-server-to-use-named-instance
+# Is SQL Server configured to use a named instance
 
 ## Problem:
 

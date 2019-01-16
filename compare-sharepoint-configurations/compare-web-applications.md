@@ -7,7 +7,7 @@ author: Martin Pisacic
 date: 18/5/2017
 ---
 
-# compare-web-applications
+# Compare Web Applications
 
 This section describes how to use SPDocKit to compare SharePoint farm **web application** configurations.
 

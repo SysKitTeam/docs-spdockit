@@ -7,7 +7,7 @@ author: Igor Mesarić
 date: 12/10/2018
 ---
 
-# spdockit-insights-removed
+# SPDocKit Insights Removed
 
 This article explains: why SPDocKit Insights is no longer a part of SPDocKit; where to find new licenses for the new SysKit Insights; and which existing data can be reused in the new application.
 

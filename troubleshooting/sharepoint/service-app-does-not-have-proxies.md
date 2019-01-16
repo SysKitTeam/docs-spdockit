@@ -9,7 +9,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# service-app-does-not-have-proxies
+# The service application ‘UPA Name’ does not have any proxies that are default in a proxy group
 
 ## Problem:
 

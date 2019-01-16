@@ -1,4 +1,4 @@
-# activation-privacy-statement
+# Activation Privacy Statement
 
 title: Activation Privacy Statement author: Matija Hanzic  
 date: 16/5/2017

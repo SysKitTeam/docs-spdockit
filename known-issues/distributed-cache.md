@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 25/5/2017
 ---
 
-# distributed-cache
+# Distributed Cache loading issue
 
 **Summary:** SPDocKit does not load Distributed Cache settings data and displays a warning message during the load:
 

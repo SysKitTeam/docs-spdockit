@@ -8,7 +8,7 @@ author: Iva Novoselic
 date: 17/5/2017
 ---
 
-# create-new-alert
+# Create New Alert
 
 This section describes how to create scheduled **Alerts** for SPDocKit reports. If you wish to use the **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](create-new-alert.md#internal/configure-and-extend-spdockit/options-wizard#subscription-settings) properly.
 

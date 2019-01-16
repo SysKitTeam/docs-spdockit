@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 22/5/2017
 ---
 
-# installation-faq
+# Installation
 
 ## Is the installation file the same for different SharePoint versions?
 

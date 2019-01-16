@@ -5,7 +5,7 @@ author: Iva Novoselic
 date: 16/5/2017
 ---
 
-# server-load-permission-requirements
+# Server Load Permission Requirements
 
 ## SharePoint Server Information
 

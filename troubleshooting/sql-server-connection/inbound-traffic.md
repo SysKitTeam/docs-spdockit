@@ -5,7 +5,7 @@ author: Mia Tomaić
 date: 19/5/2017
 ---
 
-# inbound-traffic
+# Inbound traffic on TCP Port 1433 needs to be allowed on the SQL
 
 ## Problem:
 

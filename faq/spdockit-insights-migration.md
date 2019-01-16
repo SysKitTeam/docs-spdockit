@@ -7,7 +7,7 @@ author: Hrvoje Bagarić
 date: 27/9/2018
 ---
 
-# spdockit-insights-migration
+# SPDocKit Insights Migration
 
 This article will explain how to perform a migration **from SPDocKit Insights to SysKit Insights.**
 

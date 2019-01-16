@@ -8,7 +8,7 @@ author: Iva Novoselic
 date: 24/5/2017
 ---
 
-# queries-and-rules-screen
+# Queries and Rules Screen
 
 The Queries and Rules section allows you to create automatic or manual actions to manage the content settings or create custom reports on SharePoint objects. Crawl your SharePoint farm settings and enforce SharePoint governance policies wherever you need them, in just a couple of steps.
 

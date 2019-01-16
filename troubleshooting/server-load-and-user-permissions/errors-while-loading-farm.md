@@ -7,7 +7,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# errors-while-loading-farm
+# Errors while trying to load the SharePoint farm
 
 ## Problem:
 

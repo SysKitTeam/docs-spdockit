@@ -8,7 +8,7 @@ author: Marko Gudan
 date: 31/5/2017
 ---
 
-# audit-log-details
+# Audit Log Details
 
 This article explains how you can use the **Audit Log Details report** to inspect permission changes on site collections. The Audit Log Details report enables you to see **the complete history of permission changes on site collections**.
 

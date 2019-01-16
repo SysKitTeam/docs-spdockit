@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 24/5/2017
 ---
 
-# passwords-and-product-keys
+# Passwords and Product keys
 
 This section allows you to define and document important information about your farm, including:
 

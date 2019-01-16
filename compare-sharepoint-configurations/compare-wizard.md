@@ -8,7 +8,7 @@ author: Tomislav Kunaj
 date: 25/5/2017
 ---
 
-# compare-wizard
+# Compare Wizard
 
 Compare Wizard provides the possibility to track farm configuration changes and compare specific SharePoint elements. With a couple of easy steps you can view the desired differences and export the result.
 

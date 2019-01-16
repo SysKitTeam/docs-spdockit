@@ -5,7 +5,7 @@ author: Igor Mesarić
 date: 16/11/2018
 ---
 
-# spdockit-8-0-3-release-note
+# SPDocKit 8.0.3
 
 This is a service release containing minor improvements and bug fixes.
 

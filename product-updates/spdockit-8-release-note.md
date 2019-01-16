@@ -7,7 +7,7 @@ author: Igor Mesarić
 date: 10/05/2018
 ---
 
-# spdockit-8-release-note
+# SPDocKit 8
 
 SPDocKit 8.0.2 is a major release that comes with several big changes: a lot of new and improved reports, filters and exports, SharePoint 2019 support, improved UI/UX, and much more. We heard your voice and tried to implement as many of your feature requests as possible. We hope to continue receiving your precious feedback and make SPDocKit even better.
 

@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 24/5/2017
 ---
 
-# manage-permissions-ribbon-actions
+# Manage Permissions Ribbon Actions
 
 This article explains how to use Manage ribbon to easily manage SharePoint permissions on the selected securable object. Permission management buttons are enabled only in **live mode** of Permissions Explorer.
 
