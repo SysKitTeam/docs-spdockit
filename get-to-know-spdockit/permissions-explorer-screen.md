@@ -15,7 +15,7 @@ To create and use the SPDocKit permission reports, you will have to take a snaps
 
 ## Manage ribbon
 
-Use permissions management actions to grant, edit or remove SharePoint permissions on the selected securable object. You can also audit permissions changes or restore permissions to a previously recorded state. Read more about available [permissions management actions](permissions-explorer-screen.md#internal/permission-management/manage-permissions-ribbon-actions).
+Use permissions management actions to grant, edit or remove SharePoint permissions on the selected securable object. You can also audit permissions changes or restore permissions to a previously recorded state. Read more about available [permissions management actions](../permission-management/manage-permissions-ribbon-actions.md).
 
 ### Tips & tricks
 
@@ -23,7 +23,7 @@ Select a principal and right-click. A context menu will appear with all availabl
 
 ## Wizards ribbon
 
-Use SPDocKit permission wizards to easily grant, edit or remove SharePoint permissions across the selected scope. Read more about [permission management wizards](permissions-explorer-screen.md#internal/permission-management/manage-permissions-wizard) and how to use them.
+Use SPDocKit permission wizards to easily grant, edit or remove SharePoint permissions across the selected scope. Read more about [permission management wizards](../permission-management/manage-permissions-wizard.md) and how to use them.
 
 ## Compare ribbon
 

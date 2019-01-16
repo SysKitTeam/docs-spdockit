@@ -40,9 +40,9 @@ Content and Usage Reports provide a quick overview of your farm storage and cont
 * **Activations** – displays a list of SharePoint objects on which a specific feature is activated.
 * **Activations by Edition** – displays all features on the selected site collections, grouped by SharePoint edition.  
 
-**Feature Usage by Edition** – shows the usage of feature licenses per SharePoint edition \(Foundation, Standard or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](content-and-usage-reports-screen.md#internal/get-to-know-spdockit/backstage-screen/license-management).
+**Feature Usage by Edition** – shows the usage of feature licenses per SharePoint edition \(Foundation, Standard or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](../get-to-know-spdockit/backstage-screen/license-management.md).
 
-**Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(Web application, site collection, or subsite\). To see a complete report, define the number of available custom feature licenses using [License Management](content-and-usage-reports-screen.md#internal/get-to-know-spdockit/backstage-screen/license-management).
+**Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(Web application, site collection, or subsite\). To see a complete report, define the number of available custom feature licenses using [License Management](../get-to-know-spdockit/backstage-screen/license-management.md).
 
 ## Structure reports
 
@@ -52,7 +52,7 @@ Content and Usage Reports provide a quick overview of your farm storage and cont
 
 SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It provides detailed information about a SharePoint customization’s \(WSPs or Add-ins\) code quality, dependencies, and complexity, among other things.  
 Find out more [about SPCAF](https://www.spcaf.com/) and how it can help you keep your SharePoint farm healthy and clean.  
-Use SPDocKit to load WSPs information from your SharePoint farm and then analyze them by [adding SPCAF extension reports](content-and-usage-reports-screen.md#internal/how-to/reports/install-spdockit-extensions) using Extension Manager.
+Use SPDocKit to load WSPs information from your SharePoint farm and then analyze them by [adding SPCAF extension reports](../how-to/reports/install-spdockit-extensions.md) using Extension Manager.
 
 **Available reports**: Analysis Summary, Code Quality, Code Metrics, Code Dependencies and Code Inventory.
 
