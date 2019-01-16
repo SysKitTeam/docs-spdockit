@@ -12,7 +12,7 @@ The report shows the state of specific audit settings on the selected site colle
 
 To view this report, go to **Audit Reports &gt; Audit Settings**.
 
-Once you [take a snapshot](../create-sharepoint-farm-snapshots/manual-snapshots.md) of your farm, the report will list all site collections and their respective audit settings.
+Once you [take a snapshot](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/create-sharepoint-farm-snapshots/manual-snapshots.md) of your farm, the report will list all site collections and their respective audit settings.
 
 If you want SharePoint \(and then SPDocKit\) to gather your audit logs, you need to enable them \(to do this, go to Site Settings &gt; Site collection audit settings\). This report will give you an overview of your audit settings state for each site collection.
 
@@ -39,7 +39,7 @@ You can use the filters on the right-hand side to customize the report.
 
 * The **Farm filter** is visible in case a database connected to multiple farms is being used by SPDocKit.
 * The **SharePoint Objects filter** enables you to select web applications and site collections. You can view the settings of **all the site collections in a SharePoint farm** by selecting all web applications. 
-* The **Audit Settings filter** makes it possible to filter the report by the status of specific audit settings \(On or Off\). By default, all audit settings are selected.   **Please note!** When selecting two or more audit settings in the **Audit Settings** filter, the **AND operator is used** between them, as demonstrated in the following **example**:
+* The **Audit Settings filter** makes it possible to filter the report by the status of specific audit settings \(On or Off\). By default, all audit settings are selected. **Please note!** When selecting two or more audit settings in the **Audit Settings** filter, the **AND operator is used** between them, as demonstrated in the following **example**:
   * Editing Users and Permissions setting - Off checkbox is selected. 
   * Searching Site Content setting - On checkbox is selected.
 

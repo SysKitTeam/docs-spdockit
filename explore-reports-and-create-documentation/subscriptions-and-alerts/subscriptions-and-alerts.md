@@ -3,7 +3,7 @@ title: Subscriptions and Alerts
 description: >-
   This article explains how to use Subscriptions and Alerts to schedule sending
   SPDocKit reports to either the desired email addresses, or for upload to a
-  file share location or a SharePoint document library.
+  file share location or a SharePoint document li
 author: Tomislav Kunaj
 date: 25/5/2017
 ---
@@ -30,7 +30,7 @@ Alerts will be marked with the bell icon, while the scheduled subscriptions will
 
 ## Related articles
 
-* [Configure SPDocKit database](../configuration/configure-spdockit-database.md)
-* [Configure subscription settings](../configure-and-extend-spdockit/options-wizard#subscription-settings.md)
-* [How to create a new subscription](../explore-reports-and-create-documentation/subscriptions-and-alerts/create-new-subscription.md)
+* [Configure SPDocKit database](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configuration/configure-spdockit-database.md)
+* [Configure subscription settings](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configure-and-extend-spdockit/options-wizard/README.md#subscription-settings.md)
+* [How to create a new subscription](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/explore-reports-and-create-documentation/subscriptions-and-alerts/create-new-subscription.md)
 

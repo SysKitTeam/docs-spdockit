@@ -32,24 +32,24 @@ To enable the role, follow these steps:
 1. Open the Server Manager on IIS server
 2. a\) On the Dashboard screen, select the **Add roles and features** option.  
 
+**OR**
 
-   **OR**  
+b\) On the left side menu, click the **Local Server** option, navigate to the **Roles and Features** section, and select **Add Roles and Features** option in the **Tasks** drop-down menu on the right side of the screen. The **Add Roles and Features Wizard** opens.
 
+1. **Before You Begin** step - continue to the next step by clicking Next.
+2. **Installation Type** step - make sure the **Role-base or feature-based installation** option is selected.
+3. **Server Selection** step - make sure the IIS server is selected.
+4. **Server Roles** step - make sure the **IIS 6 Metabase Compatibility** option is checked. You can find it under Web Server \(IIS\) &gt; Management Tools &gt; IIS 6 Management Compatibility &gt; IIS 6 Metabase Compatibility.
 
-   b\) On the left side menu, click the **Local Server** option, navigate to the **Roles and Features** section, and select **Add Roles and Features** option in the **Tasks** drop-down menu on the right side of the screen. The **Add Roles and Features Wizard** opens.
+   ![Add Roles and Features Wizard](../../.gitbook/assets/add-roles-and-features-wizard.png)
 
-3. **Before You Begin** step - continue to the next step by clicking Next.
-4. **Installation Type** step - make sure the **Role-base or feature-based installation** option is selected.
-5. **Server Selection** step - make sure the IIS server is selected.
-6. **Server Roles** step - make sure the **IIS 6 Metabase Compatibility** option is checked. You can find it under Web Server \(IIS\) &gt; Management Tools &gt; IIS 6 Management Compatibility &gt; IIS 6 Metabase Compatibility.
+5. **Features** step - continue to the next step.
+6. **Confirmation** step - check the **Restart the destination server automatically if required** option and click **Install**.
+7. **Results** step - displays the installation progress. Once the installation is finished, the **Installation succeeded** message is displayed. 
 
-   ![Add Roles and Features Wizard](https://github.com/SysKitTeam/docs-spdockit/tree/5b505c7a1353394d4bd51803f49d5b6cf96f8950/troubleshooting/server-load-and-user-permissions/#internal/_assets/troubleshooting/add-roles-and-features-wizard.png)
-
-7. **Features** step - continue to the next step.
-8. **Confirmation** step - check the **Restart the destination server automatically if required** option and click **Install**.
-9. **Results** step - displays the installation progress. Once the installation is finished, the **Installation succeeded** message is displayed. 
-
+{% hint style="warning" %}
 **Please note:** Make sure to install the role on all Web Front End servers in a Farm in order to collect the IIS Settings Information.
+{% endhint %}
 
 SPDocKit will now be able to collect the server's IIS Settings Information.
 

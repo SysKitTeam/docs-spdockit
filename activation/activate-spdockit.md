@@ -71,5 +71,5 @@ The Workstation license is tied to the **workstation ID** and cannot be used on 
 
 ### Related articles:
 
-* [Manage License](../activation/manage-license.md)
+* [Manage License](manage-license.md)
 

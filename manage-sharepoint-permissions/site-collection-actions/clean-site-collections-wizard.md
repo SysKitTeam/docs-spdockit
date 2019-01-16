@@ -20,7 +20,7 @@ Orphaned users are defined as users \(users or AD groups\) that are disabled or 
 
 1. Select **Delete Orphaned Users** option from the Operation drop down menu.
 2. Wizard will crawl specified site collection and list all users that match a selected criteria. You can delete them all, or select the ones you wish to delete permanently from this site collection. Before continuing to the final step, wizard will require one more confirmation that the selected users should be deleted.
-3. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
+3. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/manage-sharepoint-permissions/manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Delete Users Without Permissions
 
@@ -29,7 +29,7 @@ Users \(users or AD groups\) without permissions are the ones that have no direc
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 2. Select **Delete Users Without Permissions** option from the Operation drop down menu.
 3. Wizard will crawl specified site collection and list all users that match a selected criteria. You can delete them all, or select the ones you wish to delete permanently from this site collection. Before continuing to the final step, wizard will require one more confirmation that the selected users should be deleted.
-4. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
+4. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/manage-sharepoint-permissions/manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Delete SharePoint Groups Without Permissions
 
@@ -37,7 +37,7 @@ SharePoint groups without permissions are the ones that have no assigned permiss
 
 1. Select **Delete SharePoint Groups Without Permissions** option from the Operation drop down menu.
 2. Wizard will crawl specified site collection and list all users that match a selected criteria. You can delete them all, or select the ones you wish to delete permanently from this site collection. Before continuing to the final step, wizard will require one more confirmation that the selected groups should be deleted.
-3. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
+3. The final step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/manage-sharepoint-permissions/manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Delete SharePoint Groups Without Users
 
@@ -45,7 +45,7 @@ SharePoint groups without users are the ones that have no assigned members on th
 
 1. Select **Delete SharePoint Groups Without Users** option from the Operation drop down menu.
 2. Wizard will crawl specified site collection and list all groups that match selected criteria. You can delete them all, or select the ones you wish to delete permanently from this site collection. Before continuing to the final step, wizard will require one more confirmation that the selected groups should be deleted.
-3. The final step shows user the changes that were made. If some errors have occurred, they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made, as well as who made those changes.
+3. The final step shows user the changes that were made. If some errors have occurred, they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/manage-sharepoint-permissions/manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made, as well as who made those changes.
 
 ## Replace Group Owners Disabled in AD
 
@@ -53,5 +53,5 @@ This wizard will help you find group owners which are disabled in Active Directo
 
 1. Select **Replace Group Owners Disabled in AD** option from the Operation drop down menu.
 2. Wizard will crawl specified site collection and list all users that match selected criteria. You can select them all, or just the ones you wish to replace with a new group owner. Before continuing to the final step, wizard will require one more confirmation that the operation should be carried on.
-3. The final step shows user the changes that were made. If some errors have occurred, they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
+3. The final step shows user the changes that were made. If some errors have occurred, they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/manage-sharepoint-permissions/manage-sharepoint-permissions/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 

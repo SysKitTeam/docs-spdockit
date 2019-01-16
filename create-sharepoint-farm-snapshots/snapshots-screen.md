@@ -9,7 +9,7 @@ date: 23/5/2017
 
 # Snapshots Screen
 
-The **Snapshots Screen** allows SharePoint administrators to track changes made to the SharePoint Farm during its lifetime. SPDocKit can generate snapshots periodically, or administrators can take a configuration snapshot manually right before making complicated changes. The snapshots contain information about all the [settings SPDocKit can retrieve](../configure-and-extend-spdockit/options-wizard/#snapshot-options.md).
+The **Snapshots Screen** allows SharePoint administrators to track changes made to the SharePoint Farm during its lifetime. SPDocKit can generate snapshots periodically, or administrators can take a configuration snapshot manually right before making complicated changes. The snapshots contain information about all the [settings SPDocKit can retrieve](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/configure-and-extend-spdockit/options-wizard/README.md#snapshot-options.md).
 
 This screen will display snapshots found in SPDocKit database and snapshots folder on a disk and group them by the farm they were created on:
 
@@ -31,6 +31,6 @@ The following commands are available:
 * **Mark Configuration as Good** – use this button to mark which SPDocKit snapshot captured your SharePoint farm with all the settings configured in a best possible way. Also, this will exclude that snapshot from data retention policy. Meaning, it will not be deleted.
 * **Rename Farm** - if you store snapshots from more than one farm, this option allows you to change a default farm name for easier distinction. This option will work only if snapshots are stored in SPDocKit database.
 * **Manage Servers** - use this button to add third party servers to SPDocKit farm documentation. You can add servers that are not part of your SharePoint farm but affect it in any way. You can also exclude certain farm servers which means that SPDocKit will not load any data related to these servers.
-* **File Name** – to activate this column go to the **View** tab and use the **Choose Columns** button. For more information on how to change the default file name [see here](../configure-and-extend-spdockit/options-wizard#snapshot-options) and observe the snapshots name template section.
+* **File Name** – to activate this column go to the **View** tab and use the **Choose Columns** button. For more information on how to change the default file name [see here](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/configure-and-extend-spdockit/options-wizard/README.md#snapshot-options) and observe the snapshots name template section.
 * **Load Duration** - this column displays how long it took to take a snapshot of your environment.
 

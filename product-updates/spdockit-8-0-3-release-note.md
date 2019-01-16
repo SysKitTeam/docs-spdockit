@@ -24,12 +24,12 @@ This is a service release containing minor improvements and bug fixes.
 
 * Resolved an issue that involved the Analytics system job causing an error when loading site collections with duplicate GUIDs.
 
-  The following error occurred: 
+  The following error occurred:
 
   > "System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK\_SiteCollectionMetricsByDate'. Cannot insert duplicate key in object  
   > 'dbo.SiteCollectionMetricsByDate'."
 
-* Fixed a bug in which opening SPDocKit by double-clicking a SPDFarm file resulted in a change of an opened snapshot when navigating to Best Practice reports. 
+* Fixed a bug in which opening SPDocKit by double-clicking a SPDFarm file resulted in a change of an opened snapshot when navigating to Best Practice reports.
 * Fixed an issue related to an incorrect Last Modified date being displayed on the Inactive Sites report.
 * Fixed an issue related to the System Account displaying as "Unknown" in the Audit Log Details report. 
 * Resolved an issue with the DB Server Hotfixes report, which wrongly displayed non-database servers in single server environments. 

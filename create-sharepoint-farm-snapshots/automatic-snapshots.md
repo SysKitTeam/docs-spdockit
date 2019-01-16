@@ -44,13 +44,13 @@ The options are grouped into 4 categories:
 
   You can use the load performance slider to switch between low resource usage and a high-performance load. Click **Save** when finished.
 
-1. Go to Load Target to select the scope on which SPDocKit Service will crawl for data – for example, the entire farm, Web application, site collection or specific subsites.
-2. Click Save to apply changes and finish configuring the automatic SPDocKit Service for creating an automatic snapshot of your farm’s permissions state.
+* Go to Load Target to select the scope on which SPDocKit Service will crawl for data – for example, the entire farm, Web application, site collection or specific subsites.
+* Click Save to apply changes and finish configuring the automatic SPDocKit Service for creating an automatic snapshot of your farm’s permissions state.
 
 If you wish to receive an email notification after automatically-taken farm snapshots, follow these instructions:
 
 1. Navigate to the **Backstage Configure Screen &gt; Options &gt; Subscription Settings.**
-2. Check in **Subscriptions Enabled** box, and select the **Enable email sending** check box to enable email to be sent. Fill out the necessary details, then click **Test email settings** to make sure that the email alert is set up properly. [Here](../configure-and-extend-spdockit/options-wizard#subscription-settings) are more information on these settings.
+2. Check in **Subscriptions Enabled** box, and select the **Enable email sending** check box to enable email to be sent. Fill out the necessary details, then click **Test email settings** to make sure that the email alert is set up properly. [Here](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/configure-and-extend-spdockit/options-wizard/README.md#subscription-settings) are more information on these settings.
 3. Click **Save** to close the Options wizard and apply the changes.
 
    After that you need to create a new subscription. For detailed information on how to do that please go [here](../explore-reports-and-create-documentation/subscriptions-and-alerts/create-new-subscription.md).

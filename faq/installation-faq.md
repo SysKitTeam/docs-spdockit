@@ -40,7 +40,7 @@ Note: If the ServicesPipeTimeout entry does not exist, you must create it. To do
 1. On the Edit menu, point to New, then click DWORD Value.
 2. Type ServicesPipeTimeout, and press ENTER.
 3. Right-click ServicesPipeTimeout, then click Modify.
-4. Click Decimal, type 360000, then click OK.  
+4. Click Decimal, type 360000, then click OK.
 
    This value represents the time in milliseconds before a service times out.
 

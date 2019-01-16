@@ -15,9 +15,9 @@ By executing this SQL query you will get the overall size of your database as we
 > t.NAME AS TableName,  
 > s.Name AS SchemaName,  
 > p.rows AS RowCounts,  
-> SUM\(a.total\_pages\)_  8 AS TotalSpaceKB,  
-> SUM\(a.used\_pages\)  _8 AS UsedSpaceKB,  
-> \(SUM\(a.total\_pages\) - SUM\(a.used\_pages\)\)_  8 AS UnusedSpaceKB  
+> SUM\(a.total\_pages\)_ 8 AS TotalSpaceKB,  
+> SUM\(a.used\_pages\) _8 AS UsedSpaceKB,  
+> \(SUM\(a.total\_pages\) - SUM\(a.used\_pages\)\)_ 8 AS UnusedSpaceKB  
 > FROM  
 > sys.tables t  
 > INNER JOIN  
@@ -46,8 +46,8 @@ There are two parts of storage that are used by any database:
 
 In order to reduce the database size you can do the following:
 
-1. Open the **Options wizard**, select the [Data Retention](../configure-and-extend-spdockit/options-wizard#data-retention) tab. Here is where you will see how your retention policies are defined.
-2. You will see the **Force Data Retention** button, and next to that is an **Execute** button. Pressing this button will automatically delete old information, then attempt to shrink your database \(the way this runs is determined by the settings in step 1\).  
+1. Open the **Options wizard**, select the [Data Retention](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/configure-and-extend-spdockit/options-wizard/README.md#data-retention) tab. Here is where you will see how your retention policies are defined.
+2. You will see the **Force Data Retention** button, and next to that is an **Execute** button. Pressing this button will automatically delete old information, then attempt to shrink your database \(the way this runs is determined by the settings in step 1\).
 
    **Please note:** this can take a little bit of time to run.
 
