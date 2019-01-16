@@ -28,7 +28,7 @@ There is an error message in the event log:
 
 The user running the SPDocKit needs to have the [proper privileges](https://github.com/SysKitTeam/docs-spdockit/tree/8b06dc9182659a72e14285486dc7b3af590ff348/faq/requirements/sharepoint-on-premises-user-permissions-requirements.md) to retrieve information from the SharePoint farm. To fix this issue make sure the user has Shell access to the given content database, using the following PowerShell code to grant access:
 
-```text
+```aspnet
 $spcdb = Get-SPContentDatabase SharePoint_AdminContent_bfe62573-2067-4090-a95a-39a13ba51086
 Add-SPShellAdmin -UserName CONTOSO\Bob -Database $spcdb
 ```
