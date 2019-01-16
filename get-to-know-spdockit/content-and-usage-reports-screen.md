@@ -40,9 +40,9 @@ Content and Usage Reports provide a quick overview of your farm storage and cont
 * **Activations** – displays a list of SharePoint objects on which a specific feature is activated.
 * **Activations by Edition** – displays all features on the selected site collections, grouped by SharePoint edition.  
 
-**Feature Usage by Edition** – shows the usage of feature licenses per SharePoint edition \(Foundation, Standard or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](../get-to-know-spdockit/backstage-screen/license-management.md).
+**Feature Usage by Edition** – shows the usage of feature licenses per SharePoint edition \(Foundation, Standard or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](backstage-screen/license-management.md).
 
-**Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(Web application, site collection, or subsite\). To see a complete report, define the number of available custom feature licenses using [License Management](../get-to-know-spdockit/backstage-screen/license-management.md).
+**Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(Web application, site collection, or subsite\). To see a complete report, define the number of available custom feature licenses using [License Management](backstage-screen/license-management.md).
 
 ## Structure reports
 
