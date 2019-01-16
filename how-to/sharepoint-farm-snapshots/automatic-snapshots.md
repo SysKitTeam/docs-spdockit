@@ -9,11 +9,11 @@ description: >-
 
 # Automatic Snapshots
 
-SPDocKit allows administrators to configure a schedule to create automatic SharePoint farm snapshots. Once configured, the SPDocKit Service can save your farm settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](automatic-snapshots.md#internal/how-to/subscriptions-and-alerts/create-new-subscription/) for more information on how to do this.
+SPDocKit allows administrators to configure a schedule to create automatic SharePoint farm snapshots. Once configured, the SPDocKit Service can save your farm settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](../how-to/subscriptions-and-alerts/create-new-subscription.md) for more information on how to do this.
 
 1. Navigate to the Backstage Configuration Screen and click Configure.
-2. Skip to the Service Settings option, select the Enable Service check box and type in the service account details. Click Validate Account and then Next to continue. **Please note!** Check the [permission requirements](automatic-snapshots.md#internal/requirements/sharepoint-on-premises-user-permissions-requirements) for the service account.
-3. Once the Configuration wizard is finished, navigate to the **Backstage Configuration Screen &gt; Options &gt; Service Settings**. You can change the snapshots folder location or choose to save them to the database. [Define the period](automatic-snapshots.md#internal/get-to-know-spdockit/backstage-screen/options-wizard) for creating snapshots with the Data Collection Interval.
+2. Skip to the Service Settings option, select the Enable Service check box and type in the service account details. Click Validate Account and then Next to continue. **Please note!** Check the [permission requirements](../requirements/sharepoint-on-premises-user-permissions-requirements.md) for the service account.
+3. Once the Configuration wizard is finished, navigate to the **Backstage Configuration Screen &gt; Options &gt; Service Settings**. You can change the snapshots folder location or choose to save them to the database. [Define the period](../get-to-know-spdockit/backstage-screen/options-wizard.md) for creating snapshots with the Data Collection Interval.
 
    With the **Database Index Reorganization**, you can enable automatic index reorganization. That means your database space usage and performance when reading data will improve. During index reorganization, SPDocKit might be unavailable.
 
@@ -46,8 +46,8 @@ SPDocKit allows administrators to configure a schedule to create automatic Share
 If you wish to receive an email notification after automatically-taken farm snapshots, follow these instructions:
 
 1. Navigate to the **Backstage Configure Screen &gt; Options &gt; Subscription Settings.**
-2. Check in **Subscriptions Enabled** box, and select the **Enable email sending** check box to enable email to be sent. Fill out the necessary details, then click **Test email settings** to make sure that the email alert is set up properly. [Here](automatic-snapshots.md#internal/get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings) are more information on these settings.
+2. Check in **Subscriptions Enabled** box, and select the **Enable email sending** check box to enable email to be sent. Fill out the necessary details, then click **Test email settings** to make sure that the email alert is set up properly. [Here](../get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings) are more information on these settings.
 3. Click **Save** to close the Options wizard and apply the changes.
 
-   After that you need to create a new subscription. For detailed information on how to do that please go [here](automatic-snapshots.md#internal/how-to/subscriptions-and-alerts/create-new-subscription/).
+   After that you need to create a new subscription. For detailed information on how to do that please go [here](../how-to/subscriptions-and-alerts/create-new-subscription/).
 

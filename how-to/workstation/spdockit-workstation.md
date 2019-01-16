@@ -11,9 +11,9 @@ date: 31/5/2017
 
 Please check the [feature availability by license type](https://www.spdockit.com/orders).
 
-In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](spdockit-workstation.md#internal/configuration/configure-spdockit-database) or a [LocalDB instance](spdockit-workstation.md#internal/configuration/configure-localdb) that is shipped with SPDocKit.
+In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](../configuration/configure-spdockit-database.md) or a [LocalDB instance](../configuration/configure-localdb.md) that is shipped with SPDocKit.
 
-Make sure that the user running the application has been granted all [user permissions](spdockit-workstation.md#internal/requirements/sharepoint-on-premises-user-permissions-requirements) required to run SPDocKit properly.
+Make sure that the user running the application has been granted all [user permissions](../requirements/sharepoint-on-premises-user-permissions-requirements.md) required to run SPDocKit properly.
 
 Here is what you need to do:
 
@@ -23,5 +23,5 @@ Once the Connect form opens, make sure that SharePoint On-Premises radio button 
 
 You can now explore SharePoint On-Premise site you've chosen.
 
-Make sure to check our [permission management features](spdockit-workstation.md#internal/permission-management/manage-permissions-ribbon-actions) located in **Permissions Explorer** tab, as well as [Site Explorer reports](spdockit-workstation.md#internal/get-to-know-spdockit/site-explorer-screen)
+Make sure to check our [permission management features](../permission-management/manage-permissions-ribbon-actions.md) located in **Permissions Explorer** tab, as well as [Site Explorer reports](./get-to-know-spdockit/site-explorer-screen.md)
 

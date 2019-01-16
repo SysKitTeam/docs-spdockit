@@ -21,7 +21,7 @@ When you run the Audit Settings sample Queries, each of them enables you to choo
 
 You can also create your own Queries and determine which Audit Settings to retrieve and show on the generated report. Just make sure that the **Query Scope** is set to **Site Collections** in order to make the **Audit Settings** category visible in the **Select Fields** step of the **Query Wizard**.
 
-You can find more details about Query creation [here](create-audit-queries-and-rules.md#internal/how-to/queries-and-rules/create-spdockit-query).
+You can find more details about Query creation [here](../how-to/queries-and-rules/create-spdockit-query.md).
 
 ## Audit Rules
 
@@ -31,5 +31,5 @@ With the provided **Audit Editing Users and Permissions** sample Rule you can en
 
 You can also enable or disable all of the other Audit Settings by creating your own Rule that best fits your needs. The before mentioned **Audit Settings** category is also available in the **Rule Wizard** when the **Rule Scope** is set to **Site Collections**. You can also set the rule to run automatically on a schedule, and thereby ensure that it will be applied to all newly created site collections.
 
-For a detailed description of the Rule creation please read [this article](create-audit-queries-and-rules.md#internal/how-to/queries-and-rules/create-governance-policy-rule).
+For a detailed description of the Rule creation please read [this article](../how-to/queries-and-rules/create-governance-policy-rule.md).
 

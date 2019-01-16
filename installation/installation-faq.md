@@ -40,7 +40,7 @@ Note: If the ServicesPipeTimeout entry does not exist, you must create it. To do
 
 ## How do I set up SPDocKit?
 
-SPDocKit supports SharePoint 2007, SharePoint 2010, SharePoint 2013 and SharePoint 2016 server. [See more details here.](installation-faq.md#internal/requirements/system-requirements) Check out our [installation guide](installation-faq.md#internal/installation/installation-guide) and the followup, the [configuration guide](installation-faq.md#internal/configuration/configure-spdockit). Once you have installed everything you can [take a snapshot](installation-faq.md#internal/how-to/sharepoint-farm-snapshots/manual-snapshots) of your farm.
+SPDocKit supports SharePoint 2007, SharePoint 2010, SharePoint 2013 and SharePoint 2016 server. [See more details here.](../requirements/system-requirements.md) Check out our [installation guide](../installation/installation-guide.md) and the followup, the [configuration guide](../configuration/configure-spdockit.md). Once you have installed everything you can [take a snapshot](../how-to/sharepoint-farm-snapshots/manual-snapshots.md) of your farm.
 
 ## If I choose the “Run only” option in SPDocKit, what happens?
 
