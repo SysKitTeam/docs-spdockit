@@ -30,7 +30,7 @@ This wizard allows you to break permission inheritance on the desired subsites o
 
      If multiple SharePoint site collections are selected, changes will apply only to the ones where such objects exist.
 5. In the Preview step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](break-restore-permission-inheritance-wizard.md#internal/permission-management/spdockit-permission-management-event-log). There will be information about what changes were made as well as who made those changes.
+6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../permission-management/spdockit-permission-management-event-log.md). There will be information about what changes were made as well as who made those changes.
 
 ## Restore Permission Inheritance
 
@@ -52,5 +52,5 @@ This wizard allows you to restore permission inheritance on the desired subsites
 
      If multiple SharePoint site collections are selected, changes will apply only to the ones where such objects exist.
 5. In the Preview step, make sure that the pending changes will do exactly what you wanted and specified in previous steps of this wizard.
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](break-restore-permission-inheritance-wizard.md#internal/permission-management/spdockit-permission-management-event-log). There will be information about what changes were made as well as who made those changes.
+6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../permission-management/spdockit-permission-management-event-log.md). There will be information about what changes were made as well as who made those changes.
 

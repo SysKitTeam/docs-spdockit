@@ -11,9 +11,9 @@ date: 25/5/2017
 
 _**As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is**_ [_**SysKit Security Manager**_](https://www.syskit.com/products/security-manager/)_**.**_ _**For instructions on the upgrade path or any other questions contact us at**_ [_**support@syskit.com**_](mailto:support@syskit.com)_**.**_
 
-This article will explain how to take a snapshot of your SPO Tenant. Please check the [feature availability by license type](https://www.spdockit.com/orders/#online). Read more about the [user permissions](spo-snapshots.md#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly on a workstation.
+This article will explain how to take a snapshot of your SPO Tenant. Please check the [feature availability by license type](https://www.spdockit.com/orders/#online). Read more about the [user permissions](../requirements/sharepoint-online-user-permissions-requirements.md) required to run SPDocKit properly on a workstation.
 
-**Please note** that in order for this feature to work, **you will need to use a database**. You can use either [SQL Server database](spo-snapshots.md#internal/configuration/configure-spdockit-database) or a [LocalDB instance](spo-snapshots.md#internal/configuration/configure-localdb) that is shipped with SPDocKit.
+**Please note** that in order for this feature to work, **you will need to use a database**. You can use either [SQL Server database](../configuration/configure-spdockit-database.md) or a [LocalDB instance](../configuration/configure-localdb.md) that is shipped with SPDocKit.
 
 Here is what you need to do:
 
@@ -22,7 +22,7 @@ Here is what you need to do:
 1. You can start the loading process \(snapshot\) from Backstage. **File &gt; Actions &gt; Take Snapshot**. Or click the **Take Snapshot button** in **Home ribbon** of Farm and Site Explorer, Permissions Reports, Content & Usage Reports section, and Snapshots tab.
 2. Select the snapshot mode you wish the application to execute. There are three choices:
 
-   * **Default** – Performs a load using the setup provided in the [Snapshot Options](spo-snapshots.md#internal/get-to-know-spdockit/backstage-screen/options-wizard) and [Load Target](spo-snapshots.md#internal/get-to-know-spdockit/backstage-screen/options-wizard). This includes farm/tenant settings, features and solutions, and permissions down to the subsite level on the whole tenant by default, and can be changed by the user at any time in the Options Wizard.
+   * **Default** – Performs a load using the setup provided in the [Snapshot Options](../get-to-know-spdockit/backstage-screen/options-wizard.md) and [Load Target](../get-to-know-spdockit/backstage-screen/options-wizard.md). This includes farm/tenant settings, features and solutions, and permissions down to the subsite level on the whole tenant by default, and can be changed by the user at any time in the Options Wizard.
    * **Custom** – Allows the user to specify exactly what information should be loaded. You can also choose which Web applications, site collections or even subsites data will be retrieved.
 
      It can be the fastest load option if the user wishes to have access only to specific data, and is aware what data he is interested in. This mode is recommended for more advanced users who are looking to generate specific reports.
@@ -41,18 +41,18 @@ Here is what you need to do:
 * **Permissions** - If you want to know the permissions of each list item on the farm/tenant, you can get that information by selecting the **Permissions check box** and setting the Load Depth to list item. You can also select the **Active Directory Group Members** check box if you wish to load members of the AD groups. 
 
 1. Select the snapshot target. Again, this step will be skipped unless you chose the Custom snapshot mode. You can choose your target to be an entire farm/tenant, Web application, site collection or specific subsites.
-2. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](spo-snapshots.md#internal/get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports) and [permission reports](spo-snapshots.md#internal/get-to-know-spdockit/permissions-reports-screen) will be ready for use!
+2. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](../get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports.md) and [permission reports](../get-to-know-spdockit/permissions-reports-screen.md) will be ready for use!
 
 ## Automatic Snapshot
 
 Available from SPDocKit version: 7.2  
-The SPDocKit Service allows you to configure a schedule to create automatic SharePoint Online snapshots. Once configured, this service can save your tenant settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](spo-snapshots.md#internal/how-to/subscriptions-and-alerts/create-new-subscription) for more information on how to do this.
+The SPDocKit Service allows you to configure a schedule to create automatic SharePoint Online snapshots. Once configured, this service can save your tenant settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](../how-to/subscriptions-and-alerts/create-new-subscription.md) for more information on how to do this.
 
 1. Navigate to the **Backstage Configuration Screen** and click **Configure**.
 2. Skip to the Service Settings option.
    * Select the Enable Service checkbox and type in the service account details. Click Validate Account and then Next to continue.  
 
-     Make sure to **check the** [permission requirements](spo-snapshots.md#internal/requirements/sharepoint-online-user-permissions-requirements) for the service account.   
+     Make sure to **check the** [permission requirements](../requirements/sharepoint-online-user-permissions-requirements.md) for the service account.   
 
      * Alternatively, you can use a Local System Account.  
 
@@ -61,7 +61,7 @@ The SPDocKit Service allows you to configure a schedule to create automatic Shar
        * You are using an embedded database.
        * You are using SQL Authentication to connect to your database.
        * You are using a local SQL Server.  
-3. Once the Configuration wizard is finished, navigate to the **Backstage Configuration Screen &gt; Options &gt; Service Settings**. You can change the snapshots folder location or choose to save them to the database. [Define the period](spo-snapshots.md#internal/get-to-know-spdockit/backstage-screen/options-wizard) for creating snapshots with the Data Collection Interval.
+3. Once the Configuration wizard is finished, navigate to the **Backstage Configuration Screen &gt; Options &gt; Service Settings**. You can change the snapshots folder location or choose to save them to the database. [Define the period](../get-to-know-spdockit/backstage-screen/options-wizard.md) for creating snapshots with the Data Collection Interval.
 
    With the **Database Index Reorganization**, you can enable automatic index reorganization. That means your database space usage and performance when reading data will improve. During index reorganization, SPDocKit might be unavailable.
 
@@ -82,12 +82,12 @@ The SPDocKit Service allows you to configure a schedule to create automatic Shar
 If you wish to receive an email notification after automatically-taken tenant snapshots, follow these instructions:
 
 1. Navigate to the **Backstage Configure Screen &gt; Options &gt; Subscription Settings.**
-2. Check in **Subscriptions Enabled** box, and select the **Enable email sending** checkbox to enable email to be sent. Fill out the necessary details, then click **Test email settings** to make sure that the email alert is set up properly. [Here](spo-snapshots.md#internal/get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings) are more information on these settings.
+2. Check in **Subscriptions Enabled** box, and select the **Enable email sending** checkbox to enable email to be sent. Fill out the necessary details, then click **Test email settings** to make sure that the email alert is set up properly. [Here](../get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings) are more information on these settings.
 3. Click **Save** to close the Options wizard and apply the changes.
 
-   After that you need to create a new subscription. For detailed information on how to do that please go [here](spo-snapshots.md#internal/how-to/subscriptions-and-alerts/create-new-subscription/).
+   After that you need to create a new subscription. For detailed information on how to do that please go [here](../how-to/subscriptions-and-alerts/create-new-subscription.md).
 
-Also, make sure to check our [permission management features](spo-snapshots.md#internal/permission-management/manage-permissions-ribbon-actions) located in the **Permissions Explorer** tab.  
+Also, make sure to check our [permission management features](../permission-management/manage-permissions-ribbon-actions.md) located in the **Permissions Explorer** tab.  
 
 
 {% hint style="warning" %}

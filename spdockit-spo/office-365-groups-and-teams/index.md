@@ -27,13 +27,13 @@ To start exploring features and reports navigate to Permission Explorer and sele
 
 If you do not accept or do not have the right privileges **\(SharePoint Online Global Admin\)**, Groups and Teams set of features and reports will not be available.
 
-Click [here](index.md#internal/spdockit-spo/office-365-groups-and-teams/office-365-management-actions) if you wish to learn more on how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object.  
+Click [here](../spdockit-spo/office-365-groups-and-teams/office-365-management-actions.md) if you wish to learn more on how to use Manage Groups and Membership ribbon to easily manage Office 365 Groups and Teams on the selected object.  
 Management buttons are enabled only in **live mode** of Permissions Explorer and when Groups and Teams node is selected. Available actions are divided in two subsections:
 
 * **Groups**: Create, Delete  
 * **Membership**: Add Owner, Add Member, Remove
 
-If you need more information on how to use SPDocKit's Groups and Membership Office 365 **Wizards** [click here.](index.md#internal/spdockit-spo/office-365-groups-and-teams/office-365-management-wizard)  
+If you need more information on how to use SPDocKit's Groups and Membership Office 365 **Wizards** [click here.](../spdockit-spo/office-365-groups-and-teams/office-365-management-wizard.md)  
 Wizard buttons are visible only in **live mode** of Permissions Explorer and when either Groups and Teams node is selected or a specific group. Available actions are divided in two subsections:
 
 * **Groups**: Delete Groups

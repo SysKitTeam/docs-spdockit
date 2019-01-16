@@ -19,8 +19,8 @@ When starting SPDocKit Insights through the SPDocKit start page you receive the 
 
 There are two possibilities why you got this message:
 
-* The SPDocKit Insights Agent/s is **not installed** but it is still listed in your SPDocKit database. This can happen if you used the SPDocKit Insights feature but then upgraded to a new version without installing the agent. This can be fixed by installing the aforementioned feature. See [here](insights-troubleshooting.md#internal/installation/upgrade-to-the-latest-version/) for more information.
-* The SPDocKit Insights Agent is installed but you haven’t gone through the **SPDocKit Insights Agent Configuration**. Please go [here](insights-troubleshooting.md#internal/spdockit-insights/configure-data-collection/) and check the section titled **SPDocKit Insights Agent Required Configuration**.
+* The SPDocKit Insights Agent/s is **not installed** but it is still listed in your SPDocKit database. This can happen if you used the SPDocKit Insights feature but then upgraded to a new version without installing the agent. This can be fixed by installing the aforementioned feature. See [here](../installation/upgrade-to-the-latest-version.md) for more information.
+* The SPDocKit Insights Agent is installed but you haven’t gone through the **SPDocKit Insights Agent Configuration**. Please go [here](../spdockit-insights/configure-data-collection.md) and check the section titled **SPDocKit Insights Agent Required Configuration**.
   * this can happen if you performed an upgrade of a SPDocKit installation where a SPDocKit Insights Agent was installed side by side with SPDocKit. In that case, the configuration utility will not start automatically after installation, which will leave the agent as not started.
 
 ## "Connection to the SPDocKit Insights Agent failed"
@@ -72,9 +72,9 @@ When performing a search, you notice that there is no data for some servers.
 ### Solution
 
 The most likely cause is a permissions issue.  
-Review the service account permissions. Check the [configure data collection](insights-troubleshooting.md#internal/spdockit-insights/configure-data-collection) article for more information.
+Review the service account permissions. Check the [configure data collection](../spdockit-insights/configure-data-collection.md) article for more information.
 
-Review the farm [settings](insights-troubleshooting.md#internal/spdockit-insights/customize-settings). Perhaps the data is not being collected because it is not configured to do so. I.e. windows event log collection is disabled by default.
+Review the farm [settings](../spdockit-insights/customize-settings.md). Perhaps the data is not being collected because it is not configured to do so. I.e. windows event log collection is disabled by default.
 
 ## "Alerts are not working"
 

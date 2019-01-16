@@ -13,9 +13,9 @@ _**As of August 2nd, 2018, SPDocKit Online is deprecated, and its successor is**
 
 Please check the [feature availability by license type](https://www.spdockit.com/orders/#online).
 
-In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](connect-to-spo.md#internal/configuration/configure-spdockit-database) or a [LocalDB instance](connect-to-spo.md#internal/configuration/configure-localdb) that is shipped with SPDocKit.
+In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](../configuration/configure-spdockit-database.md) or a [LocalDB instance](../configuration/configure-localdb.md) that is shipped with SPDocKit.
 
-Make sure that the user running the application has been granted all [user permissions](connect-to-spo.md#internal/requirements/sharepoint-online-user-permissions-requirements) required to run SPDocKit properly.
+Make sure that the user running the application has been granted all [user permissions](../requirements/sharepoint-online-user-permissions-requirements.md) required to run SPDocKit properly.
 
 ## Connect:
 

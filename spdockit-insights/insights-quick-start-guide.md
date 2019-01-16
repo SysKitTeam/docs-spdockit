@@ -19,10 +19,10 @@ This feature will allow you to monitor all of your servers, which could be from 
 ## Quick start guide
 
 1. Install and configure SPDocKit on the SharePoint farm you wish to document and manage.
-2. On a server outside of the selected farm, [install and configure the SPDocKit Insights Agent](insights-quick-start-guide.md#internal/spdockit-insights/configure-data-collection/).
-3. [Install and configure SPDocKit Insights](insights-quick-start-guide.md#internal/spdockit-insights/configure-data-collection/) application to start exploring the collected data. You can install SPDocKit Insights on any Windows server or a workstation that is inside a trusted domain.
-4. Start [using SPDocKit Insights](insights-quick-start-guide.md#internal/spdockit-insights/use-spdockit-insights/).
-5. [Configure alerts](insights-quick-start-guide.md#internal/spdockit-insights/search-alerts) to make the most out of the SPDocKit Insights experience.
+2. On a server outside of the selected farm, [install and configure the SPDocKit Insights Agent](../spdockit-insights/configure-data-collection.md).
+3. [Install and configure SPDocKit Insights](../spdockit-insights/configure-data-collection.md) application to start exploring the collected data. You can install SPDocKit Insights on any Windows server or a workstation that is inside a trusted domain.
+4. Start [using SPDocKit Insights](../spdockit-insights/use-spdockit-insights.md).
+5. [Configure alerts](../spdockit-insights/search-alerts.md) to make the most out of the SPDocKit Insights experience.
 
 Please check updated [Features by Licenses](https://www.spdockit.com/orders) overview for this feature availability.
 

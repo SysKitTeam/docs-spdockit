@@ -19,20 +19,20 @@ We have just shipped a new major release, SPDocKit 7, and are proud to present S
 
 ## Features
 
-* **SPDocKit Insights:** A brand new set of SPDocKit features opens a completely different era in tracking [SharePoint performance and troubleshooting issues.](spdockit7-release-note.md#internal/spdockit-insights/use-spdockit-insights) Install SPDoKit Insights to find out which farm servers are the most critical, drill down to a specific performance counter, and resolve issues before it is too late.
+* **SPDocKit Insights:** A brand new set of SPDocKit features opens a completely different era in tracking [SharePoint performance and troubleshooting issues.](../spdockit-insights/use-spdockit-insights.md) Install SPDoKit Insights to find out which farm servers are the most critical, drill down to a specific performance counter, and resolve issues before it is too late.
   * An improved **SPDocKit Event Viewer** is now also available as a part of SPDocKit Insights. It will help you crawl and search through ULS logs, Windows event entries, and SQL logs from all of the farm servers to quickly isolate the problem and make sure that everything keeps running smoothly.   
-  * Consultants will again be able to [manually load SPDocKit Event Viewer](spdockit7-release-note.md#internal/spdockit-insights/manual-load) entries.
-* You can now schedule [SPDocKit Event Viewer alerts](spdockit7-release-note.md#internal/spdockit-insights/search-alerts) for a specific error and receive email notifications when one of your servers satisfies this query.
-* The most wanted feature for the last year has finally arrived. You can now use SPDocKit and previously taken farm snapshots to [restore SharePoint permissions](spdockit7-release-note.md#internal/permission-management/restore-permissions) from a certain date for a selected securable object.
-* There is a new [Permissions Audit](spdockit7-release-note.md#internal/how-to/reports/security-audit) report for tracking who changed certain SharePoint permissions, as well as when and what the exact action performed was.
+  * Consultants will again be able to [manually load SPDocKit Event Viewer](../spdockit-insights/manual-load.md) entries.
+* You can now schedule [SPDocKit Event Viewer alerts](../spdockit-insights/search-alerts.md) for a specific error and receive email notifications when one of your servers satisfies this query.
+* The most wanted feature for the last year has finally arrived. You can now use SPDocKit and previously taken farm snapshots to [restore SharePoint permissions](../permission-management/restore-permissions.md) from a certain date for a selected securable object.
+* There is a new [Permissions Audit](../how-to/reports/security-audit.md) report for tracking who changed certain SharePoint permissions, as well as when and what the exact action performed was.
 
   Navigate to our Permissions Reports section to easily detect all permissions changes across the entire site collection and keep your SharePoint security at the high level.
 
 * SPDocKit 7 delivers **Project Server documentation**. Load project server settings and permissions, explore reports using Farm Explorer, compare settings through a desired time period and schedule these reports to be directed to your email.
-* [SharePoint Online Snapshots](spdockit7-release-note.md#internal/spdockit-spo/sharepoint-online) are now available in SPDocKit. Apart from being able to manage SharePoint Online permissions, you can now take snapshot of your entire tenant or a selected site collection. Use Permissions Reports section to gather valuable information about structure, granted permissions, broken permissions inheritance, and more.
+* [SharePoint Online Snapshots](../spdockit-spo/sharepoint-online.md) are now available in SPDocKit. Apart from being able to manage SharePoint Online permissions, you can now take snapshot of your entire tenant or a selected site collection. Use Permissions Reports section to gather valuable information about structure, granted permissions, broken permissions inheritance, and more.
   * You can also **compare SharePoint Online permissions** for a selected securable object and group memberships, as well as track permissions differences using Compare Wizard.
     * **Restoring SharePoint Online permissions** to a selected snapshot state is also available.
-* [Externally Shared](spdockit7-release-note.md#internal/get-to-know-spdockit/permissions-reports-screen) reports help you find out what tenant content has been shared with an external user, who has access to your SharePoint Online sites, and if there is some content that has been shared using anonymous guest links.
+* [Externally Shared](../get-to-know-spdockit/permissions-reports-screen.md) reports help you find out what tenant content has been shared with an external user, who has access to your SharePoint Online sites, and if there is some content that has been shared using anonymous guest links.
 * SPDocKit 7 supports **Office 365 groups**.  You can connect to Office 365 group site collection's in Permissions Explorer, as well as gather farm explorer and permissions report data for these kinds of sites.
 * New Best Practices Reports
   * [DC Collocation Compliance](https://bp.spdockit.com/article/configuration/distributed-cache/distributed-cache-collocation-compliance/) checks if the distributed cache service is running on the same server as any Search, Excel, or Project Server services.
@@ -53,12 +53,12 @@ We have just shipped a new major release, SPDocKit 7, and are proud to present S
     * Query Processing Components
     * Search Components
     * Analytic Reporting Databases
-* [Permissions Health Check](spdockit7-release-note.md#internal/get-to-know-spdockit/permissions-reports-screen) reports are a set of new permissions reports, which can help you stay compliant with permissions governance best practices and detect users with directly given permissions, lists containing items with broken permissions inheritance, and what those items are specifically.  
+* [Permissions Health Check](../get-to-know-spdockit/permissions-reports-screen.md) reports are a set of new permissions reports, which can help you stay compliant with permissions governance best practices and detect users with directly given permissions, lists containing items with broken permissions inheritance, and what those items are specifically.  
 * New Cleanup report called, **Site Collections with Disabled Owner**, lists all site collection owners who have been disabled or deleted in Active Directory.  
 * **Permission Level Usage** report shows site collections where a certain permission level exists and whether it is being used.
 * Now, you can choose to **restore permission inheritance recursively on folder** structures. If you decide to use this feature, permissions inheritance will be restored for all list items of the currently selected folder. 
 * New management action, called **Add to Group**, helps you add a specified principal to the selected SharePoint group.   
-* [Server to Server Compare](spdockit7-release-note.md#internal/how-to/compare-wizard/compare-servers) is now possible. Compare any two SQL, IIS, or other server settings in your farm using Compare Wizard.  
+* [Server to Server Compare](../how-to/compare-wizard/compare-servers.md) is now possible. Compare any two SQL, IIS, or other server settings in your farm using Compare Wizard.  
 * A **Database Permissions** report has been added to the SQL part of the SPDocKit farm documentation. It lists all users who have been added to a certain database role on the farm databases.  
 * Farm Explorer gained new PowerPivot and Secure Store service application reports.  
 * The **Manage Servers** button allows you to document third party servers in your farm documentation. Go to the Snapshots tab to include servers that are not part of your SharePoint farm in SPDocKit snapshot.  
@@ -151,7 +151,7 @@ We have just shipped a new major release, SPDocKit 7, and are proud to present S
 
    If you would like to document your non-production SharePoint farms, please [contact our sales team](https://www.spdockit.com/support/contact-us/) and ask them to provide you with the non-production licensing options.
 
-* We've changed the Offline activation process for consultants. [Read more about it.](spdockit7-release-note.md#internal/activation/offline-activation)
+* We've changed the Offline activation process for consultants. [Read more about it.](../activation/offline-activation.md)
 
 [Click here to download the new release.](https://www.spdockit.com/downloads/)
 

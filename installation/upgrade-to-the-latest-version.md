@@ -11,12 +11,12 @@ This article explains how to upgrade SPDocKit to the latest major version. SPDoc
 
 ## Preparation
 
-1. The account running the application should have **db\_owner** privileges on the SPDocKit database in order to perform the upgrade process successfully. If you are also changing the SPDocKit Service account to a different one, the account running the upgrade should also have the **securityadmin** role on the SQL Server that is storing the database.. This role will allow him to [grant proper privileges to the new Service account](upgrade-to-the-latest-version.md#internal/requirements/sharepoint-on-premises-user-permissions-requirements/).
+1. The account running the application should have **db\_owner** privileges on the SPDocKit database in order to perform the upgrade process successfully. If you are also changing the SPDocKit Service account to a different one, the account running the upgrade should also have the **securityadmin** role on the SQL Server that is storing the database.. This role will allow him to [grant proper privileges to the new Service account](../requirements/sharepoint-on-premises-user-permissions-requirements.md).
 2. Perform a **database backup** before proceeding with the upgrade process, especially when upgrading to a new major versions of SPDocKit.
 3. Due to a number of database modifications, the upgrade to SPDocKit 7.0 may take a while. 
-4. We redesigned the email alerts feature, previously located under the Email Alerts tab in the Options dialog. **Email alerts will not be preserved** when upgrading from version 6.2.0. and lower. You will have to create new alerts. For more information on this, please follow [these](upgrade-to-the-latest-version.md#internal/get-to-know-spdockit/backstage-screen/options-wizard#email-alerts)  instructions.
+4. We redesigned the email alerts feature, previously located under the Email Alerts tab in the Options dialog. **Email alerts will not be preserved** when upgrading from version 6.2.0. and lower. You will have to create new alerts. For more information on this, please follow [these](../get-to-know-spdockit/backstage-screen/options-wizard#email-alerts)  instructions.
 5. Connected SharePoint Online tenants and added site collections \(on a workstation\) **will not be preserved** after the upgrade to SPDocKit 7.0.
-6. If you were using SPDocKit's Event Collection feature \(now called **SPDocKit Insights**\) introduced in version 6.2 you will need to upgrade it as well. **Version of the Viewer application must match with the Agent \(Collection Service\)**. Click [here](upgrade-to-the-latest-version.md#internal/spdockit-insights/configure-data-collection) for more information.
+6. If you were using SPDocKit's Event Collection feature \(now called **SPDocKit Insights**\) introduced in version 6.2 you will need to upgrade it as well. **Version of the Viewer application must match with the Agent \(Collection Service\)**. Click [here](../spdockit-insights/configure-data-collection.md) for more information.
 
 ## Instructions
 
@@ -34,7 +34,7 @@ This article explains how to upgrade SPDocKit to the latest major version. SPDoc
    If the icon next to the feature is gray, this feature will be installed. If the icon next to the feature is a little red cross, then this feature will not be installed at the end of this process.
 
    * The **Insights Agent** crawls the ULS and Windows Event Logs and indexes them. Install this feature on a **server outside of your SharePoint farm** for minimal impact.
-   * **SPDocKit Insights** is used to search and view the events that the Insights Agent has indexed. This is a standalone application which can be run without SPDocKit installed. You can install it on any available server, including the one where SPDocKit is installed. [Read more about SPDocKit Event Collection](upgrade-to-the-latest-version.md#internal/spdockit-insights/configure-data-collection).
+   * **SPDocKit Insights** is used to search and view the events that the Insights Agent has indexed. This is a standalone application which can be run without SPDocKit installed. You can install it on any available server, including the one where SPDocKit is installed. [Read more about SPDocKit Event Collection](../spdockit-insights/configure-data-collection.md).
 
 7. Choose the installation folder e.g. **C:\Program Files\SysKit\SPDocKit**. Click **Next** &gt; to proceed.
 8. Select the location where to create application shortcuts and the preferred availability option \(**Anyone** or **Only me**\). Click **Next** &gt; to proceed.

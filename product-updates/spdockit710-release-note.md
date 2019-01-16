@@ -68,6 +68,6 @@ This release brings a dozen of improvements and a few bug fixes. Most noticeably
 ## Articles
 
 * We updated our help and best practice articles; more precisely, [TempDB Files Configuration](https://docs.syskit.com/bp/v1/databases/tempdb/files-configuration/) and [Object Cache User Accounts](https://docs.syskit.com/bp/v1/web-applications/caching/object-cache-user-accounts/). 
-* There is an issue with the UPA load if the audience compilation job is in progress while loading, so we have written a known issue [article](spdockit710-release-note.md#internal/known-issues/spdockit-reporting-upa-changes).
+* There is an issue with the UPA load if the audience compilation job is in progress while loading, so we have written a known issue [article](../known-issues/spdockit-reporting-upa-changes.md).
 * When loading, some users receive the error, “The RPC server is unavailable.” There is now an [article](https://docs.syskit.com/spdockit/v7/faq/troubleshooting/rpc-server-unavailable/) to help you troubleshoot.
 

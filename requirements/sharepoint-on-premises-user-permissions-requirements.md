@@ -6,9 +6,9 @@ To run SPDocKit and to retrieve all SharePoint settings you want to document, bo
 2. **SharePoint farm administrator**. Required to retrieve SharePoint farm settings.
 3. **Member of SharePoint\_Shell\_Access role** on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
 4. Special privileges for the **Service Account**: Service account needs to have privileges listed above as well as the **Log on as a Service** right. [Click here for instructions](https://goo.gl/MRGS73) on how to configure that right.
-5. [Server specific requirements](sharepoint-on-premises-user-permissions-requirements.md#internal/requirements/server-load-permission-requirements/) needed to retrieve additional server configuration data \(RAM, processors, disk space…\) and SQL Server configuration information for DB servers.
-6. [Search service application requirements](sharepoint-on-premises-user-permissions-requirements.md#internal/requirements/search-service-requirements/) needed to retrieve Search service application configuration data \(content sources, crawl rules, managed properties, search topologies...\).
-7. [User Profile service application requirements](sharepoint-on-premises-user-permissions-requirements.md#internal/requirements/user-profile-service-requirements/) needed to retrieve User Profile service application configuration data \(Synchronization Connections, MySite Settings, Audiences, User Profile Properties...\).
+5. [Server specific requirements](../requirements/server-load-permission-requirements.md) needed to retrieve additional server configuration data \(RAM, processors, disk space…\) and SQL Server configuration information for DB servers.
+6. [Search service application requirements](../requirements/search-service-requirements.md) needed to retrieve Search service application configuration data \(content sources, crawl rules, managed properties, search topologies...\).
+7. [User Profile service application requirements](../requirements/user-profile-service-requirements.md) needed to retrieve User Profile service application configuration data \(Synchronization Connections, MySite Settings, Audiences, User Profile Properties...\).
 
 Here is how you can give user these privileges:
 
@@ -33,7 +33,7 @@ Here is how you can give user these privileges:
 * Open SharePoint Management Shell.
 * Type the following PowerShell command: `<Add-SPShellAdmin -UserName DOMAIN\YourAccount>` [\(click here to learn more\)](http://technet.microsoft.com/en-us/library/ff607596.aspx).
 * If you want to grant PowerShell shell access to a single database [check this article](http://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
-* If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](sharepoint-on-premises-user-permissions-requirements.md#internal/_assets/Configure-SPShellAdmin.zip):
+* If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](../_assets/Configure-SPShellAdmin.zip):
 
   ```text
   if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null) 
@@ -61,7 +61,7 @@ To be able to create a new SPDocKit dedicated database, the user account running
 These privileges will be granted automatically when a new SPDocKit database is created or during a database upgrade.
 
 * SPDocKit service account will be granted the **SPDocKit\_service\_role** role on the SPDocKit database. This role will make the service account a member of the **db\_datawrite** and **db\_datareader** roles and grant **EXECUTE** permissions on all the stored procedures in the database.
-  * In the event that the SPDocKit install account is not in the **securityAdmin** role, please add the SPDocKit service account manually to the **SPDocKit\_service\_role**. [Consult the following article](sharepoint-on-premises-user-permissions-requirements.md#internal/faq/troubleshooting/error-adding-service-account-to-role/) for additional information.
+  * In the event that the SPDocKit install account is not in the **securityAdmin** role, please add the SPDocKit service account manually to the **SPDocKit\_service\_role**. [Consult the following article](../faq/troubleshooting/error-adding-service-account-to-role.md) for additional information.
   * The account running load from the SPDocKit console needs to have the same privileges as the SPDocKit service account \(see above\).
 
 ### Workstation Requirements

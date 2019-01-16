@@ -15,7 +15,7 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
 
 ## SPDocKit Insights Agent required configuration
 
-1. [Install SPDocKit Insights Agent](configure-data-collection.md#internal/installation/installation-guide/) preferably on a **server that is not part of your SharePoint farm**. Run the SPDocKit setup file and select **SPDocKit Insights Agent** feature in the **advanced** install mode. Check [system requirements](configure-data-collection.md#internal/requirements/system-requirements/) for this server.
+1. [Install SPDocKit Insights Agent](../installation/installation-guide.md) preferably on a **server that is not part of your SharePoint farm**. Run the SPDocKit setup file and select **SPDocKit Insights Agent** feature in the **advanced** install mode. Check [system requirements](../requirements/system-requirements.md) for this server.
 2. Start the **SPDocKit Configuration Wizard** to configure the installed SPDocKit Insights Agent.
    * Will be started automatically after installation if the SPDocKit Insights Agent is installed on a separate server.
    * Also available from the SPDocKit start screen if installed on the same server as SPDocKit.
@@ -40,7 +40,7 @@ Use SPDocKit Insights to keep multiple farms under control and find problems mor
 
 Additional configuration is done by means of the SPDocKit Insights application.
 
-1. [Install SPDocKit Insights](configure-data-collection.md#internal/installation/installation-guide/) on **any** server, with or without SPDocKit. Run the SPDocKit setup file and select the Insights Viewer feature in the **advanced** install mode.
+1. [Install SPDocKit Insights](../installation/installation-guide.md) on **any** server, with or without SPDocKit. Run the SPDocKit setup file and select the Insights Viewer feature in the **advanced** install mode.
 2. Start SPDocKit Insights.
    * From the Windows start menu.
    * If SPDocKit was installed with SPDocKit Insights, SPDocKit Insights is available from the SPDocKit start page.
@@ -52,5 +52,5 @@ Additional configuration is done by means of the SPDocKit Insights application.
    * Windows Event Log and SQL logs will **not** be collected.
    * Performance data will be collected if supported by the SPDocKit license edition.
 4. To customize the default settings click the **Settings button** located in the bottom left corner.
-   * For more details on available settings click [here](configure-data-collection.md#internal/spdockit-insights/customize-settings/).
+   * For more details on available settings click [here](../spdockit-insights/customize-settings.md).
 
