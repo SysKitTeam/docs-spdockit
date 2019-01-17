@@ -1,10 +1,5 @@
 # Configure SPDocKit Database
 
-title: Configure SPDocKit Database author: Matija Hanzic  
-date: 16/5/2017
-
-## description: This article explains how to configure the database for SPDocKit.
-
 This article explains how to configure the database for SPDocKit.
 
 SPDocKit uses a database for storing data gathered from your SharePoint farm.

@@ -1,10 +1,5 @@
 # Configure SPDocKit
 
-title: Configure SPDocKit author: Matija Hanzic  
-date: 22/5/2017
-
-## description: This article explains how to configure the SPDocKit database and snapshot service before the first usage.
-
 ## SharePoint Server
 
 This article explains how to configure the SPDocKit database and service before the first usage, while installed on a SharePoint server. **SPDocKit Configuration wizard** will automatically start when you start SPDocKit for the first time. Follow these steps to successfully configure the application:

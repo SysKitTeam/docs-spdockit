@@ -1,10 +1,5 @@
 # Activate SPDocKit
 
-title: Online Activation author: Matija Hanzic  
-date: 16/5/2017
-
-## description: This article outlines the steps needed to perform SPDocKit activation.
-
 ## Online Activation
 
 ### Farm license
