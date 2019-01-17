@@ -10,7 +10,7 @@ date: 17/5/2017
 
 # Create New Alert
 
-This section describes how to create scheduled **Alerts** for SPDocKit reports. If you wish to use the **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](../get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings.md) properly.
+This section describes how to create scheduled **Alerts** for SPDocKit reports. If you wish to use the **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/backstage-screen/options-wizard/README.md#subscription-settings.md) properly.
 
 Alerts are sent after each automatic snapshot, that is, snapshot created by the SPDocKit Service.
 
@@ -23,7 +23,7 @@ Instructions: 1. Navigate to the Backstage Configuration Screen and click **Subs
    * Whether automatic subscriptions are enabled on the selected farm or not.
    * Last sent on – information on when was the last time this alert was sent. If this is an entirely new alert, it will say Never.
 2. Go to the Delivery tab and set the delivery method you would like to use.
-   * **Email** – required fields are Send To and Body. Provide the email address to which you wish to send the alert. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](../get-to-know-spdockit/backstage-screen/options-wizard#snapshot-options).
+   * **Email** – required fields are Send To and Body. Provide the email address to which you wish to send the alert. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/backstage-screen/options-wizard/README.md#snapshot-options).
    * **File Share** – input the File Share location here. You can use the Test button to check if the given location is reachable and if SPDocKit can write to the location.
    * **SharePoint Library** – If this is the first time you are using this feature, you need to create a new library connection.
 

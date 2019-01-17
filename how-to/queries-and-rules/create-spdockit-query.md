@@ -13,16 +13,16 @@ This section describes how to use the SPDocKit Query wizard to create a query re
 
 1. Go to Queries & Rules and click New Query from the Home ribbon.  
 2. Type in the name of your query and select a query scope. The query scope defines the type of SharePoint objects that will be crawled for their properties in this report. Click Next to continue.  
-3. Select the list fields you would like to include in this report. Read more about [supported query properties](../get-to-know-spdockit/queries-and-rules-screen.md). Click Next to continue.  
+3. Select the list fields you would like to include in this report. Read more about [supported query properties](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/queries-and-rules-screen.md). Click Next to continue.  
 4. Use the Up and Down arrows to choose and modify the order and sorting type. Click Next to continue.  
 5. Choose whether you would like to manually execute this query or automatically execute it. Click Next to continue.
 
    * **Manual execution** – you will have to run this query from the Home ribbon using the Run button every time you want to check whether there are any changes.
-   * **Automatic execution** – requires an active SPDocKit Service and a [defined schedule](../get-to-know-spdockit/queries-and-rules-screen.md).
+   * **Automatic execution** – requires an active SPDocKit Service and a [defined schedule](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/queries-and-rules-screen.md).
 
    If the SPDocKit Service is not running, a warning bar will appear. Click **Configure** to enable the SPDocKit Service.
 
-6. Under Filters select the Checked Out To list property, click the underlined value “specific” and choose the Is Not Empty condition. Click Next to continue.  
+6. Under Filters select the Checked Out To list property, click the underlined value “specific” and choose the Is Not Empty condition. Click Next to continue.
 7. Define the extent to which this query should be enforced across your SharePoint farm. Depending on your selected query scope in the first step of this wizard, you can target an entire **web application, specific site collections, subsites, or lists and list items**. Each time the query is executed, it will list all files that are currently checked out to someone on the specified scope.
 
    If you have chosen the manual execution in the previous steps, you can skip this step – select the **Skip target selection; ask me on execution** check box. You will be able to choose the desired scope each time you start the query. Click Finish to run your query.

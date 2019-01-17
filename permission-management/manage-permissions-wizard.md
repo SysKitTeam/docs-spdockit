@@ -39,7 +39,7 @@ This wizard option will grant specified permissions to selected principals on a 
    All of the specified principals will have the same permissions assigned to them, where possible. If, for some reason, some permission levels are not available on a certain site, they will be skipped. If no permissions can be assigned to the selected principal on that site no new role assignment will be granted.
 
 5. In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
-6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../permission-management/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
+6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Remove Permissions
 
@@ -66,5 +66,5 @@ This wizard option will remove specified permissions from desired principals on 
    Same permissions will be removed from all of the specified principals, where possible. If some principals were not assigned with all of the selected permissions, only permissions they had and are specified in this wizard will be removed. If non of the selected permissions were previously assigned to the specified principals, no changes will be applied.
 
 6. In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
-7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../permission-management/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
+7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 

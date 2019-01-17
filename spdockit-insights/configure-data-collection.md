@@ -52,5 +52,5 @@ Additional configuration is done by means of the SPDocKit Insights application.
    * Windows Event Log and SQL logs will **not** be collected.
    * Performance data will be collected if supported by the SPDocKit license edition.
 4. To customize the default settings click the **Settings button** located in the bottom left corner.
-   * For more details on available settings click [here](../spdockit-insights/customize-settings.md).
+   * For more details on available settings click [here](customize-settings.md).
 
