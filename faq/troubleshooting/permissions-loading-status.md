@@ -15,7 +15,7 @@ When I am trying to load my SharePoint farm permissions, loading wizard informs 
 
 ## Solution
 
-Make sure that the user account running SPDocKit has the proper [permission privileges](https://github.com/SysKitTeam/docs-spdockit/tree/e21f29d94cec6a3e24fff00907c2f1c56fc5c504/faq/faq/requirements/sharepoint-on-premises-user-permissions-requirements.md) for the SharePoint farm for which you are trying to load the permissions.
+Make sure that the user account running SPDocKit has the proper [permission privileges](../../requirements/sharepoint-on-premises-user-permissions-requirements.md) for the SharePoint farm for which you are trying to load the permissions.
 
 Check the event log for the SPDocKit related entries and [contact us](https://www.spdockit.com/support/contact-us/).
 

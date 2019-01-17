@@ -19,5 +19,5 @@ The SQL Server Browser service needs to be up and running.
 
 1. Open **SQL Server Configuration Manager** on your SQL server.
 2. Click on SQL Server Services. Find the **SQL Server** Browser service, right-click on it and press **Start**.
-3. Do not forget to [allow inbound traffic on TCP Port 1434](https://github.com/SysKitTeam/docs-spdockit/tree/e21f29d94cec6a3e24fff00907c2f1c56fc5c504/faq/faq/faq/troubleshooting-sql-server-connection/inbound-traffic.md).
+3. Do not forget to [allow inbound traffic on TCP Port 1434](inbound-traffic.md).
 

@@ -30,7 +30,7 @@ Alerts will be marked with the bell icon, while the scheduled subscriptions will
 
 ## Related articles
 
-* [Configure SPDocKit database](https://github.com/SysKitTeam/docs-spdockit/tree/b3a68162cc031e20fb6d0e2432de8a1fe323748f/get-to-know-spdockit/configuration/configure-spdockit-database.md)
-* [Configure subscription settings](https://github.com/SysKitTeam/docs-spdockit/tree/b3a68162cc031e20fb6d0e2432de8a1fe323748f/get-to-know-spdockit/get-to-know-spdockit/backstage-screen/options-wizard.md)
-* [How to create a new subscription](https://github.com/SysKitTeam/docs-spdockit/tree/b3a68162cc031e20fb6d0e2432de8a1fe323748f/get-to-know-spdockit/how-to/subscriptions-and-alerts/create-new-subscription.md)
+* [Configure SPDocKit database](../../configuration/configure-spdockit-database.md)
+* [Configure subscription settings](options-wizard.md)
+* [How to create a new subscription](../../how-to/subscriptions-and-alerts/create-new-subscription.md)
 

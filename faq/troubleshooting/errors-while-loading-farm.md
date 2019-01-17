@@ -30,5 +30,5 @@ There are also errors in the event log such as this one:
 
 The user running the SPDocKit needs to have the proper privileges to retrieve information from the SharePoint farm.
 
-Follow [these instructions](https://github.com/SysKitTeam/docs-spdockit/tree/e21f29d94cec6a3e24fff00907c2f1c56fc5c504/faq/faq/requirements/sharepoint-on-premises-user-permissions-requirements.md) to configure your SharePoint farm.
+Follow [these instructions](../../requirements/sharepoint-on-premises-user-permissions-requirements.md) to configure your SharePoint farm.
 
