@@ -28,5 +28,5 @@ If your server does not have an internet connection, you can use the Offline ins
 
 ## **Learn more**
 
-* [How to: Activate SPCAF extension](../../how-to/reports/activate-spcaf-extension.md)
+* [How to: Activate SPCAF extension](activate-spcaf-extension.md)
 

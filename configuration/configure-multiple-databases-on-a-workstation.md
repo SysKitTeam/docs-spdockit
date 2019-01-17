@@ -15,7 +15,7 @@ You can notice the Database Connection Chooser in the **top right corner** of th
 
 When you install SPDocKit for the first time, the installation will ask you to use our [Configuration Wizard](configure-spdockit-database.md). The database you set up there will be the Default one. After that, you can use the Database Connection Chooser to quickly setup other connections.
 
-This is how you do it:
+This is how you do it: 
 
 ## New database connection
 
