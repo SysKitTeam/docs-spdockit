@@ -112,7 +112,7 @@ The **Email alerts** feature has been redesigned in SPDocKit 6.2.0. **Please not
 
 In order to create an alert containing the Farm Documentation, Farm Differences, or Best Practices Documentation reports, please follow these instructions.
 
-1. Enable automatic subscriptions in the [Subscription Settings](../../get-to-know-spdockit/backstage-screen/options-wizard.md) tab.
+1. Enable automatic subscriptions in the [Subscription Settings](options-wizard.md) tab.
 2. [Create new alert](../../how-to/subscriptions-and-alerts/create-new-alert.md) containing the Farm Documentation, Farm Differences or Best Practices Documentation reports.
 3. When adding a Farm Differences report, you will be prompted to select the target farm \(if there are multiple farms in your SPDocKit database\). The source farm will already be set to the farm you picked in the General tab. If you want to compare the current farm state with the previous one, both filters must have the same farm selected. If you wish to compare differences for two different farms, change the destination farm filter accordingly.
 4. Please note that alerts are sent only after a service takes a snapshot and only if there are differences detected. If you would like to receive these reports even if there are no differences detected, please [create a subscription](../../how-to/subscriptions-and-alerts/create-new-subscription.md) instead of an alert in step 2.

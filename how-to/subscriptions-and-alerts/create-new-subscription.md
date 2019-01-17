@@ -32,7 +32,7 @@ If you wish to use **Subscriptions and Alerts** feature, please make sure you co
    * Last sent on – information on when was the last time this subscription was sent. If this is an entirely new subscription, it will say Never.
 
 4. Go to the Delivery tab and set the delivery method you would like to use.
-   * **Email** – required fields are Send To and Body. Provide the email address to which you wish to send the subscription. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](h../../get-to-know-spdockit/backstage-screen/options-wizard.md).
+   * **Email** – required fields are Send To and Body. Provide the email address to which you wish to send the subscription. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](https://github.com/SysKitTeam/docs-spdockit/tree/8fddadbf2b539f0cc32fbf78025672014e0312a2/how-to/subscriptions-and-alerts/get-to-know-spdockit/backstage-screen/options-wizard.md).
    * **File Share** – input the File Share location here. You can use the Test button to check if the given location is reachable and if SPDocKit can write to the location.
    * **SharePoint Library** – If this is the first time you are using this feature, you need to create a new library connection.
 
