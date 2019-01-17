@@ -24,14 +24,14 @@ This section explains how you can use the Compare Wizard to compare different fa
 
    The Results windows shows the differences between two farm snapshots. Object changes are marked by a different colors. The upper part of the window shows all farm settings in a hierarchical structure, while the bottom half displays the differences between currently selected objects in the upper half.
 
-   Farm compare uses the [Compare template](https://github.com/SysKitTeam/docs-spdockit/tree/13c427c25623bafc2e2f67a080129437b96daa6a/get-to-know-spdockit/backstage-screen/options-wizard/README.md#compare.md) when displaying changes between snapshots. This template is also used for the **Differences report** alert that is sent automatically as part of SPDocKit's Subscriptions and Alerts job. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons – both manual and automatic – performed by the SPDocKit Service.
+   Farm compare uses the [Compare template](../../get-to-know-spdockit/backstage-screen/options-wizard.md) when displaying changes between snapshots. This template is also used for the **Differences report** alert that is sent automatically as part of SPDocKit's Subscriptions and Alerts job. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons – both manual and automatic – performed by the SPDocKit Service.
 
 ## Compare two different SharePoint farms
 
 1. Select Farms as the comparison type and then the **Compare two different farms** subtype. Click Next to continue.
 2. Under **Farm Selection**, select the snapshots you wish to compare and click Next. From version 6.1 onwards, farm snapshots are, by default, stored in the **SPDocKit database**. If you have more than one farm connected to the same SPDocKit database, you will see snapshots from all these farms.
 
-   If you are not using the SPDocKit database, snapshots will be stored in the Snapshots folder defined in [Service Settings](https://github.com/SysKitTeam/docs-spdockit/tree/13c427c25623bafc2e2f67a080129437b96daa6a/get-to-know-spdockit/backstage-screen/options-wizard/README.md#service-settings.md) . The default Snapshots folder is **C:\ProgramData\SPDocKit\Snapshots**.
+   If you are not using the SPDocKit database, snapshots will be stored in the Snapshots folder defined in [Service Settings](../../get-to-know-spdockit/backstage-screen/options-wizard.md) . The default Snapshots folder is **C:\ProgramData\SPDocKit\Snapshots**.
 
    The Farm selection step will list all available snapshots from the **SPDocKit database** or **Snapshots folder**. If the desired snapshot is not located in either of these locations, click **Import** to select a snapshot file from another location. This is helpful in situations when you wish to compare snapshots of two farms and the snapshots are not stored in the same SPDocKit database, but on a disk location on SharePoint's servers. Copy the farm snapshots from the non-local farm to any disk location on the local SharePoint server and click Import to use them for farm comparison.
 
