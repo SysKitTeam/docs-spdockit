@@ -16,7 +16,7 @@ Compare Wizard provides the possibility to track farm configuration changes and 
 * [Compare Servers](../../how-to/compare-wizard/compare-servers.md) – compare differences between two servers in your farm or track the changes that were made to a server over time.
 * [Compare Web Applications](../../how-to/compare-wizard/compare-web-applications.md) – compare differences between two Web applications or track how a Web application's settings have changed over time.
 * [Compare Site Collections](../../how-to/compare-wizard/compare-site-collections.md) – compare differences between two site collections or track how a site collection's settings have changed over time.
-* [Compare SharePoint Permissions](h../../how-to/compare-wizard/compare-sharepoint-permissions.md) – compare SharePoint permissions on a different subsites, lists, and list items or track changes made to their permissions through a selected time period.
+* [Compare SharePoint Permissions](../../how-to/compare-wizard/compare-sharepoint-permissions.md) – compare SharePoint permissions on a different subsites, lists, and list items or track changes made to their permissions through a selected time period.
 * [Compare Web.config files](../../how-to/compare-wizard/compare-web-config-files.md) – verify that web.config files on all of your web front end servers are identical for the same Web application. You can also check what the differences are between web.config files on various Web applications.
 
 _\*Learn more about comparing SharePoint objects by clicking on the feature you're interested in._
