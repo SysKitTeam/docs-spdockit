@@ -55,7 +55,7 @@ Verify that RPC Client and RPC Server are using the correct DNS servers for a na
 Verify the firewall state between RPC Client and RPC Server.
 
 * If the firewall is disabled, there is no need for any additional changes.
-* If the firewall is enabled, verify that the required ports are also enabled, as stated [here](https://github.com/SysKitTeam/docs-spdockit/tree/e21f29d94cec6a3e24fff00907c2f1c56fc5c504/faq/faq/faq/miscellaneous/README.md#network-ports-required-for-gathering-the-data.md) in the section entitled “Network ports required for gathering the data”.
+* If the firewall is enabled, verify that the required ports are also enabled, as stated [here](../../faq/miscellaneous.md) in the section entitled “Network ports required for gathering the data”.
 
 Also, **some users** had success with the following:
 

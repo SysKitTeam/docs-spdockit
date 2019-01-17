@@ -81,7 +81,7 @@ The SPDocKit Service allows you to configure a schedule to create automatic Shar
 If you wish to receive an email notification after automatically-taken tenant snapshots, follow these instructions:
 
 1. Navigate to the **Backstage Configure Screen &gt; Options &gt; Subscription Settings.**
-2. Check in **Subscriptions Enabled** box, and select the **Enable email sending** checkbox to enable email to be sent. Fill out the necessary details, then click **Test email settings** to make sure that the email alert is set up properly. [Here](https://github.com/SysKitTeam/docs-spdockit/tree/3922706bedc5e157e3a4088643bb0db959ebafe0/get-to-know-spdockit/backstage-screen/options-wizard/README.md#subscription-settings) are more information on these settings.
+2. Check in **Subscriptions Enabled** box, and select the **Enable email sending** checkbox to enable email to be sent. Fill out the necessary details, then click **Test email settings** to make sure that the email alert is set up properly. [Here](../get-to-know-spdockit/backstage-screen/options-wizard.md) are more information on these settings.
 3. Click **Save** to close the Options wizard and apply the changes.
 
    After that you need to create a new subscription. For detailed information on how to do that please go [here](../how-to/subscriptions-and-alerts/create-new-subscription.md).
