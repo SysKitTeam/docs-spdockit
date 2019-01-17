@@ -22,6 +22,6 @@ This section describes how you can generate SharePoint farm documentation using 
    There is a possibility that there will be a large amount of data contained in Site Explorer reports, so we added a template called **Full Documentation without Site Explorer**. If you want to export all Site Explorer information, please note that the active snapshot will need to be saved in the SPDocKit database.
 
 4. The **Document Outline** tab displays how the table of contents of your document will look.
-5. With the Options tab you can choose whether [Passwords and Product Keys](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/farm-explorer-screen/passwords-and-product-keys.md) will be displayed in the generated document. If these were not defined, the check box will be disabled.
+5. With the Options tab you can choose whether [Passwords and Product Keys](../get-to-know-spdockit/farm-explorer-screen/passwords-and-product-keys.md) will be displayed in the generated document. If these were not defined, the check box will be disabled.
 6. Click the **Generate** button, wait a few moments and your SharePoint farm documentation will be generated!
 

@@ -7,7 +7,7 @@ date: 25/5/2017
 
 # License Management
 
-The License Management dialog allows you to enter the number of SharePoint Standard and Enterprise licenses \(CALs\) you have purchased. Data provided will be used to generate license compliance and [feature usage reports](https://github.com/SysKitTeam/docs-spdockit/tree/e21f29d94cec6a3e24fff00907c2f1c56fc5c504/get-to-know-spdockit/get-to-know-spdockit/get-to-know-spdockit/content-and-usage-reports-screen.md). This feature also allows you to define and track custom features licensing and usage.
+The License Management dialog allows you to enter the number of SharePoint Standard and Enterprise licenses \(CALs\) you have purchased. Data provided will be used to generate license compliance and [feature usage reports](../get-to-know-spdockit/get-to-know-spdockit/content-and-usage-reports-screen.md). This feature also allows you to define and track custom features licensing and usage.
 
 To manage your licenses do the following:
 

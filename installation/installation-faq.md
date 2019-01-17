@@ -32,7 +32,7 @@ Note: If the ServicesPipeTimeout entry does not exist, you must create it. To do
 1. On the Edit menu, point to New, then click DWORD Value.
 2. Type ServicesPipeTimeout, and press ENTER.
 3. Right-click ServicesPipeTimeout, then click Modify.
-4. Click Decimal, type 360000, then click OK.
+4. Click Decimal, type 360000, then click OK.  
 
    This value represents the time in milliseconds before a service times out.
 
@@ -40,7 +40,7 @@ Note: If the ServicesPipeTimeout entry does not exist, you must create it. To do
 
 ## How do I set up SPDocKit?
 
-SPDocKit supports SharePoint 2007, SharePoint 2010, SharePoint 2013 and SharePoint 2016 server. [See more details here.](../requirements/system-requirements.md) Check out our [installation guide](installation-guide.md) and the followup, the [configuration guide](../configuration/configure-spdockit.md). Once you have installed everything you can [take a snapshot](../how-to/sharepoint-farm-snapshots/manual-snapshots.md) of your farm.
+SPDocKit supports SharePoint 2007, SharePoint 2010, SharePoint 2013 and SharePoint 2016 server. [See more details here.](../requirements/system-requirements.md) Check out our [installation guide](../installation/installation-guide.md) and the followup, the [configuration guide](../configuration/configure-spdockit.md). Once you have installed everything you can [take a snapshot](../how-to/sharepoint-farm-snapshots/manual-snapshots.md) of your farm.
 
 ## If I choose the “Run only” option in SPDocKit, what happens?
 

@@ -38,9 +38,10 @@ Here is what you need to do:
 
 ### Security:
 
-* **Permissions** - If you want to know the permissions of each list item on the farm/tenant, you can get that information by selecting the **Permissions check box** and setting the Load Depth to list item. You can also select the **Active Directory Group Members** check box if you wish to load members of the AD groups.
-* Select the snapshot target. Again, this step will be skipped unless you chose the Custom snapshot mode. You can choose your target to be an entire farm/tenant, Web application, site collection or specific subsites.
-* Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](../get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports.md) and [permission reports](../get-to-know-spdockit/permissions-reports-screen.md) will be ready for use!
+* **Permissions** - If you want to know the permissions of each list item on the farm/tenant, you can get that information by selecting the **Permissions check box** and setting the Load Depth to list item. You can also select the **Active Directory Group Members** check box if you wish to load members of the AD groups. 
+
+1. Select the snapshot target. Again, this step will be skipped unless you chose the Custom snapshot mode. You can choose your target to be an entire farm/tenant, Web application, site collection or specific subsites.
+2. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](../get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports.md) and [permission reports](../get-to-know-spdockit/permissions-reports-screen.md) will be ready for use!
 
 ## Automatic Snapshot
 
@@ -49,11 +50,11 @@ The SPDocKit Service allows you to configure a schedule to create automatic Shar
 
 1. Navigate to the **Backstage Configuration Screen** and click **Configure**.
 2. Skip to the Service Settings option.
-   * Select the Enable Service checkbox and type in the service account details. Click Validate Account and then Next to continue.
+   * Select the Enable Service checkbox and type in the service account details. Click Validate Account and then Next to continue.  
 
-     Make sure to **check the** [permission requirements](../requirements/sharepoint-online-user-permissions-requirements.md) for the service account.
+     Make sure to **check the** [permission requirements](../requirements/sharepoint-online-user-permissions-requirements.md) for the service account.   
 
-     * Alternatively, you can use a Local System Account.
+     * Alternatively, you can use a Local System Account.  
 
        **But please note:** The Local System account can be used to run the SPDocKit service \(but not the SPDocKit Insights Service\) if one of the following conditions are met:
 
@@ -81,12 +82,13 @@ The SPDocKit Service allows you to configure a schedule to create automatic Shar
 If you wish to receive an email notification after automatically-taken tenant snapshots, follow these instructions:
 
 1. Navigate to the **Backstage Configure Screen &gt; Options &gt; Subscription Settings.**
-2. Check in **Subscriptions Enabled** box, and select the **Enable email sending** checkbox to enable email to be sent. Fill out the necessary details, then click **Test email settings** to make sure that the email alert is set up properly. [Here](https://github.com/SysKitTeam/docs-spdockit/tree/3922706bedc5e157e3a4088643bb0db959ebafe0/get-to-know-spdockit/backstage-screen/options-wizard/README.md#subscription-settings) are more information on these settings.
+2. Check in **Subscriptions Enabled** box, and select the **Enable email sending** checkbox to enable email to be sent. Fill out the necessary details, then click **Test email settings** to make sure that the email alert is set up properly. [Here](../get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings) are more information on these settings.
 3. Click **Save** to close the Options wizard and apply the changes.
 
    After that you need to create a new subscription. For detailed information on how to do that please go [here](../how-to/subscriptions-and-alerts/create-new-subscription.md).
 
-Also, make sure to check our [permission management features](../permission-management/manage-permissions-ribbon-actions.md) located in the **Permissions Explorer** tab.
+Also, make sure to check our [permission management features](../permission-management/manage-permissions-ribbon-actions.md) located in the **Permissions Explorer** tab.  
+
 
 {% hint style="warning" %}
 **Please note** that Permission management buttons are enabled only in **live mode** of Permissions Explorer. A snapshot is not needed in that case.

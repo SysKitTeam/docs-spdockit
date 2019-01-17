@@ -139,17 +139,17 @@ We have just shipped a new major release, SPDocKit 7, and are proud to present S
 
 * SPDocKit 7 brings new **Plus** license edition.
 
-  Learn more about the [licensing changes](https://www.spdockit.com/orders/) and download the detailed [comparison of available features by license type.](https://www.spdockit.com/wp-content/uploads/2017/06/spdockit-compare-editions.pdf)
+  Learn more about the [licensing changes](https://www.spdockit.com/orders/) and download the detailed [comparison of available features by license type.](https://www.spdockit.com/wp-content/uploads/2017/06/spdockit-compare-editions.pdf)   
 
   If you like the new **Plus** features, and if you are interested to upgrade from your current license type to a Plus edition, please [contact our sales team](https://www.spdockit.com/support/contact-us/). They will help you to find your best possible upgrade path.
 
 * Workstation and Site licenses no longer support SharePoint Online permissions management or reporting. We now offer a dedicated [SPDocKit Online license](https://www.spdockit.com/orders/#online) that allows you to manage and document your SharePoint Online environment.
 * Software Assurance has been renamed **Support & Upgrade Protection**, which is an additional recommended option for perpetual licenses. The annual cost of this option covers customers support for SPDocKit and entitles you to free upgrades, major and minor, during the validity period.
-* Please note that SysKit will no longer grant an additional non-production license alongside the perpetual licences, upon purchase of Support and Upgrade Protection.
+* Please note that SysKit will no longer grant an additional non-production license alongside the perpetual licences, upon purchase of Support and Upgrade Protection.  
 
-  Those users with a valid Software Assurance at the moment of this release will be upgraded free of charge to non-production licenses. You will be able to see these licenses on your profile in our Customers Portal.
+  Those users with a valid Software Assurance at the moment of this release will be upgraded free of charge to non-production licenses. You will be able to see these licenses on your profile in our Customers Portal.  
 
-  If you would like to document your non-production SharePoint farms, please [contact our sales team](https://www.spdockit.com/support/contact-us/) and ask them to provide you with the non-production licensing options.
+   If you would like to document your non-production SharePoint farms, please [contact our sales team](https://www.spdockit.com/support/contact-us/) and ask them to provide you with the non-production licensing options.
 
 * We've changed the Offline activation process for consultants. [Read more about it.](../activation/offline-activation.md)
 

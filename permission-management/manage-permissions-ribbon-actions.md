@@ -49,7 +49,7 @@ Please note! Adding a principal to a SharePoint group will grant the selected pr
 
   **Add to Group** allows you to directly add selected principals to the existing SharePoint groups.
 
-* **Scope:** currently selected object, Site Collection in which the selected group is
+* **Scope:** currently selected object, Site Collection in which the selected group is 
   * **Supported Principal selection:** SharePoint user, Active Directory Group 
 
 ## Manage permissions
@@ -129,10 +129,10 @@ Some of these actions have the **Preview** step to make sure that the pending ch
 ## Changes
 
 **Audit** - use this button to track down all permissions changes made on the selected securable object. This button will take you to the Audit Permissions report and show details about who made a certain action and on which securable object.  
-**Restore** - allows you to restore previous state of permissions for the selected object. Just choose the snapshot date you wish to revert the permissions to and follow the [restore wizard](restore-permissions.md) steps to finish the process.  
+**Restore** - allows you to restore previous state of permissions for the selected object. Just choose the snapshot date you wish to revert the permissions to and follow the [restore wizard](../permission-management/restore-permissions.md) steps to finish the process.  
 This feature is not available in all license types. Please check [feature availability by license type.](https://www.spdockit.com/orders)
 
 ## SPDocPerm Event Log
 
-In addition, you can track and explore all permission changes made by SPDocKit using [SPDocPerm event log](spdockit-permission-management-event-log.md).
+In addition, you can track and explore all permission changes made by SPDocKit using [SPDocPerm event log](../permission-management/spdockit-permission-management-event-log.md).
 

@@ -3,7 +3,7 @@ title: Subscriptions and Alerts
 description: >-
   This article explains how to use Subscriptions and Alerts to schedule sending
   SPDocKit reports to either the desired email addresses, or for upload to a
-  file share location or a SharePoint document library.
+  file share location or a SharePoint document li
 author: Tomislav Kunaj
 date: 25/5/2017
 ---

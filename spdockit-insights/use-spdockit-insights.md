@@ -24,7 +24,7 @@ The home screen of SPDocKit Insights shows some statistical data about the event
    * Selecting a farm is only available if multiple farms are used with the same SPDocKit database.
 3. Select the time range in which to search for events.
    * Please limit the range as much as possible for optimal performance. 
-4. Enter your search query. Click [here](search-query-guide.md) for more details on writing a search query.
+4. Enter your search query. Click [here](../spdockit-insights/search-query-guide.md) for more details on writing a search query.
 5. An empty query \(all events within the specified time range\) is also supported, but use sparingly or on small time ranges. Just click search or press the enter key.
 
 ### Viewing results
@@ -42,12 +42,12 @@ By default, SPDocKit Insights uses a layout similar to a search engine to displa
 
 ### Alerts
 
-You have created a very useful query and would like to be notified when an event that satisfied this query appears? No problem, just create an alert[\*](use-spdockit-insights.md#licenseLimitations) by clicking the alert button on the search results page. Click [here](search-alerts.md) for more details.
+You have created a very useful query and would like to be notified when an event that satisfied this query appears? No problem, just create an alert[\*](use-spdockit-insights.md#licenseLimitations) by clicking the alert button on the search results page. Click [here](../spdockit-insights/search-alerts.md) for more details.
 
 ## Use SPDocKit to view farm performance
 
-SPDocKit Insights collects performance data[\*](use-spdockit-insights.md#licenseLimitations) by default. This behavior can be modified in the [settings](customize-settings.md).  
-To view the collected data, select the [Performance](insights-performance.md) tab in the left navigation.  
+SPDocKit Insights collects performance data[\*](use-spdockit-insights.md#licenseLimitations) by default. This behavior can be modified in the [settings](../spdockit-insights/customize-settings.md).  
+To view the collected data, select the [Performance](../spdockit-insights/insights-performance.md) tab in the left navigation.  
 The default dashboard has three views: 1. Compact 2. Tiles 3. Grid
 
 Most performance counters collected have a warning and critical limit based on the values collected within a certain time period. This will impact the displayed status of the server on the dashboards. Since most counters are not visible on the main dashboard, additional dashboards with more details are available:

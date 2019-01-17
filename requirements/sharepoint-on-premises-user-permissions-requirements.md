@@ -6,13 +6,13 @@ To run SPDocKit and to retrieve all SharePoint settings you want to document, bo
 2. **SharePoint farm administrator**. Required to retrieve SharePoint farm settings.
 3. **Member of SharePoint\_Shell\_Access role** on SharePoint Server databases. Required to retrieve particular SharePoint farm properties via PowerShell.
 4. Special privileges for the **Service Account**: Service account needs to have privileges listed above as well as the **Log on as a Service** right. [Click here for instructions](https://goo.gl/MRGS73) on how to configure that right.
-5. [Server specific requirements](server-load-permission-requirements.md) needed to retrieve additional server configuration data \(RAM, processors, disk space…\) and SQL Server configuration information for DB servers.
-6. [Search service application requirements](search-service-requirements.md) needed to retrieve Search service application configuration data \(content sources, crawl rules, managed properties, search topologies...\).
-7. [User Profile service application requirements](user-profile-service-requirements.md) needed to retrieve User Profile service application configuration data \(Synchronization Connections, MySite Settings, Audiences, User Profile Properties...\).
+5. [Server specific requirements](../requirements/server-load-permission-requirements.md) needed to retrieve additional server configuration data \(RAM, processors, disk space…\) and SQL Server configuration information for DB servers.
+6. [Search service application requirements](../requirements/search-service-requirements.md) needed to retrieve Search service application configuration data \(content sources, crawl rules, managed properties, search topologies...\).
+7. [User Profile service application requirements](../requirements/user-profile-service-requirements.md) needed to retrieve User Profile service application configuration data \(Synchronization Connections, MySite Settings, Audiences, User Profile Properties...\).
 
 Here is how you can give user these privileges:
 
-### To add a user account to the **Local Administrators** group \(repeat the same steps for **WSS\_ADMIN\_WPG**\):
+#### To add a user account to the **Local Administrators** group \(repeat the same steps for **WSS\_ADMIN\_WPG**\):
 
 * On the server, click Start, right-click Computer, and then click **Manage**.
 * Navigate to Configuration, expand **Local Users and Group** and then click Groups.
@@ -22,18 +22,18 @@ Here is how you can give user these privileges:
 * In the Administrators dialog box, click OK.
 * Close the Server Manager screen.
 
-### To add a user account to **SharePoint farm Administrators** group:
+#### To add a user account to **SharePoint farm Administrators** group:
 
 * Open SharePoint **Central Administration**.
 * Navigate to Security &gt; Manage the farm administrators group.
 * Use the **New** button to add users to this group.
 
-### To add a user account to **SharePoint\_Shell\_Access role**:
+#### To add a user account to **SharePoint\_Shell\_Access role**:
 
 * Open SharePoint Management Shell.
 * Type the following PowerShell command: `<Add-SPShellAdmin -UserName DOMAIN\YourAccount>` [\(click here to learn more\)](http://technet.microsoft.com/en-us/library/ff607596.aspx).
 * If you want to grant PowerShell shell access to a single database [check this article](http://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
-* If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](https://github.com/SysKitTeam/docs-spdockit/tree/3922706bedc5e157e3a4088643bb0db959ebafe0/_assets/Configure-SPShellAdmin.zip):
+* If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](../_assets/Configure-SPShellAdmin.zip):
 
   ```text
   if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null) 
@@ -44,19 +44,19 @@ Here is how you can give user these privileges:
   ```
 
 {% hint style="warning" %}
-
 Please note:
 
 * The cmdlet Add-SPShellAdmin is going to apply to all current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
 * The cmdlet might fail in some environments; please contact us for further assistance.
+{% endhint %}
 
-## SPDocKit database requirements
+### SPDocKit database requirements
 
-### Creating a new database
+#### Creating a new database
 
 To be able to create a new SPDocKit dedicated database, the user account running the installation and configuration wizard \(i.e. install account\) should be granted both the **dbcreator** and **securityadmin** roles on the preferred SQL Server. This allows the account to create a new database and to assign proper privileges after creation. The install account will be automatically given **db\_owner** privileges on the newly created database, if possible. Otherwise, it is advised that the account is given that privilege manually, as it is needed for upgrading the database.
 
-### Privileges required to run the application
+#### Privileges required to run the application
 
 These privileges will be granted automatically when a new SPDocKit database is created or during a database upgrade.
 
@@ -64,13 +64,13 @@ These privileges will be granted automatically when a new SPDocKit database is c
   * In the event that the SPDocKit install account is not in the **securityAdmin** role, please add the SPDocKit service account manually to the **SPDocKit\_service\_role**. [Consult the following article](../faq/troubleshooting/error-adding-service-account-to-role.md) for additional information.
   * The account running load from the SPDocKit console needs to have the same privileges as the SPDocKit service account \(see above\).
 
-## Workstation Requirements
+### Workstation Requirements
 
 When running the application on a workstation, the SPDocKit user connecting to any SharePoint 2010, SharePoint 2013 or SharePoint 2016 site will need to be granted **Site Collection Administrator** privileges for each site he is trying to explore and manage.
 
 To connect to an existing SPDocKit database from the workstation, the SPDocKit user will need to be granted the **db\_datareader** rights on SPDocKit database.
 
-## Error Message
+### Error Message
 
 If the user does not have proper privileges, the following error message will be shown:
 
