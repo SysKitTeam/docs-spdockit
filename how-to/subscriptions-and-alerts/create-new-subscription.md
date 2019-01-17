@@ -11,7 +11,7 @@ date: 17/05/2017
 
 This section describes how to create scheduled **Subscriptions** for SPDocKit reports. Data you receive from these subscriptions is gathered from the **last loaded farm snapshot** information.
 
-If you wish to use **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](../get-to-know-spdockit/backstage-screen/options-wizard#subscription-settings.md) properly.
+If you wish to use **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/backstage-screen/options-wizard/README.md#subscription-settings.md) properly.
 
 1. Navigate to the Backstage Configuration Screen and click **Subscriptions and Alerts**, or find this button in the Home ribbon.
 2. When the Subscriptions and Alerts manager opens, click **New Subscription**.
@@ -32,7 +32,7 @@ If you wish to use **Subscriptions and Alerts** feature, please make sure you co
    * Last sent on – information on when was the last time this subscription was sent. If this is an entirely new subscription, it will say Never.
 
 4. Go to the Delivery tab and set the delivery method you would like to use.
-   * **Email** – required fields are Send To and Body. Provide the email address to which you wish to send the subscription. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](../get-to-know-spdockit/backstage-screen/options-wizard#snapshot-options.md).
+   * **Email** – required fields are Send To and Body. Provide the email address to which you wish to send the subscription. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/backstage-screen/options-wizard/README.md#snapshot-options.md).
    * **File Share** – input the File Share location here. You can use the Test button to check if the given location is reachable and if SPDocKit can write to the location.
    * **SharePoint Library** – If this is the first time you are using this feature, you need to create a new library connection.
 

@@ -11,9 +11,9 @@ date: 31/5/2017
 
 Please check the [feature availability by license type](https://www.spdockit.com/orders).
 
-In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](../configuration/configure-spdockit-database.md) or a [LocalDB instance](../configuration/configure-localdb.md) that is shipped with SPDocKit.
+In order for this feature to work, you will first have to configure SPDocKit database. You can use either [SQL Server database](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/configuration/configure-spdockit-database.md) or a [LocalDB instance](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/configuration/configure-localdb.md) that is shipped with SPDocKit.
 
-Make sure that the user running the application has been granted all [user permissions](../requirements/sharepoint-on-premises-user-permissions-requirements.md) required to run SPDocKit properly.
+Make sure that the user running the application has been granted all [user permissions](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/requirements/sharepoint-on-premises-user-permissions-requirements.md) required to run SPDocKit properly.
 
 Here is what you need to do:
 
@@ -23,5 +23,5 @@ Once the Connect form opens, make sure that SharePoint On-Premises radio button 
 
 You can now explore SharePoint On-Premise site you've chosen.
 
-Make sure to check our [permission management features](../permission-management/manage-permissions-ribbon-actions.md) located in **Permissions Explorer** tab, as well as [Site Explorer reports](./get-to-know-spdockit/site-explorer-screen.md)
+Make sure to check our [permission management features](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/permission-management/manage-permissions-ribbon-actions.md) located in **Permissions Explorer** tab, as well as [Site Explorer reports](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/workstation/get-to-know-spdockit/site-explorer-screen.md)
 

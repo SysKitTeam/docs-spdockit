@@ -7,12 +7,12 @@ description: This article explains how to perform a manual snapshot in SPDocKit
 
 # Manual Snapshots
 
-This section describes how you can use the SPDocKit Snapshot wizard to collect SharePoint farm settings and permissions. Please note! Adjustments and settings you make using this wizard apply to the current snapshot-taking process only. If you wish to configure a default snapshot-taking setting, use the [Options wizard](../get-to-know-spdockit/backstage-screen/options-wizard.md). The selection you make there will be used as a default load template.
+This section describes how you can use the SPDocKit Snapshot wizard to collect SharePoint farm settings and permissions. Please note! Adjustments and settings you make using this wizard apply to the current snapshot-taking process only. If you wish to configure a default snapshot-taking setting, use the [Options wizard](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/backstage-screen/options-wizard.md). The selection you make there will be used as a default load template.
 
 1. Navigate to the Backstage Actions Screen and click the Take Snapshot button.
 2. Select the snapshot mode you wish the application to execute. There are three choices:
 
-   * **Default** – Performs a load using the setup provided in the [Snapshot Options](../get-to-know-spdockit/backstage-screen/options-wizard.md) and [Load Target](../get-to-know-spdockit/backstage-screen/options-wizard.md). This includes farm settings, features and solutions, and permissions down to the subsite level on the whole farm by default, and can be changed by the user at any time in the Options Wizard.
+   * **Default** – Performs a load using the setup provided in the [Snapshot Options](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/backstage-screen/options-wizard.md) and [Load Target](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/backstage-screen/options-wizard.md). This includes farm settings, features and solutions, and permissions down to the subsite level on the whole farm by default, and can be changed by the user at any time in the Options Wizard.
    * **Custom** – Allows the user to specify exactly what information should be loaded. You can also choose which Web applications, site collections or even subsites data will be retrieved.
 
      It can be the fastest load option if the user wishes to have access only to specific data, and is aware what data he is interested in. This mode is recommended for more advanced users who are looking to generate specific reports.
@@ -49,5 +49,5 @@ This section describes how you can use the SPDocKit Snapshot wizard to collect S
    To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
 
 4. Select the snapshot target. Again, this step will be skipped unless you chose the Custom snapshot mode. Some data is collected from the Central Administration and farm servers regardless of the selection here; however, permissions, workflows, content types, etc., will not show information for items that have not been selected here. You can choose your target to be the entire farm, Web application, site collection or specific subsites.
-5. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](../get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports.md) and [permission reports](../get-to-know-spdockit/permissions-reports-screen.md) will be ready for use!
+5. Click Next and the loading will start. Wait for the SPDocKit wizard to finish, then SharePoint [farm settings](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/farm-explorer-screen/farm-explorer-reports.md) and [permission reports](https://github.com/SysKitTeam/docs-spdockit/tree/e55f051fd88466c76110419ea786084b38907ac1/how-to/get-to-know-spdockit/permissions-reports-screen.md) will be ready for use!
 

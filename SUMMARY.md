@@ -142,7 +142,7 @@
     * [Service app does not have proxies](faq/troubleshooting/service-app-does-not-have-proxies.md)
     * [RPC Server is Unavailable](faq/troubleshooting/rpc-server-unavailable.md)
     * [Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule Definitions’](faq/troubleshooting/error-while-loading-problems-solutions-rule-definitions.md)
-    * [Permissions-loading-status](faq/troubleshooting/permissions-loading-status.md)
+    * [Permissions loading status](faq/troubleshooting/permissions-loading-status.md)
     * [Failed at retrieving SQL Accounts from the following servers](faq/troubleshooting/failed-at-retrieving-accounts-from-servers.md)
     * [Errors while loading farm](faq/troubleshooting/errors-while-loading-farm.md)
     * [Error adding service account to role](faq/troubleshooting/error-adding-service-account-to-role.md)
