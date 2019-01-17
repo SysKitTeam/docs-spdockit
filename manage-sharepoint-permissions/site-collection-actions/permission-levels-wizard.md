@@ -9,8 +9,6 @@ date: 25/5/2017
 
 # Permission Levels Wizard
 
-This article explains how to use SPDocKit Permission Levels Wizard to create, delete, or edit permission levels on your SharePoint Farm.
-
 **Wizard Scope**: farm, web application, site collection\(s\)
 
 ## Add Permission Level
@@ -104,5 +102,7 @@ This wizard option allows you to delete existing permission levels across the sp
 4. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
 5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/manage-sharepoint-permissions/permission-management/spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
-**Please Note!** While it is possible to create, delete or edit subsite’s specific permission levels \(breaking permission level inheritance on each subsite, similar to permission inheritance\) SPDocKit does not support such behavior. From SharePoint version 2010 and forward this functionality is hidden from SharePoint interface. Internally SPDocKit is able to work with these permission levels but will not allow user to create, delete or modify permission levels on subsite with permission levels broken inheritance.
+{% hint style="warning" %}
+
+{% endhint %}
 

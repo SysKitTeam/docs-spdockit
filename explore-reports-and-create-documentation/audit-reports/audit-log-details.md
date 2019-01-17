@@ -40,5 +40,7 @@ You can customize this grid by adding two optional columns:
 * **Email** - Email of the user who performed the action.  
 * **Username** – Login name of the user who performed the action.  
 
+{% hint style="info" %}
 Important: You can only load the Security Audit logs with SPDocKit on a SharePoint machine, not on a workstation. However, previously loaded data can be viewed on a workstation as well.
+{% endhint %}
 

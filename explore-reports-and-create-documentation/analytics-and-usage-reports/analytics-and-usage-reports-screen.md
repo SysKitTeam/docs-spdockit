@@ -61,7 +61,9 @@ Use SPDocKit to load WSPs information from your SharePoint farm and then analyze
 **Available reports**: Analysis Summary, Code Quality, Code Metrics, Code Dependencies and Code Inventory.  
 **Supported SharePoint versions**: SP2013, SP2016.
 
+{% hint style="warning" %}
 **Please note! SPCAF section will be visible in the navigation tree only after** [**installing**](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
+{% endhint %}
 
 ## Workflow reports
 
@@ -72,5 +74,7 @@ This plugin for SPDocKit will allow you to analyze workflow usage on your farm.
 
 Visit [SPDocKit resources center](https://www.spdockit.com/resources/reports) for videos and samples of SharePoint documentation and reports by SPDocKit.
 
+{% hint style="warning" %}
 **Please note! Workflow Analytics section will be visible in the navigation tree only after** [**installing**](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
+{% endhint %}
 

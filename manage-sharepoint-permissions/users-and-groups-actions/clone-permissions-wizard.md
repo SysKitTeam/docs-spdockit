@@ -9,8 +9,6 @@ date: 25/5/2017
 
 # Copy Permissions Wizard
 
-This article explains how to use SPDocKit to easily copy SharePoint permissions from a specific user and assign these permissions to other users.
-
 Use Copy Permissions Wizard to easily achieve that selected destination principals \(SharePoint users or Active Directory groups\) have identical permissions across one site collection as a source principal.
 
 **Please note!** Source principal’s permissions will not in any way be changed by this wizard. Destination principals will lose all previously assigned permissions and acquire every directly given permission and SharePoint group memberships as the source principal.

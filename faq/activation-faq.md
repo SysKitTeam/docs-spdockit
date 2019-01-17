@@ -1,10 +1,5 @@
 # Activation
 
-title: Activation FAQ author: Matija Hanzic  
-date: 16/5/2017
-
-## description: This article outlines activation FAQs.
-
 ### Is the trial version a Farm or Consultant License?
 
 The trial is the latest released application version containing all available application features.

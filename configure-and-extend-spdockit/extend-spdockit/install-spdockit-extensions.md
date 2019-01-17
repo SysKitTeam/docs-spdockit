@@ -3,7 +3,7 @@ title: Install SPDocKit Extensions
 description: >-
   This section explains how to set up the SPDocKit extensions. Extensions are
   additional SPDocKit reports that can be imported to application to help you
-  cover all the information you might not have fou
+  cover all the information you might not have found in default reports.
 author: Martin Pisacic
 date: 18/5/2017
 ---
@@ -26,7 +26,9 @@ If your server does not have an internet connection, you can use the Offline ins
 2. Once you have downloaded a plugin, navigate to the SPDocKit folder inside ProgramData and find the **Extensions** folder. Paste the downloaded plugin files there. The default full path is **C:\ProgramData\SPDocKit\Extensions**.
 3. Once it is successfully installed, restart SPDocKit and the plugin will be ready for use.
 
+{% hint style="warning" %}
 **Please note! SPCAF or Workflow Analytics section will be visible in the navigation tree only after installing the extension.**
+{% endhint %}
 
 ## **Learn more**
 

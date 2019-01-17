@@ -1,15 +1,14 @@
 ---
 title: Manage Permissions Wizard
 description: >-
-  Article explains how to grant permissions to the desired principal on a
-  specific SharePoint objects.
+  This article describes how to grant permissions to the desired principal on a
+  specific SharePoint objects. It also has the ability to remove permissions
+  from the desired principals across the selected
 author: Mia Tomaić
 date: 25/5/2017
 ---
 
 # Manage Permissions Wizard
-
-This article describes how to grant permissions to the desired principal on a specific SharePoint objects. It also has the ability to remove permissions from the desired principals across the selected scope.
 
 **Wizard Scope**: farm, web application, site collection\(s\), subsite\(s\)  
 **Supported People Picker principal selection**: user, Active Directory group, SharePoint group \(multiselect allowed\)  
