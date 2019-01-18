@@ -103,6 +103,6 @@ This wizard option allows you to delete existing permission levels across the sp
 5. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 {% hint style="warning" %}
-
+Please Note! While it is possible to create, delete or edit subsite’s specific permission levels \(breaking permission level inheritance on each subsite, similar to permission inheritance\) SPDocKit does not support such behavior. From SharePoint version 2010 and forward this functionality is hidden from SharePoint interface. Internally SPDocKit is able to work with these permission levels but will not allow user to create, delete or modify permission levels on subsite with permission levels broken inheritance.
 {% endhint %}
 
