@@ -12,7 +12,7 @@ The report shows the state of specific audit settings on the selected site colle
 
 To view this report, go to **Audit Reports &gt; Audit Settings**.
 
-Once you [take a snapshot](https://github.com/SysKitTeam/docs-spdockit/tree/2360289fc7d821b73ecc9028cb81cf8f58fa0d72/explore-reports-and-create-documentation/create-sharepoint-farm-snapshots/manual-snapshots.md) of your farm, the report will list all site collections and their respective audit settings.
+Once you [take a snapshot](../../../create-sharepoint-farm-snapshots/manual-snapshots.md) of your farm, the report will list all site collections and their respective audit settings.
 
 If you want SharePoint \(and then SPDocKit\) to gather your audit logs, you need to enable them \(to do this, go to Site Settings &gt; Site collection audit settings\). This report will give you an overview of your audit settings state for each site collection.
 

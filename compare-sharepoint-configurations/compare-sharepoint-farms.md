@@ -24,7 +24,7 @@ This section explains how you can use the Compare Wizard to compare different fa
 
    The Results windows shows the differences between two farm snapshots. Object changes are marked by a different colors. The upper part of the window shows all farm settings in a hierarchical structure, while the bottom half displays the differences between currently selected objects in the upper half.
 
-   Farm compare uses the [Compare template](https://github.com/SysKitTeam/docs-spdockit/tree/2360289fc7d821b73ecc9028cb81cf8f58fa0d72/configure-and-extend-spdockit/options-wizardmd/README.md#compare) when displaying changes between snapshots. This template is also used for the **Differences report** alert that is sent automatically as part of SPDocKit's Subscriptions and Alerts job. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons – both manual and automatic – performed by the SPDocKit Service.
+   Farm compare uses the [Compare template](../../configure-and-extend-spdockit/options-wizard.md#compare) when displaying changes between snapshots. This template is also used for the **Differences report** alert that is sent automatically as part of SPDocKit's Subscriptions and Alerts job. If you would like to change which reports are compared, use the little wheel button on the left-hand side. Deselected reports will not be used in future comparisons – both manual and automatic – performed by the SPDocKit Service.
 
 ## Compare two different SharePoint farms
 

@@ -28,7 +28,7 @@ and the following error messages are stored in the event log:
 
 ## Solution:
 
-The user running the application needs to have proper privileges to access the information about Site Collections stored in the content databases. [See this article](https://github.com/SysKitTeam/docs-spdockit/tree/2360289fc7d821b73ecc9028cb81cf8f58fa0d72/troubleshooting/requirements/user-permissions-requirements.md) for more details on configuring privileges.
+The user running the application needs to have proper privileges to access the information about Site Collections stored in the content databases. [See this article](../../requirements/user-permissions-requirements.md) for more details on configuring privileges.
 
 If you are still having issues with individual Web Applications or other items you need to do the following: make sure the user has Shell access to the given content database, using the following PowerShell code to grant access:
 

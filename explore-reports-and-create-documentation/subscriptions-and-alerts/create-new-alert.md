@@ -10,7 +10,7 @@ date: 17/5/2017
 
 # Create New Alert
 
-This section describes how to create scheduled **Alerts** for SPDocKit reports. If you wish to use the **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](https://github.com/SysKitTeam/docs-spdockit/tree/2360289fc7d821b73ecc9028cb81cf8f58fa0d72/explore-reports-and-create-documentation/subscriptions-and-alerts/configure-and-extend-spdockit/options-wizard.md#subscription-settings) properly.
+This section describes how to create scheduled **Alerts** for SPDocKit reports. If you wish to use the **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](../../configure-and-extend-spdockit/options-wizard.md#subscription-settings) properly.
 
 Alerts are sent after each automatic snapshot, that is, snapshot created by the SPDocKit Service.
 
