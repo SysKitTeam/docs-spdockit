@@ -50,7 +50,11 @@ This section describes how SharePoint administrators can use SPDocKit to create 
 10. You can add conditions to filter data. Click the underlined value **specific** to edit the conditions. For example, when the condition **Does Not Contain** is selected, the report will not show Web applications that contain an entered value in their names. For this case, enter "Central Administration" to filter out that Web application from the report.
 11. Click Next, then click Finish to close the wizard. Wait a few seconds and your SharePoint Best Practice report will be created!
 
-Download this report: [Number of content databases per Web Application](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/_assets/Number-of-content-databases-per-Web-Application.zip).
+Download this report: 
+
+{% file src="../../.gitbook/assets/number-of-content-databases-per-web-application.zip" %}
+
+
 
 ## Personalize Reports
 

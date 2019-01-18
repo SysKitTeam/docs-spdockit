@@ -3,7 +3,7 @@ title: Install SPDocKit Extensions
 description: >-
   This section explains how to set up the SPDocKit extensions. Extensions are
   additional SPDocKit reports that can be imported to application to help you
-  cover all the information you might not have found in default reports.
+  cover all the information you might not have fou
 author: Martin Pisacic
 date: 18/5/2017
 ---
@@ -32,5 +32,5 @@ If your server does not have an internet connection, you can use the Offline ins
 
 ## **Learn more**
 
-* [How to: Activate SPCAF extension](../../configure-and-extend-spdockit/extend-spdockit/activate-spcaf-extension.md)
+* [How to: Activate SPCAF extension](activate-spcaf-extension.md)
 

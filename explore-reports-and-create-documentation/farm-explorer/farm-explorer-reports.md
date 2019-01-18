@@ -1,8 +1,6 @@
 ---
 title: Farm Explorer Reports
-description: >-
-  The Farm Explorer contains multiple report groups. Take a farm snapshot in
-  order to document all available configuration settings.
+description: This article explains Farm Explorer reports.
 author: Iva Novoselic
 date: 24/5/2017
 ---

@@ -33,20 +33,24 @@ Here is how you can give user these privileges:
 * Open SharePoint Management Shell.
 * Type the following PowerShell command: `<Add-SPShellAdmin -UserName DOMAIN\YourAccount>` [\(click here to learn more\)](http://technet.microsoft.com/en-us/library/ff607596.aspx).
 * If you want to grant PowerShell shell access to a single database [check this article](http://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
-* If you want to grant PowerShell shell access to all content databases, run this script [download Configure-SPShellAdmin.ps1](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/_assets/Configure-SPShellAdmin.zip):
+* If you want to grant PowerShell shell access to all content databases, run this script _download Configure-SPShellAdmin.ps1:_
 
-  ```text
-  if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null) 
-  {Add-PSSnapin Microsoft.SharePoint.PowerShell;}  
-  cls  
-  $username = Read-Host "Enter username";  
-  Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database $_.Id}
-  ```
+{% file src="../.gitbook/assets/configure-spshelladmin.zip" %}
 
+```text
+if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null) 
+{Add-PSSnapin Microsoft.SharePoint.PowerShell;}  
+cls  
+$username = Read-Host "Enter username";  
+Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database $_.Id}
+```
+
+{% hint style="warning" %}
 Please note:
 
 * The cmdlet Add-SPShellAdmin is going to apply to all current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
 * The cmdlet might fail in some environments; please contact us for further assistance.
+{% endhint %}
 
 ### SPDocKit database requirements
 

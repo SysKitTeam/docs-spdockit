@@ -1,6 +1,6 @@
 ---
 title: Add Tags
-description: This section describes how to add tags to Securable Objects.
+description: This section explains how to add tags to Securable Objects.
 author: Igor Mesaric
 date: 10/01/2018
 ---

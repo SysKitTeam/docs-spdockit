@@ -25,7 +25,7 @@ The following commands are available:
 * **Subscriptions and Alerts** – create and manage your SPDocKit report subscriptions and alerts.
 * **Schedule this Report** – add the currently selected SPDocKit report to a new report subscription or a previously created one.
 * **Options** – read more about the [Options Wizard](../../configure-and-extend-spdockit/options-wizard.md).
-* **Save XML Configuration** – [wizard that helps you generate an AutoSPInstaller XML file](../../explore-reports-and-create-documentation/farm-explorer/generate-autospinstaller-xml-configuration-file.md) based on the currently opened snapshot.
+* **Save XML Configuration** – [wizard that helps you generate an AutoSPInstaller XML file](generate-autospinstaller-xml-configuration-file.md) based on the currently opened snapshot.
 
 ## Comments ribbon
 
@@ -37,7 +37,7 @@ The following commands are available:
 * **Edit** - enables you to edit existing comments.
 * **Delete** - enables you to delete existing comments. 
 
-For more information about comments please read the [following article](../../explore-reports-and-create-documentation/customizing-reports/add-comments.md).
+For more information about comments please read the [following article](../customizing-reports/add-comments.md).
 
 ## View ribbon
 
