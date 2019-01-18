@@ -32,5 +32,5 @@ If your server does not have an internet connection, you can use the Offline ins
 
 ## **Learn more**
 
-* [How to: Activate SPCAF extension](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/configure-and-extend-spdockit/configure-and-extend-spdockit/extend-spdockit/activate-spcaf-extension.md)
+* [How to: Activate SPCAF extension](../../configure-and-extend-spdockit/extend-spdockit/activate-spcaf-extension.md)
 

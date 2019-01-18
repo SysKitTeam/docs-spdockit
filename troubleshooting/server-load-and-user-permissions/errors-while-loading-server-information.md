@@ -22,7 +22,7 @@ In order to allow SPDocKit to successfully gather all the information about your
 * Local Administrator on the server
 * Windows Update service up and running
 
-For more information on how to add the SPDocKit user to the Local Administrators group and how to start Windows Update service, read the [following article.](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/troubleshooting/requirements/server-load-permission-requirements/README.md#sharepoint-server-information.md)
+For more information on how to add the SPDocKit user to the Local Administrators group and how to start Windows Update service, read the [following article.](../../../requirements/server-load-permission-requirements.md#sharepoint-server-information)
 
 ## SQL Server Information
 
@@ -38,7 +38,7 @@ In order to allow SPDocKit to successfully gather all the information about your
 
 * **Sysadmin** server role
 
-In case that you can’t give those permissions due to security requirements, there are some alternatives available. More information on how to grant the required permissions is available [here.](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/troubleshooting/requirements/server-load-permission-requirements/README.md#sql-server-information)
+In case that you can’t give those permissions due to security requirements, there are some alternatives available. More information on how to grant the required permissions is available [here.](../../../requirements/server-load-permission-requirements.md#sql-server-information)
 
 ### Problem:
 
@@ -60,7 +60,7 @@ If you wish to turn off the load **Database Permissions** option, do the followi
 2. On the **SPDocKit Options** dialog select **Snapshot Options**.
 3. Under the **Security** section uncheck **Database Permissions**.
 
-If you wish to grant the necessary permissions to the SPDocKit accounts, follow this [link.](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/troubleshooting/requirements/server-load-permission-requirements/README.md#sql-server-information)
+If you wish to grant the necessary permissions to the SPDocKit accounts, follow this [link.](../../../requirements/server-load-permission-requirements.md#sql-server-information)
 
 ## Project Server
 
@@ -80,5 +80,5 @@ Take the steps described in the \[following article\]../requirements/server-load
 
 ### Learn more
 
-* [RPC Server is Unavailable](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/troubleshooting/troubleshooting/server-load-and-user-permissions/rpc-server-unavailable.md)
+* [RPC Server is Unavailable](../../../troubleshooting/server-load-and-user-permissions/rpc-server-unavailable.md)
 

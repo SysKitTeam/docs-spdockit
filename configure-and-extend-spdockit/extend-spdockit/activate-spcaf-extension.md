@@ -19,7 +19,7 @@ If you only wish to try the SPCAF extension without activation, there is a trial
 
 ## **Installing**
 
-1. To install SPCAF extension you can use either online or offline installation. For detailed instructions click [here](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/configure-and-extend-spdockit/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md).
+1. To install SPCAF extension you can use either online or offline installation. For detailed instructions click [here](../../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md).
 
 ## **Activation**
 
@@ -46,6 +46,6 @@ You will notice a **challenge code** \(in the previous picture\). Visit the webp
 And that is it. You may try opening some of the SPCAF reports to make sure they are working properly.
 
 {% hint style="warning" %}
-**Please note! SPCAF section will be visible in the navigation tree only after** [**installing**](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/configure-and-extend-spdockit/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
+**Please note! SPCAF section will be visible in the navigation tree only after** [**installing**](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
 {% endhint %}
 

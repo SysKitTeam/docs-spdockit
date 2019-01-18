@@ -10,7 +10,7 @@ date: 17/05/2017
 
 # Create New Subscription
 
-If you wish to use **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configure-and-extend-spdockit/options-wizard/README.md#subscription-settings.md) properly.
+If you wish to use **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](../../../configure-and-extend-spdockit/options-wizard.md#subscription-settings) properly.
 
 1. Navigate to the Backstage Configuration Screen and click **Subscriptions and Alerts**, or find this button in the Home ribbon.
 2. When the Subscriptions and Alerts manager opens, click **New Subscription**.
@@ -31,7 +31,7 @@ If you wish to use **Subscriptions and Alerts** feature, please make sure you co
    * Last run time – information on when was the last time this subscription was sent. If this is an entirely new subscription, it will say Never.
 
 4. Go to the Delivery tab and set the delivery method you would like to use.
-   * **Email** – required fields are Send To and Body. Provide the email address to which you wish to send the subscription. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configure-and-extend-spdockit/options-wizard/README.md#snapshot-options.md).
+   * **Email** – required fields are Send To and Body. Provide the email address to which you wish to send the subscription. You can enter more recipients – just separate the email addresses with semicolons. Type in the subject and body text. In case that this method is disabled, click the Configure link to adjust your [subscription settings](../../../configure-and-extend-spdockit/options-wizard.md#snapshot-options).
    * **File Share** – input the File Share location here. You can use the Test button to check if the given location is reachable and if SPDocKit can write to the location.
    * **SharePoint Library** – If this is the first time you are using this feature, you need to create a new library connection.
 

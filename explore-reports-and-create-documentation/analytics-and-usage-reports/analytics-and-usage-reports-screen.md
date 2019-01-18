@@ -48,21 +48,21 @@ Analytics and Usage Reports provide a quick overview of your farm storage and co
 
   **Feature Usage**
 
-  **Feature Usage by Edition** – Shows the usage of feature licenses per SharePoint edition \(Foundation, Standard or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configure-and-extend-spdockit/license-management.md).
+  **Feature Usage by Edition** – Shows the usage of feature licenses per SharePoint edition \(Foundation, Standard or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](../../../configure-and-extend-spdockit/license-management.md).
 
-  **Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(**Web application, Site Collection, or Subsite**\). To see a complete report, define the number of available custom feature licenses using [License Management](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configure-and-extend-spdockit/license-management.md).
+  **Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(**Web application, Site Collection, or Subsite**\). To see a complete report, define the number of available custom feature licenses using [License Management](../../../configure-and-extend-spdockit/license-management.md).
 
 ## SPCAF reports
 
 SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It provides detailed information about a SharePoint customization’s \(WSPs or Add-ins\) code quality, dependencies, and complexity, among other things.  
 Find out more [about SPCAF](https://www.spcaf.com/) and how it can help you keep your SharePoint farm healthy and clean.  
-Use SPDocKit to load WSPs information from your SharePoint farm and then analyze them by [adding SPCAF extension reports](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) using Extension Manager.
+Use SPDocKit to load WSPs information from your SharePoint farm and then analyze them by [adding SPCAF extension reports](../../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) using Extension Manager.
 
 **Available reports**: Analysis Summary, Code Quality, Code Metrics, Code Dependencies and Code Inventory.  
 **Supported SharePoint versions**: SP2013, SP2016.
 
 {% hint style="warning" %}
-**Please note! SPCAF section will be visible in the navigation tree only after** [**installing**](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
+**Please note! SPCAF section will be visible in the navigation tree only after** [**installing**](../../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
 {% endhint %}
 
 ## Workflow reports
@@ -75,6 +75,6 @@ This plugin for SPDocKit will allow you to analyze workflow usage on your farm.
 Visit [SPDocKit resources center](https://www.spdockit.com/resources/reports) for videos and samples of SharePoint documentation and reports by SPDocKit.
 
 {% hint style="warning" %}
-**Please note! Workflow Analytics section will be visible in the navigation tree only after** [**installing**](https://github.com/SysKitTeam/docs-spdockit/tree/8189b9511feae817c534664a254f80f907d19119/explore-reports-and-create-documentation/configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
+**Please note! Workflow Analytics section will be visible in the navigation tree only after** [**installing**](../../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
 {% endhint %}
 
