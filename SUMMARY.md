@@ -146,5 +146,4 @@
     * [Configure SQL server to listen on a specific port](troubleshooting/sql-server-connection/configure-server-to-specific-port.md)
     * [Service user does not have rights to connect to the SQL server](troubleshooting/sql-server-connection/service-user-doesnt-have-rights-to-connect-to-server.md)
     * [Inbound traffic on TCP Port 1433 needs to be allowed on the SQL](troubleshooting/sql-server-connection/inbound-traffic.md)
-* [TOC](toc.md)
 
