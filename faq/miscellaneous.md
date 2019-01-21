@@ -42,7 +42,12 @@ When this error occurs you are not able to start the application and you cannot 
 
 The installation was not able to remove the Windows service. The existing installation needs to be repaired and then removed before you can proceed with the upgrade.
 
-Here is what you need to do: 1. Obtain the original MSI file you used to install the product \(product version e.g. 1.0.3 is listed in **Control Panel &gt; Programs**, but you can [contact us](https://www.syskit.com/company/contact-us/) to obtain the original installation\). 2. Right-click the MSI file and choose **Repair** to repair the application. 3. Use **Control Panel &gt; Programs** to uninstall the application. 4. Once uninstalled, you can **install** the latest version as planned.
+Here is what you need to do: 
+
+1. Obtain the original MSI file you used to install the product \(product version e.g. 1.0.3 is listed in **Control Panel &gt; Programs**, but you can [contact us](https://www.syskit.com/company/contact-us/) to obtain the original installation\).
+2. Right-click the MSI file and choose **Repair** to repair the application.
+3.  Use **Control Panel &gt; Programs** to uninstall the application.
+4. Once uninstalled, you can **install** the latest version as planned.
 
 During this procedure you might get the “Service Marked for Deletion” error message. In that case, make sure the Services dialog box is not running **\(Control Panel &gt; Administrative Tools &gt; Services\)**. If the dialog box is not running you will have to restart your computer before proceeding to the next step.
 
