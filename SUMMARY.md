@@ -165,7 +165,6 @@
   * [SharePoint On-Premises Forms Authentication](known-issues/forms-authentication-on-prem.md)
   * [Permissions Wizard issue](known-issues/permissions-wizard-issue.md)
   * [CREATE TABLE permissions denied](known-issues/create-table.md)
-  * [index](known-issues/index.md)
   * [Recursive groups issue with export](known-issues/recursive-groups-export.md)
   * [Custom features missing in reports](known-issues/custom-features-missing.md)
   * [Data retention not working properly](known-issues/data-retention.md)
