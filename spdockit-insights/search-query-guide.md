@@ -37,7 +37,9 @@ Not all result types have the same fields. For a complete list of fields click [
 
 Single and multiple character wildcard queries are supported. Use **"?"** for a single character wildcard and **"\*"** for a multiple character wildcard search.
 
+{% hint style="warning" %}
 Please note that searches with a starting wildcard are not supported. Use wildcard searches sparingly, they can be a performance killer.
+{% endhint %}
 
 ## Operators
 

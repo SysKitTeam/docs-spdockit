@@ -90,9 +90,13 @@ In this section, the user can set how long data will be kept in the database. **
 
 Set the preferred database size and SPDocKit will warn you when the database size passes that threshold.
 
+{% hint style="warning" %}
 If your SPDocKit database becomes too big, you can force a manual data retention using the **Execute** button. Please note that this action will also try to execute the SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – being member of the sysadmin server role or db\_owner database role. Without those permissions, data will still be deleted, but the database size will not decrease. You can still attempt to manually decrease the size of SPDocKit's databases by executing the SHRINKDATABASE command manually after the data retention job has run.
+{% endhint %}
 
+{% hint style="info" %}
 Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](../snapshots-screen.md).
+{% endhint %}
 
 ## Subscription settings
 
@@ -108,19 +112,30 @@ The **Email settings** configuration has been relocated to the Subscription Sett
 
 ## Email alerts
 
-The **Email alerts** feature has been redesigned in SPDocKit 6.2.0. **Please note!** Email alerts created with SPDocKit versions older than 6.2.0 will not be preserved when upgrading to version 6.2.0. You will have to create new alerts.
+The **Email alerts** feature has been redesigned in SPDocKit 6.2.0. 
+
+{% hint style="warning" %}
+**Please note!** Email alerts created with SPDocKit versions older than 6.2.0 will not be preserved when upgrading to version 6.2.0. You will have to create new alerts.
+{% endhint %}
 
 In order to create an alert containing the Farm Documentation, Farm Differences, or Best Practices Documentation reports, please follow these instructions.
 
 1. Enable automatic subscriptions in the [Subscription Settings](options-wizard.md) tab.
 2. [Create new alert](../../how-to/subscriptions-and-alerts/create-new-alert.md) containing the Farm Documentation, Farm Differences or Best Practices Documentation reports.
 3. When adding a Farm Differences report, you will be prompted to select the target farm \(if there are multiple farms in your SPDocKit database\). The source farm will already be set to the farm you picked in the General tab. If you want to compare the current farm state with the previous one, both filters must have the same farm selected. If you wish to compare differences for two different farms, change the destination farm filter accordingly.
-4. Please note that alerts are sent only after a service takes a snapshot and only if there are differences detected. If you would like to receive these reports even if there are no differences detected, please [create a subscription](../../how-to/subscriptions-and-alerts/create-new-subscription.md) instead of an alert in step 2.
-5. When done click Save & Close.
+4. When done click Save & Close.
+
+{% hint style="warning" %}
+Please note that alerts are sent only after a service takes a snapshot and only if there are differences detected. If you would like to receive these reports even if there are no differences detected, please [create a subscription](../../how-to/subscriptions-and-alerts/create-new-subscription.md) instead of an alert in step 2.
+{% endhint %}
 
 ## Compare
 
-From SPDocKit 7.4.0. onwards you can define with which snapshot the current one is compared when detecting configuration changes. 1. **Previous snapshot** - the current snapshot is compared with the last snapshot taken. 2. **Last good configuration** - with this option selected, the current snapshot is compared with the latest snapshot that is marked as good. 3. **Selected snapshots** - when this option is selected, you can choose between all your snapshots taken beforehand.
+From SPDocKit 7.4.0. onwards you can define with which snapshot the current one is compared when detecting configuration changes. 
+
+1. **Previous snapshot** - the current snapshot is compared with the last snapshot taken.
+2. **Last good configuration** - with this option selected, the current snapshot is compared with the latest snapshot that is marked as good.
+3. **Selected snapshots** - when this option is selected, you can choose between all your snapshots taken beforehand.
 
 Note that if you choose option 2. and there are no snapshots marked as good, SPDocKit will compare the current snapshot to the last snapshot taken. The same rule applies if you choose option 3. and the selected snapshot gets deleted.
 

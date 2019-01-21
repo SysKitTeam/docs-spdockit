@@ -7,7 +7,11 @@ description: This article explains how to perform a manual snapshot in SPDocKit
 
 # Manual Snapshots
 
-This section describes how you can use the SPDocKit Snapshot wizard to collect SharePoint farm settings and permissions. Please note! Adjustments and settings you make using this wizard apply to the current snapshot-taking process only. If you wish to configure a default snapshot-taking setting, use the [Options wizard](../../get-to-know-spdockit/backstage-screen/options-wizard.md). The selection you make there will be used as a default load template.
+This section describes how you can use the SPDocKit Snapshot wizard to collect SharePoint farm settings and permissions.
+
+{% hint style="warning" %}
+ Please note! Adjustments and settings you make using this wizard apply to the current snapshot-taking process only. If you wish to configure a default snapshot-taking setting, use the [Options wizard](../../get-to-know-spdockit/backstage-screen/options-wizard.md). The selection you make there will be used as a default load template.
+{% endhint %}
 
 1. Navigate to the Backstage Actions Screen and click the Take Snapshot button.
 2. Select the snapshot mode you wish the application to execute. There are three choices:

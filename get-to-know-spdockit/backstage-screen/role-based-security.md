@@ -15,19 +15,25 @@ This advanced security feature is meant to help admins take control and allow th
 
 To enable this feature, navigate to the **Backstage Configuration Screen**, click **Role Based Security**, and select the **Enable role based security** check box. Click Save to apply this change.
 
+{% hint style="warning" %}
 Please note that the user who enables this feature will automatically be assigned to the Admin role. For role based security to work, you have to use a database and have the **securityadmin** and **db\_owner** permissions.
+{% endhint %}
 
 ## Admin role
 
 This role gives you full control over SPDocKit, as well as over the entire role based security system. As an admin you can create new custom roles, and assign users or groups to them or to one of our predefined roles \(Admin and Viewer\).
 
+{% hint style="warning" %}
 Please note that the first person who activates the RBS \(role based security\) will be automatically given the admin role.
+{% endhint %}
 
 ## Viewer role
 
 The Viewer role is predefined, along with the Admin role. This is a read-only role, and some reports are unavailable to members of this role due to security reasons.
 
+{% hint style="warning" %}
 **Please note!** With the Viewer role, you cannot see certain reports, like the Web.config files, Storage Metrics, All Farm Users, Users with Privileged Access, and the entire Passwords and Product Keys section in the Farm Explorer. You also cannot create a new view for a report.
+{% endhint %}
 
 ### Learn more
 

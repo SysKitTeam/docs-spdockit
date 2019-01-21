@@ -103,8 +103,10 @@ The limit is configurable in the agent settings under the _Advanced Options_ but
 
 ### Problem
 
+{% hint style="info" %}
 **Please note** that this is merely an example of a situation when the agent needs to be removed:  
 Insights Agent is uninstalled but when you open SPDocKit Insights viewer application - on home screen there is a message: "Agent XYZ is not up to date. Please update it."
+{% endhint %}
 
 ### Solution
 

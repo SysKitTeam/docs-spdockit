@@ -15,7 +15,11 @@ While trying to load Project server site settings with SPDocKit I received:
 
 ## Why is this error occurring?
 
-During the Take Snapshot process SPDocKit will try to retrieve information about your Project server sites. Please note that the following rights on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your Project server sites the following rights are necessary:
+During the Take Snapshot process SPDocKit will try to retrieve information about your Project server sites.
+
+{% hint style="warning" %}
+Please note that the following rights on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your Project server sites the following rights are necessary:
+{% endhint %}
 
 * **SPDocKit account** needs to be a member of the Project Server **Administrators** group on each of the Project server sites
 

@@ -170,4 +170,3 @@
   * [Custom features missing in reports](known-issues/custom-features-missing.md)
   * [Data retention not working properly](known-issues/data-retention.md)
 
-
