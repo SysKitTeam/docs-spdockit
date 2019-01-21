@@ -9,7 +9,11 @@ date: 16/5/2017
 
 ## SharePoint Server Information
 
-During the Snapshot creation process, SPDocKit will try to retrieve information about your servers. Please note that the following permissions on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practices reports will not be available in SPDocKit.
+During the Snapshot creation process, SPDocKit will try to retrieve information about your servers. 
+
+{% hint style="info" %}
+Please note that the following permissions on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practices reports will not be available in SPDocKit.
+{% endhint %}
 
 ### Required permissions
 
@@ -55,7 +59,11 @@ To start the **Windows Update service**, open the Service Microsoft Management C
 
 ## SQL Server Information
 
-There are some additional SPDocKit permission requirements necessary to load SQL servers information. Please note that the following permissions on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practices reports will not be available in SPDocKit.
+There are some additional SPDocKit permission requirements necessary to load SQL servers information. 
+
+{% hint style="info" %}
+Please note that the following permissions on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practices reports will not be available in SPDocKit.
+{% endhint %}
 
 ### Required permissions
 

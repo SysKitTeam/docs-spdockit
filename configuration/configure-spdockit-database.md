@@ -6,7 +6,9 @@ SPDocKit uses a database for storing data gathered from your SharePoint farm.
 
 **From SPDocKit 8 onwards, the use of a dedicated SPDocKit database is required!**
 
+{% hint style="warning" %}
 **Please note!** This should be a SPDocKit-dedicated database; please **do not provide SharePoint databases here**.
+{% endhint %}
 
 ## SPDocKit Farm
 
@@ -26,7 +28,9 @@ SPDocKit uses a database for storing data gathered from your SharePoint farm.
 
 ## SPDockit Workstation
 
+{% hint style="warning" %}
 **Please note!** Only SPDocKits installed on SharePoint servers can create databases. Workstations cannot create their own database; they must connect to already existing databases.
+{% endhint %}
 
 **To select a database on a workstation installation of SPDocKit, follow these steps:**
 
