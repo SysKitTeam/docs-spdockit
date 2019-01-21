@@ -9,7 +9,7 @@ date: 18/5/2017
 
 # My permissions loading status is reported as ”Failed”
 
-## Problem:
+## Problem
 
 When I am trying to load my SharePoint farm permissions, loading wizard informs me that loading status is Failed for some of the objects.
 

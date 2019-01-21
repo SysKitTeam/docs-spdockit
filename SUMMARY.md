@@ -136,7 +136,6 @@
     * [My permissions loading status is reported as ”Failed”](troubleshooting/server-load-and-user-permissions/permissions-loading-status.md)
     * [Failed at retrieving SQL Accounts from the following servers](troubleshooting/server-load-and-user-permissions/failed-at-retrieving-accounts-from-servers.md)
     * [Error adding service account to "spdockit\_service\_role" database role](troubleshooting/server-load-and-user-permissions/error-adding-service-account-to-role.md)
-    * [index](troubleshooting/server-load-and-user-permissions/index.md)
     * [Errors while loading server information](troubleshooting/server-load-and-user-permissions/errors-while-loading-server-information.md)
     * [SQL Server is unavailable](troubleshooting/server-load-and-user-permissions/sql-server-unavailable.md)
   * [SQL Server Connection](troubleshooting/sql-server-connection/README.md)
