@@ -9,7 +9,7 @@ date: 07/11/2018
 
 # Error while loading IIS Settings Information
 
-## Problem:
+## Problem
 
 While trying to load a SharePoint 2019 farm with the enabled IIS Settings Information option, the following error message appears:
 
@@ -21,7 +21,7 @@ The following error message is stored in the event log:
 >
 > _Acceleratio.SPCommon.SharePointCrawler.IISCompatibilityMissingException: IIS 6 Management Metabase Compatibility required._ _at Acceleratio.SPDocKit.Administration.IISSettingsLoader.IISMetabaseReader.GetAppPools\(String serverAddress, ConfigReader configReader\)_ _at Acceleratio.SPDocKit.Administration.IISSettingsLoader.IISLoaders.IIS7Loader.Load\(\)_ _at Acceleratio.SPDocKit.Administration.ServerDetailsLoader.\#ca3.\#uZgb\(\)_ _at Acceleratio.SPCommon.TimeoutableAction.\#392.\#5Ygb\(\)_
 
-## Solution:
+## Solution
 
 To successfully load IIS Settings, the IIS 6 Metabase Compatibility role has to be enabled.
 
