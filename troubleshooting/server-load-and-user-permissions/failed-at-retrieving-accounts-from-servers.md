@@ -13,7 +13,7 @@ date: 18/5/2017
 
 While loading a SharePoint farm the following error message was displayed in the event log:
 
-> _Failed at retrieving SQL Accounts from the following servers: ‘Server Name’. Check your permissions._
+> Failed at retrieving SQL Accounts from the following servers: ‘Server Name’. Check your permissions.
 
 ## Solution
 

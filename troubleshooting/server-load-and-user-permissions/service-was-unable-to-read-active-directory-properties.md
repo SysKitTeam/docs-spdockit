@@ -15,7 +15,7 @@ date: 18/5/2017
 
 While loading a SharePoint farm the following error message was displayed in the event log:
 
-> _The service was unable to read Active Directory properties for Group SID\(s\):’Group Name’. Check Service permissions._
+> The service was unable to read Active Directory properties for Group SID\(s\):’Group Name’. Check Service permissions.
 
 ## Solution
 
