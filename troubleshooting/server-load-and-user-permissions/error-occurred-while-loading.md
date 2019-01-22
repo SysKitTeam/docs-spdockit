@@ -13,15 +13,15 @@ date: 18/5/2017
 
 While trying to load a SharePoint farm the following error message was displayed:
 
-> _Error occurred while loading ‘Application Name’ Web Application_
+> Error occurred while loading ‘Application Name’ Web Application
 
 and the following error messages are stored in the event log:
 
-> _The following sites are not loaded properly because you do not have the right privileges for these databases._ _Unavailable databases:_  
-> _WSS\_Content\_7c8cd57018d5404bb5f6c8d4db8a7f8b_  
-> _WSS\_Content\_99d31b6221f849079028a2ce91ad6d47_
+> The following sites are not loaded properly because you do not have the right privileges for these databases. Unavailable databases:  
+> WSS\_Content\_7c8cd57018d5404bb5f6c8d4db8a7f8b  
+> WSS\_Content\_99d31b6221f849079028a2ce91ad6d47
 >
-> _Unavailable sites:_  
+> Unavailable sites:  
 > http://intranet  
 > http://intranet/sites/HR  
 > http://intranet/sites/Sales

@@ -79,7 +79,7 @@ Verify if the “File and Printer Sharing for Microsoft Networks” is enabled i
 * To check this option, go to Control Panel &gt; Network and Sharing Center &gt; Change adapter settings. Then right-click on your default network adapter and select Properties.
 
 {% hint style="info" %}
-### Additional Notes
+**Additional notes**
 
 In addition, take the following into the consideration:
 
