@@ -75,7 +75,7 @@ From version 7 and onwards, you can document Project Server settings, list of pr
 
 You can also specify the load depth, which means how deep you want to crawl your SharePoint with SPDocKit. Possible choices are: site collection. subsites, list, and list items. Be aware that there are some dependencies related to the load depth selection and the available SharePoint information SPDocKit can retrieve. For example, if you want to load content types and workflows, lists are the minimum required load depth. SPDocKit will warn you if your current selection is not possible and provide instruction messages for enabling certain load options.
 
-Finally, you can customize the **snapshots name template**. Under Snapshot Configuration, note the Snapshot Name Template field. We have prepared the Farm Name, Snapshot Mode \(which can be either Automatic or Manual\), and Date \(which you can customize any way you like\), keywords that can be included in the name template. The default date format is: “Date:yyyy_MMdd\_HH\_mm\_ss”. You can change the format by rearranging the item order and delimiter type. You can observe this name if you go to the Snapshots tab and include the File Name column using the View ribbon button called \_\_Choose Columns\_.
+Finally, you can customize the **snapshots name template**. Under Snapshot Configuration, note the Snapshot Name Template field. We have prepared the Farm Name, Snapshot Mode \(which can be either Automatic or Manual\), and Date \(which you can customize any way you like\), keywords that can be included in the name template. The default date format is: “Date:yyyyMMdd\_HH\_mm\_ss”. You can change the format by rearranging the item order and delimiter type. You can observe this name if you go to the Snapshots tab and include the File Name column using the View ribbon button called __**Choose Columns**.
 
 To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
 
@@ -105,7 +105,11 @@ To enable **email** as the preferred delivery method, configure outgoing email s
 
 ## Compare
 
-From SPDocKit 7.4.0. onwards you can define with which snapshot the current one is compared when detecting configuration changes. 1. **Previous snapshot** - the current snapshot is compared with the last snapshot taken. 2. **Last good configuration** - with this option selected, the current snapshot is compared with the latest snapshot that is marked as good. 3. **Selected snapshots** - when this option is selected, you can choose between all your snapshots taken beforehand.
+From SPDocKit 7.4.0. onwards you can define with which snapshot the current one is compared when detecting configuration changes. 
+
+1. **Previous snapshot** - the current snapshot is compared with the last snapshot taken. 
+2. **Last good configuration** - with this option selected, the current snapshot is compared with the latest snapshot that is marked as good. 
+3. **Selected snapshots** - when this option is selected, you can choose between all your snapshots taken beforehand.
 
 Note that if you choose option 2. and there are no snapshots marked as good, SPDocKit will compare the current snapshot to the last snapshot taken. The same rule applies if you choose option 3. and the selected snapshot gets deleted.
 
