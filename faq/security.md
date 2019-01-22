@@ -56,8 +56,7 @@ Please configure your antivirus software to exclude the following folder from an
 > Drive:\Program Files\SysKit\SPDocKit
 
 {% hint style="warning" %}
-**Please note:**   
-  
+**Please note!**  
 The placeholder Drive represents the letter of the drive on which you have your SharePoint application installed. Typically, this drive letter is C.
 {% endhint %}
 
