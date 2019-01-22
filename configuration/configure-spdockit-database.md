@@ -85,11 +85,9 @@ To add a new database connection, follow these steps:
 
 To change the database, you can use the **Database Connection** dialog to list all created connections and the **Set as Active** button to connect to a database. A much simpler solution is to use the drop-down. Click on the connection you want and the database will be switched immediately.
 
-**Edit a connection**
+### **Edit a connection**
 
 In the main **Database Connection** dialog, select the connection you want and click the **Edit** button. You can edit a connection's name, but you can also completely change the SQL Server or the database you are using. When you are done, click OK.
-
-**Delete a connection**
 
 To delete a connection, select it and click the **Delete** button.
 
