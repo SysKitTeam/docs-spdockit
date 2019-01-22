@@ -132,7 +132,7 @@
     * [Errors while trying to load the SharePoint farm](troubleshooting/server-load-and-user-permissions/errors-while-loading-farm.md)
     * [Service was unable to read Active Directory properties](troubleshooting/server-load-and-user-permissions/service-was-unable-to-read-active-directory-properties.md)
     * [Error while loading IIS Settings Information](troubleshooting/server-load-and-user-permissions/error-while-loading-iis-settings.md)
-    * [rpc-server-unavailable](troubleshooting/server-load-and-user-permissions/rpc-server-unavailable.md)
+    * [RPC Server is Unavailable](troubleshooting/server-load-and-user-permissions/rpc-server-unavailable.md)
     * [My permissions loading status is reported as ”Failed”](troubleshooting/server-load-and-user-permissions/permissions-loading-status.md)
     * [Failed at retrieving SQL Accounts from the following servers](troubleshooting/server-load-and-user-permissions/failed-at-retrieving-accounts-from-servers.md)
     * [Error adding service account to "spdockit\_service\_role" database role](troubleshooting/server-load-and-user-permissions/error-adding-service-account-to-role.md)

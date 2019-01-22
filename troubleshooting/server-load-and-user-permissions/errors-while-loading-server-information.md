@@ -38,7 +38,7 @@ In order to allow SPDocKit to successfully gather all the information about your
 
 * **Sysadmin** server role
 
-In case that you can’t give those permissions due to security requirements, there are some alternatives available. More information on how to grant the required permissions is available [here.](../../requirements/server-load-permission-requirements.md#sql-server-information)
+In case that you can’t give those permissions due to security requirements, there are some alternatives available. More information on how to grant the required permissions is available [here](../../requirements/server-load-permission-requirements.md#granting-permissions-1).
 
 ### Problem:
 
