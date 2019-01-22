@@ -11,29 +11,31 @@ date: 23/5/2017
 
 By executing this SQL query you will get the overall size of your database as well as the used and free space inside the database:
 
-> _SELECT  
-> t.NAME AS TableName,  
-> s.Name AS SchemaName,  
-> p.rows AS RowCounts,  
-> SUM\(a.total\_pages\)_ 8 AS TotalSpaceKB,  
-> SUM\(a.used\_pages\) _8 AS UsedSpaceKB,  
-> \(SUM\(a.total\_pages\) - SUM\(a.used\_pages\)\)_ 8 AS UnusedSpaceKB  
-> FROM  
-> sys.tables t  
-> INNER JOIN  
-> sys.indexes i ON t.OBJECT\_ID = i.object\_id  
-> INNER JOIN  
-> sys.partitions p ON i.object\_id = p.OBJECT\_ID AND i.index\_id = p.index\_id INNER JOIN  
-> sys.allocation\_units a ON p.partition\_id = a.container\_id  
-> LEFT OUTER JOIN  
-> sys.schemas s ON t.schema\_id = s.schema\_id  
-> WHERE  
-> t.NAME NOT LIKE 'dt%'  
-> AND t.is\_ms\_shipped = 0 AND i.OBJECT\_ID &gt; 255  
-> GROUP BY  
-> t.Name, s.Name, p.Rows  
-> ORDER BY  
-> t.Name\*
+```sql
+SELECT
+t.NAME AS TableName,
+s.Name AS SchemaName,
+p.rows AS RowCounts,
+SUM(a.total_pages) 8 AS TotalSpaceKB,
+SUM(a.used_pages) 8 AS UsedSpaceKB,
+(SUM(a.total_pages) - SUM(a.used_pages)) 8 AS UnusedSpaceKB
+FROM
+sys.tables t
+INNER JOIN
+sys.indexes i ON t.OBJECT_ID = i.object_id
+INNER JOIN
+sys.partitions p ON i.object_id = p.OBJECT_ID AND i.index_id = p.index_id INNER JOIN
+sys.allocation_units a ON p.partition_id = a.container_id
+LEFT OUTER JOIN
+sys.schemas s ON t.schema_id = s.schema_id
+WHERE
+t.NAME NOT LIKE 'dt%'
+AND t.is_ms_shipped = 0 AND i.OBJECT_ID > 255
+GROUP BY
+t.Name, s.Name, p.Rows
+ORDER BY
+t.Name
+```
 
 ## The SPDocKit database size has grown too big — how do I trim or reduce its size?
 
@@ -49,7 +51,11 @@ In order to reduce the database size you can do the following:
 1. Open the **Options wizard**, select the [Data Retention](../configure-and-extend-spdockit/options-wizard.md#data-retention) tab. Here is where you will see how your retention policies are defined.
 2. You will see the **Force Data Retention** button, and next to that is an **Execute** button. Pressing this button will automatically delete old information, then attempt to shrink your database \(the way this runs is determined by the settings in step 1\).
 
-   **Please note:** this can take a little bit of time to run.
+{% hint style="warning" %}
+Please note:  
+  
+This can take a little bit of time to run.
+{% endhint %}
 
 If you are not running the latest version, you can do this manually:
 
@@ -58,7 +64,11 @@ If you are not running the latest version, you can do this manually:
 
 ## How to find out which SPDocKit version you are using?
 
-To find out which version of SPDocKit you are using, please follow these steps: 1. Open SPDocKit. 1. From the File menu choose **Help**. 1. Your version will be written under **About SPDocKit** part of the screen.
+To find out which version of SPDocKit you are using, please follow these steps: 
+
+1. Open SPDocKit.
+2. From the File menu choose **Help**. 
+3. Your version will be written under **About SPDocKit** part of the screen.
 
 ## What should I do to stop receiving "There is no data to show for this object" for all User Profile Reports?
 

@@ -9,7 +9,9 @@ date: 25/5/2017
 
 # Distributed Cache loading issue
 
-**Summary:** SPDocKit does not load Distributed Cache settings data and displays a warning message during the load:
+## **Summary**
+
+SPDocKit does not load Distributed Cache settings data and displays a warning message during the load:
 
 > Distributed Cache settings cannot be loaded on a server that is not part of a Distributed Cache Cluster.
 
@@ -17,9 +19,13 @@ This happens because SPDocKit queries only the server it is installed on for Dis
 
 **Application version:** 4.1.0 and newer
 
-**Solution:** Install SPDocKit and run the load process from a server that is part of the Distributed Cache Cluster.
+## **Solution**
 
-**Workaround:** Distributed Cache API requires that the registry of the current server contains data providers and connection string for the cluster, or SPDocKit has to be installed and run from a server that is part of the Distributed Cache Cluster.
+Install SPDocKit and run the load process from a server that is part of the Distributed Cache Cluster.
+
+## **Workaround**
+
+Distributed Cache API requires that the registry of the current server contains data providers and connection string for the cluster, or SPDocKit has to be installed and run from a server that is part of the Distributed Cache Cluster.
 
 There is an unofficial workaround for this restriction which includes editing the registry of the server on which SPDocKit is installed on to include the fields required by the API. This means running a PowerShell script on the server SPDocKit is installed on in order to update the provider and connection string fields.
 

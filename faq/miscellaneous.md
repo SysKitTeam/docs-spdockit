@@ -59,7 +59,10 @@ The account with which I have installed SPDocKit has permissions to run it, but 
 
 ### Solution:
 
-The user account that you use to log on to the web server is not a member of either of the following roles: 1. The Security Administrator role on the SQL server 2. The Database Creator role on the SQL server.
+The user account that you use to log on to the web server is not a member of either of the following roles: 
+
+1. The Security Administrator role on the SQL server 
+2. The Database Creator role on the SQL server.
 
 For more information please see [this article](https://support.microsoft.com/en-us/help/896148/you-receive-error-messages-when-you-try-to-use-the-stsadm-exe-command-line-tool-to-perform-certain-administrative-operations-in-windows-sharepoint-services).
 

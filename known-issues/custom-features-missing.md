@@ -7,7 +7,9 @@ date: 25/5/2017
 
 # Custom features missing in reports
 
-**Summary:** Custom features deployed on your farm are missing in SPDocKit feature reports. If verbose logging is enabled inside SPDocKit Options, you will see the following errors in the Windows event logs:
+## **Summary** 
+
+Custom features deployed on your farm are missing in SPDocKit feature reports. If verbose logging is enabled inside SPDocKit Options, you will see the following errors in the Windows event logs:
 
 > Microsoft.SharePoint.SPException: Failed to find the XML file at location ’14\Template\Features\CustomFeatureName\feature.xml’\`
 
@@ -15,7 +17,9 @@ This happens when the custom feature is not deployed on the farm server where SP
 
 **Application version:** 4.1.0 and newer.
 
-**Solution:** Install SPDocKit on and run the load process from a server where the custom features are deployed.
+## **Solution**
+
+Install SPDocKit on and run the load process from a server where the custom features are deployed.
 
 **Status:** Not resolved.
 

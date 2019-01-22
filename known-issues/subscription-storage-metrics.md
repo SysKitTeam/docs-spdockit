@@ -7,7 +7,9 @@ date: 25/5/2017
 
 # Storage Metrics report subscription
 
-**Summary:** The main reason that this report cannot be used as a subscription is the sheer volume of data that would result if all nodes were to be expanded.
+## **Summary** 
+
+The main reason that this report cannot be used as a subscription is the sheer volume of data that would result if all nodes were to be expanded.
 
 Notice that the Expand All command for this report is disabled. Every time a node in the report is expanded, the SharePoint API is queried for that content. The performance hit is negligible when expanding nodes manually, node by node. If we were to expand all the nodes at once, it would likely consume all resources available on the server. Also, the exported pdf would be large and not easily viewable.
 
@@ -17,7 +19,9 @@ We believe that limiting the report when used as a subscription in such a way wo
 
 **Application version:** 5.0.1.
 
-**Solution:** Currently there is no workaround for this issue.
+## **Solution**
+
+Currently there is no workaround for this issue.
 
 **Status:** Not resolved.
 
