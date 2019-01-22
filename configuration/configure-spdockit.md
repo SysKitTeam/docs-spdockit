@@ -23,7 +23,9 @@ This article explains how to configure the SPDocKit database and service before 
 
 4. click **Next** to complete the Configuration Wizard and apply the changes.
 
+{% hint style="warning" %}
 **Please note!** To configure your SPDocKit settings more thoroughly, navigate to the **File** tab, click on the **Configuration** in the left navigation bar and press [Options](../configure-and-extend-spdockit/backstage-screen.md) button.
+{% endhint %}
 
 ## Workstation
 
@@ -40,7 +42,11 @@ To install and configure SPDocKit on a workstation, follow these instructions:
 3. Enter the database server and database name from which you would like to retrieve the data. If you wish to monitor multiple farms from your workstation, all these SharePoint farms must be connected **to the same SPDocKit database**. Click **Next** to finish your configuration.
 4. Click **Finish** to start using SPDocKit on your workstation.
 
-**Please Note!** When using SPDocKit on your workstation, the **SPDocKit Service will not be available**. The following features are available:
+{% hint style="warning" %}
+**Please Note!** When using SPDocKit on your workstation, the **SPDocKit Service will not be available**. 
+{% endhint %}
+
+The following features are available:
 
 * Snapshots \(Farm Explorer and Best Practices reports\)
 * All reports \(Site Explorer, Permissions Reports, Analytics & Usage Reports, and Audit Reports\) except Queries and Rules
