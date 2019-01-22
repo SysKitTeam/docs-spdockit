@@ -52,7 +52,7 @@ In order to reduce the database size you can do the following:
 2. You will see the **Force Data Retention** button, and next to that is an **Execute** button. Pressing this button will automatically delete old information, then attempt to shrink your database \(the way this runs is determined by the settings in step 1\).
 
 {% hint style="warning" %}
-Please note:  
+**Please note:**  
   
 This can take a little bit of time to run.
 {% endhint %}
