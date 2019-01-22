@@ -15,13 +15,13 @@ date: 18/5/2017
 
 While trying to load a SharePoint farm I encountered the following error:
 
-> _Could not load Search Service Application, check your permissions or event log._
+> Could not load Search Service Application, check your permissions or event log.
 
 and the event log displays the following error message:
 
-> _The following service applications cannot be loaded:_  
-> _Search Service Application – Cannot open database “Search\_Service\_Application\_DB\_dd13ba19a7bb4ffaafcc3e626e73c949” requested by the login. The login failed.  
-> Login failed for user ‘CONTOSO\bob’._
+> The following service applications cannot be loaded:  
+> Search Service Application – Cannot open database “Search\_Service\_Application\_DB\_dd13ba19a7bb4ffaafcc3e626e73c949” requested by the login. The login failed.  
+> Login failed for user ‘CONTOSO\bob’.
 
 ### Solution
 
@@ -47,7 +47,7 @@ Here is what you need to do:
 
 While trying to load a SharePoint farm with SPDocKit I received:
 
-_Could not load User Profile Service Application, check your permissions or event log._
+> Could not load User Profile Service Application, check your permissions or event log.
 
 ### Solution
 
