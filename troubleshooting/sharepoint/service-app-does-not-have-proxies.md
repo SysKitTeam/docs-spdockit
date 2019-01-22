@@ -15,7 +15,7 @@ date: 18/5/2017
 
 While trying to load SharePoint farm settings with SPDocKit I received the following message:
 
-> _“The service application ‘UPA name’ does not have any proxies that are default in a proxy group.”_
+> The service application ‘UPA name’ does not have any proxies that are default in a proxy group.
 
 ## Solution
 

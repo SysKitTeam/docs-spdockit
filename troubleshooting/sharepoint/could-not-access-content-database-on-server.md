@@ -15,7 +15,7 @@ date: 18/5/2017
 
 While trying to load SharePoint farm settings with SPDocKit I received the following message:
 
-> _Could not access content database ‘Database Name’ on server ‘Server Name’. The site collections from this database will not be loaded._
+> Could not access content database ‘Database Name’ on server ‘Server Name’. The site collections from this database will not be loaded.
 
 ## Solution
 
@@ -39,7 +39,7 @@ Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database 
 ```
 
 {% hint style="warning" %}
-**Please note:**
+**Please note!**
 
 * The cmdlet **Add-SPShellAdmin** is going to apply to all the current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
 * The cmdlet might fail in some environments; please [contact us](https://www.spdockit.com/support/contact-us/) for further assistance.
