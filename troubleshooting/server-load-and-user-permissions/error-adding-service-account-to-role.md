@@ -13,7 +13,7 @@ date: 12/10/2017
 
 There is a warning during SPDocKit configuration:
 
-> _Error adding service account to "spdockit\_service\_role" database role. Check your SQL permissions._
+> Error adding service account to "spdockit\_service\_role" database role. Check your SQL permissions.
 
 ## Information
 
