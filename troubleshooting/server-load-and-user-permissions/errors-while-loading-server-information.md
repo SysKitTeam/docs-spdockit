@@ -60,7 +60,7 @@ If you wish to turn off the load **Database Permissions** option, do the followi
 2. On the **SPDocKit Options** dialog select **Snapshot Options**.
 3. Under the **Security** section uncheck **Database Permissions**.
 
-If you wish to grant the necessary permissions to the SPDocKit accounts, follow this [link.](../../requirements/server-load-permission-requirements.md#sql-server-information)
+If you wish to grant the necessary permissions to the SPDocKit accounts, follow this [link](../../requirements/server-load-permission-requirements.md#granting-permissions-1).
 
 ## Project Server
 
@@ -76,7 +76,7 @@ In order to allow SPDocKit to successfully gather all the information about your
 
 * **SPDocKit account** needs to be a member of the Project Server **Administrators** group on each of the Project server sites
 
-Take the steps described in the \[following article\]../requirements/server-load-permission-requirements/\#project-server-information.md\) to grant the required permissions.
+Take the steps described in the [following article](../../requirements/server-load-permission-requirements.md#granting-permissions-2) to grant the required permissions.
 
 ## Learn more
 
