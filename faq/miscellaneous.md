@@ -21,7 +21,7 @@ After you copy these files, please restart the application in order to apply the
 
 When I tried to load a SharePoint farm with SPDocKit I received the following error:
 
-> _This product cannot be activated because this is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator._
+> This product cannot be activated because this is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator.
 
 ### Solution:
 
@@ -34,7 +34,7 @@ When I tried to load a SharePoint farm with SPDocKit I received the following er
 
 You might encounter the following error if you are upgrading to the latest version of the application:
 
-> _Error 1001. An exception occurred while uninstalling. The exception will be ignored and the uninstall will continue. However the application might not be fully uninstalled after the uninstall is complete. -&gt; The specified service does not exists as an installed service._
+> Error 1001. An exception occurred while uninstalling. The exception will be ignored and the uninstall will continue. However the application might not be fully uninstalled after the uninstall is complete. -&gt; The specified service does not exists as an installed service.
 
 When this error occurs you are not able to start the application and you cannot Remove/Repair it from Control Panel &gt; Programs.
 
@@ -79,8 +79,7 @@ The application will work on both the console and the Remote Desktop session.
 5. Click Yes and SPDocKit will run without any issues.
 
 {% hint style="warning" %}
-Please note:  
-  
+**Please note!**  
 You must create a shortcut that points directly to the file in the application directory, and not to the file in the Start menu.
 {% endhint %}
 
@@ -90,7 +89,7 @@ You must create a shortcut that points directly to the file in the application d
 
 When trying to upgrade to the latest version of SPDocKit you might receive an error:
 
-> _The specified service already exists._
+> The specified service already exists.
 
 ### Solution:
 
