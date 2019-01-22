@@ -31,7 +31,7 @@ There is an unofficial workaround for this restriction which includes editing th
 
 The registry fields will be correctly updated using this PowerShell script:
 
-```text
+```bash
     if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)
     {Add-PSSnapin Microsoft.SharePoint.PowerShell;}
 
