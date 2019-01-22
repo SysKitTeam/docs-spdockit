@@ -15,7 +15,10 @@ This advanced security feature is meant to help admins take control and allow th
 
 To enable this feature, navigate to the **Backstage Configuration Screen**, click **Role Based Security**, and select the **Enable role based security** check box. Click Save to apply this change.
 
-Please note that the user who enables this feature will automatically be assigned to the Admin role. For role based security to work, you have to use a database and have the **securityadmin** and **db\_owner** permissions.
+{% hint style="warning" %}
+**Please note!**  
+The user who enables this feature will automatically be assigned to the Admin role. For role based security to work, you have to use a database and have the **securityadmin** and **db\_owner** permissions.
+{% endhint %}
 
 ## Admin role
 
