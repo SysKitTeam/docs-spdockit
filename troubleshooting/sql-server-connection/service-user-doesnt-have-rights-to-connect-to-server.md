@@ -9,11 +9,11 @@ date: 19/5/2017
 
 # Service user does not have rights to connect to the SQL server
 
-## Problem:
+## Problem
 
 The service user does not have rights to connect to the SQL server.
 
-## Solution:
+## Solution
 
 The service user needs to be granted the **dbcreator** and **securityadmin** server roles.
 
