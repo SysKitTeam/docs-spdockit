@@ -11,7 +11,7 @@ date: 18/5/2017
 
 # Error occurred while loading Web Application
 
-## Problem:
+## Problem
 
 While trying to load the SharePoint farm the following errors occurred:
 
@@ -24,7 +24,7 @@ There is an error message in the event log:
 > The login failed.  
 > Login failed for user ‘CONTOSO\bob’_.
 
-## Solution:
+## Solution
 
 The user running the SPDocKit needs to have the [proper privileges](../../requirements/user-permissions-requirements.md) to retrieve information from the SharePoint farm. To fix this issue make sure the user has Shell access to the given content database, using the following PowerShell code to grant access:
 

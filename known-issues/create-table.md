@@ -17,7 +17,7 @@ SPDocKit queries the NeedsUpgrade property of the SharePoint database. The query
 
 The issue can easily be reproduced in PowerShell by using the SPDocKit account or for that matter any account that lacks sufficient permissions:
 
-```text
+```bash
     $myDB = Get-SPDatabase | ?{$_.Name -eq "[SPDatabaseName]"}
     $myDB.NeedsUpgrade
 ```
