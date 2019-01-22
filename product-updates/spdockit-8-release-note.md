@@ -45,7 +45,7 @@ Give it a try and let us know what you think!
 * **Grid View is now available on DB Disk Usage and Database Growth reports**. Cells of the DB Disk Usage report are automatically colored if their values fall into warning or into the error threshold defined for the Content Database Capacity BP report.
 * The **Farm name is now automatically set** based on the snapshot data, if available. Otherwise, the usual naming is used: Farm 1, Farm 2, etc. The "\#" symbol is no longer a part of this naming, since it caused problems when used with cloud-based services.
 * The **Enable Usage and Health Data Collection report has been renamed "Usage and Health Data Collection Enabled"**, and the status of **two additional timer jobs has been added** \(Microsoft SharePoint Foundation Usage Data Processing and Microsoft SharePoint Foundation Usage Data Import\).
-* The **TempDB Files** Best Practice report now checks to see if the tempDB files are on a separate drive from Binaries, Data, and Log Files; however, all the tempDB files can be on the same drive. For more information, consult [this link](https://docs.syskit.com/bp/v1/databases/tempdb/files/).
+* The **TempDB Files** Best Practice report now checks to see if the tempDB files are on a separate drive from Binaries, Data, and Log Files; however, all the tempDB files can be on the same drive. For more information, consult [this link](https://docs.syskit.com/bp/databases/tempdb/files/).
 * The **Content Database Capacity** Best Practice report now **shows the Data File Free Space column instead of Data File Full**.
 * An **IIS Instance ID column has been added** to the **IIS Sites report**.
 * **The Site Structure report has been renamed "SharePoint Structure"**.
@@ -81,9 +81,9 @@ Give it a try and let us know what you think!
 
 ## Discontinued Features
 
-* **SPDocKit Insights is no longer a part of SPDocKit**. However, a new and improved option is available: [**SysKit Insights**](https://www.syskit.com/products/insights/) — a standalone monitoring solution for your SharePoint farm. Existing customers eligible for upgrade will find their new product keys on our [customers portal](https://my.syskit.com). For more information on how to **migrate from SPDocKit Insights to SysKit Insights**, visit the following [link](https://docs.syskit.com/spdockit/v8/faq/spdockit-insights-migration/).
+* **SPDocKit Insights is no longer a part of SPDocKit**. However, a new and improved option is available: [**SysKit Insights**](https://www.syskit.com/products/insights/) — a standalone monitoring solution for your SharePoint farm. Existing customers eligible for upgrade will find their new product keys on our [customers portal](https://my.syskit.com). For more information on how to **migrate from SPDocKit Insights to SysKit Insights**, visit the following [link](https://docs.syskit.com/spdockit/faq/spdockit-insights-migration/).
 * **SharePoint Online** connections are no longer supported in SPDocKit. Consequently, the Externally Shared report category in Permissions Reports is also not available. To manage SharePoint Online permissions and view reports, consider using [**SysKit Security Manager**](https://www.syskit.com/products/security-manager/).
 * **LocalDB is no longer supported** when SPDocKit is installed on a workstation. Only SPDocKit's installed on SharePoint servers can create databases. Workstations cannot create their own database; they must connect to already existing databases.
-* **SPDocKit run mode** has been replaced with new apps used with SPDocKit Consultant. For more information, visit the [following link](https://docs.syskit.com/spconsultant/v8/).
+* **SPDocKit run mode** has been replaced with new apps used with SPDocKit Consultant. For more information, visit the [following link](https://docs.syskit.com/spconsultant/).
 * The **XML File** option for saving snapshots has been removed.
 
