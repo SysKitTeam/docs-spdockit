@@ -9,7 +9,7 @@ date: 18/5/2017
 
 # Errors while trying to load the SharePoint farm
 
-## Problem:
+## Problem
 
 While trying to load the SharePoint farm I received the following errors:
 
@@ -26,7 +26,7 @@ There are also errors in the event log such as this one:
 > _System.Data.SqlClient.SqlException: Cannot open database ”WSS\_Content\_Intranet” requested by the login. The login failed._  
 > _Login failed for user ‘DOMAIN\user’._
 
-## Solution:
+## Solution
 
 The user running the SPDocKit needs to have the proper privileges to retrieve information from the SharePoint farm.
 

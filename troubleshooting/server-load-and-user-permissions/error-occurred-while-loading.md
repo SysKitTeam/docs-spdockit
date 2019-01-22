@@ -9,7 +9,7 @@ date: 18/5/2017
 
 # Error occurred while loading Web Application
 
-## Problem:
+## Problem
 
 While trying to load a SharePoint farm the following error message was displayed:
 
@@ -26,7 +26,7 @@ and the following error messages are stored in the event log:
 > http://intranet/sites/HR  
 > http://intranet/sites/Sales
 
-## Solution:
+## Solution
 
 The user running the application needs to have proper privileges to access the information about Site Collections stored in the content databases. [See this article](../../requirements/user-permissions-requirements.md) for more details on configuring privileges.
 
