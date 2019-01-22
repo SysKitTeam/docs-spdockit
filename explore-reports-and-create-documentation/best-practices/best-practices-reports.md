@@ -54,8 +54,6 @@ Download this report:
 
 {% file src="../../.gitbook/assets/number-of-content-databases-per-web-application.zip" %}
 
-
-
 ## Personalize Reports
 
 ### Create a new best practices report
