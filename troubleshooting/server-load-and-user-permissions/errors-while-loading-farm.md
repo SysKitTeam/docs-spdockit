@@ -13,18 +13,18 @@ date: 18/5/2017
 
 While trying to load the SharePoint farm I received the following errors:
 
-> _Error occurred while loading Web Applications._  
-> _Error occurred while loading Problems and Solutions._  
-> _Error occurred while loading Rule Definitions._  
-> _Could not load FASTContent, check your permissions or event log._  
-> _Could not load FASTQuery, check your permissions or event log._  
-> _Could not load Search Service Application, check your permissions or event log._  
-> _Could not load User Profile Service Application, check your permissions or event log._
+> Error occurred while loading Web Applications.  
+> Error occurred while loading Problems and Solutions.  
+> Error occurred while loading Rule Definitions.  
+> Could not load FASTContent, check your permissions or event log.  
+> Could not load FASTQuery, check your permissions or event log.  
+> Could not load Search Service Application, check your permissions or event log.  
+> Could not load User Profile Service Application, check your permissions or event log.
 
 There are also errors in the event log such as this one:
 
-> _System.Data.SqlClient.SqlException: Cannot open database ”WSS\_Content\_Intranet” requested by the login. The login failed._  
-> _Login failed for user ‘DOMAIN\user’._
+> System.Data.SqlClient.SqlException: Cannot open database ”WSS\_Content\_Intranet” requested by the login. The login failed.  
+> Login failed for user ‘DOMAIN\user’.
 
 ## Solution
 
