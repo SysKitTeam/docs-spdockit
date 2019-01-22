@@ -22,9 +22,9 @@ and the following error messages are stored in the event log:
 > _WSS\_Content\_99d31b6221f849079028a2ce91ad6d47_
 >
 > _Unavailable sites:_  
-> [http://intranet](http://intranet)  
-> [http://intranet/sites/HR](http://intranet/sites/HR)  
-> [http://intranet/sites/Sales](http://intranet/sites/Sales)
+> http://intranet  
+> http://intranet/sites/HR  
+> http://intranet/sites/Sales
 
 ## Solution:
 
@@ -32,7 +32,7 @@ The user running the application needs to have proper privileges to access the i
 
 If you are still having issues with individual Web Applications or other items you need to do the following: make sure the user has Shell access to the given content database, using the following PowerShell code to grant access:
 
-```text
+```bash
  $spcdb = Get-SPContentDatabase WSS_Content_Intranet
  Add-SPShellAdmin -UserName DOMAIN\User -Database $spcdb
 ```
