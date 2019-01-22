@@ -9,11 +9,11 @@ date: 19/5/2017
 
 # Configure SQL server to listen on a specific port
 
-## Problem:
+## Problem
 
 How to configure the SQL server to listen on a specific port?
 
-## Solution:
+## Solution
 
 Owing to security issues it is often not recommended to use the default port number 1433 for communicating with the SQL server. This article helps set up the SQL server to use a non-standard port number.
 

@@ -9,13 +9,13 @@ date: 29/11/2018
 
 ## SharePoint Server Information
 
-### Problem:
+### Problem
 
 While trying to load SharePoint farm settings with SPDocKit I received:
 
 > Error occurred while loading server ‘ServerName’.
 
-### Solution:
+### Solution
 
 In order to allow SPDocKit to successfully gather all the information about your SharePoint farm servers, the following permissions are necessary:
 
@@ -26,13 +26,13 @@ For more information on how to add the SPDocKit user to the Local Administrators
 
 ## SQL Server Information
 
-### Problem:
+### Problem
 
 While trying to create a SPDocKit snapshot, I received the following warning:
 
 > Loaded Server ‘ServerName’.
 
-### Solution:
+### Solution
 
 In order to allow SPDocKit to successfully gather all the information about your SQL servers the following permissions are necessary:
 
@@ -40,13 +40,13 @@ In order to allow SPDocKit to successfully gather all the information about your
 
 In case that you can’t give those permissions due to security requirements, there are some alternatives available. More information on how to grant the required permissions is available [here](../../requirements/server-load-permission-requirements.md#granting-permissions-1).
 
-### Problem:
+### Problem
 
 While trying to create a SPDocKit snapshot, I received the following warning:
 
 > Unable to load database permissions for ‘DatabaseName’.
 
-### Solution:
+### Solution
 
 In order to allow SPDocKit to successfully gather all the database permissions the following permissions are necessary:
 
@@ -64,13 +64,13 @@ If you wish to grant the necessary permissions to the SPDocKit accounts, follow 
 
 ## Project Server
 
-### Problem:
+### Problem
 
 While trying to load Project server site settings with SPDocKit I received:
 
 > The HTTP request is unauthorized with client authentication scheme 'Ntlm'. The authentication header received from the server was 'NTLM'.
 
-### Solution:
+### Solution
 
 In order to allow SPDocKit to successfully gather all the information about your Project server sites the following permissions are necessary:
 

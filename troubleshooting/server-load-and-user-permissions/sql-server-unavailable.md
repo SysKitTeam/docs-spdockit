@@ -11,13 +11,13 @@ date: 18/5/2017
 
 # SQL Server is unavailable
 
-## Problem:
+## Problem
 
 While loading a SharePoint farm the following error message was displayed in the event log:
 
 > _SQL Server ‘Server Name’ is unavailable. Please check your permissions._
 
-## Solution:
+## Solution
 
 The user running the application and the account under which the SPDocKit Service is running, if you have configured it, need to be granted rights to connect to the server for which this exception appears.
 

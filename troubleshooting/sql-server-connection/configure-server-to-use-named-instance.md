@@ -7,11 +7,11 @@ date: 19/5/2017
 
 # Is SQL Server configured to use a named instance
 
-## Problem:
+## Problem
 
 The wrong database server name has been entered while trying to connect to the database server through the SPDocKit Configuration wizard.
 
-## Solution:
+## Solution
 
 Check if your SQL server is configured to use a named instance, **e.g.Server/InstanceName**.
 

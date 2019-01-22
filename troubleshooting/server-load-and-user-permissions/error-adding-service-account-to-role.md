@@ -9,7 +9,7 @@ date: 12/10/2017
 
 # Error adding service account to "spdockit\_service\_role" database role
 
-## Problem:
+## Problem
 
 There is a warning during SPDocKit configuration:
 

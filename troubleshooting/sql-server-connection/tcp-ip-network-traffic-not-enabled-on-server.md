@@ -7,11 +7,11 @@ date: 19/5/2017
 
 # TCP/IP network traffic not enabled on the SQL Server
 
-## Problem:
+## Problem
 
 TCP/IP is not enabled on the SQL server.
 
-## Solution:
+## Solution
 
 TCP/IP network traffic needs to be enabled on the SQL Server, so that remote connections will be allowed on the SQL server. 
 
