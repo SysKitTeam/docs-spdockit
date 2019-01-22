@@ -7,11 +7,11 @@ date: 19/5/2017
 
 # Inbound traffic on TCP Port 1433 needs to be allowed on the SQL
 
-## Problem:
+## Problem
 
 Port 1433 is closed on the SQL server.
 
-## Solution:
+## Solution
 
 Inbound traffic on TCP Port 1433 needs to be allowed on the SQL server. 
 
