@@ -11,11 +11,11 @@ date: 26/5/2017
 
 This article explains how to use SPDocKit's Restore Permissions Wizard to restore permissions on a securable object to an earlier state.
 
-## Wizard scope:
+## Wizard scope
 
 A securable object \(subsite, list, folder, list item\) and it's permissions scope.
 
-## Prerequisites:
+## Prerequisites
 
 You must have a snapshot with loaded permissions of the selected object from the date you wish to restore it to.
 
@@ -33,13 +33,13 @@ You must have a snapshot with loaded permissions of the selected object from the
 5. When you click on Next, new dialog will popup and you will have to enter a 5 digit number to confirm that you really want to continue and execute listed actions.   
 6. The last step shows you the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button.  
 
-## Important:
+## Important
 
 * This wizard will not delete groups or permission levels that did not exist on the selected date and were created in the meantime. 
 * The Permission restore action is reversible only if there is a snapshot containing the current permission data. It is recommended that you have a snapshot containing the current permission data so you can reverse changes if something goes wrong. 
 * Essentially, this feature can be used to **backup** your permissions on a given point in time. Create the snapshot following the rules explained above - and the **snapshot itself serves as a backup.** 
 
-## Limitations:
+## Limitations
 
 * Snapshots must be taken with SPDocKit version 7 or higher and must contain permissions data of the target securable object.
 * You can only restore permissions on a securable object that currently has unique permissions and had unique permissions on the selected date. 

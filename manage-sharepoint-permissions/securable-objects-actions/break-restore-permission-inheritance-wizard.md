@@ -36,7 +36,9 @@ This wizard allows you to break permission inheritance on the desired subsites o
 
 This wizard allows you to restore permission inheritance on the desired subsites or lists all across the selected farm, web application or site collection.
 
+{% hint style="warning" %}
 **Please note!** Restoring permission inheritance on a subsite, will also restore the permission inheritance on lists and list items on that subsite.
+{% endhint %}
 
 1. Navigate to Permissions Explorer and click on the **Break/Restore Inheritance Wizard** in the Wizards ribbon.
 2. Select **Restore permission Inheritance** option. Click **Next** to continue.
