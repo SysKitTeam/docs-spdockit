@@ -4,12 +4,22 @@ The SPDocKit license key is available at your profile in our [Customers Portal](
 
 ### Change current license key
 
-To remove your current farm license and add a new license key, please follow these steps: 1. Navigate to **File &gt; Help &gt; License Details**. 1. Click on the field below the License Details title. 1. Click on the option **Deactivate** license and click Yes. 1. Enter the new product key and click **Activate**.
+To remove your current farm license and add a new license key, please follow these steps: 
+
+1. Navigate to **File &gt; Help &gt; License Details**.
+2. Click on the field below the License Details title.
+3. Click on the option **Deactivate** license and click Yes. 
+4. Enter the new product key and click **Activate**.
 
 ### Deactivate license
 
 To deactivate your current license, please follow these steps:  
-1. Navigate to File &gt; Help. 1. Click on the field below the **License Details** title. 1. Click on the **Deactivate License** link. 1. Confirm you would like to deactivate the license.
+
+
+1. Navigate to File &gt; Help. 
+2. Click on the field below the **License Details** title.
+3. Click on the **Deactivate License** link. 
+4. Confirm you would like to deactivate the license.
 
 SPDocKit license is now deactivated and you can use it again.
 
