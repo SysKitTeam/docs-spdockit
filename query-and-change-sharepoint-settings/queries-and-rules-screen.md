@@ -49,7 +49,9 @@ Use the query wizard to determine if all your governance policies have been prop
 Use the rule wizard to create a manual or automatic procedures that will help you enforce SharePoint governance policies.
 
 **Wizard scope** - the wizard can target whole Web applications, specific site collections within a Web application, subsites, lists and list libraries.  
-**Supported rule types**: 1. List rules
+**Supported rule types**: 
+
+1. List rules
 
 * **Attachments** – to specify if users can attach files to items in a list.
 * **Dialogs** – whether to launch a new, edit and display forms in the dialog.
@@ -64,8 +66,9 @@ Use the rule wizard to create a manual or automatic procedures that will help yo
 * **Require check out** – whether users must check out documents before making changes in this document library.
   * **Search** – list visibility in search results.
 
-1. Subsite rules
-   * **Request access mail** – specify an email address used for approving access requests to a subsite.
+2. Subsite rules
+
+* **Request access mail** – specify an email address used for approving access requests to a subsite.
 
 ## Queries and rules scheduling options
 
