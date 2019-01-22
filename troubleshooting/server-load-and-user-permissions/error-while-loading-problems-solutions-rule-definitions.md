@@ -9,7 +9,7 @@ author: Mia Tomaić
 date: 18/5/2017
 ---
 
-# Error occurred while loading Web Application
+# Error occurred while trying to load 'Problems and Solutions' and 'Rule Definitions'
 
 ## Problem
 
