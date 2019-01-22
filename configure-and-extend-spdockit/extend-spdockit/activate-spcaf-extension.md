@@ -27,19 +27,20 @@ Please note that if you already have the licensed SPCAF on a machine together wi
 
 1. As we mentioned before, you will receive your license key from Rencore. The key will be in a plain text format. This is what you need to do to create a license file: Create a file with extension “.lic”, e.g., **“license.lic“**. Then, open the file in your preferred text editor \(e.g., notepad\) and paste in your license key.
 
-   After you install the extension, you need to activate it. Take the license file \(**whose name must be license.lic**\) and place it in: **“%ProgramData%\SPDocKit\Extensions\SPCAF”**.  
-   Please note that, by default, the folders Extensions and SPCAF do not exist and **you need to create them**.
+After you install the extension, you need to activate it. Take the license file \(**whose name must be license.lic**\) and place it in: **“%ProgramData%\SPDocKit\Extensions\SPCAF”**.  
+Please note that, by default, the folders Extensions and SPCAF do not exist and **you need to create them**.
 
 2. After that, go to the SPCAF Reports in the Content & Usage Reports section of SPDocKit. Select any report, and you will notice the following message:
 
-   ![SPCAF-Trial](../../.gitbook/assets/spcaf-trial.png)
+![](../../.gitbook/assets/spcaf-trial%20%281%29.png)
 
 3. Click the **Activate your license** button.
 
-   ![SPCAF-Activation-Code](../../.gitbook/assets/spcaf-activation-code.png)  
-   You will notice a **challenge code** \(in the previous picture\). Visit the webpage [activation.spcaf.com](https://activation.rencore.com/) and enter the code, as well as your e-mail address and the license key. The license key is the same one from the second step of this wizard. You need to open it with any text editor and copy/paste it. Click **Submit**. You will receive further instructions in your e-mail shortly, but here is what you need to do:
+![](../../.gitbook/assets/spcaf-activation-code.png)
 
-   ![SPCAF-Activation](../../.gitbook/assets/spcaf-activation.png)
+You will notice a **challenge code** \(in the previous picture\). Visit the webpage [activation.spcaf.com](https://activation.rencore.com/) and enter the code, as well as your e-mail address and the license key. The license key is the same one from the second step of this wizard. You need to open it with any text editor and copy/paste it. Click **Submit**. You will receive further instructions in your e-mail shortly, but here is what you need to do:
+
+![](../../.gitbook/assets/spcaf-activation.png)
 
 4. Open the email and take the attached file \(**activations.caf**\). Place it in the following folder: **“%USERPROFILE%\AppData\Local\SPCAF”**
 
