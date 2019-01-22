@@ -20,9 +20,9 @@ While trying to load the SharePoint farm the following errors occurred:
 
 There is an error message in the event log:
 
-> _System.Data.SqlClient.SqlException: Cannot open database “SharePoint\_AdminContent\_bfe62573-2067-4090-a95a-39a13ba51086” requested by the login.  
+> System.Data.SqlClient.SqlException: Cannot open database “SharePoint\_AdminContent\_bfe62573-2067-4090-a95a-39a13ba51086” requested by the login.  
 > The login failed.  
-> Login failed for user ‘CONTOSO\bob’_.
+> Login failed for user ‘CONTOSO\bob’.
 
 ## Solution
 
