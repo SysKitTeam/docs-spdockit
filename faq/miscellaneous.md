@@ -104,7 +104,9 @@ In case you encounter a similar error again, try the following:
 
 Stop the SPDocKit Service in the services MMC console, then open the Command Prompt and type in the following to delete the service:
 
-> _sc delete SPDocKitService_
+```bash
+sc delete SPDocKitService
+```
 
 The service will be reinstalled with the new installation.
 
@@ -140,7 +142,7 @@ If you have a firewall between the server hosting the application and the server
 
 When trying to view Content & Usage Reports: Number of Unique Visitors, List of Site Visitors, Feature Usage by Edition I received:
 
-> _System.Data.SqlClient.SqlException: Cannot open database “WSS\_UsageApplication” requested by the login. The login failed. Login failed for user CONTOSO\user._
+> System.Data.SqlClient.SqlException: Cannot open database “WSS\_UsageApplication” requested by the login. The login failed. Login failed for user CONTOSO\user.
 
 ### Solution:
 
