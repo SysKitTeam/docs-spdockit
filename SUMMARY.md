@@ -139,10 +139,10 @@
     * [SQL Server is unavailable](troubleshooting/server-load-and-user-permissions/sql-server-unavailable.md)
     * [Error adding service account to "spdockit\_service\_role" database role](troubleshooting/server-load-and-user-permissions/error-adding-service-account-to-role.md)
   * [SQL Server Connection](troubleshooting/sql-server-connection/README.md)
-    * [TCP/IP network traffic not enabled on the SQL Server](troubleshooting/sql-server-connection/tcp-ip-network-traffic-not-enabled-on-server.md)
     * [SPDocKit won’t connect to a provided server and database](troubleshooting/sql-server-connection/configuration-wizard-connect-to-server-and-database.md)
-    * [Is SQL Server configured to use a named instance](troubleshooting/sql-server-connection/configure-server-to-use-named-instance.md)
     * [Configure SQL server to listen on a specific port](troubleshooting/sql-server-connection/configure-server-to-specific-port.md)
-    * [Service user does not have rights to connect to the SQL server](troubleshooting/sql-server-connection/service-user-doesnt-have-rights-to-connect-to-server.md)
+    * [Is SQL Server configured to use a named instance](troubleshooting/sql-server-connection/configure-server-to-use-named-instance.md)
     * [Inbound traffic on TCP Port 1433 needs to be allowed on the SQL](troubleshooting/sql-server-connection/inbound-traffic.md)
+    * [Service user does not have rights to connect to the SQL server](troubleshooting/sql-server-connection/service-user-doesnt-have-rights-to-connect-to-server.md)
+    * [TCP/IP network traffic not enabled on the SQL Server](troubleshooting/sql-server-connection/tcp-ip-network-traffic-not-enabled-on-server.md)
 
