@@ -11,7 +11,7 @@ date: 18/5/2017
 
 ## Search Service Application Requirements
 
-### Problem:
+### Problem
 
 While trying to load a SharePoint farm I encountered the following error:
 
@@ -23,7 +23,7 @@ and the event log displays the following error message:
 > _Search Service Application – Cannot open database “Search\_Service\_Application\_DB\_dd13ba19a7bb4ffaafcc3e626e73c949” requested by the login. The login failed.  
 > Login failed for user ‘CONTOSO\bob’._
 
-### Solution:
+### Solution
 
 The account running SPDocKit does not have the proper privileges to load the Search Service Application properties.
 
@@ -35,13 +35,13 @@ Here is what you need to do: 1. Open the **SharePoint Central Administration** o
 
 ## User Profile Service Application Requirements
 
-### Problem:
+### Problem
 
 While trying to load a SharePoint farm with SPDocKit I received:
 
 _Could not load User Profile Service Application, check your permissions or event log._
 
-### Solution:
+### Solution
 
 The account running SPDocKit does not have the proper privileges to load the User Profile Service Application properties.
 
