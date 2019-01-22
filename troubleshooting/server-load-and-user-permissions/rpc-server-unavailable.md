@@ -43,7 +43,9 @@ If you make any changes to these services, you may need to restart the services 
 
 Try to resolve the RPC Server's IP address by executing the following command from Command Prompt or PowerShell on the RPC Client’s server:
 
-> nslookup hostname\_or\_FQDN\_of\_RPC\_Server
+```bash
+nslookup hostname_or_FQDN_of_RPC_Server
+```
 
 * As a result, you should see the name and IP address of the Domain Controller against which the resolution has been performed, along with the name and IP address of the RPC Server you have tried to resolve.
 * If you receive an error message or you don't get the proper IP address of RPC Server, please contact your network administrator.
