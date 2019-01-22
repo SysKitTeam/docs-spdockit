@@ -15,5 +15,8 @@ We are sorry to hear you are leaving the SysKit family. If you have any suggesti
 4. Click **Next** and wait for the wizard to remove SPDocKit.
 5. Your SPDocKit has been successfully removed!
 
-Please note! SPDocKit database will not be removed automatically from your SQL Server. Nor will LocalDB files be removed from the disk.
+{% hint style="warning" %}
+**Please note!**  
+SPDocKit database will not be removed automatically from your SQL Server. Nor will LocalDB files be removed from the disk.
+{% endhint %}
 
