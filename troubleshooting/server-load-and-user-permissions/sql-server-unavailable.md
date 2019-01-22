@@ -15,7 +15,7 @@ date: 18/5/2017
 
 While loading a SharePoint farm the following error message was displayed in the event log:
 
-> _SQL Server ‘Server Name’ is unavailable. Please check your permissions._
+> SQL Server ‘Server Name’ is unavailable. Please check your permissions.
 
 ## Solution
 
