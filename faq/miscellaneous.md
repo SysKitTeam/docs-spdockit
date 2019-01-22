@@ -17,20 +17,20 @@ After you copy these files, please restart the application in order to apply the
 
 ## I am getting "This product cannot be activated since it is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator".
 
-### Problem:
+### Problem
 
 When I tried to load a SharePoint farm with SPDocKit I received the following error:
 
 > This product cannot be activated because this is not a SharePoint Server or you do not have the right privileges to access the SharePoint Farm. Check if SharePoint is installed or contact your administrator.
 
-### Solution:
+### Solution
 
 * The product needs to run on the same server as SharePoint, so make sure SharePoint is installed on the server where you are trying to load the farm.
 * In order to load the SharePoint farm you need to have proper privileges. Check [this article](../requirements/user-permissions-requirements.md) for more details.
 
 ## Error occurred while upgrading to the latest version.
 
-### Problem:
+### Problem
 
 You might encounter the following error if you are upgrading to the latest version of the application:
 
@@ -38,7 +38,7 @@ You might encounter the following error if you are upgrading to the latest versi
 
 When this error occurs you are not able to start the application and you cannot Remove/Repair it from Control Panel &gt; Programs.
 
-### Solution:
+### Solution
 
 The installation was not able to remove the Windows service. The existing installation needs to be repaired and then removed before you can proceed with the upgrade.
 
@@ -53,11 +53,11 @@ During this procedure you might get the “Service Marked for Deletion” error 
 
 ## Configuring permissions for SharePoint 2007
 
-### Problem:
+### Problem
 
 The account with which I have installed SPDocKit has permissions to run it, but two other accounts receive errors when trying to load the farm with all the webapps. The users have both farm administrator and local administrator rights. The problem occurs on SharePoint 2007.
 
-### Solution:
+### Solution
 
 The user account that you use to log on to the web server is not a member of either of the following roles: 
 
@@ -85,20 +85,20 @@ You must create a shortcut that points directly to the file in the application d
 
 ## Cannot upgrade as "The specified service already exists".
 
-### Problem:
+### Problem
 
 When trying to upgrade to the latest version of SPDocKit you might receive an error:
 
 > The specified service already exists.
 
-### Solution:
+### Solution
 
 The previous version has not been removed correctly. Here is what you need to do:
 
 1. Go to **Add/Remove programs** and uninstall the SPDocKit manually \(if the product is not listed, you do not have the proper privileges or somebody else installed the application, e.g. an Administrator user, so logon as the user who initially installed the application then remove it\).
 2. Once the program has been removed you can restart the new installation you have downloaded and install the application.
 
-### Additional notes:
+### Additional notes
 
 In case you encounter a similar error again, try the following:
 
@@ -138,13 +138,13 @@ If you have a firewall between the server hosting the application and the server
 
 ## I am receiving "Cannot open database "WSS\_UsageApplication" requested by the login. The login failed"
 
-### Problem:
+### Problem
 
 When trying to view Content & Usage Reports: Number of Unique Visitors, List of Site Visitors, Feature Usage by Edition I received:
 
 > System.Data.SqlClient.SqlException: Cannot open database “WSS\_UsageApplication” requested by the login. The login failed. Login failed for user CONTOSO\user.
 
-### Solution:
+### Solution
 
 Make sure that the user account running SPDocKit has the proper [permission privileges](../requirements/user-permissions-requirements.md). Specifically, the user must be a member of **SharePoint\_Shell\_Access** role on **Usage and Health Database**.
 
