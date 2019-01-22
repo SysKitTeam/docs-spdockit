@@ -78,7 +78,11 @@ The application will work on both the console and the Remote Desktop session.
 4. The UAC dialog box will be shown and you will be prompted to run the application as the administrator.
 5. Click Yes and SPDocKit will run without any issues.
 
-**Please note:** _You must create a shortcut that points directly to the file in the application directory, and not to the file in the Start menu._
+{% hint style="warning" %}
+Please note:  
+  
+You must create a shortcut that points directly to the file in the application directory, and not to the file in the Start menu.
+{% endhint %}
 
 ## Cannot upgrade as "The specified service already exists".
 
