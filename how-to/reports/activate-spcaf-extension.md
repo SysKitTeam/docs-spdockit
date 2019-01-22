@@ -40,9 +40,9 @@ Please note that if you already have the licensed SPCAF on a machine together wi
 
 1. Click the **Activate your license** button.
 
- ![SPCAF-Activation-Code](../../.gitbook/assets/spcaf-activation-code.png) 
+ ![SPCAF-Activation-Code](../../.gitbook/assets/spcaf-activation-code%20%281%29.png) 
 
-You will notice a **challenge code** \(in the previous picture\). Visit the webpage [activation.spcaf.com](https://activation.rencore.com/) and enter the code, as well as your e-mail address and the license key. The license key is the same one from the second step of this wizard. You need to open it with any text editor and copy/paste it. Click **Submit**. You will receive further instructions in your e-mail shortly, but here is what you need to do: ![SPCAF-Activation](../../.gitbook/assets/spcaf-activation.png)
+You will notice a **challenge code** \(in the previous picture\). Visit the webpage [activation.spcaf.com](https://activation.rencore.com/) and enter the code, as well as your e-mail address and the license key. The license key is the same one from the second step of this wizard. You need to open it with any text editor and copy/paste it. Click **Submit**. You will receive further instructions in your e-mail shortly, but here is what you need to do: ![SPCAF-Activation](../../.gitbook/assets/spcaf-activation%20%281%29.png)
 
 1. Open the email and take the attached file \(**activations.caf**\). Place it in the following folder: **“%USERPROFILE%\AppData\Local\SPCAF”**
 
