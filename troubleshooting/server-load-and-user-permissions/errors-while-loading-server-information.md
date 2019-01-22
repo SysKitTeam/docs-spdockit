@@ -78,7 +78,7 @@ In order to allow SPDocKit to successfully gather all the information about your
 
 Take the steps described in the \[following article\]../requirements/server-load-permission-requirements/\#project-server-information.md\) to grant the required permissions.
 
-### Learn more
+## Learn more
 
 * [RPC Server is Unavailable](rpc-server-unavailable.md)
 
