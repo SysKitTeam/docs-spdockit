@@ -24,7 +24,10 @@ The user who enables this feature will automatically be assigned to the Admin ro
 
 This role gives you full control over SPDocKit, as well as over the entire role based security system. As an admin you can create new custom roles, and assign users or groups to them or to one of our predefined roles \(Admin and Viewer\).
 
-Please note that the first person who activates the RBS \(role based security\) will be automatically given the admin role.
+{% hint style="warning" %}
+**Please note!**  
+The first person who activates the RBS \(role based security\) will be automatically given the admin role.
+{% endhint %}
 
 ## Viewer role
 
