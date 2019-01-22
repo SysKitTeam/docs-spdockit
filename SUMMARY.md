@@ -2,8 +2,8 @@
 
 * [SPDocKit](README.md)
 * [Release Notes](product-updates/README.md)
-  * [SPDocKit 8](product-updates/spdockit-8-release-note.md)
   * [SPDocKit 8.0.3](product-updates/spdockit-8-0-3-release-note.md)
+  * [SPDocKit 8](product-updates/spdockit-8-release-note.md)
 * [Requirements](requirements/README.md)
   * [SharePoint On-Premises User Permissions Requirements](requirements/user-permissions-requirements.md)
   * [Supported SharePoint Editions](requirements/supported-sharepoint-editions.md)
