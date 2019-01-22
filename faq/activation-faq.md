@@ -89,7 +89,7 @@ To reset your password, please go to the [following link](https://my.syskit.com/
 3. Instructions on how to reset your password will be emailed to you. 
 
 {% hint style="warning" %}
-Please note:  
+**Please note:**  
   
 These notifications can end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your **Safe Senders List**.
 {% endhint %}
