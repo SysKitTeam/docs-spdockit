@@ -15,12 +15,12 @@ This is a service release containing minor improvements and bug fixes.
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
 
-## Improvements:
+## Improvements
 
 * Improved error handling when loading SP2019 IIS Settings Information. For more information read the following [article.](../troubleshooting/server-load-and-user-permissions/error-while-loading-iis-settings.md)
 * Improved error handling when opening snapshots.
 
-## Bug fixes:
+## Bug fixes
 
 * Resolved an issue that involved the Analytics system job causing an error when loading site collections with duplicate GUIDs.
 
