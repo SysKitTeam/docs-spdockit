@@ -91,9 +91,15 @@ In this section, the user can set how long data will be kept in the database. **
 
 Set the preferred database size and SPDocKit will warn you when the database size passes that threshold.
 
-If your SPDocKit database becomes too big, you can force a manual data retention using the **Execute** button. Please note that this action will also try to execute the SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – being member of the sysadmin server role or db\_owner database role. Without those permissions, data will still be deleted, but the database size will not decrease. You can still attempt to manually decrease the size of SPDocKit's databases by executing the SHRINKDATABASE command manually after the data retention job has run.
+If your SPDocKit database becomes too big, you can force a manual data retention using the **Execute** button. 
 
+{% hint style="info" %}
+Please note that this action will also try to execute the SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – being member of the sysadmin server role or db\_owner database role. Without those permissions, data will still be deleted, but the database size will not decrease. You can still attempt to manually decrease the size of SPDocKit's databases by executing the SHRINKDATABASE command manually after the data retention job has run.
+{% endhint %}
+
+{% hint style="warning" %}
 Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](../create-sharepoint-farm-snapshots/snapshots-screen.md).
+{% endhint %}
 
 ## Subscription settings
 
@@ -111,7 +117,9 @@ From SPDocKit 7.4.0. onwards you can define with which snapshot the current one 
 2. **Last good configuration** - with this option selected, the current snapshot is compared with the latest snapshot that is marked as good. 
 3. **Selected snapshots** - when this option is selected, you can choose between all your snapshots taken beforehand.
 
+{% hint style="info" %}
 Note that if you choose option 2. and there are no snapshots marked as good, SPDocKit will compare the current snapshot to the last snapshot taken. The same rule applies if you choose option 3. and the selected snapshot gets deleted.
+{% endhint %}
 
 This section also allows you to define which farm settings should be compared in the Compare Wizard. The selection you make here will be used as a default template when comparing two farms, but you can modify it directly in the Compare Wizard each time you use it.
 

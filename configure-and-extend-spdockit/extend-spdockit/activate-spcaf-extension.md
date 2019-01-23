@@ -13,7 +13,9 @@ SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It prov
 
 Use SPDocKit to load WSPs information from your SharePoint farm and then add SPCAF reports using Extension Manager to analyze them. Available SPCAF reports include Analysis Summary, Code Quality, Code Metrics, Code Dependencies, and Code Inventory. They are located in the Content & Usage Reports section of SPDocKit.
 
+{% hint style="warning" %}
 Please note that because of a .NET Framework 4.0 requirement, SPDocKit with SPCAF extension only supports SharePoint Versions **SP2013 and SP2016**. SPCAF extension for SPDocKit **is free** but it is dependent on the third-party license, which is not provided by the SPDocKit team. Please refer to the [RENCORE GmbH](https://www.spcaf.com/) website for more information on pricing.
+{% endhint %}
 
 If you only wish to try the SPCAF extension without activation, there is a trial mode where you can see the summary report. Click [here](https://rencore.com/products/spcaf/try/) for more information.
 
