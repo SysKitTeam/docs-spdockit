@@ -82,5 +82,17 @@ Our End User License Agreement is located at the following [link](https://www.sp
 
 ### I forgot my password — can you tell me how to reset it?
 
-To reset your password, please go to the [following link](https://my.syskit.com/ForgotPassword.aspx). 1. Enter the email address associated with your account 1. Click on **Reset Password**. 1. Instructions on how to reset your password will be emailed to you. Please note: sometimes these notifications can end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your **Safe Senders List**. 1. If for some reason you are still unable to retrieve the new password, please [contact us](https://www.spdockit.com/support/contact-us/) for further assistance.
+To reset your password, please go to the [following link](https://my.syskit.com/ForgotPassword.aspx). 
+
+1. Enter the email address associated with your account.
+2. Click on **Reset Password**. 
+3. nstructions on how to reset your password will be emailed to you.
+
+{% hint style="info" %}
+Please note: sometimes these notifications can end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your **Safe Senders List**. 
+{% endhint %}
+
+If for some reason you are still unable to retrieve the new password, please contact us for further assistance.
+
+
 

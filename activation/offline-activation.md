@@ -36,7 +36,9 @@ The Consultant license can be activated on any server, but you need to have a va
 
 The **One-time activation** option allows short-term activation of SPDocKit. If you check this box, the license details will be deleted and the license will be deactivated when the application is closed. This feature can be quite convenient when you are documenting your customer's SharePoint.
 
+{% hint style="warning" %}
 **Please note!** The Consultant license file is valid for 72 hours from the time of generation.
+{% endhint %}
 
 ### Site license
 
