@@ -12,7 +12,11 @@ date: 25/5/2017
 The SPDocKit Insights home page gives you an overview of your index's contents as well as a general performance overview regarding your farm health.
 
 SPDocKit Insights home page dashboards are **not updated automatically**, and are generated either when the home tab is selected or on application startup.  
+
+
+{% hint style="info" %}
 **Please note!** In version 7.2 we added the automatic refresh feature. Available \(dropdown\) values are: no refresh, 1, 2, 5 or 10 minutes.
+{% endhint %}
 
 ## Event Viewer dashboard
 

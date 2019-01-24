@@ -50,7 +50,9 @@ From version 7.0, SPDocKit offers the new installation of **SPDocKit Insights Ag
 
 SPDocKit Insights Agent can be installed on any server with Windows Server 2008 or better. It is recommended to install it on a server that is not a part of the SharePoint farm to minimize its impact on the farm.
 
+{% hint style="warning" %}
 Please note that we advise you **not to install the SPDocKit Insights Agent on a server running SharePoint 2010**, as **Microsoft .NET Framework 4.5** is required.
+{% endhint %}
 
 * Software
   * Windows Server 2008 or better

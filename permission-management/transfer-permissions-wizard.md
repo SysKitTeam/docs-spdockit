@@ -16,7 +16,9 @@ This article explains how to use SPDocKit Transfer Permissions Wizard to transfe
 **Supported People Picker source selection**: user, Active Directory group.  
 **Supported People Picker destination selection**: user\(s\), Active Directory group\(s\).
 
+{% hint style="warning" %}
 **Please note!** Source principal’s permissions will lose all previously directly assigned permissions and group memberships. Destination principals will lose all previously assigned permissions and acquire every directly given permission and SharePoint group memberships as the source principal.
+{% endhint %}
 
 1. Navigate to Permissions Explorer and click on the **Transfer Wizard** in the Wizards ribbon.
 2. In the **Target** step define which farm, web application or site collection will be a wizard scope.

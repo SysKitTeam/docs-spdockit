@@ -15,7 +15,13 @@ While trying to load SharePoint farm settings with SPDocKit I received:
 
 ### Why is this warning showing?
 
-During the Take Snapshot process SPDocKit will try to retrieve information about your servers. Please note that the following rights on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practice reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your servers, the following rights are necessary:
+During the Take Snapshot process SPDocKit will try to retrieve information about your servers.
+
+{% hint style="warning" %}
+ Please note that the following rights on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practice reports will not be available in SPDocKit.
+{% endhint %}
+
+ In order to allow SPDocKit to successfully gather all the information about your servers, the following rights are necessary:
 
 * **Local Administrator** on the server
 * **Windows Update service** up and running
@@ -56,7 +62,13 @@ While trying to create a SPDocKit snapshot, I received the following warning:
 
 ### Why is this warning showing?
 
-There are some additional SPDocKit permission requirements necessary to load SQL servers information. Please note that the following rights on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practice reports will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the information about your SQL servers the following rights are necessary:
+There are some additional SPDocKit permission requirements necessary to load SQL servers information. 
+
+{% hint style="warning" %}
+Please note that the following rights on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practice reports will not be available in SPDocKit.
+{% endhint %}
+
+ In order to allow SPDocKit to successfully gather all the information about your SQL servers the following rights are necessary:
 
 * **Public** server role
 * **Dbcreator** server role and **VIEW SERVER STATE** permission
@@ -142,7 +154,13 @@ While trying to create a SPDocKit snapshot, I received the following warning:
 
 ### Why is this warning showing?
 
-There are some additional SPDocKit permission requirements necessary to load the database permission information. Please note that the following rights on your SQL Server databases are optional, but depending on them, data for the **Database Permissions** report will not be available in SPDocKit. In order to allow SPDocKit to successfully gather all the database permissions the following rights are necessary:
+There are some additional SPDocKit permission requirements necessary to load the database permission information.
+
+{% hint style="warning" %}
+ Please note that the following rights on your SQL Server databases are optional, but depending on them, data for the **Database Permissions** report will not be available in SPDocKit.
+{% endhint %}
+
+In order to allow SPDocKit to successfully gather all the database permissions the following rights are necessary:
 
 * **db\_owner** database role on each of the affected databases
 
