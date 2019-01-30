@@ -79,6 +79,7 @@ Verify if the “File and Printer Sharing for Microsoft Networks” is enabled i
 * To check this option, go to Control Panel &gt; Network and Sharing Center &gt; Change adapter settings. Then right-click on your default network adapter and select Properties.
 
 {% hint style="info" %}
+
 **Additional notes**
 
 In addition, take the following into the consideration:
@@ -86,5 +87,4 @@ In addition, take the following into the consideration:
 * On the RPC Client and RPC Server machines, check if there are any potentially related warning or error messages \(RPC protocol, network communication, etc.\) logged in the Event Viewer at the time when the error was received.
 * If RPC Client and RPC Server machines are in different domains, verify that the trust relationship is established properly between these trusted domains.
 * If you receive the above error message only for some servers but not for others, you can try to narrow down the troubleshooting only to those servers for which you received an error message.
-{% endhint %}
 

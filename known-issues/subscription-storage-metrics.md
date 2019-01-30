@@ -7,7 +7,7 @@ date: 25/5/2017
 
 # Storage Metrics report subscription
 
-## **Summary** 
+## **Summary**
 
 The main reason that this report cannot be used as a subscription is the sheer volume of data that would result if all nodes were to be expanded.
 

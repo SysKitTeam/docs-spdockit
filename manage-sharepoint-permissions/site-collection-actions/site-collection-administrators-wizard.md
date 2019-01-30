@@ -20,7 +20,7 @@ Supported People Picker principal selection for:
 
 ## Set Primary Administrator
 
-This wizard option allows you to set a specified user as a primary administrator in place of the existing one across the selected wizard scope. People picker supports exactly one SharePoint user as a valid choice. 
+This wizard option allows you to set a specified user as a primary administrator in place of the existing one across the selected wizard scope. People picker supports exactly one SharePoint user as a valid choice.
 
 1. Navigate to Permissions Explorer and click on the **Site Collection Administrators Wizard** in the Wizards ribbon.
 2. Select **Set Primary Administrator** option and **Next** to continue.

@@ -39,9 +39,9 @@ Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database 
 ```
 
 {% hint style="warning" %}
+
 **Please note!**
 
 * The cmdlet **Add-SPShellAdmin** is going to apply to all the current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
 * The cmdlet might fail in some environments; please [contact us](https://www.spdockit.com/support/contact-us/) for further assistance.
-{% endhint %}
 

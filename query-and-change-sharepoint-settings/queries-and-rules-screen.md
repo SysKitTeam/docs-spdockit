@@ -49,26 +49,23 @@ Use the query wizard to determine if all your governance policies have been prop
 Use the rule wizard to create a manual or automatic procedures that will help you enforce SharePoint governance policies.
 
 **Wizard scope** - the wizard can target whole Web applications, specific site collections within a Web application, subsites, lists and list libraries.  
-**Supported rule types**: 
+**Supported rule types**:
 
 1. List rules
-
-* **Attachments** – to specify if users can attach files to items in a list.
-* **Dialogs** – whether to launch a new, edit and display forms in the dialog.
-* **Display on the quick launch** – whether the documents will be displayed on the quick launch.
-* **Document version history** – whether a version is created each time you edit a file in a document library.
-* **Folders** – whether the “New Folder” command is available.
-* **Item-level permissions** – specify which items user can read and edit.
-* **Offline client availability** – whether this document library should be available for offline clients.
-* **Opening Documents in the Browser** – whether browser-enabled documents should be opened in the client or browser by default when user clicks on them.
-* **Quick edit** – whether Quick Edit can be used on this list to bulk edit data.
-* **Rating settings** – whether or not items in a list can be rated.
-* **Require check out** – whether users must check out documents before making changes in this document library.
-  * **Search** – list visibility in search results.
-
-2. Subsite rules
-
-* **Request access mail** – specify an email address used for approving access requests to a subsite.
+2. **Attachments** – to specify if users can attach files to items in a list.
+3. **Dialogs** – whether to launch a new, edit and display forms in the dialog.
+4. **Display on the quick launch** – whether the documents will be displayed on the quick launch.
+5. **Document version history** – whether a version is created each time you edit a file in a document library.
+6. **Folders** – whether the “New Folder” command is available.
+7. **Item-level permissions** – specify which items user can read and edit.
+8. **Offline client availability** – whether this document library should be available for offline clients.
+9. **Opening Documents in the Browser** – whether browser-enabled documents should be opened in the client or browser by default when user clicks on them.
+10. **Quick edit** – whether Quick Edit can be used on this list to bulk edit data.
+11. **Rating settings** – whether or not items in a list can be rated.
+12. **Require check out** – whether users must check out documents before making changes in this document library.
+    * **Search** – list visibility in search results.
+13. Subsite rules
+14. **Request access mail** – specify an email address used for approving access requests to a subsite.
 
 ## Queries and rules scheduling options
 

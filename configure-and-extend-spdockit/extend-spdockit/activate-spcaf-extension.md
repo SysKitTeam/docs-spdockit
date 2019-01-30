@@ -32,11 +32,11 @@ Please note that if you already have the licensed SPCAF on a machine together wi
 After you install the extension, you need to activate it. Take the license file \(**whose name must be license.lic**\) and place it in: **“%ProgramData%\SPDocKit\Extensions\SPCAF”**.  
 Please note that, by default, the folders Extensions and SPCAF do not exist and **you need to create them**.
 
-2. After that, go to the SPCAF Reports in the Content & Usage Reports section of SPDocKit. Select any report, and you will notice the following message:
+1. After that, go to the SPCAF Reports in the Content & Usage Reports section of SPDocKit. Select any report, and you will notice the following message:
 
-![](../../.gitbook/assets/spcaf-trial%20%281%29.png)
+![](../../.gitbook/assets/spcaf-trial-1.png)
 
-3. Click the **Activate your license** button.
+1. Click the **Activate your license** button.
 
 ![](../../.gitbook/assets/spcaf-activation-code.png)
 
@@ -44,7 +44,7 @@ You will notice a **challenge code** \(in the previous picture\). Visit the webp
 
 ![](../../.gitbook/assets/spcaf-activation.png)
 
-4. Open the email and take the attached file \(**activations.caf**\). Place it in the following folder: **“%USERPROFILE%\AppData\Local\SPCAF”**
+1. Open the email and take the attached file \(**activations.caf**\). Place it in the following folder: **“%USERPROFILE%\AppData\Local\SPCAF”**
 
 And that is it. You may try opening some of the SPCAF reports to make sure they are working properly.
 

@@ -3,8 +3,7 @@ title: Import and Export SPDocKit Settings
 description: >-
   This section describes how to import and export SPDocKit settings. If you need
   to set up SPDocKit options on multiple farms, this feature can help you copy
-  all the application settings from one application instance to another and save
-  a lot of time.
+  all the application settings from one applic
 author: Tomislav Kunaj
 date: 25/5/2017
 ---

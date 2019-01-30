@@ -12,7 +12,7 @@ To run SPDocKit and to retrieve all SharePoint settings you want to document, bo
 
 Here is how you can give user these privileges:
 
-#### To add a user account to the **Local Administrators** group \(repeat the same steps for **WSS\_ADMIN\_WPG**\):
+### To add a user account to the **Local Administrators** group \(repeat the same steps for **WSS\_ADMIN\_WPG**\):
 
 * On the server, click Start, right-click Computer, and then click **Manage**.
 * Navigate to Configuration, expand **Local Users and Group** and then click Groups.
@@ -22,13 +22,13 @@ Here is how you can give user these privileges:
 * In the Administrators dialog box, click OK.
 * Close the Server Manager screen.
 
-#### To add a user account to **SharePoint farm Administrators** group:
+### To add a user account to **SharePoint farm Administrators** group:
 
 * Open SharePoint **Central Administration**.
 * Navigate to Security &gt; Manage the farm administrators group.
 * Use the **New** button to add users to this group.
 
-#### To add a user account to **SharePoint\_Shell\_Access role**:
+### To add a user account to **SharePoint\_Shell\_Access role**:
 
 * Open SharePoint Management Shell.
 * Type the following PowerShell command: `<Add-SPShellAdmin -UserName DOMAIN\YourAccount>` [\(click here to learn more\)](http://technet.microsoft.com/en-us/library/ff607596.aspx).
@@ -46,19 +46,19 @@ Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database 
 ```
 
 {% hint style="warning" %}
+
 **Please note:**
 
 * The cmdlet Add-SPShellAdmin is going to apply to all current SharePoint databases. If more SharePoint databases are added in the future, you might have to re-run the cmdlet again.
 * The cmdlet might fail in some environments; please contact us for further assistance.
-{% endhint %}
 
-### SPDocKit database requirements
+## SPDocKit database requirements
 
-#### Creating a new database
+### Creating a new database
 
 To be able to create a new SPDocKit dedicated database, the user account running the installation and configuration wizard \(i.e. install account\) should be granted both the **dbcreator** and **securityadmin** roles on the preferred SQL Server. This allows the account to create a new database and to assign proper privileges after creation. The install account will be automatically given **db\_owner** privileges on the newly created database, if possible. Otherwise, it is advised that the account is given that privilege manually, as it is needed for upgrading the database.
 
-#### Privileges required to run the application
+### Privileges required to run the application
 
 These privileges will be granted automatically when a new SPDocKit database is created or during a database upgrade.
 
@@ -66,7 +66,7 @@ These privileges will be granted automatically when a new SPDocKit database is c
   * In the event that the SPDocKit install account is not in the **securityAdmin** role, please add the SPDocKit service account manually to the **SPDocKit\_service\_role**. [Consult the following article](../troubleshooting/server-load-and-user-permissions/error-adding-service-account-to-role.md) for additional information.
   * The account running load from the SPDocKit console needs to have the same privileges as the SPDocKit service account \(see above\).
 
-### Workstation Requirements
+## Workstation Requirements
 
 When SPDocKit is installed on a workstation, only an existing database can be used. Also, the user running SPDocKit will need to be granted the **db\_datareader** rights on the existing SPDocKit database. To create a new database, please install SPDocKit on a SharePoint server.
 
@@ -74,7 +74,7 @@ To view and manage Live permissions in Permissions Explorer the user has to be a
 
 Please note: To create a new snapshot, you need to use SPDocKit installed on a SharePoint server.
 
-### Error Message
+## Error Message
 
 If the user does not have proper privileges, the following error message will be shown:
 
