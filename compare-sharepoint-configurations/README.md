@@ -1,4 +1,2 @@
 # Compare SharePoint Configurations
 
-
-
