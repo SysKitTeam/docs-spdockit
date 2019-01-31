@@ -16,14 +16,23 @@ Analytics and Usage Reports provide a quick overview of your farm storage and co
 
 ## Analytics
 
-* **Site Collection Analytics** - Shows the total number of hits each site collection had in the last 7 days along with the maximum number of daily unique visitors, and how the hits compare to the previous period. Also includes data on each site collection's size, number of subsites, date when it was last accessed and last modified. 
+* **Farm Analytics** - Shows an overview of the general usage metrics of your SharePoint farms - the number of hits and unique farm's visitors in the last 7 days, as well as the number of total and active site collections. Those metrics are compared to the previous week and trends displayed in the Total Hits, Visitors, and Active Site Collections columns. Use the __Explore Farm__ button to view Site Collection Analytics report for the selected farm.
+* **Site Collection Analytics** - Shows the total number of hits each site collection had in the last 7 days along with the maximum number of daily unique visitors, and how the hits compare to the previous period. Also includes data on each site collection's size, the number of subsites, and a date when it was last accessed and last modified. Use the __Explore Site Collection__ button to view Subsite Analytics report for the selected site collection.
 * **Site Collection Visitors** – Shows a list of all visitors on the selected site. 
+* **Subsite Analytics** - Shows the total number of hits each subsite had in the last 7 days along with the maximum number of daily unique visitors, and how those metrics compare to the previous week. Also includes data on each subsite's size, the number of subsites, as well as date when it was last accessed and modified. Use the __Show Document Analytics__ button to open the Document Analytics showing data for the associated site collection.
+* **Document Analytics** - Shows recently viewed documents on a site collection, along with the information on the number of times a document has been viewed and edited. Includes details on all the actions performed on a specific document as well as the time and users who performed it. 
+* **Most Popular Documents** - Shows the top 1000 most popular documents on a farm base on the number of views in the selected time period.
+
+## Search Analytics
+
+* **Search Analytics** - Shows an overview of the number of search queries performed on each farm in the last 7 days. Also displays trends in those metrics compared to the previous week. Use the __Explore Top Queries__ to view the most popular search queries for the selected farm. 
+* **Top Queries** - Shows the most popular search queries in the last 7 days, as well as the number and percentage of abandoned and no result searches for each searched term. 
 
 ## Usage & Structure
 
 * **SharePoint Structure** – Shows a hierarchical structure of selected site collections down to the list item level. The Include Content filter allows you to change the report’s granularity.
-* **Recently Created Sites** - Shows sites that have been created recently.
-* **Inactive Sites** - Shows sites which are inactive because they had no visitors in the selected time range.
+* **Recently Created Subsites** - Shows subsites that have been created recently.
+* **Inactive Subsites** - Shows subsites which are inactive because they had no visitors in the selected time range.
 * **Recently Created Lists** - Shows lists and document libraries that have been created recently.
 * **Unmodified Lists** - Shows lists and document libraries without any content modification in the selected time range
 * **Recently Created Documents** - Shows documents and list items that have been created recently.
@@ -33,10 +42,11 @@ Analytics and Usage Reports provide a quick overview of your farm storage and co
 
 ## Storage Metrics & Growth
 
+* **Farm Growth** - Shows the total size and the amount of space used by all service and content databases on each farm. Shows the total size of the data files, the amount of space used for storing data, the size of the log files and the total sum of those values. Use the __Explore Farm Databases__ button to open the Database Growth report showing data for the selected farm. 
+* **Database Growth** - Shows the amount of space used by service and content databases on a farm for data files and the amount of data they actually contain, log files and the total size of the databases.
 * **Storage Metrics** – Shows you the storage space used by each SharePoint object on the farm. You can easily see the object’s size relative to the total size of the content database and quickly find the biggest storage space consumer. 
-* **Database Disk Usage** - Shows the relation between the allocated space for a certain database \(solid line\) and the actual space used by the database \(dotted line\). Allocated space is calculated by summing the .mdf and .ndf database files.
-* **Database Size Growth** - Shows farm database size over a given time period. Use the forecast option to predict future database growth.
-* **Logs Size Growth** – Shows the size of farm database logs. Also, with the forecast option, you can track and manage the growth.
+* **Large Documents** - Lists the top 1000 largest documents on the selected farm. Only shows documents larger than 50MB or with more than 50 versions.
+
 * **Document Extensions Overview** - Shows the number of documents and their total size by extension.
 * **Document Extensions Details** - Shows the number of documents and their total size by extension for each site collection. 
 
@@ -51,6 +61,12 @@ Analytics and Usage Reports provide a quick overview of your farm storage and co
   **Feature Usage by Edition** – Shows the usage of feature licenses per SharePoint edition \(Foundation, Standard or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
 
   **Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(**Web application, Site Collection, or Subsite**\). To see a complete report, define the number of available custom feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
+
+
+## Document Reports
+
+* **Old List Items**
+* **Old Documents**
 
 ## SPCAF reports
 
