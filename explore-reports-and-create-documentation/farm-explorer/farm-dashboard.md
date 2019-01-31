@@ -24,13 +24,13 @@ Number of __Servers, SQL Servers__, __Web Applications__, and __Site Collections
 
 Drill opens the following reports:
 
-* Servers          --> Servers List
+* Servers tile - drills to Servers List report.
 
-* SQL Servers      --> SQL Info
+* SQL Servers tile - drills to SQL Info report.
 
-* Web Applications --> Web Applications List
+* Web Applications tile -drills to Web Applications List.
 
-* Site Collections --> Site Collections List
+* Site Collections tile - drills to Site Collections List.
 
 A Horizontal bar chart shows top __Databases__ and __Site Collections__ by its Total Size. A drill is performed by clicking on any of the bars on the chart, showing a Content Databases report for the Top Databases as well as Usage and Properties report for the Top Site Collections.
 
@@ -40,11 +40,11 @@ Represented by the doughnut chart is a number of __Service Applications__ and it
 
 Drill opens the following reports:
 
-* Service Applications     --> Service Applications List
+* Service Applications tile - drills to Service Applications List report.
 
-* Health Analyzer Problems --> Problems
+* Health Analyzer Problems tile - drills to Problems report.
 
-* Farm Solutions Deployed  --> Solutions
+* Farm Solutions Deployed tile - drills to Solutions report.
 
  Tile containing __Compliant Best Practices__ and __Failing Best Practices__ is showing you a number of Compliant and Failing Best Practices. Clicking on tile redirects you to the Best Practices Dashboard from which you can perform a drill to the specific detailed report.
 

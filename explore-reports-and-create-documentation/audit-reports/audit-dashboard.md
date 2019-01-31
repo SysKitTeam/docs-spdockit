@@ -40,6 +40,10 @@ Number of Changes per Event type shows the following audit actions which when cl
 
 __Top 5 Administrative Actions__ tile shows a number of Administrative actions performed on the farm drillable to detailed Administrative Actions report.
 
+{% hint style="warning" %}
+**Please Note!** The data is only available if you have Feature Pack 1 installed.
+{% endhint %}
+
 ## Learn more:
 
 * [Audit Log Details](../../../explore-reports-and-create-documentation/audit-reports/audit-dashboard.md)
