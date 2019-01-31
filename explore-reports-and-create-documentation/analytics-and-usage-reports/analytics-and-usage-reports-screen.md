@@ -16,8 +16,8 @@ Analytics and Usage Reports provide a quick overview of your farm storage and co
 
 ## Analytics
 
-* **SharePoint Analytics** - Shows the total number of hits each site collection had in the last 7 days along with the maximum number of daily unique visitors, and how the hits compare to the previous period. Also includes data on each site collection's size, number of subsites, date when it was last accessed and last modified. 
-* **Site Visitors List** – Shows a list of all visitors on the selected site. 
+* **Site Collection Analytics** - Shows the total number of hits each site collection had in the last 7 days along with the maximum number of daily unique visitors, and how the hits compare to the previous period. Also includes data on each site collection's size, number of subsites, date when it was last accessed and last modified. 
+* **Site Collection Visitors** – Shows a list of all visitors on the selected site. 
 
 ## Usage & Structure
 

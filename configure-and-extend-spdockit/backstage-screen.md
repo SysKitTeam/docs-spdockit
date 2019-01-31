@@ -20,7 +20,7 @@ The following options are available:
 * **Permissions Explorer** leads you directly to SharePoint permissions, both live and historical records, collected by SPDocKit.
 * **Permissions Wizards** button gives you quick access to all permissions management options available. 
 * **Permissions Reports** button will show you a set of permissions reports. 
-* **Analytics & Usage** button will take you to the Analytics & Usage Reports. The SharePoint Analytics report is preselected, where you can see popularity trends and hits history for each site collection.
+* **Analytics & Usage** button will take you to the Analytics & Usage Reports. The Site Collection Analytics report is preselected, where you can see popularity trends and hits history for each site collection.
 * **Audit Logs** button will take you to the Audit Log Details report, where we'll show you a complete audit log on the selected site collections in a given time period.
 * Use the **Queries and Rules** button to open and create desired procedures or reports to enforce your SharePoint Governance policies.
 
