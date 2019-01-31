@@ -87,7 +87,14 @@ The selection you make here applies both for the **SPDocKit Service taking an au
 
 ## Data retention
 
-In this section, the user can set how long data will be kept in the database. **Data records from the SPDocKit database and on the disk older than the configured time value will be deleted.** By default, **data records are stored for 6 months** before the data retention job removes them. SPDocKit service will execute this job every day at a random time between 1:30AM and 5AM.
+In this section, the user can set how long data will be kept in the database. 
+
+{% hint style="info" %}
+Data retention settings for audit logs and administrative actions can be defined separately to better suit your recordkeeping requirements.
+{% endhint %}
+
+**Data records from the SPDocKit database and on the disk older than the configured time value will be deleted.** 
+By default, **data records are stored for 6 months** before the data retention job removes them. SPDocKit service will execute this job every day at a random time between 4:00AM and 5:00AM.
 
 Set the preferred database size and SPDocKit will warn you when the database size passes that threshold.
 
