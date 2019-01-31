@@ -11,6 +11,7 @@
 * New Most Popular Documents report available! The report enables you to see the top 1000 documents in your farm sorted by the number of views in the last week or month.
 * New extension available! With the installation of Document Usage extension, SPDocKit is gaining two new reports – Old List Items and Old Documents - that help you detect old and possibly unused items in your farm.
 * New Audit Log Details and Administrative Actions alerts available! Schedule SPDocKit’s new audit alerts to keep track of all changes in your farm. Set the report to be delivered to your mail after each automatic snapshot, and don’t let anyone fly under your radar.
+*  New Server Differences alerts available! While comparing servers, you can now easily create a Server Differences alert that will be sent to you after each automatic snapshot. It is possible to compare SQL, IIS, and all farm servers in general. 
 
 ## Improvements
 
