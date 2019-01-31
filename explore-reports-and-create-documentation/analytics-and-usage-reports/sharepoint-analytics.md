@@ -1,11 +1,11 @@
 ---
-title: SharePoint Analytics Report
+title: Site Collection Analytics Report
 description: This article describes how to use the SharePoint Analytics report.
 author: Tomislav Sirovec
 date: 28/9/2018
 ---
 
-# SharePoint Analytics
+# Site Collection Analytics
 
 This article explains how you can use the Site Collection Analytics report. The report shows the total number of hits each site collection had in the last seven days, along with the maximum number of daily unique visitors, and how the number of hits during that week compares to the previous period. The report also includes data on each site collection's size, the number of subsites it has, and the dates when it was last accessed and last modified.
 
@@ -15,7 +15,7 @@ In the field below, you can find a list of accounts to ignore when collecting an
 
 To view the report go to **Analytics & Usage Reports &gt; Analytics &gt; Site Collection Analytics**.
 
-The Site Collection Analytics grid report contains these columns:
+The Site Collection Analytics report grid contains these columns:
 
 * **Site Collection Url** - Relative URL of the site collection.
 * **Total Hits** - Number of total visits to a given site collection.
