@@ -30,6 +30,7 @@
 * [Explore Reports & Create Documentation](explore-reports-and-create-documentation/README.md)
   * [Farm Explorer](explore-reports-and-create-documentation/farm-explorer/README.md)
     * [Farm Explorer Screen](explore-reports-and-create-documentation/farm-explorer/farm-explorer-screen.md)
+    * [Farm Dashboard](explore-reports-and-create-documentation/farm-explorer/farm-dashboard.md)
     * [Farm Explorer Reports](explore-reports-and-create-documentation/farm-explorer/farm-explorer-reports.md)
     * [Farm Documentation](explore-reports-and-create-documentation/farm-explorer/farm-documentation.md)
     * [Passwords and Product keys](explore-reports-and-create-documentation/farm-explorer/passwords-and-product-keys.md)

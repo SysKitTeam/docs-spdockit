@@ -3,7 +3,7 @@ title: Install SPDocKit Extensions
 description: >-
   This section explains how to set up the SPDocKit extensions. Extensions are
   additional SPDocKit reports that can be imported to application to help you
-  cover all the information you might not have fou
+  cover all the information you might not have found in default reports.
 author: Martin Pisacic
 date: 18/5/2017
 ---

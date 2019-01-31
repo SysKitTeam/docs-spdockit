@@ -3,7 +3,8 @@ title: Customize View
 description: >-
   This section describes how SharePoint administrators can customize View for
   SharePoint Farm Reports. It is possible to adjust Filters, Column order (as
-  well as adding or removing certain columns) and
+  well as adding or removing certain columns) and also change the “Sort by” and
+  “Group By” settings.
 author: Martin Pisacic
 date: 18/5/2017
 ---
