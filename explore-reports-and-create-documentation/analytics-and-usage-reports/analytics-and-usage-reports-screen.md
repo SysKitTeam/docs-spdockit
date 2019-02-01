@@ -1,6 +1,6 @@
 ---
 title: Analytics and Usage Reports Screen
-description: 
+description: >-
   This article describes how to use SPDocKit analytics and usage section to
   quickly get an overview of your farm storage and content usage, features usage
   and activations and SharePoint structure.
@@ -16,16 +16,16 @@ Analytics and Usage Reports provide a quick overview of your farm storage and co
 
 ## Analytics
 
-* **Farm Analytics** - Shows an overview of the general usage metrics of your SharePoint farms - the number of hits and unique farm's visitors in the last 7 days, as well as the number of total and active site collections. Those metrics are compared to the previous week and trends displayed in the Total Hits, Visitors, and Active Site Collections columns. Use the __Explore Farm__ button to view Site Collection Analytics report for the selected farm.
-* **Site Collection Analytics** - Shows the total number of hits each site collection had in the last 7 days along with the maximum number of daily unique visitors, and how the hits compare to the previous period. Also includes data on each site collection's size, the number of subsites, and a date when it was last accessed and last modified. Use the __Explore Site Collection__ button to view Subsite Analytics report for the selected site collection.
+* **Farm Analytics** - Shows an overview of the general usage metrics of your SharePoint farms - the number of hits and unique farm's visitors in the last 7 days, as well as the number of total and active site collections. Those metrics are compared to the previous week and trends displayed in the Total Hits, Visitors, and Active Site Collections columns. Use the **Explore Farm** button to view Site Collection Analytics report for the selected farm.
+* **Site Collection Analytics** - Shows the total number of hits each site collection had in the last 7 days along with the maximum number of daily unique visitors, and how the hits compare to the previous period. Also includes data on each site collection's size, the number of subsites, and a date when it was last accessed and last modified. Use the **Explore Site Collection** button to view Subsite Analytics report for the selected site collection.
 * **Site Collection Visitors** – Shows a list of all visitors on the selected site. 
-* **Subsite Analytics** - Shows the total number of hits each subsite had in the last 7 days along with the maximum number of daily unique visitors, and how those metrics compare to the previous week. Also includes data on each subsite's size, the number of subsites, as well as date when it was last accessed and modified. Use the __Show Document Analytics__ button to open the Document Analytics showing data for the associated site collection.
+* **Subsite Analytics** - Shows the total number of hits each subsite had in the last 7 days along with the maximum number of daily unique visitors, and how those metrics compare to the previous week. Also includes data on each subsite's size, the number of subsites, as well as date when it was last accessed and modified. Use the **Show Document Analytics** button to open the Document Analytics showing data for the associated site collection.
 * **Document Analytics** - Shows recently viewed documents on a site collection, along with the information on the number of times a document has been viewed and edited. Includes details on all the actions performed on a specific document as well as the time and users who performed it. 
 * **Most Popular Documents** - Shows the top 1000 most popular documents on a farm base on the number of views in the selected time period.
 
 ## Search Analytics
 
-* **Search Analytics** - Shows an overview of the number of search queries performed on each farm in the last 7 days. Also displays trends in those metrics compared to the previous week. Use the __Explore Top Queries__ to view the most popular search queries for the selected farm. 
+* **Search Analytics** - Shows an overview of the number of search queries performed on each farm in the last 7 days. Also displays trends in those metrics compared to the previous week. Use the **Explore Top Queries** to view the most popular search queries for the selected farm. 
 * **Top Queries** - Shows the most popular search queries in the last 7 days, as well as the number and percentage of abandoned and no result searches for each searched term. 
 
 ## Usage & Structure
@@ -42,11 +42,10 @@ Analytics and Usage Reports provide a quick overview of your farm storage and co
 
 ## Storage Metrics & Growth
 
-* **Farm Growth** - Shows the total size and the amount of space used by all service and content databases on each farm. Shows the total size of the data files, the amount of space used for storing data, the size of the log files and the total sum of those values. Use the __Explore Farm Databases__ button to open the Database Growth report showing data for the selected farm. 
+* **Farm Growth** - Shows the total size and the amount of space used by all service and content databases on each farm. Shows the total size of the data files, the amount of space used for storing data, the size of the log files and the total sum of those values. Use the **Explore Farm Databases** button to open the Database Growth report showing data for the selected farm. 
 * **Database Growth** - Shows the amount of space used by service and content databases on a farm for data files and the amount of data they actually contain, log files and the total size of the databases.
 * **Storage Metrics** – Shows you the storage space used by each SharePoint object on the farm. You can easily see the object’s size relative to the total size of the content database and quickly find the biggest storage space consumer. 
 * **Large Documents** - Lists the top 1000 largest documents on the selected farm. Only shows documents larger than 50MB or with more than 50 versions.
-
 * **Document Extensions Overview** - Shows the number of documents and their total size by extension.
 * **Document Extensions Details** - Shows the number of documents and their total size by extension for each site collection. 
 
@@ -62,11 +61,10 @@ Analytics and Usage Reports provide a quick overview of your farm storage and co
 
   **Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(**Web application, Site Collection, or Subsite**\). To see a complete report, define the number of available custom feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
 
-
 ## Document Reports
 
-This SPDocKit plugin will help you detect old documents and list item in your farm.
-Two reports are available:
+This SPDocKit plugin will help you detect old documents and list item in your farm. Two reports are available:
+
 * **Old List Items** - Lists all list items older than the selected date range.
 * **Old Documents** - Lists all documents older than the selected date range.
 
