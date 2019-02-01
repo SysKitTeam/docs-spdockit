@@ -12,7 +12,9 @@ date: 24/5/2017
 
 **Analytics and Usage Reports** provide a quick overview of your farm storage and content usage, features usage and activations, and SharePoint structure.
 
-**Analytics Dashboard** – provides you with an analytics overview of your farm. The dashboard displays information about the number of total hits and visitors on the farm's site collections, the total number of searches, and trends for those metrics compared to the previous week. Here, you can find your most visited site collections, top searched terms and most popular documents. Lastly, the farm's storage usage information is provided.
+## **Analytics Dashboard** 
+
+Provides you with an analytics overview of your farm. The dashboard displays information about the number of total hits and visitors on the farm's site collections, the total number of searches, and trends for those metrics compared to the previous week. Here, you can find your most visited site collections, top searched terms and most popular documents. Lastly, the farm's storage usage information is provided.
 
 ## Analytics
 
