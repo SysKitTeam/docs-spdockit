@@ -59,14 +59,14 @@ date: 24/5/2017
 
   **Feature Usage by Edition** – Shows the usage of feature licenses per SharePoint edition \(Foundation, Standard or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
 
-  **Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(**Web application, Site Collection, or Subsite**\). To see a complete report, define the number of available custom feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
+  **Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(**Web application**, **Site Collection**, or **Subsite**\). To see a complete report, define the number of available custom feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
 
 ## Document Reports
 
 This SPDocKit plugin will help you detect old documents and list item in your farm. Two reports are available:
 
-* **Old List Items** - Lists all list items older than the selected date range.
-* **Old Documents** - Lists all documents older than the selected date range.
+**Old List Items** - Lists all list items older than the selected date range.  
+**Old Documents** - Lists all documents older than the selected date range.
 
 {% hint style="warning" %}
 **Please note!**   
