@@ -1,5 +1,13 @@
 # SPDocKit 9
 
+SPDocKit 9.0.0 is a major release that comes with a bunch of new reports, dashboards, and other neat things. The list is long, so, let's get to it.
+
+**Product version:** 9.0.0  
+**Build number:** 1094x  
+**Release date:** Feb 05, 2019
+
+[Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
+
 ## Features
 
 * **Introducing the new Dashboard trio!**   Get the most important information at a glance with a new set of visually appealing dashboards. Each dashboard tile enables you to drill down to a more detailed report where you can find specific information of interest. As already mentioned, three new dashboards are available: **Farm**, **Analytics**, and **Audit**. Each of them gives you a high-level view of information available in the related category; the Analytics Dashboard replaces the old Content Overview report**.**
