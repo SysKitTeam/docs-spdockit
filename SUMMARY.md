@@ -43,7 +43,7 @@
   * [Analytics and Usage Reports](explore-reports-and-create-documentation/analytics-and-usage-reports/README.md)
     * [Analytics and Usage Reports Screen](explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md)
     * [Analytics Dashboard](explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-dashboard.md)
-    * [SharePoint Analytics](explore-reports-and-create-documentation/analytics-and-usage-reports/sharepoint-analytics.md)
+    * [Site Collection Analytics](explore-reports-and-create-documentation/analytics-and-usage-reports/sharepoint-analytics.md)
     * [Document Extensions Reports](explore-reports-and-create-documentation/analytics-and-usage-reports/document-extensions-reports.md)
   * [Audit Reports](explore-reports-and-create-documentation/audit-reports/README.md)
     * [Audit Reports Screen](explore-reports-and-create-documentation/audit-reports/audit-reports-screen.md)
