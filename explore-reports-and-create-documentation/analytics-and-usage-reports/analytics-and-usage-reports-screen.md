@@ -73,7 +73,7 @@ This SPDocKit plugin will help you detect old documents and list item in your fa
 The **Document Reports section** will be visible in the navigation tree only after [installing](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) the extension.
 {% endhint %}
 
-## SPCAF reports
+## SPCAF Reports
 
 SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It provides detailed information about a SharePoint customization’s \(WSPs or Add-ins\) code quality, dependencies, and complexity, among other things.  
 Find out more [about SPCAF](https://www.spcaf.com/) and how it can help you keep your SharePoint farm healthy and clean.  
@@ -87,7 +87,7 @@ Use SPDocKit to load WSPs information from your SharePoint farm and then analyze
 The **SPCAF Reports section** will become visible in the navigation tree only after [installing](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) the extension.
 {% endhint %}
 
-## Workflow reports
+## Workflow Reports
 
 This plugin for SPDocKit will allow you to analyze workflow usage on your farm.
 
