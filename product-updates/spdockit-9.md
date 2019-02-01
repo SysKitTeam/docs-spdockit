@@ -1,6 +1,6 @@
 # SPDocKit 9
 
-**SPDocKit 9.0.0** is a major release that comes with a bunch of new reports, dashboards, and other neat things. The list is long, so, let's get to it!
+**SPDocKit 9** is a major release that comes with a bunch of new reports, dashboards, and other neat things. The list is long, so, let's get to it!
 
 **Product version:** 9.0.0  
 **Build number:** 10941  
