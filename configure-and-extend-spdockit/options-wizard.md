@@ -42,7 +42,7 @@ The snapshots are by default saved to the SPDocKit database. To back up your sna
 
 Here you can also define the **SPDocKit Service running period**. The time you set here determines when the Service will start taking an automatic snapshot to collect the data you specified in the **Snapshot Options** and **Load Target** tabs of the Options Wizard. The **SPDocKit Service** will repeat that task whenever the selected recurrence period runs out. The minimal period is 4 hours, while the default value is 1 day.
 
-Check the **Enable collection of site analytics from SharePoint's Usage and Health Data Collection service** option if you want SPDocKit to collect data used for generating the Site Collections Analytics and Inactive Sites report. After being enabled for the first time, the Analytics job will immediately start to collect data for the last 7 days. It will further run on a daily basis \(around 3 AM\) and collect data for the previous day.  
+Check the **Enable collection of site analytics from SharePoint's Usage and Health Data Collection service** option if you want SPDocKit to collect data used for generating the Site Collections Analytics and Inactive Sites report. After being enabled for the first time, the Analytics job will immediately start to collect data for the last 7 days. It will further run on a daily basis \(between 1AM and 5AM\) and collect data for the previous day.  
 You can also define accounts for which the data will not be collected.
 
 Enabling the **automatic index reorganization** will result in better space usage and performance of the SPDocKit database. This job will always be run outside of regular business hours \(around 5 AM by default\).

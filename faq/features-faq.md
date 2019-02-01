@@ -39,7 +39,7 @@ t.Name
 
 ## The SPDocKit database size has grown too big — how do I trim or reduce its size?
 
-There is a data retention feature that helps manage your database size in SPDocKit. If you turn this feature on, the retention job will usually happen every day at the random time between 1:30AM and 5AM. However, even when our tool deletes old data from the tables, the SQL server will still use the same amount of disk space.
+There is a data retention feature that helps manage your database size in SPDocKit. If you turn this feature on, the retention job will usually happen every day at the random time between 4AM and 5AM. However, even when our tool deletes old data from the tables, the SQL server will still use the same amount of disk space.
 
 There are two parts of storage that are used by any database:
 
