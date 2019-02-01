@@ -1,6 +1,6 @@
 ---
 title: Analytics and Usage Reports Screen
-description: >-
+description: 
   This article describes how to use SPDocKit analytics and usage section to
   quickly get an overview of your farm storage and content usage, features usage
   and activations and SharePoint structure.
@@ -65,8 +65,14 @@ Analytics and Usage Reports provide a quick overview of your farm storage and co
 
 ## Document Reports
 
-* **Old List Items**
-* **Old Documents**
+This SPDocKit plugin will help you detect old documents and list item in your farm.
+Two reports are available:
+* **Old List Items** - Lists all list items older than the selected date range.
+* **Old Documents** - Lists all documents older than the selected date range.
+
+{% hint style="warning" %}
+**Please note! The Document Reports section will be visible in the navigation tree only after** [**installing**](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
+{% endhint %}
 
 ## SPCAF reports
 
@@ -78,7 +84,7 @@ Use SPDocKit to load WSPs information from your SharePoint farm and then analyze
 **Supported SharePoint versions**: SP2013, SP2016.
 
 {% hint style="warning" %}
-**Please note! SPCAF section will be visible in the navigation tree only after** [**installing**](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
+**Please note! The SPCAF Reports section will be visible in the navigation tree only after** [**installing**](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
 {% endhint %}
 
 ## Workflow reports
@@ -91,6 +97,6 @@ This plugin for SPDocKit will allow you to analyze workflow usage on your farm.
 Visit [SPDocKit resources center](https://www.spdockit.com/resources/reports) for videos and samples of SharePoint documentation and reports by SPDocKit.
 
 {% hint style="warning" %}
-**Please note! Workflow Analytics section will be visible in the navigation tree only after** [**installing**](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
+**Please note! The Workflow Reports section will be visible in the navigation tree only after** [**installing**](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) **the extension.**
 {% endhint %}
 
