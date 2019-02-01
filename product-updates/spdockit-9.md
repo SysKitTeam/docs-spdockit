@@ -3,7 +3,7 @@
 **SPDocKit 9.0.0** is a major release that comes with a bunch of new reports, dashboards, and other neat things. The list is long, so, let's get to it!
 
 **Product version:** 9.0.0  
-**Build number:** 1094x  
+**Build number:** 10941  
 **Release date:** Feb 05, 2019
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
