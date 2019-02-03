@@ -27,7 +27,8 @@ If your server does not have an internet connection, you can use the Offline ins
 3. Once it is successfully installed, restart SPDocKit and the plugin will be ready for use.
 
 {% hint style="warning" %}
-**Please note! The SPCAF, Workflow and Document Reports sections will be visible in the navigation tree only after installing the extensions.**
+**Please note!**   
+The SPCAF, Workflow and Document Reports sections will be visible in the navigation tree only after installing the extensions.
 {% endhint %}
 
 ## **Learn more**
