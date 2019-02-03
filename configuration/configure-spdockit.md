@@ -24,7 +24,8 @@ This article explains how to configure the SPDocKit database and service before 
 4. click **Next** to complete the Configuration Wizard and apply the changes.
 
 {% hint style="warning" %}
-**Please note!** To configure your SPDocKit settings more thoroughly, navigate to the **File** tab, click on the **Configuration** in the left navigation bar and press [Options](../configure-and-extend-spdockit/backstage-screen.md) button.
+**Please note!**   
+To configure your SPDocKit settings more thoroughly, navigate to the **File** tab, click on the **Configuration** in the left navigation bar and press [Options](../configure-and-extend-spdockit/backstage-screen.md) button.
 {% endhint %}
 
 ## Workstation
@@ -43,7 +44,8 @@ To install and configure SPDocKit on a workstation, follow these instructions:
 4. Click **Finish** to start using SPDocKit on your workstation.
 
 {% hint style="warning" %}
-**Please Note!** When using SPDocKit on your workstation, the **SPDocKit Service will not be available**.
+**Please Note!**   
+When using SPDocKit on your workstation, the **SPDocKit Service will not be available**.
 {% endhint %}
 
 The following features are available:
