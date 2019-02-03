@@ -62,8 +62,9 @@ To start the **Windows Update service**, open the Service Microsoft Management C
 
 There are some additional SPDocKit permission requirements necessary to load SQL servers information.
 
-{% hint style="info" %}
-Please note that the following permissions on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practices reports will not be available in SPDocKit.
+{% hint style="warning" %}
+**Please note!**   
+The following permissions on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practices reports will not be available in SPDocKit.
 {% endhint %}
 
 ### Required permissions
