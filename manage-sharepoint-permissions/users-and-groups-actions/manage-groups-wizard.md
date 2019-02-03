@@ -66,7 +66,8 @@ This wizard option will rename specific SharePoint groups on selected site colle
 8. **Regular expression** – changes will apply only to groups whose name contains specified regular expression.
 
 {% hint style="warning" %}
-**Please note!** Since group names must be unique on a site collection, new name must not already be used by an existing group on that site collection, otherwise the rename process will skip that group.
+**Please note!**   
+Since group names must be unique on a site collection, new name must not already be used by an existing group on that site collection, otherwise the rename process will skip that group.
 {% endhint %}
 
 1. All the groups fitting the selected criteria will be displayed on the **Preview** step, along with their location. This allows you to modify any settings you might like before the wizard action is executed.  
