@@ -45,10 +45,20 @@ This wizard option allows you to set a specified user as a secondary administrat
 This wizard option allows you to add one or more users to the Site Collection Administrators Group of the selected site collections.
 
 1. Navigate to Permissions Explorer and click on the **Site Collection Administrators Wizard** in the Wizards ribbon.
+
 2. Select **Add To Site Collection Administrators Group** option and **Next** to continue.
+
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection\(s\) in which changes will be made.
-4. Specify which users should be added to a Site Collection Administrators group. You can specify any number of users and Active Directory groups here. **Please note!** Active directory groups are not supported choice for SharePoint 2007 Site Collection Administrators group.
-5. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard. . If any of specified users is already a primary or secondary administrator of the site collection, you will be notified in this step.
+
+4. Specify which users should be added to a Site Collection Administrators group. You can specify any number of users and Active Directory groups here. 
+
+{% hint style="warning" %}
+**Please note!**   
+Active directory groups are not supported choice for SharePoint 2007 Site Collection Administrators group.
+{% endhint %}
+
+5. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard. If any of specified users is already a primary or secondary administrator of the site collection, you will be notified in this step.
+
 6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Remove from Site Collection Administrators Group
