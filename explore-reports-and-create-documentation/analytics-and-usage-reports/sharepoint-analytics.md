@@ -7,7 +7,9 @@ date: 28/9/2018
 
 # Site Collection Analytics
 
-This article explains how you can use the Site Collection Analytics report. The report shows the total number of hits each site collection had in the last seven days, along with the maximum number of daily unique visitors, and how the number of hits during that week compares to the previous period. The report also includes data on each site collection's size, the number of subsites it has, and the dates when it was last accessed and last modified.
+This article explains how you can use the Site Collection Analytics report. 
+
+The report shows the total number of hits each site collection had in the last seven days, along with the maximum number of daily unique visitors, and how the number of hits during that week compares to the previous period. The report also includes data on each site collection's size, the number of subsites it has, and the dates when it was last accessed and last modified.
 
 Report data comes from the [SPDocKit database](../../configuration/configure-spdockit-database.md), and in order to start collecting the data, you need to enable the SharePoint Analytics Collection. To do so, go to **Options &gt; Service Settings** and enable the checkbox "Enable collection of site analytics from SharePoint's Usage and Health Data Collection service". For more information on available options, read [this article](../../configure-and-extend-spdockit/options-wizard.md).
 
