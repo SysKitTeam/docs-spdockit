@@ -11,8 +11,9 @@ date: 16/5/2017
 
 During the Snapshot creation process, SPDocKit will try to retrieve information about your servers.
 
-{% hint style="info" %}
-Please note that the following permissions on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practices reports will not be available in SPDocKit.
+{% hint style="warning" %}
+**Please note!**   
+The following permissions on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practices reports will not be available in SPDocKit.
 {% endhint %}
 
 ### Required permissions
