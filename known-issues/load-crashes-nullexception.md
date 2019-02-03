@@ -25,7 +25,7 @@ You should see a discrepancy between the two lists if this is indeed the reason 
 
 ## **Solution**
 
-Please check your farm and site collections for any misconfigurations. One of the causes could be a missing managed path or a managed path of the wrong type. If the issue persists, contact our support team for more detailed troubleshooting.
+Please check your farm and site collections for any misconfigurations. One of the causes could be a missing managed path or a managed path of the wrong type. If the issue persists, [contact our support team](https://www.syskit.com/company/contact-us/) for more detailed troubleshooting.
 
 **Status:** Not resolved.
 
