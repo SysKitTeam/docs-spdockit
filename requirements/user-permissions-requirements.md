@@ -80,7 +80,10 @@ When SPDocKit is installed on a workstation, only an existing database can be us
 
 To view and manage Live permissions in Permissions Explorer the user has to be a Site Collection Administrators of the Site Collection where the changes are made, otherwise, the following warning message appears: **'You do not have sufficient permissions to view this report'.** As a Farm Administrator, you can view and manage permissions on all Site Collections in a SharePoint farm.
 
-Please note: To create a new snapshot, you need to use SPDocKit installed on a SharePoint server.
+{% hint style="warning" %}
+**Please note!**   
+To create a new snapshot, you need to use SPDocKit installed on a SharePoint server.
+{% endhint %}
 
 ## Error Message
 
