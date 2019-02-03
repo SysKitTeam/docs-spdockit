@@ -65,7 +65,6 @@ date: 05/02/2019
 * **Actions filter added** to the Administrative Actions report.
 * **Site Visitors List** report **renamed Site Collection Visitors**, and the date range filter limited to 30 days.
 * **Added search** in the Actions filter on Administrative Actions report.
-* **Improved UX** when creating a snapshot with SPDocKit PowerShell module. On snapshot completion, the snapshot’s parent folder is opened and the snapshot file is automatically selected.
 * **Numerous UI improvements**: clearer wizard descriptions; humanized error messages; improved behavior of filters; improved refresh of reports; data source info added to status bar, etc.
 * **Expand All Groups button disabled** in Storage Metrics report. Since this action is costly in resources, it was disabled.
 
@@ -86,6 +85,5 @@ date: 05/02/2019
 * Fixed a bug where the Extension filter selection was not shown in the exported Document Extension Details report.
 * Fixed a bug with Farm Differences Subscription on SharePoint 2010 Farms. When sending a subscription, the following error would appear: System.NotSupportedException: Unable to create a constant value of type 'Acceleratio.SPDocKit.UserControls.PrintContainer.
 * Fixed a bug where the app would crash when trying to create a subscription on a farm for which no snapshots had been created.
-* Consultant: Fixed a bug where the app would crash when trying to import a snapshot with the lower case extension ‘spdfarmx’ instead of the regular ‘SPDFarmx’ version. The import now supports both options.
 * Fixed a bug where the mouse wheel scroll would not work on the Document Extension Overview report.
 
