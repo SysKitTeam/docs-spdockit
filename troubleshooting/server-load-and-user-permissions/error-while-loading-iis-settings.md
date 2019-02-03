@@ -48,7 +48,8 @@ To enable the role, follow these steps:
 3. **Results** step - displays the installation progress. Once the installation is finished, the **Installation succeeded** message is displayed. 
 
 {% hint style="warning" %}
-**Please note:** Make sure to install the role on all Web Front End servers in a Farm in order to collect the IIS Settings Information.
+**Please note!**  
+Make sure to install the role on all Web Front End servers in a Farm in order to collect the IIS Settings Information.
 {% endhint %}
 
 SPDocKit will now be able to collect the server's IIS Settings Information.
