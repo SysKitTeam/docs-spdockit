@@ -16,16 +16,23 @@ date: 25/5/2017
 This wizard options allows you to create new permission level across multiple site collections.
 
 1. Navigate to Permissions Explorer and click on the **Permission Levels Wizard** in the Wizards ribbon.
+
 2. Select **Add permission level** option and **Next** to continue.
+
 3. The **Target** step allows you to specify the entire farm, web application or just specific site collection\(s\) in which changes will be made.
+
 4. Upon selecting the wizard scope, please specify the name and the description for the new permission level.
-5. Next step is to select which base permissions this permission level will have.
 
-   Every permission level is collection of base permission. These are permissions which allow users to view, create or edit SharePoint objects. List of base permissions is populated based on configuration of the selected web application. Every SharePoint web application specifies the list of base permissions which are available to assign to a SharePoint user on that web application. This is the reason why it is not possible to target more than one web application at the time.
+5. Next step is to select which base permissions this permission level will have.  
+Every permission level is collection of base permission. These are permissions which allow users to view, create or edit SharePoint objects. List of base permissions is populated based on configuration of the selected web application. Every SharePoint web application specifies the list of base permissions which are available to assign to a SharePoint user on that web application. This is the reason why it is not possible to target more than one web application at the time.
 
-   **Please note!** Base permissions are connected, so if for example, you want to include Manage Lists base permission into the new permission level, the View Items, View Pages and Open base permissions are also needed. User do not have to worry about these requirements, SPDocKit will take care of them.
+{% hint style="warning" %}
+**Please note!**   
+Base permissions are connected, so if for example, you want to include Manage Lists base permission into the new permission level, the View Items, View Pages and Open base permissions are also needed. User do not have to worry about these requirements, SPDocKit will take care of them.
+{% endhint %}
 
 6. This step will list all the actions that will be taken in the next step of the wizard. Make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
+
 7. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 ## Add Permission\(s\) to Permission Level
