@@ -100,7 +100,12 @@ To grant the **db\_owner** database role to the SPDocKit accounts, follow these 
 
 ## Project Server Information
 
-During the snapshot creation process, SPDocKit will try to retrieve information about your Project server sites. Please note that the following permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit.
+During the snapshot creation process, SPDocKit will try to retrieve information about your Project server sites. 
+
+{% hint style="warning" %}
+**Please note!**   
+The following permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit.
+{% endhint %}
 
 ### Required Permissions
 
