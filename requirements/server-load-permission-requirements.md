@@ -91,9 +91,7 @@ In case you have a very strict security policy and cannot add the sysadmin role 
       EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
    ```
 
-```text
 To grant the **db\_owner** database role to the SPDocKit accounts, follow these steps:
-```
 
 1. Connect to your SQL server using **SQL Server Management Studio**.
 2. Navigate to **Security** &gt; **Logins** and select the SPDocKit account.
