@@ -12,42 +12,35 @@ date: 24/5/2017
 
 **Analytics and Usage Reports** provide a quick overview of your farm storage and content usage, features usage and activations, and SharePoint structure.
 
-## **Analytics Dashboard** 
+## **Analytics Dashboard**
 
 Provides you with an analytics overview of your farm. The dashboard displays information about the total numbers of hits on and visitors to the farm’s site collections, the total number of searches, and trends for those metrics compared to the previous week. Here, you can find your most visited site collections, top searched terms and most popular documents. Lastly, the farm’s storage usage information is provided.
 
 ## Analytics
 
 * **Farm Analytics** - Shows an overview of the general usage metrics of your SharePoint farms: the number of hits and unique visitors in the previous seven days, as well as the numbers of total and active site collections. Those metrics are compared to the previous week and the trends are displayed in the Total Hits, Visitors, and Active Site Collections columns. Use the **Explore** Farm button to view the Site Collection Analytics report for the selected farm.
-
 * **Site Collection Analytics** - Shows the total number of hits each site collection had in the previous seven days along with the maximum number of daily unique visitors, and how those hits compare to the previous period. It also includes data on each site collection’s size, the number of subsites, and the date when it was last accessed and last modified. Use the **Explore Site Collection** button to view the Subsite Analytics report for the selected site collection.
-
-* **Site Collection Visitors** – Shows a list of all visitors to the selected site. 
-
+* **Site Collection Visitors** – Shows a list of all visitors to the selected site.
 * **Subsite Analytics** - Shows the total number of hits each subsite had in the previous seven days along with the maximum number of daily unique visitors, and how those metrics compare to the previous week. It also includes data on each subsite’s size, the number of subsites, as well as the dates when it was last accessed and modified. Use the **Show Document Analytics** button to open the Document Analytics report, showing data for the associated site collection.
-
-* **Document Analytics** - Shows the recently viewed documents on a site collection, along with information on the number of times a document has been viewed and edited. It includes details on all the actions performed on a specific document as well as the time, and the users who performed those actions. 
-
+* **Document Analytics** - Shows the recently viewed documents on a site collection, along with information on the number of times a document has been viewed and edited. It includes details on all the actions performed on a specific document as well as the time, and the users who performed those actions.
 * **Most Popular Documents** - Shows the 1,000 most popular documents on a farm base, based on the number of views in the selected time period.
 
 ## Search Analytics
 
-* **Search Analytics** - Shows an overview of the number of search queries performed on each farm in the previous seven days. Also displays trends in those metrics compared to the previous week. Use the **Explore Top Queries** option to view the most popular search queries for the selected farm. 
-
-* **Top Queries** - Shows the most popular search queries in the previous seven days, as well as the number and percentage of abandoned and no-result searches for each searched term.  
+* **Search Analytics** - Shows an overview of the number of search queries performed on each farm in the previous seven days. Also displays trends in those metrics compared to the previous week. Use the **Explore Top Queries** option to view the most popular search queries for the selected farm.
+* **Top Queries** - Shows the most popular search queries in the previous seven days, as well as the number and percentage of abandoned and no-result searches for each searched term.
 
 ## Usage & Structure
 
-*	**SharePoint Structure** – Shows a hierarchical structure of selected site collections down to the list item level. The Include Content filter allows you to change the report’s granularity.
-*	**Recently Created Subsites** – Shows subsites that have been created recently.
-*	**Inactive Subsites** – Shows subsites which are inactive (with no visitors in the selected time range).
-*	**Recently Created Lists** – Shows lists and document libraries that have been created recently.
-*	**Unmodified Lists** – Shows lists and document libraries without any content modification in the selected time range.
-*	**Recently Created Documents** – Shows documents and list items that have been created recently.
-*	**Recently Modified Documents** – Shows documents and list items that have been modified recently.
-*	**Dead Documents** – Shows you a list of documents to which the authors no longer have access, documents whose authors can no longer be found on the farm, or whose authors have been disabled or deleted from the AD. 
-*	**Content Type Usage** – Shows all lists that contain a specific content type within a selected site collection. 
- 
+* **SharePoint Structure** – Shows a hierarchical structure of selected site collections down to the list item level. The Include Content filter allows you to change the report’s granularity.
+* **Recently Created Subsites** – Shows subsites that have been created recently.
+* **Inactive Subsites** – Shows subsites which are inactive \(with no visitors in the selected time range\).
+* **Recently Created Lists** – Shows lists and document libraries that have been created recently.
+* **Unmodified Lists** – Shows lists and document libraries without any content modification in the selected time range.
+* **Recently Created Documents** – Shows documents and list items that have been created recently.
+* **Recently Modified Documents** – Shows documents and list items that have been modified recently.
+* **Dead Documents** – Shows you a list of documents to which the authors no longer have access, documents whose authors can no longer be found on the farm, or whose authors have been disabled or deleted from the AD. 
+* **Content Type Usage** – Shows all lists that contain a specific content type within a selected site collection. 
 
 ## Storage Metrics & Growth
 
@@ -63,12 +56,9 @@ Provides you with an analytics overview of your farm. The dashboard displays inf
 * **Features List** – Shows all features present on a SharePoint farm. It also specifies whether the feature is custom or default, and its scope. 
 * **Activations** – displays a list of SharePoint objects on which a specific feature is activated.
 * **Activations by Edition** – displays all features on the selected site collections, grouped by SharePoint edition.
-
 * **Feature Usage**
-
-  **Feature Usage by Edition** – Shows the usage of feature licenses per SharePoint edition \(Foundation, Standard or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
-
-  **Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(**Web application**, **Site Collection**, or **Subsite**\). To see a complete report, define the number of available custom feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
+  * **Feature Usage by Edition** – Shows the usage of feature licenses per SharePoint edition \(Foundation, Standard or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
+  * **Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(**Web application**, **Site Collection**, or **Subsite**\). To see a complete report, define the number of available custom feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
 
 ## Document Reports
 
@@ -78,7 +68,7 @@ This SPDocKit plugin will help you detect old documents and list item in your fa
 **Old Documents** - Lists all documents older than the selected date range.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 The **Document Reports section** will be visible in the navigation tree only after [installing](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) the extension.
 {% endhint %}
 
@@ -92,7 +82,7 @@ Use SPDocKit to load WSPs information from your SharePoint farm and then analyze
 **Supported SharePoint versions**: SP2013, SP2016.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 The **SPCAF Reports section** will become visible in the navigation tree only after [installing](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) the extension.
 {% endhint %}
 
@@ -106,7 +96,7 @@ This plugin for SPDocKit will allow you to analyze workflow usage on your farm.
 Visit the [SPDocKit resources center](https://www.spdockit.com/resources/reports) for videos and samples of SharePoint documentation and reports by SPDocKit.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 The **Workflow Reports section** will become visible in the navigation tree only after [installing](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) the extension.
 {% endhint %}
 
