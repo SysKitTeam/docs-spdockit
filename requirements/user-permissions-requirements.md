@@ -58,8 +58,6 @@ Get-SPDatabase | ForEach-Object {Add-SPShellAdmin -UserName $username -database 
 * The cmdlet might fail in some environments; please contact us for further assistance.
 {% endhint %}
 
-\*\*\*\*
-
 ## SPDocKit database requirements
 
 ### Creating a new database
