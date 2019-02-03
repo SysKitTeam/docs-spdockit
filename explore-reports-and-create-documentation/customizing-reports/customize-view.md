@@ -41,6 +41,11 @@ Also, reports with new columns which are located in **Content & Usage Reports** 
 
 Go to the **View** tab, select the **Choose Columns** button and list of the available columns will appear. You can drag and drop them, or simply double click the column, and it will “go” on the report.
 
+{% hint style="warning" %}
+**Please note!**   
+For each report only the **available** columns will appear in the Choose Columns window.
+{% endhint %}
+
 **Please note** that for each report only the **available** columns will appear in the Choose Columns window.
 
 ## **Set the filters and group the data**
