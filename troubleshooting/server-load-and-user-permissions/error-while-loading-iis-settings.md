@@ -33,8 +33,7 @@ A server restart could be required for the changes to take effect.
 To enable the role, follow these steps:
 
 1. Open the Server Manager on IIS server  
-2. Two options are available:
-   1. On the Dashboard screen, select the **Add roles and features** option. **OR..**
+2. 1. On the Dashboard screen, select the **Add roles and features** option. **OR..**
    2. On the left side menu, click the **Local Server** option, navigate to the **Roles and Features** section, and select **Add Roles and Features** option in the **Tasks** drop-down menu on the right side of the screen. The **Add Roles and Features Wizard** opens.  
 3. **Before You Begin** step - continue to the next step by clicking Next.  
 4. **Installation Type** step - make sure the **Role-base or feature-based installation** option is selected.  
