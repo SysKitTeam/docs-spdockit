@@ -14,26 +14,26 @@
 
   Get the most important information at a glance with a new set of visually appealing dashboards. Each dashboard tile enables you to drill down to a more detailed report where you can find specific information of interest. As already mentioned, three new dashboards are available: [**Farm**](../explore-reports-and-create-documentation/farm-explorer/farm-dashboard.md), [**Analytics**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-dashboard.md), and [**Audit**](../explore-reports-and-create-documentation/audit-reports/audit-dashboard.md). Each of them gives you a high-level view of information available in the related category; the Analytics Dashboard replaces the old Content Overview report**.**
 
-* **New Search Analytics reports are available!**  With the new **Search Analytics** report, you can easily view the total number of searches in your farm, the number of failed searches, as well as search trends. From here, drill down to the new **Top Queries** report to see which terms were most often searched for.
+* **New Search Analytics reports are available!**  With the new [**Search Analytics**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#search-analytics) report, you can easily view the total number of searches in your farm, the number of failed searches, as well as search trends. From here, drill down to the new [**Top Queries**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#search-analytics) report to see which terms were most often searched for.
 * **New Analytics reports available!** With the new set of analytics reports it is easier than ever to see the big picture, but also to quickly jump to a single document library item and see who viewed it, or made some changes. 
 
-  The new **Farm Analytics** report gives you a high-level view of visitor hits aggregated from all site collections in your farm, as well as weekly trends. From here, drill down to the Site Collection analytics, and further still to the new **Subsite Analytics** report to see the number of hits and visitors on a subsite level. Finally, explore the new **Document Analytics** report to see the number of views and edits for every single document in your site collection.
+  The new [**Farm Analytics**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#analytics) report gives you a high-level view of visitor hits aggregated from all site collections in your farm, as well as weekly trends. From here, drill down to the Site Collection analytics, and further still to the new [**Subsite Analytics**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#analytics) report to see the number of hits and visitors on a subsite level. Finally, explore the new [**Document Analytics**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#analytics) report to see the number of views and edits for every single document in your site collection.
 
-* **New Farm Growth report available!**  
+* **New** [**Farm Growth**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#storage-metrics-and-growth) **report available!**  
 
-  You can explore how much space is used by your content and service databases on a farm, and make plans based on predictions shown in the forecast. From here, go down to the **Database Growth** report to view information about each database in your farm. With the new report comes a **new system job** – **Database Analytics** – that collects necessary data outside of working hours.
+  You can explore how much space is used by your content and service databases on a farm, and make plans based on predictions shown in the forecast. From here, go down to the [**Database Growth**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#storage-metrics-and-growth) report to view information about each database in your farm. With the new report comes a **new system job** – **Database Analytics** – that collects necessary data outside of working hours.
 
-* **New Large Documents report available!**  
+* **New** [**Large Documents**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#storage-metrics-and-growth) **report available!**  
 
   See which documents occupy most of your precious storage space or have a suspiciously large number of versions.
 
-* **New Most Popular Documents report available!**  
+* **New** [**Most Popular Documents**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#analytics) **report available!**  
 
   The report enables you to see the top 1,000 documents in your farm, sorted by the number of views of each in the last week or month.
 
 * **New extension available!**  
 
-  With the installation of the **Document Usage** extension, SPDocKit is gaining two new reports – **Old List Items** and **Old Documents** – that help you to detect old and possibly unused items in your farm.
+  With the installation of the [**Document Usage**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#document-reports) extension, SPDocKit is gaining two new reports – **Old List Items** and **Old Documents** – that help you to detect old and possibly unused items in your farm.
 
 * **New Audit Log Details and Administrative Actions alerts available!**  
 
