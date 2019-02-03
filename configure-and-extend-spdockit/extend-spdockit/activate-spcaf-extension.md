@@ -33,6 +33,13 @@ If you already have the licensed SPCAF on a machine together with SPDocKit, the 
 As we mentioned before, you will receive your license key from Rencore. The key will be in a plain text format. This is what you need to do to create a license file: Create a file with extension “.lic”, e.g., **“license.lic“**. Then, open the file in your preferred text editor \(e.g., notepad\) and paste in your license key.
 
 After you install the extension, you need to activate it. Take the license file \(**whose name must be license.lic**\) and place it in: **“%ProgramData%\SPDocKit\Extensions\SPCAF”**.  
+
+
+{% hint style="warning" %}
+**Please note!**   
+By default, the folders Extensions and SPCAF do not exist and **you need to create them**.
+{% endhint %}
+
 Please note that, by default, the folders Extensions and SPCAF do not exist and **you need to create them**.
 
 After that, go to the SPCAF Reports in the Content & Usage Reports section of SPDocKit. Select any report, and you will notice the following message:
