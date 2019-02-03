@@ -86,7 +86,10 @@ Adding a principal to a SharePoint group will grant the selected principal permi
 * **Scope:** currently selected SharePoint object with unique permissions
 * **Available On:** SharePoint user, Active Directory group
 
-Please note! Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
+{% hint style="warning" %}
+**Please note!**   
+Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
+{% endhint %}
 
 **Copy to group** adds a selected principal to a SharePoint group, but keeps his directly granted permissions on this SharePoint object also. Selected user will now have both directly given permissions and permissions gained through this group membership.
 
