@@ -40,14 +40,13 @@ Source object's permission inheritance must be broken in order to use this wizar
    The **Create missing permission levels** option is also available. If checked, missing permission levels are created on the target site collection with the same base permissions as in the source permission levels. If unchecked, the permission levels are not created and therefore can not be assigned to groups or principals.
 
 {% hint style="warning" %}
-**Please note!**
-
-If the source site collection and the target site collection have SharePoint groups with the same name and different members, and the Keep existing target object permissions option is checked, existing members in the target group are preserved and new members from the source group are added. If the Keep existing target object permissions option is not checked, the target group members are removed and source group members added.
-
-If the source site collection and the target site collection have Permission levels with the same name but different base permissions, the target permission level will not be changed, and it will not be added to any principals or groups. The following message appears in the Preview window: **Permission level \[permissionLevelName\] already exists on \[targetSiteCollection\] with different base permissions and will be skipped.**
-
-The **Preview** step shows the changes that will occur in the final step.
-
+**Please note!**  
+If the source site collection and the target site collection have SharePoint groups with the same name and different members, and the Keep existing target object permissions option is checked, existing members in the target group are preserved and new members from the source group are added. If the Keep existing target object permissions option is not checked, the target group members are removed and source group members added.  
+  
+If the source site collection and the target site collection have Permission levels with the same name but different base permissions, the target permission level will not be changed, and it will not be added to any principals or groups. The following message appears in the Preview window: **Permission level \[permissionLevelName\] already exists on \[targetSiteCollection\] with different base permissions and will be skipped.**  
+  
+The **Preview** step shows the changes that will occur in the final step.  
+  
 In the **Apply Changes** step, all changes are displayed as they are applied. It is possible to save the log for later reference by clicking the **Save Log** button. The changes are also saved in the [SPDocPerm event log](../spdockit-permission-management-event-log.md).
 {% endhint %}
 
