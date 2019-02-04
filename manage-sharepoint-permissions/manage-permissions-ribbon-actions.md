@@ -26,10 +26,10 @@ This article explains how to use Manage ribbon to easily manage SharePoint permi
 * **Scope:** currently selected SharePoint object
 
 {% hint style="warning" %}
-**Please note!**
+**Please note!**  
+If you choose to restore the permission inheritance on a **folder**, you can choose an additional option to restore permission inheritance for **all subitems** as well.
 
-* If you choose to restore the permission inheritance on a **folder**, you can choose an additional option to restore permission inheritance for **all subitems** as well.
-* Restoring permission inheritance on a **subsite**, will also restore the permission inheritance on lists and list items on that subsite.
+Restoring permission inheritance on a **subsite**, will also restore the permission inheritance on lists and list items on that subsite.
 {% endhint %}
 
 ## Grant
