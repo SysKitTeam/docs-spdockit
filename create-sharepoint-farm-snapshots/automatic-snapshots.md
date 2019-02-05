@@ -18,7 +18,7 @@ SPDocKit allows administrators to configure a schedule to create automatic Share
 **Please note!** Check the [permission requirements](../requirements/user-permissions-requirements.md) for the service account.
 {% endhint %}
 
-1. **Once the Configuration wizard is finished, navigate to the** Backstage Configuration Screen &gt; Options &gt; Service Settings\*\*. You can change the snapshots folder location or choose to save them to the database. [Define the period](../configure-and-extend-spdockit/options-wizard.md) for creating snapshots with the Data Collection Interval.
+1. **Once the Configuration wizard is finished, navigate to the** Backstage Configuration Screen &gt; Options &gt; Service Settings. You can change the snapshots folder location or choose to save them to the database. [Define the period](../configure-and-extend-spdockit/options-wizard.md) for creating snapshots with the Data Collection Interval.
 
 With the **Database Index Reorganization**, you can enable automatic index reorganization. That means your database space usage and performance when reading data will improve. During index reorganization, SPDocKit might be unavailable.
 
