@@ -10,7 +10,7 @@ description: This article explains how to perform a manual snapshot in SPDocKit
 This section describes how you can use the SPDocKit Snapshot wizard to collect SharePoint farm settings and permissions.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Adjustments and settings you make using this wizard apply to the current snapshot-taking process only. If you wish to configure a default snapshot-taking setting, use the [Options wizard](../configure-and-extend-spdockit/options-wizard.md). The selection you make there will be used as a default load template.
 {% endhint %}
 
@@ -26,7 +26,7 @@ Adjustments and settings you make using this wizard apply to the current snapsho
    This is the recommended load mode if you don’t mind waiting and want to be sure you have all the data once the load finishes.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 What you choose to take a snapshot of, within the Custom mode, applies only to the current load and does not affect loading executed by the SPDocKit service.
 {% endhint %}
 

@@ -7,7 +7,7 @@ date: 28/9/2018
 
 # Site Collection Analytics
 
-This article explains how you can use the Site Collection Analytics report. 
+This article explains how you can use the Site Collection Analytics report.
 
 The report shows the total number of hits each site collection had in the last seven days, along with the maximum number of daily unique visitors, and how the number of hits during that week compares to the previous period. The report also includes data on each site collection's size, the number of subsites it has, and the dates when it was last accessed and last modified.
 

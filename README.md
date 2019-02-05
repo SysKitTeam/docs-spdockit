@@ -23,5 +23,3 @@ Features:
 
 SharePoint farm administration is faster and easier with SPDocKit.
 
-\*\*\*\*[**Download free trial and give it a try!**](https://www.syskit.com/products/spdockit/) ****
-
