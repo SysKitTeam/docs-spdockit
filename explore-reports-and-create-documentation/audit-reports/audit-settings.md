@@ -18,8 +18,8 @@ If you want SharePoint \(and then SPDocKit\) to gather your audit logs, you need
 
 The Audit Settings report contains the following columns:
 
-* Site Collection
-* Url
+* **Site Collection**
+* **Url**
 * **Trim Audit Log**
 * **Days of Audit Log Data to Retain**
 * **Audit Report Storage Location**
