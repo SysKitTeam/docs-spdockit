@@ -1,6 +1,8 @@
-# Configure SPDocKit Database
+---
+description: This article explains how to configure the database for SPDocKit.
+---
 
-This article explains how to configure the database for SPDocKit.
+# Configure SPDocKit Database
 
 SPDocKit uses a database for storing data gathered from your SharePoint farm.
 
