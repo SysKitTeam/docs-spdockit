@@ -2,7 +2,7 @@
 private: true
 ---
 
-# SPDocKit
+# SPDocKit by SysKit
 
 **SPDocKit** by [**SysKit**](https://www.syskit.com/) is **the ultimate SharePoint management and administration tool.** It was developed for administrators and consultants to save time and automate their administration tasks.
 
