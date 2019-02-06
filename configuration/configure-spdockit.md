@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article explains how to configure SPDocKit database and service before
-  the first usage.
+description: This article explains how to configure SPDocKit before the first usage.
 ---
 
 # Configure SPDocKit
