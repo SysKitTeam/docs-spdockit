@@ -1,3 +1,9 @@
+---
+description: >-
+  This article lists all user privileges needed to retrieve SharePoint farm
+  settings with SPDocKit.
+---
+
 # SharePoint On-Premises User Permissions Requirements
 
 ## Required Permissions
