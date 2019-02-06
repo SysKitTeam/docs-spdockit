@@ -1,8 +1,16 @@
+---
+description: >-
+  This article explains how to configure SPDocKit database and service before
+  the first usage.
+---
+
 # Configure SPDocKit
 
 ## SharePoint Server
 
-This article explains how to configure the SPDocKit database and service before the first usage, while installed on a SharePoint server. **SPDocKit Configuration wizard** will automatically start when you start SPDocKit for the first time. Follow these steps to successfully configure the application:
+This section explains how to configure SPDocKit database and service before the first usage, while installed on a SharePoint server. 
+
+**SPDocKit Configuration wizard** will automatically start when you start SPDocKit for the first time. Follow these steps to successfully configure the application:
 
 1. On the **Database** wizard page select whether to create a new database or use an existing one. [Read more](configure-spdockit-database.md) about the SPDocKit database.
 2. On the **Database Configuration** wizard page specify the **SQL Server, Database Name** and authentication. It is possible to overwrite the existing database under the same name.
@@ -30,7 +38,7 @@ To configure your SPDocKit settings more thoroughly, navigate to the **File** ta
 
 ## Workstation
 
-This article explains how to configure SPDocKit on a workstation. A SPDocKit workstation instance allows you to manage SharePoint On-Premise, view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
+This article explains how to configure SPDocKit on a workstation. SPDocKit workstation instance allows you to manage SharePoint On-Premise, view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
 
 **Requirements**: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [Workstation license](https://www.syskit.com/products/spdockit/pricing/) and the user running the application on a workstation needs to have adequate [permissions](../requirements/user-permissions-requirements.md).
 
