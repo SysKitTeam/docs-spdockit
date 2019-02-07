@@ -3,8 +3,8 @@ title: >-
   Error occurred while trying to load ‘Problems and Solutions’ and ‘Rule
   Definitions’
 description: >-
-  Article describes the issue of SPDocKit not being able to load Problems and
-  Solutions and Rule Definitions.
+  This article describes the issue with SPDocKit not being able to load Problems
+  and Solutions and Rule Definitions.
 author: Mia Tomaić
 date: 18/5/2017
 ---
