@@ -8,7 +8,7 @@ author: Tomislav Kunaj
 date: 25/5/2017
 ---
 
-# Subscriptions And Alerts
+# Subscriptions and Alerts
 
 In order to use this feature, you have to configure an SPDocKit database and the subscription settings, as well as select the delivery methods you prefer.
 

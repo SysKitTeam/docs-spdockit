@@ -1,5 +1,5 @@
 ---
-description: This section shows how to customize reports and work with comments and tags.
+description: This section shows how to customize reports and work with comments.
 ---
 
 # Customizing Reports
