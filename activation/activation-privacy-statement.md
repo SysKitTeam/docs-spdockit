@@ -1,5 +1,5 @@
 ---
-description: This article states SysKit's Activation Privacy Statement.
+description: This article shows SysKit's Activation Privacy Statement.
 ---
 
 # Activation Privacy Statement
