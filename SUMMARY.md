@@ -149,4 +149,3 @@
     * [Inbound traffic on TCP Port 1433 needs to be allowed on the SQL](troubleshooting/sql-server-connection/inbound-traffic.md)
     * [Service user does not have rights to connect to the SQL server](troubleshooting/sql-server-connection/service-user-doesnt-have-rights-to-connect-to-server.md)
     * [TCP/IP network traffic not enabled on the SQL Server](troubleshooting/sql-server-connection/tcp-ip-network-traffic-not-enabled-on-server.md)
-
