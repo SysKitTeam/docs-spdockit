@@ -2,7 +2,7 @@
 title: Upgrade to the Latest Version
 author: Tomislav Sirovec
 date: 17/5/2017
-description: This article explains how to upgrade SPDocKit to the latest major version.
+description: This article explains how to upgrade SPDocKit to the latest version.
 ---
 
 # Upgrade to the Latest Version
@@ -26,7 +26,7 @@ description: This article explains how to upgrade SPDocKit to the latest major v
 6. The installation wizard will unpack your files and you will be able to run the application from: **Start** &gt; **All Programs** &gt; **SPDocKit.**
 
 {% hint style="warning" %}
-**Please note:**
+**Please note!**
 
 When a **single database** is used with multiple instances of SPDocKit, all instances of SPDocKit have to be upgraded to the new version. Data collection using an older instance of SPDocKit on an upgraded database is **not possible** until SPDocKit is updated.
 

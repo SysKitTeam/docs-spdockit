@@ -42,7 +42,7 @@ The snapshots are by default saved to the SPDocKit database. To back up your sna
 
 Here you can also define the **SPDocKit Service running period**. The time you set here determines when the Service will start taking an automatic snapshot to collect the data you specified in the **Snapshot Options** and **Load Target** tabs of the Options Wizard. The **SPDocKit Service** will repeat that task whenever the selected recurrence period runs out. The minimal period is 4 hours, while the default value is 1 day.
 
-Check the **Enable collection of site analytics from SharePoint's Usage and Health Data Collection service** option if you want SPDocKit to collect data used for generating the SharePoint Analytics and Inactive Sites report. After being enabled for the first time, the Analytics job will immediately start to collect data for the last 7 days. It will further run on a daily basis \(around 3 AM\) and collect data for the previous day.  
+Check the **Enable collection of site analytics from SharePoint's Usage and Health Data Collection service** option if you want SPDocKit to collect data used for generating the Site Collections Analytics and Inactive Sites report. After being enabled for the first time, the Analytics job will immediately start to collect data for the last 7 days. It will further run on a daily basis \(between 1AM and 5AM\) and collect data for the previous day.  
 You can also define accounts for which the data will not be collected.
 
 Enabling the **automatic index reorganization** will result in better space usage and performance of the SPDocKit database. This job will always be run outside of regular business hours \(around 5 AM by default\).
@@ -75,7 +75,7 @@ From version 7 and onwards, you can document Project Server settings, list of pr
 
 You can also specify the load depth, which means how deep you want to crawl your SharePoint with SPDocKit. Possible choices are: site collection. subsites, list, and list items. Be aware that there are some dependencies related to the load depth selection and the available SharePoint information SPDocKit can retrieve. For example, if you want to load content types and workflows, lists are the minimum required load depth. SPDocKit will warn you if your current selection is not possible and provide instruction messages for enabling certain load options.
 
-Finally, you can customize the **snapshots name template**. Under Snapshot Configuration, note the Snapshot Name Template field. We have prepared the Farm Name, Snapshot Mode \(which can be either Automatic or Manual\), and Date \(which you can customize any way you like\), keywords that can be included in the name template. The default date format is: “Date:yyyyMMdd\_HH\_mm\_ss”. You can change the format by rearranging the item order and delimiter type. You can observe this name if you go to the Snapshots tab and include the File Name column using the View ribbon button called __**Choose Columns**.
+Finally, you can customize the **snapshots name template**. Under Snapshot Configuration, note the Snapshot Name Template field. We have prepared the Farm Name, Snapshot Mode \(which can be either Automatic or Manual\), and Date \(which you can customize any way you like\), keywords that can be included in the name template. The default date format is: “Date:yyyyMMdd\_HH\_mm\_ss”. You can change the format by rearranging the item order and delimiter type. You can observe this name if you go to the Snapshots tab and include the File Name column using the View ribbon button called \_\_**Choose Columns**.
 
 To reduce the farm load time we recommend unchecking Personal Sites. You can use the load performance slider to switch between low resource usage and a high-performance load.
 
@@ -87,18 +87,26 @@ The selection you make here applies both for the **SPDocKit Service taking an au
 
 ## Data retention
 
-In this section, the user can set how long data will be kept in the database. **Data records from the SPDocKit database and on the disk older than the configured time value will be deleted.** By default, **data records are stored for 6 months** before the data retention job removes them. SPDocKit service will execute this job every day at a random time between 1:30AM and 5AM.
+In this section, the user can set how long data will be kept in the database.
+
+{% hint style="info" %}
+Data retention settings for audit logs and administrative actions can be defined separately to better suit your recordkeeping requirements.
+{% endhint %}
+
+**Data records from the SPDocKit database and on the disk older than the configured time value will be deleted.** By default, **data records are stored for 6 months** before the data retention job removes them. SPDocKit service will execute this job every day at a random time between 4:00AM and 5:00AM.
 
 Set the preferred database size and SPDocKit will warn you when the database size passes that threshold.
 
-If your SPDocKit database becomes too big, you can force a manual data retention using the **Execute** button. 
+If your SPDocKit database becomes too big, you can force a manual data retention using the **Execute** button.
 
-{% hint style="info" %}
-Please note that this action will also try to execute the SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – being member of the sysadmin server role or db\_owner database role. Without those permissions, data will still be deleted, but the database size will not decrease. You can still attempt to manually decrease the size of SPDocKit's databases by executing the SHRINKDATABASE command manually after the data retention job has run.
+{% hint style="warning" %}
+**Please note!**  
+This action will also try to execute the SHRINKDATABASE command on your SPDocKit database, which will fail unless you have the necessary permissions – being member of the sysadmin server role or db\_owner database role. Without those permissions, data will still be deleted, but the database size will not decrease. You can still attempt to manually decrease the size of SPDocKit's databases by executing the SHRINKDATABASE command manually after the data retention job has run.
 {% endhint %}
 
 {% hint style="warning" %}
-Please note that there is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](../create-sharepoint-farm-snapshots/snapshots-screen.md).
+**Please note!**  
+There is an option to “Mark Configuration as Good”. Marking a snapshot this way will exclude it from the data retention. For more information on this go [here](../create-sharepoint-farm-snapshots/snapshots-screen.md).
 {% endhint %}
 
 ## Subscription settings
@@ -111,14 +119,15 @@ To enable **email** as the preferred delivery method, configure outgoing email s
 
 ## Compare
 
-From SPDocKit 7.4.0. onwards you can define with which snapshot the current one is compared when detecting configuration changes. 
+From SPDocKit 7.4.0. onwards you can define with which snapshot the current one is compared when detecting configuration changes.
 
 1. **Previous snapshot** - the current snapshot is compared with the last snapshot taken. 
 2. **Last good configuration** - with this option selected, the current snapshot is compared with the latest snapshot that is marked as good. 
 3. **Selected snapshots** - when this option is selected, you can choose between all your snapshots taken beforehand.
 
-{% hint style="info" %}
-Note that if you choose option 2. and there are no snapshots marked as good, SPDocKit will compare the current snapshot to the last snapshot taken. The same rule applies if you choose option 3. and the selected snapshot gets deleted.
+{% hint style="warning" %}
+**Please note!**  
+If you choose option 2. and there are no snapshots marked as good, SPDocKit will compare the current snapshot to the last snapshot taken. The same rule applies if you choose option 3. and the selected snapshot gets deleted.
 {% endhint %}
 
 This section also allows you to define which farm settings should be compared in the Compare Wizard. The selection you make here will be used as a default template when comparing two farms, but you can modify it directly in the Compare Wizard each time you use it.

@@ -1,6 +1,8 @@
 ---
 title: Server Load Permission Requirements
-description: Server Load Requirements for SPDocKit
+description: >-
+  This article lists all permissions necessary for SPDocKit to gather
+  information about SharePoint farm servers.
 author: Iva Novoselic
 date: 16/5/2017
 ---
@@ -9,10 +11,11 @@ date: 16/5/2017
 
 ## SharePoint Server Information
 
-During the Snapshot creation process, SPDocKit will try to retrieve information about your servers. 
+During the Snapshot creation process, SPDocKit will try to retrieve information about your servers.
 
-{% hint style="info" %}
-Please note that the following permissions on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practices reports will not be available in SPDocKit.
+{% hint style="warning" %}
+**Please note!**  
+The following permissions on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practices reports will not be available in SPDocKit.
 {% endhint %}
 
 ### Required permissions
@@ -21,21 +24,6 @@ In order to allow SPDocKit to successfully gather all the information about your
 
 * **Local Administrator** on the server
 * **Windows Update service** up and running
-
-### Affected reports
-
-* Adding SPDocKit user accounts to the **Local Administrator** group on the server is needed for WMI remote access and to get information about Windows updates. In case you can’t give that kind of permissions due to security requirements, see lower for what you can grant instead this. The following reports will not be available:
-  * Farm Explorer -&gt; Servers in Farm -&gt; Processors Info
-  * Farm Explorer -&gt; Servers in Farm -&gt; Programs List
-  * Farm Explorer -&gt; Servers in Farm -&gt; Available Windows Updates
-  * Farm Explorer -&gt; Servers in Farm -&gt; Disks List
-  * Farm Explorer -&gt; Servers in Farm -&gt; Local Admins
-  * Best Practices -&gt; Hardware Requirements -&gt; Free Disk Space
-  * Best Practices -&gt; Hardware Requirements -&gt; RAM
-  * Best Practices -&gt; Servers -&gt; Hotfixes per Server Role -&gt; all reports
-* To retrieve a list of available Windows updates please make sure that the Windows Update service is up and running. If the service is disabled or not running the following reports will not be available:
-  * Farm Explorer -&gt; Servers in Farm -&gt; Available Windows Updates
-  * Best Practices -&gt; Updates -&gt; Servers -&gt; Windows Updates
 
 ### Granting permissions
 
@@ -59,10 +47,11 @@ To start the **Windows Update service**, open the Service Microsoft Management C
 
 ## SQL Server Information
 
-There are some additional SPDocKit permission requirements necessary to load SQL servers information. 
+There are some additional SPDocKit permission requirements necessary to load SQL servers information.
 
-{% hint style="info" %}
-Please note that the following permissions on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practices reports will not be available in SPDocKit.
+{% hint style="warning" %}
+**Please note!**  
+The following permissions on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practices reports will not be available in SPDocKit.
 {% endhint %}
 
 ### Required permissions
@@ -77,35 +66,6 @@ In case that you can’t give those permissions due to security requirements, yo
 * **Dbcreator** server role and **VIEW SERVER STATE** permission
 * **Dbaccess** permission on **model** database
 * **Db\_owner** database role on each of the affected databases
-
-### Affected reports
-
-**Sysadmin** database role is needed to run system extended stored procedures on the Master system database. Without the Sysadmin role, the following reports will not be available:
-
-* Farm Explorer -&gt; SQL -&gt; Always On reports
-
-The **Public** server role is needed to fetch the real SQL server name. This permission is necessary to connect to the SQL server and perform some basic T-SQL queries. Also when you add an account to the SQL server, public role is automatically granted. If you are not granted this role, the following reports will not be available:
-
-* Farm Explorer -&gt; SQL -&gt; SQL Aliases
-* Best Practices -&gt; Databases -&gt; SQL Aliases
-
-**Dbcreator** role and **VIEW SERVER STATE** permission is necessary in order to load SQL server configuration data. Following reports will not be available:
-
-* Farm Explorer -&gt; SQL -&gt; all reports
-* Best Practices -&gt; Databases -&gt; Database Files
-* Best Practices -&gt; Databases -&gt; Max Degree of Parallelism
-* Best Practices -&gt; Databases -&gt; SharePoint Database Autogrowth
-* Best Practices -&gt; Databases -&gt; TempDB -&gt; all reports
-
-**Dbaccess** permission is necessary in order to load information about the model database. In case this permission is not granted, the following reports will not be available:
-
-* Best Practices -&gt; Databases -&gt; ModelDB -&gt; ModelDB Files Autogrowth
-* Best Practices -&gt; Databases -&gt; ModelDB -&gt; ModelDB Files Initial Size
-* Best Practices -&gt; Databases -&gt; ModelDB -&gt; ModelDB Recovery Model
-
-**Db\_owner** database role on each of the affected databases is necessary in order to allow SPDocKit to successfully gather all the database permissions. In case this permission is not granted, the following report will not be available:
-
-* Farm Explorer -&gt; SQL -&gt; Database Permissions
 
 ### Granting permissions
 
@@ -133,29 +93,27 @@ In case you have a very strict security policy and cannot add the sysadmin role 
       EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
    ```
 
-  
-    To grant the **db\_owner** database role to the SPDocKit accounts, follow these steps:
+To grant the **db\_owner** database role to the SPDocKit accounts, follow these steps:
 
-4. Connect to your SQL server using **SQL Server Management Studio**.
-5. Navigate to **Security** &gt; **Logins** and select the SPDocKit account.
-6. Right click on the account and open the **Login Properties** dialog.
-7. Under **User Mappings**, make sure that the account has the **db\_owner** database role for all affected databases.
+1. Connect to your SQL server using **SQL Server Management Studio**.
+2. Navigate to **Security** &gt; **Logins** and select the SPDocKit account.
+3. Right click on the account and open the **Login Properties** dialog.
+4. Under **User Mappings**, make sure that the account has the **db\_owner** database role for all affected databases.
 
 ## Project Server Information
 
-During the snapshot creation process, SPDocKit will try to retrieve information about your Project server sites. Please note that the following permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit.
+During the snapshot creation process, SPDocKit will try to retrieve information about your Project server sites.
+
+{% hint style="warning" %}
+**Please note!**  
+The following permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit.
+{% endhint %}
 
 ### Required Permissions
 
 In order to allow SPDocKit to successfully gather all the information about your Project server sites the following permissions are necessary:
 
 * **SPDocKit account** needs to be a member of the Project Server **Administrators** group on each of the Project server sites
-
-### Affected reports
-
-The mentioned permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit. Without the above-mentioned permissions, the following reports will not be available:
-
-* Farm Explorer -&gt; Project Server -&gt; all reports
 
 ### Granting permissions
 

@@ -1,9 +1,9 @@
 ---
 title: Clean Site Collections Wizard
 description: >-
-  Article describes how to use Clean Site Collection Wizard to manage users and
-  groups that are unnecessarily present on your SharePoint farm or lost their
-  permissions for any reason.
+  This article describes how to use Clean Site Collection Wizard to manage users
+  and groups that are unnecessarily present on your SharePoint farm or lost
+  their permissions for any reason.
 author: Mia Tomaić
 date: 25/5/2017
 ---
@@ -16,7 +16,7 @@ This article explains how to use Clean Site Collection Wizard to keep your Share
 
 ## Delete Orphaned Users
 
-Orphaned users are defined as users \(users or AD groups\) that are disabled or deleted from AD but had access to SharePoint farm and therefore can still be found on site collection. 
+Orphaned users are defined as users \(users or AD groups\) that are disabled or deleted from AD but had access to SharePoint farm and therefore can still be found on site collection.
 
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 2. Select **Delete Orphaned Users** option from the Operation drop down menu.
@@ -34,7 +34,7 @@ Users \(users or AD groups\) without permissions are the ones that have no direc
 
 ## Delete SharePoint Groups Without Permissions
 
-SharePoint groups without permissions are the ones that have no assigned permissions on the specified site collection. This will also include groups with „Limited access“ that remains after the group no longer has permissions for any specific item in the selected site collection. 
+SharePoint groups without permissions are the ones that have no assigned permissions on the specified site collection. This will also include groups with „Limited access“ that remains after the group no longer has permissions for any specific item in the selected site collection.
 
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 2. Select **Delete SharePoint Groups Without Permissions** option from the Operation drop down menu.
@@ -43,7 +43,7 @@ SharePoint groups without permissions are the ones that have no assigned permiss
 
 ## Delete SharePoint Groups Without Users
 
-SharePoint groups without users are the ones that have no assigned members on the specified site collection. 
+SharePoint groups without users are the ones that have no assigned members on the specified site collection.
 
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 2. Select **Delete SharePoint Groups Without Users** option from the Operation drop down menu.
@@ -52,7 +52,7 @@ SharePoint groups without users are the ones that have no assigned members on th
 
 ## Replace Group Owners Disabled in AD
 
-This wizard will help you find group owners which are disabled in Active Directory. After that you can provide a new user to replace the disabled one as a new group owner. 
+This wizard will help you find group owners which are disabled in Active Directory. After that you can provide a new user to replace the disabled one as a new group owner.
 
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 2. Select **Replace Group Owners Disabled in AD** option from the Operation drop down menu.

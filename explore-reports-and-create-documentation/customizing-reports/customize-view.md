@@ -1,17 +1,15 @@
 ---
 title: Customize View
 description: >-
-  This section describes how SharePoint administrators can customize View for
-  SharePoint Farm Reports. It is possible to adjust Filters, Column order (as
-  well as adding or removing certain columns) and also change the “Sort by” and
-  “Group By” settings.
+  This article describes how SharePoint administrators can customize View for
+  SharePoint Farm Reports.
 author: Martin Pisacic
 date: 18/5/2017
 ---
 
 # Customize View
 
-This section describes how SharePoint administrators can customize View for SharePoint Farm Reports. It is possible to adjust Filters, Column order \(as well as adding or removing certain columns\) and also change the “Sort by” and “Group By” settings.
+It is possible to adjust Filters, Column order \(as well as adding or removing certain columns\) and also change the “Sort by” and “Group By” settings.
 
 You can customize your reports in a few different ways:
 
@@ -40,6 +38,11 @@ Also, reports with new columns which are located in **Content & Usage Reports** 
 * **Unmodified Content** \(Usage Reports - Content Usage\) - Unique Permissions, Url, Object Type, Last Modified, Created On.
 
 Go to the **View** tab, select the **Choose Columns** button and list of the available columns will appear. You can drag and drop them, or simply double click the column, and it will “go” on the report.
+
+{% hint style="warning" %}
+**Please note!**  
+For each report only the **available** columns will appear in the Choose Columns window.
+{% endhint %}
 
 **Please note** that for each report only the **available** columns will appear in the Choose Columns window.
 

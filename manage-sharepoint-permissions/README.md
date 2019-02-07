@@ -1,4 +1,2 @@
 # Manage SharePoint Permissions
 
-
-

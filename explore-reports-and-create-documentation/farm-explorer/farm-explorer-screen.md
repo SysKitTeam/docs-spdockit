@@ -48,7 +48,9 @@ The following commands are available:
 * **Expand/Collapse** buttons make exploring much easier especially when there is a large amount of data.
 * **View in SharePoint** – opens the specific Central Administration configuration page, depending on the selected report.
 
-_The Site and Principal Permissions buttons are not enabled for Farm Explorer reports._
+{% hint style="info" %}
+The Site and Principal Permissions buttons are not enabled for Farm Explorer reports.
+{% endhint %}
 
 In version 7.2 we streamlined the selection of farms and snapshots by including those filters on the Farm Explorer and Best Practices tabs and persisting the selection across all tabs. This should remove the need to switch back and forth between the snapshots list and the other tabs in order to change the viewed snapshot data. We hope this results in a much more enjoyable experience for you.
 

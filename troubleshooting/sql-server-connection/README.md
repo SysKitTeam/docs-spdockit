@@ -1,4 +1,2 @@
 # SQL Server Connection
 
-
-

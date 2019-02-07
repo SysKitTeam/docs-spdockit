@@ -7,7 +7,7 @@ date: 25/5/2017
 
 # Load crashes with NullReference exception
 
-## **Summary** 
+## **Summary**
 
 Upon inspecting the event log after a failed load, the following exception can be found:
 
@@ -23,9 +23,9 @@ You should see a discrepancy between the two lists if this is indeed the reason 
 
 **Application Version:** 3.0.0 and newer
 
-## **Solution** 
+## **Solution**
 
-Please check your farm and site collections for any misconfigurations. One of the causes could be a missing managed path or a managed path of the wrong type. If the issue persists, contact our support team for more detailed troubleshooting.
+Please check your farm and site collections for any misconfigurations. One of the causes could be a missing managed path or a managed path of the wrong type. If the issue persists, [contact our support team](https://www.syskit.com/company/contact-us/) for more detailed troubleshooting.
 
 **Status:** Not resolved.
 

@@ -1,15 +1,13 @@
 ---
 title: Restore Permissions Wizard
 description: >-
-  This article describes how to restore SharePoint permissions to a previous
-  state using SPDocKit. Backup, permissions backup.
+  This article explains how to use SPDocKit's Restore Permissions Wizard to
+  restore permissions on a securable object to an earlier state.
 author: Marko Gudan
 date: 26/5/2017
 ---
 
 # Restore Permissions
-
-This article explains how to use SPDocKit's Restore Permissions Wizard to restore permissions on a securable object to an earlier state.
 
 ## Wizard scope
 
@@ -25,17 +23,15 @@ You must have a snapshot with loaded permissions of the selected object from the
 **Please note!** Date filter must be set to Live, otherwise the Restore Permissions button will be disabled
 {% endhint %}
 
-2. Click on the Restore Permissions in the Manage ribbon.  
-3. Choose restore options:
-
-* **Directly Assigned Permissions** – Restore permissions for users with directly assigned role assignments.
-* **SharePoint Group Memberships** – Principals will be added or removed from groups.
-* **Missing SharePoint Groups** - Groups that were deleted between now and the selected date will be recreated with the same settings as on the selected date.
-* **Permission Levels** – Permission levels that were deleted in the between now and the selected date will be recreated and all permission level settings will be restored to the same settings as on the selected date.
-
-4. Next step will list all the actions that will be taken in the final step of the wizard. Also, it will show you conflicts that may occur during permission restore. If any, you will have to resolve them before continuing. Make sure that pending changes will do exactly what you wanted and have specified in previous steps of this wizard. At this point you can still go back and modify any settings you'd like.  
-5. When you click on Next, new dialog will popup and you will have to enter a 5 digit number to confirm that you really want to continue and execute listed actions.     
-6. The last step shows you the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button.  
+1. Click on the Restore Permissions in the Manage ribbon.  
+2. Choose restore options:
+3. **Directly Assigned Permissions** – Restore permissions for users with directly assigned role assignments.
+4. **SharePoint Group Memberships** – Principals will be added or removed from groups.
+5. **Missing SharePoint Groups** - Groups that were deleted between now and the selected date will be recreated with the same settings as on the selected date.
+6. **Permission Levels** – Permission levels that were deleted in the between now and the selected date will be recreated and all permission level settings will be restored to the same settings as on the selected date.
+7. Next step will list all the actions that will be taken in the final step of the wizard. Also, it will show you conflicts that may occur during permission restore. If any, you will have to resolve them before continuing. Make sure that pending changes will do exactly what you wanted and have specified in previous steps of this wizard. At this point you can still go back and modify any settings you'd like.
+8. When you click on Next, new dialog will popup and you will have to enter a 5 digit number to confirm that you really want to continue and execute listed actions.     
+9. The last step shows you the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button.  
 
 ## Important
 

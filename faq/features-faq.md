@@ -1,6 +1,6 @@
 ---
 title: How to FAQ
-description: Frequently asked questions about SPDocKit usage.
+description: This article gives answers to frequently asked questions about SPDocKit usage.
 author: Iva Novoselic
 date: 23/5/2017
 ---
@@ -39,7 +39,7 @@ t.Name
 
 ## The SPDocKit database size has grown too big — how do I trim or reduce its size?
 
-There is a data retention feature that helps manage your database size in SPDocKit. If you turn this feature on, the retention job will usually happen every day at the random time between 1:30AM and 5AM. However, even when our tool deletes old data from the tables, the SQL server will still use the same amount of disk space.
+There is a data retention feature that helps manage your database size in SPDocKit. If you turn this feature on, the retention job will usually happen every day at the random time between 4AM and 5AM. However, even when our tool deletes old data from the tables, the SQL server will still use the same amount of disk space.
 
 There are two parts of storage that are used by any database:
 
@@ -52,9 +52,7 @@ In order to reduce the database size you can do the following:
 2. You will see the **Force Data Retention** button, and next to that is an **Execute** button. Pressing this button will automatically delete old information, then attempt to shrink your database \(the way this runs is determined by the settings in step 1\).
 
 {% hint style="warning" %}
-**Please note:**  
-  
-This can take a little bit of time to run.
+**Please note!** This can take a little bit of time to run.
 {% endhint %}
 
 If you are not running the latest version, you can do this manually:
@@ -64,7 +62,7 @@ If you are not running the latest version, you can do this manually:
 
 ## How to find out which SPDocKit version you are using?
 
-To find out which version of SPDocKit you are using, please follow these steps: 
+To find out which version of SPDocKit you are using, please follow these steps:
 
 1. Open SPDocKit.
 2. From the File menu choose **Help**. 

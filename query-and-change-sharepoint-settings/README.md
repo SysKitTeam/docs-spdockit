@@ -1,4 +1,2 @@
 # Query & Change SharePoint Settings
 
-
-

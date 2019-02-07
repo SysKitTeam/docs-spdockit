@@ -1,13 +1,16 @@
-# Configure SPDocKit Database
+---
+description: This article explains how to configure the database for SPDocKit.
+---
 
-This article explains how to configure the database for SPDocKit.
+# Configure SPDocKit Database
 
 SPDocKit uses a database for storing data gathered from your SharePoint farm.
 
 **From SPDocKit 8 onwards, the use of a dedicated SPDocKit database is required!**
 
 {% hint style="warning" %}
-**Please note!** This should be a SPDocKit-dedicated database; please **do not provide SharePoint databases here**.
+**Please note!**  
+This should be a SPDocKit-dedicated database; please **do not provide SharePoint databases here**.
 {% endhint %}
 
 ## SPDocKit Farm
@@ -29,7 +32,8 @@ SPDocKit uses a database for storing data gathered from your SharePoint farm.
 ## SPDockit Workstation
 
 {% hint style="warning" %}
-**Please note!** Only SPDocKits installed on SharePoint servers can create databases. Workstations cannot create their own database; they must connect to already existing databases.
+**Please note!**  
+Only SPDocKits installed on SharePoint servers can create databases. Workstations cannot create their own database; they must connect to already existing databases.
 {% endhint %}
 
 **To select a database on a workstation installation of SPDocKit, follow these steps:**
@@ -49,9 +53,15 @@ SPDocKit uses a database for storing data gathered from your SharePoint farm.
 
 You can document multiple SharePoint farms using one SPDocKit database. When installing SPDocKit on your desired farms, provide the same database details for each installation, and you will be able to explore reports from **multiple farms** in each SPDocKit instance.
 
-1. If you have multiple SPDocKit instances, each using its own database, you will have to decide whether you want to reuse one database to become a central database for all the instances or create a brand new one. **Please note!** It is not possible to merge data from multiple SPDocKit databases into a single database.
-2. For each SPDocKit instance, go to the **Configuration** tab and click **Configure** to open the Configuration Wizard. If the database you want to use as a central database already exists, just input the SQL Server and database name into the wizard and complete the wizard. If the database does not exist, **create it only once with one instance of SPDocKit** and choose to use an existing database for every other instance.
-3. After that, check one more thing: go to **Options**, then go to **Service Settings**, and check the **SPDocKit Database** field under **Snapshot Location**. This will ensure that all snapshot data is saved to the database and available from all connected SPDocKit instances.
+1. If you have multiple SPDocKit instances, each using its own database, you will have to decide whether you want to reuse one database to become a central database for all the instances or create a brand new one. 
+
+{% hint style="warning" %}
+**Please note!**  
+It is not possible to merge data from multiple SPDocKit databases into a single database.
+{% endhint %}
+
+1. For each SPDocKit instance, go to the **Configuration** tab and click **Configure** to open the Configuration Wizard. If the database you want to use as a central database already exists, just input the SQL Server and database name into the wizard and complete the wizard. If the database does not exist, **create it only once with one instance of SPDocKit** and choose to use an existing database for every other instance.
+2. After that, check one more thing: go to **Options**, then go to **Service Settings**, and check the **SPDocKit Database** field under **Snapshot Location**. This will ensure that all snapshot data is saved to the database and available from all connected SPDocKit instances.
 
 SPDocKit installed on a workstation can also be connected to such a database without being a part of a SharePoint farm. This way, you can monitor multiple farms without the need to connect to a single SharePoint server.
 

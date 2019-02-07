@@ -1,4 +1,2 @@
 # Create SharePoint Farm Snapshots
 
-
-

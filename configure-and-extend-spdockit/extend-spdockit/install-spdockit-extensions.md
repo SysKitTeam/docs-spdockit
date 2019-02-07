@@ -3,7 +3,7 @@ title: Install SPDocKit Extensions
 description: >-
   This section explains how to set up the SPDocKit extensions. Extensions are
   additional SPDocKit reports that can be imported to application to help you
-  cover all the information you might not have found in default reports.
+  cover all the information you might not have fou
 author: Martin Pisacic
 date: 18/5/2017
 ---
@@ -27,7 +27,8 @@ If your server does not have an internet connection, you can use the Offline ins
 3. Once it is successfully installed, restart SPDocKit and the plugin will be ready for use.
 
 {% hint style="warning" %}
-**Please note! SPCAF or Workflow Analytics section will be visible in the navigation tree only after installing the extension.**
+**Please note!**  
+The SPCAF, Workflow and Document Reports sections will be visible in the navigation tree only after installing the extensions.
 {% endhint %}
 
 ## **Learn more**

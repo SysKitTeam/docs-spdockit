@@ -1,6 +1,8 @@
 ---
 title: Configuration FAQ
-description: Frequently asked questions about SPDocKit configuration.
+description: >-
+  This article gives answers to frequently asked questions about SPDocKit
+  configuration.
 author: Iva Novoselic
 date: 22/5/2017
 ---

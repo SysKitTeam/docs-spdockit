@@ -9,7 +9,7 @@ date: 24/5/2017
 
 # Manage Permissions Ribbon Actions
 
-This article explains how to use Manage ribbon to easily manage SharePoint permissions on the selected securable object. Permission management buttons are enabled only in **live mode** of Permissions Explorer.
+Permission management buttons are enabled only in **live mode** of Permissions Explorer.
 
 **Refresh** – reloads currently selected SharePoint object permission information or the entire permissions explorer tree.
 
@@ -26,10 +26,10 @@ This article explains how to use Manage ribbon to easily manage SharePoint permi
 * **Scope:** currently selected SharePoint object
 
 {% hint style="warning" %}
-Please note!
+**Please note!**  
+If you choose to restore the permission inheritance on a **folder**, you can choose an additional option to restore permission inheritance for **all subitems** as well.
 
-* If you choose to restore the permission inheritance on a **folder**, you can choose an additional option to restore permission inheritance for **all subitems** as well.
-* Restoring permission inheritance on a **subsite**, will also restore the permission inheritance on lists and list items on that subsite.
+Restoring permission inheritance on a **subsite**, will also restore the permission inheritance on lists and list items on that subsite.
 {% endhint %}
 
 ## Grant
@@ -42,7 +42,8 @@ Please note!
 * **Additional option:** when granting permissions directly, if the currently selected object is a List or Folder, another useful option is available: **Grant to everything in this folder/list, even to items with unique permissions.** If checked, the permission will be granted even on the child objects with broken permission inheritance. 
 
 {% hint style="warning" %}
-Please note! Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
+**Please note!**  
+Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
 {% endhint %}
 
 **Create Group** creates a new SharePoint group on the selected SharePoint object with unique permissions.
@@ -85,7 +86,10 @@ Please note! Adding a principal to a SharePoint group will grant the selected pr
 * **Scope:** currently selected SharePoint object with unique permissions
 * **Available On:** SharePoint user, Active Directory group
 
-Please note! Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
+{% hint style="warning" %}
+**Please note!**  
+Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
+{% endhint %}
 
 **Copy to group** adds a selected principal to a SharePoint group, but keeps his directly granted permissions on this SharePoint object also. Selected user will now have both directly given permissions and permissions gained through this group membership.
 
@@ -93,7 +97,8 @@ Please note! Adding a principal to a SharePoint group will grant the selected pr
 * **Available On:** SharePoint user, Active Directory group
 
 {% hint style="warning" %}
-Please note! Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
+**Please note!**  
+Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
 {% endhint %}
 
 **Copy Object Permissions** enables you to copy the permissions between objects that are a part of different site collections or even different web applications. Source object permissions will not be affected by this wizard. Based on the options selected in the wizard, the destination principals and/or groups can lose all previously assigned permissions or acquire additional permissions. SharePoint groups of the target site collection can also be changed, which affects not only the target object but also all other objects to which the group is assigned. Where existing, the permission inheritance of target object will be broken in order to apply new role assignments.
@@ -127,7 +132,8 @@ Please note! Adding a principal to a SharePoint group will grant the selected pr
 * **Available On:** SharePoint objects that do not inherit permission levels from parent
 
 {% hint style="warning" %}
-Please note! Base permissions are connected, so if for example, you want to include Manage Lists base permission into the permission level, the View Items, View Pages and Open base permissions are also needed. User do not have to worry about these requirements, SPDocKit will take care of it.
+**Please note!**  
+Base permissions are connected, so if for example, you want to include Manage Lists base permission into the permission level, the View Items, View Pages and Open base permissions are also needed. User do not have to worry about these requirements, SPDocKit will take care of it.
 {% endhint %}
 
 **Site Collection Administrators** - modify current set of administrators. Change primary and secondary site collection administrators or entire site collection administrators group.
@@ -136,7 +142,7 @@ Please note! Base permissions are connected, so if for example, you want to incl
 * **Primary administrator principal selection:** SharePoint user
 * **Secondary administrator principal selection:** SharePoint user
 
-  \***Administrators group principal selection:** SharePoint users, Active Directory groups \(except in SharePoint 2007\)
+  **Administrators group principal selection:** SharePoint users, Active Directory groups \(except in SharePoint 2007\)
 
 Some of these actions have the **Preview** step to make sure that the pending changes will do exactly what you wanted and have specified. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button.
 

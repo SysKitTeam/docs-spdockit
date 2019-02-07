@@ -1,7 +1,7 @@
 ---
 title: Create SharePoint Governance Policy Rule
 description: >-
-  This section describes how to use the SPDocKit wizard to create a rule to help
+  This article describes how to use the SPDocKit wizard to create a rule to help
   you enforce your governance policies.
 author: Iva Novoselic
 date: 25/5/2017
@@ -9,7 +9,7 @@ date: 25/5/2017
 
 # Create SharePoint Governance Policy Rule
 
-This section describes how to use the SPDocKit Rule wizard to create a rule to help you enforce your governance policies. In this example, we will create a rule that will enforce that all document libraries require a checkout.
+In this example, we will create a rule that will enforce that all document libraries require a checkout.
 
 1. Go to **Queries & Rules** on the navigation bar and click **New Rule** on the Home ribbon.
 2. Select the rule type. The available rule types depend on the selected scope: list or subsite.

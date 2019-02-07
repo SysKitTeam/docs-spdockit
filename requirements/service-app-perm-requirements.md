@@ -1,8 +1,8 @@
 ---
 title: Service Application Permission Requirements
 description: >-
-  Article describes how to handle issue when Search Service Application load is
-  not working properly.
+  This article explains how to grant permissions needed to load the Search and
+  User Profile Service Application.
 author: Mia Tomaić
 date: 18/5/2017
 ---
@@ -27,7 +27,7 @@ and the event log displays the following error message:
 
 The account running SPDocKit does not have the proper privileges to load the Search Service Application properties.
 
-Here is what you need to do: 
+Here is what you need to do:
 
 1. Open the **SharePoint Central Administration** of your farm.
 2. Navigate to **Application Management &gt; Manage Service Applications**. 
@@ -53,7 +53,7 @@ While trying to load a SharePoint farm with SPDocKit I received:
 
 The account running SPDocKit does not have the proper privileges to load the User Profile Service Application properties.
 
-Here is what you need to do: 
+Here is what you need to do:
 
 1. Open the **SharePoint Central Administration** of your farm. 
 2. Navigate to **Application Management &gt; Manage Service Applications**. 

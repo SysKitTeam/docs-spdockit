@@ -1,7 +1,7 @@
 ---
 title: SPDocKit Insights Migration
 description: >-
-  This article will explain how to perform a migration from SPDocKit Insights to
+  This article explains how to perform a migration from SPDocKit Insights to
   SysKit Insights.
 author: Hrvoje Bagarić
 date: 27/9/2018

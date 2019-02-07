@@ -1,4 +1,2 @@
 # Configure & Extend SPDocKit
 
-
-
