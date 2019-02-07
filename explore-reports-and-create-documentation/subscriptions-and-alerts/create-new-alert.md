@@ -30,8 +30,6 @@ Instructions:
 
    Click **New**, specify whether you are connecting to an On-Premise or SharePoint Online site. Input the Library URL and the Display name. You can use Integrated or Custom Credentials, whichever suits your needs. Finally, click Test. SPDocKit will try to send a test subscription to check if the given Library URL is in order. If it is you will be notified and you can click the Save button.
 
-   \*\*\*\*
-
 {% hint style="warning" %}
 **Please note!**  
 Each SPDocKit alert can be sent to a different SharePoint document library. All previously used connections will be listed in this drop down menu so you can use them for multiple alerts. The user account running SPDocKit and the SPDocKit service account should have at least **Contribute** permission level granted on the specified SharePoint document library to successfully upload SPDocKit subscriptions or alerts.
