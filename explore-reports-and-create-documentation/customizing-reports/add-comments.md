@@ -7,7 +7,7 @@ author: Igor Mesaric
 date: 10/01/2018
 ---
 
-# Add Comments & Tags
+# Add Comments
 
 ## **Comments**
 

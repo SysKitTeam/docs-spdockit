@@ -60,7 +60,7 @@
     * [Create New Alert](explore-reports-and-create-documentation/subscriptions-and-alerts/create-new-alert.md)
   * [Customizing Reports](explore-reports-and-create-documentation/customizing-reports/README.md)
     * [Customize View](explore-reports-and-create-documentation/customizing-reports/customize-view.md)
-    * [Add Comments & Tags](explore-reports-and-create-documentation/customizing-reports/add-comments.md)
+    * [Add Comments](explore-reports-and-create-documentation/customizing-reports/add-comments.md)
 * [Compare SharePoint Configurations](compare-sharepoint-configurations/README.md)
   * [Compare Wizard](compare-sharepoint-configurations/compare-wizard.md)
   * [Compare Farms](compare-sharepoint-configurations/compare-sharepoint-farms.md)
