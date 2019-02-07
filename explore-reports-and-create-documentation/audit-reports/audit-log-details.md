@@ -2,8 +2,7 @@
 title: Audit Log Details Report
 description: >-
   This article explains how to use SPDocKit Permissions Audit Log Details report
-  to track who made certain permissions changes, when and on which securable
-  object that specific action has been performed
+  to track audit actions.
 author: Marko Gudan
 date: 31/5/2017
 ---
