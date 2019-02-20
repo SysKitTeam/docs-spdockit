@@ -58,10 +58,11 @@ The Farm Explorer reports may contain sensitive information such as passwords an
 
 In the **Farms** subsection you must choose which farm\(s\) you wish to enable the aforementioned permissions for. Click [here](../configuration/configure-spdockit-database.md) to learn more about using the same database with more than one farm. Click **Next** to continue.
 
-1. Under **Report Categories** define the report categories to which the SPDocKit user will have access. You can also fine-tune which SharePoint objects will be visible on these report categories. You can choose to give permissions and access:
-2. to all objects \(reports will show data from all farms\),
-3. based on SharePoint permissions \(users will only see data from the Site Collections for which they are members of the Site Administrators group\), and/or
-4. to the selected site collections \(reports will show data for explicitly defined site collections\).
+Under **Report Categories** define the report categories to which the SPDocKit user will have access. You can also fine-tune which SharePoint objects will be visible on these report categories. You can choose to give permissions and access:
+
+1. to all objects \(reports will show data from all farms\),
+2. based on SharePoint permissions \(users will only see data from the Site Collections for which they are members of the Site Administrators group\), and/or
+3. to the selected site collections \(reports will show data for explicitly defined site collections\).
 
 {% hint style="warning" %}
 **Please note!**  
