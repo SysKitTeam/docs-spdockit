@@ -22,3 +22,4 @@ Features:
 * Monitor ULS, SQL and Windows Event Logs to keep your farm healthy
 
 SharePoint farm administration is faster and easier with SPDocKit.
+

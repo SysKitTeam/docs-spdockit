@@ -6,7 +6,7 @@ description: This article explains how to configure SPDocKit before the first us
 
 ## SharePoint Server
 
-This section explains how to configure SPDocKit database and service before the first usage, while installed on a SharePoint server. 
+This section explains how to configure SPDocKit database and service before the first usage, while installed on a SharePoint server.
 
 **SPDocKit Configuration wizard** will automatically start when you start SPDocKit for the first time. Follow these steps to successfully configure the application:
 
