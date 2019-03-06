@@ -14,7 +14,7 @@ This article explains how to use SPDocKit to easily copy SharePoint permissions 
 The Copy Object Permissions Wizard enables you to copy the permissions between objects that are a part of different site collections or even different web applications.
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**   
 Source object's permission inheritance must be broken in order to use this wizard. Source object permissions will not be affected by this wizard. Based on the options selected in the wizard, the destination principals and/or groups can lose all previously assigned permissions or acquire additional permissions. SharePoint groups of the target site collection can also be changed, which affects not only the target object but also all other objects to which the group is assigned.
 {% endhint %}
 
@@ -41,12 +41,14 @@ Source object's permission inheritance must be broken in order to use this wizar
 
 {% hint style="warning" %}
 **Please note!**  
-If the source site collection and the target site collection have SharePoint groups with the same name and different members, and the Keep existing target object permissions option is checked, existing members in the target group are preserved and new members from the source group are added. If the Keep existing target object permissions option is not checked, the target group members are removed and source group members added.
-
-If the source site collection and the target site collection have Permission levels with the same name but different base permissions, the target permission level will not be changed, and it will not be added to any principals or groups. The following message appears in the Preview window: **Permission level \[permissionLevelName\] already exists on \[targetSiteCollection\] with different base permissions and will be skipped.**
-
-The **Preview** step shows the changes that will occur in the final step.
-
+If the source site collection and the target site collection have SharePoint groups with the same name and different members, and the Keep existing target object permissions option is checked, existing members in the target group are preserved and new members from the source group are added. If the Keep existing target object permissions option is not checked, the target group members are removed and source group members added.  
+  
+If the source site collection and the target site collection have Permission levels with the same name but different base permissions, the target permission level will not be changed, and it will not be added to any principals or groups. The following message appears in the Preview window: **Permission level \[permissionLevelName\] already exists on \[targetSiteCollection\] with different base permissions and will be skipped.**  
+  
+The **Preview** step shows the changes that will occur in the final step.  
+  
 In the **Apply Changes** step, all changes are displayed as they are applied. It is possible to save the log for later reference by clicking the **Save Log** button. The changes are also saved in the [SPDocPerm event log](../spdockit-permission-management-event-log.md).
 {% endhint %}
+
+\*\*\*\*
 

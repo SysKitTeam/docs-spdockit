@@ -1,14 +1,8 @@
----
-description: This article explains how to configure SPDocKit before the first usage.
----
-
 # Configure SPDocKit
 
 ## SharePoint Server
 
-This section explains how to configure SPDocKit database and service before the first usage, while installed on a SharePoint server. 
-
-**SPDocKit Configuration wizard** will automatically start when you start SPDocKit for the first time. Follow these steps to successfully configure the application:
+This article explains how to configure the SPDocKit database and service before the first usage, while installed on a SharePoint server. **SPDocKit Configuration wizard** will automatically start when you start SPDocKit for the first time. Follow these steps to successfully configure the application:
 
 1. On the **Database** wizard page select whether to create a new database or use an existing one. [Read more](configure-spdockit-database.md) about the SPDocKit database.
 2. On the **Database Configuration** wizard page specify the **SQL Server, Database Name** and authentication. It is possible to overwrite the existing database under the same name.
@@ -30,18 +24,18 @@ This section explains how to configure SPDocKit database and service before the 
 4. click **Next** to complete the Configuration Wizard and apply the changes.
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**   
 To configure your SPDocKit settings more thoroughly, navigate to the **File** tab, click on the **Configuration** in the left navigation bar and press [Options](../configure-and-extend-spdockit/backstage-screen.md) button.
 {% endhint %}
 
 ## Workstation
 
-This article explains how to configure SPDocKit on a workstation. SPDocKit workstation instance allows you to manage SharePoint On-Premise, view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
+This article explains how to configure SPDocKit on a workstation. A SPDocKit workstation instance allows you to manage SharePoint On-Premise, view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
 
 **Requirements**: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [Workstation license](https://www.syskit.com/products/spdockit/pricing/) and the user running the application on a workstation needs to have adequate [permissions](../requirements/user-permissions-requirements.md).
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**   
 To use SPDocKit reports on your workstation, you need to have SPDocKit installed on an actual SharePoint server to load the data. A workstation installation cannot create new farm snapshots or load information about permissions; it can only explore previously loaded data and manage permissions in real-time using Permissions Explorer.
 {% endhint %}
 
@@ -53,7 +47,7 @@ To install and configure SPDocKit on a workstation, follow these instructions:
 4. Click **Finish** to start using SPDocKit on your workstation.
 
 {% hint style="warning" %}
-**Please Note!**  
+**Please Note!**   
 When using SPDocKit on your workstation, the **SPDocKit Service will not be available**.
 {% endhint %}
 

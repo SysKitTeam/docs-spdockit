@@ -1,6 +1,6 @@
 # Table of contents
 
-* [SPDocKit by SysKit](README.md)
+* [SPDocKit](README.md)
 * [Release Notes](product-updates/README.md)
   * [SPDocKit 9](product-updates/spdockit-9-release-note.md)
   * [SPDocKit 8.0.3](product-updates/spdockit-8-0-3-release-note.md)
@@ -55,12 +55,12 @@
     * [Best Practices Screen](explore-reports-and-create-documentation/best-practices/best-practices-screen.md)
     * [Best Practices Reports](explore-reports-and-create-documentation/best-practices/best-practices-reports.md)
   * [Subscriptions and Alerts](explore-reports-and-create-documentation/subscriptions-and-alerts/README.md)
-    * [Subscriptions and Alerts](explore-reports-and-create-documentation/subscriptions-and-alerts/subscriptions-and-alerts.md)
+    * [Subscriptions And Alerts](explore-reports-and-create-documentation/subscriptions-and-alerts/subscriptions-and-alerts.md)
     * [Create New Subscription](explore-reports-and-create-documentation/subscriptions-and-alerts/create-new-subscription.md)
     * [Create New Alert](explore-reports-and-create-documentation/subscriptions-and-alerts/create-new-alert.md)
   * [Customizing Reports](explore-reports-and-create-documentation/customizing-reports/README.md)
     * [Customize View](explore-reports-and-create-documentation/customizing-reports/customize-view.md)
-    * [Add Comments](explore-reports-and-create-documentation/customizing-reports/add-comments.md)
+    * [Add Comments & Tags](explore-reports-and-create-documentation/customizing-reports/add-comments.md)
 * [Compare SharePoint Configurations](compare-sharepoint-configurations/README.md)
   * [Compare Wizard](compare-sharepoint-configurations/compare-wizard.md)
   * [Compare Farms](compare-sharepoint-configurations/compare-sharepoint-farms.md)

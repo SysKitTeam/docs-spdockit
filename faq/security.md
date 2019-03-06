@@ -1,6 +1,6 @@
 ---
 title: Security
-description: This article lists SPDocKit security related questions.
+description: SPDocKit security related questions
 author: Iva Novoselic
 date: 22/5/2017
 ---

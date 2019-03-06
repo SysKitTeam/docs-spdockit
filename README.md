@@ -2,9 +2,9 @@
 private: true
 ---
 
-# SPDocKit by SysKit
+# SPDocKit
 
-**SPDocKit** by [**SysKit**](https://www.syskit.com/) is **the ultimate SharePoint management and administration tool.** It was developed for administrators and consultants to save time and automate their administration tasks.
+**SPDocKit** is **the ultimate SharePoint management and administration tool** created by [**SysKit**](https://www.syskit.com/). It was developed for administrators and consultants to save time and automate their administration tasks.
 
 Improve your SharePoint farm performance with this user-friendly and powerful solution trusted by thousands of global customers.
 
@@ -22,4 +22,6 @@ Features:
 * Monitor ULS, SQL and Windows Event Logs to keep your farm healthy
 
 SharePoint farm administration is faster and easier with SPDocKit.
+
+\*\*\*\*[**Download free trial and give it a try!**](https://www.syskit.com/products/spdockit/) ****
 

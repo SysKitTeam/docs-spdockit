@@ -2,7 +2,7 @@
 title: System Requirements
 description: >-
   This article lists the minimum hardware and software requirements for the
-  installation of SPDocKit.
+  installation of the SPDocKit.
 author: Matija Hanzic
 date: 25/5/2017
 ---

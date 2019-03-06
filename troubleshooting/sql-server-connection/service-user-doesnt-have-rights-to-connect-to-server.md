@@ -1,8 +1,8 @@
 ---
 title: Service user does not have rights to connect to the SQL server.
 description: >-
-  This article describes how to grant rights to service user that are necessary
-  to connect to the SQL server.
+  Article describes how to grant rights to service user that are necessary to
+  connect to the SQL server.
 author: Mia Tomaić
 date: 19/5/2017
 ---

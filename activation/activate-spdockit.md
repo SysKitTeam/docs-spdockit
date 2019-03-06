@@ -1,7 +1,3 @@
----
-description: This article explains how to activate SPDocKit farm and workstation license.
----
-
 # Activate SPDocKit
 
 ## Online Activation
@@ -68,7 +64,7 @@ The Workstation license is tied to the **workstation ID** and cannot be used on 
 3. Click on the **Browse** button, locate your license file and upload it.
 4. Click the **Activate** button. Activation takes a couple of seconds and is a one time process.
 
-### Related articles
+### Related articles:
 
 * [Manage License](manage-license.md)
 

@@ -1,7 +1,3 @@
----
-description: This article describes how to manage your existing SPDocKit license.
----
-
 # Manage License
 
 The SPDocKit license key is available at your profile in our [Customers Portal](https://my.syskit.com). In order to check your current license status in SPDocKit, navigate to **File &gt; Help &gt; License Details**. You can see if SPDocKit is activated or not, which license edition you are currently using, how many days is the license valid for and the farm ID.
