@@ -95,7 +95,6 @@
   * [License Management](configure-and-extend-spdockit/license-management.md)
   * [Role Based Security](configure-and-extend-spdockit/role-based-security.md)
   * [Extend SPDocKit](configure-and-extend-spdockit/extend-spdockit/README.md)
-    * [Download SPDocKit Extension](configure-and-extend-spdockit/extend-spdockit/download-spdockit-extension.md)
     * [Install SPDocKit Extensions](configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md)
     * [Activate SPCAF Extension](configure-and-extend-spdockit/extend-spdockit/activate-spcaf-extension.md)
 * [Query & Change SharePoint Settings](query-and-change-sharepoint-settings/README.md)

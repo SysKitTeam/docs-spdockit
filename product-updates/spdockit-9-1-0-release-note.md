@@ -40,7 +40,7 @@ Hence, SharePoint analytics data was not being collected, consequently leading t
 Fixed a bug with the Directly Assigned Permissions report showing incomplete data in case the SharePoint Objects filter was set to the Subsite or Lists level.
 
 Fixed a bug that occurred when resolving local group memberships when the group contained deleted users from trusted forests. The bug would cause the local groups to appear empty. The following error was thrown:   
-`Error while resolving memberships for group  on the  server. System.DirectoryServices.AccountManagement.PrincipalOperationException: An error (1332) occurred while enumerating the group membership. The member’s SID could not be resolved.`
+`Error while resolving memberships for group <groupName> on the <serverName> server. System.DirectoryServices.AccountManagement.PrincipalOperationException: An error (1332) occurred while enumerating the group membership. The member’s SID could not be resolved.`
 
 Fixed an issue where a document/list item URL was not correctly created for specific types of lists in host-named site collections. This caused a 404 error when opening items in a browser through the View in SharePoint option in Permissions Explorer.
 
