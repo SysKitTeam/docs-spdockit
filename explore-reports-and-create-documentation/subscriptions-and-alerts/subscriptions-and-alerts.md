@@ -2,15 +2,15 @@
 title: Subscriptions and Alerts
 description: >-
   This article explains how to use Subscriptions and Alerts to schedule sending
-  SPDocKit reports to the desired email address, or for upload to a file share
-  location or a SharePoint document library.
+  SPDocKit reports to either the desired email addresses, or for upload to a
+  file share location or a SharePoint document li
 author: Tomislav Kunaj
 date: 25/5/2017
 ---
 
-# Subscriptions and Alerts
+# Subscriptions And Alerts
 
-In order to use this feature, you have to configure an SPDocKit database and the subscription settings, as well as select the delivery methods you prefer.
+This article explains how to use Subscriptions and Alerts to schedule sending SPDocKit reports to either the desired email addresses, or for upload to a file share location or a SharePoint document library. In order to use this feature, you have to configure an SPDocKit database and the subscription settings, as well as select the delivery methods you prefer.
 
 Schedule report subscriptions and alerts to receive them on daily, weekly, monthly or quarterly schedule, or even immediately after a snapshot is made by the service. The SPDocKit Service will send them periodically at the configured time. SPDocKit Alerts will be sent if any changes are detected in the selected Best Practices or difference reports.
 

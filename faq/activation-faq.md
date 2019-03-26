@@ -1,9 +1,3 @@
----
-description: >-
-  This article gives answers to frequently asked questions regarding SPDocKit
-  license configuration.
----
-
 # Activation
 
 ## Is the trial version a Farm or Consultant License?

@@ -24,7 +24,7 @@ date: 18/5/2017
 SharePoint Web applications can be hosted on multiple servers and can extend into multiple zones. Every server has to have separate web.config files for each zone of every Web application. All web.config files on different servers and the same Web application zone must be equal. Because of these SharePoint requirements, you will also find the filters section in the Comparison Result window.
 
 {% hint style="warning" %}
-**Please Note!**  
+**Please Note!**   
 Farm files created in older versions of SPDocKit \(version 4.0 and lower\) will not contain information about web.config files. To use this feature, SPDocKit needs to have a farm file created in SPDocKit \(version 5.0 and above\).
 {% endhint %}
 

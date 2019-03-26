@@ -22,9 +22,9 @@ and the following error messages are stored in the event log:
 > WSS\_Content\_99d31b6221f849079028a2ce91ad6d47
 >
 > Unavailable sites:  
-> [http://intranet](http://intranet)  
-> [http://intranet/sites/HR](http://intranet/sites/HR)  
-> [http://intranet/sites/Sales](http://intranet/sites/Sales)
+> http://intranet  
+> http://intranet/sites/HR  
+> http://intranet/sites/Sales
 
 ## Solution
 

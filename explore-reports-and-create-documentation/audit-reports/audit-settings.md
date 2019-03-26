@@ -18,8 +18,8 @@ If you want SharePoint \(and then SPDocKit\) to gather your audit logs, you need
 
 The Audit Settings report contains the following columns:
 
-* **Site Collection**
-* **Url**
+* Site Collection
+* Url
 * **Trim Audit Log**
 * **Days of Audit Log Data to Retain**
 * **Audit Report Storage Location**
@@ -42,10 +42,10 @@ You can use the filters on the right-hand side to customize the report.
 * The **Audit Settings filter** makes it possible to filter the report by the status of specific audit settings \(On or Off\). By default, all audit settings are selected. 
 
 {% hint style="warning" %}
-**Please note!**  
-**When selecting two or more audit settings in the** Audit Settings **filter, the** AND operator is used **between them, as demonstrated in the following** example:
-
-Editing Users and Permissions setting - Off checkbox is selected.  
+**Please note!**   
+****When selecting two or more audit settings in the **Audit Settings** filter, the **AND operator is used** between them, as demonstrated in the following **example**:  
+  
+Editing Users and Permissions setting - Off checkbox is selected.   
 Searching Site Content setting - On checkbox is selected.
 
 In this example, the report will show site collections for which the Editing Users and Permissions setting is turned Off **AND** the Searching Site Content setting is turned On.

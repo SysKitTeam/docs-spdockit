@@ -1,8 +1,8 @@
 ---
 title: Service Application Permission Requirements
 description: >-
-  This article explains how to grant permissions needed to load the Search and
-  User Profile Service Application.
+  Article describes how to handle issue when Search Service Application load is
+  not working properly.
 author: Mia Tomaić
 date: 18/5/2017
 ---

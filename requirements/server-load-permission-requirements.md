@@ -1,8 +1,6 @@
 ---
 title: Server Load Permission Requirements
-description: >-
-  This article lists all permissions necessary for SPDocKit to gather
-  information about SharePoint farm servers.
+description: Server Load Requirements for SPDocKit
 author: Iva Novoselic
 date: 16/5/2017
 ---
@@ -102,10 +100,10 @@ To grant the **db\_owner** database role to the SPDocKit accounts, follow these 
 
 ## Project Server Information
 
-During the snapshot creation process, SPDocKit will try to retrieve information about your Project server sites.
+During the snapshot creation process, SPDocKit will try to retrieve information about your Project server sites. 
 
 {% hint style="warning" %}
-**Please note!**  
+**Please note!**   
 The following permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit.
 {% endhint %}
 

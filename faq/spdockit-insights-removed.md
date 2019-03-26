@@ -1,8 +1,8 @@
 ---
 title: SPDocKit Insights Removed
 description: >-
-  This article explains why SPDocKit Insights was removed and shows how to
-  migrate your data to SysKit Insights.
+  This article will explain why SPDocKit Insights was removed, and show you the
+  steps to migrate your data to SysKit Insights.
 author: Igor Mesarić
 date: 12/10/2018
 ---
