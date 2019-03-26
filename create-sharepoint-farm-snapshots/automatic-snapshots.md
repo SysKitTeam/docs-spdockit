@@ -18,11 +18,11 @@ SPDocKit allows administrators to configure a schedule to create automatic Share
 **Please note!** Check the [permission requirements](../requirements/user-permissions-requirements.md) for the service account.
 {% endhint %}
 
-3. ****Once the Configuration wizard is finished, navigate to the **Backstage Configuration Screen &gt; Options &gt; Service Settings**. You can change the snapshots folder location or choose to save them to the database. [Define the period](../configure-and-extend-spdockit/options-wizard.md) for creating snapshots with the Data Collection Interval.
+1. **\*\*Once the Configuration wizard is finished, navigate to the** Backstage Configuration Screen &gt; Options &gt; Service Settings\*\*. You can change the snapshots folder location or choose to save them to the database. [Define the period](../configure-and-extend-spdockit/options-wizard.md) for creating snapshots with the Data Collection Interval.
 
 With the **Database Index Reorganization**, you can enable automatic index reorganization. That means your database space usage and performance when reading data will improve. During index reorganization, SPDocKit might be unavailable.
 
-4. Skip to the **Snapshot Options** part of Options wizard and customize the snapshot options that are going to be used by the SPDocKit Service such as **Load Options** and **Load Performance**. With the **Load Depth** option you can specify the depth to which you want to crawl your farm. Also, choose what you would like to load each time that SPDocKit Service crawls your farm.
+1. Skip to the **Snapshot Options** part of Options wizard and customize the snapshot options that are going to be used by the SPDocKit Service such as **Load Options** and **Load Performance**. With the **Load Depth** option you can specify the depth to which you want to crawl your farm. Also, choose what you would like to load each time that SPDocKit Service crawls your farm.
 
 The options are grouped into 4 categories:
 

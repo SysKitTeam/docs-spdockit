@@ -7,7 +7,7 @@ SPDocKit uses a database for storing data gathered from your SharePoint farm.
 **From SPDocKit 8 onwards, the use of a dedicated SPDocKit database is required!**
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 This should be a SPDocKit-dedicated database; please **do not provide SharePoint databases here**.
 {% endhint %}
 
@@ -30,7 +30,7 @@ This should be a SPDocKit-dedicated database; please **do not provide SharePoint
 ## SPDockit Workstation
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Only SPDocKits installed on SharePoint servers can create databases. Workstations cannot create their own database; they must connect to already existing databases.
 {% endhint %}
 
@@ -54,7 +54,7 @@ You can document multiple SharePoint farms using one SPDocKit database. When ins
 1. If you have multiple SPDocKit instances, each using its own database, you will have to decide whether you want to reuse one database to become a central database for all the instances or create a brand new one. 
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 It is not possible to merge data from multiple SPDocKit databases into a single database.
 {% endhint %}
 

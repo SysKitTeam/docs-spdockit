@@ -26,7 +26,7 @@ The following error message is stored in the event log:
 To successfully load IIS Settings, the IIS 6 Metabase Compatibility role has to be enabled.
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 A server restart could be required for the changes to take effect.
 {% endhint %}
 
@@ -42,9 +42,9 @@ To enable the role, follow these steps:
 
 ![Add Roles and Features Wizard](../../.gitbook/assets/add-roles-and-features-wizard.png)
 
-7. **Features** step - continue to the next step.    
-8. **Confirmation** step - check the **Restart the destination server automatically if required** option and click **Install**.    
-9. **Results** step - displays the installation progress. Once the installation is finished, the **Installation succeeded** message is displayed. 
+1. **Features** step - continue to the next step.    
+2. **Confirmation** step - check the **Restart the destination server automatically if required** option and click **Install**.    
+3. **Results** step - displays the installation progress. Once the installation is finished, the **Installation succeeded** message is displayed. 
 
 {% hint style="warning" %}
 **Please note!**  

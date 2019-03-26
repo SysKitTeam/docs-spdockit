@@ -42,7 +42,7 @@ Restoring permission inheritance on a **subsite**, will also restore the permiss
 * **Additional option:** when granting permissions directly, if the currently selected object is a List or Folder, another useful option is available: **Grant to everything in this folder/list, even to items with unique permissions.** If checked, the permission will be granted even on the child objects with broken permission inheritance. 
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
 {% endhint %}
 
@@ -87,7 +87,7 @@ Adding a principal to a SharePoint group will grant the selected principal permi
 * **Available On:** SharePoint user, Active Directory group
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
 {% endhint %}
 
@@ -97,7 +97,7 @@ Adding a principal to a SharePoint group will grant the selected principal permi
 * **Available On:** SharePoint user, Active Directory group
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Adding a principal to a SharePoint group will grant the selected principal permissions across the entire site collection, wherever this SharePoint group has been granted permissions.
 {% endhint %}
 
@@ -132,7 +132,7 @@ Adding a principal to a SharePoint group will grant the selected principal permi
 * **Available On:** SharePoint objects that do not inherit permission levels from parent
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 Base permissions are connected, so if for example, you want to include Manage Lists base permission into the permission level, the View Items, View Pages and Open base permissions are also needed. User do not have to worry about these requirements, SPDocKit will take care of it.
 {% endhint %}
 
