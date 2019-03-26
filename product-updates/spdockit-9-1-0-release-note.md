@@ -34,13 +34,3 @@ description: This article describes improvements and bug fixes delivered in SPDo
 * Fixed a bug where the Health Analyzer Problems report erroneously displayed the date and time value in the Last Modified column. Instead of the actual value, ‘1/1/0001 12:00:00 AM’ was displayed as the date and time.
 * Fixed an issue where the Audit Dashboard would cause the following error: `System.InvalidOperationException: The cast to value type 'Int32' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.`
 
-
-
-
-
-
-
-
-
-
-
