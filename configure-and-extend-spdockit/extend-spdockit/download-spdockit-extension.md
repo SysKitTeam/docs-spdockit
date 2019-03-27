@@ -1,17 +1,17 @@
 ---
-description: This article enables you to download extension packages manually.
+description: This article enables you to download SPDocKit extension packages manually.
 ---
 
 # Download SPDocKit Extensions
 
-Find your extensions for appropriate SPDocKit version and the downloads in the table bellow.
+Find your extensions for appropriate SPDocKit version and the downloads in the table below.
 
 {% tabs %}
 {% tab title="Document Usage" %}
 Extend SPDocKit with additional reports that help you detect old documents on your farm.  
 After installation, you can find two new reports under the **Analytics & Usage Report** section in the **Document Reports** folder.
 
-| SPDocKit Version | Extension version |  |
+| SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
 | 9.1.0.11029 | 9.1.0.11029 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.documentusage/9.1.0.11029) |
 | 9.0.0.10954 | 9.0.0.10943 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.documentusage/9.0.0.10943) |
@@ -21,7 +21,7 @@ After installation, you can find two new reports under the **Analytics & Usage R
 Extend SPDocKit with additional reports that help you analyze workflow usage on your farm.  
 After installation, you can find two new reports under the **Analytics & Usage Report** section in the **Workflow Reports** folder.
 
-| SPDocKit Version | Extension version |  |
+| SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
 | 9.1.0.11029 | 9.1.0.11029 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.workflowanalytics/9.1.0.11029) |
 | 9.0.0.10954 | 9.0.0.10846 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.workflowanalytics/9.0.0.10846) |
@@ -35,7 +35,7 @@ After installation, you can find five new reports under the **Analytics & Usage 
 
 For more information on how to activate SPCAF extension, please [follow this link.](activate-spcaf-extension.md)
 
-| SPDocKit Version | Extension version |  |
+| SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
 | 9.1.0.11029 | 9.1.0.11029 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.spcaf/9.1.0.11029) |
 | 9.0.0.10954 | 9.0.0.10846 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.spcaf/9.0.0.10846) |
@@ -44,5 +44,5 @@ For more information on how to activate SPCAF extension, please [follow this lin
 {% endtab %}
 {% endtabs %}
 
-For more information about the extension installation, read [this article.](install-spdockit-extensions.md)
+For more information on how to install SPDocKit extensions, read [this article.](install-spdockit-extensions.md)
 
