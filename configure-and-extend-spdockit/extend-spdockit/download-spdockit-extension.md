@@ -1,10 +1,10 @@
 ---
-description: This article enables you to download SPDocKit extension packages manually.
+description: This article enables you to download SPDocKit extension packages.
 ---
 
 # Download SPDocKit Extensions
 
-Find your extensions for appropriate SPDocKit version and the downloads in the table below.
+Find your extensions for appropriate SPDocKit version and the download links in the table below.
 
 {% tabs %}
 {% tab title="Document Usage" %}
