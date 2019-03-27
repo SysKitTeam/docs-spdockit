@@ -1,6 +1,8 @@
 ---
 title: Server Load Permission Requirements
-description: Server Load Requirements for SPDocKit
+description: >-
+  This article lists all permissions necessary for SPDocKit to gather
+  information about SharePoint farm servers.
 author: Iva Novoselic
 date: 16/5/2017
 ---

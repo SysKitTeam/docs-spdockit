@@ -1,3 +1,7 @@
+---
+description: This article explains how to configure SPDocKit before the first usage.
+---
+
 # Configure SPDocKit
 
 ## SharePoint Server

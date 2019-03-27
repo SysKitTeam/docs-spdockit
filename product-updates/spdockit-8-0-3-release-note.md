@@ -7,7 +7,7 @@ date: 16/11/2018
 
 # SPDocKit 8.0.3
 
-This is a service release containing minor improvements and bug fixes.
+**SPDocKit 8.0.3** is a service release containing minor improvements and bug fixes.
 
 **Product version:** 8.0.3  
 **Build number:** 10628  
