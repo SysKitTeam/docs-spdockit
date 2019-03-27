@@ -96,6 +96,7 @@
   * [Role Based Security](configure-and-extend-spdockit/role-based-security.md)
   * [Extend SPDocKit](configure-and-extend-spdockit/extend-spdockit/README.md)
     * [Install SPDocKit Extensions](configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md)
+    * [Download SPDocKit Extensions](configure-and-extend-spdockit/extend-spdockit/download-spdockit-extensions.md)
     * [Activate SPCAF Extension](configure-and-extend-spdockit/extend-spdockit/activate-spcaf-extension.md)
 * [Query & Change SharePoint Settings](query-and-change-sharepoint-settings/README.md)
   * [Queries and Rules Screen](query-and-change-sharepoint-settings/queries-and-rules-screen.md)

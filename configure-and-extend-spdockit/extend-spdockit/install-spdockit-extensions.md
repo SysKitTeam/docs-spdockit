@@ -22,7 +22,7 @@ To install the extensions straight from SPDocKit, follow these instructions:
 
 If your server does not have an internet connection, you can use the Offline installation process by following these instructions:
 
-1. On the SPDocKit web site, under Resources, go to [Extensions](https://www.syskit.com/products/spdockit/resources/extensions/) to download the plugins you wish to use.
+1. On the [Download SPDocKit Extensions](download-spdockit-extensions.md) site, click the [Download](download-spdockit-extensions.md) link to download the plugins you wish to use.
 2. Once you have downloaded a plugin, navigate to the SPDocKit folder inside ProgramData and find the **Extensions** folder. Paste the downloaded plugin files there. The default full path is **C:\ProgramData\SPDocKit\Extensions**.
 3. Once it is successfully installed, restart SPDocKit and the plugin will be ready for use.
 
