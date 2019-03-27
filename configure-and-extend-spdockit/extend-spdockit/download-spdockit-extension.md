@@ -46,7 +46,3 @@ For more information on how to activate SPCAF extension, please [follow this lin
 
 For more information about the extension installation, read [this article.](install-spdockit-extensions.md)
 
-
-
-
-
