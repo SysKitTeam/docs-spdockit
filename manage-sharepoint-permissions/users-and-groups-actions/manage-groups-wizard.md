@@ -1,13 +1,15 @@
 ---
 title: Manage Groups Wizard
-description: Article describes how use SPDocKit to manage SharePoint Groups
+description: >-
+  This article describes how to use SPDocKit Manage Groups Wizard to manage
+  SharePoint Groups on multiple sites within a single web application.
 author: Mia Tomaić
 date: 25/5/2017
 ---
 
 # Manage Groups Wizard
 
-This article describes how to use SPDocKit Manage Groups Wizard to manage SharePoint Groups on multiple sites within a single web application. The wizard supports the basic operations: create, delete and rename SharePoint groups.
+The wizard supports the basic operations: create, delete and rename SharePoint groups.
 
 **Wizard Scope**: farm, web application, site collection\(s\)  
 **SharePoint objects changes can be applied on**: SharePoint groups  
