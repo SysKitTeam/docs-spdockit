@@ -7,9 +7,9 @@ author: Iva Novoselic
 date: 17/5/2017
 ---
 
-# Compare Farms
+# Compare SharePoint Farms
 
-Navigate to the Backstage Actions Screen and click the **Compare Wizard** button.
+This section explains how you can use the Compare Wizard to compare different farms or snapshots of an existing farm. Navigate to the Backstage Actions Screen and click the **Compare Wizard** button.
 
 ## Compare farm with a previous snapshot
 

@@ -10,7 +10,7 @@ date: 05/6/2017
 
 # Administrative Actions
 
-This report enables you too see a list of actions an Administrator, with some additional data about the specific action.
+It enables you too see a list of actions an Administrator, with some additional data about the specific action.
 
 **Applies to**: SharePoint 2016  
 **Prerequisites**: SharePoint 2016 Feature Pack 1

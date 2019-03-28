@@ -1,6 +1,6 @@
 ---
 title: Import and Export SPDocKit Settings
-description: This section describes how to import and export SPDocKit settings.
+description: This article describes how to import and export SPDocKit settings.
 author: Tomislav Kunaj
 date: 25/5/2017
 ---

@@ -30,7 +30,7 @@ Horizontal bar charts show **Top Users by Activity** as well as **Top Site Colle
 
 **Document Views** are represented by a vertical bar chart for each of the previous seven days \(if data are available\). Clicking on a specific day performs a drill to the [**Audit Log Details**](audit-log-details.md) report, with View, Open, and Download options selected in the Event type filter.
 
-**Number of Changes per Event type** shows the following audit actions, which when clicked on will open the [**Audit Log Details**](audit-log-details.md) report:
+**Number of Changes per Event type** shows the following audit actions, which when clicked on will open the [**Audit Log Details**](audit-log-details.md) _\*\*_report:
 
 * Number of updates
 * Search Queries

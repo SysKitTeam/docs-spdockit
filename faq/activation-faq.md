@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article gives answers to frequently asked questions regarding SPDocKit
+  This article gives answers to frequently asked questions regarding SPDocKit 
   license configuration.
 ---
 

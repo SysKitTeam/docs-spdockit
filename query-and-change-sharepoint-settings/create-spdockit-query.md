@@ -1,7 +1,7 @@
 ---
 title: Create SPDocKit Query
 description: >-
-  This article describes how to use the SPDocKit Query wizard to create a query
+  This article describes how to use the SPDocKit Query wizard to create a query 
   report.
 author: Iva Novoselic
 date: 25/5/2017
@@ -9,7 +9,7 @@ date: 25/5/2017
 
 # Create SPDocKit Query
 
-We will now create a query that will provide you with a list of all checked-out documents on a selected scope.
+This section describes how to use the SPDocKit Query wizard to create a query report. We will now create a query that will provide you with a list of all checked-out documents on a selected scope.
 
 1. Go to Queries & Rules and click New Query from the Home ribbon.  
 2. Type in the name of your query and select a query scope. The query scope defines the type of SharePoint objects that will be crawled for their properties in this report. Click Next to continue.  

@@ -1,7 +1,7 @@
 ---
 title: Add Comments and Tags
 description: >-
-  This article describes how to add comments to Reports and individual
+  This article describes how to add comments to Reports and individual 
   Snapshots.
 author: Igor Mesaric
 date: 10/01/2018

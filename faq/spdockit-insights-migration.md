@@ -1,7 +1,7 @@
 ---
 title: SPDocKit Insights Migration
 description: >-
-  This article explains how to perform a migration from SPDocKit Insights to
+  This article explains how to perform a migration from SPDocKit Insights to 
   SysKit Insights.
 author: Hrvoje Bagarić
 date: 27/9/2018
@@ -9,9 +9,7 @@ date: 27/9/2018
 
 # SPDocKit Insights Migration
 
-This article will explain how to perform a migration **from SPDocKit Insights to SysKit Insights.**
-
-**SysKit Insights** is an upgraded version of the SPDocKit Insights and comes with a **range of improvements and new features.** The customers using SPDocKit Insights can migrate some of the data to SysKit Insights.
+**SysKit Insights** is an upgraded version of SPDocKit Insights and comes with a **range of improvements and new features.** The customers using SPDocKit Insights can migrate some of the data to SysKit Insights.
 
 When migrating from SPDocKit to SysKit Insights it is important to perform the following steps - the guide assumes using the same server for SPDocKit Insights and SysKit Insights:
 

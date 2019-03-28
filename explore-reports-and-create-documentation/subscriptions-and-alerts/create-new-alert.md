@@ -1,7 +1,7 @@
 ---
 title: Create New Alert
 description: >-
-  This article describes how to create scheduled Alerts for SPDocKit reports.
+  This section describes how to create scheduled Alerts for SPDocKit reports.
   Alerts are sent after each automatic snapshot, that is snapshot created by the
   SPDocKit Service.
 author: Iva Novoselic
@@ -10,7 +10,7 @@ date: 17/5/2017
 
 # Create New Alert
 
-If you wish to use the **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](../../configure-and-extend-spdockit/options-wizard.md#subscription-settings) properly.
+This section describes how to create scheduled **Alerts** for SPDocKit reports. If you wish to use the **Subscriptions and Alerts** feature, please make sure you configured the [Subscription Settings](../../configure-and-extend-spdockit/options-wizard.md#subscription-settings) properly.
 
 Alerts are sent after each automatic snapshot, that is, snapshot created by the SPDocKit Service.
 
@@ -29,6 +29,8 @@ Instructions:
 8. **SharePoint Library** – If this is the first time you are using this feature, you need to create a new library connection.
 
    Click **New**, specify whether you are connecting to an On-Premise or SharePoint Online site. Input the Library URL and the Display name. You can use Integrated or Custom Credentials, whichever suits your needs. Finally, click Test. SPDocKit will try to send a test subscription to check if the given Library URL is in order. If it is you will be notified and you can click the Save button.
+
+   \*\*\*\*
 
 {% hint style="warning" %}
 **Please note!**  

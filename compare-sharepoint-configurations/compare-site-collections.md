@@ -1,7 +1,7 @@
 ---
 title: Compare Site Collections
 description: >-
-  This sections describes how to use SPDocKit to compare SharePoint farm site
+  This article describes how to use SPDocKit to compare SharePoint farm site
   collection configurations.
 author: Martin Pisacic
 date: 18/5/2017

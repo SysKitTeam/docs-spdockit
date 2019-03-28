@@ -142,7 +142,7 @@ Base permissions are connected, so if for example, you want to include Manage Li
 * **Primary administrator principal selection:** SharePoint user
 * **Secondary administrator principal selection:** SharePoint user
 
-  **Administrators group principal selection:** SharePoint users, Active Directory groups \(except in SharePoint 2007\)
+  \***Administrators group principal selection:** SharePoint users, Active Directory groups \(except in SharePoint 2007\)
 
 Some of these actions have the **Preview** step to make sure that the pending changes will do exactly what you wanted and have specified. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button.
 

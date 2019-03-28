@@ -2,8 +2,8 @@
 title: Manage Permissions Wizard
 description: >-
   This article describes how to grant permissions to the desired principal on a
-  specific SharePoint objects. It also has the ability to remove permissions
-  from the desired principals across the selected
+  specific SharePoint object. It also has the ability to remove permissions from
+  the desired principals across the selected
 author: Mia Tomaić
 date: 25/5/2017
 ---

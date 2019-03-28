@@ -1,7 +1,7 @@
 ---
 title: Change the limit on Site Topology Report
 description: >-
-  This section describes how to change the limit on the Site Topology report in
+  This article describes how to change the limit on the Site Topology report in
   SPDocKit.
 author: Martin Pisacic
 date: 18/5/2017
