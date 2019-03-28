@@ -64,7 +64,7 @@
     * [Add Comments](explore-reports-and-create-documentation/customizing-reports/add-comments.md)
 * [Compare SharePoint Configurations](compare-sharepoint-configurations/README.md)
   * [Compare Wizard](compare-sharepoint-configurations/compare-wizard.md)
-  * [Compare Farms](compare-sharepoint-configurations/compare-sharepoint-farms.md)
+  * [Compare SharePoint Farms](compare-sharepoint-configurations/compare-sharepoint-farms.md)
   * [Compare Servers](compare-sharepoint-configurations/compare-servers.md)
   * [Compare Web Applications](compare-sharepoint-configurations/compare-web-applications.md)
   * [Compare Site Collections](compare-sharepoint-configurations/compare-site-collections.md)
