@@ -1,6 +1,6 @@
 ---
 title: How to FAQ
-description: Frequently asked questions about SPDocKit usage.
+description: This article gives answers to frequently asked questions about SPDocKit usage.
 author: Iva Novoselic
 date: 23/5/2017
 ---

@@ -1,6 +1,8 @@
 ---
 title: Requirements FAQ
-description: Frequently asked questions about SPDocKit requirements.
+description: >-
+  This article gives answers to frequently asked questions about SPDocKit
+  requirements.
 author: Iva Novoselic
 date: 22/5/2017
 ---

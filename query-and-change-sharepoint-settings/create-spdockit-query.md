@@ -1,7 +1,7 @@
 ---
 title: Create SPDocKit Query
 description: >-
-  This section describes how to use the SPDocKit wizard to create a query
+  This article describes how to use the SPDocKit Query wizard to create a query 
   report.
 author: Iva Novoselic
 date: 25/5/2017

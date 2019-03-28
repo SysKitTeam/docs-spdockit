@@ -1,13 +1,11 @@
 ---
 title: Activate SPCAF Extensions
-description: This section explains how to activate SPCAF Extension.
+description: This article explains how to activate SPCAF Extension.
 author: Martin Pisacic
 date: 18/5/2017
 ---
 
 # Activate SPCAF Extension
-
-This section explains how to activate SPCAF Extension.
 
 SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It provides detailed information about SharePoint customization’s \(WSPs or Add-ins\) code quality, dependencies, complexity and more.
 

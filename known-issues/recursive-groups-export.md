@@ -1,6 +1,6 @@
 ---
 title: Recursive groups export issue
-description: Recursive groups cause issues in the exported document
+description: Recursive groups cause issues in the exported document.
 author: Igor Mesaric
 date: 8/3/2018
 ---

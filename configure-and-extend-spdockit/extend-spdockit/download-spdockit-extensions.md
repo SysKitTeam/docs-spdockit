@@ -13,8 +13,8 @@ After installation, you can find two new reports under the **Analytics & Usage R
 
 | SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
-| 9.1.0.11029 | 9.1.0.11029 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.documentusage/9.1.0.11029) |
-| 9.0.0.10954 | 9.0.0.10943 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.documentusage/9.0.0.10943) |
+| 9.1.0.11029 | 9.1.0.11029 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.documentusage/9.1.0.11029) |
+| 9.0.0.10954 | 9.0.0.10943 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.documentusage/9.0.0.10943) |
 {% endtab %}
 
 {% tab title="Workflow Analytics" %}
@@ -23,10 +23,10 @@ After installation, you can find two new reports under the **Analytics & Usage R
 
 | SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
-| 9.1.0.11029 | 9.1.0.11029 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.workflowanalytics/9.1.0.11029) |
-| 9.0.0.10954 | 9.0.0.10846 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.workflowanalytics/9.0.0.10846) |
-| 8.0.3.10628 | 1.0.6.10521 | [Download](http://extensions.spdockit.com/api/v2/package/acceleratio.spdockit.plugins.workflowanalytics/1.0.6.10521) |
-| 8.0.2.10521 | 1.0.6.10521 | [Download](http://extensions.spdockit.com/api/v2/package/acceleratio.spdockit.plugins.workflowanalytics/1.0.6.10521) |
+| 9.1.0.11029 | 9.1.0.11029 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.workflowanalytics/9.1.0.11029) |
+| 9.0.0.10954 | 9.0.0.10846 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.workflowanalytics/9.0.0.10846) |
+| 8.0.3.10628 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.workflowanalytics/1.0.6.10521) |
+| 8.0.2.10521 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.workflowanalytics/1.0.6.10521) |
 {% endtab %}
 
 {% tab title="SPCAF Code Analysis" %}
@@ -37,10 +37,10 @@ For more information on how to activate SPCAF extension, please [follow this lin
 
 | SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
-| 9.1.0.11029 | 9.1.0.11029 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.spcaf/9.1.0.11029) |
-| 9.0.0.10954 | 9.0.0.10846 | [Download](http://extensions.spdockit.com/api/v2/package/syskit.spdockit.plugins.spcaf/9.0.0.10846) |
-| 8.0.3.10628 | 1.0.6.10521 | [Download](http://extensions.spdockit.com/api/v2/package/acceleratio.spdockit.plugins.spcaf/1.0.6.10521) |
-| 8.0.2.10521 | 1.0.6.10521 | [Download](http://extensions.spdockit.com/api/v2/package/acceleratio.spdockit.plugins.spcaf/1.0.6.10521) |
+| 9.1.0.11029 | 9.1.0.11029 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.spcaf/9.1.0.11029) |
+| 9.0.0.10954 | 9.0.0.10846 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.spcaf/9.0.0.10846) |
+| 8.0.3.10628 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.spcaf/1.0.6.10521) |
+| 8.0.2.10521 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.spcaf/1.0.6.10521) |
 {% endtab %}
 {% endtabs %}
 
