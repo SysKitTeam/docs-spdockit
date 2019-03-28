@@ -7,7 +7,6 @@ date: 03/10/2018
 
 # Audit Settings
 
-This article describes how to use the Audit Settings report.  
 The report shows the state of specific audit settings on the selected site collections.
 
 To view this report, go to **Audit Reports &gt; Audit Settings**.
@@ -18,8 +17,8 @@ If you want SharePoint \(and then SPDocKit\) to gather your audit logs, you need
 
 The Audit Settings report contains the following columns:
 
-* Site Collection
-* Url
+* **Site Collection**
+* **Url**
 * **Trim Audit Log**
 * **Days of Audit Log Data to Retain**
 * **Audit Report Storage Location**
