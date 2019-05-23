@@ -18,6 +18,7 @@ Features:
 * Create reports on farm storage, structure, features and content usage
 * Enforce governance policies with queries and rules
 * Generate an AutoSPInstaller XML Configuration File
+* Monitor usage trends across the farm, track visits and learn how users interact with your site.
 
 SharePoint farm administration is faster and easier with SPDocKit.
 
