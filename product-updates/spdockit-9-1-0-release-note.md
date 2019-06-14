@@ -7,8 +7,8 @@ description: This article describes improvements and bug fixes delivered in SPDo
 **SPDocKit 9.1.0** is a minor release containing a couple of features, improvements and bug fixes.
 
 **Product version:** 9.1.0  
-**Build number:** 11074  
-**Release date:** Feb 05, 2019
+**Build number:** 11114  
+**Release date:** Jun 14, 2019
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
 
