@@ -1,7 +1,7 @@
 ---
 description: >-
   This article describes new features, improvements and bug fixes delivered in
-  SPDocKit 10.0.
+  SPDocKit 10.
 ---
 
 # SPDocKit 10
