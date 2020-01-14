@@ -31,7 +31,6 @@ description: >-
 
 ## Bug Fixes
 
-* Fixed a bug where SPDocKit Consultant could not be activated because of SharePoint DLLs registered on the machine which were erroneously considered as SharePoint installation.  
 * Fixed an issue where the Best Practices Dashboard report could not be scheduled, which resulted in the following error when sending the subscription:  `Invoke or BeginInvoke cannot be called on a control until the window handle has been created.` 
 * Fixed a bug where searching through a report in the Web Application level on the Permissions Explorer would cause the app to crash in some cases. 
 * Fixed an issue where the Farm Differences subscription did not work properly for XLSX format type. 
