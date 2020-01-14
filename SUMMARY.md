@@ -2,6 +2,7 @@
 
 * [SPDocKit by SysKit](README.md)
 * [Release Notes](product-updates/README.md)
+  * [SPDocKit 10](product-updates/spdockit-10.md)
   * [SPDocKit 9.1.0](product-updates/spdockit-9-1-0-release-note.md)
   * [SPDocKit 9](product-updates/spdockit-9-release-note.md)
   * [SPDocKit 8.0.3](product-updates/spdockit-8-0-3-release-note.md)
