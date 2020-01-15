@@ -1,4 +1,2 @@
 # Farm Explorer
 
-
-

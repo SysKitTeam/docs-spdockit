@@ -14,7 +14,7 @@ This article describes how to use SPDocKit Group Membership wizard to manage Sha
 
 ## Add User\(s\) to Specific Group
 
-This wizard option will add a selected principal to a desired SharePoint groups within the selected wizard scope. 
+This wizard option will add a selected principal to a desired SharePoint groups within the selected wizard scope.
 
 1. Navigate to Permissions Explorer and click on the **Membership Wizard** in the Wizards ribbon.
 2. Select **Add user\(s\) to specific group** option and **Next** to continue.
@@ -56,7 +56,7 @@ This wizard option will remove a selected principals from a desired SharePoint g
 
 ## Remove User\(s\) from all Groups
 
-This wizard option will remove a selected principal from all SharePoint groups within the selected wizard scope. User will still exist on the specific site collection but will have no assigned permissions through SharePoint groups. 
+This wizard option will remove a selected principal from all SharePoint groups within the selected wizard scope. User will still exist on the specific site collection but will have no assigned permissions through SharePoint groups.
 
 1. Navigate to Permissions Explorer and click on the **Membership Wizard** in the Wizards ribbon.
 2. Select **Remove user\(s\) from all groups** option and **Next** to continue.

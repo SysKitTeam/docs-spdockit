@@ -9,7 +9,7 @@ date: 16/5/2017
 
 ## SharePoint Server Information
 
-During the Snapshot creation process, SPDocKit will try to retrieve information about your servers. 
+During the Snapshot creation process, SPDocKit will try to retrieve information about your servers.
 
 {% hint style="info" %}
 Please note that the following permissions on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practices reports will not be available in SPDocKit.
@@ -59,7 +59,7 @@ To start the **Windows Update service**, open the Service Microsoft Management C
 
 ## SQL Server Information
 
-There are some additional SPDocKit permission requirements necessary to load SQL servers information. 
+There are some additional SPDocKit permission requirements necessary to load SQL servers information.
 
 {% hint style="info" %}
 Please note that the following permissions on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practices reports will not be available in SPDocKit.
@@ -133,13 +133,14 @@ In case you have a very strict security policy and cannot add the sysadmin role 
       EXECUTE sp_grantdbaccess 'DOMAIN\ACCOUNT'
    ```
 
-  
-    To grant the **db\_owner** database role to the SPDocKit accounts, follow these steps:
+```text
+To grant the **db\_owner** database role to the SPDocKit accounts, follow these steps:
+```
 
-4. Connect to your SQL server using **SQL Server Management Studio**.
-5. Navigate to **Security** &gt; **Logins** and select the SPDocKit account.
-6. Right click on the account and open the **Login Properties** dialog.
-7. Under **User Mappings**, make sure that the account has the **db\_owner** database role for all affected databases.
+1. Connect to your SQL server using **SQL Server Management Studio**.
+2. Navigate to **Security** &gt; **Logins** and select the SPDocKit account.
+3. Right click on the account and open the **Login Properties** dialog.
+4. Under **User Mappings**, make sure that the account has the **db\_owner** database role for all affected databases.
 
 ## Project Server Information
 

@@ -13,7 +13,7 @@ date: 25/5/2017
 
 ## Add Permission Level
 
-This wizard options allows you to create new permission level across multiple site collections. 
+This wizard options allows you to create new permission level across multiple site collections.
 
 1. Navigate to Permissions Explorer and click on the **Permission Levels Wizard** in the Wizards ribbon.
 2. Select **Add permission level** option and **Next** to continue.
@@ -90,7 +90,7 @@ This wizard option is useful if you want to modify existing permission level wit
 
 ## Delete Permission Level
 
-This wizard option allows you to delete existing permission levels across the specified wizard scope. It is a useful feature when you want to delete multiple permission levels quickly all over multiple site collections. 
+This wizard option allows you to delete existing permission levels across the specified wizard scope. It is a useful feature when you want to delete multiple permission levels quickly all over multiple site collections.
 
 1. Navigate to Permissions Explorer and click on the **Permission Levels Wizard** in the Wizards ribbon.
 2. Select **Delete permission levels** option and **Next** to continue.
@@ -105,7 +105,7 @@ This wizard option allows you to delete existing permission levels across the sp
 6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
 {% hint style="warning" %}
-**Please Note!**   
+**Please Note!**  
 While it is possible to create, delete or edit subsite’s specific permission levels \(breaking permission level inheritance on each subsite, similar to permission inheritance\) SPDocKit does not support such behavior. From SharePoint version 2010 and forward this functionality is hidden from SharePoint interface. Internally SPDocKit is able to work with these permission levels but will not allow user to create, delete or modify permission levels on subsite with permission levels broken inheritance.
 {% endhint %}
 

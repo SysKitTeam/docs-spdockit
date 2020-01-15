@@ -27,6 +27,6 @@ Owing to security issues it is often not recommended to use the default port num
 **Note**: Both IP5 and IP6 are disabled and the TCP Dynamic Ports setting is set to “0”, which means that the database engine is listening on dynamic ports.
 {% endhint %}
 
-6. Specify the port number you want to use instead of 1433 by entering the preferred port number. Also,                     turn off the dynamical port number setting by removing the “0” mark in the TCP Dynamic Ports field.  
-7. In order to finish the adjustment, select **SQL Server Services**, click on SQL Server and restart it.
+1. Specify the port number you want to use instead of 1433 by entering the preferred port number. Also,                     turn off the dynamical port number setting by removing the “0” mark in the TCP Dynamic Ports field.  
+2. In order to finish the adjustment, select **SQL Server Services**, click on SQL Server and restart it.
 

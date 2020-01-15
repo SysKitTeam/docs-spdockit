@@ -13,8 +13,7 @@ date: 05/6/2017
 This article explains how you can use the Administrative Actions report to get a centralized overview of all administrative actions made on your SharePoint farm. It enables you too see a list of actions an Administrator, with some additional data about the specific action.
 
 **Applies to**: SharePoint 2016  
-**Prerequisites**: SharePoint 2016 Feature Pack 1  
-
+**Prerequisites**: SharePoint 2016 Feature Pack 1
 
 1. Administrative Actions logging must be turned on in SharePoint. It is turned on by default when you install Feature Pack 1. But if you want to be sure, go to **Central Administration &gt; Monitoring &gt; Reporting &gt; Configure usage and health data collection** and ensure that the **Administrative Actions** option is checked under Events to log.
 2. Take a snapshot of your farm with the **Administrative Actions Log** option enabled using SPDocKit's Snapshot Wizard.

@@ -11,7 +11,7 @@ date: 28/8/2017
 
 ## **Summary**
 
- Errors appear in the ULS log that state that SPDocKit processes are trying to create tables in SharePoint databases.
+Errors appear in the ULS log that state that SPDocKit processes are trying to create tables in SharePoint databases.
 
 First and foremost, SPDocKit does not create tables or modify SharePoint databases during the snapshot process. The problem occurs when there is a permissions issue with the SPDocKit service account.
 
@@ -24,7 +24,7 @@ The issue can easily be reproduced in PowerShell by using the SPDocKit account o
     $myDB.NeedsUpgrade
 ```
 
-After running these commands, two things can be noticed: 
+After running these commands, two things can be noticed:
 
 1. The NeedsUpgrade property will return the wrong value: it will always be true. 
 2. CREATE TABLE errors will appear in the ULS log.

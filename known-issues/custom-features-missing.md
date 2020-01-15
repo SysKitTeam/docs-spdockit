@@ -7,7 +7,7 @@ date: 25/5/2017
 
 # Custom features missing in reports
 
-## **Summary** 
+## **Summary**
 
 Custom features deployed on your farm are missing in SPDocKit feature reports. If verbose logging is enabled inside SPDocKit Options, you will see the following errors in the Windows event logs:
 

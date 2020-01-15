@@ -24,20 +24,19 @@ The Copy Object Permissions Wizard enables you to copy the permissions between o
 1. Navigate to Permissions Explorer and select the source object in the object tree. Select the **Copy Object Permissions** options in the **Manage** ribbon.  
 2. In the **Target selection** step select the target SharePoint object.  
 3. Depending on the previous source and target object selection, the **Configuration** step offers a couple of options.
+4. **Source and target objects are a part of the same site collection.**
 
-* **Source and target objects are a part of the same site collection.**
+   The **Keep existing target object permissions \(role assignments and SharePoint group memberships\)** option is available. If checked, all of the target object permissions are preserved and new permissions are added to existing groups or principals. If not checked, all target object permissions are removed and the source permissions are copied.
 
-  The **Keep existing target object permissions \(role assignments and SharePoint group memberships\)** option is available. If checked, all of the target object permissions are preserved and new permissions are added to existing groups or principals. If not checked, all target object permissions are removed and the source permissions are copied.
+   Options **Create SharePoint groups** and **Create missing permission levels** are disabled since they are only applicable in case of different site collections.
 
-  Options **Create SharePoint groups** and **Create missing permission levels** are disabled since they are only applicable in case of different site collections.
+   If the target object inheritance is not broken, the following message is displayed: **The target securable object currently inherits permissions from its parent. Permission inheritance will be broken in order to apply new role assignments**.
 
-  If the target object inheritance is not broken, the following message is displayed: **The target securable object currently inherits permissions from its parent. Permission inheritance will be broken in order to apply new role assignments**.
+5. **Source and target objects are a part of different site collections.**
 
-* **Source and target objects are a part of different site collections.**
+   The **Create SharePoint groups** option is available. If checked, missing SharePoint groups are created on the target site collection with the same members as in the source group. If unchecked, no new groups are created.
 
-  The **Create SharePoint groups** option is available. If checked, missing SharePoint groups are created on the target site collection with the same members as in the source group. If unchecked, no new groups are created.
-
-  The **Create missing permission levels** option is also available. If checked, missing permission levels are created on the target site collection with the same base permissions as in the source permission levels. If unchecked, the permission levels are not created and therefore can not be assigned to groups or principals.
+   The **Create missing permission levels** option is also available. If checked, missing permission levels are created on the target site collection with the same base permissions as in the source permission levels. If unchecked, the permission levels are not created and therefore can not be assigned to groups or principals.
 
 {% hint style="warning" %}
 **Please note:**
@@ -46,6 +45,6 @@ The Copy Object Permissions Wizard enables you to copy the permissions between o
 * If the source site collection and the target site collection have Permission levels with the same name but different base permissions, the target permission level will not be changed, and it will not be added to any principals or groups. The following message appears in the Preview window: **Permission level \[permissionLevelName\] already exists on \[targetSiteCollection\] with different base permissions and will be skipped.**
 {% endhint %}
 
-4. The **Preview** step shows the changes that will occur in the final step.  
-5. In the **Apply Changes** step, all changes are displayed as they are applied. It is possible to save the log for later reference by clicking the **Save Log** button. The changes are also saved in the [SPDocPerm event log](../spdockit-permission-management-event-log.md).
+1. The **Preview** step shows the changes that will occur in the final step.  
+2. In the **Apply Changes** step, all changes are displayed as they are applied. It is possible to save the log for later reference by clicking the **Save Log** button. The changes are also saved in the [SPDocPerm event log](../spdockit-permission-management-event-log.md).
 

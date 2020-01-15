@@ -43,7 +43,7 @@ To install and configure SPDocKit on a workstation, follow these instructions:
 4. Click **Finish** to start using SPDocKit on your workstation.
 
 {% hint style="warning" %}
-**Please Note!** When using SPDocKit on your workstation, the **SPDocKit Service will not be available**. 
+**Please Note!** When using SPDocKit on your workstation, the **SPDocKit Service will not be available**.
 {% endhint %}
 
 The following features are available:

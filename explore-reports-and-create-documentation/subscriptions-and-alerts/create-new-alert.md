@@ -17,7 +17,7 @@ Alerts are sent after each automatic snapshot, that is, snapshot created by the 
 * **Best Practice** reports will be sent when either warnings or errors are detected in the latest snapshot.
 * **Difference reports** will be sent when differences between the newest snapshot and the previous one are detected.
 
-Instructions: 
+Instructions:
 
 1. Navigate to the Backstage Configuration Screen and click **Subscriptions and Alerts**, or find this button in the Home ribbon.
 2. When the Manager opens, click **New Alert**. In the General tab, type in the alert name. Under Status section you can see the following information:
