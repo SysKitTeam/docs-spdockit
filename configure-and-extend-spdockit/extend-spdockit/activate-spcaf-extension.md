@@ -41,7 +41,7 @@ Please note that, by default, the folders Extensions and SPCAF do not exist and 
 
 After that, go to the SPCAF Reports in the Content & Usage Reports section of SPDocKit. Select any report, and you will notice the following message:
 
-![](../../.gitbook/assets/spcaf-trial-1%20%281%29.png)
+![](../../.gitbook/assets/spcaf-trial-1.png)
 
 Click the **Activate your license** button.
 
