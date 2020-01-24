@@ -1,83 +1,84 @@
 ---
 title: Error while loading server Information
 description: This article explains how to handle the issues with server load.
-author: Igor Mesarić    
+author: Igor Mesarić
 date: 29/11/2018
 ---
 
+# Errors while loading server information
+
 ## SharePoint Server Information
 
-### Problem:
+### Problem
 
 While trying to load SharePoint farm settings with SPDocKit I received:
 
 > Error occurred while loading server ‘ServerName’.
 
-### Solution:
+### Solution
 
 In order to allow SPDocKit to successfully gather all the information about your SharePoint farm servers, the following permissions are necessary:
 
 * Local Administrator on the server
 * Windows Update service up and running
 
-For more information on how to add the SPDocKit user to the Local Administrators group and how to start Windows Update service, read the [following article.](#internal/requirements/server-load-permission-requirements/#sharepoint-server-information)
-
+For more information on how to add the SPDocKit user to the Local Administrators group and how to start Windows Update service, read the [following article](../../requirements/server-load-permission-requirements.md#granting-permissions).
 
 ## SQL Server Information
 
-### Problem:
+### Problem
 
 While trying to create a SPDocKit snapshot, I received the following warning:
 
 > Loaded Server ‘ServerName’.
 
-### Solution:
+### Solution
 
 In order to allow SPDocKit to successfully gather all the information about your SQL servers the following permissions are necessary:
 
-* __Sysadmin__ server role
+* **Sysadmin** server role
 
-In case that you can’t give those permissions due to security requirements, there are some alternatives available. More information on how to grant the required permissions is available [here.]((#internal/requirements/server-load-permission-requirements/#sql-server-information)
+In case that you can’t give those permissions due to security requirements, there are some alternatives available. More information on how to grant the required permissions is available [here](../../requirements/server-load-permission-requirements.md#granting-permissions-1).
 
-### Problem:
+### Problem
 
 While trying to create a SPDocKit snapshot, I received the following warning:
 
 > Unable to load database permissions for ‘DatabaseName’.
 
-### Solution:
+### Solution
 
- In order to allow SPDocKit to successfully gather all the database permissions the following permissions are necessary:
+In order to allow SPDocKit to successfully gather all the database permissions the following permissions are necessary:
 
-* __db_owner__ database role on each of the affected databases.
+* **db\_owner** database role on each of the affected databases.
 
-To eliminate this warning you either have to grant the necessary permissions to SPDocKit accounts or turn off the load __Database Permissions__ option.
+To eliminate this warning you either have to grant the necessary permissions to SPDocKit accounts or turn off the load **Database Permissions** option.
 
-If you wish to turn off the load __Database Permissions__ option, do the following:
+If you wish to turn off the load **Database Permissions** option, do the following:
 
-1. Select __Configuration__ from the left navigation bar on the __Backstage Screen__ and then click the __Options__ button.
-2. On the __SPDocKit Options__ dialog select __Snapshot Options__.
-3. Under the __Security__ section uncheck __Database Permissions__.
+1. Select **Configuration** from the left navigation bar on the **Backstage Screen** and then click the **Options** button.
+2. On the **SPDocKit Options** dialog select **Snapshot Options**.
+3. Under the **Security** section uncheck **Database Permissions**.
 
-
-If you wish to grant the necessary permissions to the SPDocKit accounts, follow this [link.]((#internal/requirements/server-load-permission-requirements/#sql-server-information)
+If you wish to grant the necessary permissions to the SPDocKit accounts, follow this [link](../../requirements/server-load-permission-requirements.md#granting-permissions-1).
 
 ## Project Server
 
-### Problem:
+### Problem
 
 While trying to load Project server site settings with SPDocKit I received:
 
 > The HTTP request is unauthorized with client authentication scheme 'Ntlm'. The authentication header received from the server was 'NTLM'.
 
-### Solution:
+### Solution
 
 In order to allow SPDocKit to successfully gather all the information about your Project server sites the following permissions are necessary:
 
-* __SPDocKit account__ needs to be a member of the Project Server __Administrators__ group on each of the Project server sites
+* **SPDocKit account** needs to be a member of the Project Server **Administrators** group on each of the Project server sites
 
-Take the steps described in the [following article](#internal/requirements/server-load-permission-requirements/#project-server-information) to grant the required permissions.
+Take the steps described in the [following article](../../requirements/server-load-permission-requirements.md#granting-permissions-2) to grant the required permissions.
 
+## Learn more
 
-### Learn more
-* [RPC Server is Unavailable](#internal/troubleshooting/server-load-and-user-permissions/rpc-server-unavailable)
+* [RPC Server is Unavailable](rpc-server-unavailable.md)
+
