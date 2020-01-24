@@ -20,12 +20,12 @@ View the corresponding section depending on the scenario you need - either SPDoc
   * You can install the product on a WFE \(recommended\), Application, Index or any other server in the farm.
   * User must have [proper privileges](user-permissions-requirements.md) to run the application.
 * Software
-  * For SharePoint 2019: Windows 2012 R2 or Windows Server 2016
-  * For SharePoint 2016: Windows 2012 R2 or Windows Server 2016
-  * For SharePoint 2013: Windows 2012 or Windows 2008 R2
-  * For SharePoint 2010: Windows 2012 or Windows 2008 
-  * On Windows 2008 you will need to download [Windows PowerShell Snap-In 1.0](http://www.iis.net/download/powershell) to fully extract information about IIS Settings
-  * SQL 2008 or better is supported
+  * For SharePoint 2019: Windows Server 2012 R2, Windows Server 2016, or Windows Server 2019
+  * For SharePoint 2016: Windows Server 2012 R2, Windows Server 2016, or Windows Server 2019
+  * For SharePoint 2013: Windows Server 2012 or Windows Server 2008 R2
+  * For SharePoint 2010: Windows Server 2012 or Windows Server 2008 
+  * On Windows Server 2008 you will need to download [Windows PowerShell Snap-In 1.0](http://www.iis.net/download/powershell) to fully extract information about IIS Settings
+  * SQL Server 2008 or better is supported
   * **Microsoft .NET Framework 3.5 SP1** for SharePoint 2010, **Microsoft .NET Framework 4.5** for SharePoint 2013 and SharePoint 2016.
 * Hardware
   * CPU – any standard server CPU

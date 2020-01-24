@@ -7,8 +7,8 @@ description: This article describes improvements and bug fixes delivered in SPDo
 **SPDocKit 9.1.0** is a minor release containing a couple of features, improvements and bug fixes.
 
 **Product version:** 9.1.0  
-**Build number:** 11029  
-**Release date:** Mar 26, 2019
+**Build number:** 11206  
+**Release date:** Sep 05, 2019
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
 
@@ -32,5 +32,6 @@ description: This article describes improvements and bug fixes delivered in SPDo
 * Fixed a bug that occurred when resolving local group memberships when the group contained deleted users from trusted forests. The bug would cause the local groups to appear empty. The following error was thrown: `Error while resolving memberships for group <groupName> on the <serverName> server. System.DirectoryServices.AccountManagement.PrincipalOperationException: An error (1332) occurred while enumerating the group membership. The member’s SID could not be resolved.`
 * Fixed an issue where a document/list item URL was not correctly created for specific types of lists in host-named site collections. This caused a 404 error when opening items in a browser through the View in SharePoint option in Permissions Explorer.
 * Fixed a bug where the Health Analyzer Problems report erroneously displayed the date and time value in the Last Modified column. Instead of the actual value, ‘1/1/0001 12:00:00 AM’ was displayed as the date and time.
+* Fixed a bug with the cleanup reports. The “clean” portion of the reports stopped working when we changed some column names. That is now fixed, and everything works as intended.
 * Fixed an issue where the Audit Dashboard would cause the following error: `System.InvalidOperationException: The cast to value type 'Int32' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.`
 
