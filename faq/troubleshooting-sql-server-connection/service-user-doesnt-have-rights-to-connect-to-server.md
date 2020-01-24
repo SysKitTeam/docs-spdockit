@@ -1,15 +1,21 @@
 ---
 title: Service user does not have rights to connect to the SQL server.
-description: Article describes how to grant rights to service user that are necessary to connect to the SQL server.
+description: >-
+  Article describes how to grant rights to service user that are necessary to
+  connect to the SQL server.
 author: Mia Tomaić
 date: 19/5/2017
 ---
 
+# Servic user doesn't have rights to connect to server
+
 ## Problem:
+
 The service user does not have rights to connect to the SQL server.
 
 ## Solution:
-The service user needs to be granted the __dbcreator__ and __securityadmin__ server roles.
+
+The service user needs to be granted the **dbcreator** and **securityadmin** server roles.
 
 1. Run the Microsoft SQL Server Management Studio. Find the subfolder **Logins** in the Security folder, right-click on it and choose **New Login**.
 2. Click on the **Search** button to find the desired service user.
@@ -19,6 +25,7 @@ The service user needs to be granted the __dbcreator__ and __securityadmin__ ser
 6. Click on the **Server Roles** tab in the left navigation bar.
 7. Check the boxes next to the **dbcreator** and **securityadmin** list items. Granting these privileges to a user means they will be able to create databases and manage other users’ privileges.
 
-    **Note:** *If the user wants to be the system administrator of the SQL server it is enough to check the **sysadmin** item in the list.*
+   **Note:** _If the user wants to be the system administrator of the SQL server it is enough to check the **sysadmin** item in the list._
 
 8. SQL connection should now be available.
+
