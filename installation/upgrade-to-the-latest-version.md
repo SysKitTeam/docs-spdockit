@@ -32,6 +32,8 @@ When a **single database** is used with multiple instances of SPDocKit, all inst
 
 If you do not want to upgrade all instances of SPDocKit to the latest version, creation of a new database is required.
 
+{% endhint %}
+
 ## Tips & tricks
 
 If you encounter any problems during the installation and wish to enable logging to help you resolve the problems, you can start the installation using the command prompt with the following argument:
