@@ -32,7 +32,6 @@ When a **single database** is used with multiple instances of SPDocKit, all inst
 
 If you do not want to upgrade all instances of SPDocKit to the latest version, creation of a new database is required.
 
-With a major release of SPDocKit, you need a new license key. If you have a valid Software Assurance go to our customer’s portal, where you will see your new key. In case you do not have it, you will need a new license. In that case, please [contact us](https://www.syskit.com/company/contact-us/).
 {% endhint %}
 
 ## Tips & tricks
