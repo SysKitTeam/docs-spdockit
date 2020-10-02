@@ -80,6 +80,7 @@
     * [Copy Permissions Wizard](manage-sharepoint-permissions/users-and-groups-actions/clone-permissions-wizard.md)
     * [Move Permissions Wizard](manage-sharepoint-permissions/users-and-groups-actions/transfer-permissions-wizard.md)
     * [Manage Permissions Wizard](manage-sharepoint-permissions/users-and-groups-actions/manage-permissions-wizard.md)
+    * [Remove Permissions Wizard](manage-sharepoint-permissions/users-and-groups-actions/remove-permissions-wizard.md)
   * [Securable Objects Actions](manage-sharepoint-permissions/securable-objects-actions/README.md)
     * [Break/Restore Permission Inheritance Wizard](manage-sharepoint-permissions/securable-objects-actions/break-restore-permission-inheritance-wizard.md)
     * [Restore Permissions](manage-sharepoint-permissions/securable-objects-actions/restore-permissions.md)

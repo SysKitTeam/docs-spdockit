@@ -65,7 +65,3 @@ This wizard option will remove a selected principal from all SharePoint groups w
 5. In the **Preview** step, make sure that the pending changes will do exactly what you wanted and have specified in previous steps of this wizard.
 6. The last step shows user the changes that were made. If some errors have occurred they will be displayed here. It is possible to save this log to disk as a .txt file using **Save Log** button. In addition, SPDocKit will create Event Log entry in custom [SPDocPerm event log](../spdockit-permission-management-event-log.md). There will be information about changes that were made as well as who made those changes.
 
-## Remove User\(s\) from entire Site Collection
-
-This wizard option has identical steps like the previous one **Remove user\(s\) from all groups**. The main difference is that using **Remove user\(s\) from entire Site Collection** option means that selected users will no longer have any assigned permissions, directly or through SharePoint groups, and they will be deleted from all the selected site collections in your SharePoint farm.
-
