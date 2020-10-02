@@ -93,8 +93,6 @@ This plugin for SPDocKit will allow you to analyze workflow usage on your farm.
 **Workflows per Site** – Lists available workflow templates on your sites.  
 **Workflows on Farm** – Shows workflow usage on your farm.
 
-Visit the [SPDocKit resources center](https://www.spdockit.com/resources/reports) for videos and samples of SharePoint documentation and reports by SPDocKit.
-
 {% hint style="warning" %}
 **Please note!**  
 The **Workflow Reports section** will become visible in the navigation tree only after [installing](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) the extension.
