@@ -31,7 +31,6 @@ description: This article explains how to upgrade SPDocKit to the latest version
 When a **single database** is used with multiple instances of SPDocKit, all instances of SPDocKit have to be upgraded to the new version. Data collection using an older instance of SPDocKit on an upgraded database is **not possible** until SPDocKit is updated.
 
 If you do not want to upgrade all instances of SPDocKit to the latest version, creation of a new database is required.
-
 {% endhint %}
 
 ## Tips & tricks
