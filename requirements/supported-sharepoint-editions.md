@@ -20,5 +20,5 @@ The following SharePoint editions and additional products are supported by SPDoc
   * SharePoint Standard 2010
   * SharePoint Enterprise 2010
 
-SharePoint 2007 is no longer supported edition starting with SPDocKit 6. If you wish to document and explore your SharePoint 2007 farms, please use [SPDocKit 5](https://www.syskit.com/products/spdockit/download/app/?version=version-5-3-1). 
+SharePoint 2007 is no longer supported edition starting with SPDocKit 6. If you wish to document and explore your SharePoint 2007 farms, please use [SPDocKit 5](https://www.syskit.com/products/spdockit/download/app/?version=version-5-3-1).
 
