@@ -4,7 +4,7 @@ description: This article enables you to download SPDocKit extension packages.
 
 # Download SPDocKit Extensions
 
-Find your extensions for appropriate SPDocKit version and the download links in the table below.
+Find your extensions for the appropriate SPDocKit version and the download links in the table below.
 
 {% tabs %}
 {% tab title="Storage Reports" %}
@@ -13,7 +13,6 @@ After installation, you can find two new reports under the **Analytics & Usage R
 
 | SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
-
 | 11.0.0.11792 | 11.0.0.11759 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.storagereports/11.0.0.11759) |
 {% endtab %}
 
