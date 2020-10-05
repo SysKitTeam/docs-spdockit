@@ -8,7 +8,7 @@ Find your extensions for the appropriate SPDocKit version and the download links
 
 {% tabs %}
 {% tab title="Storage Reports" %}
-Extend SPDocKit with additional reports that help you get a complete overview of all your List, Document Libraries, and Files in your farm.  
+Extend SPDocKit with additional reports that help you get a complete overview of all your List, Document Libraries, and Files in your SharePoint farm.  
 After installation, you can find two new reports under the **Analytics & Usage Report** section in the **Storage Metrics & Growth** folder.
 
 | SPDocKit version | Extension version |  |
@@ -17,7 +17,7 @@ After installation, you can find two new reports under the **Analytics & Usage R
 {% endtab %}
 
 {% tab title="Document Usage" %}
-Extend SPDocKit with additional reports that help you detect old documents on your farm.  
+Extend SPDocKit with additional reports that help you detect old documents in your SharePoint farm.  
 After installation, you can find two new reports under the **Analytics & Usage Report** section in the **Document Reports** folder.
 
 | SPDocKit version | Extension version |  |
@@ -32,7 +32,7 @@ After installation, you can find two new reports under the **Analytics & Usage R
 Extend SPDocKit with SPCAF code analysis reports.  
 After installation, you can find five new reports under the **Analytics & Usage Report** section in the **SPCAF Reports** folder.
 
-For more information on how to activate SPCAF extension, please [follow this link.](activate-spcaf-extension.md)
+For more information on how to activate the SPCAF extension, please [follow this link.](activate-spcaf-extension.md)
 
 | SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
@@ -45,7 +45,7 @@ For more information on how to activate SPCAF extension, please [follow this lin
 {% endtab %}
 
 {% tab title="Workflow Analytics" %}
-Extend SPDocKit with additional reports that help you analyze workflow usage on your farm.  
+Extend SPDocKit with additional reports that help you analyze workflow usage in your SharePoint farm.  
 After installation, you can find two new reports under the **Analytics & Usage Report** section in the **Workflow Reports** folder.
 
 {% hint style="warning" %}
