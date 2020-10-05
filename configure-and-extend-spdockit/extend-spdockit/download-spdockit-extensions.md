@@ -16,7 +16,6 @@ After installation, you can find two new reports under the **Analytics & Usage R
 | 11.0.0.11792 | 11.0.0.11759 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.storagereports/11.0.0.11759) |
 {% endtab %}
 
-{% tabs %}
 {% tab title="Document Usage" %}
 Extend SPDocKit with additional reports that help you detect old documents on your farm.  
 After installation, you can find two new reports under the **Analytics & Usage Report** section in the **Document Reports** folder.
@@ -44,7 +43,6 @@ For more information on how to activate SPCAF extension, please [follow this lin
 | 8.0.3.10628 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.spcaf/1.0.6.10521) |
 | 8.0.2.10521 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.spcaf/1.0.6.10521) |
 {% endtab %}
-{% endtabs %}
 
 For more information on how to install SPDocKit extensions, read [this article.](install-spdockit-extensions.md)
 
@@ -65,3 +63,4 @@ From SPDocKit 11, Workflow reports are integrated into the standard report set a
 | 8.0.3.10628 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.workflowanalytics/1.0.6.10521) |
 | 8.0.2.10521 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.workflowanalytics/1.0.6.10521) |
 {% endtab %}
+{% endtabs %}
