@@ -43,4 +43,11 @@ To do so:
 * **click OK** to import principals from CSV file
 The imported principals are visible in the Principal Selection input field.
 
+{% hint style="info" %}
+**Learn more!**  
+Usernames in the CSV file can be given in:
+  * **claims format** - for example `i:0#w|contoso\jonathan.smith`, or
+  * **classic format** - for example `contoso\jonathan.smith`.
+{% endhint %}
+
   
