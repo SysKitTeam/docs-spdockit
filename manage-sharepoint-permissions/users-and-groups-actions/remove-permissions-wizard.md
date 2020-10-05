@@ -47,7 +47,7 @@ In case you need to remove many principals in bulk, importing a CSV file is the 
 **Learn more!**  
 Usernames in the CSV file can be given in:
 
-* **Claims format** - for example `i:0#w|contoso\jonathan.smith`, or
-* **Classic format** - for example `contoso\jonathan.smith`.
+* **Claims-based authentication username format** - for example `i:0#w|contoso\jonathan.smith`, or
+* **Classic mode authentication format** - for example `contoso\jonathan.smith`.
 {% endhint %}
 
