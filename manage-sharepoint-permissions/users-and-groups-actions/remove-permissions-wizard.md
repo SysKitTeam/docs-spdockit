@@ -37,7 +37,7 @@ In case you need to remove many principals in bulk, importing a CSV file is the 
 * **Setup Import Options** available on the **Import Principals** dialog; the following is available:
   * **My data has headers** option - check if the first row of your CSV file contains column headers data
   * **Delimiter** radio buttons - you can choose between **Tab**, **Semicolon**, **Comma**, and **Space**
-  * **Username column** - from the drop-down menu chose the column which has **Username** data
+  * **Username column** - from the drop-down menu, chose the column which has **Username** data
   * **Data Preview** - shows data from CSV formatted as defined in import options
 * **Click OK** to import principals from CSV file
 
