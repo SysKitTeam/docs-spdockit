@@ -25,7 +25,7 @@ If your server does not have an internet connection, you can use the Offline ins
 
 {% hint style="warning" %}
 **Please note!**  
-The SPCAF, Workflow and Document Reports sections will be visible in the navigation tree only after installing the extensions.
+The SPCAF, Storage and Document Usage reports will be visible in the navigation tree only after installing the appropriate extensions.
 {% endhint %}
 
 ## **Learn more**
