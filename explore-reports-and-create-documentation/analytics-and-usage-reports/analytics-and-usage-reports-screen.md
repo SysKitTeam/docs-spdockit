@@ -75,7 +75,7 @@ The **Lists and Libraries** and **Files** report will be visible in the navigati
 
 ## Document Reports
 
-This SPDocKit plugin will help you detect old documents and list items on your farm. Two reports are available:
+This SPDocKit plugin will help you detect old documents and list items in your SharePoint farm. Two reports are available:
 
 **Old List Items** - Lists all list items older than the selected date range.  
 **Old Documents** - Lists all documents older than the selected date range.
