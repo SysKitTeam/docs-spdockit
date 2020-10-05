@@ -28,7 +28,7 @@ After installation, you can find two new reports under the **Analytics & Usage R
 | 9.0.0.10954 | 9.0.0.10943 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.documentusage/9.0.0.10943) |
 {% endtab %}
 
-{% tab title="SPCAF Code Analysis" %}
+{% tab title="SPCAF" %}
 Extend SPDocKit with SPCAF code analysis reports.  
 After installation, you can find five new reports under the **Analytics & Usage Report** section in the **SPCAF Reports** folder.
 
