@@ -44,8 +44,6 @@ For more information on how to activate SPCAF extension, please [follow this lin
 | 8.0.2.10521 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.spcaf/1.0.6.10521) |
 {% endtab %}
 
-For more information on how to install SPDocKit extensions, read [this article.](install-spdockit-extensions.md)
-
 {% tab title="Workflow Analytics" %}
 Extend SPDocKit with additional reports that help you analyze workflow usage on your farm.  
 After installation, you can find two new reports under the **Analytics & Usage Report** section in the **Workflow Reports** folder.
@@ -64,3 +62,5 @@ From SPDocKit 11, Workflow reports are integrated into the standard report set a
 | 8.0.2.10521 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.workflowanalytics/1.0.6.10521) |
 {% endtab %}
 {% endtabs %}
+
+For more information on how to install SPDocKit extensions, read [this article.](install-spdockit-extensions.md)
