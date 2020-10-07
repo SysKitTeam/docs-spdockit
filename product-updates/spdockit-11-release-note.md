@@ -22,9 +22,9 @@ description: >-
   * **discover when a workflow was last active**.
 
     You can find the new reports in the Analytics & Usage Reports category.
-* **Two new Storage reports are available**! 
+* **Two new Storage reports are available**!
   * **The List and Libraries report shows you a complete overview of Lists and Document Libraries** in the selected SharePoint subsite; for each of them, you can find the **number of items**, **size**, and time when it was **last updated**, among others. 
-  * **The Files report provides you with information about each document in a subsite**, such as **size**, **versioning**, and time when it was **last updated**. 
+  * **The Files report provides you with information about each document in a subsite**, such as **size**, **versioning**, and time when it was **last updated**.
 
     To obtain the reports, install the Storage Reports extension and find them in the Storage Metrics & Growth category inside the Analytics & Usage Reports section.
 * **The new Remove Permissions Wizard is available**! With the help of the wizard, you can:
@@ -44,19 +44,19 @@ description: >-
 * **Build numbers are now updated automatically** each time you open SPDocKit. Before, the update would need to be done manually and often caused false positives on the **Is SharePoint up to Date** Best Practices report. 
 * **Group Memberships filter on the Permissions Matrix report was improved**.
 
-  A new option was added – **Hierarchical Structure \(exclude deselected groups\)**. When selected, the report shows a hierarchical structure without deselected groups, as the name suggests. Such groups are not displayed even if they contain users selected to be shown in the report. 
+  A new option was added – **Hierarchical Structure \(exclude deselected groups\)**. When selected, the report shows a hierarchical structure without deselected groups, as the name suggests. Such groups are not displayed even if they contain users selected to be shown in the report.
 
-* **Site Collection Visitors report was improved to handle many site visitors better**. In case the selected site collection had thousands of visitors, the report would result in a system error and wouldn’t show expected results. 
+* **Site Collection Visitors report was improved to handle many site visitors better**. In case the selected site collection had thousands of visitors, the report would result in a system error and wouldn’t show expected results.
 * **Fixed an issue** with custom queries created on the site collection scope. When run, the query resulted in the following error: `System.ArgumentNullException: 'dataType' argument cannot be null.`
 
-  Parameter name: datatype.    
+  Parameter name: datatype.
 
-* **Fixed an issue** where newly added SharePoint farm servers would not be included in Snapshots. New servers are now automatically added to the server list and included in all Snapshots. 
+* **Fixed an issue** where newly added SharePoint farm servers would not be included in Snapshots. New servers are now automatically added to the server list and included in all Snapshots.
 * **Fixed a bug** where SPDocKit activation would fail with the following error: `System.InvalidOperationException: This implementation is not part of the Windows Platform FIPS validated cryptographic algorithms.`
 * **Fixed a bug** where Farm documentation and Best Practices documentation export would not show the **Click here for details** links if the **Add extra spacing after each heading** option was enabled.
-* **Fixed an issue** that would appear when upgrading SPDocKit on SharePoint 2010 Foundation environments. The Configuration Wizard would result in the following error: 
+* **Fixed an issue** that would appear when upgrading SPDocKit on SharePoint 2010 Foundation environments. The Configuration Wizard would result in the following error:
 
   `System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.Office.Policy, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c' or one of its dependencies. The system cannot find the file specified.`
 
-* **Improved error messages, descriptions, and UX** on various screens and wizards. 
+* **Improved error messages, descriptions, and UX** on various screens and wizards.
 

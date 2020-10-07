@@ -64,3 +64,4 @@ From SPDocKit 11, Workflow reports are integrated into the standard report set a
 {% endtabs %}
 
 For more information on how to install SPDocKit extensions, read [this article.](install-spdockit-extensions.md)
+
