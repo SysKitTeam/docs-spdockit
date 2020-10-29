@@ -17,7 +17,7 @@ description: >-
 ## Features
 
 * **New Workflow Reports are available**! Three new reports – **Workflows on Farm**, **Workflow Templates**, and **Workflow Associations** – enable you to:
-  * **detect all workflows and workflow templates in your SharePoint farm**, be it SharePoint 2010, 2013, or 2013 Project Server workflows,
+  * **detect all workflows and workflow templates in your SharePoint farm**, be it SharePoint 2010, 2013, 2013 Project Server workflows, or third party vendor workflows, such as Nintex workflows,
   * **view the count of associations and active instances**, and other information related to workflows,
   * **discover when a workflow was last active**.
 
