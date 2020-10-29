@@ -74,9 +74,10 @@ Workflow reports enable you to:
   * **view the count of associations and active instances**, and other information related to workflows,
   * **discover when a workflow was last active**.
 
-* **Workflows on Farm** – Lists all workflows in your farm and gives additional information for each workflow, such as the number of associations and active instance counts, as well as the last activity date. 
-* **Workflow Templates** - Shows all workflow templates grouped by site, their type, number of associations, and instance counts. 
-* **Workflow Associations** - Shows all workflow associations grouped by template name, target SharePoint objects, and defined History and Task lists.
+Three reports are available:
+**Workflows on Farm** – Lists all workflows in your farm and gives additional information for each workflow, such as the number of associations and active instance counts, as well as the last activity date. 
+**Workflow Templates** - Shows all workflow templates grouped by site, their type, number of associations, and instance counts. 
+**Workflow Associations** - Shows all workflow associations grouped by template name, target SharePoint objects, and defined History and Task lists.
 
 ## Document Reports
 
