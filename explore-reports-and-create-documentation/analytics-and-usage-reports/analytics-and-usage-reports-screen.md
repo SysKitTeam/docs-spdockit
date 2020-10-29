@@ -69,7 +69,15 @@ The **Lists and Libraries** and **Files** report will be visible in the navigati
 
 ## Workflow Reports
 
-**Workflows on Farm** – Lists all workflows in your farm, and give additional information for each workflow, such as the number of associations and active instance counts, and the last activity date. **Workflow Templates** - Shows all workflow templates grouped by site, their type, number of associations, and instance counts. **Workflow Associations** - Shows all workflow associations grouped by template name, target SharePoint objects, and defined History and Task lists.
+Workflow reports enable you to:
+  * **detect all workflows and workflow templates in your SharePoint farm**, be it SharePoint 2010, 2013, 2013 Project Server workflows, or third party vendor workflows, such as Nintex workflows,
+  * **view the count of associations and active instances**, and other information related to workflows,
+  * **discover when a workflow was last active**.
+
+Three reports are available:
+* **Workflows on Farm** – Lists all workflows in your farm and gives additional information for each workflow, such as the number of associations and active instance counts and the last activity date. 
+* **Workflow Templates** - Shows all workflow templates grouped by site, their type, number of associations, and instance counts. 
+* **Workflow Associations** - Shows all workflow associations grouped by template name, target SharePoint objects, and defined History and Task lists.
 
 ## Document Reports
 
