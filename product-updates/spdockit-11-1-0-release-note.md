@@ -4,9 +4,9 @@ description: >-
   SPDocKit version 11.1.0.
 ---
 
-# SPDocKit 11
+# SPDocKit 11.1.0
 
-**SPDocKit 11** is a major release that comes with new reports, a useful wizard, and many improvements. Scroll down to see what's new!
+**SPDocKit 11.1.0.** is a minor release that contains important improvements and bugfixes listed below.
 
 **Product version:** 11.1.0  
 **Build number:** 11964 
