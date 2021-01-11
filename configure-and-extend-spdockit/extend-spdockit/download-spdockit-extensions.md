@@ -13,6 +13,7 @@ After installation, you can find two new reports under the **Analytics & Usage R
 
 | SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
+| 11.1.0.11964 | 11.0.0.11885 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.storagereports/11.0.0.11885) |
 | 11.0.0.11792 | 11.0.0.11759 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.storagereports/11.0.0.11759) |
 {% endtab %}
 
@@ -22,6 +23,7 @@ After installation, you can find two new reports under the **Analytics & Usage R
 
 | SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
+| 11.1.0.11964 | 11.0.0.11885 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.documentusage/11.0.0.11885) |
 | 11.0.0.11792 | 11.0.0.11759 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.documentusage/11.0.0.11759) |
 | 10.0.0.11391 | 10.0.0.11391 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.documentusage/10.0.0.11391) |
 | 9.1.0.11029 | 9.1.0.11029 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.documentusage/9.1.0.11029) |
@@ -36,6 +38,7 @@ For more information on how to activate the SPCAF extension, please [follow this
 
 | SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
+| 11.1.0.11964 | 11.0.0.11885 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.spcaf/11.0.0.11885) |
 | 11.0.0.11792 | 11.0.0.11759 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.spcaf/11.0.0.11759) |
 | 10.0.0.11391 | 10.0.0.11391 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.spcaf/10.0.0.11391) |
 | 9.1.0.11029 | 9.1.0.11029 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.spcaf/9.1.0.11029) |
