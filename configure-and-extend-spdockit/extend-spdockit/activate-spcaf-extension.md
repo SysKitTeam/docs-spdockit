@@ -41,7 +41,7 @@ Please note that, by default, the folders Extensions and SPCAF do not exist and 
 
 After that, go to the SPCAF Reports in the Content & Usage Reports section of SPDocKit. Select any report, and you will notice the following message:
 
-![](../../.gitbook/assets/spcaf-trial-1.png)
+![](../../.gitbook/assets/spcaf-trial.png)
 
 Click the **Activate your license** button.
 
@@ -49,7 +49,7 @@ Click the **Activate your license** button.
 
 You will notice a **challenge code** \(in the previous picture\). Visit the webpage [activation.spcaf.com](https://activation.rencore.com/) and enter the code, as well as your e-mail address and the license key. The license key is the same one from the second step of this wizard. You need to open it with any text editor and copy/paste it. Click **Submit**. You will receive further instructions in your e-mail shortly, but here is what you need to do:
 
-![](../../.gitbook/assets/spcaf-activation.png)
+![](../../.gitbook/assets/spcaf-activation%20%281%29.png)
 
 Open the email and take the attached file \(**activations.caf**\). Place it in the following folder: **“%USERPROFILE%\AppData\Local\SPCAF”**
 
