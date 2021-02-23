@@ -1,8 +1,5 @@
 ---
-title: Load crashes with NullReference exception
 description: The farm snapshot process crashes with a NullReference exception.
-author: Iva Novoselic
-date: 25/5/2017
 ---
 
 # Load crashes with NullReference exception

@@ -1,11 +1,5 @@
 ---
-title: Document Extensions Reports
-description: >-
-  This article explains how to use SPDocKit Document Extensions Overview report
-  and Document Extension Details report to track the largest documents on a
-  farm.
-author: Mia Tomaić
-date: 02/10/2018
+description: This article explains how to use SPDocKit Document Extensions Overview report and Document Extension Details report to track the largest documents on a farm.
 ---
 
 # Document Extensions Reports

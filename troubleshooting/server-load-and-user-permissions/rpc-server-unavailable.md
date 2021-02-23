@@ -1,8 +1,5 @@
 ---
-title: RPC Server is Unavailable
 description: This article describes how to troubleshoot the RPC related issues.
-author: Dejan Stefulj
-date: 28/6/2017
 ---
 
 # RPC Server is Unavailable

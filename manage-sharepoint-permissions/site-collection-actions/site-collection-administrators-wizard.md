@@ -1,11 +1,5 @@
 ---
-title: Site Collection Administrators Wizard
-description: >-
-  This article describes how to use Site Collection Administrators wizard to
-  manage site collection admins on multiple sites within a single web
-  application.
-author: Mia Tomaić
-date: 25/5/2017
+description: This article describes how to use Site Collection Administrators wizard to manage site collection admins on multiple sites within a single web application.
 ---
 
 # Site Collection Administrators Wizard

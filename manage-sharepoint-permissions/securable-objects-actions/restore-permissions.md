@@ -1,10 +1,5 @@
 ---
-title: Restore Permissions Wizard
-description: >-
-  This article explains how to use SPDocKit's Restore Permissions Wizard to 
-  restore permissions on a securable object to an earlier state.
-author: Marko Gudan
-date: 26/5/2017
+description: This article explains how to use SPDocKit's Restore Permissions Wizard to restore permissions on a securable object to an earlier state.
 ---
 
 # Restore Permissions

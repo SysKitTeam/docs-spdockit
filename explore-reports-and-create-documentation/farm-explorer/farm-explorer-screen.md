@@ -1,8 +1,5 @@
 ---
-title: Farm Explorer Screen
 description: This article explains available Farm Explorer options.
-author: Tomislav Sirovec
-date: 24/5/2017
 ---
 
 # Farm Explorer Screen

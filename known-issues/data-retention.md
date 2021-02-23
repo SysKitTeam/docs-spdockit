@@ -1,8 +1,5 @@
 ---
-title: Data retention not working properly
 description: Data retention is not working properly.
-author: Iva Novoselic
-date: 25/5/2017
 ---
 
 # Data retention not working properly

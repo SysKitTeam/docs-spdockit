@@ -1,10 +1,5 @@
 ---
-title: Error occurred while loading ‘Application Name’ Web Application
-description: >-
-  This article explains how to handle issue when Web Application load is not
-  working properly.
-author: Mia Tomaić
-date: 18/5/2017
+description: This article explains how to handle issue when Web Application load is not working properly.
 ---
 
 # Error occurred while loading Web Application

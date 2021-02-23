@@ -1,10 +1,5 @@
 ---
-title: Role Based Security
-description: >-
-  This article describes how to use Role Based Security feature in SPDocKit to
-  grant different permission levels to SPDocKit end users.
-author: Tomislav Kunaj
-date: 25/5/2017
+description: This article describes how to use Role Based Security feature in SPDocKit to grant different permission levels to SPDocKit end users.
 ---
 
 # Role Based Security

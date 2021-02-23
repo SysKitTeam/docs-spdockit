@@ -1,8 +1,5 @@
 ---
-title: Analytics Dashboard
 description: This article describes Analytics Dashboard and its features.
-author: Janko Ban
-date: 22/1/2019
 ---
 
 # Analytics Dashboard

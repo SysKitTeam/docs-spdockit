@@ -1,7 +1,4 @@
 ---
-title: Upgrade to the Latest Version
-author: Tomislav Sirovec
-date: 17/5/2017
 description: This article explains how to upgrade SPDocKit to the latest version.
 ---
 

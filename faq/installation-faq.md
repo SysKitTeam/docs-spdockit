@@ -1,8 +1,5 @@
 ---
-title: Installation FAQ
 description: This article lists frequently asked questions about SPDocKit installation.
-author: Iva Novoselic
-date: 22/5/2017
 ---
 
 # Installation

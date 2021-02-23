@@ -1,8 +1,5 @@
 ---
-title: License Management
 description: This article describes how to use SPDocKit License Management wizard.
-author: Tomislav Kunaj
-date: 25/5/2017
 ---
 
 # License Management

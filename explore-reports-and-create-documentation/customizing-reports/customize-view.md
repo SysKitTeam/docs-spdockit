@@ -1,10 +1,5 @@
 ---
-title: Customize View
-description: >-
-  This section describes how SharePoint administrators can customize View for
-  SharePoint Farm Reports.
-author: Martin Pisacic
-date: 18/5/2017
+description: This section describes how SharePoint administrators can customize View for SharePoint Farm Reports.
 ---
 
 # Customize View

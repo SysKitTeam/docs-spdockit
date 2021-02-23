@@ -1,11 +1,5 @@
 ---
-title: Queries and Rules Screen
-description: >-
-  This article describes how to use Queries and Rules section to enforce
-  SharePoint governance policies or create custom reports for SharePoint
-  securable objects.
-author: Iva Novoselic
-date: 24/5/2017
+description: This article describes how to use Queries and Rules section to enforce SharePoint governance policies or create custom reports for SharePoint securable objects.
 ---
 
 # Queries and Rules Screen

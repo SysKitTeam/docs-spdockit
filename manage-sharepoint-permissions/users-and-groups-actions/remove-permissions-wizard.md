@@ -1,10 +1,5 @@
 ---
-title: Move Permissions Wizard
-description: >-
-  This article describes how to use SPDocKit to remove permissions for one  or
-  multiple users from a Site Collection or your entire SharePoint environment.
-author: Igor Mesarić
-date: 02/10/2020
+description: This article describes how to use SPDocKit to remove permissions for one  or multiple users from a Site Collection or your entire SharePoint environment.
 ---
 
 # Remove Permissions Wizard

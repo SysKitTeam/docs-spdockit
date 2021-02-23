@@ -1,10 +1,5 @@
 ---
-title: Options Wizard
-description: >-
-  This article explains how to use the Options wizard to adjust and change your
-  SPDocKit settings.
-author: Tomislav Kunaj
-date: 25/5/2017
+description: This article explains how to use the Options wizard to adjust and change your SPDocKit settings.
 ---
 
 # Options Wizard

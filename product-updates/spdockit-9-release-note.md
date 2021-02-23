@@ -1,10 +1,5 @@
 ---
-title: SPDocKit 9 — Release Note
-description: >-
-  This article describes the new features, improvements, and bug fixes that are
-  delivered in SPDocKit 9.
-author: Igor Mesarić
-date: 05/02/2019
+description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit 9.
 ---
 
 # SPDocKit 9

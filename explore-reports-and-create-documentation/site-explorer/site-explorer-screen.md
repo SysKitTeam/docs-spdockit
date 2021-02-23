@@ -1,8 +1,5 @@
 ---
-title: Site Explorer Screen
 description: This article describes available Site Explorer reports and options.
-author: Iva Novoselic
-date: 24/5/2017
 ---
 
 # Site Explorer Screen

@@ -1,10 +1,5 @@
 ---
-title: Error adding service account to "spdockit_service_role" database role.
-description: >-
-  This article explains how to manually add the "spdockit_service_role" database
-  role to the SPDocKit service account.
-author: Vinko Bedek
-date: 12/10/2017
+description: This article explains how to manually add the "spdockit_service_role" database role to the SPDocKit service account.
 ---
 
 # Error adding service account to "spdockit\_service\_role" database role

@@ -1,10 +1,5 @@
 ---
-title: Configure the SQL server to listen on a specific port?
-description: >-
-  This article explains how to configure SQL server to listen on a non-standard
-  port number.
-author: Mia Tomaić
-date: 19/5/2017
+description: This article explains how to configure SQL server to listen on a non-standard port number.
 ---
 
 # Configure SQL server to listen on a specific port

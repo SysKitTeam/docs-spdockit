@@ -1,8 +1,5 @@
 ---
-title: Activate SPCAF Extensions
 description: This article explains how to activate SPCAF Extension.
-author: Martin Pisacic
-date: 18/5/2017
 ---
 
 # Activate SPCAF Extension

@@ -1,7 +1,4 @@
 ---
-title: Installation Guide
-author: Tomislav Sirovec
-date: 17/5/2017
 description: This article explains how to install SPDocKit.
 ---
 

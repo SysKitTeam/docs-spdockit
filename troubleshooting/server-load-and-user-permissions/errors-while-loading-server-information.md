@@ -1,8 +1,5 @@
 ---
-title: Error while loading server Information
 description: This article explains how to handle the issues with server load.
-author: Igor Mesarić
-date: 29/11/2018
 ---
 
 # Errors while loading server information

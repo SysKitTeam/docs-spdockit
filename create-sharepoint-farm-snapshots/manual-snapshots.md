@@ -1,7 +1,4 @@
 ---
-title: Take Manual Snapshots
-author: Tomislav Sirovec
-date: 23/5/2017
 description: This article explains how to perform a manual snapshot in SPDocKit.
 ---
 

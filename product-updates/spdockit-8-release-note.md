@@ -1,10 +1,5 @@
 ---
-title: SPDocKit 8 — Release Note
-description: >-
-  This article describes the new features, improvements, and bug fixes that are
-  delivered in SPDocKit 8.
-author: Igor Mesarić
-date: 10/05/2018
+description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit 8.
 ---
 
 # SPDocKit 8

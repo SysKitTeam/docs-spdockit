@@ -1,11 +1,5 @@
 ---
-title: Compare Wizard
-description: >-
-  This article describes SPDocKit Compare Wizard and available comparison types.
-  Compare SharePoint farms, server, web application, site collection,
-  permissions or web.config files.
-author: Tomislav Kunaj
-date: 25/5/2017
+description: This article describes SPDocKit Compare Wizard and available comparison types. Compare SharePoint farms, server, web application, site collection, permissions or web.config files.
 ---
 
 # Compare Wizard

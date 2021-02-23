@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article gives answers to frequently asked questions regarding SPDocKit 
-  license configuration.
+description: This article gives answers to frequently asked questions regarding SPDocKit license configuration.
 ---
 
 # Activation

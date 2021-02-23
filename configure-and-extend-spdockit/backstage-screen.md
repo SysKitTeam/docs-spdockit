@@ -1,10 +1,5 @@
 ---
-title: Backstage Screen
-description: >-
-  This article describes the available SPDocKit Backstage actions and when to
-  use them.
-author: Tomislav Kunaj
-date: 25/5/2017
+description: This article describes the available SPDocKit Backstage actions and when to use them.
 ---
 
 # Backstage Screen

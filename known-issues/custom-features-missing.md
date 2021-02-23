@@ -1,8 +1,5 @@
 ---
-title: Custom features missing in reports
 description: Custom features deployed on your farm are missing in SPDocKit feature reports.
-author: Iva Novoselic
-date: 25/5/2017
 ---
 
 # Custom features missing in reports

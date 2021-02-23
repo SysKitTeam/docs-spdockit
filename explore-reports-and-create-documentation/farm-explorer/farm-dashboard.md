@@ -1,8 +1,5 @@
 ---
-title: Farm Dashboard
 description: This article describes Farm Dashboard and its features.
-Author: Janko Ban
-date: 14/12/2018.
 ---
 
 # Farm Dashboard

@@ -1,10 +1,5 @@
 ---
-title: Why is my permissions loading status being reported as ”Failed”?
-description: >-
-  This article describes the issue of SPDocKit not being able to load SharePoint
-  farm permissions.
-author: Mia Tomaić
-date: 18/5/2017
+description: This article describes the issue of SPDocKit not being able to load SharePoint farm permissions.
 ---
 
 # My permissions loading status is reported as ”Failed”

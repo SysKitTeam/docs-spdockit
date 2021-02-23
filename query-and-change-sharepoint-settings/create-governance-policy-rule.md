@@ -1,10 +1,5 @@
 ---
-title: Create SharePoint Governance Policy Rule
-description: >-
-  This section describes how to use the SPDocKit wizard to create a rule to help
-  you enforce your governance policies.
-author: Iva Novoselic
-date: 25/5/2017
+description: This section describes how to use the SPDocKit wizard to create a rule to help you enforce your governance policies.
 ---
 
 # Create SharePoint Governance Policy Rule

@@ -1,10 +1,5 @@
 ---
-title: Manage Permissions Ribbon Actions
-description: >-
-  This article explains how to use Manage Permissions ribbon to easily manage
-  SharePoint permissions on the selected object.
-author: Iva Novoselic
-date: 24/5/2017
+description: This article explains how to use Manage Permissions ribbon to easily manage SharePoint permissions on the selected object.
 ---
 
 # Manage Permissions Ribbon Actions

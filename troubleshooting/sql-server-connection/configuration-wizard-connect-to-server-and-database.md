@@ -1,10 +1,5 @@
 ---
-title: Configuration Wizard won’t connect to a provided server and database.
-description: >-
-  This article explains how to handle issue when Configuration Wizard is not
-  able to connect to a provided server and database.
-author: Mia Tomaić
-date: 19/5/2017
+description: This article explains how to handle issue when Configuration Wizard is not able to connect to a provided server and database.
 ---
 
 # SPDocKit won’t connect to a provided server and database

@@ -1,10 +1,5 @@
 ---
-title: Permissions Wizard issue
-description: >-
-  SPDocKit Workstation's people picker cannot find some users when using the
-  permission wizards.
-author: Iva Novoselic
-date: 25/5/2017
+description: SPDocKit Workstation's people picker cannot find some users when using the permission wizards.
 ---
 
 # Permissions Wizard issue

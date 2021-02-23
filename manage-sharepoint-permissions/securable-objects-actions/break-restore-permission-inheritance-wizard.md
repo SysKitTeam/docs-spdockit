@@ -1,8 +1,5 @@
 ---
-title: Break or Restore Permissions Inheritance Wizard
 description: This article explains how to break and restore permission inheritance.
-author: Mia Tomaić
-date: 24/5/2017
 ---
 
 # Break/Restore Permission Inheritance Wizard

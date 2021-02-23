@@ -1,10 +1,5 @@
 ---
-title: Permissions Explorer Screen
-description: >-
-  This article describes how to use SPDocKit Permissions Explorer to explore
-  SharePoint permissions.
-author: Iva Novoselic
-date: 24/5/2017
+description: This article describes how to use SPDocKit Permissions Explorer to explore SharePoint permissions.
 ---
 
 # Permissions Explorer Screen

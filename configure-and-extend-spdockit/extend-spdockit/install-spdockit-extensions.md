@@ -1,8 +1,5 @@
 ---
-title: Install SPDocKit Extensions
 description: This article explains how to set up the SPDocKit extensions.
-author: Martin Pisacic
-date: 18/5/2017
 ---
 
 # Install SPDocKit Extensions

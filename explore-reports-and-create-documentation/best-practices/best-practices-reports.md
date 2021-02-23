@@ -1,10 +1,5 @@
 ---
-title: Available Best Practices Reports
-description: >-
-  This article describes which best practices reports are available in SPDocKit
-  and can help you keep your SharePoint farm healthy.
-author: Iva Novoselic
-date: 25/5/2017
+description: This article describes which best practices reports are available in SPDocKit and can help you keep your SharePoint farm healthy.
 ---
 
 # Best Practices Reports

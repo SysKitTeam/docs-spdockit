@@ -1,10 +1,5 @@
 ---
-title: Subscriptions and Alerts
-description: >-
-  This article explains how to use Subscriptions and Alerts to schedule sending
-  SPDocKit reports.
-author: Tomislav Kunaj
-date: 25/5/2017
+description: This article explains how to use Subscriptions and Alerts to schedule sending SPDocKit reports.
 ---
 
 # Subscriptions and Alerts

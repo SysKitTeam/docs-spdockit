@@ -1,11 +1,5 @@
 ---
-title: Move Permissions Wizard
-description: >-
-  This article describes how to use SPDocKit to move all directly assigned
-  SharePoint permissions and group memberships of one principal (SharePoint user
-  or Active Directory group) to another.
-author: Mia Tomaić
-date: 25/5/2017
+description: This article describes how to use SPDocKit to move all directly assigned SharePoint permissions and group memberships of one principal (SharePoint user or Active Directory group) to another.
 ---
 
 # Move Permissions Wizard

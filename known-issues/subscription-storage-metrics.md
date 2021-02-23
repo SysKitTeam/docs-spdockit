@@ -1,8 +1,5 @@
 ---
-title: Storage Metrics report subscription
 description: The Storage Metrics report is unavailable for subscriptions.
-author: Iva Novoselic
-date: 25/5/2017
 ---
 
 # Storage Metrics report subscription

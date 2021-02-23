@@ -1,8 +1,5 @@
 ---
-title: Change SPDocKit Query Results Limit
 description: This article describes how to change the limit on query results in SPDocKit.
-author: Iva Novoselic
-date: 25/5/2017
 ---
 
 # Change SPDocKit Query Results Limit

@@ -1,8 +1,5 @@
 ---
-title: Site Collection Analytics Report
 description: This article explains how you can use the Site Collection Analytics report.
-author: Tomislav Sirovec
-date: 28/9/2018
 ---
 
 # Site Collection Analytics

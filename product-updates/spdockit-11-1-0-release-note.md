@@ -1,7 +1,5 @@
 ---
-description: >-
-  This article describes improvements and bug fixes delivered in SPDocKit
-  version 11.1.0.
+description: This article describes improvements and bug fixes delivered in SPDocKit version 11.1.0.
 ---
 
 # SPDocKit 11.1.0

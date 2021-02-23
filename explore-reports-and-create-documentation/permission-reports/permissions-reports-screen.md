@@ -1,11 +1,5 @@
 ---
-title: Permissions Reports Screen
-description: >-
-  This article describes how SPDocKit permissions reports can help
-  administrators track permissions for different users and groups across a
-  SharePoint farm and easily manage the SharePoint environment.
-author: Iva Novoselic
-date: 24/5/2017
+description: This article describes how SPDocKit permissions reports can help administrators track permissions for different users and groups across a SharePoint farm and easily manage the SharePoint environment.
 ---
 
 # Permissions Reports screen

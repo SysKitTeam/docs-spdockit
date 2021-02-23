@@ -1,8 +1,5 @@
 ---
-title: Unaccounted differences in the UPA settings
 description: User Profile Service Application data is incorrect.
-author: Tomislav Kunaj
-date: 5/6/2017
 ---
 
 # Unaccounted differences in the UPA settings

@@ -1,10 +1,5 @@
 ---
-title: Snapshots Screen
-description: >-
-  This article states how to use Snapshots Screen an track changes made to your
-  SharePoint farm during its lifetime.
-author: Iva Novoselic
-date: 23/5/2017
+description: This article states how to use Snapshots Screen an track changes made to your SharePoint farm during its lifetime.
 ---
 
 # Snapshots Screen

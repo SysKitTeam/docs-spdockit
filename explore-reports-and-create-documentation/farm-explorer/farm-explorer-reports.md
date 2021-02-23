@@ -1,8 +1,5 @@
 ---
-title: Farm Explorer Reports
 description: This article explains Farm Explorer reports.
-author: Iva Novoselic
-date: 24/5/2017
 ---
 
 # Farm Explorer Reports

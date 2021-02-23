@@ -1,10 +1,5 @@
 ---
-title: Take Automatic Snapshots
-author: Tomislav Sirovec
-date: 23/5/2017
-description: >-
-  This article explains how to perform an automatic snapshot (using a service 
-  account) in SPDocKit.
+description: This article explains how to perform an automatic snapshot (using a service account) in SPDocKit.
 ---
 
 # Automatic Snapshots

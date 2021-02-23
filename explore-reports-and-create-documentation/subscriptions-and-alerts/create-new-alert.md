@@ -1,11 +1,5 @@
 ---
-title: Create New Alert
-description: >-
-  This section describes how to create scheduled Alerts for SPDocKit reports.
-  Alerts are sent after each automatic snapshot, that is snapshot created by the
-  SPDocKit Service.
-author: Iva Novoselic
-date: 17/5/2017
+description: This section describes how to create scheduled Alerts for SPDocKit reports. Alerts are sent after each automatic snapshot, that is snapshot created by the SPDocKit Service.
 ---
 
 # Create New Alert

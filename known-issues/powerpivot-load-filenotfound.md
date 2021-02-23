@@ -1,10 +1,5 @@
 ---
-title: PowerPivot FileNotFoundException issue
-description: >-
-  A FileNotFoundException error message keeps appearing during SPDocKit's
-  snapshot process.
-author: Iva Novoselic
-date: 25/5/2017
+description: A FileNotFoundException error message keeps appearing during SPDocKit's snapshot process.
 ---
 
 # PowerPivot FileNotFoundException issue

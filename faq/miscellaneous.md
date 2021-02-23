@@ -1,8 +1,5 @@
 ---
-title: Troubleshooting
 description: This article gives answers to various troubleshooting questions.
-author: Mia Tomaić
-date: 22/5/2017
 ---
 
 # Miscellaneous

@@ -1,10 +1,5 @@
 ---
-title: Error while loading IIS Settings Information
-description: >-
-  This article explains how to handle the issue with IIS Settings load on
-  SharePoint 2019.
-author: Igor Mesarić
-date: 07/11/2018
+description: This article explains how to handle the issue with IIS Settings load on SharePoint 2019.
 ---
 
 # Error while loading IIS Settings Information

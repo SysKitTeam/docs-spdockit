@@ -1,10 +1,5 @@
 ---
-title: Distributed Cache loading issue
-description: >-
-  Distributed Cache settings cannot be loaded because the server is not part of
-  the Distributed Cache Cluster.
-author: Iva Novoselic
-date: 25/5/2017
+description: Distributed Cache settings cannot be loaded because the server is not part of the Distributed Cache Cluster.
 ---
 
 # Distributed Cache loading issue

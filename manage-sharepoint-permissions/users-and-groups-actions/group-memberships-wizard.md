@@ -1,8 +1,5 @@
 ---
-title: Group Membership Wizard
 description: This article explains how to manage SharePoint group memberships.
-author: Mia Tomaić
-date: 25/5/2017
 ---
 
 # Group Memberships Wizard

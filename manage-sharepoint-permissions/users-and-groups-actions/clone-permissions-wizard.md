@@ -1,10 +1,5 @@
 ---
-title: Copy Permissions Wizard
-description: >-
-  This article explains how to use SPDocKit to copy SharePoint permissions from
-  a specific user and assign these permissions to other users.
-author: Mia Tomaić
-date: 25/5/2017
+description: This article explains how to use SPDocKit to copy SharePoint permissions from a specific user and assign these permissions to other users.
 ---
 
 # Copy Permissions Wizard

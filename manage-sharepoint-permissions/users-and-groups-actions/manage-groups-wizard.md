@@ -1,10 +1,5 @@
 ---
-title: Manage Groups Wizard
-description: >-
-  This article describes how to use SPDocKit Manage Groups Wizard to manage
-  SharePoint Groups on multiple sites within a single web application.
-author: Mia Tomaić
-date: 25/5/2017
+description: This article describes how to use SPDocKit Manage Groups Wizard to manage SharePoint Groups on multiple sites within a single web application.
 ---
 
 # Manage Groups Wizard

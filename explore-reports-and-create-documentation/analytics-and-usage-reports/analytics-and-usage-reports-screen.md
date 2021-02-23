@@ -1,11 +1,5 @@
 ---
-title: Analytics and Usage Reports Screen
-description: >-
-  This article describes how to use SPDocKit analytics and usage section to
-  quickly get an overview of your farm storage and content usage, features usage
-  and activations, and SharePoint structure.
-author: Iva Novoselic
-date: 24/5/2017
+description: This article describes how to use SPDocKit analytics and usage section to quickly get an overview of your farm storage and content usage, features usage and activations, and SharePoint structure.
 ---
 
 # Analytics and Usage Reports Screen

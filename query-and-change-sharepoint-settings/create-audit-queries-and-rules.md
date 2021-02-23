@@ -1,10 +1,5 @@
 ---
-title: Create Audit Queries and Rules
-description: >-
-  This article describes how to create audit settings queries and rules in 
-  SPDocKit.
-author: Igor Mesarić
-date: 02/02/2017
+description: This article describes how to create audit settings queries and rules in SPDocKit.
 ---
 
 # Create Audit Queries and Rules

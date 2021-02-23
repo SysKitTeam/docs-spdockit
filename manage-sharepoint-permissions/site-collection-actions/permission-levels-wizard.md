@@ -1,10 +1,5 @@
 ---
-title: Permissions Levels Wizard
-description: >-
-  This article explains how to use SPDocKit Permission Levels Wizard to create,
-  delete, or edit permission levels on your SharePoint Farm.
-author: Mia Tomaić
-date: 25/5/2017
+description: This article explains how to use SPDocKit Permission Levels Wizard to create, delete, or edit permission levels on your SharePoint Farm.
 ---
 
 # Permission Levels Wizard
