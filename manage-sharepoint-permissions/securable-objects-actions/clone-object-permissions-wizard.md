@@ -45,5 +45,3 @@ The **Preview** step shows the changes that will occur in the final step.
 In the **Apply Changes** step, all changes are displayed as they are applied. It is possible to save the log for later reference by clicking the **Save Log** button. The changes are also saved in the [SPDocPerm event log](../spdockit-permission-management-event-log.md).
 {% endhint %}
 
-\*\*\*\*
-

@@ -39,7 +39,7 @@ You can use the filters on the right-hand side to customize the report.
 
 {% hint style="warning" %}
 **Please note!**  
-**\*\*When selecting two or more audit settings in the** Audit Settings **filter, the** AND operator is used **between them, as demonstrated in the following** example\*\*:
+**When selecting two or more audit settings in the** Audit Settings **filter, the** AND operator is used **between them, as demonstrated in the following example**:
 
 Editing Users and Permissions setting - Off checkbox is selected.  
 Searching Site Content setting - On checkbox is selected.
