@@ -29,6 +29,6 @@ CREATE USER [__SPDocKitServiceAccount__] FOR LOGIN [__SPDocKitServiceAccount__] 
 
 DECLARE @username nvarchar(max)  
 SELECT @username = principal.name FROM sys.database_principals AS principal WHERE sid=SUSER_SID('__SPDocKitServiceAccount__')  
- EXEC sp_addrolemember @rolename = spdockit\_service\_role, @membername = @username
+ EXEC sp_addrolemember @rolename = spdockit_service_role, @membername = @username
 ```
 
