@@ -26,3 +26,4 @@ description: This article describes new features, improvements, and bug fixes de
 
 * **Added improvements and support for analytics reports on various other local settings (e.g., French, Italian, etc.).**
 * **Key reports optimized!** This should allow you to generate reports faster, especially when using the [Role-Based Security](../configure-and-extend-spdockit/role-based-security.md) feature.
+* **Various minor improvements and bug fixes.**
