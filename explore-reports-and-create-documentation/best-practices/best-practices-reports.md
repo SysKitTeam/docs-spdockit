@@ -6,7 +6,7 @@ description: This article describes which best practices reports are available i
 
 ## Available Reports
 
-We have prepared a detailed overview of all available reports in SPDocKit with descriptions and instructions in our [Best Practices Library](https://docs.syskit.com/bp/).
+We have prepared a detailed overview of all available reports in SPDocKit with descriptions and instructions in our [Best Practices Library](https://www.syskit.com/resources/best-practices/sharepoint/?doc_page=README.md).
 
 ### Visit our best practices library
 
