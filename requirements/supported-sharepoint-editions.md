@@ -6,6 +6,7 @@ description: This article lists all SharePoint editions that are supported by SP
 
 The following SharePoint editions and additional products are supported by SPDocKit:
 
+* SharePoint Server Subscription Edition
 * SharePoint Server 2019
 * SharePoint Server 2016
 * SharePoint 2013
