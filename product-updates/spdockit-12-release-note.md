@@ -7,7 +7,7 @@ description: This article describes new features, improvements, and bug fixes de
 **SPDocKit 12** is a major release that comes with SharePoint Server Subscription Edition support!
 
 **Product version:** 12.0.0  
-**Build number:** 12344
+**Build number:** 12562
 **Release date:** Nov 11, 2021
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
