@@ -61,7 +61,7 @@ The user account that you use to log on to the web server is not a member of eit
 1. The Security Administrator role on the SQL server 
 2. The Database Creator role on the SQL server.
 
-For more information please see [this article](https://support.microsoft.com/en-us/help/896148/you-receive-error-messages-when-you-try-to-use-the-stsadm-exe-command-line-tool-to-perform-certain-administrative-operations-in-windows-sharepoint-services).
+For more information please see [this thread](https://social.technet.microsoft.com/Forums/lync/en-US/e95beb47-c8f5-4741-9968-74f4f063709f/stsadmexe-generating-cannot-complete-this-action-error?forum=sharepointadminlegacy).
 
 ## Should this program only be opened on the server console or is it okay to open it via Remote Desktop?
 
