@@ -32,5 +32,5 @@ To generate an AutoSPInstaller XML configuration file, follow these instructions
 10. In the last two steps, define the mappings for host names and databases. Click **Next** to generate your configuration file.
 11. Review your results on the last tab and click **Finish** to close the AutoSPInstaller wizard.
 
-After SPDocKit generates the XML file, visit [AutoSPInstaller Online](https://autospinstaller.com/) to validate the settings. Use the XML file as the input to another SharePoint server to create a farm that matches your settings. Find out more about generating an XML configuration file in SPDocKit in our [SPDocKit and AutoSPInstaller webinar](http://www.spdockit.com/blog/video-create-a-copy-of-your-sharepoint-farm-with-spdockit-and-autospinstaller/).
+After SPDocKit generates the XML file, visit [AutoSPInstaller Online](https://autospinstaller.com/) to validate the settings. Use the XML file as the input to another SharePoint server to create a farm that matches your settings. Find out more about generating an XML configuration file in SPDocKit in our [SPDocKit and AutoSPInstaller webinar](https://www.youtube.com/watch?v=48AUYvivZVQ).
 
