@@ -24,7 +24,7 @@ We use APIs, not HTTPS, to retrieve information. The product can only run on a S
 
 ## Owing to security restrictions, clients aren't able to grant access to SharePoint production farms — is there a workaround?
 
-SysKit has helped some of the largest organizations worldwide to work around this issue by installing SPDocKit on a testing or non-production server. This is the best solution if you are unable to access the SP production server/farm.
+Syskit has helped some of the largest organizations worldwide to work around this issue by installing SPDocKit on a testing or non-production server. This is the best solution if you are unable to access the SP production server/farm.
 
 ## How does SPDocKit store passwords? Is storing passwords optional or mandatory?
 
