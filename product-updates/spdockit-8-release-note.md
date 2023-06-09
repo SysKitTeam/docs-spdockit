@@ -77,7 +77,7 @@ Give it a try and let us know what you think!
 ## Discontinued Features
 
 * **SPDocKit Insights is no longer a part of SPDocKit**. However, a new and improved option is available: [**Syskit Insights**](https://www.syskit.com/products/insights/) — a standalone monitoring solution for your SharePoint farm. Existing customers eligible for upgrade will find their new product keys on our [customers portal](https://my.syskit.com). For more information on how to **migrate from SPDocKit Insights to Syskit Insights**, visit the following [link](https://docs.syskit.com/spdockit/faq/spdockit-insights-migration/).
-* **SharePoint Online** connections are no longer supported in SPDocKit. Consequently, the Externally Shared report category in Permissions Reports is also not available. To manage SharePoint Online permissions and view reports, consider using [**Syskit Security Manager**](https://www.syskit.com/products/security-manager/).
+* **SharePoint Online** connections are no longer supported in SPDocKit. Consequently, the Externally Shared report category in Permissions Reports is also not available. To manage SharePoint Online permissions and view reports, consider using [**Syskit Point**](https://www.syskit.com/products/point/).
 * **LocalDB is no longer supported** when SPDocKit is installed on a workstation. Only SPDocKit's installed on SharePoint servers can create databases. Workstations cannot create their own database; they must connect to already existing databases.
 * **SPDocKit run mode** has been replaced with new apps used with SPDocKit Consultant. For more information, visit the [following link](https://docs.syskit.com/spconsultant/).
 * The **XML File** option for saving snapshots has been removed.
