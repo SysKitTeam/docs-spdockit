@@ -1,6 +1,6 @@
 # Table of contents
 
-* [SPDocKit by SysKit](README.md)
+* [SPDocKit by Syskit](README.md)
 * [Release Notes](product-updates/README.md)
   * [SPDocKit 12](product-updates/spdockit-12-release-note.md)
   * [SPDocKit 11.1.0](product-updates/spdockit-11-1-0-release-note.md)
