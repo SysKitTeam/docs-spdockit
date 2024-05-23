@@ -20,7 +20,7 @@ Give it a try and let us know what you think!
 
 * **SPDocKit Consultant** is now a standalone installation designed with the intent to simplify and better focus the usage of SPDocKit on your client's farm, as opposed to the old interface, which was better suited for internal usage. In response to your requests, we removed the need to install any software on your client's farm servers. To create snapshots, use the zero footprint executable **SPDocKit Snapshot Wizard - Consultant**, or, if you prefer to use PowerShell, the new [**SPDocKit Powershell module**](https://www.powershellgallery.com/packages/SysKit.SPDocKit.PS). For more information about SPDocKit Consultant, please visit the following [link](https://docs.syskit.com/spconsultant/product-updates/spconsultant-release-note-8/).
 * For Farm users, the **use of a dedicated SPDocKit database is now required**. 
-* SPDocKit 8 is bringing some **changes in licensing** - we are transitioning from perpetual licensing to a subscription model. Read more about these changes [here](https://www.syskit.com/blog/spdockit-v8-licensing-changes/).
+* SPDocKit 8 is bringing some **changes in licensing** - we are transitioning from perpetual licensing to a subscription model.
 
 ## Features
 

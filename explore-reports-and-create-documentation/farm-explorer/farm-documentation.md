@@ -28,9 +28,9 @@ This section describes how you can generate SharePoint farm documentation using 
 
 To prepare a template for your documentation, you need to prepare a Word document template and customize Word styles. SPDocKit uses Word styles to generate customized output to match your corporate branding.
 
-1. Create a custom Word document template \(.dotx\). Use your existing template or download our [sample documentation template.](https://www.syskit.com/wp-content/uploads/2018/09/spdockit-template-doc.dotx)
+1. Create a custom Word document template \(.dotx\). You can also use an existing template instead of starting from scratch.
 
-   We recommend you use the **Medium Shading 1 – Accent 1** table style with this template. Customize the following styles to match your corporate branding: Heading1, Heading2, Heading3, Heading4, Normal and Hyperlink \(you can make any changes required as long as these changes are performed over the style itself\).
+   We recommend you use the **Medium Shading 1 – Accent 1** table style with this template. Customize the following styles to match your corporate branding: Heading1, Heading2, Heading3, Heading4, Normal, and Hyperlink \(you can make any changes required as long as these changes are performed over the style itself\).
 
 2. Customize the table styles to match your branding.
 3. Customize headers and footers to add your company name, page numbers, etc.
