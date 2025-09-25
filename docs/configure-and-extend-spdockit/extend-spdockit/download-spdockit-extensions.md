@@ -2,6 +2,10 @@
 description: This article enables you to download SPDocKit extension packages.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Download SPDocKit Extensions
 
 Find your extensions for the appropriate SPDocKit version and the download links in the table below.

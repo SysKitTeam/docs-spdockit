@@ -2,6 +2,10 @@
 description: This article describes how to produce SharePoint farm documentation using SPDocKit.
 ---
 
+---
+sidebar_position: 4
+---
+
 # Farm Documentation
 
 ## Generate Documentation

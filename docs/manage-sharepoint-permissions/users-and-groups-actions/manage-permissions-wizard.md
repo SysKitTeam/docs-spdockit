@@ -2,6 +2,10 @@
 description: This article describes how to grant permissions to the desired principal on a specific SharePoint object. It also has the ability to remove permissions from the desired principals across the selected.
 ---
 
+---
+sidebar_position: 5
+---
+
 # Manage Permissions Wizard
 
 **Wizard Scope**: farm, web application, site collection\(s\), subsite\(s\)  

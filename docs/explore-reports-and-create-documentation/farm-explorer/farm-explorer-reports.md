@@ -2,6 +2,10 @@
 description: This article explains Farm Explorer reports.
 ---
 
+---
+sidebar_position: 3
+---
+
 # Farm Explorer Reports
 
 ## Farm

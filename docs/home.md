@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+slug: /
+hide_table_of_contents: true
+---
+
 # SPDocKit by Syskit
 
 **SPDocKit** by [**Syskit**](https://www.syskit.com/) is **the ultimate SharePoint management and administration tool**. It was developed for administrators and consultants to save time and automate their administration tasks.

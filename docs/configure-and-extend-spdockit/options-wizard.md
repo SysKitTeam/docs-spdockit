@@ -2,6 +2,10 @@
 description: This article explains how to use the Options wizard to adjust and change your SPDocKit settings.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Options Wizard
 
 ## General

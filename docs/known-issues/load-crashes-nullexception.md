@@ -2,6 +2,10 @@
 description: The farm snapshot process crashes with a NullReference exception.
 ---
 
+---
+sidebar_position: 5
+---
+
 # Load crashes with NullReference exception
 
 ## **Summary**

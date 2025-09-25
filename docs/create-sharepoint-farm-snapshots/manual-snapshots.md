@@ -2,6 +2,10 @@
 description: This article explains how to perform a manual snapshot in SPDocKit.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Manual Snapshots
 
 This section describes how you can use the SPDocKit Snapshot wizard to collect SharePoint farm settings and permissions.

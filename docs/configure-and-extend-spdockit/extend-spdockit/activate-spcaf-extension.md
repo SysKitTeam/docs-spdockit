@@ -2,6 +2,10 @@
 description: This article explains how to activate SPCAF Extension.
 ---
 
+---
+sidebar_position: 3
+---
+
 # Activate SPCAF Extension
 
 SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It provides detailed information about SharePoint customization’s \(WSPs or Add-ins\) code quality, dependencies, complexity and more.
@@ -38,15 +42,15 @@ Please note that, by default, the folders Extensions and SPCAF do not exist and 
 
 After that, go to the SPCAF Reports in the Content & Usage Reports section of SPDocKit. Select any report, and you will notice the following message:
 
-![](../../.gitbook/assets/spcaf-trial.png)
+![](../../../static/img/spcaf-trial.png)
 
 Click the **Activate your license** button.
 
-![](../../.gitbook/assets/spcaf-activation-code.png)
+![](../../../static/img/spcaf-activation-code.png)
 
 You will notice a **challenge code** \(in the previous picture\). Visit the webpage [activation.spcaf.com](https://activation.rencore.com/) and enter the code, as well as your e-mail address and the license key. The license key is the same one from the second step of this wizard. You need to open it with any text editor and copy/paste it. Click **Submit**. You will receive further instructions in your e-mail shortly, but here is what you need to do:
 
-![](../../.gitbook/assets/spcaf-activation%20%281%29.png)
+![](../../../static/img/spcaf-activation.png)
 
 Open the email and take the attached file \(**activations.caf**\). Place it in the following folder: **“%USERPROFILE%\AppData\Local\SPCAF”**
 

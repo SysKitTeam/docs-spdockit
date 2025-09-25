@@ -2,6 +2,10 @@
 description: This article gives answers to frequently asked questions about SPDocKit usage.
 ---
 
+---
+sidebar_position: 5
+---
+
 # Features
 
 ## How can I measure the size of the SPDocKit database?

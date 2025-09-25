@@ -2,6 +2,10 @@
 description: This article describes Farm Dashboard and its features.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Farm Dashboard
 
 **The Farm Dashboard** gives you an overview of the farm configuration, drillable to specific detailed reports.

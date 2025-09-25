@@ -2,6 +2,10 @@
 description: This article gives answers to frequently asked questions about SPDocKit requirements.
 ---
 
+---
+sidebar_position: 1
+---
+
 # Requirements
 
 ## Why do I have to install this product on the SharePoint server?

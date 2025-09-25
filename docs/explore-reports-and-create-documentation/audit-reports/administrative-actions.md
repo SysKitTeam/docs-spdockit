@@ -2,6 +2,10 @@
 description: This article explains how you can use the Administrative Actions report to get a centralized overview of all administrative actions made on your SharePoint farm.
 ---
 
+---
+sidebar_position: 4
+---
+
 # Administrative Actions
 
 It enables you too see a list of actions an Administrator, with some additional data about the specific action.

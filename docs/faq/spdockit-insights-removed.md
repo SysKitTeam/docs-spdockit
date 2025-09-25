@@ -2,6 +2,10 @@
 description: This article explains why SPDocKit Insights was removed and shows how to migrate your data to Syskit Insights.
 ---
 
+---
+sidebar_position: 8
+---
+
 # SPDocKit Insights Removed
 
 This article explains: why SPDocKit Insights is no longer a part of SPDocKit; where to find new licenses for the new Syskit Insights; and which existing data can be reused in the new application.

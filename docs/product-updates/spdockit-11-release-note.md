@@ -2,6 +2,10 @@
 description: This article describes new features, improvements and bug fixes delivered in SPDocKit 11.
 ---
 
+---
+sidebar_position: 3
+---
+
 # SPDocKit 11
 
 **SPDocKit 11** is a major release that comes with new reports, a useful wizard, and many improvements. Scroll down to see what's new!

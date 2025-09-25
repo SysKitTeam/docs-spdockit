@@ -2,6 +2,10 @@
 description: This article describes how to use SPDocKit to remove permissions for one  or multiple users from a Site Collection or your entire SharePoint environment.
 ---
 
+---
+sidebar_position: 6
+---
+
 # Remove Permissions Wizard
 
 This article explains how to use SPDocKit Remove Permissions Wizard to remove all assigned SharePoint permissions for one or multiple users.

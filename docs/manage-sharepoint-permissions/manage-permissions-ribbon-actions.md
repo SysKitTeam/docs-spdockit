@@ -2,6 +2,10 @@
 description: This article explains how to use Manage Permissions ribbon to easily manage SharePoint permissions on the selected object.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Manage Permissions Ribbon Actions
 
 Permission management buttons are enabled only in **live mode** of Permissions Explorer.

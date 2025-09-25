@@ -2,6 +2,10 @@
 description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit 9.
 ---
 
+---
+sidebar_position: 6
+---
+
 # SPDocKit 9
 
 **SPDocKit 9** is a major release that comes with a bunch of new reports, dashboards, and a lot of improvements. The list is long, so, let's get to it!
@@ -23,11 +27,11 @@ description: This article describes the new features, improvements, and bug fixe
 
   The new [**Farm Analytics**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#analytics) report gives you a high-level view of visitor hits aggregated from all site collections in your farm, as well as weekly trends. From here, drill down to the Site Collection analytics, and further still to the new [**Subsite Analytics**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#analytics) report to see the number of hits and visitors on a subsite level. Finally, explore the new [**Document Analytics**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#analytics) report to see the number of views and edits for every single document in your site collection.
 
-* **New** [**Farm Growth**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#storage-metrics-and-growth) **report available!**
+* **New** [**Farm Growth**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#storage-metrics--growth) **report available!**
 
-  You can explore how much space is used by your content and service databases on a farm, and make plans based on predictions shown in the forecast. From here, go down to the [**Database Growth**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#storage-metrics-and-growth) report to view information about each database in your farm. With the new report comes a **new system job** – **Database Analytics** – that collects necessary data outside of working hours.
+  You can explore how much space is used by your content and service databases on a farm, and make plans based on predictions shown in the forecast. From here, go down to the [**Database Growth**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#storage-metrics--growth) report to view information about each database in your farm. With the new report comes a **new system job** – **Database Analytics** – that collects necessary data outside of working hours.
 
-* **New** [**Large Documents**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#storage-metrics-and-growth) **report available!**
+* **New** [**Large Documents**](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-and-usage-reports-screen.md#storage-metrics--growth) **report available!**
 
   See which documents occupy most of your precious storage space or have a suspiciously large number of versions.
 

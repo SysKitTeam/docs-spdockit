@@ -2,6 +2,10 @@
 description: This article describes which best practices reports are available in SPDocKit and can help you keep your SharePoint farm healthy.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Best Practices Reports
 
 ## Available Reports
@@ -47,7 +51,7 @@ This section describes how SharePoint administrators can use SPDocKit to create 
 
 Download this report:
 
-{% file src="../../.gitbook/assets/number-of-content-databases-per-web-application.zip" %}
+[Download Number-of-content-databases-per-Web-Application.zip](../../../static/download/number-of-content-databases-per-web-application.zip)
 
 ## Personalize Reports
 

@@ -2,6 +2,10 @@
 description: This article describes Analytics Dashboard and its features.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Analytics Dashboard
 
 **The Analytics Dashboard** gives you the overall analytics of the farm, drillable to specific reports. Data is shown for the previous seven days.

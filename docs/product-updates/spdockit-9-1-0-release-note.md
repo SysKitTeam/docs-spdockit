@@ -2,6 +2,10 @@
 description: This article describes improvements and bug fixes delivered in SPDocKit 9.1.0.
 ---
 
+---
+sidebar_position: 5
+---
+
 # SPDocKit 9.1.0
 
 **SPDocKit 9.1.0** is a minor release containing a couple of features, improvements and bug fixes.

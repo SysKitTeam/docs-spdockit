@@ -2,6 +2,10 @@
 description: This article describes the available SPDocKit Backstage actions and when to use them.
 ---
 
+---
+sidebar_position: 1
+---
+
 # Backstage Screen
 
 The Backstage Actions view is a set of commands that can be used to quickly approach major SPDocKit options.

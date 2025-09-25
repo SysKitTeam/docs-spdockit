@@ -2,6 +2,10 @@
 description: This article explains how to upgrade SPDocKit to the latest version.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Upgrade to the Latest Version
 
 ## Preparation

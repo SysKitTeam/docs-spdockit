@@ -2,6 +2,10 @@
 description: This article lists all user privileges needed to retrieve SharePoint farm settings with SPDocKit.
 ---
 
+---
+sidebar_position: 1
+---
+
 # SharePoint On-Premises User Permissions Requirements
 
 ## Required Permissions
@@ -47,7 +51,7 @@ Repeat the same steps for **WSS\_ADMIN\_WPG** group.
 * If you want to grant PowerShell shell access to a single database [check this article](http://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
 * If you want to grant PowerShell shell access to all content databases, download and run the following script:
 
-{% file src="../.gitbook/assets/configure-spshelladmin.zip" %}
+[Download Configure-SPShellAdmin.zip](../../static/download/configure-spshelladmin.zip)
 
 ```bash
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null) 

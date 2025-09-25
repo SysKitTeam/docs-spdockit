@@ -2,6 +2,10 @@
 description: This article describes how to use SPDocKit Audit Reports section to easily search through the SharePoint audit logs.
 ---
 
+---
+sidebar_position: 1
+---
+
 # Audit Reports Screen
 
 This article describes how to use SPDocKit Audit Reports section to easily search through the SharePoint audit logs.

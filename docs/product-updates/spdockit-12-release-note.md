@@ -2,6 +2,10 @@
 description: This article describes new features, improvements, and bug fixes delivered in SPDocKit 12.
 ---
 
+---
+sidebar_position: 1
+---
+
 # SPDocKit 12
 
 **SPDocKit 12** is a major release that comes with SharePoint Server Subscription Edition support!

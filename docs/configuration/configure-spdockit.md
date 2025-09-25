@@ -2,6 +2,10 @@
 description: This article explains how to configure SPDocKit before the first usage.
 ---
 
+---
+sidebar_position: 1
+---
+
 # Configure SPDocKit
 
 ## SharePoint Server

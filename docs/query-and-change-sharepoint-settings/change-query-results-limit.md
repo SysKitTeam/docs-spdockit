@@ -2,6 +2,10 @@
 description: This article describes how to change the limit on query results in SPDocKit.
 ---
 
+---
+sidebar_position: 4
+---
+
 # Change SPDocKit Query Results Limit
 
 By default, query results are limited to 1,000 query results per site collection. However, if your query produces more than 1,000 results and you wish to see all of them, you can change this limit in the SPDocKit Options.

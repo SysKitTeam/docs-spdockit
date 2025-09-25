@@ -2,6 +2,10 @@
 description: This article explains how you can use the Compare Wizard to compare different farms or snapshots of an existing farm.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Compare SharePoint Farms
 
 This section explains how you can use the Compare Wizard to compare different farms or snapshots of an existing farm. Navigate to the Backstage Actions Screen and click the **Compare Wizard** button.

@@ -2,6 +2,10 @@
 description: This article describes how to use Queries and Rules section to enforce SharePoint governance policies or create custom reports for SharePoint securable objects.
 ---
 
+---
+sidebar_position: 1
+---
+
 # Queries and Rules Screen
 
 The Queries and Rules section allows you to create automatic or manual actions to manage the content settings or create custom reports on SharePoint objects. Crawl your SharePoint farm settings and enforce SharePoint governance policies wherever you need them, in just a couple of steps.

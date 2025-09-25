@@ -2,6 +2,10 @@
 description: This article lists SPDocKit security related questions.
 ---
 
+---
+sidebar_position: 6
+---
+
 # Security
 
 ## Does SPDocKit make changes to the farm?

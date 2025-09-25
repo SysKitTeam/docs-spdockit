@@ -2,6 +2,10 @@
 description: A FileNotFoundException error message keeps appearing during SPDocKit's snapshot process.
 ---
 
+---
+sidebar_position: 8
+---
+
 # PowerPivot FileNotFoundException issue
 
 ## **Summary**

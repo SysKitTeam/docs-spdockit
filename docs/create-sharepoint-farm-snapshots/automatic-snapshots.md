@@ -2,6 +2,10 @@
 description: This article explains how to perform an automatic snapshot (using a service account) in SPDocKit.
 ---
 
+---
+sidebar_position: 3
+---
+
 # Automatic Snapshots
 
 SPDocKit allows administrators to configure a schedule to create automatic SharePoint farm snapshots. Once configured, the SPDocKit Service can save your farm settings and send report subscriptions and alerts to selected users, document libraries, or network locations. Click [here](../explore-reports-and-create-documentation/subscriptions-and-alerts/create-new-subscription.md) for more information on how to do this.

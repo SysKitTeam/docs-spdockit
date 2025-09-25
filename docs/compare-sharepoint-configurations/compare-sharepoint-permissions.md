@@ -2,6 +2,10 @@
 description: This article describes how to use SPDocKit to compare SharePoint permissions between any two selected SharePoint objects.
 ---
 
+---
+sidebar_position: 6
+---
+
 # Compare SharePoint Permissions
 
 Follow these steps:

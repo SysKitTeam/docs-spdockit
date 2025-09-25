@@ -2,6 +2,10 @@
 description: This article describes how to use the Audit Settings report.
 ---
 
+---
+sidebar_position: 5
+---
+
 # Audit Settings
 
 The report shows the state of specific audit settings on the selected site collections.

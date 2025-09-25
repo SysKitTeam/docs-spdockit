@@ -2,6 +2,10 @@
 description: This article explains how to perform a migration from SPDocKit Insights to Syskit Insights.
 ---
 
+---
+sidebar_position: 9
+---
+
 # SPDocKit Insights Migration
 
 **Syskit Insights** is an upgraded version of SPDocKit Insights and comes with a **range of improvements and new features.** The customers using SPDocKit Insights can migrate some of the data to Syskit Insights.

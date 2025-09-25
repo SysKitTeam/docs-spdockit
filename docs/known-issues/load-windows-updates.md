@@ -2,6 +2,10 @@
 description: SPDocKit is unable to read the list of available Windows updates from your servers.
 ---
 
+---
+sidebar_position: 6
+---
+
 # Available Windows updates
 
 ## **Summary**

@@ -2,6 +2,10 @@
 description: This article lists frequently asked questions about SPDocKit installation.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Installation
 
 ## Is the installation file the same for different SharePoint versions?

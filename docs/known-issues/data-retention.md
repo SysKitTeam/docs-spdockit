@@ -2,6 +2,10 @@
 description: Data retention is not working properly.
 ---
 
+---
+sidebar_position: 3
+---
+
 # Data retention not working properly
 
 ## **Summary**

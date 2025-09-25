@@ -2,6 +2,10 @@
 description: This article explains available Farm Explorer options.
 ---
 
+---
+sidebar_position: 1
+---
+
 # Farm Explorer Screen
 
 Farm Explorer allows system administrators to explore SharePoint configuration settings that SPDocKit has loaded. Use the explorer on the left to browse and select specific reports.

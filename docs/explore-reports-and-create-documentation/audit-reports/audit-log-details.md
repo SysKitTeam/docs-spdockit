@@ -2,6 +2,10 @@
 description: This article explains how to use SPDocKit Permissions Audit Log Details report to track who made certain permissions changes, when and on which securable object that specific action has been performed.
 ---
 
+---
+sidebar_position: 3
+---
+
 # Audit Log Details
 
 This article explains how you can use the **Audit Log Details report** to inspect permission changes on site collections. The Audit Log Details report enables you to see **the complete history of permission changes on site collections**.

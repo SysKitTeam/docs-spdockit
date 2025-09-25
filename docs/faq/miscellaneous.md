@@ -2,6 +2,10 @@
 description: This article gives answers to various troubleshooting questions.
 ---
 
+---
+sidebar_position: 7
+---
+
 # Miscellaneous
 
 ## How can I update the product versions offline?

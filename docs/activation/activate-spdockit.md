@@ -2,6 +2,10 @@
 description: This article explains how to activate SPDocKit farm and workstation license.
 ---
 
+---
+sidebar_position: 1
+---
+
 # Activate SPDocKit
 
 ## Online Activation

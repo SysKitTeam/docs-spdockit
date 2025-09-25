@@ -2,6 +2,10 @@
 description: This article describes how to use the SPDocKit Query wizard to create a query report.
 ---
 
+---
+sidebar_position: 3
+---
+
 # Create SPDocKit Query
 
 This section describes how to use the SPDocKit Query wizard to create a query report. We will now create a query that will provide you with a list of all checked-out documents on a selected scope.

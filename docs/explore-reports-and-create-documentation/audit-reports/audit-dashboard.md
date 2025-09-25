@@ -2,6 +2,10 @@
 description: This article describes Audit Dashboard and its features.
 ---
 
+---
+sidebar_position: 2
+---
+
 # Audit Dashboard
 
 **The Audit Dashboard** gives you an overview of the audit actions in the farm for the previous seven days, drillable to specific detailed reports.

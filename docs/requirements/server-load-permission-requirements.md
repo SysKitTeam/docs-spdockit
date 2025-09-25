@@ -2,6 +2,10 @@
 description: This article lists all permissions necessary for SPDocKit to gather information about SharePoint farm servers.
 ---
 
+---
+sidebar_position: 4
+---
+
 # Server Load Permission Requirements
 
 ## SharePoint Server Information
