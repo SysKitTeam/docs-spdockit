@@ -1,8 +1,5 @@
 ---
 description: This article explains how to activate SPDocKit farm and workstation license.
----
-
----
 sidebar_position: 1
 ---
 
@@ -44,14 +41,14 @@ The Farm license is tied to a **farm ID** and can be activated only on servers w
 
 1. From the left navigation bar on the **Backstage Screen** select **Help** and click on the **License Details** section to begin the activation process.
 2. Click on the **Offline Activation** link and a new activation dialog will appear. Follow these steps:
-   * Click on the **Generate** button to generate a **License Details \(.dlic\) file**.
+   * Click on the **Generate** button to generate a **License Details (.dlic) file**.
    * Navigate to the [Activation Page](https://my.syskit.com/activation/?P=SPDocKit) and select **Farm** activation option.
    * Select the **Version** of SPDocKit you are creating a license for.
    * On the Activation Page paste the **Product key**, which you can find in our [customers portal](https://my.syskit.com).
    * Fill in the **Company** field.
-   * Upload the **License Details \(.dlic\) file** 
+   * Upload the **License Details (.dlic) file** 
    * Click on the **Generate license file!**
-   * Download the **license file \(.lic\)**.
+   * Download the **license file (.lic)**.
 3. Click on the **Browse** button, locate your license file and upload it.
 4. Click the **Activate** button. Activation takes a couple of seconds and is a one time process. You can activate a single Farm license on all servers in your SharePoint farm.
 
@@ -61,14 +58,14 @@ The Workstation license is tied to the **workstation ID** and cannot be used on 
 
 1. From the left navigation bar on the **Backstage Screen** select **Help** and click on the **License Details** section to begin the activation process.
 2. Click on the **Offline Activation** link and a new activation dialog will appear. Follow these steps:
-   * Click on the **Generate** button to generate a **License Details \(.dlic\) file**.
+   * Click on the **Generate** button to generate a **License Details (.dlic) file**.
    * Navigate to the [Activation Page](https://my.syskit.com/activation/?P=SPDocKit) and select **Workstation License** activation option.
    * Select the **Version** of SPDocKit you are creating a license for.
    * On the Activation Page paste the **Product key** that you can find in our [customers portal](https://my.syskit.com).
    * Fill in the **Company** field.
-   * Upload the **License Details \(.dlic\) file** 
+   * Upload the **License Details (.dlic) file** 
    * Click on the **Generate license file!**
-   * Download the **license file \(.lic\)**.
+   * Download the **license file (.lic)**.
 3. Click on the **Browse** button, locate your license file and upload it.
 4. Click the **Activate** button. Activation takes a couple of seconds and is a one time process.
 

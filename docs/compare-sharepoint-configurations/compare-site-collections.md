@@ -1,8 +1,5 @@
 ---
 description: This article describes how to use SPDocKit to compare SharePoint farm site collection configurations.
----
-
----
 sidebar_position: 5
 ---
 

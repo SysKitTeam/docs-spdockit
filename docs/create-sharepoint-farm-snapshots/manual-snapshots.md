@@ -1,8 +1,5 @@
 ---
 description: This article explains how to perform a manual snapshot in SPDocKit.
----
-
----
 sidebar_position: 2
 ---
 
@@ -10,10 +7,10 @@ sidebar_position: 2
 
 This section describes how you can use the SPDocKit Snapshot wizard to collect SharePoint farm settings and permissions.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Adjustments and settings you make using this wizard apply to the current snapshot-taking process only. If you wish to configure a default snapshot-taking setting, use the [Options wizard](../configure-and-extend-spdockit/options-wizard.md). The selection you make there will be used as a default load template.
-{% endhint %}
+:::
 
 1. Navigate to the Backstage Actions Screen and click the Take Snapshot button.
 2. Select the snapshot mode you wish the application to execute. There are three choices:
@@ -22,14 +19,14 @@ Adjustments and settings you make using this wizard apply to the current snapsho
 
    It can be the fastest load option if the user wishes to have access only to specific data, and is aware what data he is interested in. This mode is recommended for more advanced users who are looking to generate specific reports.
 
-5. **Full** – Performs a load that collects all available information where possible \(some data will still not be collected if a database is not used with SPDocKit\).
+5. **Full** – Performs a load that collects all available information where possible (some data will still not be collected if a database is not used with SPDocKit).
 
    This is the recommended load mode if you don’t mind waiting and want to be sure you have all the data once the load finishes.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 What you choose to take a snapshot of, within the Custom mode, applies only to the current load and does not affect loading executed by the SPDocKit service.
-{% endhint %}
+:::
 
 1. Choose what you would like to load. This page is only available if you have chosen the Custom mode; otherwise it will be skipped together with the Target page. With the Load Depth option you can specify the depth to which you want to crawl your farm. The options are grouped into 4 categories:
 2. **SharePoint**

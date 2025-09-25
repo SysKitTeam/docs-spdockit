@@ -10,7 +10,7 @@ This article explains how to use Clean Site Collection Wizard to keep your Share
 
 ## Delete Orphaned Users
 
-Orphaned users are defined as users \(users or AD groups\) that are disabled or deleted from AD but had access to SharePoint farm and therefore can still be found on site collection.
+Orphaned users are defined as users (users or AD groups) that are disabled or deleted from AD but had access to SharePoint farm and therefore can still be found on site collection.
 
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 2. Select **Delete Orphaned Users** option from the Operation drop down menu.
@@ -19,7 +19,7 @@ Orphaned users are defined as users \(users or AD groups\) that are disabled or 
 
 ## Delete Users Without Permissions
 
-Users \(users or AD groups\) without permissions are the ones that have no directly assigned permissions nor they have been granted any rights through some SharePoint group. This will also include users with „Limited access“ that remains after the user no longer has permissions for any specific item in the selected site collection.
+Users (users or AD groups) without permissions are the ones that have no directly assigned permissions nor they have been granted any rights through some SharePoint group. This will also include users with „Limited access“ that remains after the user no longer has permissions for any specific item in the selected site collection.
 
 1. Navigate to Permissions Explorer and click on the **Clean Site Collection Wizard** in the Wizards ribbon.
 2. Select **Delete Users Without Permissions** option from the Operation drop down menu.

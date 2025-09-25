@@ -1,8 +1,5 @@
 ---
 description: A FileNotFoundException error message keeps appearing during SPDocKit's snapshot process.
----
-
----
 sidebar_position: 8
 ---
 
@@ -12,7 +9,7 @@ sidebar_position: 8
 
 During the snapshot process, the following error can be observed either in the Snapshot Wizard or the event log:
 
-> System.IO.FileLoadException: Could not load file or assembly ‘Microsoft.AnalysisServices.SPAddin, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91’ or one of its dependencies. The located assembly’s manifest definition does not match the assembly reference. \(Exception from HRESULT: 0x80131040\)…\`
+> System.IO.FileLoadException: Could not load file or assembly ‘Microsoft.AnalysisServices.SPAddin, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91’ or one of its dependencies. The located assembly’s manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)…\`
 
 **Application version:** All versions
 

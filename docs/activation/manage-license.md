@@ -1,8 +1,5 @@
 ---
 description: This article describes how to manage your existing SPDocKit license.
----
-
----
 sidebar_position: 2
 ---
 

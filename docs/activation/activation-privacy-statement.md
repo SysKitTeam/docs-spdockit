@@ -1,8 +1,5 @@
 ---
 description: This article shows Syskit's Activation Privacy Statement.
----
-
----
 sidebar_position: 3
 ---
 

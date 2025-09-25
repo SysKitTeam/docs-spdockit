@@ -15,7 +15,7 @@ Features:
 * Automatically generate SharePoint farm documentation with a few clicks
 * Explore and manage SharePoint permissions
 * Audit and validate farm configuration according to the latest best practices
-* Compare farms \(e.g. Production, QA, DEV\) and track changes
+* Compare farms (e.g. Production, QA, DEV) and track changes
 * Compare Web Applications, Site Collections, Permissions, Servers and Web.config Files
 * Create reports on farm storage, structure, features and content usage
 * Enforce governance policies with queries and rules

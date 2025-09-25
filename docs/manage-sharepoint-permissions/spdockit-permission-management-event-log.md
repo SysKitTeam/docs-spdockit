@@ -1,8 +1,5 @@
 ---
 description: This article explains where SPDocKit saves all the details regarding performed permission changes on your SharePoint farm.
----
-
----
 sidebar_position: 7
 ---
 

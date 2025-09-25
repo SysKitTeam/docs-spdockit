@@ -14,16 +14,16 @@ The following error message is stored in the event log:
 
 > Error while loading SP2019-SRV
 >
-> Acceleratio.SPCommon.SharePointCrawler.IISCompatibilityMissingException: IIS 6 Management Metabase Compatibility required. at Acceleratio.SPDocKit.Administration.IISSettingsLoader.IISMetabaseReader.GetAppPools\(String serverAddress, ConfigReader configReader\) at Acceleratio.SPDocKit.Administration.IISSettingsLoader.IISLoaders.IIS7Loader.Load\(\) at Acceleratio.SPDocKit.Administration.ServerDetailsLoader.\#ca3.\#uZgb\(\) at Acceleratio.SPCommon.TimeoutableAction.\#392.\#5Ygb\(\)
+> Acceleratio.SPCommon.SharePointCrawler.IISCompatibilityMissingException: IIS 6 Management Metabase Compatibility required. at Acceleratio.SPDocKit.Administration.IISSettingsLoader.IISMetabaseReader.GetAppPools(String serverAddress, ConfigReader configReader) at Acceleratio.SPDocKit.Administration.IISSettingsLoader.IISLoaders.IIS7Loader.Load() at Acceleratio.SPDocKit.Administration.ServerDetailsLoader.\#ca3.\#uZgb() at Acceleratio.SPCommon.TimeoutableAction.\#392.\#5Ygb()
 
 ## Solution
 
 To successfully load IIS Settings, the IIS 6 Metabase Compatibility role has to be enabled.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 A server restart could be required for the changes to take effect.
-{% endhint %}
+:::
 
 To enable the role, follow these steps:
 
@@ -33,7 +33,7 @@ To enable the role, follow these steps:
 3. **Before You Begin** step - continue to the next step by clicking Next.  
 4. **Installation Type** step - make sure the **Role-base or feature-based installation** option is selected.  
 5. **Server Selection** step - make sure the IIS server is selected.  
-6. **Server Roles** step - make sure the **IIS 6 Metabase Compatibility** option is checked. You can find it under Web Server \(IIS\) &gt; Management Tools &gt; IIS 6 Management Compatibility &gt; IIS 6 Metabase Compatibility.
+6. **Server Roles** step - make sure the **IIS 6 Metabase Compatibility** option is checked. You can find it under Web Server (IIS) &gt; Management Tools &gt; IIS 6 Management Compatibility &gt; IIS 6 Metabase Compatibility.
 
 ![Add Roles and Features Wizard](../../../static/img/add-roles-and-features-wizard.png)
 
@@ -41,10 +41,10 @@ To enable the role, follow these steps:
 2. **Confirmation** step - check the **Restart the destination server automatically if required** option and click **Install**.    
 3. **Results** step - displays the installation progress. Once the installation is finished, the **Installation succeeded** message is displayed. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Make sure to install the role on all Web Front End servers in a Farm in order to collect the IIS Settings Information.
-{% endhint %}
+:::
 
 SPDocKit will now be able to collect the server's IIS Settings Information.
 

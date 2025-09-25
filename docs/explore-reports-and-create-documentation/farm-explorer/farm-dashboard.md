@@ -1,8 +1,5 @@
 ---
 description: This article describes Farm Dashboard and its features.
----
-
----
 sidebar_position: 2
 ---
 
@@ -41,7 +38,7 @@ A donut chart shows the number and status of **Service Applications**, **Health 
 
 The tile for **Compliant Best Practices** and **Failing Best Practices** shows you the number of Compliant and Failing Best Practices. Clicking on the tile redirects you to the **Best Practices Dashboard**, from which you can perform a drill to the specific detailed report.
 
-{% hint style="info" %}
+:::info
 To learn more about Best Practices, click [here](../best-practices/best-practices-reports.md).
-{% endhint %}
+:::
 

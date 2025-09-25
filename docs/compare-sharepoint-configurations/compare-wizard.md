@@ -1,8 +1,5 @@
 ---
 description: This article describes SPDocKit Compare Wizard and available comparison types. Compare SharePoint farms, server, web application, site collection, permissions or web.config files.
----
-
----
 sidebar_position: 1
 ---
 
@@ -17,7 +14,7 @@ Compare Wizard provides the possibility to track farm configuration changes and 
 * [Compare SharePoint Permissions](compare-sharepoint-permissions.md) – compare SharePoint permissions on a different subsites, lists, and list items or track changes made to their permissions through a selected time period.
 * [Compare Web.config files](compare-web-config-files.md) – verify that web.config files on all of your web front end servers are identical for the same Web application. You can also check what the differences are between web.config files on various Web applications.
 
-{% hint style="info" %}
+:::info
 Learn more about comparing SharePoint objects by clicking on the feature you're interested in.
-{% endhint %}
+:::
 

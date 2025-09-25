@@ -1,8 +1,5 @@
 ---
 description: This article explains how to perform an automatic snapshot (using a service account) in SPDocKit.
----
-
----
 sidebar_position: 3
 ---
 
@@ -13,9 +10,9 @@ SPDocKit allows administrators to configure a schedule to create automatic Share
 1. Navigate to the Backstage Configuration Screen and click Configure.  
 2. Skip to the Service Settings option, select the Enable Service check box and type in the service account details. Click Validate Account and then Next to continue. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!** Check the [permission requirements](../requirements/user-permissions-requirements.md) for the service account.
-{% endhint %}
+:::
 
 1. **\*\*Once the Configuration wizard is finished, navigate to the** Backstage Configuration Screen &gt; Options &gt; Service Settings\*\*. You can change the snapshots folder location or choose to save them to the database. [Define the period](../configure-and-extend-spdockit/options-wizard.md) for creating snapshots with the Data Collection Interval.
 

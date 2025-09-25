@@ -1,8 +1,5 @@
 ---
 description: This article explains Farm Explorer reports.
----
-
----
 sidebar_position: 3
 ---
 
@@ -49,7 +46,7 @@ Make sure to check in **Project Server** options when taking a snapshot of your 
 
 With the Scheduled Tasks report, SharePoint administrators can more easily visualize important scheduled jobs across the SharePoint farm. This viewer offers the following tasks:
 
-* Crawl schedule overview \(full and incremental crawl schedules\)
+* Crawl schedule overview (full and incremental crawl schedules)
 * User profile synchronization
 * Audiences compilation
 * Content deployment schedules

@@ -1,8 +1,5 @@
 ---
 description: This article gives answers to frequently asked questions about SPDocKit requirements.
----
-
----
 sidebar_position: 1
 ---
 

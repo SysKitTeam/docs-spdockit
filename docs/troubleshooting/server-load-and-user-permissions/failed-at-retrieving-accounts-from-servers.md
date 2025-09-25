@@ -18,7 +18,7 @@ The user running the application and the account under which the SPDocKit Servic
 2. Navigate to **Configuration**, expand Local Users and Groups, then click **Groups**.
 3. Right-click the **Administrators** group, then click **Add to Group**.
 4. In the **Administrators Properties** dialog box, click **Add**.
-5. In the **Select User, Computers, or Groups** dialog box, in the **Enter the object names to select** box, type the account name on which you want your worker process to run \(for example, **Domain**/User\), then click **OK**.
+5. In the **Select User, Computers, or Groups** dialog box, in the **Enter the object names to select** box, type the account name on which you want your worker process to run (for example, **Domain**/User), then click **OK**.
 6. In the Administrators dialog box, click **OK**.
 7. Close the **Server Manager** screen.
 

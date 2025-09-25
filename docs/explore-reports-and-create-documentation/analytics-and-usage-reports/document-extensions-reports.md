@@ -1,8 +1,5 @@
 ---
 description: This article explains how to use SPDocKit Document Extensions Overview report and Document Extension Details report to track the largest documents on a farm.
----
-
----
 sidebar_position: 4
 ---
 
@@ -18,15 +15,15 @@ To view the Document Extensions Overview report and the Document Extension Detai
 
 The Document Extensions **Overview report** contains a chart and grid with the following columns:
 
-* **Document Extension** - File extension type \(e.g., docx, xlsx, pdf, txt, bin, etc.\).
-* **Document Count** - Number of documents by extension \(on a farm\).
+* **Document Extension** - File extension type (e.g., docx, xlsx, pdf, txt, bin, etc.).
+* **Document Count** - Number of documents by extension (on a farm).
 * **Document Size \[MB\]** - Total amount of space used by documents, expressed in megabytes.
 
 The Document Extension **Details report** contains the following columns:
 
 * **Site Collection Url** - Absolute URL of the site collection.
-* **Document Extension** - File extension type \(e.g., docx, xlsx, pdf, txt, bin, etc.\).
-* **Document Count** - Number of documents by extension \(in a site collection\).
+* **Document Extension** - File extension type (e.g., docx, xlsx, pdf, txt, bin, etc.).
+* **Document Count** - Number of documents by extension (in a site collection).
 * **Document Size \[MB\]** - Total amount of space used by documents, expressed in megabytes.
 
 You can customize this grid by adding an optional column:

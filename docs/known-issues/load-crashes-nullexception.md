@@ -1,8 +1,5 @@
 ---
 description: The farm snapshot process crashes with a NullReference exception.
----
-
----
 sidebar_position: 5
 ---
 
@@ -12,7 +9,7 @@ sidebar_position: 5
 
 Upon inspecting the event log after a failed load, the following exception can be found:
 
-> TSystem.NullReferenceException: Object reference not set to an instance of an object. at Acceleratio.SPDocKit.Administration.SharePointCrawler.\#LJ.\#CxF\(\)
+> TSystem.NullReferenceException: Object reference not set to an instance of an object. at Acceleratio.SPDocKit.Administration.SharePointCrawler.\#LJ.\#CxF()
 
 This happens when SPDocKit tries to enumerate site collections in a Web application and, because of possible farm misconfigurations, they are not properly available using the SharePoint API. To confirm that this is the case, check your site collections using Central Administration and also by using Powershell.
 

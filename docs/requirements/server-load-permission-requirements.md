@@ -1,8 +1,5 @@
 ---
 description: This article lists all permissions necessary for SPDocKit to gather information about SharePoint farm servers.
----
-
----
 sidebar_position: 4
 ---
 
@@ -12,10 +9,10 @@ sidebar_position: 4
 
 During the Snapshot creation process, SPDocKit will try to retrieve information about your servers.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The following permissions on your servers are optional, but depending on them some or all information about your server configuration and the corresponding best practices reports will not be available in SPDocKit.
-{% endhint %}
+:::
 
 ### Required permissions
 
@@ -48,10 +45,10 @@ To start the **Windows Update service**, open the Service Microsoft Management C
 
 There are some additional SPDocKit permission requirements necessary to load SQL servers information.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The following permissions on your SQL servers are optional, but depending on them, some or all information about your SQL server configuration and the corresponding Best Practices reports will not be available in SPDocKit.
-{% endhint %}
+:::
 
 ### Required permissions
 
@@ -103,10 +100,10 @@ To grant the **db\_owner** database role to the SPDocKit accounts, follow these 
 
 During the snapshot creation process, SPDocKit will try to retrieve information about your Project server sites.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The following permissions on your Project server sites are optional, but depending on them some or all information about your Project server sites configuration reports will not be available in SPDocKit.
-{% endhint %}
+:::
 
 ### Required Permissions
 
@@ -121,7 +118,7 @@ To add your SPDocKit account to the Administrators group, follow these steps:
 1. In a browser navigate to your Project server site.
 2. Click **Settings** &gt; **PWA Settings** to open up the PWA Settings page.
 3. Under **Security** click **Manage Users**.
-4. Click **New User** and add your **SPDocKit user accounts** \(console account and the service account, if you are using automatic snapshots\).
+4. Click **New User** and add your **SPDocKit user accounts** (console account and the service account, if you are using automatic snapshots).
    * Under **User logon account** specify the **Domain\Username** of the **SPDocKit user account**.
    * Under **Security Groups** make sure that this user is a member of the **Administrators** security group.
 

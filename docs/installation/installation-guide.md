@@ -1,8 +1,5 @@
 ---
 description: This article explains how to install SPDocKit.
----
-
----
 sidebar_position: 1
 ---
 
@@ -16,7 +13,7 @@ The application can be installed on a workstation with a **Windows 7, Windows 8 
 2. Unpack and run **SPDocKitSetup.exe.** The wizard will guide you through the installation steps, click Next &gt; to proceed.
 3. Click I Accept the terms of the license agreement to accept the license and then click Next &gt; to proceed.
 4. Choose the installation folder e.g. **C:\Program Files\SysKit\SPDocKit.** Click **Next** &gt; to proceed.
-5. Select the location where to create application shortcuts and the preferred availability option \(**Anyone** or **Only me**\). Click **Next** &gt; to proceed.
+5. Select the location where to create application shortcuts and the preferred availability option (**Anyone** or **Only me**). Click **Next** &gt; to proceed.
 6. The installation wizard will unpack your files and you will be able to run the application from: **Start** &gt; **All Programs** &gt; **SPDocKit.**
 7. [Configure SPDocKit database and Snapshot Service](../configuration/configure-spdockit.md) settings.
 

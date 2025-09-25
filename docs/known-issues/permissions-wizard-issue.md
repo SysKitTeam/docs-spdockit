@@ -1,8 +1,5 @@
 ---
 description: SPDocKit Workstation's people picker cannot find some users when using the permission wizards.
----
-
----
 sidebar_position: 7
 ---
 

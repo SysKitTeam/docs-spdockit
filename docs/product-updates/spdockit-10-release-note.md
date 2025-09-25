@@ -1,8 +1,5 @@
 ---
 description: This article describes new features, improvements and bug fixes delivered in SPDocKit 10.
----
-
----
 sidebar_position: 4
 ---
 
@@ -29,7 +26,7 @@ sidebar_position: 4
 * **Last Modified By**, **Last Modified By Email**, and **Last Modified By Login** columns have been **added to the Recently Modified Documents report**. 
 * **URL column added to the Subsite Features report**. 
 * Added **Extra spacing after each heading** option available when generating Best Practices documentation. 
-* **Data Retention Policy now applies to the backups of Solution Files** \(.wsp\). As with Snapshots, now, the Solution Backup Files will be deleted if they are older than what is defined in the data retention policy. 
+* **Data Retention Policy now applies to the backups of Solution Files** (.wsp). As with Snapshots, now, the Solution Backup Files will be deleted if they are older than what is defined in the data retention policy. 
 
 ## Bug Fixes
 

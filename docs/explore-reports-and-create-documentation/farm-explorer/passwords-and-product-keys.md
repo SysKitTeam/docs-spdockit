@@ -21,5 +21,5 @@ If you have defined passwords, you can choose to encrypt them. Passwords will be
 * From the **File** menu choose **Save**.
 * Fill in the **Name** field.
 * Check **Include Passwords** and then **Encrypt Passwords**.
-* You will be prompted to enter an encryption **key**. \(The same key will be required to decrypt passwords. If the key is not provided the user will be able to open the farm, but not able to decrypt passwords\)
+* You will be prompted to enter an encryption **key**. (The same key will be required to decrypt passwords. If the key is not provided the user will be able to open the farm, but not able to decrypt passwords)
 

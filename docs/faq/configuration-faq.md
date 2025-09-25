@@ -1,8 +1,5 @@
 ---
 description: This article gives answers to frequently asked questions about SPDocKit configuration.
----
-
----
 sidebar_position: 4
 ---
 

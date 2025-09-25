@@ -1,8 +1,5 @@
 ---
 description: This article describes the available SPDocKit Backstage actions and when to use them.
----
-
----
 sidebar_position: 1
 ---
 

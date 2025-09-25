@@ -1,8 +1,5 @@
 ---
 description: This article gives answers to frequently asked questions regarding SPDocKit license configuration.
----
-
----
 sidebar_position: 3
 ---
 
@@ -50,11 +47,11 @@ You can [activate your product](../activation/activate-spdockit.md) 24 hours a d
 
 ## What does Syskit do with the information sent during the product activation process?
 
-We use the information only to verify that your product is used within the scope allowed by the [Syskit End-User License Agreement \(EULA\)](https://www.syskit.com/eula). The information is stored in a database and used only for product activation data. If you register your product, none of the activation information will ever be linked to your personal customer information.
+We use the information only to verify that your product is used within the scope allowed by the [Syskit End-User License Agreement (EULA)](https://www.syskit.com/eula). The information is stored in a database and used only for product activation data. If you register your product, none of the activation information will ever be linked to your personal customer information.
 
 ## What is product activation?
 
-[Product activation](../activation/activate-spdockit.md) is an anonymous, secure and hassle-free process that authenticates licensed users during the installation process. The process verifies that the product activation code is genuine and has not been activated on more systems than allowed by the [Syskit End-User License Agreement \(EULA\)](https://www.syskit.com/eula).
+[Product activation](../activation/activate-spdockit.md) is an anonymous, secure and hassle-free process that authenticates licensed users during the installation process. The process verifies that the product activation code is genuine and has not been activated on more systems than allowed by the [Syskit End-User License Agreement (EULA)](https://www.syskit.com/eula).
 
 ## Why does Syskit  require their customers to activate the software?
 
@@ -80,7 +77,7 @@ One SPDocKit farm license can be activated on all servers within the same ShareP
 
 Syskit does not charge extra for different SharePoint versions simultaneously running in your environments.
 
-## How much does it cost to license non-production farms? \(Non-production farms include any farm that is not considered production,e.g. DEV, UAC, QA\)
+## How much does it cost to license non-production farms? (Non-production farms include any farm that is not considered production,e.g. DEV, UAC, QA)
 
 SPDocKit Non-Production licenses can only be used on non production environments, such as DEV, UAC or QA. If you have more non production than production farms, then the charge for non-production licenses is significantly cheaper than production licenses. [Contact us](https://www.spdockit.com/support/contact-us/) with the info on how many production vs. non production farms you have, and we will put together a quote that best suits your needs.
 
@@ -96,10 +93,10 @@ To reset your password, please go to the [following link](https://my.syskit.com/
 2. Click on **Reset Password**.   
 3. Instructions on how to reset your password will be emailed to you. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 These notifications can end up in your junk folder, so please check there if you don’t see our email within a few minutes. To avoid these situations, please add our email address to your **Safe Senders List**.
-{% endhint %}
+:::
 
 1. If for some reason you are still unable to retrieve the new password, please [contact us](https://www.spdockit.com/support/contact-us/) for further assistance.
 
@@ -111,7 +108,7 @@ When activating the application an error occurred: “This implementation is not
 **Solution:**
 
 1. Navigate to the SPDocKit installation folder. 
-2. Open each of the configuration files \(name.exe.config\).
+2. Open each of the configuration files (name.exe.config).
 3. Under the `<runtime>` please paste the line `<enforceFIPSPolicy enabled="false">` 
 4. Run activation once again.
 

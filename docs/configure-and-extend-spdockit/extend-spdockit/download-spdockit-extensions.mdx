@@ -1,8 +1,5 @@
 ---
 description: This article enables you to download SPDocKit extension packages.
----
-
----
 sidebar_position: 2
 ---
 
@@ -10,8 +7,12 @@ sidebar_position: 2
 
 Find your extensions for the appropriate SPDocKit version and the download links in the table below.
 
-{% tabs %}
-{% tab title="Storage Reports" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="storage" label="Storage Reports">
+
 Extend SPDocKit with additional reports that help you get a complete overview of all your List, Document Libraries, and Files in your SharePoint farm.  
 After installation, you can find two new reports under the **Analytics & Usage Report** section in the **Storage Metrics & Growth** folder.
 
@@ -19,9 +20,10 @@ After installation, you can find two new reports under the **Analytics & Usage R
 | :--- | :--- | :--- |
 | 11.1.0.11964 | 11.0.0.11885 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.storagereports/11.0.0.11885) |
 | 11.0.0.11792 | 11.0.0.11759 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.storagereports/11.0.0.11759) |
-{% endtab %}
 
-{% tab title="Document Usage" %}
+</TabItem>
+<TabItem value="document" label="Document Usage">
+
 Extend SPDocKit with additional reports that help you detect old documents in your SharePoint farm.  
 After installation, you can find two new reports under the **Analytics & Usage Report** section in the **Document Reports** folder.
 
@@ -32,9 +34,10 @@ After installation, you can find two new reports under the **Analytics & Usage R
 | 10.0.0.11391 | 10.0.0.11391 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.documentusage/10.0.0.11391) |
 | 9.1.0.11029 | 9.1.0.11029 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.documentusage/9.1.0.11029) |
 | 9.0.0.10954 | 9.0.0.10943 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.documentusage/9.0.0.10943) |
-{% endtab %}
 
-{% tab title="SPCAF" %}
+</TabItem>
+<TabItem value="spcaf" label="SPCAF">
+
 Extend SPDocKit with SPCAF code analysis reports.  
 After installation, you can find five new reports under the **Analytics & Usage Report** section in the **SPCAF Reports** folder.
 
@@ -49,16 +52,17 @@ For more information on how to activate the SPCAF extension, please [follow this
 | 9.0.0.10954 | 9.0.0.10846 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.spcaf/9.0.0.10846) |
 | 8.0.3.10628 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.spcaf/1.0.6.10521) |
 | 8.0.2.10521 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.spcaf/1.0.6.10521) |
-{% endtab %}
 
-{% tab title="Workflow Analytics" %}
+</TabItem>
+<TabItem value="workflow" label="Workflow Analytics">
+
 Extend SPDocKit with additional reports that help you analyze workflow usage in your SharePoint farm.  
 After installation, you can find two new reports under the **Analytics & Usage Report** section in the **Workflow Reports** folder.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 From SPDocKit 11, Workflow reports are integrated into the standard report set and no longer require installing an extension.
-{% endhint %}
+:::
 
 | SPDocKit version | Extension version |  |
 | :--- | :--- | :--- |
@@ -67,8 +71,9 @@ From SPDocKit 11, Workflow reports are integrated into the standard report set a
 | 9.0.0.10954 | 9.0.0.10846 | [Download](https://extensions.syskit.com/api/v2/package/syskit.spdockit.plugins.workflowanalytics/9.0.0.10846) |
 | 8.0.3.10628 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.workflowanalytics/1.0.6.10521) |
 | 8.0.2.10521 | 1.0.6.10521 | [Download](https://extensions.syskit.com/api/v2/package/acceleratio.spdockit.plugins.workflowanalytics/1.0.6.10521) |
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 For more information on how to install SPDocKit extensions, read [this article.](install-spdockit-extensions.md)
 

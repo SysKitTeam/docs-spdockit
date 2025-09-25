@@ -1,8 +1,5 @@
 ---
 description: This article explains how you can use the Compare Wizard to compare different farms or snapshots of an existing farm.
----
-
----
 sidebar_position: 2
 ---
 
@@ -47,7 +44,7 @@ This section explains how you can use the Compare Wizard to compare different fa
    * Business Data Connectivity Namespace
    * Farm Servers
    * SQL Servers
-   * Accounts \(service accounts, managed accounts, user policy accounts, search accounts, application pool accounts, object cache accounts, farm administrators, service application administrator accounts\)
+   * Accounts (service accounts, managed accounts, user policy accounts, search accounts, application pool accounts, object cache accounts, farm administrators, service application administrator accounts)
    * Service Applications
    * Service Applications Proxies
    * Host Names

@@ -1,8 +1,5 @@
 ---
 description: This article describes Analytics Dashboard and its features.
----
-
----
 sidebar_position: 2
 ---
 

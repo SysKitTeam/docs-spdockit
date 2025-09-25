@@ -1,8 +1,5 @@
 ---
 description: This article explains how you can use the Administrative Actions report to get a centralized overview of all administrative actions made on your SharePoint farm.
----
-
----
 sidebar_position: 4
 ---
 
@@ -21,7 +18,7 @@ Administrative Actions report lists every action executed, along with some addit
 
 * Action type 
 * Timestamp when the action happened 
-* Username of the account that made the change and in which domain \(target\) 
+* Username of the account that made the change and in which domain (target) 
 * Correlation ID, which can be used to track changes that are connected to a single action
 * Further action details 
 

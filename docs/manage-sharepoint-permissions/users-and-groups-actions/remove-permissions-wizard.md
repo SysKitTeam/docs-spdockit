@@ -1,8 +1,5 @@
 ---
 description: This article describes how to use SPDocKit to remove permissions for one  or multiple users from a Site Collection or your entire SharePoint environment.
----
-
----
 sidebar_position: 6
 ---
 
@@ -13,10 +10,10 @@ This article explains how to use SPDocKit Remove Permissions Wizard to remove al
 **Wizard Scope**: farm, web application, site collection.  
 **Supported People Picker principal selection**: user, Active Directory group. **Additional selection options**: CSV file.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Selected principals will no longer have any assigned permissions, directly or through SharePoint groups, and they will be deleted from all the selected site collections in your SharePoint farm.
-{% endhint %}
+:::
 
 1. Navigate to Permissions Explorer and click the **Remove wizard** in the Wizards ribbon.
 2. In the **Target** step, define which farm, web application, or site collection will be a wizard scope.
@@ -42,11 +39,11 @@ In case you need to remove many principals in bulk, importing a CSV file is the 
 
   The imported principals are visible in the Principal Selection input field.
 
-{% hint style="info" %}
+:::info
 **Learn more!**  
 Usernames in the CSV file can be given in:
 
 * **Claims-based authentication username format** - for example `i:0#w|contoso\jonathan.smith`, or
 * **Classic mode authentication format** - for example `contoso\jonathan.smith`.
-{% endhint %}
+:::
 

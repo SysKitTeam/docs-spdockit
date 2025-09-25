@@ -1,8 +1,5 @@
 ---
 description: This article explains how you can use the Compare Wizard to compare different servers, including IIS and SQL servers.
----
-
----
 sidebar_position: 3
 ---
 

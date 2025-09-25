@@ -1,8 +1,5 @@
 ---
 description: Distributed Cache settings cannot be loaded because the server is not part of the Distributed Cache Cluster.
----
-
----
 sidebar_position: 4
 ---
 

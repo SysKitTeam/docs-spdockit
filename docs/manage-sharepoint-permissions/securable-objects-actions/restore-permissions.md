@@ -6,7 +6,7 @@ description: This article explains how to use SPDocKit's Restore Permissions Wiz
 
 ## Wizard scope
 
-A securable object \(subsite, list, folder, list item\) and it's permissions scope.
+A securable object (subsite, list, folder, list item) and it's permissions scope.
 
 ## Prerequisites
 
@@ -14,9 +14,9 @@ You must have a snapshot with loaded permissions of the selected object from the
 
 1. Navigate to **Permissions Explorer** and select the securable object on which you wish to restore permissions. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!** Date filter must be set to Live, otherwise the Restore Permissions button will be disabled
-{% endhint %}
+:::
 
 1. Click on the Restore Permissions in the Manage ribbon.  
 2. Choose restore options:

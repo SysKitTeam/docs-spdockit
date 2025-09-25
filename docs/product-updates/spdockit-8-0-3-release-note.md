@@ -1,8 +1,5 @@
 ---
 description: This article describes improvements and bug fixes delivered in SPDocKit 8.0.3
----
-
----
 sidebar_position: 7
 ---
 
@@ -38,6 +35,6 @@ sidebar_position: 7
 * Resolved an issue related to the app throwing a smart error when trying to load an SP2007 snapshot.
 * Fixed a bug in which the ESC key would cause a smart error if pressed in specific situations in the Options dialog. 
 * Fixed a bug involving a smart error showing when saving passwords to a snapshot from the Passwords and Product Keys reports.
-* Fixed a bug related to a special character \(Hex 0x1B\) causing an error when exporting the Dead Documents report. 
+* Fixed a bug related to a special character (Hex 0x1B) causing an error when exporting the Dead Documents report. 
 * Resolved an issue with the Project Server load in SharePoint 2016 and 2019 environments.
 

@@ -12,13 +12,13 @@ When taking a snapshot in SPDocKit you might receive the following error message
 
 ## Information
 
-RPC \(Remote Procedure Call\) is standardized request-response protocol used by SPDocKit to fetch information from a particular server. **RPC Client** is an application or task which requests the information \(i.e. initiates the procedure call\), and **RPC Server** is an application or task which receives the request from RPC Client and sends back a response. Note that RPC Client and RPC Server can reside on different machines or on a single machine.
+RPC (Remote Procedure Call) is standardized request-response protocol used by SPDocKit to fetch information from a particular server. **RPC Client** is an application or task which requests the information (i.e. initiates the procedure call), and **RPC Server** is an application or task which receives the request from RPC Client and sends back a response. Note that RPC Client and RPC Server can reside on different machines or on a single machine.
 
-To simplify, we can refer to the machine where SPDocKit is installed as RPC Client, and any server in your farm from where you collect the data as RPC Server. \(In this case, RPC Server is the machine about which you receive the error message.\)
+To simplify, we can refer to the machine where SPDocKit is installed as RPC Client, and any server in your farm from where you collect the data as RPC Server. (In this case, RPC Server is the machine about which you receive the error message.)
 
 ## Solution
 
-The above error may arise if some of the configuration settings are not properly set, resulting in SPDocKit \(RPC Client\) being unable to establish a connection through the RPC protocol to RPC Server in your farm.
+The above error may arise if some of the configuration settings are not properly set, resulting in SPDocKit (RPC Client) being unable to establish a connection through the RPC protocol to RPC Server in your farm.
 
 There are many possible reasons for this error, but some of the most common solutions include the following:
 
@@ -26,11 +26,11 @@ There are many possible reasons for this error, but some of the most common solu
 
 Verify if the following services are running and set to Automatic startup on the RPC Server:
 
-* Remote Procedure Call \(RPC\)
+* Remote Procedure Call (RPC)
 * DCOM Server Process Launcher
 * RPC Endpoint Mapper
 * Windows Management Instrumentation
-* DHCP Client \(usually also started on servers with a fixed IP address\).
+* DHCP Client (usually also started on servers with a fixed IP address).
 
 If any of the above services are not running, please check with your administrator if they can be started, and set to Automatic startup if you have not done so already.
 
@@ -75,15 +75,15 @@ Verify if the “File and Printer Sharing for Microsoft Networks” is enabled i
 
 * To check this option, go to Control Panel &gt; Network and Sharing Center &gt; Change adapter settings. Then right-click on your default network adapter and select Properties.
 
-{% hint style="info" %}
+:::info
 **Additional notes**
 
 In addition, take the following into the consideration:
 
-On the RPC Client and RPC Server machines, check if there are any potentially related warning or error messages \(RPC protocol, network communication, etc.\) logged in the Event Viewer at the time when the error was received.
+On the RPC Client and RPC Server machines, check if there are any potentially related warning or error messages (RPC protocol, network communication, etc.) logged in the Event Viewer at the time when the error was received.
 
 If RPC Client and RPC Server machines are in different domains, verify that the trust relationship is established properly between these trusted domains.
 
 If you receive the above error message only for some servers but not for others, you can try to narrow down the troubleshooting only to those servers for which you received an error message.
-{% endhint %}
+:::
 

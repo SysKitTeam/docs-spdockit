@@ -1,8 +1,5 @@
 ---
 description: This article describes new features, improvements, and bug fixes delivered in SPDocKit 12.
----
-
----
 sidebar_position: 1
 ---
 

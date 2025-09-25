@@ -1,27 +1,24 @@
 ---
 description: This article explains how to use SPDocKit to copy SharePoint permissions from a specific user and assign these permissions to other users.
----
-
----
 sidebar_position: 3
 ---
 
 # Copy Permissions Wizard
 
-Use Copy Permissions Wizard to easily achieve that selected destination principals \(SharePoint users or Active Directory groups\) have identical permissions across one site collection as a source principal.
+Use Copy Permissions Wizard to easily achieve that selected destination principals (SharePoint users or Active Directory groups) have identical permissions across one site collection as a source principal.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Source principal’s permissions will not in any way be changed by this wizard. Destination principals will lose all previously assigned permissions and acquire every directly given permission and SharePoint group memberships as the source principal.
-{% endhint %}
+:::
 
 **Wizard Scope**: farm, web application, site collection.  
 **Supported People Picker source selection**: user, Active Directory group.  
-**Supported People Picker destination selection**: user\(s\), Active Directory group\(s\).
+**Supported People Picker destination selection**: user(s), Active Directory group(s).
 
 1. Navigate to Permissions Explorer and click on the **Copy Wizard** in the Wizards ribbon.
 2. In the **Target** step define which farm, web application or site collection will be a wizard scope.
-3. The top people picker will accept selection of exactly one principal \(SharePoint user or AD group\). This is a source principal, all directly assigned permissions and SharePoint group memberships \(SPDocKit will not modify Active Directory group memberships\) of that principal will be acquired by destination principal\(s\). The permissions and group memberships of the source principal will not be altered.
+3. The top people picker will accept selection of exactly one principal (SharePoint user or AD group). This is a source principal, all directly assigned permissions and SharePoint group memberships (SPDocKit will not modify Active Directory group memberships) of that principal will be acquired by destination principal(s). The permissions and group memberships of the source principal will not be altered.
 
    Using bottom people picker you can specify any number of principals. It is important to note that those principals will lose all their previously directly granted permissions and SharePoint group memberships, and will only have a set of directly assigned permissions and group memberships identical to the source principal.
 

@@ -1,8 +1,5 @@
 ---
 description: This article describes how to add comments to Reports and individual Snapshots.
----
-
----
 sidebar_position: 2
 ---
 

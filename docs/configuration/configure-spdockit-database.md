@@ -1,8 +1,5 @@
 ---
 description: This article explains how to configure the database for SPDocKit.
----
-
----
 sidebar_position: 2
 ---
 
@@ -12,10 +9,10 @@ SPDocKit uses a database for storing data gathered from your SharePoint farm.
 
 **From SPDocKit 8 onwards, the use of a dedicated SPDocKit database is required!**
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 This should be a SPDocKit-dedicated database; please **do not provide SharePoint databases here**.
-{% endhint %}
+:::
 
 ## SPDocKit Farm
 
@@ -27,7 +24,7 @@ This should be a SPDocKit-dedicated database; please **do not provide SharePoint
 
    * If you are using the default instance, type  "servername", or "servername.yourdomain.loc".
    * If you are using a named instance, type "servername\instancename", or "servername.yourdomain.loc\instancename".
-   * If your SQL Server is on a non-standard port \(different from 1433\), type "severname,port" or "servername\instance,port". \(FQDN formats are also supported\)
+   * If your SQL Server is on a non-standard port (different from 1433), type "severname,port" or "servername\instance,port". (FQDN formats are also supported)
 
    After providing the information, click the **Test Connection** button to ensure that the settings are correct.
 
@@ -35,10 +32,10 @@ This should be a SPDocKit-dedicated database; please **do not provide SharePoint
 
 ## SPDockit Workstation
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Only SPDocKits installed on SharePoint servers can create databases. Workstations cannot create their own database; they must connect to already existing databases.
-{% endhint %}
+:::
 
 **To select a database on a workstation installation of SPDocKit, follow these steps:**
 
@@ -47,7 +44,7 @@ Only SPDocKits installed on SharePoint servers can create databases. Workstation
 
    * If you are using the default instance, type  "servername", or "servername.yourdomain.loc".
    * If you are using a named instance type, "servername\instancename", or "servername.yourdomain.loc\instancename".
-   * If your SQL Server is on a non-standard port \(different from 1433\), type "severname,port" or "servername\instance,port". \(FQDN formats are also supported\)
+   * If your SQL Server is on a non-standard port (different from 1433), type "severname,port" or "servername\instance,port". (FQDN formats are also supported)
 
    After providing the information, click the **Test Connection** button to ensure that the settings are correct.
 
@@ -59,10 +56,10 @@ You can document multiple SharePoint farms using one SPDocKit database. When ins
 
 1. If you have multiple SPDocKit instances, each using its own database, you will have to decide whether you want to reuse one database to become a central database for all the instances or create a brand new one. 
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 It is not possible to merge data from multiple SPDocKit databases into a single database.
-{% endhint %}
+:::
 
 1. For each SPDocKit instance, go to the **Configuration** tab and click **Configure** to open the Configuration Wizard. If the database you want to use as a central database already exists, just input the SQL Server and database name into the wizard and complete the wizard. If the database does not exist, **create it only once with one instance of SPDocKit** and choose to use an existing database for every other instance.
 2. After that, check one more thing: go to **Options**, then go to **Service Settings**, and check the **SPDocKit Database** field under **Snapshot Location**. This will ensure that all snapshot data is saved to the database and available from all connected SPDocKit instances.
@@ -89,7 +86,7 @@ To add a new database connection, follow these steps:
 
 1. Click on the **Database Connections** drop-down button, which can be found above the ribbon and on the right, and choose **Edit**.
 
-   Alternatively, in the Backstage \(File &gt; Configuration\), under Configuration settings, click Database Connections.
+   Alternatively, in the Backstage (File &gt; Configuration), under Configuration settings, click Database Connections.
 
 2. After that, click the **Add** button. The **New Database Connection** dialog will open.
 

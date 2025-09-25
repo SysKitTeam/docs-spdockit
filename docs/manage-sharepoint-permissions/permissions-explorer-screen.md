@@ -1,8 +1,5 @@
 ---
 description: This article describes how to use SPDocKit Permissions Explorer to explore SharePoint permissions.
----
-
----
 sidebar_position: 1
 ---
 

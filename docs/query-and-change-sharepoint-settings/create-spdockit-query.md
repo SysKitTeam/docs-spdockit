@@ -1,8 +1,5 @@
 ---
 description: This article describes how to use the SPDocKit Query wizard to create a query report.
----
-
----
 sidebar_position: 3
 ---
 

@@ -1,8 +1,5 @@
 ---
 description: This article explains how to add tags to Securable Objects.
----
-
----
 sidebar_position: 6
 ---
 

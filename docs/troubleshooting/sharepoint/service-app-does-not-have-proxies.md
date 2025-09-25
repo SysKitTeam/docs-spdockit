@@ -12,7 +12,7 @@ While trying to load SharePoint farm settings with SPDocKit I received the follo
 
 ## Solution
 
-For each UPA \(User Profile Application\) you need to have its proxy set as a default in a proxy group. This means that if you have three UPAs, you need to have at least three proxy groups.
+For each UPA (User Profile Application) you need to have its proxy set as a default in a proxy group. This means that if you have three UPAs, you need to have at least three proxy groups.
 
 Here is what you need to do:
 

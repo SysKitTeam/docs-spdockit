@@ -1,8 +1,5 @@
 ---
 description: This article lists SPDocKit security related questions.
----
-
----
 sidebar_position: 6
 ---
 
@@ -32,7 +29,7 @@ Syskit has helped some of the largest organizations worldwide to work around thi
 
 ## How does SPDocKit store passwords? Is storing passwords optional or mandatory?
 
-SPDocKit can store your passwords and products keys in the farm documentation files. If you decide to enter these, you will be prompted to provide an additional password \(master password\) that will be used to encrypt these files with AES 256bit encryption. You will only be able to retrieve these passwords if you provide the master password again.
+SPDocKit can store your passwords and products keys in the farm documentation files. If you decide to enter these, you will be prompted to provide an additional password (master password) that will be used to encrypt these files with AES 256bit encryption. You will only be able to retrieve these passwords if you provide the master password again.
 
 ## How to exclude the installation folder from antivirus scans?
 
@@ -56,10 +53,10 @@ Please configure your antivirus software to exclude the following folder from an
 
 > Drive:\Program Files\SysKit\SPDocKit
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The placeholder Drive represents the letter of the drive on which you have your SharePoint application installed. Typically, this drive letter is C.
-{% endhint %}
+:::
 
 In case you have a policy that you mustn’t exclude the whole folder, please configure your antivirus software to exclude the following file from antivirus scanning:
 

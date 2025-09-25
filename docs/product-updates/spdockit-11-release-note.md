@@ -1,8 +1,5 @@
 ---
 description: This article describes new features, improvements and bug fixes delivered in SPDocKit 11.
----
-
----
 sidebar_position: 3
 ---
 
@@ -46,7 +43,7 @@ sidebar_position: 3
 * **Build numbers are now updated automatically** each time you open SPDocKit. Before, the update would need to be done manually and often caused false positives on the **Is SharePoint up to Date** Best Practices report. 
 * **Group Memberships filter on the Permissions Matrix report was improved**.
 
-  A new option was added – **Hierarchical Structure \(exclude deselected groups\)**. When selected, the report shows a hierarchical structure without deselected groups, as the name suggests. Such groups are not displayed even if they contain users selected to be shown in the report.
+  A new option was added – **Hierarchical Structure (exclude deselected groups)**. When selected, the report shows a hierarchical structure without deselected groups, as the name suggests. Such groups are not displayed even if they contain users selected to be shown in the report.
 
 * **Site Collection Visitors report was improved to handle many site visitors better**. In case the selected site collection had thousands of visitors, the report would result in a system error and wouldn’t show expected results.
 * **Fixed an issue** with custom queries created on the site collection scope. When run, the query resulted in the following error: `System.ArgumentNullException: 'dataType' argument cannot be null.`

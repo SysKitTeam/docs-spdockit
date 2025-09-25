@@ -1,8 +1,5 @@
 ---
 description: This article states how to use Snapshots Screen an track changes made to your SharePoint farm during its lifetime.
----
-
----
 sidebar_position: 1
 ---
 
@@ -13,7 +10,7 @@ The **Snapshots Screen** allows SharePoint administrators to track changes made 
 This screen will display snapshots found in SPDocKit database and snapshots folder on a disk and group them by the farm they were created on:
 
 * **Blue icon** indicates that the snapshot is stored in a SPDocKit database. 
-* **Green icon** means that the snapshot is saved in the snapshot folder \(on the disk\).
+* **Green icon** means that the snapshot is saved in the snapshot folder (on the disk).
 * **Bolded** snapshot name means that the snapshot is currently selected/opened. 
 
 The following commands are available:
@@ -23,7 +20,7 @@ The following commands are available:
 * **Delete**– this button will delete the currently selected snapshot from previously defined snapshot locations. Snapshots saved to a disk location will be deleted only if they are from the local farm. Snapshots saved in the SPDocKit database will be deleted regardless of the farm they are created on.
 * **Import** – use this button to add a snapshot to this list from any other location. Once that the snapshot is imported, it remains here until the user removes it.
 * **Export**– use this button to create farm snapshot file which can be transferred to any other location. This comes in handy if your snapshots are stored in SPDocKit database but you need to move them from one server to another.
-* **Show Changes** – shows differences between the currently selected snapshot and an older snapshot \(if one exists\).
+* **Show Changes** – shows differences between the currently selected snapshot and an older snapshot (if one exists).
 * **Compare Wizard**– starts Compare Wizard for more complex comparisons.
 * **Compare to Local** – compares a snapshot with the currently loaded local farm.
 * **Compare Selected**  – if two snapshots are selected, this button compares SharePoint settings stored in these two.

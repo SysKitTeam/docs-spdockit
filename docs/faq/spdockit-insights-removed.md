@@ -1,8 +1,5 @@
 ---
 description: This article explains why SPDocKit Insights was removed and shows how to migrate your data to Syskit Insights.
----
-
----
 sidebar_position: 8
 ---
 

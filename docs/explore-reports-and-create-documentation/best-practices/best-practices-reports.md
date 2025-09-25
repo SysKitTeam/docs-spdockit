@@ -1,8 +1,5 @@
 ---
 description: This article describes which best practices reports are available in SPDocKit and can help you keep your SharePoint farm healthy.
----
-
----
 sidebar_position: 2
 ---
 
@@ -44,7 +41,7 @@ This section describes how SharePoint administrators can use SPDocKit to create 
 5. Once you have selected your fields, choose how your data will be grouped. For this report,group data by the Web Application name field. Click Next to continue.
 6. Choose the Aggregation Type **Count**. Click Next to continue.
 7. You can choose the sorting order and specify the order of your fields. In this case, we are going to choose **Ascending**. Click Next to continue.
-8. Select the fields where you want to apply the formatting. You can edit the conditional formatting rules by clicking the underlined value **specific**. For this report, select the field **COUNT \(Database Name\)**. Click Next to continue.
+8. Select the fields where you want to apply the formatting. You can edit the conditional formatting rules by clicking the underlined value **specific**. For this report, select the field **COUNT (Database Name)**. Click Next to continue.
 9. Enter the preferred values and formatting rules. Click OK. In this case, we will adjust the values so that when the number of databases per Web application is over 300, the report will show an error. If the value is between 250 and 300, the report will show a warning, and if the value is less than 250 the report will give a positive result.
 10. You can add conditions to filter data. Click the underlined value **specific** to edit the conditions. For example, when the condition **Does Not Contain** is selected, the report will not show Web applications that contain an entered value in their names. For this case, enter "Central Administration" to filter out that Web application from the report.
 11. Click Next, then click Finish to close the wizard. Wait a few seconds and your SharePoint Best Practice report will be created!
@@ -69,8 +66,8 @@ Click **Customize Best Practices** on the Best Practices Home ribbon. Deselect t
 
 Best Practices reports checking some numerical values, like the amount of RAM per server, can be customized as well. Select the Best Practices report you would like to modify, click **Customize Best Practices** and edit the numerical values on the right to fit your requirements.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 If you edit these values, the Best Practice report will display a warning that the default values have been changed.
-{% endhint %}
+:::
 

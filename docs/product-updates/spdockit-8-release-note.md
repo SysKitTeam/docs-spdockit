@@ -1,8 +1,5 @@
 ---
 description: This article describes the new features, improvements, and bug fixes that are delivered in SPDocKit 8.
----
-
----
 sidebar_position: 8
 ---
 
@@ -38,12 +35,12 @@ Give it a try and let us know what you think!
 
 ## Improvements
 
-* **SharePoint Object filter** — instead of having a separate filter for each level of SharePoint objects \(Web App, Site Collection, Subsite etc.\), we merged them together into a **new SharePoint Object filter**. We now use the filter on all reports where applicable.
+* **SharePoint Object filter** — instead of having a separate filter for each level of SharePoint objects (Web App, Site Collection, Subsite etc.), we merged them together into a **new SharePoint Object filter**. We now use the filter on all reports where applicable.
 * **Improved category navigation:** Category navigation is now positioned on the left side of the main window and can be collapsed to create even more space for the reports.
 * **Hierarchy and Matrix reports have been merged into the Permissions Matrix report** due to the introduction of the SharePoint Object filter. The **Permission Matrix** report shows which permission levels the users have on selected SharePoint objects. All existing Hierarchy and Matrix report views and subscriptions will also be upgraded without any loss of information.
 * **Grid View is now available on DB Disk Usage and Database Growth reports**. Cells of the DB Disk Usage report are automatically colored if their values fall into warning or into the error threshold defined for the Content Database Capacity BP report.
 * The **Farm name is now automatically set** based on the snapshot data, if available. Otherwise, the usual naming is used: Farm 1, Farm 2, etc. The "\#" symbol is no longer a part of this naming, since it caused problems when used with cloud-based services.
-* The **Enable Usage and Health Data Collection report has been renamed "Usage and Health Data Collection Enabled"**, and the status of **two additional timer jobs has been added** \(Microsoft SharePoint Foundation Usage Data Processing and Microsoft SharePoint Foundation Usage Data Import\).
+* The **Enable Usage and Health Data Collection report has been renamed "Usage and Health Data Collection Enabled"**, and the status of **two additional timer jobs has been added** (Microsoft SharePoint Foundation Usage Data Processing and Microsoft SharePoint Foundation Usage Data Import).
 * The **TempDB Files** Best Practice report now checks to see if the tempDB files are on a separate drive from Binaries, Data, and Log Files; however, all the tempDB files can be on the same drive. For more information, consult [this link](https://docs.syskit.com/bp/databases/tempdb/files/).
 * The **Content Database Capacity** Best Practice report now **shows the Data File Free Space column instead of Data File Full**.
 * An **IIS Instance ID column has been added** to the **IIS Sites report**.
@@ -68,7 +65,7 @@ Give it a try and let us know what you think!
 * Fixed a bug where the Source and Target rows of the Compare Results window were out of sync when the horizontal scroll was visible.
 * Fixed a bug where a wrong total number of site collections was displayed on the Snapshot Wizard while taking a snapshot of the SharePoint 2016 environment.
 * Fixed an issue where the Best Practice Wizard would result in a smart error when a DateTime type of column was selected during the Conditional Formatting step.
-* Improved how the Permission Differences Compare handles changes in the Content Display Level filter \(now known as "Include Content" filter\). When selecting an object in the navigation tree, the filter now automatically changes to the appropriate content level.
+* Improved how the Permission Differences Compare handles changes in the Content Display Level filter (now known as "Include Content" filter). When selecting an object in the navigation tree, the filter now automatically changes to the appropriate content level.
 * Fixed a bug where changing between Farm Explorer and Best Practices reports caused the app to crash in multi-farm environments.
 * Fixed an issue where you could change steps during the Finish step of the Configuration Wizard, which resulted in an error.
 * Fixed a bug where AutoSPInstaller would cause a cast exception: "Unable to cast object of type 'System.DBNull' to type 'System.String'."

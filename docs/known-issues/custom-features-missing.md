@@ -1,8 +1,5 @@
 ---
 description: Custom features deployed on your farm are missing in SPDocKit feature reports.
----
-
----
 sidebar_position: 2
 ---
 

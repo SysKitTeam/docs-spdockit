@@ -1,8 +1,5 @@
 ---
 description: This article gives answers to various troubleshooting questions.
----
-
----
 sidebar_position: 7
 ---
 
@@ -12,7 +9,7 @@ sidebar_position: 7
 
 [Here](https://my.syskit.com/Utilities/productversions.aspx) is the link for the offline update.
 
-Click the **Generate button**. Download **all of** the files, copy them to the server that has no internet access and overwrite the existing files \(default location: **%ProgramData%\SPDocKit\Settings**\).
+Click the **Generate button**. Download **all of** the files, copy them to the server that has no internet access and overwrite the existing files (default location: **%ProgramData%\SPDocKit\Settings**).
 
 After you copy these files, please restart the application in order to apply the changes.
 
@@ -45,12 +42,12 @@ The installation was not able to remove the Windows service. The existing instal
 
 Here is what you need to do:
 
-1. Obtain the original MSI file you used to install the product \(product version e.g. 1.0.3 is listed in **Control Panel &gt; Programs**, but you can [contact us](https://www.syskit.com/company/contact-us/) to obtain the original installation\).
+1. Obtain the original MSI file you used to install the product (product version e.g. 1.0.3 is listed in **Control Panel &gt; Programs**, but you can [contact us](https://www.syskit.com/company/contact-us/) to obtain the original installation).
 2. Right-click the MSI file and choose **Repair** to repair the application.
 3. Use **Control Panel &gt; Programs** to uninstall the application.
 4. Once uninstalled, you can **install** the latest version as planned.
 
-During this procedure you might get the “Service Marked for Deletion” error message. In that case, make sure the Services dialog box is not running **\(Control Panel &gt; Administrative Tools &gt; Services\)**. If the dialog box is not running you will have to restart your computer before proceeding to the next step.
+During this procedure you might get the “Service Marked for Deletion” error message. In that case, make sure the Services dialog box is not running **(Control Panel &gt; Administrative Tools &gt; Services)**. If the dialog box is not running you will have to restart your computer before proceeding to the next step.
 
 ## Configuring permissions for SharePoint 2007
 
@@ -71,18 +68,18 @@ For more information please see [this thread](https://social.technet.microsoft.c
 
 The application will work on both the console and the Remote Desktop session.
 
-## I am having problems running the application when UAC \(User Access Control\) is enabled.
+## I am having problems running the application when UAC (User Access Control) is enabled.
 
-1. Locate the application installation directory in Program files and find the SPDocKit.exe file \(usually: C:\Program files\SysKit\SPDocKit\).
+1. Locate the application installation directory in Program files and find the SPDocKit.exe file (usually: C:\Program files\SysKit\SPDocKit).
 2. Create a shortcut for that file on the desktop.
 3. To execute the application, right-click the shortcut then choose Run as the administrator.
 4. The UAC dialog box will be shown and you will be prompted to run the application as the administrator.
 5. Click Yes and SPDocKit will run without any issues.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 You must create a shortcut that points directly to the file in the application directory, and not to the file in the Start menu.
-{% endhint %}
+:::
 
 ## Cannot upgrade as "The specified service already exists".
 
@@ -96,7 +93,7 @@ When trying to upgrade to the latest version of SPDocKit you might receive an er
 
 The previous version has not been removed correctly. Here is what you need to do:
 
-1. Go to **Add/Remove programs** and uninstall the SPDocKit manually \(if the product is not listed, you do not have the proper privileges or somebody else installed the application, e.g. an Administrator user, so logon as the user who initially installed the application then remove it\).
+1. Go to **Add/Remove programs** and uninstall the SPDocKit manually (if the product is not listed, you do not have the proper privileges or somebody else installed the application, e.g. an Administrator user, so logon as the user who initially installed the application then remove it).
 2. Once the program has been removed you can restart the new installation you have downloaded and install the application.
 
 ### Additional notes
@@ -122,15 +119,15 @@ In order to install SPDocKit on a Windows server you will have to run it with ad
 
 ## Network ports required for gathering the data.
 
-If you have a firewall between the server hosting the application and the servers that are being monitored you need to have the following ports open \(In brackets are the rule names in Windows Server 2008\):
+If you have a firewall between the server hosting the application and the servers that are being monitored you need to have the following ports open (In brackets are the rule names in Windows Server 2008):
 
 * All ports from 49152 and above should be open – during the IIS load we use Microsoft component that utilize dynamic ports and that is the main reason why we require to open these ports on firewall. [Read more](https://support.microsoft.com/en-us/help/929851/the-default-dynamic-port-range-for-tcp-ip-has-changed-in-windows-vista)
-* Inbound rules on Windows Server 2008, 2008 R2, 2012 and 2012 R2 are \(this is inside the windows firewall\):
-  * COM+ Network Access \(DCOM-IN\)
-  * COM+ Remote Administration \(DCOM-In\)
-  * File and printer sharing \(NB-Session-In\)
-  * Network Discovery \(NB-Name-In\)
-  * Network Discovery \(NB-Datagram-In\)
+* Inbound rules on Windows Server 2008, 2008 R2, 2012 and 2012 R2 are (this is inside the windows firewall):
+  * COM+ Network Access (DCOM-IN)
+  * COM+ Remote Administration (DCOM-In)
+  * File and printer sharing (NB-Session-In)
+  * Network Discovery (NB-Name-In)
+  * Network Discovery (NB-Datagram-In)
 * In case you have the third party firewall the ports are:
   * RPC TCP 135
   * NetBIOS Datagram Service UDP 138   

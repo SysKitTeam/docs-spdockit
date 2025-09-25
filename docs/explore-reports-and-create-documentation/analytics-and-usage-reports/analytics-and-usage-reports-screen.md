@@ -1,8 +1,5 @@
 ---
 description: This article describes how to use SPDocKit analytics and usage section to quickly get an overview of your farm storage and content usage, features usage and activations, and SharePoint structure.
----
-
----
 sidebar_position: 1
 ---
 
@@ -32,7 +29,7 @@ Provides you with an analytics overview of your farm. The dashboard displays inf
 
 * **SharePoint Structure** – Shows a hierarchical structure of selected site collections down to the list item level. The Include Content filter allows you to change the report’s granularity.
 * **Recently Created Subsites** – Shows subsites that have been created recently.
-* **Inactive Subsites** – Shows subsites that are inactive \(with no visitors in the selected time range\).
+* **Inactive Subsites** – Shows subsites that are inactive (with no visitors in the selected time range).
 * **Recently Created Lists** – Shows lists and document libraries that have been created recently.
 * **Unmodified Lists** – Shows lists and document libraries without any content modification in the selected time range.
 * **Recently Created Documents** – Shows documents and list items that have been created recently.
@@ -51,10 +48,10 @@ Provides you with an analytics overview of your farm. The dashboard displays inf
 * **Files** - Provides information about each document in a subsite, such as size, versioning, and time when it was last updated. 
 * **Lists and Libraries** - Shows a complete overview of Lists and Document Libraries in the selected SharePoint subsite; for each of them, the number of items, size, and last update time is displayed.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The **Lists and Libraries** and **Files** report will be visible in the navigation tree only after [installing](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) the **Storage Reports extension**.
-{% endhint %}
+:::
 
 ## Feature reports
 
@@ -62,8 +59,8 @@ The **Lists and Libraries** and **Files** report will be visible in the navigati
 * **Activations** – displays a list of SharePoint objects on which a specific feature is activated.
 * **Activations by Edition** – displays all features on the selected site collections, grouped by SharePoint edition.
 * **Feature Usage**
-  * **Feature Usage by Edition** – Shows the usage of feature licenses per SharePoint edition \(Foundation, Standard, or Enterprise\). To see a complete report, define the number of available feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
-  * **Feature Usage by Scope** – checks license compliance for custom features at different farm scopes \(**Web application**, **Site Collection**, or **Subsite**\). To see a complete report, define the number of available custom feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
+  * **Feature Usage by Edition** – Shows the usage of feature licenses per SharePoint edition (Foundation, Standard, or Enterprise). To see a complete report, define the number of available feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
+  * **Feature Usage by Scope** – checks license compliance for custom features at different farm scopes (**Web application**, **Site Collection**, or **Subsite**). To see a complete report, define the number of available custom feature licenses using [License Management](../../configure-and-extend-spdockit/license-management.md).
 
 ## Workflow Reports
 
@@ -86,22 +83,22 @@ This SPDocKit plugin will help you detect old documents and list items in your S
 **Old List Items** - Lists all list items older than the selected date range.  
 **Old Documents** - Lists all documents older than the selected date range.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The **Document Reports section** will be visible in the navigation tree only after [installing](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) the **Document Usage extension**.
-{% endhint %}
+:::
 
 ## SPCAF Reports
 
-SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It provides detailed information about a SharePoint customization’s \(WSPs or Add-ins\) code quality, dependencies, and complexity, among other things.  
+SPCAF is a SharePoint Code Analysis Framework developed by RENCORE GmbH. It provides detailed information about a SharePoint customization’s (WSPs or Add-ins) code quality, dependencies, and complexity, among other things.  
 Find out more [about SPCAF](https://www.spcaf.com/) and how it can help you keep your SharePoint farm healthy and clean.  
 Use SPDocKit to load WSPs information from your SharePoint farm and then analyze them by [adding SPCAF extension reports](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) using Extension Manager.
 
 **Available reports**: Analysis Summary, Code Quality, Code Metrics, Code Dependencies, and Code Inventory.  
 **Supported SharePoint versions**: SP2013, SP2016.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The **SPCAF Reports section** will become visible in the navigation tree only after [installing](../../configure-and-extend-spdockit/extend-spdockit/install-spdockit-extensions.md) the **SPCAF Code Analysis Reports extension**.
-{% endhint %}
+:::
 

@@ -1,8 +1,5 @@
 ---
 description: This article lists all SharePoint editions that are supported by SPDocKit.
----
-
----
 sidebar_position: 2
 ---
 

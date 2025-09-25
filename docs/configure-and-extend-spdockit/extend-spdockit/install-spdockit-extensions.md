@@ -1,8 +1,5 @@
 ---
 description: This article explains how to set up the SPDocKit extensions.
----
-
----
 sidebar_position: 1
 ---
 
@@ -24,10 +21,10 @@ If your server does not have an internet connection, you can use the Offline ins
 2. Once you have downloaded a plugin, navigate to the SPDocKit folder inside ProgramData and find the **Extensions** folder. Paste the downloaded plugin files there. The default full path is **C:\ProgramData\SPDocKit\Extensions**.
 3. Once it is successfully installed, restart SPDocKit and the plugin will be ready for use.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 The SPCAF, Storage and Document Usage reports will be visible in the navigation tree only after installing the appropriate extensions.
-{% endhint %}
+:::
 
 ## **Learn more**
 

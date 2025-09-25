@@ -1,8 +1,5 @@
 ---
 description: This article describes how to import and export SPDocKit settings.
----
-
----
 sidebar_position: 3
 ---
 

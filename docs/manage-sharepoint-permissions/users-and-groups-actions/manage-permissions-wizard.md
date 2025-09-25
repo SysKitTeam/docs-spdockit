@@ -1,15 +1,12 @@
 ---
 description: This article describes how to grant permissions to the desired principal on a specific SharePoint object. It also has the ability to remove permissions from the desired principals across the selected.
----
-
----
 sidebar_position: 5
 ---
 
 # Manage Permissions Wizard
 
-**Wizard Scope**: farm, web application, site collection\(s\), subsite\(s\)  
-**Supported People Picker principal selection**: user, Active Directory group, SharePoint group \(multiselect allowed\)  
+**Wizard Scope**: farm, web application, site collection(s), subsite(s)  
+**Supported People Picker principal selection**: user, Active Directory group, SharePoint group (multiselect allowed)  
 **SharePoint objects changes can be applied on**: subsites, lists, list items
 
 ## Grant Permissions
@@ -23,10 +20,10 @@ This wizard option will grant specified permissions to selected principals on a 
    * **Site Collection** – all SharePoint objects that match specified criteria across the selected site collections will be affected. Changes will not affect other site collections on the same web application, unless you’ve selected them also.  
    * **Subsite** – all SharePoint objects that match specified criteria across the selected subsite will be affected. Changes will not affect other subsites, unless you’ve selected them also.
 3. Select which SharePoint objects this wizard will affect: subsites, lists or list items. Provided options can be matched by:
-   * **Name** – changes will apply only to object with an exact name match \(not case sensitive\).  
-   * **Name contains** – changes will apply only to object whose name contains specified term \(not case sensitive\).  
+   * **Name** – changes will apply only to object with an exact name match (not case sensitive).  
+   * **Name contains** – changes will apply only to object whose name contains specified term (not case sensitive).  
    * **Regular expression** – changes will apply only to object whose name matches specified regular expression.  
-   * **Template**– changes will apply only to object whose base template matches the selected one \(not applicable for list items\).
+   * **Template**– changes will apply only to object whose base template matches the selected one (not applicable for list items).
 
      If multiple site collections or subsites are selected, changes will apply only to the ones where such objects exist.
 
@@ -50,10 +47,10 @@ This wizard option will remove specified permissions from desired principals on 
    * **Site Collection** – all SharePoint objects that match specified criteria across the selected site collections will be affected. Changes will not affect other site collections on the same web application, unless you’ve selected them also.  
    * **Subsite** – all SharePoint objects that match specified criteria across the selected subsite will be affected. Changes will not affect other subsites, unless you’ve selected them also.
 4. Select which SharePoint objects this wizard will affect: subsites, lists or list items. Provided options can be matched by:
-   * **Name** – changes will apply only to object with an exact name match \(not case sensitive\).   
-   * **Name contains** – changes will apply only to object whose name contains specified term \(not case sensitive\).
+   * **Name** – changes will apply only to object with an exact name match (not case sensitive).   
+   * **Name contains** – changes will apply only to object whose name contains specified term (not case sensitive).
    * **Regular expression** – changes will apply only to object whose name matches specified regular expression.
-   * **Template**– changes will apply only to object whose base template matches the selected one \(not applicable on list items\).
+   * **Template**– changes will apply only to object whose base template matches the selected one (not applicable on list items).
 
      If multiple site collections or subsites are selected, changes will apply only to the ones where such objects exist.
 

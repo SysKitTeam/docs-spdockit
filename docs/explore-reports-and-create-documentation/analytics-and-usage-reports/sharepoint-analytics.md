@@ -1,8 +1,5 @@
 ---
 description: This article explains how you can use the Site Collection Analytics report.
----
-
----
 sidebar_position: 3
 ---
 
@@ -22,9 +19,9 @@ The Site Collection Analytics report grid contains these columns:
 * **Total Hits** - Number of total visits to a given site collection.
 * **Visitors** - Average number of **visitors** to a given site collection in the last seven days.
 
-{% hint style="warning" %}
-**Please note** the red or green triangle indicating the trend. It will show you how the page visits compare to the previous period \(the previous seven days\).
-{% endhint %}
+:::warning
+**Please note** the red or green triangle indicating the trend. It will show you how the page visits compare to the previous period (the previous seven days).
+:::
 
 * **Size \[MB\]** - Size in MBs of a given site collection.
 * **Number of Subsites** - Number of subsites in the selected site collection.

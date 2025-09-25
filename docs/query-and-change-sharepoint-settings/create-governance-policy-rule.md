@@ -1,8 +1,5 @@
 ---
 description: This section describes how to use the SPDocKit wizard to create a rule to help you enforce your governance policies.
----
-
----
 sidebar_position: 2
 ---
 

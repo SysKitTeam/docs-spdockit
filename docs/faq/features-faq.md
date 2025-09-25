@@ -1,8 +1,5 @@
 ---
 description: This article gives answers to frequently asked questions about SPDocKit usage.
----
-
----
 sidebar_position: 5
 ---
 
@@ -44,22 +41,22 @@ There is a data retention feature that helps manage your database size in SPDocK
 
 There are two parts of storage that are used by any database:
 
-* the data itself, stored in a database file \(.MDF\)
-* transaction logs, stored in log files \(.LDF\). \(Check to see if there are any SPDocKit related entries in your Windows event logs.\)
+* the data itself, stored in a database file (.MDF)
+* transaction logs, stored in log files (.LDF). (Check to see if there are any SPDocKit related entries in your Windows event logs.)
 
 In order to reduce the database size you can do the following:
 
 1. Open the **Options wizard**, select the [Data Retention](../configure-and-extend-spdockit/options-wizard.md#data-retention) tab. Here is where you will see how your retention policies are defined.
-2. You will see the **Force Data Retention** button, and next to that is an **Execute** button. Pressing this button will automatically delete old information, then attempt to shrink your database \(the way this runs is determined by the settings in step 1\).
+2. You will see the **Force Data Retention** button, and next to that is an **Execute** button. Pressing this button will automatically delete old information, then attempt to shrink your database (the way this runs is determined by the settings in step 1).
 
-{% hint style="warning" %}
+:::warning
 **Please note!** This can take a little bit of time to run.
-{% endhint %}
+:::
 
 If you are not running the latest version, you can do this manually:
 
 * Shrink the database by following [these instructions](http://msdn.microsoft.com/en-us/library/ms189035.aspx).
-* Change the database to the **Simple Recovery Model** and perform a backup \([This article](http://msdn.microsoft.com/en-us/library/ms189275.aspx) explains the differences between SQL’s different recovery models\).  
+* Change the database to the **Simple Recovery Model** and perform a backup ([This article](http://msdn.microsoft.com/en-us/library/ms189275.aspx) explains the differences between SQL’s different recovery models).  
 
 ## How to find out which SPDocKit version you are using?
 

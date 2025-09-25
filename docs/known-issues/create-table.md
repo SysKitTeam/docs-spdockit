@@ -1,8 +1,5 @@
 ---
 description: An error that appears in the ULS log, stating that SPDocKit processes are trying to create tables in SharePoint databases.
----
-
----
 sidebar_position: 1
 ---
 

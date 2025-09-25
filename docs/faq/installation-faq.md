@@ -1,8 +1,5 @@
 ---
 description: This article lists frequently asked questions about SPDocKit installation.
----
-
----
 sidebar_position: 2
 ---
 
@@ -20,11 +17,11 @@ No, unless you’re updating Microsoft .NET Framework, in that case Microsoft .N
 
 I’m trying to start SPDocKit service but it will not start. The following error events appear in the application log:
 
-> Timeout \(30000 milliseconds\) waiting for a transaction response from the ‘ServiceName’ service.
+> Timeout (30000 milliseconds) waiting for a transaction response from the ‘ServiceName’ service.
 
 or
 
-> A timeout was reached \(30000 milliseconds\) while waiting for the ‘ServiceName’ service to connect.
+> A timeout was reached (30000 milliseconds) while waiting for the ‘ServiceName’ service to connect.
 
 or
 

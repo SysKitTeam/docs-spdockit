@@ -1,8 +1,5 @@
 ---
 description: This article describes how to use SPDocKit to compare SharePoint farm web application configurations.
----
-
----
 sidebar_position: 4
 ---
 

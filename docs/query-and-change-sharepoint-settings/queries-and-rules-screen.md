@@ -1,8 +1,5 @@
 ---
 description: This article describes how to use Queries and Rules section to enforce SharePoint governance policies or create custom reports for SharePoint securable objects.
----
-
----
 sidebar_position: 1
 ---
 
@@ -77,8 +74,8 @@ If you choose automatic execution, the following triggering options are availabl
 
 * **One-time** – configure one specific date and time at which the selected query or rule will be executed. The query or rule will no longer be automatically executed after the specified scheduled time.
 * **Daily** – configure the query or rule start date and time at which this rule will be executed on a daily basis. You can choose recurrence period, that is if this query or rule will run every x days, or will it run every weekday. Minimal recurrence period is one day.
-* **Weekly** – configure the query or rule start date and time at which this rule will be executed on a weekly basis. Choose on which days rule will run and recurrence period \(every x weeks\).
-* **Monthly** – configure the query or rule start date and time at which this rule will be executed on a monthly basis. Choose on which days of the month rule will run and recurrence period \(every x months\). The other option is to run query or rule on a specified day of the week, every x months.
+* **Weekly** – configure the query or rule start date and time at which this rule will be executed on a weekly basis. Choose on which days rule will run and recurrence period (every x weeks).
+* **Monthly** – configure the query or rule start date and time at which this rule will be executed on a monthly basis. Choose on which days of the month rule will run and recurrence period (every x months). The other option is to run query or rule on a specified day of the week, every x months.
 * **Quarterly** –  configure the query or rule start date and time at which this rule will be executed quarterly.
 
 ### Tips & tricks

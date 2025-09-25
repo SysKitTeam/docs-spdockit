@@ -8,14 +8,14 @@ The Permissions Reports section contains a number of reports on SharePoint Permi
 
 ## Permission Reports
 
-* **Unique Permissions** – shows SharePoint objects \(sites, lists, items\) with unique permissions, e.g. objects with broken permission inheritance.  
+* **Unique Permissions** – shows SharePoint objects (sites, lists, items) with unique permissions, e.g. objects with broken permission inheritance.  
 * **Permissions Matrix** – shows permission levels for selected principals on selected securable objects. It also includes a complete hierarchy structure overview including the objects with broken permission inheritance. Use the Include Content filter to select how granular these reports should be. They go down to the list item level. 
 * **Permissions Details** – shows which types of base permissions are present on selected securable objects. Each permissions category displays the list of users that have been granted that type of permission as well as the principal’s role, type, and how they got the assigned permissions.  
-* **Permission Level Usage** - displays all the site collections where the selected permission level exists and if it is being used \(assigned to any principal\).
+* **Permission Level Usage** - displays all the site collections where the selected permission level exists and if it is being used (assigned to any principal).
 
 ## User reports
 
-* **All Farm Users** – shows all users with permissions to the selected farm, sorted by domain. This report also provides information about a user’s status in AD \(enabled or disabled\).  
+* **All Farm Users** – shows all users with permissions to the selected farm, sorted by domain. This report also provides information about a user’s status in AD (enabled or disabled).  
 * **All Site Users** - lists all users that have access to the selected site collections. 
 * **Users with Privileged Access** – shows all users with privileged access on the farm, such as farm and site administrators, or primary and secondary administrators, Users with Full Control / Full Read Web Application Policy, etc. 
 * **User Permissions Overview** – summary of principals' permissions on the farm. Shows site collections in which users have permissions, permissions that the users have as an individual, and the permissions that were given through a group. To see a more detailed permissions breakdown on a particular site collection, use the **Explore Permissions** button.  

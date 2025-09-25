@@ -1,8 +1,5 @@
 ---
 description: This section describes how to create scheduled Alerts for SPDocKit reports. Alerts are sent after each automatic snapshot, that is snapshot created by the SPDocKit Service.
----
-
----
 sidebar_position: 3
 ---
 
@@ -28,15 +25,15 @@ Instructions:
 
    Click **New**, specify whether you are connecting to an On-Premise or SharePoint Online site. Input the Library URL and the Display name. You can use Integrated or Custom Credentials, whichever suits your needs. Finally, click Test. SPDocKit will try to send a test subscription to check if the given Library URL is in order. If it is you will be notified and you can click the Save button.
 
-{% hint style="warning" %}
+:::warning
 **Please note!**  
 Each SPDocKit alert can be sent to a different SharePoint document library. All previously used connections will be listed in this drop down menu so you can use them for multiple alerts. The user account running SPDocKit and the SPDocKit service account should have at least **Contribute** permission level granted on the specified SharePoint document library to successfully upload SPDocKit subscriptions or alerts.
-{% endhint %}
+:::
 
 You can select all three delivery methods. Scheduled reports will be sent to the email addresses you provided and uploaded to the File Share and SharePoint document library.
 
 1. Go to the Reports tab and click **Add Report** to select which reports you wish to subscribe to. Currently, you can pick from **Farm Differences, Permissions Differences, Group to Group Compare, Membership Differences and any of the Best Practice reports.**
-2. For certain reports, you will have to adjust filters to complete the report configuration. The filters will define the data displayed in the report. Click OK to add the selected report to the subscription. To define the preferred date format, use curly brackets. Only culture-invariant formats are supported, for example: **{MM-dd-yyyy}, {dd-MM-yyyy}, or {MM-yyyyy-dd}.**
+2. For certain reports, you will have to adjust filters to complete the report configuration. The filters will define the data displayed in the report. Click OK to add the selected report to the subscription. To define the preferred date format, use curly brackets. Only culture-invariant formats are supported, for example: **`{MM-dd-yyyy}`, `{dd-MM-yyyy}`, or `{MM-yyyyy-dd}`**.
 3. You can add more reports by repeating the previous steps. Also, you can **Edit** current report settings or **Delete** added reports.
 4. Click Save & Close to finish creating the Alert and exit. If you wish to send this alert immediately, click the Save & Send Now.
 

@@ -1,8 +1,5 @@
 ---
 description: This article describes how to use SPDocKit to compare SharePoint permissions between any two selected SharePoint objects.
----
-
----
 sidebar_position: 6
 ---
 
@@ -41,7 +38,7 @@ The Permissions compare subtype allows you to track all permission changes at a 
 Group To Group Compare subtype allows you to compare members of two different groups. This can be useful when troubleshooting permissions and finding identical SharePoint or Active Directory groups.
 
 1. Select the Group To Group Compare subtype and click Next to proceed to the results screen
-   * The **Farm** filter is preselected to your local farm, but you can easily choose any farm in your SPDocKit database. \(This filter will show if you have two or more farms in your SPDocKit database.\)
+   * The **Farm** filter is preselected to your local farm, but you can easily choose any farm in your SPDocKit database. (This filter will show if you have two or more farms in your SPDocKit database.)
    * Use the **Permission Date** filter to select on which date you want to explore permissions.
    * Use **Principal** filter to select either an AD or SharePoint Group you wish to explore.
    * **Layout Type** can either be Flat or Structured. Flat means that members of the selected groups will not keep their structure. On the other hand, if you select Structured, members of the selected groups will keep their tree-like structure.
@@ -51,7 +48,7 @@ Group To Group Compare subtype allows you to compare members of two different gr
 Membership Differences report allows you to check if group members of your SharePoint or Active Directory groups have changed. This can be useful when you want to view differences in group memberships at different points in time.
 
 1. Select the Membership Differences Compare subtype and click Next to proceed to the results screen.
-   * The **Farm** filter is preselected to your local farm, but you can easily choose any farm in your SPDocKit database. \(This filter will show if you have two or more farms in your SPDocKit database.\)
+   * The **Farm** filter is preselected to your local farm, but you can easily choose any farm in your SPDocKit database. (This filter will show if you have two or more farms in your SPDocKit database.)
    * Use the **Permission Date** filter to select on which date you want to explore permissions.
    * Use **Principal** filter to select either an AD or SharePoint Group you wish to explore.
    * **Layout Type** can either be Flat or Structured. Flat means that members of the selected group will not keep their structure. On the other hand, if you select Structured, members of the selected group will keep their tree-like structure.
@@ -62,7 +59,7 @@ The User to User Compare report enables you to compare permissions assigned to a
 
 1. Select the User to User Compare subtype and click Next to proceed to the result screen. 
    * The **Include Content** filter enables you to define the granularity of this report. You can track permissions down to the list item level.
-   * The **Farm** filter is preselected to your local farm, but you can easily choose any farm in your SPDocKit database. \(This filter will show if you have two or more farms in your SPDocKit database.\)
+   * The **Farm** filter is preselected to your local farm, but you can easily choose any farm in your SPDocKit database. (This filter will show if you have two or more farms in your SPDocKit database.)
    * The **Snapshots** filter enables you to select the Snapshots you want to compare. To compare the permissions of different users in the same snapshot, make sure to select equal Source and Target snapshots.
    * The **Principals** filter enables you to select Users, and to select AD Groups and SPGroups. Select the same user in Source and Target to compare the permissions of one user at different time points.
 

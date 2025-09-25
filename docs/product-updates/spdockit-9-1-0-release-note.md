@@ -1,8 +1,5 @@
 ---
 description: This article describes improvements and bug fixes delivered in SPDocKit 9.1.0.
----
-
----
 sidebar_position: 5
 ---
 

@@ -1,8 +1,5 @@
 ---
 description: This article describes how to create audit settings queries and rules in SPDocKit.
----
-
----
 sidebar_position: 5
 ---
 
