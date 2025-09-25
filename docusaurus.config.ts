@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'SPDockit Consultant',
+  title: 'SPDocKit',
   tagline: 'SharePoint management and administration tool',
   favicon: 'img/favicon.ico',
 
@@ -17,13 +17,13 @@ const config: Config = {
   // Set the production url of your site here
   url: 'https://docs3.syskit.com',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For deployment on /spdockit-consultant route
-  baseUrl: '/spdockit-consultant/',
+  // For deployment on /spdockit route
+  baseUrl: '/spdockit/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Syskit', // Usually your GitHub org/user name.
-  projectName: 'SPDockit-Consultant', // Usually your repo name.
+  projectName: 'spdockit', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -48,7 +48,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-            //'https://github.com/SysKitTeam/docs-spdockit-consultant',
+            //'https://github.com/SysKitTeam/docs-spdockit',
         },
         blog: false, // Disable the blog feature
         pages: false, // Disable the pages feature
@@ -92,9 +92,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/SPDockit-social-card.png',
     navbar: {
-      title: 'SPDockit Consultant',
+      title: 'SPDocKit',
       logo: {
-        alt: 'SPDockit Consultant Logo',
+        alt: 'SPDocKit Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo-dark.svg',
         href: '/', // Link to the docs homepage
@@ -150,7 +150,7 @@ const config: Config = {
             },
             {
               label: 'GitHub Repository',
-              href: 'https://github.com/SysKitTeam/docs-spconsultant.git',
+              href: 'https://github.com/SysKitTeam/docs-spdockit.git',
             },
           ],
         },
