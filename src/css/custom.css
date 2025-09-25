@@ -481,3 +481,70 @@ pre[class*="language-"] {
   max-width: 100%;
   height: auto;
 }
+
+/* Diff code block styling - Simple and reliable approach */
+/* Target the diff language code blocks */
+pre[class*="language-diff"] {
+  background: var(--ifm-color-emphasis-200) !important;
+}
+
+/* Style lines that start with + (additions) */
+pre[class*="language-diff"] .token.inserted,
+pre[class*="language-diff"] .token.prefix.inserted + .token,
+.language-diff .token.inserted {
+  background-color: rgba(22, 163, 74, 0.15);
+  color: #16a34a !important;
+  display: block;
+  width: 100%;
+  padding: 0.2em 0;
+}
+
+/* Style lines that start with - (deletions) */
+pre[class*="language-diff"] .token.deleted,
+pre[class*="language-diff"] .token.prefix.deleted + .token,
+.language-diff .token.deleted {
+  background-color: rgba(239, 68, 68, 0.15);
+  color: #ef4444 !important;
+  display: block;
+  width: 100%;
+  padding: 0.2em 0;
+}
+
+/* Style the + and - prefix symbols */
+pre[class*="language-diff"] .token.prefix.inserted,
+pre[class*="language-diff"] .token.prefix.deleted {
+  font-weight: bold;
+  user-select: none;
+  padding-right: 0.5em;
+}
+
+pre[class*="language-diff"] .token.prefix.inserted {
+  color: #16a34a !important;
+  background-color: rgba(22, 163, 74, 0.15);
+}
+
+pre[class*="language-diff"] .token.prefix.deleted {
+  color: #ef4444 !important;
+  background-color: rgba(239, 68, 68, 0.15);
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] .language-diff .token.inserted,
+[data-theme='dark'] .language-diff .token-line:has(.token.inserted),
+[data-theme='dark'] .language-diff .token-line[data-line*="+"] {
+  background-color: rgba(34, 197, 94, 0.2) !important;
+  color: #22c55e !important;
+}
+
+[data-theme='dark'] .language-diff .token.deleted,
+[data-theme='dark'] .language-diff .token-line:has(.token.deleted),
+[data-theme='dark'] .language-diff .token-line[data-line*="-"] {
+  background-color: rgba(248, 113, 113, 0.2) !important;
+  color: #f87171 !important;
+}
+
+/* Make sure the + and - symbols are visible */
+.language-diff .token.prefix {
+  font-weight: bold;
+  user-select: none;
+}
