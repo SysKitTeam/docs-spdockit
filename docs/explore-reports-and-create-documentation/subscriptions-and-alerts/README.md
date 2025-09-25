@@ -1,6 +1,7 @@
 ---
 description: This article explains how to use Subscriptions and Alerts to schedule sending SPDocKit reports.
 sidebar_position: 7
+title: Subscriptions and Alerts
 ---
 
 <DocCardList />

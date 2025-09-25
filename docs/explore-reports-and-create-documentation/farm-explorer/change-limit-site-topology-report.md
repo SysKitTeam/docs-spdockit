@@ -1,5 +1,6 @@
 ---
 description: This article describes how to change the limit on the Site Topology report in SPDocKit.
+sidebar_position: 7
 ---
 
 # Change the Limit on Site Topology Report

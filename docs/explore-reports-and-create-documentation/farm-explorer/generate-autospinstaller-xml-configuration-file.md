@@ -1,5 +1,6 @@
 ---
 description: This article describes how to generate an AutoSPInstaller XML configuration file.
+sidebar_position: 6
 ---
 
 # Generate an AutoSPInstaller XML Configuration File

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to define and document service account passwords, product key and passphrase of your SharePoint farm.
+sidebar_position: 5
 ---
 
 # Passwords and Product keys
