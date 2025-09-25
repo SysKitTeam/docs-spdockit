@@ -31,7 +31,7 @@ The process of adding a user account to the role must be repeated each time a ne
   description="PowerShell script to grant shell access to all content databases"
 />
 
-```bash
+```powershell
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null)
 {Add-PSSnapin Microsoft.SharePoint.PowerShell;}
 cls
