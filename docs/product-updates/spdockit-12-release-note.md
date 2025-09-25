@@ -17,7 +17,7 @@ sidebar_position: 1
 
 * **SharePoint Server Subscription Edition is now supported!** SPDocKit v12 brings full support for the new SharePoint version that includes all the regular SPDocKit features, so you can:
     * [Generate SharePoint farm documentation](../explore-reports-and-create-documentation/farm-explorer/farm-documentation.md)
-    * Validate farm configuration and optimize your farm with the latest [SharePoint best practices](../explore-reports-and-create-documentation/best-practices/best-practices-reports.md)
+    * Validate farm configuration and optimize your farm with the latest [SharePoint best practices](../explore-reports-and-create-documentation/best-practices/best-practices-reports.mdx)
     * Track who has performed which action with our [audit reports](../explore-reports-and-create-documentation/audit-reports/audit-dashboard.md)
     * Monitor [analytics and usage reports](../explore-reports-and-create-documentation/analytics-and-usage-reports/analytics-dashboard.md) for your site collections down to the file level
     * [Compare and track changes](../compare-sharepoint-configurations/compare-sharepoint-farms.md) in farm configuration over time

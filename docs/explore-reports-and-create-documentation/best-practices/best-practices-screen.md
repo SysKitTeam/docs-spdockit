@@ -10,12 +10,12 @@ The Best Practice section contains built-in reports that help SharePoint adminis
 The following options are available:
 
 * Using built-in best practice reports to verify SharePoint farm settings.
-* [Creating new best practice reports](best-practices-reports.md).
+* [Creating new best practice reports](best-practices-reports.mdx).
 * **Importing** and **Exporting** custom made reports.
 * **Editing** and **Deleting** custom made reports.
 * Organizing custom made reports by adding new folders.
 * Produce a **Best Practices Documentation** file containing all best practice reports and dashboard.
-* Personalize the Best Practices dashboard by hiding reports you do not wish to track or adjust some of the built-in values using the [Customize Best Practices](best-practices-reports.md) button.
+* Personalize the Best Practices dashboard by hiding reports you do not wish to track or adjust some of the built-in values using the [Customize Best Practices](best-practices-reports.mdx) button.
 * [Creating new alerts](../subscriptions-and-alerts/create-new-alert.md) for the configuration settings you wish to track. If you choose to create an alert for a specific best practice report, you will receive this report each time SPDocKit detects either an error or a warning.
 
 In version 7.2 we streamlined the selection of farms and snapshots by including those filters on the Farm Explorer and Best Practices tabs and persisting the selection across all tabs. This should remove the need to switch back and forth between the snapshots list and the other tabs in order to change the viewed snapshot data. We hope this results in a much more enjoyable experience for you.

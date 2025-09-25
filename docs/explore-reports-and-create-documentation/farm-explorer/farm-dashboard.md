@@ -39,6 +39,6 @@ A donut chart shows the number and status of **Service Applications**, **Health 
 The tile for **Compliant Best Practices** and **Failing Best Practices** shows you the number of Compliant and Failing Best Practices. Clicking on the tile redirects you to the **Best Practices Dashboard**, from which you can perform a drill to the specific detailed report.
 
 :::info
-To learn more about Best Practices, click [here](../best-practices/best-practices-reports.md).
+To learn more about Best Practices, click [here](../best-practices/best-practices-reports.mdx).
 :::
 
