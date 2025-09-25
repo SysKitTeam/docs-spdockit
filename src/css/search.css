@@ -1,0 +1,151 @@
+/**
+ * Search-related CSS styles for Docusaurus site
+ * Includes styling for search input, dropdown, results, and highlighting
+ */
+
+/* Search highlight styling */
+mark {
+  background-color: var(--ifm-color-primary-lightest) !important; /* Light purple background */
+  color: var(--ifm-color-primary-darkest) !important; /* Dark purple text */
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+/* Dark mode search highlight styling */
+[data-theme='dark'] mark {
+  background-color: var(--ifm-color-primary-darker) !important; /* Darker purple background for dark mode */
+  color: var(--ifm-color-primary-lightest) !important; /* Light purple text for dark mode */
+}
+
+/* Search icon styling for dark mode - CORRECT SOLUTION */
+[data-theme='dark'] .navbar__search-input {
+  --ifm-navbar-search-input-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23a0a0a0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3e%3ccircle cx='11' cy='11' r='8'/%3e%3cpath d='m21 21-4.35-4.35'/%3e%3c/svg%3e") !important;
+}
+
+/* Light mode - ensure we have a dark icon */
+[data-theme='light'] .navbar__search-input {
+  --ifm-navbar-search-input-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23525860' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3e%3ccircle cx='11' cy='11' r='8'/%3e%3cpath d='m21 21-4.35-4.35'/%3e%3c/svg%3e") !important;
+}
+
+/* Search input styling */
+.navbar__search-input {
+  background-color: transparent !important;
+  border-radius: 5px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+}
+
+/* Custom search clear button (X icon) */
+.navbar__search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23525860' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3e%3cline x1='18' y1='6' x2='6' y2='18'/%3e%3cline x1='6' y1='6' x2='18' y2='18'/%3e%3c/svg%3e");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+/* Dark theme search clear button */
+[data-theme='dark'] .navbar__search-input::-webkit-search-cancel-button {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23a0a0a0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3e%3cline x1='18' y1='6' x2='6' y2='18'/%3e%3cline x1='6' y1='6' x2='18' y2='18'/%3e%3c/svg%3e");
+}
+
+/* Dark theme search input border */
+[data-theme='dark'] .navbar__search-input {
+  border-color: var(--ifm-color-emphasis-200) !important;
+}
+
+/* Search results dropdown styling */
+.search-bar-dropdown,
+.ds-dropdown-menu {
+  background-color: var(--ifm-background-color) !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  border-radius: 5px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme='dark'] .search-bar-dropdown,
+[data-theme='dark'] .ds-dropdown-menu {
+  background-color: var(--ifm-card-background-color) !important;
+  border-color: var(--ifm-color-emphasis-200) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Search result items */
+.search-bar-dropdown .search-bar-suggestion,
+.ds-dropdown-menu .ds-suggestion {
+  color: var(--ifm-font-color-base) !important;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+
+.search-bar-dropdown .search-bar-suggestion:hover,
+.search-bar-dropdown .search-bar-suggestion.cursor,
+.ds-dropdown-menu .ds-suggestion:hover,
+.ds-dropdown-menu .ds-suggestion.ds-cursor,
+.ds-dropdown-menu .ds-suggestion[aria-selected="true"] {
+  background-color: var(--ifm-menu-color-background-hover) !important;
+  color: var(--ifm-font-color-base) !important;
+}
+
+/* Search result titles */
+.search-bar-dropdown .search-bar-suggestion .search-bar-suggestion-title {
+  color: var(--ifm-color-primary) !important;
+  font-weight: 600 !important;
+}
+
+/* Search result text content */
+.search-bar-dropdown .search-bar-suggestion .search-bar-suggestion-text {
+  color: var(--ifm-color-emphasis-700) !important;
+  font-size: 14px !important;
+}
+
+[data-theme='dark'] .search-bar-dropdown .search-bar-suggestion .search-bar-suggestion-text {
+  color: var(--ifm-color-emphasis-600) !important;
+}
+
+/* Search result URL/breadcrumb */
+.search-bar-dropdown .search-bar-suggestion .search-bar-suggestion-url {
+  color: var(--ifm-color-emphasis-600) !important;
+  font-size: 12px !important;
+}
+
+[data-theme='dark'] .search-bar-dropdown .search-bar-suggestion .search-bar-suggestion-url {
+  color: var(--ifm-color-emphasis-500) !important;
+}
+
+/* No results message */
+.search-bar-dropdown .search-bar-no-suggestion {
+  color: var(--ifm-color-emphasis-600) !important;
+}
+
+[data-theme='dark'] .search-bar-dropdown .search-bar-no-suggestion {
+  color: var(--ifm-color-emphasis-500) !important;
+}
+
+/* Algolia search specific styling */
+.algolia-docsearch-suggestion--subcategory-column {
+  border-right-color: var(--ifm-color-primary) !important;
+}
+
+.algolia-autocomplete
+  .algolia-docsearch-suggestion--text
+  .algolia-docsearch-suggestion--highlight {
+  padding: 0 0 1px;
+  background: inherit;
+  box-shadow: inset 0 -2px 0 0 var(--ifm-color-primary-lighter) !important;
+  color: inherit;
+}
+
+.algolia-autocomplete .ds-cursor .algolia-docsearch-suggestion--wrapper {
+  box-shadow: inset -2px 0 0 var(--ifm-color-primary-lighter) !important;
+}
+
+.algolia-autocomplete .algolia-docsearch-suggestion code {
+  font-family: Arial, sans-serif !important;
+}
+
+.searchbox__reset.hide {
+  display: block !important;
+}

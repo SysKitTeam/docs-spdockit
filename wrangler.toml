@@ -1,0 +1,32 @@
+# Cloudflare Workers configuration for Docusaurus site
+name = "docs-spdockit"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+account_id = "915a4b956031a18506a4f0060d49d749"
+
+# Assets configuration for serving static files
+[assets]
+directory = "./build"
+binding = "ASSETS"
+
+# Environment variables
+[vars]
+ENVIRONMENT = "production"
+
+# Production environment configuration
+[env.production]
+name = "docs-spdockit-production"
+vars = { ENVIRONMENT = "production" }
+# Production routes
+[[env.production.routes]]
+pattern = "docs3.syskit.com/spdockit*"
+zone_name = "syskit.com"
+
+# Staging environment configuration
+[env.staging]
+name = "docs-spdockit-staging"
+vars = { ENVIRONMENT = "staging" }
+# Staging routes
+[[env.staging.routes]]
+pattern = "docs-staging.syskit.com/spdockit*"
+zone_name = "syskit.com"
