@@ -1,5 +1,6 @@
 ---
 description: The Storage Metrics report is unavailable for subscriptions.
+sidebar_position: 10
 ---
 
 # Storage Metrics report subscription

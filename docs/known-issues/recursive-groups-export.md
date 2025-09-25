@@ -1,5 +1,6 @@
 ---
 description: Recursive groups cause issues in the exported document.
+sidebar_position: 13
 ---
 
 # Recursive groups issue with export

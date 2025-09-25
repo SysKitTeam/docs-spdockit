@@ -1,5 +1,6 @@
 ---
 description: URL column is not being exported properly.
+sidebar_position: 12
 ---
 
 # Custom Query issue with URL export

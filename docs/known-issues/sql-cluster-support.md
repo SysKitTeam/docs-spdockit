@@ -1,5 +1,6 @@
 ---
 description: Information about SQL clusters is missing in SPDocKit's documentation.
+sidebar_position: 9
 ---
 
 # SQL Clusters support
