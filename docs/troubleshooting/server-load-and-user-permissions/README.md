@@ -5,3 +5,6 @@ sidebar_position: 2
 
 # Server Load & User Permissions
 
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />

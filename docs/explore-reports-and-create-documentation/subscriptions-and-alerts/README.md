@@ -29,3 +29,6 @@ Alerts will be marked with the bell icon, while the scheduled subscriptions will
 * [Configure subscription settings](../../configure-and-extend-spdockit/options-wizard.md#subscription-settings)
 * [How to create a new subscription](create-new-subscription.md)
 
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
