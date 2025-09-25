@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # Distributed Cache loading issue
 
-## **Summary**
+## Summary
 
 SPDocKit does not load Distributed Cache settings data and displays a warning message during the load:
 
@@ -15,11 +15,11 @@ This happens because SPDocKit queries only the server it is installed on for Dis
 
 **Application version:** 4.1.0 and newer
 
-## **Solution**
+## Solution
 
 Install SPDocKit and run the load process from a server that is part of the Distributed Cache Cluster.
 
-## **Workaround**
+## Workaround
 
 Distributed Cache API requires that the registry of the current server contains data providers and connection string for the cluster, or SPDocKit has to be installed and run from a server that is part of the Distributed Cache Cluster.
 

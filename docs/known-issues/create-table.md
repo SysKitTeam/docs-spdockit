@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # CREATE TABLE permissions denied
 
-## **Summary**
+## Summary
 
 Errors appear in the ULS log that state that SPDocKit processes are trying to create tables in SharePoint databases.
 
@@ -25,7 +25,7 @@ After running these commands, two things can be noticed:
 1. The NeedsUpgrade property will return the wrong value: it will always be true. 
 2. CREATE TABLE errors will appear in the ULS log.
 
-## **Solution**
+## Solution
 
 Please ensure that the SPDocKit service account has the required permissions on the database in question. You need to manually add the **SELECT** permission to the Versions table on all of the affected SharePoint databases.
 

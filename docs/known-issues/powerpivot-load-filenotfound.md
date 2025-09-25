@@ -5,7 +5,7 @@ sidebar_position: 8
 
 # PowerPivot FileNotFoundException issue
 
-## **Summary**
+## Summary
 
 During the snapshot process, the following error can be observed either in the Snapshot Wizard or the event log:
 
@@ -13,7 +13,7 @@ During the snapshot process, the following error can be observed either in the S
 
 **Application version:** All versions
 
-## **Solution**
+## Solution
 
 Make sure that SPDocKit is installed on a server where “PowerPivot for SharePoint Add-in” is also installed. According to Microsoft recommendations, “PowerPivot for SharePoint Add-in” should be installed on each SharePoint server, so it should not matter where SPDocKit is installed.
 

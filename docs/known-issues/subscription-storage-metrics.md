@@ -5,7 +5,7 @@ sidebar_position: 10
 
 # Storage Metrics report subscription
 
-## **Summary**
+## Summary
 
 The main reason that this report cannot be used as a subscription is the sheer volume of data that would result if all nodes were to be expanded.
 
@@ -17,7 +17,7 @@ We believe that limiting the report when used as a subscription in such a way wo
 
 **Application version:** 5.0.1.
 
-## **Solution**
+## Solution
 
 Currently there is no workaround for this issue.
 

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Custom features missing in reports
 
-## **Summary**
+## Summary
 
 Custom features deployed on your farm are missing in SPDocKit feature reports. If verbose logging is enabled inside SPDocKit Options, you will see the following errors in the Windows event logs:
 
@@ -15,7 +15,7 @@ This happens when the custom feature is not deployed on the farm server where SP
 
 **Application version:** 4.1.0 and newer.
 
-## **Solution**
+## Solution
 
 Install SPDocKit on and run the load process from a server where the custom features are deployed.
 

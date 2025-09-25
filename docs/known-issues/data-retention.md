@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Data retention not working properly
 
-## **Summary**
+## Summary
 
 I receive the following error when running the data retention:
 
@@ -15,7 +15,7 @@ This error will appear if your database is version 6.0 or older and you update i
 
 **Application Version:** 6.1.0
 
-## **Solution**
+## Solution
 
 In order to resolve this problem, please execute the following query on your SPDocKit database. This query will update SPDocKit database settings which will allow data retention job to execute properly.
 
