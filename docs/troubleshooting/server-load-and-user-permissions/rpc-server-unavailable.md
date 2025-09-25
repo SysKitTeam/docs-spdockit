@@ -1,5 +1,6 @@
 ---
 description: This article describes how to troubleshoot the RPC related issues.
+sidebar_position: 1 
 ---
 
 # RPC Server is Unavailable

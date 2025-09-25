@@ -1,5 +1,6 @@
 ---
 description: This article explains how to handle issue caused by wrong database server.
+sidebar_position: 3
 ---
 
 # Is SQL Server configured to use a named instance

@@ -1,5 +1,6 @@
 ---
 description: This article describes the issue of SPDocKit not being able to load SharePoint farm permissions.
+sidebar_position: 8
 ---
 
 # My permissions loading status is reported as ”Failed”

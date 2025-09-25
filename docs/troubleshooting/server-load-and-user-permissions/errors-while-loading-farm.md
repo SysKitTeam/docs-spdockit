@@ -1,5 +1,6 @@
 ---
 description: Article describes known issues that might occur while loading SharePoint farm.
+sidebar_position: 5
 ---
 
 # Errors while trying to load the SharePoint farm

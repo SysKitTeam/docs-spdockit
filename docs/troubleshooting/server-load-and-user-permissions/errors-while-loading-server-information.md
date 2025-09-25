@@ -1,5 +1,6 @@
 ---
 description: This article explains how to handle the issues with server load.
+sidebar_position: 6
 ---
 
 # Errors while loading server information

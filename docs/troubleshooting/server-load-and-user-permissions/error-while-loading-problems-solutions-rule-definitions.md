@@ -1,5 +1,6 @@
 ---
 description: Article describes the issue of SPDocKit not being able to load Problems and Solutions and Rule Definitions.
+sidebar_position: 3
 ---
 
 # Error occurred while trying to load 'Problems and Solutions' and 'Rule Definitions'

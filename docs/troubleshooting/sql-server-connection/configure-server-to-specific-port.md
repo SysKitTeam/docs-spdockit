@@ -2,7 +2,6 @@
 description: This article explains how to configure SQL server to listen on a non-standard port number.
 sidebar_position: 2
 ---
----
 
 # Configure SQL server to listen on a specific port
 

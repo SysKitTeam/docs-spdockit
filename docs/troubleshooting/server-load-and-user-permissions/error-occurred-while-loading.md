@@ -1,5 +1,6 @@
 ---
 description: This article explains how to handle issue when Web Application load is not working properly.
+sidebar_position: 2
 ---
 
 # Error occurred while loading Web Application

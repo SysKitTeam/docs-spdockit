@@ -1,5 +1,6 @@
 ---
 description: This article explains how to handle issue when SharePoint farm load is not working properly because SQL server was not available.
+sidebar_position: 10
 ---
 
 # SQL Server is unavailable

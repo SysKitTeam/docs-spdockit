@@ -1,5 +1,6 @@
 ---
 description: This article explains how to handle the issue with IIS Settings load on SharePoint 2019.
+sidebar_position: 4
 ---
 
 # Error while loading IIS Settings Information

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to handle issue when SPDocKit fails at retrieving SQL account from server.
+sidebar_position: 7
 ---
 
 # Failed at retrieving SQL Accounts from the following servers

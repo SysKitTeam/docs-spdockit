@@ -1,5 +1,6 @@
 ---
 description: Article describes how to grant rights to service user that are necessary to connect to the SQL server.
+sidebar_position: 5
 ---
 
 # Service user does not have rights to connect to the SQL server

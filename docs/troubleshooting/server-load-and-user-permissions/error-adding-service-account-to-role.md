@@ -1,5 +1,6 @@
 ---
 description: This article explains how to manually add the "spdockit_service_role" database role to the SPDocKit service account.
+sidebar_position: 11
 ---
 
 # Error adding service account to "spdockit\_service\_role" database role

@@ -1,5 +1,6 @@
 ---
 description: This article explains how to handle issue when Configuration Wizard is not able to connect to a provided server and database.
+sidebar_position: 1
 ---
 
 # SPDocKit won’t connect to a provided server and database

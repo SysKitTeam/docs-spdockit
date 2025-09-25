@@ -1,5 +1,6 @@
 ---
 description: This article explains how to enable TCP/IP network traffic on SQL server.
+sidebar_position: 6
 ---
 
 # TCP/IP network traffic not enabled on the SQL Server

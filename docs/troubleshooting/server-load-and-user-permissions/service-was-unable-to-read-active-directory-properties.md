@@ -1,5 +1,6 @@
 ---
 description: This article describes the issue of service not being able to read Active Directory properties for group SID(s).
+sidebar_position: 9
 ---
 
 # Service was unable to read Active Directory properties
