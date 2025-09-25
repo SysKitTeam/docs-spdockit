@@ -1,8 +1,0 @@
----
-layout: listing.pug
----
-
-# index
-
-
-
