@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # Best Practices
@@ -7,8 +7,4 @@ sidebar_position: 4
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-debar_position: 6
----
-
-# Best Practices
 

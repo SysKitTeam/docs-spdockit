@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 12
 ---
 
 # Query and Change SharePoint Settings
@@ -7,8 +7,4 @@ sidebar_position: 11
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-debar_position: 12
----
-
-# Query and Change SharePoint Settings
 

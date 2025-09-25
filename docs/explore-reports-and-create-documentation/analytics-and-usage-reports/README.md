@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Analytics and Usage Reports
@@ -7,8 +7,4 @@ sidebar_position: 2
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-debar_position: 4
----
-
-# Analytics and Usage Reports
 

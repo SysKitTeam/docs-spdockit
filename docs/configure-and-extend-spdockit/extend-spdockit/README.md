@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 # Extend SPDocKit
@@ -7,8 +7,4 @@ sidebar_position: 6
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-debar_position: 5
----
-
-# Extend SPDocKit
 

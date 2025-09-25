@@ -3,6 +3,8 @@ description: This article explains how to use Subscriptions and Alerts to schedu
 sidebar_position: 7
 ---
 
+<DocCardList />
+
 # Subscriptions and Alerts
 
 This article explains how to use Subscriptions and Alerts to schedule sending SPDocKit reports to either the desired email addresses, or for upload to a file share location or a SharePoint document library. In order to use this feature, you have to configure an SPDocKit database and the subscription settings, as well as select the delivery methods you prefer.
@@ -31,4 +33,4 @@ Alerts will be marked with the bell icon, while the scheduled subscriptions will
 
 import DocCardList from '@theme/DocCardList';
 
-<DocCardList />
+

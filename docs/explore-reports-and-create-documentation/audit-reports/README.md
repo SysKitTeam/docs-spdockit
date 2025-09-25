@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Audit Reports
@@ -7,8 +7,3 @@ sidebar_position: 3
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-debar_position: 5
----
-
-# Audit Reports
-

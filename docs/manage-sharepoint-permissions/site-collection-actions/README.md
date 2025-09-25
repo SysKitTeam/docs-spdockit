@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 # Site Collection Actions
@@ -7,8 +7,4 @@ sidebar_position: 2
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-debar_position: 5
----
-
-# Site Collection Actions
 

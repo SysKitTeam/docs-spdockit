@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 3
 ---
 
 # Permission Reports
@@ -7,8 +7,4 @@ sidebar_position: 8
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-debar_position: 3
----
-
-# Permission Reports
 

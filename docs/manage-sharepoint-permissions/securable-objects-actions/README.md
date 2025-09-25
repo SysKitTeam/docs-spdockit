@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Securable Objects Actions
@@ -7,8 +7,4 @@ sidebar_position: 3
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-debar_position: 4
----
-
-# Securable Objects Actions
 

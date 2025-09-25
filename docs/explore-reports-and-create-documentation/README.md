@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 8
 ---
 
 # Explore Reports and Create Documentation
@@ -7,8 +7,4 @@ sidebar_position: 9
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-debar_position: 8
----
-
-# Explore Reports and Create Documentation
 
