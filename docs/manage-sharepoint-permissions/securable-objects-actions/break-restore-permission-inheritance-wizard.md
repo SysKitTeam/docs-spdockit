@@ -1,5 +1,6 @@
 ---
 description: This article explains how to break and restore permission inheritance.
+sidebar_position: 1
 ---
 
 # Break/Restore Permission Inheritance Wizard

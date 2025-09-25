@@ -1,5 +1,6 @@
 ---
 description: This article explains how to use SPDocKit's Restore Permissions Wizard to restore permissions on a securable object to an earlier state.
+sidebar_position: 2
 ---
 
 # Restore Permissions

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to use the Copy Object Permissions Wizard in order to match principal and group permissions on two different SharePoint objects.
+sidebar_position: 3
 ---
 
 # Copy Object Permissions Wizard
