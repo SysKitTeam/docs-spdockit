@@ -18,7 +18,7 @@ This section explains how to configure SPDocKit database and service before the 
    * If your SQL Server is on a non-standard port (different from 1433), type "severname,port" or "servername\instance,port". (FQDN formats are also supported)
 
      After providing the information, click the **Test Connection** button to ensure that the settings are correct.
-3. On the **Service Configuration** wizard page check **Enable Service** and type the service account details. The service account needs to have the [following privileges](../requirements/user-permissions-requirements.md) to be able to run the service, create snapshots and other associated jobs.
+3. On the **Service Configuration** wizard page check **Enable Service** and type the service account details. The service account needs to have the [following privileges](../requirements/user-permissions-requirements.mdx) to be able to run the service, create snapshots and other associated jobs.
 
    If you do not want to use the SPDocKit Service you can leave the **Enable Service** unchecked, but the following features will not be available:
 
@@ -39,7 +39,7 @@ To configure your SPDocKit settings more thoroughly, navigate to the **File** ta
 
 This article explains how to configure SPDocKit on a workstation. A SPDocKit workstation instance allows you to manage SharePoint On-Premise, view SPDocKit reports, compare farm settings and track changes without having to connect to a SharePoint server.
 
-**Requirements**: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [Workstation license](https://www.syskit.com/products/spdockit/pricing/) and the user running the application on a workstation needs to have adequate [permissions](../requirements/user-permissions-requirements.md).
+**Requirements**: To view SPDocKit reports directly from your PC workstation, you must have the SPDocKit [Workstation license](https://www.syskit.com/products/spdockit/pricing/) and the user running the application on a workstation needs to have adequate [permissions](../requirements/user-permissions-requirements.mdx).
 
 :::warning
 **Please note!**  

@@ -25,5 +25,5 @@ There are also errors in the event log such as this one:
 
 The user running the SPDocKit needs to have the proper privileges to retrieve information from the SharePoint farm.
 
-Follow [these instructions](../../requirements/user-permissions-requirements.md) to configure your SharePoint farm.
+Follow [these instructions](../../requirements/user-permissions-requirements.mdx) to configure your SharePoint farm.
 

@@ -3,6 +3,8 @@ description: This article lists all user privileges needed to retrieve SharePoin
 sidebar_position: 1
 ---
 
+import DownloadButton from '@site/src/components/DownloadButton';
+
 # SharePoint On-Premises User Permissions Requirements
 
 ## Required Permissions
@@ -48,9 +50,15 @@ Repeat the same steps for **WSS\_ADMIN\_WPG** group.
 * If you want to grant PowerShell shell access to a single database [check this article](http://technet.microsoft.com/en-us/library/ff607596.aspx) for more details.
 * If you want to grant PowerShell shell access to all content databases, download and run the following script:
 
-[Download Configure-SPShellAdmin.zip](../../static/download/configure-spshelladmin.zip)
+<DownloadButton 
+  href="/spdockit/download/configure-spshelladmin.zip"
+  filename="Configure-SPShellAdmin.zip"
+  fileSize="1.2 KB"
+  fileType="ZIP"
+  description="PowerShell script to configure SPShellAdmin access on all SharePoint databases"
+/>
 
-```bash
+```powershell
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"})-eq $null) 
 {Add-PSSnapin Microsoft.SharePoint.PowerShell;}  
 cls  

@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## Preparation
 
-1. The account running the application should have **db\_owner** privileges on the SPDocKit database in order to perform the upgrade process successfully. If you are also changing the SPDocKit Service account to a different one, the account running the upgrade should also have the **securityadmin** role on the SQL Server that is storing the database.. This role will allow him to [grant proper privileges to the new Service account](../requirements/user-permissions-requirements.md).
+1. The account running the application should have **db\_owner** privileges on the SPDocKit database in order to perform the upgrade process successfully. If you are also changing the SPDocKit Service account to a different one, the account running the upgrade should also have the **securityadmin** role on the SQL Server that is storing the database.. This role will allow him to [grant proper privileges to the new Service account](../requirements/user-permissions-requirements.mdx).
 2. Perform a **database backup** before proceeding with the upgrade process, especially when upgrading to a new major versions of SPDocKit.
 3. Due to a number of database modifications, the upgrade to SPDocKit 8.0 may take a while. 
 4. **Email alerts will not be preserved** when upgrading from version 6.2.0. and lower. You will have to create new alerts. For more information on this, please follow [these](../configure-and-extend-spdockit/options-wizard.md) instructions.

@@ -19,7 +19,7 @@ There is an error message in the event log:
 
 ## Solution
 
-The user running the SPDocKit needs to have the [proper privileges](../../requirements/user-permissions-requirements.md) to retrieve information from the SharePoint farm. To fix this issue make sure the user has Shell access to the given content database, using the following PowerShell code to grant access:
+The user running the SPDocKit needs to have the [proper privileges](../../requirements/user-permissions-requirements.mdx) to retrieve information from the SharePoint farm. To fix this issue make sure the user has Shell access to the given content database, using the following PowerShell code to grant access:
 
 ```bash
 $spcdb = Get-SPContentDatabase SharePoint_AdminContent_bfe62573-2067-4090-a95a-39a13ba51086

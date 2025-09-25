@@ -111,7 +111,7 @@ If you wish to use the **Subscriptions and Alerts** feature, check the **Subscri
 
 To enable **email** as the preferred delivery method, configure outgoing email server settings. After the outgoing email server settings are provided, you can test if these are valid by clicking the **Test Email Settings** button. There is also an option to customize the email footer and email body text.
 
-[Read more about scheduling subscriptions and alerts.](../explore-reports-and-create-documentation/subscriptions-and-alerts/subscriptions-and-alerts.md)
+[Read more about scheduling subscriptions and alerts.](../explore-reports-and-create-documentation/subscriptions-and-alerts/README.md)
 
 ## Compare
 

@@ -11,7 +11,7 @@ SPDocKit allows administrators to configure a schedule to create automatic Share
 2. Skip to the Service Settings option, select the Enable Service check box and type in the service account details. Click Validate Account and then Next to continue. 
 
 :::warning
-**Please note!** Check the [permission requirements](../requirements/user-permissions-requirements.md) for the service account.
+**Please note!** Check the [permission requirements](../requirements/user-permissions-requirements.mdx) for the service account.
 :::
 
 1. **\*\*Once the Configuration wizard is finished, navigate to the** Backstage Configuration Screen &gt; Options &gt; Service Settings\*\*. You can change the snapshots folder location or choose to save them to the database. [Define the period](../configure-and-extend-spdockit/options-wizard.md) for creating snapshots with the Data Collection Interval.
