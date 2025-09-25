@@ -1,5 +1,6 @@
 ---
 description: This article describes how to use Clean Site Collection Wizard to manage users and groups that are unnecessarily present on your SharePoint farm or lost their permissions for any reason.
+sidebar_position: 3
 ---
 
 # Clean Site Collections Wizard

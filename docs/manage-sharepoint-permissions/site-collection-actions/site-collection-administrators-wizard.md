@@ -1,5 +1,6 @@
 ---
 description: This article describes how to use Site Collection Administrators wizard to manage site collection admins on multiple sites within a single web application.
+sidebar_position: 1
 ---
 
 # Site Collection Administrators Wizard
