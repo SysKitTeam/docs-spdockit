@@ -1,17 +1,9 @@
 ---
 sidebar_position: 1
+description: This section describes how SharePoint administrators can customize View for SharePoint Farm Reports.
 ---
 
 # Customize View
-
-:::warning
-**Please note!**  
-For each report only the **available** columns will appear in the Choose Columns window.
-:::
-
-:::warning
-**Please note** that for each report only the **available** columns will appear in the Choose Columns window. SharePoint administrators can customize View for SharePoint Farm Reports.
-:::
 
 It is possible to adjust Filters, Column order (as well as adding or removing certain columns) and also change the “Sort by” and “Group By” settings.
 
