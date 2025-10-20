@@ -19,7 +19,7 @@ name = "docs-spdockit-production"
 vars = { ENVIRONMENT = "production" }
 # Production routes
 [[env.production.routes]]
-pattern = "docs3.syskit.com/spdockit*"
+pattern = "docs.syskit.com/spdockit*"
 zone_name = "syskit.com"
 
 # Staging environment configuration
