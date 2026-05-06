@@ -1,5 +1,5 @@
 ---
-description: This article describes security improvements and bug fixes delivered in SPDocKit 12.1.0.
+description: This article describes the security improvements and bug fixes in SPDocKit 12.1.0.
 sidebar_position: 1
 ---
 
@@ -16,18 +16,22 @@ sidebar_position: 1
 ## Improvements & Bug Fixes
 
 * **Security improvements for credential storage.** SPDocKit now uses stronger, more secure methods to protect sensitive data:
-  * SMTP server credentials stored in the database are now encrypted using a dedicated encryption key.
-  * SQL account credentials stored on disk are now protected using the operating system's Data Protection API.
-  * Passwords saved in farm files must always be encrypted — the option to store them without encryption has been removed.
+  * SPDocKit now encrypts SMTP server credentials in the database using a dedicated encryption key.
+  * SPDocKit now protects SQL account credentials on disk using the Windows Data Protection API (DPAPI).
+  * Farm file passwords are now always encrypted — the option to save them in plain text has been removed.
 
-* **Improved security for internal XML processing.** SPDocKit's XML parsers have been hardened to disallow DTD declarations, protecting against XML External Entity (XXE) vulnerabilities.
+  This reduces the risk of credential exposure if the database or disk is compromised. No action is required for existing installations.
 
-* **SharePoint 2010 is no longer supported.** SPDocKit 12.1.0 requires SharePoint 2013 or a later version. All SharePoint 2010 libraries have been removed from the application.
+* **Improved security for internal XML processing.** SPDocKit now blocks DTD declarations in all XML parsing, preventing XML External Entity (XXE) injection attacks. XXE is a class of vulnerability where a malicious XML file could access local files or internal network resources.
 
-* **Auto SP Installer wizard updated.** Passphrase and password input fields have been removed from the wizard steps. A new summary panel on the final wizard step lists any credentials that need to be entered manually after the wizard completes.
+* **SharePoint 2010 is no longer supported.** SPDocKit 12.1.0 requires SharePoint 2013 or later and no longer includes SharePoint 2010 libraries.
 
-* **Fixed an issue** where generating Word (Docx) farm documentation would fail with an error when the **Used Content Types** node was included. The documentation is now generated successfully regardless of which nodes are selected.
+  **If you are running SharePoint 2010, do not upgrade to this version.** You must upgrade your SharePoint environment to 2013 or later before using SPDocKit 12.1.0.
 
-* **Fixed an issue** with the **Web Application Compare** wizard where user access policy entries were not correctly mapped during comparison. The comparison results are now accurate.
+* **Auto SP Installer wizard updated.** The wizard no longer includes passphrase and password input fields. A new summary panel on the final step lists credentials you must enter manually after the wizard finishes.
+
+* **Fixed an issue** where Farm documentation export to Word (Docx) failed when the **Used Content Types** node was selected.
+
+* **Fixed an issue** in the **Web Application Compare** wizard where user access policy entries were mapped incorrectly, causing inaccurate comparison results.
 
 * **Various improvements and bug fixes.**
