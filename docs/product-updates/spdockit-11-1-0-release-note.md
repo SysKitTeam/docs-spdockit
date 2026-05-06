@@ -1,6 +1,6 @@
 ---
 description: This article describes improvements and bug fixes delivered in SPDocKit version 11.1.0.
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # SPDocKit 11.1.0
