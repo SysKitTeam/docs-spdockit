@@ -8,7 +8,7 @@ sidebar_position: 1
 **SPDocKit 12.1.0** is a minor release focused on security improvements and bug fixes.
 
 **Product version:** 12.1.0  
-**Build number:** 13281  
+**Build number:** 13282  
 **Release date:** May 6, 2026
 
 [Click here to download the new release.](https://www.syskit.com/products/spdockit/download/)
