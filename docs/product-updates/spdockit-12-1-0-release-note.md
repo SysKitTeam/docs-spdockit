@@ -25,12 +25,11 @@ sidebar_position: 1
 * **Improved security for internal XML processing.** SPDocKit now blocks DTD declarations in all XML parsing, preventing XML External Entity (XXE) injection attacks. XXE is a class of vulnerability where a malicious XML file could access local files or internal network resources.
 
 * **SharePoint 2010 is no longer supported.** SPDocKit 12.1.0 requires SharePoint 2013 or later and no longer includes SharePoint 2010 libraries.
-
-  **If you are running SharePoint 2010, do not upgrade to this version.** You must upgrade your SharePoint environment to 2013 or later before using SPDocKit 12.1.0.
+  * **If you are running SharePoint 2010, do not upgrade to this version.** You must upgrade your SharePoint environment to 2013 or later before using SPDocKit 12.1.0.
 
 * **Auto SP Installer wizard updated.** The wizard no longer includes passphrase and password input fields. A new summary panel on the final step lists credentials you must enter manually after the wizard finishes.
 
-* **Fixed an issue** where Farm documentation export to Word (Docx) failed when the **Used Content Types** node was selected.
+* **Fixed an issue** where the Farm documentation export to Word (Docx) failed when the **Used Content Types** node was selected.
 
 * **Fixed an issue** in the **Web Application Compare** wizard where user access policy entries were mapped incorrectly, causing inaccurate comparison results.
 
