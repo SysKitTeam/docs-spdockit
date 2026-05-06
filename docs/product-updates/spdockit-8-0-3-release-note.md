@@ -1,6 +1,6 @@
 ---
 description: This article describes improvements and bug fixes delivered in SPDocKit 8.0.3
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # SPDocKit 8.0.3
